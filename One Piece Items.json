@@ -30,7 +30,7 @@
 			
             "charges": 5,
             "recharge": "dawn",
-			"rechargeAmount": "{@dice 1d4 + 1}"
+			"rechargeAmount": "{@dice 1d4 + 1}",
 			"entries": [
                 "By storing air, gases, or wind currents, breath dials have the ability to emit anything it absorbs as a gust of energy. Simple breath dials have 5 charges. By expending a charge from this dial as a bonus action, you can absorb up to a 5-foot cube of any gas or wind. By pressing the button on the dial as an action, you can expel up to a 5-foot cube of any stored gas in a space within 5 feet of you. Any creature in the space being filled with gas must succeed on a DC 10 Strength (Athletics) check or be pushed out of the space away from the dial. Objects less than 10 pounds are also pushed out of the space automatically. Simple breath dials can store up to 25 cubic feet of gas, and regain up to {@dice 1d4 + 1} expended charges daily at dawn."
 			]
