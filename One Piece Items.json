@@ -304,7 +304,7 @@
    "table":[
       {
          "name":"Simple Dial",
-         "source":"OPSDT",
+         "source":"OPI",
          "page":149,
          "colLabels":[
             "d20",
