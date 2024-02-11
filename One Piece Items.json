@@ -340,43 +340,43 @@
         "rows": [
             [
                 "1-4",
-                "{@item Breath_Dial|OPI}"
+                "{@item Breath Dial|OPI}"
             ],
             [
                 "5-7",
-                "{@item Flavor_Dial|OPI}"
+                "{@item Flavor Dial|OPI}"
             ],
             [
                 "8",
-                "{@item Freeze_Dial|OPI}"
+                "{@item Freeze Dial|OPI}"
             ],
             [
                 "9",
-                "{@item Heat_Dial|OPI}"
+                "{@item Heat Dial|OPI}"
             ],
             [
                 "10-12",
-                "{@item Lamp_Dial|OPI}"
+                "{@item Lamp Dial|OPI}"
             ],
             [
                 "13-15",
-                "{@item Milky_Dial|OPI}"
+                "{@item Milky Dial|OPI}"
             ],
             [
                 "16",
-                "{@item Thunder_Dial|OPI}"
+                "{@item Thunder Dial|OPI}"
             ],
             [
                 "17-18",
-                "{@item Tone_Dial|OPI}"
+                "{@item Tone Dial|OPI}"
             ],
             [
                 "19",
-                "{@item Vision_Dial|OPI}"
+                "{@item Vision Dial|OPI}"
             ],
             [
                 "20",
-                "{@item Water_Dial|OPI}"
+                "{@item Water Dial|OPI}"
             ]
         ]
 }
