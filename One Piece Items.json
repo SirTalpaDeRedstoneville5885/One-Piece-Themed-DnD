@@ -168,6 +168,6 @@
 			"entries": [
                 "By absorbing light from any source, a lamp dial can emit bright light for an extended period of time. Large lamp dials have 10 charges. By expending a charge from this dial as a bonus action, you may absorb up to an hour worth of light or sunlight, for each charge spent, into this dial by holding it or placing it within range of the source without interruption. To use this dial, as an action, you can press the button on the dial to continuously shed bright light in a 20-foot radius and dim light for an additional 20 feet from the dial for a duration equal to the amount of stored light in hours. Simple lamp dials can store up to 10 hours worth of consistent light, and regain up to {@dice 1d6+4} expended charges daily at dawn."
 			]
-		},
+		}
     ]
 }
