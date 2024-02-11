@@ -1,0 +1,355 @@
+{
+   "_meta":{
+      "sources":[
+         {
+            "json":"OnePieceItems",
+            "url":"https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm",
+            "abbreviation":"OPI",
+            "full":"One Piece Items",
+            "color":"33FFCA",
+            "authors":[
+               "OneWorldHD"
+            ],
+            "convertedBy":[
+               "Tarun"
+            ],
+            "version":"1.0.0"
+         }
+      ],
+      "dateAdded":1707661525,
+      "dateLastModified":1707661525
+   },
+   "item":[
+      {
+         "name":"Breath Dial",
+         "source":"OnePieceItems",
+         "type":"T",
+         "rarity":"Simple Dial",
+         "page":150,
+         "weight":0.5,
+         "charges":5,
+         "recharge":"dawn",
+         "rechargeAmount":"{@dice 1d4 + 1}",
+         "entries":[
+            "By storing air, gases, or wind currents, breath dials have the ability to emit anything it absorbs as a gust of energy. Simple breath dials have 5 charges. By expending a charge from this dial as a bonus action, you can absorb up to a 5-foot cube of any gas or wind. By pressing the button on the dial as an action, you can expel up to a 5-foot cube of any stored gas in a space within 5 feet of you. Any creature in the space being filled with gas must succeed on a DC 10 Strength (Athletics) check or be pushed out of the space away from the dial. Objects less than 10 pounds are also pushed out of the space automatically. Simple breath dials can store up to 25 cubic feet of gas, and regain up to {@dice 1d4 + 1} expended charges daily at dawn."
+         ]
+      },
+      {
+         "name":"Large Breath Dial",
+         "source":"OnePieceItems",
+         "type":"T",
+         "rarity":"Simple Dial",
+         "page":150,
+         "weight":1,
+         "rechargeAmount":"{@dice 1d6+4}",
+         "charges":10,
+         "recharge":"dawn",
+         "entries":[
+            "By storing air, gases, or wind currents, breath dials have the ability to emit anything it absorbs as a gust of energy. Large Breath Dials (rare) have 10 charges. By expending a charge from this dial as a bonus action you can store up to 50 cubic feet of gas.  By pressing the button on the dial as an action, you can expel up to a 50-foot cube of any stored gas in a space within 10 feet of you. Any creature in the space being filled with gas must succeed on a DC 13 Strength (Athletics) check or be pushed out of the space away from the dial. Objects less than 15 pounds are also pushed out of the space automatically. Large breath dials can store up to 2500 cubic feet of gas, and regain up to {@dice 1d6 + 4} expended charges daily at dawn. You can also use a large breath dial to power a standard waver, reducing the cost of building a waver by 80%."
+         ]
+      },
+      {
+         "name":"Flavor Dial",
+         "source":"OnePieceItems",
+         "type":"T",
+         "rarity":"Simple Dial",
+         "page":150,
+         "weight":0.5,
+         "charges":5,
+         "recharge":"dawn",
+         "rechargeAmount":"{@dice 1d4 + 1}",
+         "entries":[
+            "Similar to breath dials, flavor dials specialize in storing gases and scents. This includes explosive gas or foul odors. However, flavor dials aren't capable of emitting strong gusts that can push things away. Simple flavor dials have 5 charges. By expending a charge from this dial as a bonus action, you can absorb up to a 5-foot cube of any gas or scent. By pressing the button on the dial as an action, you can expel up to a 5-foot cube of any stored gas in a space within 5 feet of you. Simple flavor dials can store up to 25 cubic feet of gas, and regain up to {@dice 1d4+1} expended charges daily at dawn."
+         ]
+      },
+      {
+         "name":"Large Flavor Dial",
+         "source":"OnePieceItems",
+         "type":"T",
+         "rarity":"Rare Dial",
+         "page":150,
+         "weight":1,
+         "charges":10,
+         "recharge":"dawn",
+         "rechargeAmount":"{@dice 1d6 + 4}",
+         "entries":[
+            "Similar to breath dials, flavor dials specialize in storing gases and scents. This includes explosive gas or foul odors. However, flavor dials aren't capable of emitting strong gusts that can push things away. Large flavor dials have 10 charges. By expending a charge from this dial as a bonus action, you can absorb up to a 50-foot cube of any gas or scent. By pressing the button on the dial as an action, you can expel up to a 50-foot cube of any stored gas in a space within 10 feet of you. Large flavor dials can store up to 2500 cubic feet of gas, and regain up to {@dice 1d6+4} expended charges daily at dawn."
+         ]
+      },
+      {
+         "name":"Freeze Dial",
+         "source":"OnePieceItems",
+         "type":"T",
+         "rarity":"Simple Dial",
+         "page":150,
+         "weight":0.5,
+         "charges":5,
+         "recharge":"dawn",
+         "rechargeAmount":"{@dice 1d4 + 1}",
+         "entries":[
+            "By absorbing freezing substances or gases, freeze dials can be used to chill and cool off anything by expelling cold elemental energy. Simple freeze dials have 5 charges. By expending a charge from this dial as a bonus action, you may sap cold energy from any 5-foot cube of material or gas that is 0° C or less in temperature, such as ice, snow, or frigid air by placing it within 5 feet of the source. To use this dial, as an action, you can place or hold the dial in a 5-foot square, then press the button on it to keep that space at freezing or cool temperatures for up to 24 hours for every 5-foot cube of stored cold energy released. This can be used for freezers or refrigerators. Alternatively, you can release all the cold energy stored in a freeze dial to make an attack. As an action, you can make a melee attack against a creature and release the cold energy within the dial to deal 1 cold damage for every 5-foot cube of cold energy expelled. Simple freeze dials can store up to 25 cubic feet of cold energy, and regain up to {@dice 1d4+1} expended charges daily at dawn."
+         ]
+      },
+      {
+         "name":"Large Freeze Dial",
+         "source":"OnePieceItems",
+         "type":"T",
+         "rarity":"Rare Dial",
+         "page":150,
+         "weight":1,
+         "charges":10,
+         "recharge":"dawn",
+         "rechargeAmount":"{@dice 1d6 + 4}",
+         "entries":[
+            "By absorbing freezing substances or gases, freeze dials can be used to chill and cool off anything by expelling cold elemental energy. Large freeze dials have 10 charges. By expending a charge from this dial as a bonus action, you may sap cold energy from any 50-foot cube of material or gas that is 0° C or less in temperature, such as ice, snow, or frigid air by placing it within 10 feet of the source. To use this dial, as an action, you can place or hold the dial in a 50-foot square, then press the button on it to keep that space at freezing or cool temperatures for up to 24 hours for every 5-foot cube of stored cold energy released. This can be used for freezers or refrigerators. Alternatively, you can release all the cold energy stored in a freeze dial to make an attack. As an action, you can make a melee attack against a creature and release the cold energy within the dial to deal 1 cold damage for every 5-foot cube of cold energy expelled. Large freeze dials can store up to 2500 cubic feet of cold energy, and regain up to {@dice 1d6+4} expended charges daily at dawn."
+         ]
+      },
+      {
+         "name":"Heat Dial",
+         "source":"OnePieceItems",
+         "type":"T",
+         "rarity":"Simple Dial",
+         "page":150,
+         "weight":0.5,
+         "charges":5,
+         "recharge":"dawn",
+         "rechargeAmount":"{@dice 1d4 + 1}",
+         "entries":[
+            "By absorbing hot substances or gases, heat dials can be used to heat up anything by expelling hot elemental energy. Simple heat dials have 5 charges. By expending a charge from this dial as a bonus action, you may sap heat energy from any 5-foot cube of material or gas that is 100° C or more in temperature, such as fire, magma, or burning gas by placing it within 5 feet of the source. To use this dial, as an action, you can place or hold the dial in a 5-foot square, then press the button on it to keep that space at burning or boiling temperatures for up to 24 hours for every 5-foot cube of stored cold energy released. This can be used for ovens or heaters. Alternatively, you can release all the heat energy stored in a heat dial to make an attack. As an action, you can make a melee attack against a creature and release the heat energy within the dial to deal 1 fire damage for every 5-foot cube of heat energy expelled. Simple heat dials can store up to 25 cubic feet of heat energy, and regain up to {@dice 1d4+1} expended charges daily at dawn."
+         ]
+      },
+      {
+         "name":"Large Heat Dial",
+         "source":"OnePieceItems",
+         "type":"T",
+         "rarity":"Rare Dial",
+         "page":150,
+         "weight":0.5,
+         "charges":10,
+         "recharge":"dawn",
+         "rechargeAmount":"{@dice 1d6 + 4}",
+         "entries":[
+            "By absorbing hot substances or gases, heat dials can be used to heat up anything by expelling hot elemental energy. Large heat dials have 10 charges. By expending a charge from this dial as a bonus action, you may sap heat energy from any 50-foot cube of material or gas that is 100° C or more in temperature, such as fire, magma, or burning gas by placing it within 10 feet of the source. To use this dial, as an action, you can place or hold the dial in a 50-foot square, then press the button on it to keep that space at burning or boiling temperatures for up to 24 hours for every 5-foot cube of stored cold energy released. This can be used for ovens or heaters. Alternatively, you can release all the heat energy stored in a heat dial to make an attack. As an action, you can make a melee attack against a creature and release the heat energy within the dial to deal 1 fire damage for every 5-foot cube of heat energy expelled. Large heat dials can store up to 2500 cubic feet of heat energy, and regain up to {@dice 1d6+4} expended charges daily at dawn."
+         ]
+      },
+      {
+         "name":"Lamp Dial",
+         "source":"OnePieceItems",
+         "type":"T",
+         "rarity":"Simple Dial",
+         "page":150,
+         "weight":0.5,
+         "charges":5,
+         "recharge":"dawn",
+         "rechargeAmount":"{@dice 1d4 + 1}",
+         "entries":[
+            "By absorbing light from any source, a lamp dial can emit bright light for an extended period of time. Simple lamp dials have 5 charges. By expending a charge from this dial as a bonus action, you may absorb up to an hour worth of light or sunlight, for each charge spent, into this dial by holding it or placing it within range of the source without interruption. To use this dial, as an action, you can press the button on the dial to continuously shed bright light in a 20-foot radius and dim light for an additional 20 feet from the dial for a duration equal to the amount of stored light in hours. Simple lamp dials can store up to 5 hours worth of consistent light, and regain up to {@dice 1d4+1} expended charges daily at dawn."
+         ]
+      },
+      {
+         "name":"Large Lamp Dial",
+         "source":"OnePieceItems",
+         "type":"T",
+         "rarity":"Rare Dial",
+         "page":150,
+         "weight":0.5,
+         "charges":5,
+         "recharge":"dawn",
+         "rechargeAmount":"{@dice 1d6 + 4}",
+         "entries":[
+            "By absorbing light from any source, a lamp dial can emit bright light for an extended period of time. Large lamp dials have 10 charges. By expending a charge from this dial as a bonus action, you may absorb up to an hour worth of light or sunlight, for each charge spent, into this dial by holding it or placing it within range of the source without interruption. To use this dial, as an action, you can press the button on the dial to continuously shed bright light in a 20-foot radius and dim light for an additional 20 feet from the dial for a duration equal to the amount of stored light in hours. Simple lamp dials can store up to 10 hours worth of consistent light, and regain up to {@dice 1d6+4} expended charges daily at dawn."
+         ]
+      },
+      {
+         "name":"Milky Dial",
+         "source":"OnePieceItems",
+         "type":"T",
+         "rarity":"Simple Dial",
+         "page":150,
+         "weight":0.5,
+         "charges":5,
+         "recharge":"dawn",
+         "rechargeAmount":"{@dice 1d4 + 1}",
+         "entries":[
+            "This dial only works in extremely high altitudes, such as any location in the sky islands. By absorbing giant chunks of clouds into a milky dial, you can release pathways or blocks of cloud from the dial. Simple milky dials have 5 charges. By expending a charge from this dial as a bonus action, you may absorb any 5-foot cube of island or sea clouds by placing it within 5 feet of the source. To use this dial, as an action, you can place or hold the dial in a 5-foot square, then press the button on it to release a 5-foot cube of island or water cloud stored, depending on the type of clouds absorbed, within 5 feet of the dial once at the beginning of every round. Each 5-foot cube of this cloud has 1 HP and AC 6, and will float slowly in any direction it is expelled or pushed, up to 5 feet per round. Simple milky dials can store up to 25 cubic feet of cloud, and regain up to {@dice 1d4+1} expended charges daily at dawn."
+         ]
+      },
+      {
+         "name":"Large Milky Dial",
+         "source":"OnePieceItems",
+         "type":"T",
+         "rarity":"Rare Dial",
+         "page":150,
+         "weight":1,
+         "charges":5,
+         "recharge":"dawn",
+         "rechargeAmount":"{@dice 1d6 + 4}",
+         "entries":[
+            "This dial only works in extremely high altitudes, such as any location in the sky islands. By absorbing giant chunks of clouds into a milky dial, you can release pathways or blocks of cloud from the dial. Rare milky dials have 10 charges. By expending a charge from this dial as a bonus action, you may absorb any 50-foot cube of island or sea clouds by placing it within 10 feet of the source. To use this dial, as an action, you can place or hold the dial in a 50-foot square, then press the button on it to release a 50-foot cube of island or water cloud stored, depending on the type of clouds absorbed, within 50 feet of the dial once at the beginning of every round. Each 5-foot cube of this cloud has 1 HP and AC 8, and will float slowly in any direction it is expelled or pushed, up to 10 feet per round. Simple milky dials can store up to 2500 cubic feet of cloud, and regain up to {@dice 1d6+4} expended charges daily at dawn."
+         ]
+      },
+      {
+         "name":"Thunder Dial",
+         "source":"OnePieceItems",
+         "type":"T",
+         "rarity":"Simple Dial",
+         "page":151,
+         "weight":0.5,
+         "charges":5,
+         "recharge":"dawn",
+         "rechargeAmount":"{@dice 1d4 + 1}",
+         "entries":[
+            "By absorbing electric elemental energy from a material or current, thunder dials can be used as an electric power source to anything by channeling stored electricity. Simple thunder dials have 5 charges. By expending a charge from this dial as a bonus action, you may sap electric energy from any 5-foot cube of material or current that is releasing or channeling electricity, such as a lightning rod, active wiring, or generator, by placing it within 5 feet of the source. To use this dial, as an action, you can place or hold the dial in a 5-foot square, then press the button on it to channel electricity into one nearby device for up to 24 hours for every 5-foot cube of electric energy stored being released. This can be used for simple machines such as a fan or light bulb. Alternatively, you can release all the electric energy stored in a heat dial to make an attack. As an action, you can make a melee attack against a creature and release the electricity within the dial to deal 1 lightning damage for every 5-foot cube of electric energy expelled. Simple thunder dials can store up to 25 cubic feet of electric energy, and regain up to {@dice 1d4+1} expended charges daily at dawn."
+         ]
+      },
+      {
+         "name":"Large Thunder Dial",
+         "source":"OnePieceItems",
+         "type":"T",
+         "rarity":"Rare Dial",
+         "page":151,
+         "weight":1,
+         "charges":10,
+         "recharge":"dawn",
+         "rechargeAmount":"{@dice 1d6 + 4}",
+         "entries":[
+            "By absorbing electric elemental energy from a material or current, thunder dials can be used as an electric power source to anything by channeling stored electricity. Rare thunder dials have 10 charges. By expending a charge from this dial as a bonus action, you may sap electric energy from any 50-foot cube of material or current that is releasing or channeling electricity, such as a lightning rod, active wiring, or generator, by placing it within 10 feet of the source. To use this dial, as an action, you can place or hold the dial in a 10-foot square, then press the button on it to channel electricity into one nearby device for up to 24 hours for every 5-foot cube of electric energy stored being released. This can be used for simple machines such as a fan or light bulb. Alternatively, you can release all the electric energy stored in a heat dial to make an attack. As an action, you can make a melee attack against a creature and release the electricity within the dial to deal 1 lightning damage for every 5-foot cube of electric energy expelled. Simple thunder dials can store up to 2500 cubic feet of electric energy, and regain up to {@dice 1d6+4} expended charges daily at dawn."
+         ]
+      },
+      {
+         "name":"Tone Dial",
+         "source":"OnePieceItems",
+         "type":"T",
+         "rarity":"Simple Dial",
+         "page":151,
+         "weight":0.5,
+         "charges":5,
+         "recharge":"dawn",
+         "rechargeAmount":"{@dice 1d4 + 1}",
+         "entries":[
+            "This dial can store sounds or spoken messages to replay them out loud at a later time when activated. Simple tone dials have 5 charges. By expending any number of charges from this dial as a bonus action, you can record up to 10 seconds for each charge spent of any sound or spoken message. As an action, you can press the button on the dial to play any stored noise or message, which can be heard up 120 feet away from the dial depending on the volume. Additionally, stored messages can be replayed or looped for up to an hour each day, or can be erased in up to 10 second segments as an action. Simple tone dials can store up to 50 seconds of sound or speaking, and regain up to 1d4+1 expended charges daily at dawn."
+         ]
+      },
+      {
+         "name":"Large Tone Dial",
+         "source":"OnePieceItems",
+         "type":"T",
+         "rarity":"Rare Dial",
+         "page":151,
+         "weight":1,
+         "charges":10,
+         "recharge":"dawn",
+         "rechargeAmount":"{@dice 1d6 + 4}",
+         "entries":[
+            "This dial can store sounds or spoken messages to replay them out loud at a later time when activated. Rare tone dials have 10 charges. By expending any number of charges from this dial as a bonus action, you can record up to 10 seconds for each charge spent of any sound or spoken message. As an action, you can press the button on the dial to play any stored noise or message, which can be heard up 120 feet away from the dial depending on the volume. Additionally, stored messages can be replayed or looped for up to an hour each day, or can be erased in up to 10 second segments as an action. Rare tone dials can store up to 100 seconds of sound or speaking, and regain up to {@dice 1d6+4} expended charges daily at dawn."
+         ]
+      },
+      {
+         "name":"Vision Dial",
+         "source":"OnePieceItems",
+         "type":"T",
+         "rarity":"Simple Dial",
+         "page":151,
+         "weight":0.5,
+         "charges":5,
+         "recharge":"dawn",
+         "rechargeAmount":"{@dice 1d4 + 1}",
+         "entries":[
+            "By capturing and absorbing visible colored light in an area, vision dials can capture photos and print them onto paper or parchment. Simple vision dials have 5 charges. By expending a charge from this dial as a bonus action, you can capture a single photo in one direction. As an action, you can press the button on the dial to print the stored image onto a piece of paper or parchment and delete the stored photo data on the dial. Simple vision dials can store up to 5 individual photos at a time, and regain up to 1d4+1 expended charges daily at dawn."
+         ]
+      },
+      {
+         "name":"Large Vision Dial",
+         "source":"OnePieceItems",
+         "type":"T",
+         "rarity":"Simple Dial",
+         "page":151,
+         "weight":1,
+         "charges":10,
+         "recharge":"dawn",
+         "rechargeAmount":"{@dice 1d6 + 4}",
+         "entries":[
+            "By capturing and absorbing visible colored light in an area, vision dials can capture photos and print them onto paper or parchment. Rare vision dials have 10 charges. By expending a charge from this dial as a bonus action, you can record videos for up to 10 seconds for every 2 charges spent. As an action, you can press the button on the dial to Videos can be played back on a projector created by the large vision dial, and can have individual frames printed out. Photos and videos can also continue to be stored without getting deleted after being printed. Rare vision dials can store up to 10 photos or videos at a time, and regain up to {@dice 1d6 + 4} expended charges daily at dawn."
+         ]
+      },
+      {
+         "name":"Water Dial",
+         "source":"OnePieceItems",
+         "type":"T",
+         "rarity":"Simple Dial",
+         "page":151,
+         "weight":0.5,
+         "charges":5,
+         "recharge":"dawn",
+         "rechargeAmount":"{@dice 1d4 + 1}",
+         "entries":[
+            "This dial can absorb and store any type of water or liquid and then release it when activated. Simple water dials have 5 charges. By expending a charge from this dial as a bonus action, you may absorb any 5-foot cube of water or liquid by placing it within 5 feet of the source. To use this dial, as an action, you can place or hold the dial in a 5-foot square, then press the button on it to release and pour up to 5 cubic feet of stored liquid, within a space up to 5 feet of the dial once at the beginning of every round. This liquid can be stored in containers, or poured over surfaces or even fires to put them out. Simple water dials can store up to 25 cubic feet of liquid, and regain up to {@dice 1d4 + 1} expended charges daily at dawn."
+         ]
+      },
+      {
+         "name":"Large Water Dial",
+         "source":"OnePieceItems",
+         "type":"T",
+         "rarity":"Rare Dial",
+         "page":151,
+         "weight":1,
+         "charges":10,
+         "recharge":"dawn",
+         "rechargeAmount":"{@dice 1d6 + 4}",
+         "entries":[
+            "This dial can absorb and store any type of water or liquid and then release it when activated. Simple water dials have 10 charges. By expending a charge from this dial as a bonus action, you may absorb any 50-foot cube of water or liquid by placing it within 10 feet of the source. To use this dial, as an action, you can place or hold the dial in a 10-foot square, then press the button on it to release and pour up to 5 cubic feet of stored liquid, within a space up to 10 feet of the dial once at the beginning of every round. This liquid can be stored in containers, or poured over surfaces or even fires to put them out. Simple water dials can store up to 2500 cubic feet of liquid, and regain up to {@dice 1d6 + 4} expended charges daily at dawn."
+         ]
+      }
+   ],
+   "table":[
+      {
+         "name":"Simple Dial",
+         "colLabels":[
+            "d20",
+            "Simple Dial"
+         ],
+         "rows":[
+            [
+               "1-4",
+               "{@item Breath Dial|OPI}"
+            ],
+            [
+               "5-7",
+               "{@item Flavor Dial|OPI}"
+            ],
+            [
+               "8",
+               "{@item Freeze Dial|OPI}"
+            ],
+            [
+               "9",
+               "{@item Heat Dial|OPI}"
+            ],
+            [
+               "10-12",
+               "{@item Lamp Dial|OPI}"
+            ],
+            [
+               "13-15",
+               "{@item Milky Dial|OPI}"
+            ],
+            [
+               "16",
+               "{@item Thunder Dial|OPI}"
+            ],
+            [
+               "17-18",
+               "{@item Tone Dial|OPI}"
+            ],
+            [
+               "19",
+               "{@item Vision Dial|OPI}"
+            ],
+            [
+               "20",
+               "{@item Water Dial|OPI}"
+            ]
+         ]
+      }
+   ]
+}
