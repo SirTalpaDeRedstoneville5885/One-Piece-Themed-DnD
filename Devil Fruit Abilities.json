@@ -21,7 +21,7 @@
 		{
 			"name": "Inu Inu No Mi: Model: Kyubi no Kitsune",
 			"source": "DevilFruitAbilities",
-			"type": "Devil Fruit",
+			"type": "OTH",
 			"rarity": "legendary",
             "charges": 1,
             "recharge": "restShort",
