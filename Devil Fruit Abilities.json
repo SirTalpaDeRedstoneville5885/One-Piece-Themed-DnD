@@ -25,10 +25,6 @@
 			"rarity": "legendary",
             "charges": 1,
             "recharge": "restShort",
-            "attachedSpells": [
-                "shapechange",
-                "polymorph"
-            ],
 			"entries": [
                 {
                     "name": "Fruit Appearance",
@@ -59,7 +55,11 @@
                         "(Note: Since you are lvl 1 I only gave you 2 I'll add more as we go)"
                     ]
                 }
-			]
+			],
+            "attachedSpells": [
+                "shapechange",
+                "polymorph"
+            ]
 		}
     ]
 }
