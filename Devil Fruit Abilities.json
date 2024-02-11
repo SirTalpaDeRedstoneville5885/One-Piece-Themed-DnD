@@ -3,6 +3,7 @@
         "sources": [
             {
                 "json": "DevilFruitAbilities",
+		"url": "https://github.com/TheGiddyLimit/homebrew",
                 "abbreviation": "DFA",
                 "full": "Devil Fruits by Tarun",
 		"color": "33FFCA",
