@@ -42,7 +42,7 @@
 			"rarity": "Simple Dial",
 			"page": 150, 
 			"weight": 0.5,
-			"rechargeAmount": "{@dice 1d4 + 1} + {@dice 1d6+4}"
+			"rechargeAmount": "{@dice 1d4 + 1} + {@dice 1d6+4}",
             "charges": 10,
             "recharge": "dawn",
 			"entries": [
