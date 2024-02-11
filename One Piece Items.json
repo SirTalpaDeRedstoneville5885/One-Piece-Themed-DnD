@@ -327,16 +327,6 @@
             "d20",
             "Simple Dial"
         ],
-        "colStyles": [
-            "col- text-",
-            "col- text- "
-        ],
-        "intro": [
-            "Optional intro entries."
-        ],
-        "outro": [
-            "Optional outro entries."
-        ],
         "rows": [
             [
                 "1-4",
