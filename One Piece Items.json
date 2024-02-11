@@ -24,11 +24,29 @@
 			"name": "Breath Dial",
 			"source": "OnePieceItems",
 			"type": "T",
-			"rarity": "Dial, Simple",
+			"rarity": "Simple Dial",
+			"page": 150, 
+			"weight": 0.5,
+			
             "charges": 5,
             "recharge": "dawn",
+			"rechargeAmount": "{@dice 1d4 + 1}"
 			"entries": [
-                "By storing air, gases, or wind currents, breath dials have the ability to emit anything it absorbs as a gust of energy. Simple breath dials have 5 charges. By expending a charge from this dial as a bonus action, you can absorb up to a 5-foot cube of any gas or wind. By pressing the button on the dial as an action, you can expel up to a 5-foot cube of any stored gas in a space within 5 feet of you. Any creature in the space being filled with gas must succeed on a DC 10 Strength (Athletics) check or be pushed out of the space away from the dial. Objects less than 10 pounds are also pushed out of the space automatically. Simple breath dials can store up to 25 cubic feet of gas, and regain up to 1d4+1 expended charges daily at dawn. Large Breath Dials (rare) have 10 charges and can store up to 50 cubic feet of gas. Additionally, they regain 1d6+4 expended charges daily at dawn instead. You can also use a large breath dial to power a standard waver, reducing the cost of building a waver by 80%."
+                "By storing air, gases, or wind currents, breath dials have the ability to emit anything it absorbs as a gust of energy. Simple breath dials have 5 charges. By expending a charge from this dial as a bonus action, you can absorb up to a 5-foot cube of any gas or wind. By pressing the button on the dial as an action, you can expel up to a 5-foot cube of any stored gas in a space within 5 feet of you. Any creature in the space being filled with gas must succeed on a DC 10 Strength (Athletics) check or be pushed out of the space away from the dial. Objects less than 10 pounds are also pushed out of the space automatically. Simple breath dials can store up to 25 cubic feet of gas, and regain up to 1d4+1 expended charges daily at dawn."
+			]
+		},
+	    {
+			"name": "Large Breath Dial",
+			"source": "OnePieceItems",
+			"type": "T",
+			"rarity": "Simple Dial",
+			"page": 150, 
+			"weight": 0.5,
+			"rechargeAmount": "{@dice 1d4 + 1} + {@dice 1d6+4}"
+            "charges": 10,
+            "recharge": "dawn",
+			"entries": [
+                "By storing air, gases, or wind currents, breath dials have the ability to emit anything it absorbs as a gust of energy. Large Breath Dials (rare) have 10 charges. By expending a charge from this dial as a bonus action you can store up to 50 cubic feet of gas.  By pressing the button on the dial as an action, you can expel up to a 50-foot cube of any stored gas in a space within 10 feet of you. Any creature in the space being filled with gas must succeed on a DC 13 Strength (Athletics) check or be pushed out of the space away from the dial. Objects less than 15 pounds are also pushed out of the space automatically. Rare breath dials can store up to 2500 cubic feet of gas, and regain up to 1d4+1 expended charges plus an additional 1d6+4 expended charges daily at dawn. You can also use a large breath dial to power a standard waver, reducing the cost of building a waver by 80%."
 			]
 		}
     ]
