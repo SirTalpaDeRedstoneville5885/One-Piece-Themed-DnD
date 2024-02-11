@@ -300,5 +300,58 @@
             "This dial can absorb and store any type of water or liquid and then release it when activated. Simple water dials have 10 charges. By expending a charge from this dial as a bonus action, you may absorb any 50-foot cube of water or liquid by placing it within 10 feet of the source. To use this dial, as an action, you can place or hold the dial in a 10-foot square, then press the button on it to release and pour up to 5 cubic feet of stored liquid, within a space up to 10 feet of the dial once at the beginning of every round. This liquid can be stored in containers, or poured over surfaces or even fires to put them out. Simple water dials can store up to 2500 cubic feet of liquid, and regain up to {@dice 1d6 + 4} expended charges daily at dawn."
          ]
       }
+   ],
+   "table":[
+      {
+         "name":"Simple Dial",
+         "source":"OnePieceItems",
+         "page":149,
+         "colLabels":[
+            "d20",
+            "Simple Dial"
+         ],
+         "rows":[
+            [
+               "1-4",
+               "{@item Breath Dial|OnePieceItems}"
+            ],
+            [
+               "5-7",
+               "{@ Flavor Dial|OnePieceItems}"
+            ],
+            [
+               "8",
+               "{@item Freeze Dial|OnePieceItems}"
+            ],
+            [
+               "9",
+               "{@item Heat Dial|OnePieceItems}"
+            ],
+            [
+               "10-12",
+               "{@item Lamp Dial|OnePieceItems}"
+            ],
+            [
+               "13-15",
+               "{@item Milky Dial|OnePieceItems}"
+            ],
+            [
+               "16",
+               "{@item Thunder Dial|OnePieceItems}"
+            ],
+            [
+               "17-18",
+               "{@item Tone Dial|OnePieceItems}"
+            ],
+            [
+               "19",
+               "{@item Vision Dial|OnePieceItems}"
+            ],
+            [
+               "20",
+               "{@item Water Dial|OnePieceItems}"
+            ]
+         ]
+      }
    ]
 }
