@@ -51,7 +51,7 @@
                     "name": "Shape Change",
                     "type": "entries",
                     "entries": [
-                        "The Devil Fruit User's innate spellcasting ability is Charisma (spell save {@dc 12}, {@hit 4} to hit with spell attacks). It can innately cast the following spells, requiring no material components: {@spell shapechange}" ,"and", "{@spell polymorph}.",
+                        "The Devil Fruit User's innate spellcasting ability is Charisma (spell save {@dc 12}, {@hit 4} to hit with spell attacks). It can innately cast the following spells, requiring no material components: {@spell shapechange}, {@spell polymorph}.",
                         "(Note: Since you are lvl 1 I only gave you 2 I'll add more as we go)"
                     ]
                 }
