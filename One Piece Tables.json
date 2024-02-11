@@ -1,0 +1,75 @@
+{
+   "_meta":{
+      "sources":[
+         {
+            "json":"OnePieceItemTables",
+            "url":"https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm",
+            "abbreviation":"OPIT",
+            "full":"One Piece Item Tables",
+            "color":"33FFCA",
+            "authors":[
+               "OneWorldHD"
+            ],
+            "convertedBy":[
+               "Tarun"
+            ],
+            "version":"1.0.0"
+         }
+      ],
+      "dateAdded":1707661525,
+      "dateLastModified":1707661525
+   },
+   "table":[
+      {
+         "name":"Simple Dial",
+         "source":"OnePieceItems",
+         "page":149,
+         "colLabels":[
+            "d20",
+            "Simple Dial"
+         ],
+         "rows":[
+            [
+               "1-4",
+               "{@item Breath Dial|opi}"
+            ],
+            [
+               "5-7",
+               "{@item Flavor Dial|opi}"
+            ],
+            [
+               "8",
+               "{@item Freeze Dial|opi}"
+            ],
+            [
+               "9",
+               "{@item Heat Dial|opi}"
+            ],
+            [
+               "10-12",
+               "{@item Lamp Dial|opi}"
+            ],
+            [
+               "13-15",
+               "{@item Milky Dial|opi}"
+            ],
+            [
+               "16",
+               "{@item Thunder Dial|opi}"
+            ],
+            [
+               "17-18",
+               "{@item Tone Dial|opi}"
+            ],
+            [
+               "19",
+               "{@item Vision Dial|opi}"
+            ],
+            [
+               "20",
+               "{@item Water Dial|opi}"
+            ]
+         ]
+      }
+   ]
+}
