@@ -1,0 +1,463 @@
+{
+    "_meta":{
+       "sources":[
+          {
+             "json":"OnePieceFeats",
+             "url":"https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm",
+             "abbreviation":"OPF",
+             "full":"One Piece Feats",
+             "color":"33FFCA",
+             "authors":[
+                "OneWorldHD"
+             ],
+             "convertedBy":[
+                "Tarun"
+             ],
+             "version":"1.0.0"
+          }
+       ],
+       "dateAdded":1707661525,
+       "dateLastModified":1707661525
+    },
+    "feat":[
+       {
+          "name":"Big Eater",
+          "source":"OnePieceFeats",
+          "page":164,
+          "ability":[
+             {
+                "con":1
+             }
+          ],
+          "entries":[
+             "Your stomach has expanded far beyond the size of any ordinary stomach to gain the following benefits:",
+             {
+                "type":"list",
+                "items":[
+                   "You can now recover injuries by consuming large quantities of food. For every 10 lbs of food you consume, you recover 1 hit point. If you are at full hit points, you instead gain temporary hit points for every 10 lbs of food you consume, up to a maximum of your character level."
+                ]
+             }
+          ]
+       },
+       {
+          "name":"Burglar",
+          "source":"OnePieceFeats",
+          "page":164,
+          "ability":[
+             {
+                "dex":1
+             }
+          ],
+          "toolProficiencies":[
+             {
+                "Thieves' Tools":true
+             }
+          ],
+          "entries":[
+             "You pride yourself on your quickness and your close study of certain clandestine activities. You gain the following benefits:",
+             {
+                "type":"list",
+                "items":[
+                   "You gain proficiency with {@item Thieves' Tools|PHB}. If you are already proficient with them, you add double your proficiency bonus to checks you make with them."
+                ]
+             }
+          ]
+       },
+       {
+          "name":"Color of Armament Training",
+          "source":"OnePieceFeats",
+          "page":164,
+          "prerequisite":[
+             {
+                "ability":[
+                   {
+                      "con":11
+                   }
+                ]
+             }
+          ],
+          "entries":[
+             "You gain one Uncommon Armament Haki advancement feature, assuming you meet the other prerequisites listed by it in Chapter 7 of the One Piece Homebrew."
+          ]
+       },
+       {
+          "name":"Color of Observation Training",
+          "source":"OnePieceFeats",
+          "page":164,
+          "prerequisite":[
+             {
+                "ability":[
+                   {
+                      "wis":11
+                   }
+                ]
+             }
+          ],
+          "entries":[
+             "You gain one Uncommon Observation Haki advancement feature, assuming you meet the other prerequisites listed by it in Chapter 7 of the One Piece Homebrew."
+          ]
+       },
+       {
+          "name":"Color of the Supreme King Training",
+          "source":"OnePieceFeats",
+          "page":164,
+          "prerequisite":[
+             {
+                "ability":[
+                   {
+                      "cha":11
+                   }
+                ]
+             }
+          ],
+          "entries":[
+             "You gain one Uncommon Supreme King Haki advancement feature, assuming you meet the other prerequisites listed by it in Chapter 7 of the One Piece Homebrew and were born with the ability to use this type of haki."
+          ]
+       },
+       {
+          "name":"Devil Fruit Training",
+          "source":"OnePieceFeats",
+          "page":164,
+          "prerequisite":[
+             {
+                "other":"Devil Fruit user"
+             }
+          ],
+          "entries":[
+             "You gain one Uncommon Devil Fruit advancement feature listed in Chapter 7 of the One Piece Homebrew."
+          ]
+       },
+       {
+          "name":"Dial Expert",
+          "source":"OnePieceFeats",
+          "page":164,
+          "ability":[
+             {
+                "int":1
+             }
+          ],
+          "toolProficiencies":[
+             {
+                "Thieves' Tools":true
+             }
+          ],
+          "entries":[
+             "Through studying and locating the various Dials found on the Sky Islands, you gain the following benefits:",
+             {
+                "type":"list",
+                "items":[
+                   "You gain proficiency in using all Dials.",
+                   "You find two Simple Dials of your choice that have mysteriously fallen from a Sky Island. (Use this table as a reference to know what all the simple dials are: {@table Simple Dial|OnePieceItemTables})",
+                   "You can immediately identify and understand the properties of any dial you find."
+                ]
+             }
+          ]
+       },
+       {
+          "name":"Spellcaster Disruptor",
+          "source":"OnePieceFeats",
+          "page":164,
+          "entries":[
+             "You have practiced techniques useful in melee combat against tinkerers and other spell users, gaining the following benefits:",
+             {
+                "type":"list",
+                "items":[
+                   "When a creature within 5 feet of you casts a spell, you can use your reaction to make a melee weapon attack against that creature.",
+                   "When you damage a creature that is concentrating on a spell, that creature has disadvantage on the saving throw it makes to maintain its concentration.",
+                   "When you damage a creature that is concentrating on a spell, that creature has disadvantage on the saving throw it makes to maintain its concentration."
+                ]
+             }
+          ]
+       },
+       {
+          "name":"Fell Handed",
+          "source":"OnePieceFeats",
+          "page":165,
+          "attackBonus":1,
+          "entries":[
+             "You master the handaxe, battleaxe, greataxe, warhammer, and maul. You gain the following benefits when using any of them:",
+             {
+                "type":"list",
+                "items":[
+                   "You gain a +1 bonus to attack rolls you make with the weapon.",
+                   "Whenever you have advantage on a melee attack roll you make with the weapon and hit, you can knock the target prone if the lower of the two d20 rolls would also hit the target.",
+                   "Whenever you have disadvantage on a melee attack roll you make with the weapon, the target takes bludgeoning damage equal to your Strength modifier (minimum of 0) if the attack misses but the higher of the two d20 rolls would have hit.",
+                   "If you use the {@action Help} action to aid an ally’s melee attack while you’re wielding the weapon, you knock the target’s shield aside momentarily. In addition to the ally gaining advantage on the attack roll, the ally gains a +2 bonus to the roll if the target is using a shield."
+                ]
+             }
+          ]
+       },
+       {
+          "name":"Friend of the Sea",
+          "source":"OnePieceFeats",
+          "page":165,
+          "skillProficiencies ":[
+             {
+                "Animal Handling":true
+             }
+          ],
+          "prerequisite":[
+             {
+                "race":[
+                   {
+                      "name":"Fish-man"
+                   }
+                ]
+             },
+             {
+                "race":[
+                   {
+                      "name":"Merfolk"
+                   }
+                ]
+             }
+          ],
+          "entries":[
+             "Your friendship with sea creatures mystically deepens thanks to your racial abilities. You gain the following benefits:",
+             {
+                "type":"list",
+                "items":[
+                   "You gain proficiency with {@skill Animal Handling}. If you are already proficient with them, you add double your proficiency bonus to checks you make with them.",
+                   "You learn the speak with animals spell and can cast it at will, without expending a spell slot. You also learn the {@spell Animal Friendship|PHB} spell, and you can cast it once with this feat, without expending a spell slot. You regain the ability to cast it in this way when you finish a long rest. You can only target and speak with beasts that have an innate swimming speed with these spells, not including Sea Kings. Intelligence is your spellcasting ability for these spells."
+                ]
+             }
+          ]
+       },
+       {
+          "name":"Heavy Thrower",
+          "source":"OnePieceFeats",
+          "page":165,
+          "prerequisite":[
+             {
+                "ability":[
+                   {
+                      "str":20
+                   }
+                ]
+             }
+          ],
+          "entries":[
+             "You become a much better thrower, gaining the following:",
+             {
+                "type":"list",
+                "items":[
+                   "You gain +1 to attack rolls with thrown weapons.",
+                   "You are now proficient with throwing cannon balls, and they gain the thrown property when you hold one. The cannon ball's range becomes 20/60 when you throw it. You can only throw one cannon ball per turn this way."
+                ]
+             }
+          ]
+       },
+       {
+          "name":"Linguist (Pongelyphs)",
+          "source":"OnePieceFeats",
+          "page":166,
+          "ability":[
+             {
+                "int":1
+             }
+          ],
+          "entries":[
+             "You have studied languages and codes, gaining the following benefits:",
+             {
+                "type":"list",
+                "items":[
+                   "You learn the language of the Poneglyphs.",
+                   "You can ably create written ciphers. Others can't decipher a code you create unless you teach them, they succeed on an Intelligence check (DC equal to your Intelligence score + your proficiency bonus), or they use magic to decipher it."
+                ]
+             }
+          ]
+       },
+       {
+          "name":"Master of Disguise",
+          "source":"OnePieceFeats",
+          "page":166,
+          "ability":[
+             {
+                "cha":1
+             }
+          ],
+          "toolProficiencies":[
+             {
+                "Disguise Kit":true
+             }
+          ],
+          "entries":[
+             "You have honed your ability to shape your personality and to read the personalities of others. You gain the following benefits:",
+             {
+                "type":"list",
+                "items":[
+                   "You gain proficiency with {@item Disguise Kit|PHB}. If you are already proficient with them, you add double your proficiency bonus to checks you make with them.",
+                   "If you spend 1 hour observing a creature, you can then spend 8 hours crafting a disguise you can quickly don to mimic that creature. Making the disguise requires a disguise kit. You must make checks as normal to disguise yourself, but you can assume the disguise as an action."
+                ]
+             }
+          ]
+       },
+       {
+          "name":"Mysterious Power",
+          "source":"OnePieceFeats",
+          "page":166,
+          "entries":[
+             "Choose a class from this system.",
+             "You learn two cantrips of your choice from that class’s spell list in chapter 8.",
+             "In addition, choose one 1st-level spell from that same list. You learn that spell and can cast it at its lowest level. Once you cast it, you must finish a long rest before you can cast it again.",
+             "Your spellcasting ability for these spells depends on the class you choose (e.g. Intelligence for tinkerer)."
+          ]
+       },
+       {
+          "name":"Samurai Warrior",
+          "source":"OnePieceFeats",
+          "page":167,
+          "entries":[
+             "The katana is a difficult blade to use, but you have spent countless hours mastering it. You gain the following benefits:",
+             {
+                "type":"list",
+                "items":[
+                   "You gain a +1 bonus to attack rolls you make with a katana.",
+                   "You can deliver a decisive critical strike or sweep when you attack enemies that turn their back on you. When you hit with an opportunity attack using a katana, the target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + your Dexterity modifier) or be knocked prone.",
+                   "You may attempt to disarm your target with a decisive strike at their weapon or another object of your choice that it's holding. When you attack and hit with a katana, the target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + your Dexterity modifier) or have the chosen item knocked down and dropped at its feet. You cannot use this ability again until you complete a Short or Long Rest."
+                ]
+             }
+          ]
+       },
+       {
+          "name":"Sharkskin",
+          "source":"OnePieceFeats",
+          "page":167,
+          "ability":[
+             {
+                "con":1
+             }
+          ],
+          "prerequisite":[
+             {
+                "race":[
+                   {
+                      "name":"Fish-man"
+                   }
+                ]
+             }
+          ],
+          "skillProficiencies ":[
+             {
+                "Intimidation":true
+             }
+          ],
+          "entries":[
+             "Due to your fish-man features and rough skin, you are difficult to touch without getting injured. You gain the following benefits:",
+             {
+                "type":"list",
+                "items":[
+                   "Your rough skin deals {@dice 1d6} piercing damage to any creature grappling you or any creature grappled by you.",
+                   "You gain proficiency in the {@skill Intimidation} skill. If you’re already proficient in it, your proficiency bonus is doubled for any check you make with it."
+                ]
+             }
+          ]
+       },
+       {
+          "name":"Sentinel Gunner",
+          "source":"OnePieceFeats",
+          "page":167,
+          "ability":[
+             {
+                "dex":1
+             }
+          ],
+          "weaponProficiencies":[
+             {
+                "firearms":true
+             }
+          ],
+          "entries":[
+             "You have a quick hand and keen eye when employing firearms, granting you the following benefits:",
+             {
+                "type":"list",
+                "items":[
+                   "You gain proficiency with firearms (see \"{@variantrule Firearms|DMG}\" in the Dungeon Master's Guide).",
+                   "You ignore the loading property of firearms.",
+                   "Being within 5 feet of a hostile creature doesn't impose disadvantage on your ranged attack rolls."
+                ]
+             }
+          ]
+       },
+       {
+          "name":"Sling King",
+          "source":"OnePieceFeats",
+          "page":168,
+          "entries":[
+             "Your sling skills have grown, and you gain these benefits:",
+             {
+                "type":"list",
+                "items":[
+                   "You gain a +1 bonus to attack rolls you make with a sling.",
+                   "When you use a sling, its damage die changes from a d4 to a d6, and from a d8 to a d10 when wielded with two hands. (This benefit has no effect if another feature has already improved the weapon’s die.)",
+                   "Your maximum range with slings now also count as your minimum."
+                ]
+             }
+          ]
+       },
+       {
+          "name":"Super Cyborg Upgrade",
+          "source":"OnePieceFeats",
+          "page":168,
+          "ability":[
+             {
+                "":0
+             }
+          ],
+          "prerequisite":[
+             {
+                "race":[
+                   {
+                      "name":"Cyborg",
+                      "visible":true
+                   }
+                ]
+             }
+          ],
+          "entries":[
+             "When you take this feat, you can install four additional cyborg upgrades of your choice.",
+             "You can select this feat multiple times. Each time you do so, you must choose different upgrades."
+          ]
+       },
+       {
+          "name":"Two-Weapon Style",
+          "source":"OnePieceFeats",
+          "page":168,
+          "entries":[
+             "You master fighting with two weapons, gaining the following benefits:",
+             {
+                "type":"list",
+                "items":[
+                   "You gain a +1 bonus to AC while you are wielding a separate melee weapon in each hand.",
+                   "You can use two-weapon fighting even when the one-handed melee weapons you are wielding aren’t light.",
+                   "You can draw or stow two one-handed weapons when you would normally be able to draw or stow only one."
+                ]
+             }
+          ]
+       },
+       {
+          "name":"Three-Weapon Style",
+          "source":"OnePieceFeats",
+          "page":168,
+          "prerequisite":[
+             {
+                "feature":[
+                   "{@feat Two-Weapon Style|OnePieceFeats}"
+                ]
+             }
+          ],
+          "entries":[
+             "You master fighting with three weapons, gaining the following benefits:",
+             {
+                "type":"list",
+                "items":[
+                   "Your Two-Weapon Style bonus to AC increases to +2.",
+                   "You can hold an additional offhand weapon with another appendage or with your mouth, and it doesn't have to be light. You can't make attacks with it.",
+                   "Choose one one-handed weapon you are proficienct with held in either hand during your turn, you may combine attacks made with that weapon with your third weapon to increase the chosen weapon's damage dice by one stage for the remainder of your turn. For example, a d4 damage die made with the weapon would become a d6 to hit, a d6 would become a d8, a d8 would become a d10, and a d10 would become a d12. The maximum the damage dice can increase to is a d12.",
+                   "You can draw or stow three one-handed weapons when you would normally be able to draw or stow only one."
+                ]
+             }
+          ]
+       }
+    ]
+ }

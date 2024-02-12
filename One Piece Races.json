@@ -1,0 +1,108 @@
+{
+    "_meta":{
+       "sources":[
+          {
+             "json":"OnePieceRaces",
+             "abbreviation":"OPR",
+             "full":"One Piece Races",
+             "authors":[
+                "OneWorldHD"
+             ],
+             "convertedBy":[
+                "Tarun"
+             ],
+             "version":"1.0.0",
+             "color":"33FFCA",
+             "url":"https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm",
+             "targetSchema":"1.2"
+          }
+       ],
+       "dateAdded":1707749305,
+       "dateLastModified":1707749305
+    },
+    "race":[
+       {
+          "name":"Cyborg",
+          "source":"OnePieceRaces",
+          "page":"21",
+          "ability":[
+             {
+                "con":2,
+                "choose":{
+                   "from":[
+                      "str",
+                      "dex",
+                      "cha",
+                      "int",
+                      "wis"
+                   ],
+                   "count":1
+                }
+             }
+          ],
+          "size":[
+             "M"
+          ],
+          "speed":30,
+          "entries":[
+             {
+                "type":"entries",
+                "name":"Age",
+                "entries":[
+                   "Depending on how much of their body has been modified, cyborgs may have longer lifespans compared to other races. In theory, they are should still remain mortal so long as parts of them still remain organic."
+                ]
+             },
+             {
+                "type":"entries",
+                "name":"Alignment",
+                "entries":[
+                   "It can be assumed that many cyborgs act Lawfully, but they can technically fall under any alignment."
+                ]
+             },
+             {
+                "type":"entries",
+                "name":"Size",
+                "entries":[
+                   "Cyborgs in the One Piece World are typically 5-6 feet tall. Some can rest far outside this range, but your size will count as medium."
+                ]
+             },
+             {
+                "type":"entries",
+                "name":"Steel Skin",
+                "entries":[
+                   "ur body has a layer of defensive metal beneath or replacing your skin, which can be enhanced with armor:",
+                   {
+                      "type":"list",
+                      "items":[
+                         "You gain a +1 bonus to Armor Class.",
+                         "To reinforce your metal skin, first you must disassemble a piece of mundane or magical armor. After doing so, you must spend an hour consistently incorporating these parts into your skin. Once you are finished, you gain the AC and bonuses of your chosen armor as if you were wearing it, as well as all of the side-effects of that armor. To remove this armor, you must spend an hour replacing it with artificial skin.",
+                         "This metal skin cannot be removed from your body against your will."
+                      ]
+                   }
+                ]
+             },
+             {
+                "type":"entries",
+                "name":"Robotic Resistance",
+                "entries":[
+                   "You have advantage on Saving Throws against being Poisoned, and you have Resistance to poison damage."
+                ]
+             },
+             {
+                "type":"entries",
+                "name":"Refueling",
+                "entries":[
+                   "In place of eating food and drinking water each day, you must instead consume an equivalent amount of fuel to what a normal creature of your size would eat. The type of fuel you use can range from cola to gasoline (your choice), which costs roughly ฿5,000. Starvation rules apply to consuming fuel as they would with food for another race."
+                ]
+             },
+             {
+                "type":"entries",
+                "name":"Maintenance",
+                "entries":[
+                   "Instead of sleeping each day, you instead conduct maintenance on your body during a Long Rest. This includes oiling your joints, repairing any dents or broken parts, or fixing anything else you'd need to maintain. This takes at least six hours to complete. You are able to see and hear normally while you complete these tasks."
+                ]
+             }
+          ]
+       }
+    ]
+ }
