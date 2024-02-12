@@ -22,7 +22,7 @@
    "table":[
       {
          "name":"Simple Dial",
-         "source":"OnePieceItems",
+         "source":"OnePieceItemTables",
          "page":149,
          "colLabels":[
             "d20",
