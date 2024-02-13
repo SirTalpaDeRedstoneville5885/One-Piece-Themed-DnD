@@ -1,0 +1,436 @@
+{
+   "_meta":{
+      "sources":[
+         {
+            "json":"OnePieceHakiAdvancements",
+            "abbreviation":"OPH",
+            "full":"One Piece Haki Advancements",
+            "authors":[
+               "OneWorldHD"
+            ],
+            "convertedBy":[
+               "Tarun"
+            ],
+            "version":"1.0.0",
+            "color":"33FFCA",
+            "url":"https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm",
+            "targetSchema":"1.2"
+         }
+      ],
+      "dateAdded":1707823715,
+      "dateLastModified":1707823715
+   },
+   "reward":[
+      {
+         "name":"Aura of Life",
+         "source":"OnePieceHakiAdvancements",
+         "page":172,
+         "type":"Haki Advancement",
+         "rarity":"uncommon",
+         "entries":[
+            "You are able to increase your willpower to bolster the toughness of your body using your spirit.",
+            "You can spend an action to gain {@dice 1d6} + your Constitution score + your character level in temporary hit points. You can use this feature a number of times equal to your proficiency bonus. You cannot use this feature again until you finish a long rest."
+         ]
+      },
+      {
+         "name":"Soul Armor",
+         "source":"OnePieceHakiAdvancements",
+         "page":172,
+         "type":"Haki Advancement",
+         "rarity":"uncommon",
+         "entries":[
+            "You can form a thin coating of {@condition invisible} armor around your body using your soul.",
+            "As an action, you surround your body with this armor, making your AC equal to 13 + your Constitution modifier when you aren't wearing armor. This armor lasts for 8 hours. You cannot use this feature agian until you finish a long rest."
+         ]
+      },
+      {
+         "name":"Spirit Blast",
+         "source":"OnePieceHakiAdvancements",
+         "page":172,
+         "type":"Haki Advancement",
+         "rarity":"uncommon",
+         "entries":[
+            "You gain the ability to send bursts of energy through your enemies using your spirit.",
+            "When you hit a creature with a melee weapon {@action Attack} or unarmed strike, you can unleash a surge of spirit energy from your body to deal extra {@damage 2d8} force damage to the target, in addition to the attack's normal damage. You can only amplify an attack this way once per round during your turn. Once you use this ability a number of times equal to your proficiency bonus, you can't use it again until you finish a long rest."
+         ]
+      },
+      {
+         "name":"Weapon Hardening",
+         "source":"OnePieceHakiAdvancements",
+         "page":172,
+         "type":"Haki Advancement",
+         "rarity":"uncommon",
+         "entries":[
+            "You gain the ability to coat your weapons and attacks with your spirit. The heavier the application, the darker the coating is.",
+            "As a bonus action, you channel haki into your body or a weapon of your choice. If you choose your body, you choose either your unarmed strikes or a natural weapon. For 1 minute, your attacks with the chosen weapon are considered magical with a +1 bonus to {@action Attack} rolls and Damage Rolls.",
+            "If the attack already has a bonus to its attack and damage rolls, this feature replaces the bonus unless it is greater, in which case it does not gain this feature's benefit.",
+            "This effect ends early if you fall {@condition unconscious}, use it again, end it as a bonus action, or start your turn not holding or touching the weapon you coated. Once you use this ability a number of times equal to your proficiency bonus, you can't use it again until you finish a long rest.",
+            "If the Spirit Surge Event has a rarity higher than Rare, use these bonuses:",
+            {
+               "type":"entries",
+               "name":"Rare",
+               "entries":[
+                  "The chosen weapon gains a +2 bonus to {@action Attack} rolls and Damage Rolls instead."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Very Rare",
+               "entries":[
+                  "The chosen weapon gains a +3 bonus to {@action Attack} rolls and Damage Rolls instead."
+               ]
+            }
+         ]
+      },
+      {
+         "name":"Vessel of Resilience",
+         "source":"OnePieceHakiAdvancements",
+         "page":172,
+         "type":"Haki Advancement",
+         "rarity":"uncommon",
+         "entries":[
+            "You learn to imbue your spirit with such resilience that it enhances your physical form.",
+            "As an action, you can bolster your defenses for 1 minute. During this time, you have resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks, and you have advantage on Constitution saving throws. Once you use this feature, you cannot use it again until you finish a long rest."
+         ]
+      },
+      {
+         "name":"Soul Ravage",
+         "source":"OnePieceHakiAdvancements",
+         "page":172,
+         "type":"Haki Advancement",
+         "rarity":"rare",
+         "entries":[
+            "You have learned how to directly channel lethal energy into any living creature through touch, even to the point of ravaging the devils inside Devil Fruit users.",
+            "You can use an action to make a Melee Armament Haki spell attack against a creature you can reach. On a hit, the target takes {@damage 3d10} force damage. Additionally, if the target is a Devil Fruit user, it must make a Constitution saving throw. On a failed save, the target is unable to use Devil Fruit abilities, spells, or forms until the end of its next turn. Any Devil Fruit spells that use {@status concentration} and any Devil Fruit forms or abilities the creature has active are also ended early, as if it was touched by seastone.",
+            "Once you use this ability a number of times equal to your proficiency bonus, you can't use it again until you finish a long rest.",
+            "If the Spirit Surge Event has a rarity higher than Rare, use these bonuses:",
+            {
+               "type":"entries",
+               "name":"Very Rare",
+               "entries":[
+                  "You deal {@damage 4d10} force damage instead."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Legendary",
+               "entries":[
+                  "You deal {@damage 5d10} force damage instead."
+               ]
+            }
+         ]
+      },
+      {
+         "name":"Soul Shield",
+         "source":"OnePieceHakiAdvancements",
+         "page":173,
+         "type":"Haki Advancement",
+         "rarity":"rare",
+         "entries":[
+            "You are capable of coating dense amounts of spirit energy around your body and armor to temporarily protect you from incoming attacks.",
+            "You can cast the Shield spell on yourself, without expending a spell slot. Once you use this ability a number of times equal to half your proficiency bonus (rounded down), you can't use it again until you finish a long rest."
+         ]
+      },
+      {
+         "name":"Internal Destruction",
+         "source":"OnePieceHakiAdvancements",
+         "page":173,
+         "type":"Haki Advancement",
+         "rarity":"rare",
+         "entries":[
+            {
+               "type":"entries",
+               "name":"Prerequisite:",
+               "entries":[
+                  "{@reward Spirit Blast|OnePieceHakiAdvancements}, Dexterity 13 or Strength 13"
+               ]
+            },
+            "Your mastery of Haki allows you to let your spirit energy linger, echoing your strikes with unyielding force.",
+            "When you hit a creature with a melee attack or unarmed strike and activate your Spirit Blast, your spirit energy reverberates through the target causing it to take additional force damage equal to your Constitution modifier at the start of each of its turns for the next minute. The creature can make a Constitution saving throw at the end of each of its turns, ending the effect early on a success.",
+            "If you hit the same creature with this effect again before the duration ends, the damage increases by your Constitution modifier, and the duration resets. The damage cannot exceed a total of 3 times your Constitution modifier per turn.",
+            "Once you use this ability a number of times equal to your proficiency bonus, you can't use it again until you finish a long rest.",
+            "If the Spirit Surge Event has a rarity higher than Rare, use these bonuses:",
+            {
+               "type":"entries",
+               "name":"Very Rare",
+               "entries":[
+                  "The damage per turn can increase up to a total of 4 times your Constitution modifier."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Legendary",
+               "entries":[
+                  "The damage per turn can increase up to a total of 5 times your Constitution modifier."
+               ]
+            },
+            {
+               "name":"Force of Will",
+               "source":"OnePieceHakiAdvancements",
+               "page":173,
+               "type":"Haki Advancement",
+               "rarity":"rare",
+               "entries":[
+                  {
+                     "type":"entries",
+                     "name":"Prerequisite:",
+                     "entries":[
+                        "Dexterity 13 or Strength 13"
+                     ]
+                  },
+                  "Your iron-will enables you to unleash devastating shockwaves of Haki energy.",
+                  "As an action, you can slam your foot or fist into the ground, causing a shockwave of spirit energy to radiate from you. Each creature within 30 feet of you must make a Strength saving throw. On a failed save, a creature takes {@damage 4d10} force damage and is knocked {@condition prone}. On a successful save, the creature takes half as much damage and isn't knocked {@condition prone}. Structures and nonmagical objects within the area take the same damage. Once you use this ability, you can't use it again until you finish a long rest."
+               ]
+            },
+            {
+               "name":"Shield of Vengeance",
+               "source":"OnePieceHakiAdvancements",
+               "page":173,
+               "type":"Haki Advancement",
+               "rarity":"rare",
+               "entries":[
+                  "You form a powerful retaliation shield that lashes out at attackers with spiritual force.",
+                  "As a reaction, when you are hit by an attack, you can cast the spell Hellish Rebuke, targeting the attacker. The damage type for the spell is force, and the spell's level is equal to your proficiency bonus. Once you use this ability a number of times equal to half your proficiency bonus (rounded down), you can't use it again until you finish a long rest."
+               ]
+            },
+            {
+               "name":"Spirit Shot",
+               "source":"OnePieceHakiAdvancements",
+               "page":173,
+               "type":"Haki Advancement",
+               "rarity":"rare",
+               "entries":[
+                  "You have honed your Haki to imbue your ranged weapons with a potent burst of spirit energy.",
+                  "As a bonus action, you can imbue a ranged weapon attack with your Haki. The next time you hit with that weapon, the attack deals an additional {@damage 2d8} force damage. The imbued weapon retains this energy until you hit a target or until 1 hour has passed. You can use this feature a number of times equal to your proficiency bonus, and regain all expended uses when you finish a long rest."
+               ]
+            },
+            {
+               "name":"Spirit Emission",
+               "source":"OnePieceHakiAdvancements",
+               "page":173,
+               "type":"Haki Advancement",
+               "rarity":"very rare",
+               "entries":[
+                  "You concentrate your Haki into a potent beam of energy, piercing through multiple enemies.",
+                  "As an action, you can fire a beam of energy in a line that is 60 feet long and 5 feet wide. Each creature in the line must make a Dexterity saving throw. A creature takes {@damage 10d6} force damage on a failed save, or half as much damage on a successful one. This beam penetrates through creatures and objects, potentially hitting multiple targets in its path. Once you use this ability, you can't use it again until you finish a long rest."
+               ]
+            },
+            {
+               "name":"Bullet of Will",
+               "source":"OnePieceHakiAdvancements",
+               "page":173,
+               "type":"Haki Advancement",
+               "rarity":"very rare",
+               "entries":[
+                  {
+                     "type":"entries",
+                     "name":"Prerequisite:",
+                     "entries":[
+                        "{@reward Spirit Shot|OnePieceHakiAdvancements}, Dexterity 13 or Strength 13"
+                     ]
+                  },
+                  "You concentrate your Haki into a potent beam of energy, piercing through multiple enemies.",
+                  "Your control over your Haki extends beyond your body, imbuing your ranged attacks with potent force.",
+                  "When you make a ranged attack, you can use a bonus action to imbue your projectile with your Haki, causing it to deal an additional {@damage 4d8} force damage on a hit. Furthermore, the attack has a maximum range of 600 feet with no disadvantage due to long-range. Once you use this ability, you can't use it again until you finish a short or long rest."
+               ]
+            },
+            {
+               "name":"Titan's Grip",
+               "source":"OnePieceHakiAdvancements",
+               "page":174,
+               "type":"Haki Advancement",
+               "rarity":"very rare",
+               "entries":[
+                  "Your spiritual force can now grip even the intangible, enabling you to grasp any attack and withstand its damage.",
+                  "As a reaction, when you or a creature within 30 feet of you is targeted by a spell or ability that deals damage, you can use your Haki to intercept the attack. The damage is redirected to you, but you only take half damage (rounded down). Once you use this ability a number of times equal to half your proficiency bonus (rounded down), you can't use it again until you finish a long rest."
+               ]
+            },
+            {
+               "name":"Blackened Fist of Ruin",
+               "source":"OnePieceHakiAdvancements",
+               "page":174,
+               "type":"Haki Advancement",
+               "rarity":"very rare",
+               "entries":[
+                  {
+                     "type":"entries",
+                     "name":"Prerequisite:",
+                     "entries":[
+                        "{@reward Spirit Blast|OnePieceHakiAdvancements}, Dexterity 15 or Strength 15"
+                     ]
+                  },
+                  "Your spiritual energy can focus into a single devastating punch that shatters any defense.",
+                  "As an action, you can make a single melee weapon attack against a creature within reach. If this attack hits, it deals an additional {@damage 10d10} force damage, and if the target is a creature, it must succeed on a Strength saving throw or be knocked back 30 feet and knocked {@condition prone}. Once you use this ability, you can't use it again until you finish a long rest."
+               ]
+            },
+            {
+               "name":"Crippling Blast",
+               "source":"OnePieceHakiAdvancements",
+               "page":174,
+               "type":"Haki Advancement",
+               "rarity":"very rare",
+               "entries":[
+                  {
+                     "type":"entries",
+                     "name":"Prerequisite:",
+                     "entries":[
+                        "{@reward Spirit Blast|OnePieceHakiAdvancements}"
+                     ]
+                  },
+                  "You enhance your ability to send bursts of energy through your attacks and can now physically destroy your enemies from the inside.",
+                  "When you use your Spirit Blast feature to deal extra damage to a creature, you deal an extra {@damage 1d8} force damage and force the target to make a Constitution saving throw. On a failed save, it has disadvantage on attack rolls and ability checks, and can't take reactions, until the end of its next turn"
+               ]
+            },
+            {
+               "name":"Dark Armor",
+               "source":"OnePieceHakiAdvancements",
+               "page":174,
+               "type":"Haki Advancement",
+               "rarity":"legendary",
+               "entries":[
+                  "You can create a nearly indestructible coat of Haki that guards you from all harm.",
+                  "As an action, you can envelop yourself in a layer of super-dense Haki. For the next 10 minutes, you gain resistance to all types of damage except force, your Armor Class can't be less than 20, regardless of what kind of armor you are wearing, and you are immune to being {@condition grappled} or {@condition restrained}. Once you use this ability, you can't use it again until you finish a long rest."
+               ]
+            },
+            {
+               "name":"Galaxy Impact",
+               "source":"OnePieceHakiAdvancements",
+               "page":174,
+               "type":"Haki Advancement",
+               "rarity":"legendary",
+               "entries":[
+                  {
+                     "type":"entries",
+                     "name":"Prerequisite:",
+                     "entries":[
+                        "Dexterity 15 or Strength 15"
+                     ]
+                  },
+                  "You have reached the pinnacle of Armament Haki, gaining the ability to impose your spirit's might on the world around you.",
+                  "As an action, you can cause a burst of pure force to radiate from you. All creatures and objects within a 30-foot radius must make a Constitution saving throw against your Armament Haki save DC. On a failed save, a creature takes {@damage 10d10} force damage and is knocked {@condition prone}. On a successful save, a creature takes half as much damage and isn't knocked {@condition prone}. Unworn objects automatically fail their saving throw and take full damage. Once you use this feature, you cannot use it again until you finish a long rest."
+               ]
+            },
+            {
+               "name":"Element Infusion",
+               "source":"OnePieceHakiAdvancements",
+               "page":174,
+               "type":"Haki Advancement",
+               "rarity":"legendary",
+               "entries":[
+                  {
+                     "type":"entries",
+                     "name":"Prerequisite:",
+                     "entries":[
+                        "{@reward Weapon Hardening|OnePieceHakiAdvancements}"
+                     ]
+                  },
+                  "Your understanding of elemental energies and spirit manipulation has evolved to such an extent that you can saturate your weapons with massive amounts of destructive force.",
+                  "When you activate your Weapon Hardening feature on a weapon you are using, you can choose to infuse it with a primal element, causing it to crackle with raw energy. Choose one of the following damage types: acid, cold, fire, lightning, or thunder.",
+                  "For the duration of your Weapon Hardening, each of your successful attacks with the infused weapon deal an extra {@damage 5d6} damage of the chosen type. The extra damage applies to every successful hit, even if you make multiple attacks in a turn.",
+                  "In addition, the weapon sheds bright light in a color corresponding to the chosen element in a 40-foot radius, and dim light for an additional 40 feet.",
+                  "Once you use this feature, you cannot use it again until you finish a long rest."
+               ]
+            },
+            {
+               "name":"Abyssal Hole",
+               "source":"OnePieceHakiAdvancements",
+               "page":174,
+               "type":"Haki Advancement",
+               "rarity":"legendary",
+               "entries":[
+                  {
+                     "type":"entries",
+                     "name":"Prerequisite:",
+                     "entries":[
+                        "{@reward Spirit Blast|OnePieceHakiAdvancements}, Dexterity 15 or Strength 15"
+                     ]
+                  },
+                  "You've refined your Armament Haki to a point where you can channel both its overwhelming force and your intimidating spirit into a single destructive blow, capable of sending foes plummeting into an abyss.",
+                  "As an action, you can make a melee attack against an opponent within reach. If the attack hits, you envelop your hand in concentrated Haki and smash your opponent into the ground, dealing {@damage 10d10} force damage and forcing them to make a Strength saving throw against your Armament Haki save DC. On a failed save, the enemy is sent crashing downwards 50 feet, taking any additional fall damage, and creating a gaping hole in the ground if the area is able to be destroyed, and is knocked {@condition prone} and {@condition stunned} until the end of its next turn.",
+                  "If used on a surface not connected to a substantial amount of earth (such as the deck of a ship or a wooden floor), this ability will instead break through the surface and cause the enemy to fall through, dealing the same amount of force damage to any objects hit.",
+                  "Once you use this feature, you cannot use it again until you finish a long rest."
+               ]
+            },
+            {
+               "name":"Permanent Black Weapon",
+               "source":"OnePieceHakiAdvancements",
+               "page":175,
+               "type":"Haki Advancement",
+               "rarity":"legendary",
+               "entries":[
+                  {
+                     "type":"entries",
+                     "name":"Prerequisite:",
+                     "entries":[
+                        "{@reward Weapon Hardening|OnePieceHakiAdvancements}"
+                     ]
+                  },
+                  "You coat a weapon with a permanent layer of dark energy that never leaves it.",
+                  "Choose a weapon that is separate from your body. You spend 1 hour infusing it with your spirit. It receives the bonuses from Weapon Hardening and is considered magical permanently or until you end it by spending 1 hour to remove it. Only one weapon can receive the benefits permanent infusion at a time, and it only receives the benefits from the Weapon Hardening advancement feature and no other additional haki advancement features that have been applied to it. If a creature other than you attempts to use this weapon, it must attune to the weapon to gain its benefits. You can still use Weapon Hardening normally on separate weapons while this infusion is active.",
+                  "You can't use this feature again to create a permanently infused weapon until you finish a long rest."
+               ]
+            },
+            {
+               "name":"Thunderbolt Volley",
+               "source":"OnePieceHakiAdvancements",
+               "page":175,
+               "type":"Haki Advancement",
+               "rarity":"legendary",
+               "entries":[
+                  {
+                     "type":"entries",
+                     "name":"Prerequisite:",
+                     "entries":[
+                        "{@reward Spirit Shot|OnePieceHakiAdvancements}, Dexterity 15"
+                     ]
+                  },
+                  "You have harnessed the strength of your spirit to such a degree that you can channel it into your ranged attacks, causing them to hit with the force of a thunderbolt.",
+                  "As an action, select one target you can see within range of your chosen weapon. You fire a single shot imbued with your Haki, which splits into multiple thundering energy bolts mid-flight. Make a single weapon attack roll. On a hit, the target suffers the normal effects of the weapon attack, and it takes an additional {@damage 4d10} force damage.",
+                  "Then, up to six other targets of your choice that you can see within 30 feet of the original target each take force damage equal to the additional force damage roll.",
+                  "After the attack, the force of the unleashed energy causes a thunderous boom that is audible up to 600 feet.",
+                  "Once you use this feature, you can't use it again until you finish a long rest."
+               ]
+            },
+            {
+               "name":"Divine Departure",
+               "source":"OnePieceHakiAdvancements",
+               "page":175,
+               "type":"Haki Advancement",
+               "rarity":"legendary",
+               "entries":[
+                  {
+                     "type":"entries",
+                     "name":"Prerequisite:",
+                     "entries":[
+                        "{@reward Spirit Blast|OnePieceHakiAdvancements}, Dexterity 15 or Strength 15"
+                     ]
+                  },
+                  "You have mastered the art of channeling your Haki into an explosive leap, propelling yourself towards your enemy and delivering a devastating blow.",
+                  "As an action, you can choose a point you can see within 60 feet of you. You leap to that point, and you can make one melee attack against a creature within 5 feet of your landing spot. This attack is made with advantage, and if the attack hits, it deals an additional {@damage 4d10} force damage. The force from your landing also creates a shockwave that spreads out from the point of impact. All creatures within a 15-foot radius of your landing point must make a Dexterity saving throw. On a failed save, they take {@damage 3d10} force damage and are knocked {@condition prone}. On a successful save, they take half as much damage and are not knocked {@condition prone}.",
+                  "Once you use this feature, you can't use it again until you finish a long rest."
+               ]
+            },
+            {
+               "name":"King's Conquest",
+               "source":"OnePieceHakiAdvancements",
+               "page":175,
+               "type":"Haki Advancement",
+               "rarity":"legendary",
+               "entries":[
+                  {
+                     "type":"entries",
+                     "name":"Prerequisite:",
+                     "entries":[
+                        "{@reward Qualities of a King|OnePieceHakiAdvancements}, {@reward Weapon Hardening|OnePieceHakiAdvancements}"
+                     ]
+                  },
+                  "Through rigorous training and self-discovery, you have learned to manifest your Armament and King's Haki in their most potent form, transforming your weapon into an extension of your indomitable will.",
+                  "When you use your Weapon Hardening feature on a weapon you are currently wielding, you may choose to activate King's Conquest. For the next minute, your reach with that weapon increases by 10 feet. When you attack and hit a creature with this weapon, you can choose to push the creature up to 10 feet away from you, in addition to the attack's normal effects. The creature is also {@condition stunned} until the start of your next turn, unless it succeeds on a Constitution saving throw against your Armament Haki save DC.",
+                  "Moreover, once per round on your turn when you hit a creature with the imbued weapon, you can choose to channel the full power of your Haki, dealing additional force damage equal to twice your Proficiency bonus + your Constitution modifier.",
+                  "Once you use this ability, you can't use it again until you finish a long rest."
+               ]
+            }
+         ]
+      }
+   ]
+}
