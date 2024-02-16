@@ -1,0 +1,1358 @@
+{
+   "_meta":{
+      "sources":[
+         {
+            "json":"OnePieceRaces",
+            "abbreviation":"OPR",
+            "full":"One Piece Races",
+            "authors":[
+               "OneWorldHD"
+            ],
+            "convertedBy":[
+               "Tarun"
+            ],
+            "version":"1.0.0",
+            "color":"33FFCA",
+            "url":"https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm",
+            "targetSchema":"1.2"
+         }
+      ],
+      "dateAdded":1707749305,
+      "dateLastModified":1707749305
+   },
+   "race":[
+      {
+         "name":"Cyborg",
+         "source":"OnePiece",
+         "page":"21",
+         "ability":[
+            {
+               "con":2,
+               "choose":{
+                  "from":[
+                     "str",
+                     "dex",
+                     "cha",
+                     "int",
+                     "wis"
+                  ],
+                  "count":1
+               }
+            }
+         ],
+         "size":[
+            "M"
+         ],
+         "speed":30,
+         "traitTags": [
+            "Amphibious",
+            "Natural Armor",
+            "Skill Proficiency",
+            "Tool Proficiency"
+         ],
+         "resist": [
+            "poison"
+         ],
+         "entries": [
+            "Your cyborg will have these traits.",
+            {
+               "type": "entries",
+               "name": "Ability Score Increase",
+               "entries": [
+                  "Your Constitution score increases by 2, and one other ability score of your choice increases by 1."
+               ]
+            },
+            {
+               "type": "entries",
+               "name": "Age",
+               "entries": [
+                  "Depending on how much of their body has been modified, cyborgs may have longer lifespans compared to other races. In theory, they are should still remain mortal so long as parts of them still remain organic."
+               ]
+            },
+            {
+               "type": "entries",
+               "name": "Alignment",
+               "entries": [
+                  "It can be assumed that many cyborgs act Lawfully, but they can technically fall under any alignment."
+               ]
+            },
+            {
+               "type": "entries",
+               "name": "Size",
+               "entries": [
+                  "Cyborgs in the One Piece World are typically 5-6 feet tall. Some can rest far outside this range, but your size will count as medium."
+               ]
+            },
+            {
+               "type": "entries",
+               "name": "Speed",
+               "entries": [
+                  "Your base walking speed is 30 feet."
+               ]
+            },
+            {
+               "type": "entries",
+               "name": "Steel Skin",
+               "entries": [
+                  "Your body has a layer of defensive metal beneath or replacing your skin, which can be enhanced with armor:",
+                  "You gain a +1 bonus to Armor Class.",
+                  "To reinforce your metal skin, first you must disassemble a piece of mundane or magical armor. After doing so, you must spend an hour consistently incorporating these parts into your skin. Once you are finished, you gain the AC and bonuses of your chosen armor as if you were wearing it, as well as all of the side-effects of that armor. To remove this armor, you must spend an hour replacing it with artificial skin.",
+                  "This metal skin cannot be removed from your body against your will."
+               ]
+            },
+            {
+               "type": "entries",
+               "name": "Robotic Resistance",
+               "entries": [
+                  "You have advantage on Saving Throws against being Poisoned, and you have Resistance to poison damage."
+               ]
+            },
+            {
+               "type": "entries",
+               "name": "Refueling",
+               "entries": [
+                  "In place of eating food and drinking water each day, you must instead consume an equivalent amount of fuel to what a normal creature of your size would eat. The type of fuel you use can range from cola to gasoline (your choice), which costs roughly ฿5,000. Starvation rules apply to consuming fuel as they would with food for another race."
+               ]
+            },
+            {
+               "type": "entries",
+               "name": "Maintenance",
+               "entries": [
+                  "Instead of sleeping each day, you instead conduct maintenance on your body during a Long Rest. This includes oiling your joints, repairing any dents or broken parts, or fixing anything else you'd need to maintain. This takes at least six hours to complete. You are able to see and hear normally while you complete these tasks."
+               ]
+            },
+            {
+               "type": "entries",
+               "name": "Cyborg Upgrades",
+               "entries": [
+                  "You install a weapon or tool feature of your choice listed below into your body. Each time you level up, you can choose to completely replace one of these features with another one. At 5th level, you can install and use a second upgrade feature of your choice:",
+                  {
+                     "type": "list",
+                     "items": [
+                        "Flail Arm. When you make a unarmed strike or melee weapon attack on your turn that requires your arms to use, you can choose to extend its reach for that attack by 5 feet. You can only use this once on a single melee attack per turn.",
+                        "Flame Breath. You learn the {@spell Create Bonfire|PHB} cantrip, which you produce from your mouth. Constitution is your Spellcasting Ability for this Spell.",
+                        "Refrigerated Stomach. You may store up to 30 pounds of gear in your body, concealed and protected by your metallic flesh. This also acts to chill and preserve any food or fuel you may want to store.",
+                        "Air Blast. You learn the {@spell Thunder Clap|PHB} cantrip, which you produce from air emitted from your body. Constitution is your Spellcasting Ability for this Spell.",
+                        "Propeller Body Your limbs can rotate at extreme speeds in water, acting as a boat propeller. You gain a swimming speed of 25 feet.",
+                        "Centaur Form Using an action to morph your lower body into the form of a horse, your speed increases by 10 feet for one minute. Additionally, you have advantage on all Strength checks and you can allow a medium or smaller creature to use you as a mount for the duration. Once you use this feature, you cannot use it again until you complete a short or long rest.",
+                        "Shape-Memory Alloy Body. You gain one skill proficiency and one tool proficiency of your choice, which you can choose to swap out each time you level up.",
+                        "Arsenal Infusion. You can spend an hour incorporating a single weapon you are proficient with into your body. Upon doing so, you can use this weapon as you normally would. Additionally, this weapon cannot be taken or removed from your body against your will. You may spend an hour to remove this weapon from your body.",
+                        "Night Lens. You can see in {@quickref Vision and Light||2||dim light} within 60 feet of you as if it were {@quickref Vision and Light||2||bright light}, and in Darkness as if it were {@quickref Vision and Light||2||dim light}. You can't discern color in Darkness, only Shades of Gray.",
+                        "Headlights. Lights on your body emit {@quickref Vision and Light||2||bright light} in a 20-foot radius and {@quickref Vision and Light||2||dim light} for an additional 20 feet.",
+                        "Extended Flail. This is an upgrade of the Flail Arm Feature, meaning you must also have that upgrade learned in order to learn and use this one as well. Your Flail Arm reach extends to 10 feet.",
+                        "Flamethrower. This is an upgrade of the Flame Breath Feature, meaning you must also have that upgrade learned in order to learn and use this one as well. You learn the {@spell Burning Hands|PHB} spell cast at the 2nd-Level, which acts as a powerful spray of fire emitted from your body. Constitution is your Spellcasting Ability for this Spell. Once you use this feature, you cannot use it again until you complete a long rest.",
+                        "Radical Beam. This is an upgrade of the Air Blast Feature, meaning you must also have that upgrade learned in order to learn and use this one as well. You learn the {@spell Moonbeam|PHB} spell, which acts as a powerful explosive laser beam emitted from you body. Constitution is your Spellcasting Ability for this Spell. Once you use this feature, you cannot use it again until you complete a long rest.",
+                        "General Cannon. This is an upgrade of the Air Blast Feature, meaning you must also have that upgrade learned in order to learn and use this one as well. You learn the {@spell Shatter|PHB} spell, which you produce from air emitted from your body. Constitution is your Spellcasting Ability for this Spell. Once you use this feature, you cannot use it again until you complete a long rest.",
+                        "Larger Propellers. This is an upgrade of the Propeller Body Feature, meaning you must also have that upgrade learned in order to learn and use this one as well. You can now spin parts of your body like a propeller to lift you into the air. You now have a flying speed of 10 feet.",
+                        "General Form. This is an upgrade of the Centaur Form Feature, meaning you must also have that upgrade learned in order to learn and use this one as well. You can now transform your body into a larger robotic form until you run out of energy. You can cast the {@spell Enlarge/Reduce} spell on yourself once with this trait, using only the spell's enlarge option, appearing to transform into a larger metal version of yourself. You regain the ability to cast this spell with this trait when you finish a long rest.",
+                        "Advanced Shape-Memory Alloy. This is an upgrade of the Shape-Memory Alloy Body Feature, meaning you must also have that upgrade learned in order to learn and use this one as well. You learn an additional Skill of your choice. Additionally, you learn the Shield spell. Once you use this feature, you cannot use it again until you complete a long rest.",
+                        "Grand Arsenal. This is an upgrade of the Arsenal Infusion Feature, meaning you must also have that Upgrade learned in order to learn and use this one as well. You are able to implement one more weapon into your body using Arsenal Infusion."
+                     ]
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name":"Fish-Man",
+         "source":"OnePiece",
+         "page":15,
+         "ability":[
+            {
+               "con":1
+            }
+         ],
+         "size":[
+            "M"
+         ],
+         "traitTags":[
+            "Amphibious",
+            "Skill Proficiency"
+         ],
+         "resist":[
+            "cold"
+         ],
+         "entries":[
+            "Your fish-man character will have these traits.",
+            {
+               "type":"entries",
+               "name":"Ability Score Increase",
+               "entries":[
+                  "Your consitution score increases by 1."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Age",
+               "entries":[
+                  "Fish-men reach adulthood in their teens and live for around a century."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Alignment",
+               "entries":[
+                  "Most fish-men are lawful and many stay true to their values, though some lean toward being neutral. Fish-men can live in harmony with other sea creatures, but may turn violent against humans. For this reason, a fish-man can range from being good to evil."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Size",
+               "entries":[
+                  "Fish-men are between 7 and 8 feet tall and weigh between 280 and 340 pounds on average. Your size is medium."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Speed",
+               "entries":[
+                  "Your base walking speed is 30 feet, and you have a Swimming speed of 35 feet."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Amphibious",
+               "entries":[
+                  "You can breathe air and water."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Underwater Athlete",
+               "entries":[
+                  "You have proficiency in the {@skill Athletics} skill. While underwater, you face no penalties or disadvantage as a result of underwater combat rules."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Adapted to the Sea",
+               "entries":[
+                  "With the ability to adapt to extreme underwater depths, you have Resistance to cold damage."
+               ]
+            }
+         ],
+         "subraces":[
+            {
+               "name":"Shark Trait",
+               "source":"OnePiece",
+               "raceName":"Fish-Man",
+               "raceSource":"OnePiece",
+               "ability":[
+                  {
+                     "str":2
+                  }
+               ],
+               "entries":[
+                  "These fish-men are known to have sharp shark-like teeth, light blue-tinted skin, large back fins, and extreme strength.",
+                  {
+                     "type":"entries",
+                     "name":"Ability Score Increase",
+                     "entries":[
+                        "Your Strength score increases by 2."
+                     ]
+                  },
+                  {
+                     "type":"entries",
+                     "name":"Apex Predator",
+                     "entries":[
+                        "Apex Predtaor You have proficiency in the {@skill Intimidation} skill."
+                     ]
+                  },
+                  {
+                     "type":"entries",
+                     "name":"Bite",
+                     "entries":[
+                        "Your razor-sharp teeth are a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to {@dice 1d6} + your Strength modifier, instead of the bludgeoning damage normal for an Unarmed Strike."
+                     ]
+                  }
+               ]
+            },
+            {
+               "name":"Manta Ray Traits",
+               "source":"OnePiece",
+               "raceName":"Fish-Man",
+               "raceSource":"OnePiece",
+               "ability":[
+                  {
+                     "dex":2
+                  }
+               ],
+               "entries":[
+                  "These fish-men are known to have wide side-fins and light-blue skin, moving at high speeds underwater.",
+                  {
+                     "type":"entries",
+                     "name":"Ability Score Increase",
+                     "entries":[
+                        "Your Dexterity score increases by 2."
+                     ]
+                  },
+                  {
+                     "type":"entries",
+                     "name":"Underwater Acrobatics",
+                     "entries":[
+                        "Underwater {@skill Acrobatics} You gain proficiency in the {@skill Acrobatics} skill. You have advantage on acrobatics check made while underwater."
+                     ]
+                  },
+                  {
+                     "type":"entries",
+                     "name":"Sea Glide",
+                     "entries":[
+                        "You have a Swimming speed of 40 feet"
+                     ]
+                  }
+               ]
+            },
+            {
+               "name":"Octopus Traits",
+               "source":"OnePiece",
+               "raceName":"Fish-Man",
+               "raceSource":"OnePiece",
+               "traitTags":[
+                  "Tool Proficiency"
+               ],
+               "ability":[
+                  {
+                     "dex":1,
+                     "str":1
+                  }
+               ],
+               "entries":[
+                  "These fish-men are known to have wide side-fins and light-blue skin, moving at high speeds underwater.",
+                  {
+                     "type":"entries",
+                     "name":"Ability Score Increase",
+                     "entries":[
+                        "Your Strength and Dexterity scores both increase by 1."
+                     ]
+                  },
+                  {
+                     "type":"entries",
+                     "name":"Deadly Precision",
+                     "entries":[
+                        "Deadly Precision You gain proficiency in one of the following: sleight of hand or an Artisan's tool of your choice."
+                     ]
+                  },
+                  {
+                     "type":"entries",
+                     "name":"Multi-Armed",
+                     "entries":[
+                        "You have four additional arms, six in total. While you cannot efficiently wield weapons with these arms, you may use them to hold smaller items such as potions and trinkets. Additionally, you have advantage on grapple checks with your arms."
+                     ]
+                  }
+               ]
+            },
+            {
+               "name":"Smelt-Whiting Traits",
+               "source":"OnePiece",
+               "raceName":"Fish-Man",
+               "raceSource":"OnePiece",
+               "traitTags":[
+                  "Amphibious",
+                  "Skill Proficiency"
+               ],
+               "ability":[
+                  {
+                     "cha":2
+                  }
+               ],
+               "entries":[
+                  "Smelt-whiting fish-men are known to have more dominant fish-like characteristics compared to other fish-men, and can spit water at their enemies.",
+                  {
+                     "type":"entries",
+                     "name":"Ability Score Increase",
+                     "entries":[
+                        "Your Charisma score increases by 2."
+                     ]
+                  },
+                  {
+                     "type":"entries",
+                     "name":"Big-Mouthed",
+                     "entries":[
+                        "You gain proficiency in the {@skill Deception} or {@skill Persuasion} skill (your choice).",
+                        "Hydro Cannon You have the natural ability to shoot concentrated blasts of water out of your mouth. You can cast {@spell ray of frost} with this trait. Starting at 3rd Level, you can cast {@spell Ice Knife|XGE} with it. Once you Cast a Spell with this trait, you can't cast that spell with it again until you finish a Long Rest. Charisma is your Spellcasting Ability for these Spells"
+                     ]
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name":"Merfolk",
+         "source":"OnePiece",
+         "page":16,
+         "size":"M",
+         "ability":[
+            {
+               "cha":1,
+               "dex":1,
+               "wis":1
+            }
+         ],
+         "speed":[
+            
+         ],
+         "traitTags":[
+            "Amphibious"
+         ],
+         "languageProficiencies":[
+            {
+               "other":true
+            }
+         ],
+         "resist":[
+            "cold"
+         ],
+         "entries":[
+            "Your merfolk character will have these traits.",
+            {
+               "type":"entries",
+               "name":"Ability Score Increase",
+               "entries":[
+                  "Your Dexterity, Wisdom, and Charisma scores each increase by 1."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Age",
+               "entries":[
+                  "Merfolk reach adulthood in their teens, mature considerably in their 30s, and live for around a century."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Alignment",
+               "entries":[
+                  "Most merfolk are neutral or lawful good. However, few may turn violent against humans and become evil. They are rarely chaotic in nature."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Size",
+               "entries":[
+                  "Merfolk are between 6 and 7 feet long and weigh between 160 and 240 pounds on average. Your size is medium."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Speed",
+               "entries":[
+                  "Your base walking speed is 10 feet, and you have a Swimming speed of 50 feet. Once you reach age 30 as a female, your walking speed becomes 30 feet."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Amphibious",
+               "entries":[
+                  "You can breathe air and water."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Merfolk Training⁠",
+               "entries":[
+                  "You have proficiency with the spear, Trident, and net."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Merfolk Combat",
+               "entries":[
+                  "Being trained in underwater combat, you can control the flow of water to attack your enemies (ice and cold damage is treated as water). You can cast {@spell Ray of Frost} with this trait. Starting at 3rd Level, you can cast {@spell Ice Knife|XGE} with it, and starting at 5th Level, you can also cast {@spell Rime's Binding Ice|FTD} with it. Once you Cast a Spell with this trait, you can't cast that spell with it again until you finish a Long Rest. Charisma is your Spellcasting Ability for these Spells."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Adapted to the Sea",
+               "entries":[
+                  "With the ability to adapt to extreme underwater depths, you have Resistance to cold damage."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Languages",
+               "entries":[
+                  "Merfolk can all speak and understand the universal spoken language of this world. Additionally, using gestures and sounds, you can communicate simple ideas with any beast that has an innate Swimming speed."
+               ]
+            }
+         ]
+      },
+      {
+         "name":"Sky Islander",
+         "source":"OnePiece",
+         "page":17,
+         "ability":[
+            {
+               "dex":1
+            }
+         ],
+         "speed":30,
+         "size":"M",
+         "entries":[
+            "Your sky islander will have these traits.",
+            {
+               "type":"entries",
+               "name":"Ability Score Increase",
+               "entries":[
+                  "Your Dexterity score increases by 1."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Age",
+               "entries":[
+                  "Sky islanders reach adulthood in their teens and live for around a century."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Alignment",
+               "entries":[
+                  "Sky islanders vary in alignment, ranging from good to evil, lawful to chaotic, but are typically neutral in some way."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Size",
+               "entries":[
+                  "Sky islanders in the One Piece World are typically 5-6 feet tall. Some can rest far outside this range, but your size will count as medium."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Speed",
+               "entries":[
+                  "Your base walking speed is 30 feet."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Protection of the Clouds",
+               "entries":[
+                  "You are able to form fluffy floating clouds around you to reduce the speed of your fall. You gain the ability to cast {@spell Feather Fall}. Once you use this ability, you cannot use it again until you complete a Short or Long rest."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Dial Proficiency",
+               "entries":[
+                  "You innately understand dials that have came from sky islands and can carry one with you. Roll once on the Simple Dial Table in Chapter 5 to determine which one you start with."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Languages",
+               "entries":[
+                  "Sky islanders can all speak and understand the universal spoken language of this world."
+               ]
+            }
+         ],
+         "subraces":[
+            {
+               "name":"Shandian",
+               "source":"OnePiece",
+               "raceName":"Sky Islander",
+               "raceSource":"OnePiece",
+               "weaponProficiencies":[
+                  {
+                     "quarterstaff":true,
+                     "halberd":true,
+                     "pike":true,
+                     "glaive":true,
+                     "spear":true,
+                     "firearms":true
+                  }
+               ],
+               "ability":[
+                  {
+                     "str":2
+                  }
+               ],
+               "entries":[
+                  "Your Shandian heritage has gifted you with great strength and combat expertise.",
+                  {
+                     "type":"entries",
+                     "name":"Ability Score Increase",
+                     "entries":[
+                        "Your Strength score increases by 2."
+                     ]
+                  },
+                  {
+                     "type":"entries",
+                     "name":"Shandian Weapon Training",
+                     "entries":[
+                        "You have proficiency with the quarterstaff, halberd, pike, glaive, spear, and heavy firearms."
+                     ]
+                  }
+               ]
+            },
+            {
+               "name":"Berkians",
+               "source":"OnePiece",
+               "raceName":"Sky Islander",
+               "raceSource":"OnePiece",
+               "ability":[
+                  {
+                     "wis":2
+                  }
+               ],
+               "entries":[
+                  "Your Birkan heritage has gifted you with powerful observation and foresight through mantra.",
+                  {
+                     "type":"entries",
+                     "name":"Ability Score Increase",
+                     "entries":[
+                        "Your Wisdom score increases by 2."
+                     ]
+                  },
+                  {
+                     "type":"entries",
+                     "name":"Mantra Specialist",
+                     "entries":[
+                        "You can choose to take the Color of Observation Training feat if you meet the prerequisite."
+                     ]
+                  }
+               ]
+            },
+            {
+               "name":"Skypeans",
+               "source":"OnePiece",
+               "raceName":"Sky Islander",
+               "raceSource":"OnePiece",
+               "ability":[
+                  {
+                     "int":2
+                  }
+               ],
+               "entries":[
+                  "Your Skypiean heritage has gifted you with great knowledge of dials.",
+                  {
+                     "type":"entries",
+                     "name":"Ability Score Increase",
+                     "entries":[
+                        "Your Intelligence score increases by 2."
+                     ]
+                  },
+                  {
+                     "type":"entries",
+                     "name":"Advanced Dial Proficiency",
+                     "entries":[
+                        "You start with an additional Dial, allowing you to roll once more on the {@table Simple Dial|OnePiece} Table to determine what other Dial you start with. Additionally, you gain advantage on all checks made to find a dial."
+                     ]
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name":"Mink",
+         "source":"OnePiece",
+         "page":15,
+         "ability":[
+            {
+               "str":1,
+               "dex":1,
+               "wis":1
+            }
+         ],
+         "size":"M",
+         "speed":30,
+         "traitTags":[
+            "Natural Weapon",
+            "Skill Proficiency"
+         ],
+         "resist":[
+            "lightning"
+         ],
+         "entries":[
+            "Your mink will have these traits.",
+            {
+               "type":"entries",
+               "name":"Ability Score Increase",
+               "entries":[
+                  "Your Strength, Dexterity, and Wisdom scores each increase by 1."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Age",
+               "entries":[
+                  "Minks reach adulthood in their teens and live for around a century."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Alignment",
+               "entries":[
+                  "Most minks are neutral or lawful good. However, few may turn chaotic and give into their primal urges if exposed to the full moon for long enough."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Size",
+               "entries":[
+                  "Minks in the One Piece World are typically 5-6 feet tall. Some can rest far outside this range, but your size will count as medium."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Speed",
+               "entries":[
+                  "Your base walking speed is 30 feet."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Darkvision",
+               "entries":[
+                  "You have an animal's keen Senses, especially in the dark. You can see in {@quickref Vision and Light||2||dim light} within 60 feet of you as if it were {@quickref Vision and Light||2||bright light}, and in Darkness as if it were {@quickref Vision and Light||2||dim light}. You can't discern color in Darkness, only Shades of Gray."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Beast's Slash",
+               "entries":[
+                  "Because of your beast-like features, you have a climbing speed of 20 feet. In addition, your body is a natural Weapon, which you can use to make unarmed strikes. You can choose to deal slashing for your unarmed strikes, and your unarmed strike damage dice becomes a minimum of {@dice 1d6}."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Animal Instinct",
+               "entries":[
+                  "You have proficiency in the {@skill Perception} and {@skill Stealth} Skills."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Electro",
+               "entries":[
+                  "You know the {@spell Shocking Grasp|PHB} cantrip. Wisdom is your Spellcasting Ability for this Spell. Additionally, you are Resistant to lightning damage."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Sulong Transformation",
+               "entries":[
+                  "Starting at 3rd Level, you can use your action to channel moonlight energy into your body and transform into a powerful bright white primal form with longer hair and enhanced size, bolstering your strength, speed, and electro.",
+                  "Your transformation lasts for 1 minute or until you end it as a Bonus Action. During it, your speed increases by 10 feet, you have advantage on strength checks, and once on each of your turns, you can deal extra electric damage to one target when you deal damage to it with an {@action Attack} or a spell. The extra electric damage equals your level.",
+                  "Once you use this trait, you can't use it again until you finish a Long Rest."
+               ]
+            }
+         ]
+      },
+      {
+         "name":"Yokai Tribesman",
+         "source":"OnePiece",
+         "page":20,
+         "ability":[
+            {
+               "cha":1
+            }
+         ],
+         "size":"M",
+         "speed":30,
+         "traitTags":[
+            "Skill Proficiency",
+            "Tool Proficiency"
+         ],
+         "entries":[
+            "Your yokai tribesman will have these traits.",
+            {
+               "type":"entries",
+               "name":"Ability Score Increase",
+               "entries":[
+                  "Your Charisma score increases by 1."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Age",
+               "entries":[
+                  "Yokai Tribesmen reach adulthood in their teens and live for around a century."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Alignment",
+               "entries":[
+                  "Yokai Tribesmen display various alignments, but many are seen as evil. However, any alignment can be reasonably chosen."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Tribal Charisma",
+               "entries":[
+                  "The pride of your race and features has made you unbelievably confident in conversations. You have proficiency in the {@skill Intimidation} and {@skill Persuasion} skills."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Crafty",
+               "entries":[
+                  "You gain proficiency in one tool or instrument of your choice."
+               ]
+            }
+         ],
+         "subraces":[
+            {
+               "name":"Longleg Tribesman",
+               "source":"OnePiece",
+               "raceName":"Yokai Tribesman",
+               "raceSource":"OnePiece",
+               "speed":35,
+               "ability":[
+                  {
+                     "dex":2
+                  }
+               ],
+               "overwrite":{
+                  "speed":35
+               },
+               "entries":[
+                  "Your longleg tribesman has been gifted with magnificent long legs that grant them the following traits.",
+                  {
+                     "type":"entries",
+                     "name":"Ability Score Increase",
+                     "entries":[
+                        "Your Dexterity score increases by 2."
+                     ]
+                  },
+                  {
+                     "type":"entries",
+                     "name":"Size",
+                     "entries":[
+                        "Longleg tribesmen in the One Piece World are typically 7-8 feet tall. Some can rest far outside this range, but your size will count as medium."
+                     ]
+                  },
+                  {
+                     "type":"entries",
+                     "name":"Speed",
+                     "entries":[
+                        "Your base walking speed is 35 feet."
+                     ]
+                  },
+                  {
+                     "type":"entries",
+                     "name":"Longleg Stride",
+                     "entries":[
+                        "Your massive legs allow you to move with a burst of speed. When you move on Your Turn in Combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns."
+                     ]
+                  }
+               ]
+            },
+            {
+               "name":"Longarm Tribesman",
+               "source":"OnePiece",
+               "raceName":"Yokai Tribesman",
+               "raceSource":"OnePiece",
+               "ability":[
+                  {
+                     "str":2
+                  }
+               ],
+               "traitTags":[
+                  "Powerful Build"
+               ],
+               "entries":[
+                  "Your longarm tribesman has been gifted with long and lanky arms that grant immense strength and reach.",
+                  {
+                     "type":"entries",
+                     "name":"Ability Score Increase",
+                     "entries":[
+                        "Your Strength score increases by 2."
+                     ]
+                  },
+                  {
+                     "type":"entries",
+                     "name":"Size",
+                     "entries":[
+                        "Longarm tribesmen in the One Piece World are typically 5-6 feet tall. Some can rest far outside this range, but your size will count as medium."
+                     ]
+                  },
+                  {
+                     "type":"entries",
+                     "name":"Speed",
+                     "entries":[
+                        "Your base walking speed is 30 feet."
+                     ]
+                  },
+                  {
+                     "type":"entries",
+                     "name":"Long-Limbed",
+                     "entries":[
+                        "When you make a melee {@action Attack} on Your Turn, your reach for it is 5 feet greater than normal."
+                     ]
+                  },
+                  {
+                     "type":"entries",
+                     "name":"Powerful Build",
+                     "entries":[
+                        "You count as one size larger when determining your carrying Capacity and the weight you can push, drag, or lift."
+                     ]
+                  }
+               ]
+            },
+            {
+               "name":"Snakeneck Tribesman",
+               "source":"OnePiece",
+               "raceName":"Yokai Tribesman",
+               "raceSource":"OnePiece",
+               "ability":[
+                  {
+                     "int":2
+                  }
+               ],
+               "traitTags":[
+                  "Skill Proficiency"
+               ],
+               "entries":[
+                  {
+                     "type":"entries",
+                     "name":"Ability Score Increase",
+                     "entries":[
+                        "Your Intelligence score increases by 2."
+                     ]
+                  },
+                  {
+                     "type":"entries",
+                     "name":"Size",
+                     "entries":[
+                        "Snakeneck tribesmen in the One Piece World are typically 6-8 feet tall due to their long neck. Some can rest far outside this range, but your size will count as medium."
+                     ]
+                  },
+                  {
+                     "type":"entries",
+                     "name":"Speed",
+                     "entries":[
+                        "Your base walking speed is 30 feet."
+                     ]
+                  },
+                  {
+                     "type":"entries",
+                     "name":"Quick Reflexes",
+                     "entries":[
+                        "You can add your proficiency bonus to your initiative rolls."
+                     ]
+                  },
+                  {
+                     "type":"entries",
+                     "name":"Serpentine Senses",
+                     "entries":[
+                        "You have proficiency in the {@skill Perception} skill."
+                     ]
+                  }
+               ]
+            },
+            {
+               "name":"Three-Eyed Tribesman",
+               "source":"OnePiece",
+               "raceName":"Yokai Tribesman",
+               "raceSource":"OnePiece",
+               "ability":[
+                  {
+                     "wis":2
+                  }
+               ],
+               "traitTags":[
+                  "Blindsight"
+               ],
+               "entries":[
+                  "Your three-eyed tribesman is gifted with a third eye on the center of their forehead which grants them mysterious powers.",
+                  {
+                     "type":"entries",
+                     "name":"Ability Score Increase",
+                     "entries":[
+                        "Your Wisdom score increases by 2."
+                     ]
+                  },
+                  {
+                     "type":"entries",
+                     "name":"Size",
+                     "entries":[
+                        "Three-eyed tribesmen in the One Piece World are typically 5-6 feet tall. Some can rest far outside this range, but your size will count as medium."
+                     ]
+                  },
+                  {
+                     "type":"entries",
+                     "name":"Speed",
+                     "entries":[
+                        "Your base walking speed is 30 feet."
+                     ]
+                  },
+                  {
+                     "type":"entries",
+                     "name":"Darkvision",
+                     "entries":[
+                        "You can see in {@quickref Vision and Light||2||dim light} within 60 feet of you as if it were {@quickref Vision and Light||2||bright light}, and in Darkness as if it were {@quickref Vision and Light||2||dim light}. You can't discern color in Darkness, only Shades of Gray."
+                     ]
+                  },
+                  {
+                     "type":"entries",
+                     "name":"All-Seeing",
+                     "entries":[
+                        "You have {@sense blindsight} with a range of 10 feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're {@condition blinded} or in darkness."
+                     ]
+                  },
+                  {
+                     "type":"entries",
+                     "name":"Third Eye (Optional)",
+                     "entries":[
+                        "Three-eyed tribesmen can all speak and understand the universal spoken language of this world. Additionally, some can awaken their third eye to be able to read and understand the language of the Poneglyphs (up to DM discretion)."
+                     ]
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name": "Dwarf ",
+         "source": "OnePiece",
+         "page": 23,
+         "ability": [
+            {
+               "Dex": 1
+            }
+         ],
+         "size": [
+            "T"
+         ],
+         "speed": 30,
+         "entries": [
+            "Your dwarf will have these traits",
+            {
+               "type": "entries",
+               "name": "Ability Score Increase",
+               "entries": [
+                  "Your Dexterity score increases by 1."
+               ]
+            },
+            {
+               "type": "entries",
+               "name": "Age",
+               "entries": [
+                  "Dwarves reach adulthood in their teens and live for around a century."
+               ]
+            },
+            {
+               "type": "entries",
+               "name": "Alignment",
+               "entries": [
+                  "Dwarves are typically Lawful Good, though they may sometimes fall under different alignments."
+               ]
+            },
+            {
+               "type": "entries",
+               "name": "Speed",
+               "entries": [
+                  "Your base walking speed is 30 feet."
+               ]
+            }
+         ],
+         "subraces":[
+            {
+               "name":"Tontatta Tribe",
+               "source":"OnePiece",
+               "raceName":"Dwarf",
+               "raceSource":"OnePiece",
+               "ability":[
+                  {
+                     "str":2
+                  }
+               ],
+               "traitTags": [
+                  "Skill Proficiency"
+               ],
+               "resist": [
+                  "poison"
+               ],
+               "entries": [
+                  "Your tontatta tribesman has been granted supernatural agility, strength, and mastery over cultivating plants.",
+                  {
+                     "type": "entries",
+                     "name": "Ability Score Increase",
+                     "entries": [
+                        "Your Strength score increases by 2."
+                     ]
+                  },
+                  {
+                     "type": "entries",
+                     "name": "Size",
+                     "entries": [
+                        "Dwarves in the One Piece World are typically 6-12 inches tall. Your size is tiny."
+                     ]
+                  },
+                  {
+                     "type": "entries",
+                     "name": "Hard to Detect",
+                     "entries": [
+                        "Your tiny size and evasiveness gives you proficiency in the {@skill Stealth} and {@skill Acrobatics} skills.",
+                        "Glass Cannon Your hit point maximum decreases by 1, and it decreases by 1 every time you gain a level."
+                     ]
+                  },
+                  {
+                     "type": "entries",
+                     "name": "Super Strength",
+                     "entries": [
+                        "You are considered medium size when calculating push, pull, drag, or carry weight. You also roll normally on grapple checks and saves."
+                     ]
+                  },
+                  {
+                     "type": "entries",
+                     "name": "Swift Fury",
+                     "entries": [
+                        "When you reach 3rd level, you can cast the {@spell Zephyr Strike|XGE} spell as a 1st-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell Kinetic Jaunt|SCC} spell once with this trait and regain the ability to do so when you finish a long rest."
+                     ]
+                  },
+                  {
+                     "type": "entries",
+                     "name": "Master Cultivators",
+                     "entries": [
+                        "Your mastery of plants and plant products grants you resistance to poison damage and immunity to the Poisoned condition."
+                     ]
+                  }
+               ]
+            },
+            {
+               "name":"Automata",
+               "source":"OnePiece",
+               "raceName":"Dwarf",
+               "raceSource":"OnePiece",
+               "ability":[
+                  {
+                     "con":2
+                  }
+               ],
+               "traitTags": [
+                  "Amphibious",
+                  "Natural Armor",
+                  "Skill Proficiency"
+               ],
+               "resist": [
+                  "poison"
+               ],
+               "immune": [
+                  "lightning"
+               ],
+               "conditionImmune": [
+                  "disease"
+               ],
+               "entries": [
+                  "Your automata is a race of robots that resemble dwarves and have the ability to travel through outer space and live on the moon.",
+                  {
+                     "type": "entries",
+                     "name": "Ability Score Increase",
+                     "entries": [
+                        "Your Constitution score increases by 2."
+                     ]
+                  },
+                  {
+                     "type": "entries",
+                     "name": "Size",
+                     "entries": [
+                        "Automata are between 3 and 4 feet tall. Your size is small."
+                     ]
+                  },
+                  {
+                     "type": "entries",
+                     "name": "Programmed Minds",
+                     "entries": [
+                        "You are immune to abilities that allow other creatures to read your thoughts."
+                     ]
+                  },
+                  {
+                     "type": "entries",
+                     "name": "Robotic Resilience",
+                     "entries": [
+                        "You were created to have remarkable Fortitude, represented by the following benefits:",
+                        "You have advantage on Saving Throws against being Poisoned, and you have Resistance to poison damage.",
+                        "You don't need to eat, drink, or breathe.",
+                        "You are immune to disease.",
+                        "You don't need to sleep, and magic can't put you to sleep."
+                     ]
+                  },
+                  {
+                     "type": "entries",
+                     "name": "Militaristic Design",
+                     "entries": [
+                        "You gain one skill proficiency and one weapon proficiency of your choice."
+                     ]
+                  },
+                  {
+                     "type": "entries",
+                     "name": "Electric-Powered",
+                     "entries": [
+                        "You are immune to lightning damage. Additionally, if you are hit by an ability that would deal lightning damage, your attack rolls have advantage until the end of your next turn"
+                     ]
+                  },
+                  {
+                     "type": "entries",
+                     "name": "Iron Shell",
+                     "entries": [
+                        "Your metallic body grants you a +1 bonus to Armor Class."
+                     ]
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name":"Lunarian",
+         "source":"OnePiece",
+         "page":24,
+         "ability":[
+            {
+               "dex":2,
+               "con":1
+            }
+         ],
+         "size":"M",
+         "speed":25,
+         "resist": [
+            "fire"
+         ],
+         "entries": [
+            "Your lunarian will have these traits",
+            {
+               "type": "entries",
+               "name": "Ability Score Increase",
+               "entries": [
+                  "Your Dexterity score increases by 2, and your Constitution score increases by 1."
+               ]
+            },
+            {
+               "type": "entries",
+               "name": "Age",
+               "entries": [
+                  "Lunarians live for an unknown period of time, but it can be assumed that they reach adulthood in their teens and live for around a century."
+               ]
+            },
+            {
+               "type": "entries",
+               "name": "Alignment",
+               "entries": [
+                  "There is no clear alignment that is consistent among all lunarians. Just about any alignment can be justified."
+               ]
+            },
+            {
+               "type": "entries",
+               "name": "Size",
+               "entries": [
+                  "Lunarians in the One Piece World are typically very tall, perhaps between 7 and 8 feet tall and weigh between 280 and 340 pounds. Your size is Medium."
+               ]
+            },
+            {
+               "type": "entries",
+               "name": "Speed",
+               "entries": [
+                  "Your base walking speed is 25 feet."
+               ]
+            },
+            {
+               "type": "entries",
+               "name": "Flight",
+               "entries": [
+                  "You have a flying speed of 50 feet. To use this speed, you can't be wearing medium or heavy armor."
+               ]
+            },
+            {
+               "type": "entries",
+               "name": "Fire Resistance",
+               "entries": [
+                  "You have resistance to fire damage."
+               ]
+            },
+            {
+               "type": "entries",
+               "name": "Ignite",
+               "entries": [
+                  "You know the {@spell Produce Flame|PHB} cantrip. When you reach 3rd level, you can cast the {@spell Burning Hands} spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell Flame Blade} spell once with this trait and regain the ability to do so when you finish a long rest. Constitution is your spellcasting ability for these spells."
+               ]
+            }
+         ]
+      },
+      {
+         "name":"Elbaf Giant",
+         "source":"OnePiece",
+         "page":24,
+         "ability":[
+            {
+               "str":4,
+               "con":4,
+               "dex": -2,
+               "int": -3
+            }
+         ],
+         "size":"G",
+         "speed":40,
+         "traitTags": [
+            "Skill Proficiency"
+         ],
+         "entries": [
+            "Your giant will have these traits.",
+            {
+               "type": "entries",
+               "name": "Ability Score Increase",
+               "entries": [
+                  "Your Strength and Constitution scores increase by 4. Your maximum for those scores is now 24. Your Dexterity score decreases by 2, and your Intelligence score decreases by 3."
+               ]
+            },
+            {
+               "type": "entries",
+               "name": "Age",
+               "entries": [
+                  "Giants can live for up to 300+ years."
+               ]
+            },
+            {
+               "type": "entries",
+               "name": "Alignment",
+               "entries": [
+                  "It can be assumed that many giants are neutral, but they can technically fall under any alignment."
+               ]
+            },
+            {
+               "type": "entries",
+               "name": "Size",
+               "entries": [
+                  "Giants in the One Piece World are typically 50-60 feet tall. Some can rest far outside this range, but your size will count as gargantuan."
+               ]
+            },
+            {
+               "type": "entries",
+               "name": "Speed",
+               "entries": [
+                  "Your base walking speed is 40 feet."
+               ]
+            },
+            {
+               "type": "entries",
+               "name": "Warrior Training",
+               "entries": [
+                  "You have proficiency with the Battleaxe, Handaxe, Light Hammer, Longsword, Club, and Spear."
+               ]
+            },
+            {
+               "type": "entries",
+               "name": "Sheer Size",
+               "entries": [
+                  "You have proficiency in the {@skill Athletics} and {@skill Intimidation} skills."
+               ]
+            },
+            {
+               "type": "entries",
+               "name": "Overwhelming Charisma",
+               "entries": [
+                  "Tales of you and your race's pride have spread throughout the world. Not only are you constantly oozing confidence in these things, but you can use your words to inspire and raise the spirits of your allies. Whenever you complete a Long Rest with your party, you can choose to spend 5 minutes making an inspiring speech, granting up to 5 allied creatures of your choice gain temporary HP equal to your proficiency bonus."
+               ]
+            },
+            {
+               "type": "entries",
+               "name": "(Note:)",
+               "entries": [
+                  "Once again, this race is incredibly overpowered so I wouldn't recommend using it in a balanced campaign. However, you may still choose to include this player race in your game if you so desire. Or you can decide to use it for NPC or enemy stat sheets.)"
+               ]
+            }
+         ]
+
+      }
+   ]
+}

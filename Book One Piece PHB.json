@@ -1,0 +1,828 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "OPPHB",
+				"abbreviation": "OP:PHB",
+				"full": "Book: One Piece - The Player Handbook",
+				"authors": [
+					"OneWorldHD"
+				],
+				"convertedBy": [
+					"Tarun"
+				],
+				"version": "1.0",
+				"color": "ac6a4d",
+				"url": "https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm",
+				"targetSchema": "1.2"
+			}
+		],
+		"dateAdded":1707749305,
+        "dateLastModified":1707749305
+	},
+	"book": [
+        {
+			"name": "One Piece: The Player Handbook",
+			"source": "OPPHB",
+			"group": "homebrew",
+			"id": "OPPHB",
+			"published": "",
+			"cover": {
+				"type": "external",
+				"url": "https://i.imgur.com/Uw1QgF6.jpg"
+			},
+			"author": "OneWorldHD",
+			"contents": [
+				{
+					"name": "Starting Information",
+					"headers": [
+						"Some Basic Info About These Rules",
+                        "The World of One Piece"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 0
+					}
+				},
+				{
+					"name": "Making a Character",
+					"headers": [
+						"Setting Up a Character",
+						"1st level and beyond"
+					],
+					"ordinal": {
+						"identifier": 1,
+						"type": "chapter"
+					}
+				},
+				{
+					"name": "Races",
+					"headers": [
+						"Human",
+                        "Fishman",
+                        "Merfolk",
+                        "Sky Islander",
+                        "Mink",
+                        "Yokai Tribesman",
+                        "Cyborg",
+                        "Dwarf [Optional]",
+                        "Lunarian [Optional]",
+                        "Elbaf Giant [Optional]"
+					],
+					"ordinal": {
+						"identifier": 2,
+						"type": "chapter"
+					}
+				},
+				{
+					"name": "Class",
+					"headers": [
+						"Bruiser",
+						"Chemist",
+						"Devilforged",
+						"Hybrid",
+						"Marksman",
+						"Martial Artist",
+						"Priest",
+						"Rogue",
+                        "Skald",
+                        "Tinkerer",
+                        "Warrior"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 3
+					}
+				},
+				{
+					"name": "Crew and Background",
+					"headers": [
+						"Name and Physical Characteristics",
+						"Inspiration Dice Alternative: Pirate Prestige",
+						"Crew Roles",
+						"Backgrounds",
+						"Character Dreams"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 4
+					}
+				},
+				{
+					"name": "Equipment",
+					"headers": [
+						"Wealth",
+						"Armor and Shields",
+						"Weapons",
+						"Adventuring Gear",
+						"Mounts and Vehciles",
+						"Special Equipment",
+						"Expenses",
+						"Trinkets"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 5
+					}
+				},
+				{
+					"name": "Customization & Feats",
+					"headers": [
+						"Multiclassing",
+						"Feats"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 6
+					}
+				},
+				{
+					"name": "Devil Fruits & Haki",
+					"headers": [
+						"Haki",
+						"Devil Fruits",
+                        "Devil Fruit Generation",
+                        "Designing a Devil Fruit Sheet with Steps",
+                        "Designing A Paramecia Devil Fruit Sheet",
+                        "Designing a Zoan Devil Fruit Sheet",
+                        "Designing a Logia Devil Fruit Sheet"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 7
+					}
+				},
+				{
+					"name": "Spell Lists",
+					"headers": [
+						"Class Spells",
+						"Custom Spells"
+					],
+					"ordinal": {
+						"type": "chapter",
+						"identifier": 8
+					}
+				}
+			]
+		}
+	],
+	"bookData": [
+		{
+			"id": "OPPHB",
+			"source": "OPPHB",
+			"data": [
+				{
+					"type": "section",
+					"name": "Starting Information",
+					"page": 3,
+					"entries": [
+						{
+							"type": "image",
+							"href": {
+								"type": "external",
+								"url": "https://i.imgur.com/4kws2K4.jpg"
+							}
+						},
+						"DMs, be sure to explore the [Dungeons and Devil Fruits Dungeon Master's Guide](https://homebrewery.naturalcrit.com/share/sK-UDzk7x8U_) for this project! It offers a wealth of information beneficial for planning your campaign. Also be sure to check out the [Devil Fruit Encyclopedia](https://homebrewery.naturalcrit.com/share/24DkobVl8IGZ), which includes much more information on Devil Fruit powers and details to include in your game!",
+                        "This rulebook aims to be a One Piece-themed adaptation of the Wizards of the Coast D&D 5e rule books. Familiarizing yourself with the basics of these rules before engaging with this system is essential. Once you've grasped the basic rules and terminology, you're good to go.  [Read this to get started if you are new to 5e!](https://dnd.wizards.com/articles/features/basicrules)",
+                        "Furthermore, you'll need a solid understanding of the One Piece Universe. As a Dungeon Master, it's recommended that you watch or read a substantial portion of the series to effectively run this type of game. While it's less critical for players to be familiar with aspects outside of this rulebook, it is still beneficial. Below is a list of considerations and preparations needed before running a game with these rules.",
+						{
+							"type": "section",
+							"name": "Some Basic Info About These Rules",
+							"page": 3,
+							"entries": [
+								"If You're New to D&D or One Piece",
+                                {
+                                    "type":"list",
+                                    "items":[
+                                        "Have a way to run the campaign. If playing online, use a platform such as Roll20 or  something similar. If playing in person, make sure to have many of the required dice and character sheets set up prior to running a game.",
+                                        "Come up with a story and world! You can either set up a sandbox world or make a clear path for your players to take if they are less adventurous. Make sure to discuss this with them prior so that everyone is on the same page about what they find fun.",
+                                        "As stated above, familiaize yourself with One Piece lore and the D&D rules for playes and Dungeon Masters. Below are some more resources to check out!"
+                                    ]
+                                 },
+								{
+									"type": "entries",
+									"name": "Useful Links",
+									"page": 3,
+									"entries": [
+                                        "Devil Fruits - These are magical fruits that have the ability to grant the eater super-human powers. There are some downsides to this, however. Read this to learn about Devil Fruits!",
+                                        "World of One Piece - Most of the One Piece world is full of a variety of wacky large and small islands. There are very few large continents in this world. There is also the grand lind, the red line, the calm belt, and different sections of the ocean. Read this to learn more about the World of One Piece!",
+                                        "Fighting Styles - There are many unique and powerful ways of fighting, even if you are a non-devil fruit user! Read this to learn more about these fighting styles in detail!"
+                                    ]
+								},
+								{
+									"type": "entries",
+									"name": "Da Rules! (5e)",
+									"page": 3,
+									"entries": [
+                                        "If you are running a campaign with these rules, it is important to understand the rules of 5th Edition. I would highly recommend using the Player's Handbook and Dungeon Master's Guide in conjunction with the rules in this book. Most of the rules from 5e will apply to this campaign setting in this rulebook, only because they are the easiest to understand for most people. The only things that will be different are the races, classes, some spells, items, and a few other rules. Take what you want from the 5e rules and add them to your own game if a rule isn't covered in this book!",
+                                        "Many of the standard rules will apply from the 5e rulebooks such as:",
+                                        {
+                                            "type":"list",
+                                            "items":[
+                                                "Spells, class mechanics, leveling, ability scores, character sheets, and skills work similarly with some modifications.",
+                                                "Combat mechanics will function pretty much the same.",
+                                                "Classes and races have been changed or overhauled to fit the One Piece theme.",
+                                                "New player feats will be added and some will be slightly changed.",
+                                                "Mages and magic are treated a bit different in this world and can be explained through science, spiritual skills, and elemental powers people naturally use.",
+                                                "Most supernatural phenomenon are explained by devil fruits and haki, which serve as a potential supplement for magic items."
+                                            ]
+                                         }
+                                    ]
+								},
+								{
+									"type": "entries",
+									"name": "Important Side Note",
+									"page": 3,
+									"entries": [
+                                        "Understand that when reading this, it is only used as a guide to help you run or play in a game of your own. It is entirely fanmade homebrew. In other words, the Dungeon Master has the final say about what the rules are. You could use 100% of these rules or only 10% , it is up to how you want to run your world! There may be a few typos or grammatical errors, and I will try to spot and fix them. Otherwise, thank you for reading this!"
+                                    ]
+								},
+								{
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://logos-world.net/wp-content/uploads/2023/03/Straw-Hat-Logo.png"
+									}
+								}
+							]
+						},
+                        {
+							"type": "section",
+							"name": "The World of One Piece",
+							"page": 4,
+							"entries": [
+								"The map below gives a basic outline and potential roadmap for you to use for your own adventure. This section will also brief players who are new to the geography or nature of the One Piece world. You can either use the islands, factions, kingdoms, and objectives established in the main series. Or you could opt to make an entirely separate alternate universe with new factions, islands, and kingdoms custom tailored for your group's adventure.",
+	                            "Alternatively, you could use a mix of both types of settings, giving homage to certain locations, groups, and characters with your own spin while creating several new islands, allies, and villains for the group to meet. However you choose to run your campaign, using this world map will give you and your players an idea of a path to take to move forward toward adventure and the One Piece.",
+                                {
+									"type": "image",
+									"href": {
+										"type": "external",
+										"url": "https://i.imgur.com/HCAPGPS.png"
+									}
+								},
+								{
+									"type": "entries",
+									"name": "The Four Blue Seas",
+									"page": 4,
+									"entries": [
+                                        {
+                                            "type":"list",
+                                            "items":[
+                                                {
+                                                    "type": "entries",
+                                                    "name": "North Blue",
+                                                    "entries": [
+                                                        "A sea in which many legendary pirates and factions were birthed. The North Blue contains many great kingdoms, as well as once being ruled by the Vinsmoke family, and mostly ocean with smaller islands and some continents."
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "entries",
+                                                    "name": "East Blue",
+                                                    "entries": [
+                                                        "Considered the weakest of all the seas. The East Blue contains mostly ocean with many small islands and some continents."
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "entries",
+                                                    "name": "South Blue",
+                                                    "entries": [
+                                                        "A sea that, similar to the North Blue, was the home of many famous pirates. The South Blue contains many great kingdoms and mostly ocean with smaller islands and some continents."
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "entries",
+                                                    "name": "West Blue",
+                                                    "entries": [
+                                                        "A sea riddled with crime, being ruled by various mafia organizations that run a strong Underworld. The West blue contains mostly ocean with smaller islands."
+                                                    ]
+                                                }
+                                            ]
+                                         }
+                                    ]
+								},
+								{
+									"type": "entries",
+									"name": "The Grand Line",
+									"page": 5,
+									"entries": [
+                                        "The Grand Line attracts an unsurmountable number of pirates and adventurers, both powerful and weak, to its seas. Many fail to even reach this sea, struggling to navigate its treacherous waters, extreme weather conditions, and powerful rival pirate crews or Marine forces. This sea also requires special tools to navigate. \"Log Pose\" compasses, for example, must be used to properly navigate and point ships to the next island since the sea's abnormal magnetic fields do not allow for ordinary compasses to be used. Moreover, Log Poses only allow for a limited and linear path to be taken because it will only point to one location at a time once it adjusts to the magnetic field of a nearby island.",
+                                        {
+                                            "type":"list",
+                                            "items":[
+                                                {
+                                                    "type": "entries",
+                                                    "name": "Reverse Mountain and Red Line",
+                                                    "entries": [
+                                                        "Reaching the grand line from the four blue seas requires travel by ship up through the Reverse mountain, which will carry any ship up with its powerful current and down into a single steep river into the Grand Line. This is a one-way trip, however, and a ship cannot pass back up through the reverse mountain once they've arrived in the Grand Line due to the powerful currents.",
+                                                        "Alternatively, one could reach the grand line by traveling across the calm belt. However, the calm belt is incredibly difficult to traverse due to reasons specified below, and is primarily crossed only by the Marines. One last way one could theoretically reach the Grand Line is by traveling across the Red Line itself, which is a massive land formation that is virtually impossible to cross for an ordinary person by foot, to loop around the calm belt and into central portion."
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "entries",
+                                                    "name": "Calm Belt",
+                                                    "entries": [
+                                                        "This calm strip of sea that rests on both outer borders on each side of the Grand Line, contains many islands and creatures within it. However, despite its name, crossing the Calm Belt can prove to be instantly fatal to even the most powerful of pirate crews. Due to the complete absence of ocean currents and winds throughout the Calm Belt, there are very few ships that can effectively move through it. Additionally, a near-infinite number of Sea Kings and other sea monsters make the Calm Belt their home and will immediately destroy any suspecting ship or creature attempting to move over it.",
+                                                        "Only a select few ships manufactured by the Marines or special Kingdoms will dare to cross the Calm Belt using seastone technology or sea monster guides to bypass the dangers it presents."
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "entries",
+                                                    "name": "Paradise",
+                                                    "entries": [
+                                                        "The first half of the Grand Line, often referred to as \"paradise\" when compared to the latter half of the Grand Line. Despite its name, this sea is notably dangerous and will eliminate most newbie pirates that attempt to explore it. Paradise contains many small continents and islands with extreme weather conditions, many of which never change in season, temperature, or climate. Each piece of land may contain villages, cities, kingdoms, or countries. Weather conditions all across Paradise are often lethal to crews without gifted navigators and sturdy ships.",
+                                                        "The Marines, warlords, armies, and established pirate crews will all defend their territories here or attack anyone unfamiliar on sight. Additionally, Sea Monsters and legendary beasts can be found commonly in the oceans or on islands within paradise that can easily threaten to annihilate any unsuspecting ship or traveler."
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "entries",
+                                                    "name": "New World",
+                                                    "entries": [
+                                                        "Both the latter half of the Grand Line and the final frontier, this is the place where the strongest of the strong reside. It is also the deadliest sea, forcing even the most experienced of crews and ships into submission with its ruthless and completely unpredictable weather, hostile climates on many islands, and other supernatural threats that may randomly appear at a moments notice. Much like Paradise, there are many small continents and islands that are spread out across the sea.",
+                                                        "Legendary pirate crews rule over their own massive territories, earning their captains the title \"Emperor\" or \"Yonko\". Each compete for territory and resources, with some even aiming for the title of \"Pirate King\". Territory of the Emperor crews may encompass a massive range of kingdoms, countries, or large sections of ocean. It is often said to survive here, one must align with a Yonko crew or inevitably war against them. There are typically four of these emperors, though that number may change depending on the circumstances and balance of power in the New World. Even the Navy is often afraid of exploring these seas or challenging the mighty Yonko, as more than one Yonko alliance or fleet forming an alliance against them could threaten the entire World Government."
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "entries",
+                                                    "name": "Final Island",
+                                                    "entries": [
+                                                        "To avoid massive spoilers, this section will intentionally be left vague.",
+                                                        "This legendary place rests at the very end of the Grand Line, within the final stretch of the New World. Within this mysterious location exists a colossal treasure that has had most pirates searching for decades to find. It also contains all the mysteries of the past, which will be useful to those searching for the truth of the world. The nature or exact contents of this location are still left open to interpretation, though any DM running their game can allow their players to reach this place by special means specific to their own adventure and world. The name of this island itself can be changed to fit a different plot or storyline for each world.",
+                                                        "However one chooses to run this location, it will most likely be reached at the very end of a campaign and will allow players to access the One Piece in some way. Perhaps it can act as a gateway to the treasure. It could be an underwater city which rises to the sky to carry the players to the treasure. It could even itself be a weapon of some sort that has the capacity to destroy the planet. Because the mystery of the One Piece and Raftel has not been revealed yet (as of 2022), it is fair to insert your own spin on what it could be that players find here"
+                                                    ]
+                                                }
+                                            ]
+                                         }
+                                    ]
+								}
+							]
+						}
+					]
+				},
+                {
+					"type": "section",
+					"name": "Making a Character",
+					"page": 8,
+					"entries": [
+                        {
+                            "type": "image",
+                            "href": {
+                                "type": "external",
+                                "url": "https://lh3.googleusercontent.com/Ryg5ih-fOWbpEGDpbJYJz5RTq3_28Tvo2h3JQRCdiz16lw5ghitDMN6hcWA57g0d6_8VOqQYcCemRBOfZGQA64ZKkFOn71zuF1LDsXwCh4ywF-_z6VqxbBqmbQvK_-PWfZcztxDd1WDTEEUHX6GdP60"
+                            }
+                        },
+						{
+							"type": "section",
+							"name": "Setting Up a Character",
+							"page": 8,
+							"entries": [
+                                "This is typically the first step in any tabletop RPG or D&D-styled game. Use your imagination to think up what type of character you want to be in this world. Make sure it remains mostly thematic in regards to the setting, as this isn't a standard D&D campaign.",
+                                "Think about what race you would like your character to be, their personality, goals, back story, specialties, career, appearance, traits, and relationships. Once you have all of these qualities decided, start following these steps below and writing everything down.",
+                                "Using a \"Character Sheet\" provided by Wizards of the Coast for 5th Edition, you can track much of this. You may need to make a few modifications for certain things, like tracking Devil Fruit powers.",
+                                {
+                                    "type": "entries",
+                                    "page": 8,
+                                    "name": "Choosing Your Race",
+                                    "entries": [
+                                        "Races in the One Piece world are very unique and each exhibit many different abilities and defining traits. Deciding your race can be pretty important to describing your character's appearance and abilities, as well as occasionally defining their goals. Humans are easily the most common race to find when exploring the planet, although you may sometimes find individuals or communities of non-humans living in different areas, typically away from humans.",
+                                        "If you are unsure of which race to go with, Human can be an easy choice. However, races such as Fishmen, Merfolk, Minks, Sky Tribesman, Kuja, Dwarves, and others are all possible races to choose from. More information on these races are listed in Chapter 2."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "page": 8,
+                                    "name": "Choosing Your Class",
+                                    "entries": [
+                                        "Each character should specialize in a field while sailing the seas with their crew. A class will determine your prominent talents and skills, allowing your character to hone and grow their abilities throughout the adventure. For example, a Warrior may focus mainly on fighting while tinkerers can be useful in performing specifics tasks outside of combat that may benefit the group, such as navigating. While having an all-around useful character is important, sometimes it doesn't hurt to have a character that tends to be extremely good at only one thing, so long as they benefit the group and feel fun to play. A well-rounded party can make the journey far more enjoyable in the long-run.",
+                                        "Put some time into deciding what you want your character's role to be in the crew. Maybe discuss it with others in the group to see what would work best for everyone. However, make sure to choose something you will have fun with and appreciate. Once you have a general idea for what your class will be, pick from the classes listed in Chapter 3."
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "page": 8,
+                                    "name": "Determining Your Ability Scores",
+                                    "entries": [
+                                        "The six abilities that are prevalent in every D&D campaign and determine your character's skills are: Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma. When you calculate the number of each ability score, you will need to list them on your character sheet.",
+                                        "The Dungeons and Dragons 5th Editions rules should list how you can determine your Ability Scores. However, I will also explain this process here. Using the Standard Array method, you can take the numbers 15, 14, 13, 12, 10, 8 and assign each number to a different Ability Score.",
+                                        "You may also choose to Roll for your Ability Scores by rolling a {@dice d6} dice four times and recording the sum of the three highest rolls. Repeat this process five more times until you have written down six total sums. Then, allocate each of these six numbers to individual Ability Scores of your choice. As an example, you may end up with the six numbers 17, 11, 13, 9, 12, 14 after rolling. You might decide you want strength to be your highest Ability Score, so you would put 17 for your Strength Score. Then you would fill in your other Ability Scores accordingly.",
+                                        "Lastly, one other way you can decide Ability Scores is through using Point Buy. You can easily find a free Point Buy Caculator online. It is of course always up to the DM to decide what method is used to determine Ability Scores for the party. Once you have calculated your ability scores, you will make changes to them according to your racial feats.",
+                                        {
+                                            "type": "table",
+                                            "caption": "Ability Scores and Modifiers",
+                                            "colLabels": [
+                                                "Ability Score",
+                                                "Modifier"
+                                            ],
+                                            "colStyles": [
+                                                "col-6 text-center",
+                                                "col-6 text-center"
+                                            ],
+                                            "rows": [
+                                                [
+                                                    "1",
+                                                    "-5"
+                                                ],
+                                                [
+                                                    "2-3",
+                                                    "-4"
+                                                ],
+                                                [
+                                                    "4-5",
+                                                    "-3"
+                                                ],
+                                                [
+                                                    "6-7",
+                                                    "-2"
+                                                ],
+                                                [
+                                                    "8-9",
+                                                    "-1"
+                                                ],[
+                                                    "10-11",
+                                                    "0"
+                                                ],
+                                                [
+                                                    "12-13",
+                                                    "+1"
+                                                ],
+                                                [
+                                                    "14-15",
+                                                    "+2"
+                                                ],
+                                                [
+                                                    "16-17",
+                                                    "+3"
+                                                ],
+                                                [
+                                                    "18-19",
+                                                    "+4"
+                                                ],
+                                                [
+                                                    "20-21",
+                                                    "+5"
+                                                ],
+                                                [
+                                                    "22-23",
+                                                    "+6"
+                                                ],
+                                                [
+                                                    "24-25",
+                                                    "+7"
+                                                ],
+                                                [
+                                                    "26-27",
+                                                    "+8"
+                                                ],
+                                                [
+                                                    "28-29",
+                                                    "+9"
+                                                ],
+                                                [
+                                                    "30",
+                                                    "+10"
+                                                ]
+                                            ]
+                                        },
+                                        {
+                                            "type": "entries",
+                                            "page": 9,
+                                            "name": "Beginning With a Devil Fruit, Haki, or Character Feat (Optional)",
+                                            "entries": [
+                                                "If your DM allows for it, your character might've already learned how to use basic haki, learned a character feat, or eaten a Devil Fruit prior to the start of their journey in this campaign. This would mean you gain a Haki ability or random Devil Fruit power at the very beginning of the adventure and cannot consume another Devil Fruit ever again. Of course, this also means you will never be able to swim again. This may make the start of the adventure far easier than normal, but things should even out in difficulty later on.",
+                                                "If you are able to use this rule and start with a Devil Fruit or Haki, you may roll on the \"Uncommon\" Devil Fruit Table in Chapter 7. Once you have rolled your power, you are stuck with it, good or bad. If you instead start with Haki, you gain an \"Uncommon\" Haki Advancement feat of your choice in Chapter 7. If you are starting at later levels or right on the grand line, your DM may allow you to roll on the \"Rare\" Devil Fruit table instead and choose up to a \"Rare\" Haki Advancement feat. Lastly, if neither Haki or a Devil Fruit fits your taste, you may start with a Character Feat in Chapter 6. This can technically be done at any point in character creation, but make sure you meet any prerequisites needed for advancements and feats. Make sure to write down the name and abilities of your Devil Fruit as well as your Haki abilities somewhere on your character sheet or use separate handout provided by your DM."
+                                            ]
+                                        },
+                                        {
+                                            "type": "entries",
+                                            "page": 9,
+                                            "name": "Describing Your Character",
+                                            "entries": [
+                                                "First, hopefully you've already decided on a name for your character. If not, try to think of something you like the sound of. If you can't think of anything, feel free to look up D&D name generators online. Then, start to really develop their personality and appearance in your head.",
+                                                "After you have a concept in mind, you want to start writing and organizing these ideas onto your character sheet. Try to find what Alignment best fits them and their morals. Then, start to think up some defining Personality Traits. Once your mark those down on your character sheet, start getting into their Ideals, Bonds, and Flaws. These will provide a guideline on how you plan on roleplaying and making decisions with your character.",
+                                                "Now you want to decide on your characters Background. Your background will provide you with tools and knowledge gained from how you've lived your life prior to the start of the campaign. This will affect how those who recognize you interact with you, how you're treated by the general public, and what your occupation is or was. A DM may provide you with custom backgrounds for this adventure, but feel free to choose from the ones listed in Chapter 4."
+                                            ]
+                                        },
+                                        {
+                                            "type": "entries",
+                                            "page": 9,
+                                            "name": "Race, Devil Fruit, and Ability Scores",
+                                            "entries": [
+                                                "It is important to take into consideration how your race and Ability Scores can impact your character's appearance and personality. Some One Piece races may be noticeably taller than others, some may be tinier on average, and some may have very distinguishable traits.",
+                                                "Additionally, if you are a Devil Fruit user, you may have certain physical features or personality traits that match the nature or properties of your power. For example, a user of the Moku Moku no mi (Smoke Logia) might be a huge chain smoker who tends to dress in white or gray colored clothing. A user of the Neko Neko no mi, Model: Lion (Zoan) could dress up in flashy golden clothing and consider themselves royalty. If your character ate a Devil Fruit before being introduced to the party, consider incorporating how you got the power and how it impacts your daily life into your background. It is up to you how you want to incorporate the theme of your Devil Fruit into your character.",
+                                                "Furthermore, your final ability scores may also factor into your appearance and attitude. Here are some examples:",
+                                                "A character with high strength may appear physically intimidating and bulky, with defined muscles and a towering figure. With low strength, they might appear scrawny or flabby.",
+                                                "A character with high dexterity may appear incredibly quick and versatile when moving around, with a potentially more lean appearance. With low dexterity, they may be heavier or move a bit slower than others.",
+                                                "A character with high constitution may appear noticeably healthy and sturdy. With low constitution, they may look a tad bit sickly or pale.",
+                                                "A character with high intelligence may appear more structured or knowledgeable when talking to others, perhaps having several books or scrolls in their possession. With low intelligence, they may speak noticeably slow, sometimes having a dumbfounded look on their face when hearing complicated explanations.",
+                                                "A character with high wisdom may appear more aware of their surroundings and have a grasp on the deeper meaning of interactions in their daily lives. With low wisdom, a character may seem aloof or carefree to others.",
+                                                "A character with high charisma will most likely stand out in public and most social situations, having the ability to influence the attitudes and thoughts of others through interacting with them. With low charisma, a character may be more easily ignored or feel slightly more difficult to agree with in conversations."
+                                            ]
+                                        },
+                                        {
+                                            "type": "entries",
+                                            "page": 9,
+                                            "name": "Getting Equipped",
+                                            "entries": [
+                                                "Class and background will typically decide what equipment your character starts with. Your equipment includes weapons, armor, tools, trinkets, clothing, and other gear. Look at Chapter 5 to record this information on your character sheet.",
+                                                "Alternatively, you may choose to purchase your starting equipment instead. You will start with a set number of Belly (฿) to spend on equipment, based on the value given to you by your class.",
+                                                "Further information on starting gold based on class is detailed in Chapter 5. Weapons in the One Piece world include various types of firearms such as pistols, rifles, and occasionally very high-tech weaponry such as laser beams. The most common weapons you will find are guns like flintlocks, and swords such as cutlasses and sabers. Much higher firepower weapons such as cannons are common, but are typically only used on ships or in fortresses.",
+                                                "Melee Weapons require that you roll a {@dice 1d20} and add your strength or dexterity modifier as well as your Proficiency Bonus to the roll to hit. This modifier is also usually added on top of the damage roll. Melee weapons tend to use strength modifiers, but occasionally allow you to use other modifiers depending on your weapon or class.",
+                                                "Ranged Weapons require that you roll a {@dice 1d20} and add your strength or dexterity modifier as well as your Proficiency Bonus to the roll to hit. This modifier is also usually added on top of the damage roll. Ranged weapons tend to use dexterity modifiers, but occasionally allow you to use other modifiers depending on your weapon or class.",
+                                                "Traditional armor is used far less in the One Piece world often due to how inconvenient it can be for mobility, but it can still be rarely utilized by very tanky pirates. For this reason, it might be wise to reflavor these items for certain characters by instead using durable clothing or body armor that can be used underneath clothing as a substitute. Shields are not used quite as often either, but can still be found and used by very defensive-style duelists.",
+                                                "Armor Class without armor is normally equal to 10 + Dexterity Modifier. Certain classes might change how this is calculated. Additionally, wearing armor or using shields will alter the Base or Modifier value of your AC.",
+                                                "Be sure to write down all of these values on your character sheet for easy access and to remember them for combat encounters."
+                                            ]
+                                        },
+                                        {
+                                            "type": "entries",
+                                            "page": 10,
+                                            "name": "Wrapping Up Session 0",
+                                            "entries": [
+                                                "If you are playing with a large group, it is sometimes a good idea to get everyone together a week or so before the first official campaign session to discuss character setup. This is usually called Session 0. With the help of your Dungeon Master and fellow players, try to decide how you want your characters to mesh together. Does everyone in the party/crew know each other before the campaign starts? Does your backstory include any of the other player characters or NPCs? How will your character's background and current occupation fit into the crew's goals and the story? These are all important questions to ask yourselves and especially the DM."
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+						},
+                        {
+							"type": "section",
+							"name": "1st level and beyond",
+							"page": 10,
+							"entries": [
+                                "By exploring the One Piece World and fighting your way through various forces, your characters will start to develop new strategies and grow stronger over time. Each time a major advancement occurs, either due to reaching a specific number of Experience Points or reaching a Milestone in the story, you will gain a Character Level.",
+                                "For example, if you start at level 1 with 0 Experience Points and gain enough experience over the course of a session to make your way to Level 2, you will mark this on your character sheet and upgrade your stats accordingly during your next Long Rest. Additionally, your DM may decide to use a Milestone system by granting you a level up upon reaching a new area or island, completing an important objective, or obtaining a key item or treasure.",
+                                {
+                                    "type": "table",
+                                    "colLabels": [
+                                        "Experience Points",
+                                        "Level",
+                                        "Proficiency Bonus"
+                                    ],
+                                    "colStyles": [
+                                        "col-1 text-center",
+                                        "col-3 text-right",
+                                        "col-9 text-right"
+                                    ],
+                                    "rows": [
+                                        [
+                                            "0",
+                                            "1",
+                                            "+2"
+                                        ],
+                                        [
+                                            "300",
+                                            "2",
+                                            "+2"
+                                        ],
+                                        [
+                                            "900",
+                                            "3",
+                                            "+2"
+                                        ],
+                                        [
+                                            "2,700",
+                                            "4",
+                                            "+2"
+                                        ],
+                                        [
+                                            "6,500",
+                                            "5",
+                                            "+3"
+                                        ],
+                                        [
+                                            "14,000",
+                                            "6",
+                                            "+3"
+                                        ],
+                                        [
+                                            "23,000",
+                                            "7",
+                                            "+3"
+                                        ],
+                                        [
+                                            "34,000",
+                                            "8",
+                                            "+3"
+                                        ],
+                                        [
+                                            "48,000",
+                                            "9",
+                                            "+4"
+                                        ],
+                                        [
+                                            "64,000",
+                                            "10",
+                                            "+4"
+                                        ],
+                                        [
+                                            "85,000",
+                                            "11",
+                                            "+4"
+                                        ],
+                                        [
+                                            "100,000",
+                                            "12",
+                                            "+4"
+                                        ],
+                                        [
+                                            "120,000",
+                                            "13",
+                                            "+5"
+                                        ],
+                                        [
+                                            "140,000",
+                                            "14",
+                                            "+5"
+                                        ],
+                                        [
+                                            "165,000",
+                                            "15",
+                                            "+5"
+                                        ],
+                                        [
+                                            "195,000",
+                                            "16",
+                                            "+5"
+                                        ],
+                                        [
+                                            "225,000",
+                                            "17",
+                                            "+6"
+                                        ],
+                                        [
+                                            "265,000",
+                                            "18",
+                                            "+6"
+                                        ],
+                                        [
+                                            "305,000",
+                                            "19",
+                                            "+6"
+                                        ],
+                                        [
+                                            "355,000",
+                                            "20",
+                                            "+6"
+                                        ]
+                                    ]
+                                },
+                                {
+                                    "type": "entries",
+                                    "page": 11,
+                                    "name": "level tiers during the adventure",
+                                    "entries": [
+                                        "During the journey, the DM may decide to structure the pacing and level advancement throughout the adventure to give the feeling of progression to players. By deciding level tiers for certain areas in the world, it will be easy to balance enemies and NPCs in ways that align with player progression.",
+                                        "The first tier (levels 1-4) will be for very early exploration throughout the seas outside of the Grand Line, including the North Blue, East Blue, South Blue, and West Blue. It would be wise to start in one of these seas, preferably a fair distance away from Reverse Mountain and the Grand Line. Player characters will be fairly weak at this tier, and will only encounter minor enemies and challenges until they reach the Grand Line.",
+                                        "The second tier (levels 5-10) will be where most of the first half of the campaign takes place, in a portion of the Grand Line called \"Paradise\". This will be where many mid-tier pirates and powerful members of the navy reside. The sea and various islands will be difficult to traverse, with sea monsters and extreme weather conditions constantly bombarding your travel at random. Surviving to the end of Paradise should prove to be a challenge and feel like an amazing accomplishment upon completing the end. However, the next two stages should feel far more threatening.",
+                                        "The third tier (levels 11-15) is where players will start facing extremely overwhelming challenges. Making your way into the second half of the Grand Line, called the New World, the party should be facing unimaginably powerful pirate crews called the Yonko (or Four Emperors). The weather and islands here are even more threatening than the first half of the grand line, enough for a majority of crews to perish upon initially reaching this area. This will be the stage where characters start training, conducting espionage on the Yonko, and collecting Road Poneglyphs.",
+                                        "The final tier (levels 16-20) is the last stretch of the journey. At this legendary tier, characters should be able to stand up to Yonko pirate crews and marine admirals. Most fights will be overwhelmingly large-scale and epic, involving hundreds or thousands of pirates in huge wars and battles across the end of the New World. Once several Yonko have fallen and Road Poneglyphs are copied down, the crew can make their way to the One Piece to become pirate kings/queens and complete the adventure."
+                                    ]
+                                }                                
+                            ]
+						}
+					]
+				},
+                {
+					"type": "section",
+					"name": "Races",
+					"page": 12,
+					"entries": [
+                        {
+                            "type": "image",
+                            "href": {
+                                "type": "external",
+                                "url": "https://i.imgur.com/8UP9POi.jpg"
+                            }
+                        },
+                        "The races in One Piece all have a variety of distinct traits that set them apart from one-another. While humans are the most common and reside on most islands, other demihuman races have their own islands and territories that they reside in around the world. These demihuman races also have a wide variety sizes, characteristics, abilities, and cultures. In many cases, non-human races can be seen as much stronger by default than ordinary humans. However, many humans may opt to regularly train to be on par with these races as well.",
+		                "Typically, non-human races don't mingle well with human civilzation and culture due to the severe level of racism and oppression often being brought non-humans by the Navy and World Government, which further fuels anti-human sentiments among the human populace. When a non-human is introduced into a human society, it will most likely be treated more harshly than their human counterpart, oftentimes alienating them completely. Likewise, Humans may also be treated differently when entering a non-human tribe or country due to the resentment they hold. It is up to the DM to decide how to run these encounters during roleplay.",
+		                "Remember, the One Piece world is very divided and has many themes of slavery and extreme hatred toward non-humans. If these themes are too extreme or uncomfortable to run, feel free to remove most of the racial tension for a more relaxed experience for non-human player characters.",
+						{
+							"type": "section",
+							"name": "Player Races",
+							"page": 12,
+							"entries": [
+                                "When choosing a player character's race, it is important to choose an option that suits the character's personality, background, appearance, and perhaps even class and abilities. For example, a characer that loves to swim and interact with aquatic creatures may be best suited by picking the Fishman or Merfolk race. In order to properly make this choice, read each race option and consult with your DM for any questions or advice you may need.",
+		                        "For the purposes of game balance, many races from the One Piece world will be restricted from players. While some may technically be listed below for more lenient DMs to allow, they are by no means on the same level as the rest of the included races in this section. Races that may break game balance or prove to be far too strong will be marked with the \"Optional\" tag.",
+                                {
+                                    "type": "inset",
+                                    "name": "Universal Language",
+                                    "entries": [
+                                        "You may notice the complete absence of spoken or written language traits available as you read through the below races.",
+		                                "Due to the One Piece world having few, if any, diverse languages spoken, even among other non-human races, it can be assumed that each humanoid creature shares a \"Common\" language in which they can all speak with individual literacy depending on the creature's intelligence."
+                                    ]
+                                }
+
+                            ]
+						},
+                        {
+							"type": "section",
+							"name": "Human",
+							"page": 10,
+							"entries": [
+                                "In the world of One Piece, humans can be considered highly invasive and territorial to most other races and creatures. While there are many good-spirited humans out there, the World Government and Navy often tarnish the reputation of humans among non-humans. Due to this fact, most non-human races don't get along well with humans on average. However, there can very well be brotherhood among these races in certain circumstances, so long as compassion and friendship is shown.",
+                                "{@b Conquerors.} Humans will settle in and take control of just about anywhere they can reach. The exception to this rule may be places like Fish-man Island or Zou, which are too inconvenient and out-of-reach to settle on for most human civilizations. Most of the world is conquered and ruled by humans under the World Government.",
+                                "{@b Great Kingdoms.} As humans have expanded over the centuries, they have established many large cities, kingdoms, and fortresses across various islands and continents. Human culture can also be very different depending on where you look. While some human settlements can be more open-minded and accepting, other places may be far less tolerant toward outsiders and different ideas or cultures.",
+                                {
+                                    "type": "section",
+                                    "name": "Human Traits",
+                                    "page": 10,
+                                    "entries": [
+                                        "While many humans vary in shape and size, your human character will have these traits.",
+                                        "{@b Ability Score Increase.} Your ability scores each increase by 1.",
+                                        "{@b Age.} Humans reach adulthood in their teens and live for around a century.",
+                                        "{@b Alignment.} There is no clear alignment that is consistent among all humans. Just about any alignment can be justified.",
+                                        "{@b Size.} Humans in the One Piece World are typically 5-6 feet tall. Some can rest far outside this range, but your size will count as medium.",
+                                        "{@b Speed.} Your base walking speed is 30 feet.",
+                                        {
+                                            "type": "entries",
+                                            "name": "Human Variant Traits",
+                                            "entries": [
+                                                "Some humans can be noticeably different in their abilities and skills. For this reason, you may choose to instead replace the standard Human Ability Score Increase with these traits instead:",
+                                                "{@b Ability Score Increase.} Two different ability scores of your choice increase by 1.",
+                                                "{@b Skill.} You gain proficiency in one skill of your choice.",
+                                                "{@b Feat.} You gain one Character Feat of your choice that you meet the prerequisite for in Chapter 6. You may only choose a Haki-related feat if you receive DM permission"
+                                            ]
+                                        },
+                                        {
+                                            "type": "entries",
+                                            "name": "Human Giant Traits",
+                                            "entries": [
+                                                "Very rarely, some humans may grow to be astonishingly larger than most others in the One Piece world, sometimes even doubling the average human height and weight. If your human character happens to fall under this category, you may choose to replace the standard Human Ability Score Increase with these traits instead:",
+                                                "{@b Ability Score Increase.}You increase your Strength score by 2.",
+                                                "{@b Size.} Humans in the One Piece World are typically 5-6 feet tall. Some can rest far outside this range, but your size will count as medium.",
+                                                "{@b Natural Athlete.} You have proficiency in the {@skill Athletics} skill.",
+                                                "{@b Warrior Training.} You have proficiency with the Battleaxe, Handaxe, Light Hammer, Longsword, Club, and Spear.",
+                                                "{@b Giant's Endurance.} You can focus yourself to occasionally shrug off injury. When you take damage, you can use your reaction to roll a {@dice d12}. Add your Constitution modifier to the number rolled, and reduce the damage by that total. After you use this trait, you can't use it again until you finish a short or long rest.",
+                                                "{@b Powerful Build.} You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+                                            ]
+                                        },
+                                        {
+                                            "type": "entries",
+                                            "name": "Kuja Traits",
+                                            "entries": [
+                                                "If your human character is female, you may choose to take this Kuja variant subrace. If you do so, you may choose to replace the standard Human Ability Score Increase with these traits instead:",
+                                                "{@b Ability Score Increase.} You increase your constitution, wisdom, or charisma score by 2.",
+                                                "{@b Skill.} You gain proficiency with longbows, shortbows, shortswords, and spears.",
+                                                "{@b Beginner Haki.} You can choose to take the Color of Armament Training feat if you meet the prerequisite."
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+						},
+                        {
+							"type": "section",
+							"name": "Fishman",
+							"page": 14,
+							"entries": [
+                                "Fishmen, along with Merfolk, are one of the two races of humanoids that inhabit the sea. Fishmen are a roughly equal mix of Human and Fish, with human-like appendages and faces crossed with sea creatures such as sharks, blowfish, and other fish. They also have gills between their shoulders and necks, as well as often having webbed hands. Some species of fish-men may have extra appendages depending what on what species of fish they represent.",
+				                "Fishmen have both lungs and gills, which allow them to breathe underwater and on land. Their webbed fingers and agile bodies allow them to move quickly in water for as long as they want. Some fishmen use their naturally strong bodies and unique features as a reason to believe they are superior to Humans. Despite these beliefs, fish-men often end up being the ones to become enslaved and oppressed by Humans, which drives their hatred for them even further. However, not all fish-men think this way and can actually get along well with humans as equals.",
+                                "{@b Hybrids.} Fishmen have the ability to interbreed with other races, much like other humanoid races. It is not impossible to find half-humna or half-giant fishmen in places such as the grand line. Furthermore, fishmen can have children with merfolk, resulting in either a fishman or merfolk child being born.",
+                                "{@b Oppressed.} Like other non-human races, fish-men are the victims of world-wide oppression by humans. Due to this, many fish-men stay within the confines of fish-man island and only occasionally leave. Some evil fish-men have opted to be pirates to seek revenge against humanity. Unfortunately, several also end up as slaves under the world government. Even on islands not directly under world government jurisdiction, humans still treat fish-men very unfairly. For this reason, playing a fish-man can prove very different when visiting various human-inhabited islands around the sea.",
+                                "{@b Domination.} Though they are often misunderstood, many fish-men do hold the belief that they should rule over all other fish in the sea. And due to the cruel treatment they receive from humans, some grow to also want to conquer and rule over humanity as a whole. This isn't true of all fish-men though, as many do exhibit the desire to co-exist with other races and species.",
+                                "{@b Extraordinary Strength.} As well as being born with bodies that provide natural weapons in battles, such as razor-sharp teeth, fish-men have incredibly strong bodies compared to average people. From birth, fish-men are ten times stronger than humans. Additionally, fish-men can be even more troublesome in underwater combat. Being even stronger underwater, they can easily devastate a human who isn't proficient at swimming. Unfortunately, this strength can be negated if a fish-man happens to be a Devil Fruit user.",
+                                {
+                                    "type": "section",
+                                    "name": "Fish-Man Traits",
+                                    "page": 14,
+                                    "entries": [
+                                        "Your fish-man character will have these traits.",
+                                        "{@b Ability Score Increase.} Your consitution score increases by 1.",
+                                        "{@b Age.} Fish-men reach adulthood in their teens and live for around a century.",
+                                        "{@b Alignment.} Most fish-men are lawful and many stay true to their values, though some lean toward being neutral. Fish-men can live in harmony with other sea creatures, but may turn violent against humans. For this reason, a fish-man can range from being good to evil.",
+                                        "{@b Size.} Fish-men are between 7 and 8 feet tall and weigh between 280 and 340 pounds on average. Your size is medium.",
+                                        "{@b Speed.} Your base walking speed is 30 feet, and you have a Swimming speed of 35 feet.",
+                                        "{@b Amphibious.} You can breath air and water.",
+                                        "{@b Underwater Athlete.} You have proficiency in the {@skill Athletics} skill. While underwater, you face no penalties or disadvantage as a result of underwater combat rules.",
+                                        "{@b Adapted to the Sea.} With the ability to adapt to extreme underwater depths, you have Resistance to cold damage."
+                                    ]
+                                },
+                                {
+                                    "type": "section",
+                                    "name": "Fish-Man Subraces",
+                                    "page": 15,
+                                    "entries": [
+                                        "Some races have subraces. Members of a subrace have the traits of the parent race in addition to the traits specified for their subrace. Relationships among subraces vary significantly from race to race and world to world.",
+                                        "{@b Subrace.} Breeding among fish-people resulted in three main subraces: Shark, Manta Ray, Octopus, or Smelt-Whiting variants. Choose one of these Subraces and add its traits to your racial features alongside the ones listed above.",
+                                        {
+                                            "type": "entries",
+                                            "name": "Shark Traits",
+                                            "entries": [
+                                                "These fish-men are known to have sharp shark-like teeth, light blue-tinted skin, large back fins, and extreme strength.",
+                                                "{@b Ability Score Increase.} Your Strength score increases by 2.",
+                                                "{@b Apex Predtaor.} You have proficiency in the {@skill Intimidation} skill.",
+                                                "{@b Bite.} Your razor-sharp teeth are a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to {@dice 1d6} + your Strength modifier, instead of the bludgeoning damage normal for an Unarmed Strike."
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+						}
+					]
+				}  
+            ]
+        }
+    ]
+}
