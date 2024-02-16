@@ -1,0 +1,67 @@
+{
+    "_meta":{
+       "sources":[
+          {
+             "json":"DevilFruitAbilities",
+             "url":"https://github.com/TheGiddyLimit/homebrew",
+             "abbreviation":"DFA",
+             "full":"Devil Fruits by Tarun",
+             "color":"33FFCA",
+             "authors":[
+                "Tarun"
+             ],
+             "convertedBy":[
+                "Tarun"
+             ],
+             "version":"1.0.0"
+          }
+       ],
+       "dateAdded":1707661525,
+       "dateLastModified":1707661525
+    },
+    "item":[
+       {
+          "name":"Inu Inu No Mi: Model: Kyubi no Kitsune",
+          "source":"DevilFruitAbilities",
+          "type":"OTH",
+          "rarity":"Devil Fruit, Legendary",
+          "charges":1,
+          "recharge":"restShort",
+          "entries":[
+             {
+                "name":"Fruit Appearance",
+                "type":"entries",
+                "entries":[
+                   "This devil fruit appears as a white melon with cloud-like swirls across its surface and 9 bright golden stems sprouting out"
+                ]
+             },
+             {
+                "name":"Description",
+                "type":"entries",
+                "entries":[
+                   "This zoan devil fruit allows its user to have the abilities of the Mythical Beast: Kitsune"
+                ]
+             },
+             {
+                "name":"Sea Weakness",
+                "type":"entries",
+                "entries":[
+                   "You are weak to water and seastone."
+                ]
+             },
+             {
+                "name":"Shape Change",
+                "type":"entries",
+                "entries":[
+                   "The Devil Fruit User's innate spellcasting ability is Charisma (spell save {@dc 12}, {@hit 4} to hit with spell attacks). It can innately cast the following spells, requiring no material components: {@spell shapechange}, {@spell polymorph}.",
+                   "(Note: Since you are lvl 1 I only gave you 2 I'll add more as we go)"
+                ]
+             }
+          ],
+          "attachedSpells":[
+             "shapechange",
+             "polymorph"
+          ]
+       }
+    ]
+ }
