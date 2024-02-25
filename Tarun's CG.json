@@ -24,6 +24,11 @@
          "abbreviation": "Cl",
          "source": "TCG",
          "name": "Cloak"
+      },
+      {
+         "abbreviation": "DF",
+         "source": "TCG",
+         "name": "Devil Fruit"
       }
    ],
    "item": [
