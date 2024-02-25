@@ -1,0 +1,1020 @@
+{
+   "_meta":{
+      "sources":[
+         {
+            "json":"TCG",
+            "url":"https://github.com/Bourbon8464",
+            "abbreviation":"TCG",
+            "full":"Tarun's Chronicle: Grimoire of Fantasy",
+            "color":"00BFFF",
+            "authors":[
+               "Tarun"
+            ],
+            "convertedBy":[
+               "Tarun"
+            ],
+            "version":"1.0.0"
+         }
+      ],
+      "dateAdded":1707661525,
+      "dateLastModified":1707661525
+   },
+   "itemType":[
+      {
+         "abbreviation":"Cl",
+         "source":"TCG",
+         "name":"Cloak"
+      }
+   ],
+   "item":[
+      {
+         "name":"Hito Hito no Mi: Model: Daibutsu",
+         "source":"TCG",
+         "type":"DF",
+         "rarity":"legendary",
+         "entries":[
+            {
+               "type":"entries",
+               "name":"Type:",
+               "entries":[
+                  "Mythical Zoan"
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Fruit Appearance:",
+               "entries":[
+                  "This legendary fruit manifests as a radiant golden orb, emitting a soft, celestial glow. Intricate carvings reminiscent of sacred symbols adorn its surface, conveying a sense of divine presence."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Description:",
+               "entries":[
+                  "Upon consumption, the Hito Hito no Mi: Model: Daibutsu grants its imbiber unparalleled abilities, akin to merging with the essence of a divine being."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Sea Weakness:",
+               "entries":[
+                  "The consumer becomes vulnerable to the elements of water and seastone, experiencing a weakened state when in contact with these substances."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Divine Manifestation:",
+               "entries":[
+                  "As an action, the consumer can transform into a towering, majestic form reminiscent of the golden Buddha (Daibutsu). This transformation grants them immense strength and resilience, imbuing them with the essence of divine power."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Beast Shape:",
+               "entries":[
+                  "As an action, you are able to transform into an Daibutsu. You follow the rules given in Chapter 7 under \"Designing a Zoan Devil Fruit Sheet\" in the One Piece Dungeons and Devil Fruits PHB."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Hybrid Form:",
+               "entries":[
+                  "You can use your action to enter a \"hybrid\" zoan state, combining a mix of qualities from both your humanoid form and beast form together for a temporary period of time. You follow the rules given in Chapter 7 under \"Designing a Zoan Devil Fruit Sheet\" in the One Piece Dungeons and Devil Fruits PHB."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Awakening:",
+               "entries":[
+                  "Upon reaching their Awakened State while in their Hybrid Form, the consumer experiences a surge of divine energy, enhancing their abilities for a limited duration.",
+                  "During the Awakened State, the consumer's hit point maximum and current hit points increase by 50. Their weapon attacks and unarmed strikes deal additional damage equal to their character level of their primary damage type. Additionally, they gain the ability to select an additional hybrid form option.",
+                  "At the start of each of their turns during the Awakened State, the consumer regains hit points equal to their character level + their Constitution modifier."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Duration Extension:",
+               "entries":[
+                  "The consumer may extend the duration of their Awakened State by an additional minute at the cost of incurring a level of {@condition exhaustion}. This {@condition exhaustion} can be further increased for each additional minute of extension. Levels of {@condition exhaustion} incurred in this manner can only be removed by completing a long rest."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Cooldown:",
+               "entries":[
+                  "Once the Awakened State ends, it cannot be activated again for another 24 hours."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Curse:",
+               "entries":[
+                  "Consuming the Devotion Fruit instills within the consumer an insatiable desire for worship and adoration. They become obsessed with being revered as a divine being and may go to extreme lengths to maintain their newfound status."
+               ]
+            }
+         ],
+         "attachedSpells":[
+            "sanctuary"
+         ]
+      },
+      {
+         "name":"Inu Inu No Mi: Model: Kyubi no Kitsune",
+         "source":"TCG",
+         "type":"DF",
+         "rarity":"legendary",
+         "charges":1,
+         "recharge":"restShort",
+         "entries":[
+            {
+               "name":"Fruit Appearance",
+               "type":"entries",
+               "entries":[
+                  "This devil fruit appears as a white melon with cloud-like swirls across its surface and 9 bright golden stems sprouting out"
+               ]
+            },
+            {
+               "name":"Description",
+               "type":"entries",
+               "entries":[
+                  "This zoan devil fruit allows its user to have the abilities of the Mythical Beast: Kitsune"
+               ]
+            },
+            {
+               "name":"Sea Weakness",
+               "type":"entries",
+               "entries":[
+                  "You are weak to water and seastone."
+               ]
+            },
+            {
+               "name":"Shape Change",
+               "type":"entries",
+               "entries":[
+                  "The Devil Fruit User's innate spellcasting ability is Charisma (spell save {@dc 12}, {@hit 4} to hit with spell attacks). It can innately cast the following spells, requiring no material components: {@spell shapechange}, {@spell polymorph}.",
+                  "(Note: Since you are lvl 1 I only gave you 2 I'll add more as we go)"
+               ]
+            }
+         ],
+         "attachedSpells":[
+            "shapechange",
+            "polymorph"
+         ]
+      },
+      {
+         "name":"Ash-Ash no Mi (Ash)",
+         "source":"TCG",
+         "type":"DF",
+         "rarity":"legendary",
+         "immune":[
+            "bludgeoning",
+            "piercing",
+            "slashing"
+         ],
+         "recharge":"dawn",
+         "charges":13,
+         "entries":[
+            {
+               "type":"entries",
+               "name":"Type",
+               "entries":[
+                  "Gaseous Logia"
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Fruit Appearance",
+               "entries":[
+                  "A small, charred black fruit with an ashy texture, emitting a faint burning smell."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Description",
+               "entries":[
+                  "Allows its user to become, manipulate, and generate ash at will, turning them into an Ash User."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Sea Weakness",
+               "entries":[
+                  "You are weak to water and seastone."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Logia Immunity",
+               "entries":[
+                  "You are immune to bludgeoning, piercing, and slashing from nonmagical attacks, as physical objects pass through your ashy body. Additionally, you can move across {@quickref difficult terrain||3} created by ash without spending extra Movement, and you do not suffocate inside of your ash clouds."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Elemental Form",
+               "entries":[
+                  "You can use the \"Logia Elemental Form\" feature listed under \"Designing a Logia Devil Fruit Sheet\"."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Ashen Preservation",
+               "entries":[
+                  "You learn the {@spell Prestidigitation} cantrip. Additionally, you can use your ash to preserve objects in pristine condition, covering them constantly with your ash."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Smoke Screen",
+               "entries":[
+                  "As an action, you can create a thick ash cloud in a 10-foot radius sphere centered on a point within 30 feet of you. This cloud heavily obscures vision within its area and lasts for 1 minute or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Ashen Armor",
+               "entries":[
+                  "As a reaction when you take damage, you can harden your ash to reduce the damage taken by an amount equal to your proficiency bonus plus your Constitution modifier. Once you use this feature, you can't use it again until you finish a short or long rest."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Spells (Ash Control)",
+               "entries":[
+                  "This devil fruit power has 13 charges. You can use an action, bonus action, or reaction and expend 1 or more of its charges to cast one of the following spells from it without needing to expend material components: {@spell burning hands} (1 charge), {@spell fog cloud} (1 charge), {@spell gust of wind} (2 charges), {@spell stinking cloud} (3 charges), {@spell fireball} (4 charges), {@spell blight} (4 charges), {@spell control winds|XGE} (5 charges), {@spell cloudkill} (6 charges), {@spell incendiary cloud} (7 charges). The devil fruit regains expended charges daily at dawn."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Awakening (Ashen Cataclysm)",
+               "entries":[
+                  "Once you've awakened your power, you can use an action to alter the environment within 120 feet of you to resemble a giant ash cloud, covering everything in ash and drastically reducing visibility and temperature. This effect lasts for 10 minutes. Additionally, hostile creatures within the area of effect take {@damage 2d10} fire damage at the start of their turn. You can't use this action again for another 24 hours."
+               ]
+            }
+         ],
+         "attachedSpells":[
+            "burning hands",
+            "fog cloud",
+            "gust of wind",
+            "stinking cloud",
+            "fireball",
+            "blight",
+            "control winds|xge",
+            "cloudkill",
+            "incendiary cloud"
+         ]
+      },
+      {
+         "name":"Marine's Medallion",
+         "source":"TCG",
+         "rarity":"uncommon",
+         "wondrous":true,
+         "entries":[
+            "This medallion bears the insignia of the marine corps. While worn, it grants the wearer advantage on Charisma ({@skill Persuasion}) checks made when dealing with members of the marine organization."
+         ]
+      },
+      {
+         "name":"Justice's Blade",
+         "source":"TCG",
+         "baseItem":"shortsword|PHB",
+         "type":"M",
+         "rarity":"uncommon",
+         "weight":2,
+         "weaponCategory":"martial",
+         "property":[
+            "F",
+            "L"
+         ],
+         "dmg1":"1d6",
+         "dmgType":"P",
+         "entries":[
+            "This finely crafted shortsword gleams with a sense of justice. On a critical hit, the target must succeed on a DC 12 Wisdom saving throw or become {@condition frightened} of the wielder until the end of its next turn."
+         ]
+      },
+      {
+         "name":"Seafoam Shield",
+         "source":"TCG",
+         "baseItem":"shield|PHB",
+         "type":"S",
+         "rarity":"uncommon",
+         "weight":6,
+         "ac":2,
+         "bonusAc":"+2",
+         "entries":[
+            "This sturdy shield is adorned with marine motifs and reinforced with steel bands. While wielding this shield, the bearer gains a +2 bonus to AC against attacks made with ranged weapons."
+         ]
+      },
+      {
+         "name":"Marine's Compass",
+         "source":"TCG",
+         "rarity":"rare",
+         "wondrous":true,
+         "entries":[
+            "This enchanted compass always points toward the nearest body of water, no matter where you are. Additionally, once per day, the bearer can use an action to cast the {@spell water breathing} spell on themselves without expending a spell slot."
+         ],
+         "attachedSpells":[
+            "water breathing"
+         ]
+      },
+      {
+         "name":"Anchor's Grasp",
+         "source":"TCG",
+         "baseItem":"warhammer|PHB",
+         "type":"M",
+         "rarity":"rare",
+         "weight":2,
+         "weaponCategory":"martial",
+         "property":[
+            "V"
+         ],
+         "dmg1":"1d8",
+         "dmgType":"B",
+         "dmg2":"1d10",
+         "entries":[
+            "This warhammer is adorned with nautical symbols and has a heavy, anchor-shaped head. Once per short rest, when you hit a creature with this warhammer, you can choose to attempt to grapple the target as a bonus action, using your Strength ({@skill Athletics}) modifier."
+         ]
+      },
+      {
+         "name":"Mariner's Hook",
+         "source":"TCG",
+         "baseItem":"handaxe|PHB",
+         "type":"M",
+         "rarity":"uncommon",
+         "weight":2,
+         "weaponCategory":"simple",
+         "property":[
+            "L",
+            "T"
+         ],
+         "range":"20/60",
+         "dmg1":"1d6",
+         "dmgType":"S",
+         "entries":[
+            "This handaxe has a curved blade resembling a ship's anchor. Once per turn, when you hit a creature with this handaxe, you can use a bonus action to attempt to pull the target up to 10 feet closer to you, provided it is no more than one size larger than you."
+         ]
+      },
+      {
+         "name":"Marine's Spyglass",
+         "source":"TCG",
+         "rarity":"uncommon",
+         "wondrous":true,
+         "entries":[
+            "This brass spyglass is etched with maritime designs and allows the user to see far distances with clarity. While peering through the spyglass, the user has advantage on Wisdom ({@skill Perception}) checks made to spot objects or creatures at long range."
+         ]
+      },
+      {
+         "name":"Buoyant Boots",
+         "source":"TCG",
+         "rarity":"rare",
+         "wondrous":true,
+         "entries":[
+            "These leather boots are lined with waterproof material and adorned with small anchors. While wearing these boots, the wearer can walk on water as if it were solid ground. Additionally, the wearer has advantage on saving throws against effects that would cause them to sink or become {@condition restrained} underwater."
+         ]
+      },
+      {
+         "name":"Marine's Mark",
+         "source":"TCG",
+         "rarity":"rare",
+         "wondrous":true,
+         "entries":[
+            "This enchanted insignia can be affixed to any piece of armor or shield. Once per long rest, when the wearer is reduced to 0 hit points but not killed outright, they can choose to drop to 1 hit point instead. Additionally, while wearing the armor or wielding the shield to which the mark is affixed, the bearer has advantage on saving throws against being knocked {@condition prone} or moved against their will."
+         ]
+      },
+      {
+         "name":"Tidecaller's Pendant",
+         "source":"TCG",
+         "rarity":"rare",
+         "wondrous":true,
+         "entries":[
+            "This pendant is adorned with a polished piece of sea glass and a small vial of seawater. Once per day, the wearer can use an action to summon a spectral dolphin to aid them in combat. The dolphin has the statistics of a CR 1/4 creature and obeys the wearer's verbal commands for 1 minute before disappearing."
+         ]
+      },
+      {
+         "name":"Marine's Mantle",
+         "source":"TCG",
+         "rarity":"uncommon",
+         "type": "Cl",
+         "entries":[
+            "This deep blue cloak bears the emblem of the marine corps. While wearing this cloak, the bearer gains advantage on saving throws against effects that would knock them {@condition prone} or move them against their will, such as the {@spell thunderwave} spell or a shove attempt."
+         ]
+      },
+      {
+         "name":"Wavebreaker Gauntlets",
+         "source":"TCG",
+         "rarity":"uncommon",
+         "wondrous":true,
+         "entries":[
+            "These sturdy gauntlets are made from the shell of a giant clam and are adorned with swirling patterns reminiscent of ocean waves. While wearing these gauntlets, the wearer has resistance to bludgeoning damage from non-magical sources."
+         ]
+      },
+      {
+         "name":"Mariner's Amulet",
+         "source":"TCG",
+         "rarity":"uncommon",
+         "wondrous":true,
+         "entries":[
+            "This amulet is carved from a piece of driftwood and strung with a length of seaweed. While wearing this amulet, the wearer can hold their breath for twice as long as normal and has advantage on Strength ({@skill Athletics}) checks made to swim."
+         ]
+      },
+      {
+         "name": "Bubble Barrier",
+         "source": "TCG",
+         "rarity": "rare",
+         "wondrous": true,
+         "entries": [
+            "This fist-sized glass orb glistens iridescent in sunlight. When you take damage or are forced to make a saving throw against an effect that you can see, you can crush the orb as a reaction, destroying it and enveloping you in a protective bubble."
+         ]
+      },
+      {
+         "name": "Seafarer's Bludgeon",
+         "source": "TCG",
+         "baseItem": "club|PHB",
+         "type": "M",
+         "rarity": "uncommon",
+         "weight": 2,
+         "weaponCategory": "simple",
+         "property": [
+            "L"
+         ],
+         "dmg1": "1d4",
+         "dmgType": "B",
+         "club": true,
+         "entries": [
+            "This well-worn club has been used by many a seasoned sailor to fend off boarding parties and sea monsters alike.",
+            {
+               "type": "entries",
+               "name": "Sweeping Strike:",
+               "entries": [
+                  "While wielding this bludgeon, you can use your action to make a sweeping attack, targeting all creatures within 5 feet of you. Make a separate attack roll for each target."
+               ]
+            }
+         ]
+      }      
+      
+   ],
+   "monster":[
+      {
+         "name":"Daibutsu",
+         "source":"TCG",
+         "size":[
+            "C"
+         ],
+         "type":"construct",
+         "alignment":[
+            "U"
+         ],
+         "ac":[
+            {
+               "ac":21,
+               "from":[
+                  "natural armor"
+               ]
+            }
+         ],
+         "hp":{
+            "average":350,
+            "formula":"20d20 + 140"
+         },
+         "speed":{
+            "walk":{
+               "number":0,
+               "condition":"(immobile)"
+            }
+         },
+         "str":30,
+         "dex":6,
+         "con":24,
+         "int":3,
+         "wis":11,
+         "cha":1,
+         "passive":10,
+         "resist":[
+            "fire",
+            "lightning",
+            "thunder",
+            {
+               "resist":[
+                  "bludgeoning",
+                  "piercing",
+                  "slashing"
+               ],
+               "note":"from nonmagical attacks",
+               "cond":true
+            }
+         ],
+         "immune":[
+            "poison",
+            "psychic",
+            {
+               "immune":[
+                  "bludgeoning",
+                  "piercing",
+                  "slashing"
+               ],
+               "note":"from nonmagical attacks",
+               "cond":true
+            }
+         ],
+         "conditionImmune":[
+            "charmed",
+            "exhaustion",
+            "frightened",
+            "paralyzed",
+            "petrified",
+            "poisoned"
+         ],
+         "languages":[
+            "understands but can't speak any languages"
+         ],
+         "cr":"21",
+         "trait":[
+            {
+               "name":"Abilities Colossal Form:",
+               "entries":[
+                  "The Daibutsu transforms into a towering, colossal form, increasing its reach to 20 feet and granting advantage on saving throws against being pushed or knocked {@condition prone}."
+               ]
+            },
+            {
+               "name":"Titanic Strength:",
+               "entries":[
+                  "The Daibutsu's Strength score increases to 30, adding a +10 modifier to its slam attacks."
+               ]
+            },
+            {
+               "name":"Immortal Vigor:",
+               "entries":[
+                  "Immortal Vigor: The Daibutsu becomes immune to non-magical damage and gains resistance to all other damage types except psychic."
+               ]
+            },
+            {
+               "name":"Majestic Presence:",
+               "entries":[
+                  "Majestic Presence: The Daibutsu emits an aura of sanctity, causing creatures within 60 feet to make a {@dc 20} Wisdom saving throw or be {@condition charmed} for 1 minute. A {@condition charmed} creature can repeat the saving throw at the end of each of its turns, ending the effect on a success."
+               ]
+            }
+         ],
+         "action":[
+            {
+               "name":"Multiattack:",
+               "entries":[
+                  "The Daibutsu makes two slam attacks.",
+                  "Slam: Melee Weapon Attack: +17 to hit, reach 20 ft., one target. {@h}40 ({@damage 6d10 + 10}) bludgeoning damage.",
+                  "Earthquake (Recharge 5-6): The Daibutsu pounds the ground with tremendous force, causing the earth to shake violently in a 60-foot radius centered on itself. Each creature on the ground in that area must make a {@dc 22} Dexterity saving throw, taking 55 ({@damage 10d10}) bludgeoning damage on a failed save, or half as much damage on a successful one. Additionally, any structures in the area must succeed on a {@dc 25} Constitution saving throw or suffer significant damage, potentially collapsing."
+               ]
+            },
+            {
+               "name":"Slam:",
+               "entries":[
+                  "Slam: Melee Weapon Attack: +17 to hit, reach 20 ft., one target. {@h}40 ({@damage 6d10 + 10}) bludgeoning damage."
+               ]
+            },
+            {
+               "name":"Earthquake (Recharge 5-6):",
+               "entries":[
+                  "Earthquake (Recharge 5-6): The Daibutsu pounds the ground with tremendous force, causing the earth to shake violently in a 60-foot radius centered on itself. Each creature on the ground in that area must make a {@dc 22} Dexterity saving throw, taking 55 ({@damage 10d10}) bludgeoning damage on a failed save, or half as much damage on a successful one. Additionally, any structures in the area must succeed on a {@dc 25} Constitution saving throw or suffer significant damage, potentially collapsing."
+               ]
+            }
+         ],
+         "languageTags":[
+            "CS"
+         ],
+         "damageTags":[
+            "B"
+         ],
+         "miscTags":[
+            "AOE",
+            "RCH"
+         ],
+         "conditionInflict":[
+            "charmed"
+         ],
+         "savingThrowForced":[
+            "dexterity",
+            "wisdom"
+         ]
+      },
+      {
+         "name":"Zeus",
+         "source":"TCG",
+         "size":[
+            "L"
+         ],
+         "type":"homie",
+         "alignment":[
+            "L",
+            "E"
+         ],
+         "ac":[
+            {
+               "ac":20,
+               "from":[
+                  "natural armor"
+               ]
+            }
+         ],
+         "hp":{
+            "average":150,
+            "formula":"10d20 + 45"
+         },
+         "speed":{
+            "walk":5,
+            "fly":70
+         },
+         "str":10,
+         "dex":23,
+         "con":13,
+         "int":10,
+         "wis":13,
+         "cha":24,
+         "save":{
+            "con":"+5",
+            "wis":"+5"
+         },
+         "passive":11,
+         "resist":[
+            {
+               "resist":[
+                  "bludgeoning",
+                  "piercing",
+                  "slashing",
+                  "fire"
+               ],
+               "note":"damage from nonmagical weapons",
+               "cond":true
+            }
+         ],
+         "immune":[
+            "lightning"
+         ],
+         "conditionImmune":[
+            "charmed",
+            "paralyzed",
+            "poisoned"
+         ],
+         "languages":[
+            "Any Language known by his creator"
+         ],
+         "cr":"10",
+         "spellcasting":[
+            {
+               "name":"Spellcasting",
+               "type":"spellcasting",
+               "headerEntries":[
+                  "Zeus is considered a 17th level spellcaster. Zeus' spellcasting ability is Charisma (Spell Save {@dc 17}). He can innately cast the following spells, requiring no material components:"
+               ],
+               "will":[
+                  "{@spell Shocking Grasp}",
+                  "{@spell Witch Bolt}"
+               ],
+               "daily":{
+                  "1":[
+                     "{@spell Chain Lightning}"
+                  ],
+                  "2":[
+                     "{@spell Call Lightning}"
+                  ]
+               },
+               "ability":"cha"
+            }
+         ],
+         "trait":[
+            {
+               "name":"Big Mom's Soul",
+               "entries":[
+                  "As a piece of Big Mom's soul, Zeus is immune to anything that would alter his soul until only one fragment is left."
+               ]
+            },
+            {
+               "name":"Big Mom's Thunder Cloud",
+               "entries":[
+                  "As a living storm, Zeus can grant some extra abilities to Big Mom. When Big Mom makes a Great Sword Attack, Zeus can use his reaction to cast {@spell Shocking Grasp}, Using Big Mom as the source of his spell."
+               ]
+            },
+            {
+               "name":"Size Change",
+               "entries":[
+                  "Prometheus can change his size between Huge, Gargantuan, and Colossal as an action. When he is Gargantuan or larger, Big Mom can ride on top of him, using his fly speed as her own speed on her turn."
+               ]
+            }
+         ],
+         "action":[
+            {
+               "name":"Tackle",
+               "entries":[
+                  "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. Hit 21 ({@damage 3d10 + 4}) Lightning Damage."
+               ]
+            }
+         ],
+         "damageTagsSpell":[
+            "L"
+         ],
+         "spellcastingTags":[
+            "O"
+         ],
+         "miscTags":[
+            "MW"
+         ],
+         "savingThrowForcedSpell":[
+            "dexterity"
+         ]
+      },
+      {
+         "name":"Prometheus",
+         "source":"TCG",
+         "size":[
+            "L"
+         ],
+         "type":"homie",
+         "alignment":[
+            "L",
+            "E"
+         ],
+         "ac":[
+            {
+               "ac":20,
+               "from":[
+                  "natural armor"
+               ]
+            }
+         ],
+         "hp":{
+            "average":150,
+            "formula":"10d20 + 45"
+         },
+         "speed":{
+            "walk":5,
+            "fly":30
+         },
+         "str":18,
+         "dex":15,
+         "con":14,
+         "int":16,
+         "wis":19,
+         "cha":13,
+         "save":{
+            "con":"+6",
+            "wis":"+8"
+         },
+         "passive":17,
+         "resist":[
+            {
+               "resist":[
+                  "bludgeoning",
+                  "piercing",
+                  "slashing",
+                  "lightning"
+               ],
+               "note":"damage from nonmagical weapons",
+               "cond":true
+            }
+         ],
+         "immune":[
+            "fire"
+         ],
+         "vulnerable":[
+            "cold"
+         ],
+         "conditionImmune":[
+            "charmed",
+            "paralyzed",
+            "poisoned"
+         ],
+         "languages":[
+            "Any Language known by his creator"
+         ],
+         "cr":"10",
+         "spellcasting":[
+            {
+               "name":"Spellcasting",
+               "type":"spellcasting",
+               "headerEntries":[
+                  "Prometheus' spellcasting ability is Wisdom (Spell Save {@dc 14}). He can innately cast the following spells, requiring no material components:"
+               ],
+               "will":[
+                  "{@spell Burning Hands}",
+                  "{@spell Hellish Rebuke}"
+               ],
+               "daily":{
+                  "1":[
+                     "{@spell Fire Storm}"
+                  ],
+                  "3":[
+                     "{@spell Fireball}"
+                  ]
+               },
+               "ability":"wis"
+            }
+         ],
+         "trait":[
+            {
+               "name":"Big Mom's Soul",
+               "entries":[
+                  "As a piece of Big Mom's soul, Prometheus is immune to anything that would alter his soul until only one fragment is left."
+               ]
+            },
+            {
+               "name":"Big Mom's Sun",
+               "entries":[
+                  "As a burning sun, Prometheus can grant some extra abilities to Big Mom. When Big Mom makes a Great Sword Attack, Prometheus can use his reaction to cast {@spell Burning Hands}, using Big Mom as the source of this spell."
+               ]
+            },
+            {
+               "name":"Size Change",
+               "entries":[
+                  "Prometheus can change his size between Huge, Gargantuan, and Colossal as an action. When he is Gargantuan or larger, Big Mom can ride on top of him, using his fly speed as her own speed on her turn."
+               ]
+            }
+         ],
+         "action":[
+            {
+               "name":"Tackle",
+               "entries":[
+                  "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. Hit 21 ({@damage 3d10 + 4}) Fire Damage."
+               ]
+            }
+         ],
+         "damageTagsSpell":[
+            "F"
+         ],
+         "spellcastingTags":[
+            "O"
+         ],
+         "miscTags":[
+            "MW"
+         ],
+         "savingThrowForcedSpell":[
+            "dexterity"
+         ]
+      },
+      {
+         "name":"Napoleon",
+         "source":"TCG",
+         "size":[
+            "L"
+         ],
+         "type":"homie",
+         "alignment":[
+            "L",
+            "E"
+         ],
+         "ac":[
+            {
+               "ac":20,
+               "from":[
+                  "natural armor"
+               ]
+            }
+         ],
+         "hp":{
+            "average":102,
+            "formula":"12d12 + 24"
+         },
+         "speed":{
+            "walk":5
+         },
+         "str":20,
+         "dex":2,
+         "con":18,
+         "int":15,
+         "wis":13,
+         "cha":17,
+         "save":{
+            "con":"+6",
+            "wis":"+3"
+         },
+         "passive":11,
+         "resist":[
+            "fire",
+            "lightning"
+         ],
+         "immune":[
+            "bludgeoning",
+            "piercing",
+            "slashing"
+         ],
+         "conditionImmune":[
+            "charmed",
+            "paralyzed",
+            "poisoned"
+         ],
+         "languages":[
+            "Any Language known by his creator"
+         ],
+         "cr":"3",
+         "trait":[
+            {
+               "name":"Big Mom's Soul",
+               "entries":[
+                  "As a piece of Big Mom's soul, Napoleon is immune to anything that would alter his soul until only one fragment is left."
+               ]
+            },
+            {
+               "name":"Big Mom's Sword",
+               "entries":[
+                  "Strengthened by his connection to Big Mom, Napoleon can be wielded by her to deal more damage. If Big Mom successfully hits with her Great Sword Attack, Napoleon can use his reaction to double the damage delt."
+               ]
+            }
+         ],
+         "action":[
+            {
+               "name":"Great Sword",
+               "entries":[
+                  "Melee Weapon Attack. {@hit 5} to hit, reach 5ft., one target. Hit 12 ({@damage 1d12 + 5}) slashing damage."
+               ]
+            }
+         ],
+         "damageTags":[
+            "S"
+         ]
+      },
+      {
+         "name":"Ampeel",
+         "source":"TCG",
+         "size":[
+            "H"
+         ],
+         "type":"beast",
+         "alignment":[
+            "U"
+         ],
+         "ac":[
+            {
+               "ac":15,
+               "from":[
+                  "natural armor"
+               ]
+            }
+         ],
+         "hp":{
+            "formula":"12d12 + 48",
+            "average":126
+         },
+         "speed":{
+            "walk":{
+               "number":0,
+               "condition":"(immobile)"
+            },
+            "swim":40
+         },
+         "str":20,
+         "dex":16,
+         "con":18,
+         "int":4,
+         "wis":10,
+         "cha":7,
+         "passive":10,
+         "cr":"5",
+         "senses":[
+            "darkvision 60 ft."
+         ],
+         "senseTags":[
+            "D"
+         ],
+         "immune":[
+            "lightning"
+         ],
+         "trait":[
+            {
+               "name":"Water Breathing",
+               "entries":[
+                  "The Ampeel can breathe only underwater"
+               ]
+            },
+            {
+               "name":"Lightning Shield",
+               "entries":[
+                  "Any creature that starts their turn within 5 feet of the Ampeel or hits it with a melee attack takes 5 ({@damage 1d10}) lightning damage"
+               ]
+            }
+         ],
+         "traitTags":[
+            "Damage Absorption",
+            "Water Breathing"
+         ],
+         "action":[
+            {
+               "name":"Bite.",
+               "entries":[
+                  "{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}18 ({@damage 3d8 + 5}) piercing damage."
+               ]
+            },
+            {
+               "name":"Shock (Recharge 5-6).",
+               "entries":[
+                  "The Ampeel unleashes an electric shock. All creatures within 15 feet of the Ampeel must make a {@dc 15} Dexterity saving throw, taking 22 ({@damage 5d8}) lightning damage on a failed save, or half as much damage on a successful one"
+               ]
+            }
+         ],
+         "miscTags":[
+            "MW",
+            "RCH"
+         ],
+         "damageTags":[
+            "L",
+            "P"
+         ],
+         "savingThrowForced":[
+            "dexterity"
+         ]
+      }
+   ]
+}
