@@ -1199,6 +1199,135 @@
             "constitution",
             "dexterity"
          ]
-      }      
+      },
+      {
+         "name": "Kitsune",
+         "source": "",
+         "page": 0,
+         "size": [
+            "S"
+         ],
+         "type": "yokai",
+         "alignment": [
+            "C",
+            "N"
+         ],
+         "ac": [
+            {
+               "ac": 13,
+               "from": [
+                  "natural armor"
+               ]
+            }
+         ],
+         "hp": {
+            "average": 7,
+            "formula": "2d6"
+         },
+         "speed": {
+            "walk": 30,
+            "fly": 45
+         },
+         "str": 5,
+         "dex": 16,
+         "con": 9,
+         "int": 12,
+         "wis": 14,
+         "cha": 16,
+         "skill": {
+            "perception": "+4",
+            "stealth": "+5"
+         },
+         "senses": [
+            "truesight 15 ft.",
+            "darkvision 120 ft."
+         ],
+         "passive": 14,
+         "resist": [
+            {
+               "resist": [
+                  "bludgeoning",
+                  "piercing",
+                  "slashing"
+               ],
+               "note": "from nonmagical attacks that aren't silvered",
+               "cond": true
+            }
+         ],
+         "immune": [
+            "necrotic",
+            "poison"
+         ],
+         "conditionImmune": [
+            "exhaustion",
+            "grappled",
+            "paralyzed",
+            "petrified",
+            "poisoned",
+            "prone",
+            "restrained"
+         ],
+         "languages": [
+            "understands primordial but doesn't speak"
+         ],
+         "cr": "1/2",
+         "trait": [
+            {
+               "name": "Magic Resistance",
+               "entries": [
+                  "The Yokai has advantage on saving throws against spells and other magical effects."
+               ]
+            },
+            {
+               "name": "Yokai Scent",
+               "entries": [
+                  "Within a mile, the Kitsune can detect and follow the trace of a creature it has learned the scent of. It also detects the presence of other Yokai."
+               ]
+            },
+            {
+               "name": "Ethereal Movement",
+               "entries": [
+                  "The kitsune can move through other creatures and objects as if they were difficult terrain. It can phase in and out of the Narak / ethereal plane at will."
+               ]
+            }
+         ],
+         "action": [
+            {
+               "name": "Bite",
+               "entries": [
+                  "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d4}) piercing damage."
+               ]
+            },
+            {
+               "name": "Kitsune's Fire",
+               "entries": [
+                  "{@atk rs} {@hit 4} to hit, range 60 ft., one target. {@h}7 ({@damage 2d6}) fire damage."
+               ]
+            },
+            {
+               "name": "Possess (1/Day)",
+               "entries": [
+                  "The Kitsune attempts to enter the body of a creature within 5 ft. of it. An unwilling creature must succeed on a {@dc 13} Charisma save or be inhabited by the Kitsune. At the start of the target's turn, roll a {@dice d4}. On a 1, the target is {@condition incapacitated} and the Kitsune takes control of the body. At the end of each of its turns, the target can repeat the saving throw, ending the possession on a success. A Kitsune can inhabit a willing target for as long as it wishes."
+               ]
+            }
+         ],
+         "traitTags": [
+            "Magic Resistance"
+         ],
+         "senseTags": [
+            "SD",
+            "U"
+         ],
+         "damageTags": [
+            "F",
+            "P"
+         ],
+         "miscTags": [
+            "MW"
+         ],
+         "conditionInflict": [
+            "incapacitated"
+         ]
+      }            
    ]
 }
