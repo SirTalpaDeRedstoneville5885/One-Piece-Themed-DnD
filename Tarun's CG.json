@@ -1331,6 +1331,131 @@
             "F",
             "P"
          ]
-      }        
+      },
+      {
+         "name": "Wrath",
+         "source": "TarunCG",
+         "size": [
+            "L"
+         ],
+         "type": "yokai",
+         "alignment": [
+            "C",
+            "E"
+         ],
+         "ac": [
+            {
+               "ac": 15,
+               "from": [
+                  "natural armor"
+               ]
+            }
+         ],
+         "hp": {
+            "average": 102,
+            "formula": "12d10 + 36"
+         },
+         "speed": {
+            "walk": 30,
+            "fly": {
+               "number": 30,
+               "condition": "(hover)"
+            },
+            "canHover": true
+         },
+         "str": 18,
+         "dex": 14,
+         "con": 16,
+         "int": 9,
+         "wis": 13,
+         "cha": 10,
+         "trait": [
+            {
+               "name": "Damage Resistancesfire; bludgeoning, piercing, and slashing from nonmagical attacks that aren't silvered Damage Immunitiesnecrotic, poison Condition Immunitiesexhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained Sensesdarkvision 60 ft",
+               "entries": [
+                  ", passive {@skill Perception} 11 Languagesthe languages it knew in life Challenge5 (1,800 XP)"
+               ]
+            },
+            {
+               "name": "Magic Resistance",
+               "entries": [
+                  "The Yokai has advantage on saving throws against spells and other magical effects."
+               ]
+            },
+            {
+               "name": "Yokai Scent",
+               "entries": [
+                  "Within a mile, the Yokai can follow the trace of a creature it has learned the scent of. It also detects the presence of other Yokai."
+               ]
+            },
+            {
+               "name": "Incorporeal Movement",
+               "entries": [
+                  "The Yokai can move through other creatures and objects as if they were difficult terrain. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object. The Yokai's attacks are considered magical."
+               ]
+            },
+            {
+               "name": "Enrage",
+               "entries": [
+                  "The Wrath gains resistance to all damage (except psychic) when below half its maximum hit points."
+               ]
+            },
+            {
+               "name": "Reckless Attack",
+               "entries": [
+                  "At the start of its turn, the Wrath can choose to give itself advantage on all its attacks for the round. If it does so, any attack made against it has advantage until the end of its next turn."
+               ]
+            },
+            {
+               "name": "Let There Be Carnage",
+               "entries": [
+                  "If a creature is reduced to 0 hit points within 30 feet of the Wrath, the Yokai gains 10 temporary hit points and can use its reaction to make a single Glaive attack."
+               ]
+            }
+         ],
+         "action": [
+            {
+               "name": "Multiattack",
+               "entries": [
+                  "The Wrath makes two Blade attacks. If below 50 hit points, it gains an additional Glaive attack."
+               ]
+            },
+            {
+               "name": "Glaive",
+               "entries": [
+                  "{@atk mw} {@hit 7} to hit, reach 10ft., one target. Hit 10 ({@damage 1d10 + 4}) slashing damage."
+               ]
+            },
+            {
+               "name": "Flaming Breath {@recharge 5}",
+               "entries": [
+                  "The Wrath spews fire in a 30 foot cone in front of it. Each creature in that area must succeed on a {@dc 14} Dexterity saving throw, taking 21 ({@damage 6d6}) fire damage on a failed save, or half as much on a successful one."
+               ]
+            }
+         ],
+         "attachedItems": [
+            "glaive|phb"
+         ],
+         "traitTags": [
+            "Incorporeal Movement",
+            "Magic Resistance"
+         ],
+         "actionTags": [
+            "Breath Weapon",
+            "Multiattack"
+         ],
+         "damageTags": [
+            "F",
+            "O",
+            "S"
+         ],
+         "miscTags": [
+            "MLW",
+            "MW"
+         ],
+         "savingThrowForced": [
+            "dexterity"
+         ]
+      }            
    ]
 }
