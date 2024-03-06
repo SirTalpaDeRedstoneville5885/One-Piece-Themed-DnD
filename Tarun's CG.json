@@ -2,7 +2,7 @@
    "_meta": {
       "sources": [
          {
-            "json": "TCG",
+            "json": "TarunCG",
             "url": "https://github.com/Bourbon8464",
             "abbreviation": "TCG",
             "full": "Tarun's Chronicle: Grimoire of Fantasy",
@@ -22,19 +22,19 @@
    "itemType": [
       {
          "abbreviation": "Cl",
-         "source": "TCG",
+         "source": "TarunCG",
          "name": "Cloak"
       },
       {
          "abbreviation": "DF",
-         "source": "TCG",
+         "source": "TarunCG",
          "name": "Devil Fruit"
       }
    ],
    "item": [
       {
          "name": "Hito Hito no Mi: Model: Daibutsu",
-         "source": "TCG",
+         "source": "TarunCG",
          "type": "DF",
          "rarity": "legendary",
          "entries": [
@@ -124,7 +124,7 @@
       },
       {
          "name": "Inu Inu No Mi: Model: Kyubi no Kitsune",
-         "source": "TCG",
+         "source": "TarunCG",
          "type": "DF",
          "rarity": "legendary",
          "charges": 1,
@@ -167,7 +167,7 @@
       },
       {
          "name": "Ash-Ash no Mi (Ash)",
-         "source": "TCG",
+         "source": "TarunCG",
          "type": "DF",
          "rarity": "legendary",
          "immune": [
@@ -270,7 +270,7 @@
       },
       {
          "name": "Marine's Medallion",
-         "source": "TCG",
+         "source": "TarunCG",
          "rarity": "uncommon",
          "wondrous": true,
          "entries": [
@@ -279,7 +279,7 @@
       },
       {
          "name": "Justice's Blade",
-         "source": "TCG",
+         "source": "TarunCG",
          "baseItem": "shortsword|PHB",
          "type": "M",
          "rarity": "uncommon",
@@ -297,7 +297,7 @@
       },
       {
          "name": "Seafoam Shield",
-         "source": "TCG",
+         "source": "TarunCG",
          "baseItem": "shield|PHB",
          "type": "S",
          "rarity": "uncommon",
@@ -310,7 +310,7 @@
       },
       {
          "name": "Marine's Compass",
-         "source": "TCG",
+         "source": "TarunCG",
          "rarity": "rare",
          "wondrous": true,
          "entries": [
@@ -322,7 +322,7 @@
       },
       {
          "name": "Anchor's Grasp",
-         "source": "TCG",
+         "source": "TarunCG",
          "baseItem": "warhammer|PHB",
          "type": "M",
          "rarity": "rare",
@@ -340,7 +340,7 @@
       },
       {
          "name": "Mariner's Hook",
-         "source": "TCG",
+         "source": "TarunCG",
          "baseItem": "handaxe|PHB",
          "type": "M",
          "rarity": "uncommon",
@@ -359,7 +359,7 @@
       },
       {
          "name": "Marine's Spyglass",
-         "source": "TCG",
+         "source": "TarunCG",
          "rarity": "uncommon",
          "wondrous": true,
          "entries": [
@@ -368,7 +368,7 @@
       },
       {
          "name": "Buoyant Boots",
-         "source": "TCG",
+         "source": "TarunCG",
          "rarity": "rare",
          "wondrous": true,
          "entries": [
@@ -377,7 +377,7 @@
       },
       {
          "name": "Marine's Mark",
-         "source": "TCG",
+         "source": "TarunCG",
          "rarity": "rare",
          "wondrous": true,
          "entries": [
@@ -386,7 +386,7 @@
       },
       {
          "name": "Tidecaller's Pendant",
-         "source": "TCG",
+         "source": "TarunCG",
          "rarity": "rare",
          "wondrous": true,
          "entries": [
@@ -395,7 +395,7 @@
       },
       {
          "name": "Marine's Mantle",
-         "source": "TCG",
+         "source": "TarunCG",
          "rarity": "uncommon",
          "type": "Cl",
          "entries": [
@@ -404,7 +404,7 @@
       },
       {
          "name": "Wavebreaker Gauntlets",
-         "source": "TCG",
+         "source": "TarunCG",
          "rarity": "uncommon",
          "wondrous": true,
          "entries": [
@@ -413,7 +413,7 @@
       },
       {
          "name": "Mariner's Amulet",
-         "source": "TCG",
+         "source": "TarunCG",
          "rarity": "uncommon",
          "wondrous": true,
          "entries": [
@@ -422,7 +422,7 @@
       },
       {
          "name": "Bubble Barrier",
-         "source": "TCG",
+         "source": "TarunCG",
          "rarity": "rare",
          "wondrous": true,
          "entries": [
@@ -431,7 +431,7 @@
       },
       {
          "name": "Seafarer's Bludgeon",
-         "source": "TCG",
+         "source": "TarunCG",
          "baseItem": "club|PHB",
          "type": "M",
          "rarity": "uncommon",
@@ -452,12 +452,36 @@
                ]
             }
          ]
-      }
+      },
+      {
+         "name": "Hag Stones",
+         "source": "TarunCG",
+         "rarity": "rare",
+         "wondrous": true,
+         "entries": [
+            "These small, weathered stones bear natural holes formed by the elements, giving them an otherworldly appearance. Once per day, as an action, you can peer through the hole of a hag stone to activate its magical properties. You can choose one of the following effects:",
+            {
+               "type": "entries",
+               "name": "Reveal Invisible Items:",
+               "entries": [
+                  "For the next 10 minutes, you gain the ability to see {@condition invisible} items within 30 feet of you. This includes objects that are naturally {@condition invisible} or hidden through magical means."
+               ]
+            },
+            {
+               "type": "entries",
+               "name": "See Through Illusions:",
+               "entries": [
+                  "For the next 10 minutes, you gain the ability to see through illusory effects as if they weren't present. This allows you to discern the true nature of illusions and perceive any hidden truths or objects concealed by them.",
+                  "Using the hag stone in this way consumes its magical energy until it regains its power at dawn."
+               ]
+            }
+         ]
+      }      
    ],
    "monster": [
       {
          "name": "Daibutsu",
-         "source": "TCG",
+         "source": "TarunCG",
          "size": [
             "C"
          ],
@@ -597,7 +621,7 @@
       },
       {
          "name": "Zeus",
-         "source": "TCG",
+         "source": "TarunCG",
          "size": [
             "L"
          ],
@@ -722,7 +746,7 @@
       },
       {
          "name": "Prometheus",
-         "source": "TCG",
+         "source": "TarunCG",
          "size": [
             "L"
          ],
@@ -850,7 +874,7 @@
       },
       {
          "name": "Napoleon",
-         "source": "TCG",
+         "source": "TarunCG",
          "size": [
             "L"
          ],
@@ -931,7 +955,7 @@
       },
       {
          "name": "Ampeel",
-         "source": "TCG",
+         "source": "TarunCG",
          "size": [
             "H"
          ],
@@ -1018,6 +1042,163 @@
          "savingThrowForced": [
             "dexterity"
          ]
-      }
+      },
+      {
+         "name": "Shrub O' Death",
+         "source": "TarunCG",
+         "size": [
+            "H"
+         ],
+         "type": "plant",
+         "alignment": [
+            "U"
+         ],
+         "ac": [
+            {
+               "ac": 15,
+               "from": [
+                  "natural armor"
+               ]
+            }
+         ],
+         "hp": {
+            "average": 173,
+            "formula": "15d12 + 75"
+         },
+         "speed": {
+            "walk": 50
+         },
+         "str": 23,
+         "dex": 11,
+         "con": 21,
+         "int": 5,
+         "wis": 14,
+         "cha": 9,
+         "save": {
+            "str": "+11",
+            "con": "+10"
+         },
+         "skill": {
+            "perception": "+7"
+         },
+         "senses": [
+            "blindsight 60 ft.",
+            "tremorsense 120 ft."
+         ],
+         "passive": 17,
+         "vulnerable": [
+            "fire"
+         ],
+         "conditionImmune": [
+            "blinded",
+            "deafened"
+         ],
+         "languages": [
+            "understands primeval but doesn't speak"
+         ],
+         "cr": "13",
+         "trait": [
+            {
+               "name": "Earth Sense",
+               "entries": [
+                  "The Shrub O' Death is blind, but can sense the presence of other creatures through nearby plant life. The Shrub O' Death magically detects the precise location of creatures within 240 feet of it that are within 15 feet of another plant."
+               ]
+            },
+            {
+               "name": "Pack of Carnivorous Plants",
+               "entries": [
+                  "The Shrub O' Death has advantage on attack rolls against a creature if at least two plant type allies are within 15 feet of it."
+               ]
+            },
+            {
+               "name": "Acid Blood",
+               "entries": [
+                  "When a creature within 5 feet of the Shrub O' Death hits it with an attack that deals piercing or slashing damage, it must make a {@dc 18} Dexterity saving throw or take 9 ({@damage 2d8}) acid damage."
+               ]
+            },
+            {
+               "name": "Subservience",
+               "entries": [
+                  "The Shrub O' Death is a creation of a Savant of Omniturgy and follows its commands. It receives information through a special telepathic bond with its creator that has a maximum range of 1000 feet. Outside this range, the Shrub becomes animalistic in nature and no longer follows the Savant's orders."
+               ]
+            }
+         ],
+         "action": [
+            {
+               "name": "Multiattack",
+               "entries": [
+                  "The Shrub O' Death makes two claw attacks and one bite attack."
+               ]
+            },
+            {
+               "name": "Claw",
+               "entries": [
+                  "{@atk mw} {@hit 11} to hit, reach 10ft., one target. {@h}17 ({@damage 2d10 + 6}) slashing damage."
+               ]
+            },
+            {
+               "name": "Bite",
+               "entries": [
+                  "{@atk mw} {@hit 11} to hit, reach 5ft., one target. {@h}17 ({@damage 2d10 + 6}) piercing damage plus 18 ({@damage 4d8}) acid damage, and the target is {@condition grappled} (escape {@dc 19})."
+               ]
+            },
+            {
+               "name": "Poison Breath {@recharge 5}",
+               "entries": [
+                  "The Shrub exhales poisonous gas in a 60-foot cone in front of it. Each creature in that area must make a {@dc 18} Constitution saving throw, taking 42 ({@damage 12d6}) poison damage on a failed save, or half as much damage on a successful one."
+               ]
+            },
+            {
+               "name": "Keen Hearing and Smell",
+               "entries": [
+                  "The Shrub has advantage on Wisdom ({@skill Perception}) checks that rely on hearing or smell."
+               ]
+            },
+            {
+               "name": "Mutant Regeneration",
+               "entries": [
+                  "The Shrub regains 15 hit points at the start of its turn. If the Shrub takes fire damage, this trait doesn't function at the start of the Shrub's next turn. The Shrub dies only if it starts its turn with 0 hit points and doesn't regenerate."
+               ]
+            }
+         ],
+         "reaction": [
+            {
+               "name": "Spore Cloud",
+               "entries": [
+                  "As a reaction to a creature entering the area within 10 feet of it, the Shrub O' Death can release a cloud of poisonous spores. Each creature within 10 feet of it must succeed on a {@dc 18} Constitution saving throw or take 9 ({@damage 2d8}) acid damage and 9 ({@damage 2d8}) poison damage and be {@condition poisoned} for a minute."
+               ]
+            }
+         ],
+         "senseTags": [
+            "B",
+            "T"
+         ],
+         "actionTags": [
+            "Breath Weapon",
+            "Multiattack"
+         ],
+         "miscTags": [
+            "MW",
+            "AOE"
+         ],
+         "conditionInflict": [
+            "grappled",
+            "poisoned"
+         ],
+         "tokenHref": {
+            "type": "external",
+            "url": "https://raw.githubusercontent.com/Bourbon8464/One-Piece-Themed-DnD/main/_img/shrub%20o'death.png"
+         },
+         "damageTags": [
+            "A",
+            "I",
+            "P",
+            "S"
+         ],
+         "savingThrowForced": [
+            "constitution",
+            "dexterity"
+         ]
+      }      
    ]
 }
