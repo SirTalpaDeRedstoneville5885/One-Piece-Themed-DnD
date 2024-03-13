@@ -33,6 +33,16 @@
    ],
    "item": [
       {
+         "name": "Bag of Cannonballs",
+         "source": "TarunCG",
+         "rarity": "uncommon",
+         "wondrous": true,
+         "weight": 3,
+         "entries": [
+            "You can store up to 100 cannonballs in this bag. The bag weighs 3 pounds, no matter how many cannonballs are stored. You can store or take out up to 3 cannonballs at a tie once on each of your turns with no action required."
+         ]
+      },      
+      {
          "name": "Hito Hito no Mi: Model: Daibutsu",
          "source": "TarunCG",
          "type": "DF",
