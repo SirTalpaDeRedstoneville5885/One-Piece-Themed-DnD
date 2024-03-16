@@ -33,6 +33,90 @@
    ],
    "item": [
       {
+         "name": "Kurobara Kuro Kuro no Mi (Black Rose-Black-Black Fruit)",
+         "source": "TarunCG",
+         "rarity": "very rare",
+         "entries": [
+            {
+               "type": "entries",
+               "name": "Type:",
+               "entries": [
+                  "Floral Logia"
+               ]
+            },
+            {
+               "type": "entries",
+               "name": "Fruit Appearance:",
+               "entries": [
+                  "A dark, shimmering black fruit with intricate rose petal patterns etched into its surface."
+               ]
+            },
+            {
+               "type": "entries",
+               "name": "Description:",
+               "entries": [
+                  "Allows its user to transform into, generate, and control black rose petals at will."
+               ]
+            },
+            {
+               "type": "entries",
+               "name": "Sea Weakness:",
+               "entries": [
+                  "The user is vulnerable to the effects of water and seastone."
+               ]
+            },
+            {
+               "type": "entries",
+               "name": "Logia Immunity:",
+               "entries": [
+                  "The user is immune to conventional physical attacks, as they can transform their body into black rose petals, allowing objects to pass harmlessly through them. They can see normally through areas obscured by rose petals or similar effects."
+               ]
+            },
+            {
+               "type": "entries",
+               "name": "Elemental Form:",
+               "entries": [
+                  "The user can transform their body completely into black rose petals, granting them intangibility and the ability to reform from attacks."
+               ]
+            },
+            {
+               "type": "entries",
+               "name": "Thorned Tempest:",
+               "entries": [
+                  "The user can unleash a storm of razor-sharp black rose petals, capable of shredding through obstacles and causing widespread damage."
+               ]
+            },
+            {
+               "type": "entries",
+               "name": "Rose Veil:",
+               "entries": [
+                  "The user can surround themselves with a swirling vortex of black rose petals, enhancing their speed and agility while providing a defensive barrier against incoming attacks."
+               ]
+            },
+            {
+               "type": "entries",
+               "name": "Blooming Prison:",
+               "entries": [
+                  "The user can trap opponents within a sphere of dense black rose petals, restraining their movement and draining their energy over time."
+               ]
+            },
+            {
+               "type": "entries",
+               "name": "Dark Bloom:",
+               "entries": [
+                  "The user can cause black rose petals to erupt from the ground, creating spiky barriers or launching surprise attacks from below."
+               ]
+            },
+            {
+               "type": "entries",
+               "name": "Rose Whip:",
+               "entries": [
+                  "The user can manipulate black rose petals into flexible, thorned whips, capable of striking opponents from a distance or ensnaring them."
+               ]
+            }
+         ]
+      },      
+      {
          "name": "Bag of Cannonballs",
          "source": "TarunCG",
          "rarity": "uncommon",
@@ -1467,5 +1551,246 @@
             "dexterity"
          ]
       }            
+   ],
+   "spell": [
+      {
+         "name": "Thorned Tempest",
+         "source": "TarunCG",
+         "page": 0,
+         "level": 3,
+         "school": "C",
+         "time": [
+            {
+               "number": 1,
+               "unit": "action"
+            }
+         ],
+         "range": {
+            "type": "radius",
+            "distance": {
+               "type": "feet",
+               "amount": 30
+            }
+         },
+         "components": {
+            "v": true,
+            "s": true
+         },
+         "duration": [
+            {
+               "type": "timed",
+               "duration": {
+                  "type": "minute",
+                  "amount": 1
+               },
+               "concentration": true
+            }
+         ],
+         "entries": [
+            "You summon forth a tempest of razor-sharp black rose petals in a 30-foot radius centered on yourself. The petals swirl around, shredding through obstacles and creatures within the area. Each creature of your choice in the radius must make a Dexterity saving throw. On a failed save, a creature takes {@damage 6d8} slashing damage and half as much on a successful one. Additionally, the area becomes difficult terrain for the duration."
+         ],
+         "entriesHigherLevel": [
+            {
+               "type": "entries",
+               "name": "At Higher Levels",
+               "entries": [
+                  "When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@dice 1d8} for each slot level above 3rd."
+               ]
+            }
+         ],
+         "damageInflict": [
+            "slashing"
+         ],
+         "savingThrow": [
+            "dexterity"
+         ],
+         "miscTags": [
+            "DFT",
+            "SMN"
+         ]
+      },
+      {
+         "name": "Rose Veil",
+         "source": "TarunCG",
+         "page": 0,
+         "level": 2,
+         "school": "T",
+         "time": [
+            {
+               "number": 1,
+               "unit": "bonus"
+            }
+         ],
+         "range": {
+            "type": "point",
+            "distance": {
+               "type": "self"
+            }
+         },
+         "components": {
+            "v": true,
+            "s": true
+         },
+         "duration": [
+            {
+               "type": "timed",
+               "duration": {
+                  "type": "minute",
+                  "amount": 1
+               },
+               "concentration": true
+            }
+         ],
+         "entries": [
+            "You surround yourself with a swirling vortex of black rose petals, enhancing your speed and agility while providing a defensive barrier against incoming attacks. For the duration, your movement speed increases by 10 feet, and you gain a +2 bonus to AC. Additionally, any creature that starts its turn within 5 feet of you takes {@damage 1d4} slashing damage as the petals lash out defensively."
+         ],
+         "damageInflict": [
+            "slashing"
+         ],
+         "miscTags": [
+            "MAC"
+         ]
+      },
+      {
+         "name": "Blooming Prison",
+         "source": "TarunCG",
+         "page": 0,
+         "level": 4,
+         "school": "E",
+         "time": [
+            {
+               "number": 1,
+               "unit": "action"
+            }
+         ],
+         "range": {
+            "type": "point",
+            "distance": {
+               "type": "feet",
+               "amount": 60
+            }
+         },
+         "components": {
+            "v": true,
+            "s": true,
+            "m": "a black rose petal"
+         },
+         "duration": [
+            {
+               "type": "timed",
+               "duration": {
+                  "type": "minute",
+                  "amount": 1
+               },
+               "concentration": true
+            }
+         ],
+         "entries": [
+            "You create a sphere of dense black rose petals with a 20-foot radius centered on a point you choose within range. Any creature that enters the area for the first time on a turn or starts its turn there must make a Wisdom saving throw. On a failed save, a creature is {@condition restrained} by the entangling petals and takes {@damage 4d8} necrotic damage. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+         ],
+         "entriesHigherLevel": [
+            {
+               "type": "entries",
+               "name": "At Higher Levels",
+               "entries": [
+                  "When you cast this spell using a spell slot of 5th level or higher, the damage increases by {@dice 1d8} for each slot level above 4th."
+               ]
+            }
+         ],
+         "damageInflict": [
+            "necrotic"
+         ],
+         "conditionInflict": [
+            "restrained"
+         ],
+         "savingThrow": [
+            "wisdom"
+         ]
+      },
+      {
+         "name": "Dark Bloom",
+         "source": "TarunCG",
+         "page": 0,
+         "level": 3,
+         "school": "C",
+         "time": [
+            {
+               "number": 1,
+               "unit": "action"
+            }
+         ],
+         "range": {
+            "type": "point",
+            "distance": {
+               "type": "feet",
+               "amount": 60
+            }
+         },
+         "components": {
+            "v": true,
+            "s": true
+         },
+         "duration": [
+            {
+               "type": "instant"
+            }
+         ],
+         "entries": [
+            "You cause black rose petals to erupt from the ground in a 20-foot radius centered on a point you choose within range. Any creature in that area must make a Dexterity saving throw, taking {@damage 5d6} piercing damage on a failed save, or half as much damage on a successful one."
+         ],
+         "damageInflict": [
+            "piercing"
+         ],
+         "savingThrow": [
+            "dexterity"
+         ]
+      },
+      {
+         "name": "Rose Whip",
+         "source": "TarunCG",
+         "page": 0,
+         "level": 2,
+         "school": "T",
+         "time": [
+            {
+               "number": 1,
+               "unit": "action"
+            }
+         ],
+         "range": {
+            "type": "point",
+            "distance": {
+               "type": "feet",
+               "amount": 30
+            }
+         },
+         "components": {
+            "v": true,
+            "s": true,
+            "m": "a thorn"
+         },
+         "duration": [
+            {
+               "type": "timed",
+               "duration": {
+                  "type": "minute",
+                  "amount": 1
+               },
+               "concentration": true
+            }
+         ],
+         "entries": [
+            "You manipulate black rose petals into a flexible, thorned whip, capable of striking opponents from a distance or ensnaring them. You create a 30-foot-long whip that lasts for the duration. You can use your action to make a melee spell attack against a creature within range. On a hit, the target takes {@damage 2d6} slashing damage, and if it is Large or smaller, it is {@condition grappled} (escape DC equal to your spell save DC). As an action, you can release the grapple and make a new attack with the whip."
+         ],
+         "damageInflict": [
+            "slashing"
+         ],
+         "conditionInflict": [
+            "grappled"
+         ],
+         "spellAttack": [
+            "M"
+         ]
+      }
    ]
 }
