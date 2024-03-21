@@ -114,6 +114,13 @@
                   "The user can manipulate black rose petals into flexible, thorned whips, capable of striking opponents from a distance or ensnaring them."
                ]
             }
+         ],
+         "attachedSpells":[
+            "Thorned Tempest|TarunCG",
+            "Rose Whip|TarunCG",
+            "Rose Veil|TarunCG",
+            "Dark Bloom|TarunCG",
+            "Blooming Prison|TarunCG"
          ]
       },      
       {
