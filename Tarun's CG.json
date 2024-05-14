@@ -133,6 +133,84 @@
          "entries": [
             "You can store up to 100 cannonballs in this bag. The bag weighs 3 pounds, no matter how many cannonballs are stored. You can store or take out up to 3 cannonballs at a tie once on each of your turns with no action required."
          ]
+      },
+      {
+         "name": "Hemo Hemo No Mi",
+         "source": "TarunCG",
+         "type": "DF",
+         "rarity": "rare",
+         "recharge": "dawn",
+         "charges": 9,
+         "entries": [
+            {
+               "type": "entries",
+               "name": "Type",
+               "entries": [
+                  "Environment Alterer Paramecia",
+                  "Fruit appearance. The Hemo Hemo no Mi resembles a deep crimson pomegranate with darker vein-like patterns crisscrossing its surface."
+               ]
+            },
+            {
+               "type": "entries",
+               "name": "Description",
+               "entries": [
+                  "The Hemo Hemo No Mi grants its user the chilling ability to manipulate and control blood, both their own and that of others. This fearsome power crowns the user as the \"Blood Bender\"."
+               ]
+            },
+            {
+               "type": "entries",
+               "name": "Sea Weakness",
+               "entries": [
+                  "You are weak to water and seastone."
+               ]
+            },
+            {
+               "type": "entries",
+               "name": "Hematokinesis",
+               "entries": [
+                  "You learn the {@spell infestation|XGE} cantrip, no material components required, which allows you to control the blood in other living creatures."
+               ]
+            },
+            {
+               "type": "entries",
+               "name": "Blood Drain",
+               "entries": [
+                  "With a touch, you can drain the vitality of a creature. When you hit a creature with a melee weapon or melee spell attack, you can spend 1 devil fruit charge to absorb its blood. On a hit, the target takes an additional {@damage 2d6} necrotic damage, and you regain hit points equal to half the necrotic damage dealt."
+               ]
+            },
+            {
+               "type": "entries",
+               "name": "Vascular Control",
+               "entries": [
+                  "If you can see a creature that's been injured (and thus is bleeding) within the past minute, you can attempt to control their movement by manipulating their blood flow. As an action, choose a creature within 60 feet. They must succeed on a Constitution saving throw against your Devil Fruit DC or be {@condition paralyzed} until the end of your next turn. Alternatively, on a failed save you can instead have the creature use all of its movement to move in a direction of your choice during its turn."
+               ]
+            },
+            {
+               "type": "entries",
+               "name": "Spells (Blood Techniques)",
+               "entries": [
+                  "This devil fruit power has 9 charges. You can expend 1 or more of its charges to cast one of the following spells from it without needing to expend material components: {@spell Inflict Wounds} (Can be casted at higher levels by spending additional charges; 1 charge), {@spell Ray of Enfeeblement} (2 charges), {@spell Hold Person} (2 charges), Blood Bridge (as {@spell Life Transference|XGE}; 3 charges), {@spell Vampiric Touch} (3 charges), Staunch (as {@spell Stoneskin}, but the user's skin becomes iron-hard due to concentrated blood; 4 charges), {@spell Blight} (4 charges), Blood Puppet (as {@spell Dominate Person} but only works on bleeding targets; 5 charges). The devil fruit regains expended charges daily at dawn."
+               ]
+            },
+            {
+               "type": "entries",
+               "name": "Awakening (Total Blood Puppet)",
+               "entries": [
+                  "Once you've awakened your power, you can use an action to cast {@spell Finger of Death}, without expending a spell slot or material components, as you ravage the target's body with your blood control. You can't use this action again for another 24 hours."
+               ]
+            }
+         ],
+         "attachedSpells": [
+            "finger of death",
+            "inflict wounds",
+            "ray of enfeeblement",
+            "hold person",
+            "vampiric touch",
+            "blight",
+            "life transference|xge",
+            "stoneskin",
+            "dominate person"
+         ]
       },      
       {
          "name": "Hito Hito no Mi: Model: Daibutsu",
