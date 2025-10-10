@@ -9,9 +9,10 @@
                "OneWorldHD"
             ],
             "convertedBy":[
-               "Tarun"
+               "Tarun",
+               "SirTalpadeRedstoneville58"
             ],
-            "version":"1.0.0",
+            "version":"2.0.0",
             "color":"33FFCA",
             "url":"https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm",
             "targetSchema":"1.2"
@@ -2447,6 +2448,419 @@
             "Third Eye Chakra|Martial Artist|OP|18",
             "Ability Score Improvement|Martial Artist|OP|19",
             "Death Chakra|Martial Artist|OP|20"
+         ]
+      }
+            {
+         "name":"Priest",
+         "source":"OP",
+         "classFeatures":[
+            "Holy Power (Spellcasting)|Priest|OP|1",
+            "Channel divinity|Priest|OP|2",
+            {
+               "classFeature":"Divine Domain|Priest|OP|1",
+               "gainSubclassFeature":true
+            },
+            "Destroy Undead|Priest|OP|5",
+            "Ability Score Improvement|Priest|OP|4",
+            {
+               "classFeature":"Domain feature|Priest|OP|6",
+               "gainSubclassFeature":true
+            },
+            "Monster Mutation Improvement|Priest|OP|8",
+            "Ability Score Improvement|Priest|OP|8",
+            {
+               "classFeature":"Domain Feature|Priest|OP|10",
+               "gainSubclassFeature":true
+            },
+            "Ability Score Improvement|Priest|OP|12",
+            {
+               "classFeature":"Domain Feature|Priest|OP|14",
+               "gainSubclassFeature":true
+            },
+            "Ability Score Improvement|Priest|OP|16",
+            "|Priest|OP|18",
+            "Abomination Powers|Priest|OP|18",
+            "Ability Score Improvement|Priest|OP|19",
+            "Perfected Mutation|Priest|OP|20"
+         ],
+         "casterProgression":"full",
+         "spellcastingAbility":"wis",
+         "subclassSpells":[
+            {
+               "className":"cleric",
+               "classSource":"PHB"
+            }
+         ],
+         "cantripProgression":[
+            3,
+            3,
+            3,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5
+         ],
+         "hd":{
+            "number":1,
+            "faces":8
+         },
+         "proficiency":[
+            "wis",
+            "cha"
+         ],
+         "startingProficiencies":{
+            "armor":[
+               "light",
+               "medium",
+               "shields"
+            ],
+            "weapons":[
+               "Simple"
+            ],
+            "tools":[
+               "None"
+            ],
+            "skills":[
+               {
+                  "choose":{
+                     "from":[
+                        "History",
+                        "Insight",
+                        "Medicine",
+                        "Persuasion",
+                        "Religion"
+                     ],
+                     "count":2
+                  }
+               }
+            ]
+         },
+         "startingEquipment":{
+            "default":[
+               "(a) a mace or (b) A Warhammer (if proficient)",
+               "(a) {@item scale mail|phb}, (b) Thick Shirt, or (c) Chain Mail (if proficient)",
+               "(a) A Musket and 20 gun bullets or (b) Any simple weapon",
+               "(a) A {@item priest's pack|phb} or (b) An {@item explorer's pack|phb}",
+               "A Shield",
+               "A holy symbol"
+            ],
+            "additionalFromBackground":true,
+            "defaultData":[
+               {
+                  "a":[
+                     {
+                        "item":"mace|phb",
+                        "quantity":1
+                     }
+                  ],
+                  "b":[
+                     {
+                        "item":"warhammer|phb",
+                        "quantity":1
+                     }
+                  ]
+               },
+               {
+                  "a":[
+                     "scale mail|phb"
+                  ],
+                  "b":[               
+                     "Chain mail|phb"
+                  ],
+                  "c":[
+                     "Thick shirt|OnePiece"
+                  ]
+               },
+               {                  
+                  "a":[
+                     "explorer's pack|phb"
+                  ],
+                  "b":[
+                     "priest's pack|phb"
+                  ]
+               },
+               {
+                  "a":[
+                     "shield|phb"
+                  ]
+               },
+               {
+                  "a":[
+                     "holy symbol|phb"
+                  ]
+               }
+            ]
+         },
+         "multiclassing":{
+            "requirements":{
+               "wis":13
+            },
+            "proficienciesGained":{
+               "armor":[
+                  "light",
+                  "medium",
+                  "shields"
+               ],
+               "weapons":[
+                  ""
+               ],
+               "tools":[
+                  ""
+               ],
+               "skills":[
+                  ""
+               ]
+            }
+         },
+         "classTableGroups":[
+            {
+               "colLabels":[
+                  "{@filter 1st|spells|level=1|class=Cleric}",
+                  "{@filter 2nd|spells|level=2|class=Cleric}",
+                  "{@filter 3rd|spells|level=3|class=Cleric}",
+                  "{@filter 4th|spells|level=4|class=Cleric}",
+                  "{@filter 5th|spells|level=5|class=Cleric}",
+                  "{@filter 6th|spells|level=6|class=Cleric}",
+                  "{@filter 7th|spells|level=7|class=Cleric}",
+                  "{@filter 8th|spells|level=8|class=Cleric}",
+                  "{@filter 9th|spells|level=9|class=Cleric}"
+               ],
+               "rows":[
+                  [
+                     "2",
+                     "-",
+                     "-",
+                     "-",
+                     "-",
+                     "-",
+                     "-",
+                     "-",
+                     "-"
+                  ],
+                  [
+                     "3",
+                     "-",
+                     "-",
+                     "-",
+                     "-",
+                     "-",
+                     "-",
+                     "-",
+                     "-"
+                  ],
+                  [
+                     "4",
+                     "2",
+                     "-",
+                     "-",
+                     "-",
+                     "-",
+                     "-",
+                     "-",
+                     "-"
+                  ],
+                  [
+                     "4",
+                     "3",
+                     "-",
+                     "-",
+                     "-",
+                     "-",
+                     "-",
+                     "-",
+                     "-"
+                  ],
+                  [
+                     "4",
+                     "3",
+                     "2",
+                     "-",
+                     "-",
+                     "-",
+                     "-",
+                     "-",
+                     "-"
+                  ],
+                  [
+                     "4",
+                     "3",
+                     "3",
+                     "-",
+                     "-",
+                     "-",
+                     "-",
+                     "-",
+                     "-"
+                  ],
+                  [
+                     "4",
+                     "3",
+                     "3",
+                     "1",
+                     "-",
+                     "-",
+                     "-",
+                     "-",
+                     "-"
+                  ],
+                  [
+                     "4",
+                     "3",
+                     "3",
+                     "2",
+                     "-",
+                     "-",
+                     "-",
+                     "-",
+                     "-"
+                  ],
+                  [
+                     "4",
+                     "3",
+                     "3",
+                     "3",
+                     "1",
+                     "-",
+                     "-",
+                     "-",
+                     "-"
+                  ],
+                  [
+                     "4",
+                     "3",
+                     "3",
+                     "3",
+                     "2",
+                     "-",
+                     "-",
+                     "-",
+                     "-"
+                  ],
+                  [
+                     "4",
+                     "3",
+                     "3",
+                     "3",
+                     "2",
+                     "1",
+                     "-",
+                     "-",
+                     "-"
+                  ],
+                  [
+                     "4",
+                     "3",
+                     "3",
+                     "3",
+                     "2",
+                     "1",
+                     "-",
+                     "-",
+                     "-"
+                  ],
+                  [
+                     "4",
+                     "3",
+                     "3",
+                     "3",
+                     "2",
+                     "1",
+                     "1",
+                     "-",
+                     "-"
+                  ],
+                  [
+                     "4",
+                     "3",
+                     "3",
+                     "3",
+                     "2",
+                     "1",
+                     "1",
+                     "-",
+                     "-"
+                  ],
+                  [
+                     "4",
+                     "3",
+                     "3",
+                     "3",
+                     "2",
+                     "1",
+                     "1",
+                     "1",
+                     "-"
+                  ],
+                  [
+                     "4",
+                     "3",
+                     "3",
+                     "3",
+                     "2",
+                     "1",
+                     "1",
+                     "1",
+                     "-"
+                  ],
+                  [
+                     "4",
+                     "3",
+                     "3",
+                     "3",
+                     "2",
+                     "1",
+                     "1",
+                     "1",
+                     "1"
+                  ],
+                  [
+                     "4",
+                     "3",
+                     "3",
+                     "3",
+                     "2",
+                     "1",
+                     "1",
+                     "1",
+                     "1"
+                  ],
+                  [
+                     "4",
+                     "3",
+                     "3",
+                     "3",
+                     "2",
+                     "2",
+                     "1",
+                     "1",
+                     "1"
+                  ],
+                  [
+                     "4",
+                     "3",
+                     "3",
+                     "3",
+                     "2",
+                     "2",
+                     "2",
+                     "1",
+                     "1"
+                  ]
+               ]
+            }
          ]
       }
    ],
