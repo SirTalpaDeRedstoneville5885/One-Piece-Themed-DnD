@@ -3,13 +3,14 @@
       "sources":[
          {
             "json":"OnePieceRaces",
-            "abbreviation":"OPR",
+            "abbreviation":"D&DFraces",
             "full":"One Piece Races",
             "authors":[
                "OneWorldHD"
             ],
             "convertedBy":[
-               "Tarun"
+               "Tarun",
+               "SirTalpadeRedstoneville58"
             ],
             "version":"1.0.0",
             "color":"33FFCA",

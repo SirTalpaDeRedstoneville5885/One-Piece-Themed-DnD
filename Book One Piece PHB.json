@@ -2,7 +2,7 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "OPPHB",
+				"json": "D&DFPHB",
 				"abbreviation": "OP:PHB",
 				"full": "Book: One Piece - The Player Handbook",
 				"authors": [
@@ -22,10 +22,10 @@
 	},
 	"book": [
         {
-			"name": "One Piece: The Player Handbook",
-			"source": "OPPHB",
+			"name": "Dungeons and Devil Fruits",
+			"source": "D&DFPHB",
 			"group": "homebrew",
-			"id": "OPPHB",
+			"id": "D&DFPHB",
 			"published": "",
 			"cover": {
 				"type": "external",
@@ -168,8 +168,8 @@
 	],
 	"bookData": [
 		{
-			"id": "OPPHB",
-			"source": "OPPHB",
+			"id": "D&DFPHB",
+			"source": "D&DFPHB",
 			"data": [
 				{
 					"type": "section",

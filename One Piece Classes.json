@@ -2,8 +2,8 @@
    "_meta":{
       "sources":[
          {
-            "json":"OP",
-            "abbreviation":"OP",
+            "json":"D&DF",
+            "abbreviation":"D&DF",
             "full":"One Piece Classes",
             "authors":[
                "OneWorldHD"
@@ -24,48 +24,48 @@
    "class":[
       {
          "name":"Bruiser",
-         "source":"OP",
+         "source":"D&DF",
          "classFeatures":[
-            "Scrapper|Bruiser|OP|1",
-            "Unarmed Defence|Bruiser|OP|1",
-            "Fury|Bruiser|OP|2",
-            "Charge Right Through|Bruiser|OP|2",
+            "Scrapper|Bruiser|D&DF|1",
+            "Unarmed Defence|Bruiser|D&DF|1",
+            "Fury|Bruiser|D&DF|2",
+            "Charge Right Through|Bruiser|D&DF|2",
             {
-               "classFeature":"Brawling Style Feature|Bruiser|OP|3",
+               "classFeature":"Brawling Style Feature|Bruiser|D&DF|3",
                "gainSubclassFeature":true
             },
-            "Blood For Brawn|Bruiser|OP|3",
-            "Ability Score Improvement|Bruiser|OP|4",
-            "Thrill of the Fight|Bruiser|OP|4",
-            "Extra Attack|Bruiser|OP|5",
-            "Rampage|Bruiser|OP|5",
-            "Fast Movement|Bruiser|OP|5",
+            "Blood For Brawn|Bruiser|D&DF|3",
+            "Ability Score Improvement|Bruiser|D&DF|4",
+            "Thrill of the Fight|Bruiser|D&DF|4",
+            "Extra Attack|Bruiser|D&DF|5",
+            "Rampage|Bruiser|D&DF|5",
+            "Fast Movement|Bruiser|D&DF|5",
             {
-               "classFeature":"Brawling Style Feature|Bruiser|OP|6",
+               "classFeature":"Brawling Style Feature|Bruiser|D&DF|6",
                "gainSubclassFeature":true
             },
-            "Spirit Assault|Bruiser|OP|6",
-            "Frenzied Rush|Bruiser|OP|7",
-            "Unbending Resolve|Bruiser|OP|7",
-            "Ability Score Improvement|Bruiser|OP|8",
-            "Brutal Frenzy|Bruiser|OP|9",
-            "Unbreakable|Bruiser|OP|10",
+            "Spirit Assault|Bruiser|D&DF|6",
+            "Frenzied Rush|Bruiser|D&DF|7",
+            "Unbending Resolve|Bruiser|D&DF|7",
+            "Ability Score Improvement|Bruiser|D&DF|8",
+            "Brutal Frenzy|Bruiser|D&DF|9",
+            "Unbreakable|Bruiser|D&DF|10",
             {
-               "classFeature":"Brawling Style Feature|Bruiser|OP|11",
+               "classFeature":"Brawling Style Feature|Bruiser|D&DF|11",
                "gainSubclassFeature":true
             },
-            "Ability Score Improvement|Bruiser|OP|12",
-            "Undying Frenzy|Bruiser|OP|13",
-            "Focused Fury|Bruiser|OP|14",
-            "Tireless Training|Bruiser|OP|15",
-            "Ability Score Improvement|Bruiser|OP|16",
+            "Ability Score Improvement|Bruiser|D&DF|12",
+            "Undying Frenzy|Bruiser|D&DF|13",
+            "Focused Fury|Bruiser|D&DF|14",
+            "Tireless Training|Bruiser|D&DF|15",
+            "Ability Score Improvement|Bruiser|D&DF|16",
             {
-               "classFeature":"Brawling Style Feature|Bruiser|OP|17",
+               "classFeature":"Brawling Style Feature|Bruiser|D&DF|17",
                "gainSubclassFeature":true
             },
-            "Invincible|Bruiser|OP|18",
-            "Ability Score Improvement|Bruiser|OP|19",
-            "The King|Bruiser|OP|20"
+            "Invincible|Bruiser|D&DF|18",
+            "Ability Score Improvement|Bruiser|D&DF|19",
+            "The King|Bruiser|D&DF|20"
          ],
          "hd":{
             "number":1,
@@ -254,37 +254,37 @@
       },
       {
          "name":"Devilforged",
-         "source":"OP",
+         "source":"D&DF",
          "classFeatures":[
-            "Devil Fruit Infusion (Spellcasting)|Devilforged|OP|1",
+            "Devil Fruit Infusion (Spellcasting)|Devilforged|D&DF|1",
             {
-               "classFeature":"Devilsmith Feature|Devilforged|OP|1",
+               "classFeature":"Devilsmith Feature|Devilforged|D&DF|1",
                "gainSubclassFeature":true
             },
-            "Sea Devil's Emanations|Devilforged|OP|2",
-            "Infused Devil Fruit Category|Devilforged|OP|3",
-            "Ability Score Improvement|Devilforged|OP|4",
+            "Sea Devil's Emanations|Devilforged|D&DF|2",
+            "Infused Devil Fruit Category|Devilforged|D&DF|3",
+            "Ability Score Improvement|Devilforged|D&DF|4",
             {
-               "classFeature":"Devilsmith Feature|Devilforged|OP|6",
+               "classFeature":"Devilsmith Feature|Devilforged|D&DF|6",
                "gainSubclassFeature":true
             },
-            "Ability Score Improvement|Devilforged|OP|8",
+            "Ability Score Improvement|Devilforged|D&DF|8",
             {
-               "classFeature":"Devilsmith Feature|Devilforged|OP|10",
+               "classFeature":"Devilsmith Feature|Devilforged|D&DF|10",
                "gainSubclassFeature":true
             },
-            "Fiendish Assimilation (6th level)|Devilforged|OP|11",
-            "Ability Score Improvement|Devilforged|OP|12",
-            "Fiendish Assimilation (7th level)|Devilforged|OP|13",
+            "Fiendish Assimilation (6th level)|Devilforged|D&DF|11",
+            "Ability Score Improvement|Devilforged|D&DF|12",
+            "Fiendish Assimilation (7th level)|Devilforged|D&DF|13",
             {
-               "classFeature":"Devilsmith Feature|Devilforged|OP|14",
+               "classFeature":"Devilsmith Feature|Devilforged|D&DF|14",
                "gainSubclassFeature":true
             },
-            "Fiendish Assimilation (8th level)|Devilforged|OP|15",
-            "Ability Score Improvement|Devilforged|OP|16",
-            "Fiendish Assimilation (9th level)|Devilforged|OP|17",
-            "Ability Score Improvement|Devilforged|OP|19",
-            "Devil's Bounty|Devilforged|OP|20"
+            "Fiendish Assimilation (8th level)|Devilforged|D&DF|15",
+            "Ability Score Improvement|Devilforged|D&DF|16",
+            "Fiendish Assimilation (9th level)|Devilforged|D&DF|17",
+            "Ability Score Improvement|Devilforged|D&DF|19",
+            "Devil's Bounty|Devilforged|D&DF|20"
          ],
          "casterProgression":"full",
          "spellcastingAbility":"cha",
@@ -316,7 +316,7 @@
             4,
             4
          ],
-         "optionalfeatureProgression":[
+         "D&DFtionalfeatureProgression":[
             {
                "name":"Devil Powers (Spells)",
                "progression":[
@@ -577,37 +577,37 @@
       },
       {
          "name":"Chemist",
-         "source":"OP",
+         "source":"D&DF",
          "classFeatures":[
-            "Alchemical Symbols|Chemist|OP|1",
-            "Invention Power (Spellcasting)|Chemist|OP|1",
-            "Monster Mutation|Chemist|OP|2",
+            "Alchemical Symbols|Chemist|D&DF|1",
+            "Invention Power (Spellcasting)|Chemist|D&DF|1",
+            "Monster Mutation|Chemist|D&DF|2",
             {
-               "classFeature":"Chemist Study|Chemist|OP|2",
+               "classFeature":"Chemist Study|Chemist|D&DF|2",
                "gainSubclassFeature":true
             },
-            "Monster Mutation Improvement|Chemist|OP|4",
-            "Ability Score Improvement|Chemist|OP|4",
+            "Monster Mutation Improvement|Chemist|D&DF|4",
+            "Ability Score Improvement|Chemist|D&DF|4",
             {
-               "classFeature":"Chemist Study|Chemist|OP|6",
+               "classFeature":"Chemist Study|Chemist|D&DF|6",
                "gainSubclassFeature":true
             },
-            "Monster Mutation Improvement|Chemist|OP|8",
-            "Ability Score Improvement|Chemist|OP|8",
+            "Monster Mutation Improvement|Chemist|D&DF|8",
+            "Ability Score Improvement|Chemist|D&DF|8",
             {
-               "classFeature":"Chemist Study|Chemist|OP|10",
+               "classFeature":"Chemist Study|Chemist|D&DF|10",
                "gainSubclassFeature":true
             },
-            "Ability Score Improvement|Chemist|OP|12",
+            "Ability Score Improvement|Chemist|D&DF|12",
             {
-               "classFeature":"Chemist Study|Chemist|OP|14",
+               "classFeature":"Chemist Study|Chemist|D&DF|14",
                "gainSubclassFeature":true
             },
-            "Ability Score Improvement|Chemist|OP|16",
-            "Immortality Research|Chemist|OP|18",
-            "Abomination Powers|Chemist|OP|18",
-            "Ability Score Improvement|Chemist|OP|19",
-            "Perfected Mutation|Chemist|OP|20"
+            "Ability Score Improvement|Chemist|D&DF|16",
+            "Immortality Research|Chemist|D&DF|18",
+            "Abomination Powers|Chemist|D&DF|18",
+            "Ability Score Improvement|Chemist|D&DF|19",
+            "Perfected Mutation|Chemist|D&DF|20"
          ],
          "casterProgression":"full",
          "spellcastingAbility":"wis",
@@ -988,7 +988,7 @@
       },
       {
          "name":"Hybrid",
-         "source":"OP",
+         "source":"D&DF",
          "page":56,
          "hd":{
             "number":1,
@@ -1510,39 +1510,39 @@
             }
          ],
          "classFeatures":[
-            "Hybrid Powers (Spellcasting)|Hybrid|OP|1",
+            "Hybrid Powers (Spellcasting)|Hybrid|D&DF|1",
             {
-               "classFeature":"Hybrid Lineage|Hybrid|OP|1",
+               "classFeature":"Hybrid Lineage|Hybrid|D&DF|1",
                "gainSubclassFeature":true
             },
-            "Hybrid Enhancements|Hybrid|OP|2",
-            "Power Enhancements|Hybrid|OP|3",
-            "Ability Score Improvement|Hybrid|OP|4",
-            "Hybrid Resilience|Hybrid|OP|5|",
+            "Hybrid Enhancements|Hybrid|D&DF|2",
+            "Power Enhancements|Hybrid|D&DF|3",
+            "Ability Score Improvement|Hybrid|D&DF|4",
+            "Hybrid Resilience|Hybrid|D&DF|5|",
             {
-               "classFeature":"Hybrid Lineage feature|Hybrid|OP|6",
+               "classFeature":"Hybrid Lineage feature|Hybrid|D&DF|6",
                "gainSubclassFeature":true
             },
-            "Ability Score Improvement|Hybrid|OP|8",
-            "Power Enhancements|Hybrid|OP|10",
-            "Ability Score Improvement|Hybrid|OP|12",
+            "Ability Score Improvement|Hybrid|D&DF|8",
+            "Power Enhancements|Hybrid|D&DF|10",
+            "Ability Score Improvement|Hybrid|D&DF|12",
             {
-               "classFeature":"Hybrid Lineage feature|Hybrid|OP|14",
+               "classFeature":"Hybrid Lineage feature|Hybrid|D&DF|14",
                "gainSubclassFeature":true
             },
-            "Ability Score Improvement|Hybrid|OP|16",
-            "Power Enhancements|Hybrid|OP|17",
+            "Ability Score Improvement|Hybrid|D&DF|16",
+            "Power Enhancements|Hybrid|D&DF|17",
             {
-               "classFeature":"Hybrid Lineage feature|Hybrid|OP|18",
+               "classFeature":"Hybrid Lineage feature|Hybrid|D&DF|18",
                "gainSubclassFeature":true
             },
-            "Ability Score Improvement|Hybrid|OP|19",
-            "Hybrid Restoration|Hybrid|OP|20"
+            "Ability Score Improvement|Hybrid|D&DF|19",
+            "Hybrid Restoration|Hybrid|D&DF|20"
          ]
       },
       {
          "name":"Marksman",
-         "source":"OP",
+         "source":"D&DF",
          "page":62,
          "hd":{
             "number":1,
@@ -1919,46 +1919,46 @@
             }
          ],
          "classFeatures":[
-            "Hawk-Eyed|Marksman|OP|1",
-            "Lock-on|Marksman|OP|1",
-            "Fighting Style|Marksman|OP|2",
-            "Special Tactics (Spellcasting)|Marksman|OP|2",
-            "Gunsmith|Marksman|OP|2",
+            "Hawk-Eyed|Marksman|D&DF|1",
+            "Lock-on|Marksman|D&DF|1",
+            "Fighting Style|Marksman|D&DF|2",
+            "Special Tactics (Spellcasting)|Marksman|D&DF|2",
+            "Gunsmith|Marksman|D&DF|2",
             {
-               "classFeature":"Marksman Archetype|Marksman|OP|3",
+               "classFeature":"Marksman Archetype|Marksman|D&DF|3",
                "gainSubclassFeature":true
             },
-            "Prey Awareness|Marksman|OP|3",
-            "Ability Score Improvement|Marksman|OP|4",
-            "Expert Reload|Marksman|OP|4",
-            "Extra Attack|Marksman|OP|5",
-            "Greater Lock-On|Marksman|OP|6",
+            "Prey Awareness|Marksman|D&DF|3",
+            "Ability Score Improvement|Marksman|D&DF|4",
+            "Expert Reload|Marksman|D&DF|4",
+            "Extra Attack|Marksman|D&DF|5",
+            "Greater Lock-On|Marksman|D&DF|6",
             {
-               "classFeature":"Marksman Archetype Feature|Marksman|OP|7",
+               "classFeature":"Marksman Archetype Feature|Marksman|D&DF|7",
                "gainSubclassFeature":true
             },
-            "Ability Score Improvement|Marksman|OP|8",
-            "Fleet of Foot|Marksman|OP|8",
-            "Trick Shot|Marksman|OP|10",
+            "Ability Score Improvement|Marksman|D&DF|8",
+            "Fleet of Foot|Marksman|D&DF|8",
+            "Trick Shot|Marksman|D&DF|10",
             {
-               "classFeature":"Marksman Archetype Feature|Marksman|OP|11",
+               "classFeature":"Marksman Archetype Feature|Marksman|D&DF|11",
                "gainSubclassFeature":true
             },
-            "Ability Score Improvement|Marksman|OP|12",
-            "Silencer Shot|Marksman|OP|14",
+            "Ability Score Improvement|Marksman|D&DF|12",
+            "Silencer Shot|Marksman|D&DF|14",
             {
-               "classFeature":"Marksman Archetype Feature|Marksman|OP|15",
+               "classFeature":"Marksman Archetype Feature|Marksman|D&DF|15",
                "gainSubclassFeature":true
             },
-            "Ability Score Improvement|Marksman|OP|16",
-            "Ascended Awareness|Marksman|OP|18",
-            "Ability Score Improvement|Marksman|OP|19",
-            "One Shot One Kill|Marksman|OP|20"
+            "Ability Score Improvement|Marksman|D&DF|16",
+            "Ascended Awareness|Marksman|D&DF|18",
+            "Ability Score Improvement|Marksman|D&DF|19",
+            "One Shot One Kill|Marksman|D&DF|20"
          ]
       },
       {
          "name":"Martial Artist",
-         "source":"OP",
+         "source":"D&DF",
          "page":67,
          "hd":{
             "number":1,
@@ -2406,82 +2406,82 @@
             }
          ],
          "classFeatures":[
-            "Unarmored Defense|Martial Artist|OP|1",
-            "Martial Arts|Martial Artist|OP|1",
-            "Ki|Martial Artist|OP|2",
-            "Soul Weapon|Martial Artist|OP|2|",
-            "Deflect Projectile|Martial Artist|OP|3",
+            "Unarmored Defense|Martial Artist|D&DF|1",
+            "Martial Arts|Martial Artist|D&DF|1",
+            "Ki|Martial Artist|D&DF|2",
+            "Soul Weapon|Martial Artist|D&DF|2|",
+            "Deflect Projectile|Martial Artist|D&DF|3",
             {
-               "classFeature":"Martial Arts School|Martial Artist|OP|3",
+               "classFeature":"Martial Arts School|Martial Artist|D&DF|3",
                "gainSubclassFeature":true
             },
-            "Ki-Fueled Attack|Martial Artist|OP|3",
-            "Ability Score Improvement|Martial Artist|OP|4",
-            "Slow Fall|Martial Artist|OP|4",
-            "Heart Chakra|Martial Artist|OP|4",
-            "Extra Attack|Martial Artist|OP|5",
-            "Stunning Strike|Martial Artist|OP|5",
-            "Focused Aim|Martial Artist|OP|5",
-            "Solar Plexus Chakra|Martial Artist|OP|6",
+            "Ki-Fueled Attack|Martial Artist|D&DF|3",
+            "Ability Score Improvement|Martial Artist|D&DF|4",
+            "Slow Fall|Martial Artist|D&DF|4",
+            "Heart Chakra|Martial Artist|D&DF|4",
+            "Extra Attack|Martial Artist|D&DF|5",
+            "Stunning Strike|Martial Artist|D&DF|5",
+            "Focused Aim|Martial Artist|D&DF|5",
+            "Solar Plexus Chakra|Martial Artist|D&DF|6",
             {
-               "classFeature":"Martial Arts School Feature|Martial Artist|OP|6",
+               "classFeature":"Martial Arts School Feature|Martial Artist|D&DF|6",
                "gainSubclassFeature":true
             },
-            "Evasion|Martial Artist|OP|7",
-            "Stomach Chakra|Martial Artist|OP|7",
-            "Ability Score Improvement|Martial Artist|OP|8",
-            "Root Chakra|Martial Artist|OP|10",
+            "Evasion|Martial Artist|D&DF|7",
+            "Stomach Chakra|Martial Artist|D&DF|7",
+            "Ability Score Improvement|Martial Artist|D&DF|8",
+            "Root Chakra|Martial Artist|D&DF|10",
             {
-               "classFeature":"Martial Arts School Feature|Martial Artist|OP|11",
+               "classFeature":"Martial Arts School Feature|Martial Artist|D&DF|11",
                "gainSubclassFeature":true
             },
-            "Ability Score Improvement|Martial Artist|OP|12",
-            "Throat Chakra|Martial Artist|OP|13",
-            "Deflect Energy|Martial Artist|OP|13",
-            "Crown Chakra|Martial Artist|OP|14",
-            "Sacral Chakra|Martial Artist|OP|15",
-            "Ability Score Improvement|Martial Artist|OP|16",
+            "Ability Score Improvement|Martial Artist|D&DF|12",
+            "Throat Chakra|Martial Artist|D&DF|13",
+            "Deflect Energy|Martial Artist|D&DF|13",
+            "Crown Chakra|Martial Artist|D&DF|14",
+            "Sacral Chakra|Martial Artist|D&DF|15",
+            "Ability Score Improvement|Martial Artist|D&DF|16",
             {
-               "classFeature":"Martial Arts School Feature|Martial Artist|OP|17",
+               "classFeature":"Martial Arts School Feature|Martial Artist|D&DF|17",
                "gainSubclassFeature":true
             },
-            "Third Eye Chakra|Martial Artist|OP|18",
-            "Ability Score Improvement|Martial Artist|OP|19",
-            "Death Chakra|Martial Artist|OP|20"
+            "Third Eye Chakra|Martial Artist|D&DF|18",
+            "Ability Score Improvement|Martial Artist|D&DF|19",
+            "Death Chakra|Martial Artist|D&DF|20"
          ]
-      }
-            {
+      },
+      {
          "name":"Priest",
-         "source":"OP",
+         "source":"D&DF",
          "classFeatures":[
-            "Holy Power (Spellcasting)|Priest|OP|1",
-            "Channel divinity|Priest|OP|2",
+            "Holy Power (Spellcasting)|Priest|D&DF|1",
+            "Channel divinity|Priest|D&DF|2",
             {
-               "classFeature":"Divine Domain|Priest|OP|1",
+               "classFeature":"Divine Domain|Priest|D&DF|1",
                "gainSubclassFeature":true
             },
-            "Destroy Undead|Priest|OP|5",
-            "Ability Score Improvement|Priest|OP|4",
+            "Destroy Undead|Priest|D&DF|5",
+            "Ability Score Improvement|Priest|D&DF|4",
             {
-               "classFeature":"Domain feature|Priest|OP|6",
+               "classFeature":"Domain feature|Priest|D&DF|6",
                "gainSubclassFeature":true
             },
-            "Monster Mutation Improvement|Priest|OP|8",
-            "Ability Score Improvement|Priest|OP|8",
+            "Monster Mutation Improvement|Priest|D&DF|8",
+            "Ability Score Improvement|Priest|D&DF|8",
             {
-               "classFeature":"Domain Feature|Priest|OP|10",
+               "classFeature":"Domain Feature|Priest|D&DF|10",
                "gainSubclassFeature":true
             },
-            "Ability Score Improvement|Priest|OP|12",
+            "Ability Score Improvement|Priest|D&DF|12",
             {
-               "classFeature":"Domain Feature|Priest|OP|14",
+               "classFeature":"Domain Feature|Priest|D&DF|14",
                "gainSubclassFeature":true
             },
-            "Ability Score Improvement|Priest|OP|16",
-            "|Priest|OP|18",
-            "Abomination Powers|Priest|OP|18",
-            "Ability Score Improvement|Priest|OP|19",
-            "Perfected Mutation|Priest|OP|20"
+            "Ability Score Improvement|Priest|D&DF|16",
+            "|Priest|D&DF|18",
+            "Abomination Powers|Priest|D&DF|18",
+            "Ability Score Improvement|Priest|D&DF|19",
+            "Perfected Mutation|Priest|D&DF|20"
          ],
          "casterProgression":"full",
          "spellcastingAbility":"wis",
@@ -2861,15 +2861,15 @@
                   ]
                ]
             }
-         ]
+   ]
       }
    ],
    "classFeature":[
       {
          "name":"Unarmored Defense",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Martial Artist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":1,
          "page":68,
          "entries":[
@@ -2878,13 +2878,13 @@
       },
       {
          "name":"Martial Arts",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Martial Artist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":1,
          "page":68,
          "entries":[
-            "At 1st level, your practice of Martial Arts gives you mastery of Combat styles that use unarmed strikes and martial artist Weapons, which are shortswords and any simple melee weapons⁠ that don't have the Two-Handed or heavy property.",
+            "At 1st level, your practice of Martial Arts gives you mastery of Combat styles that use unarmed strikes and martial artist Weapons, which are shortswords and any simple melee weapons⁠ that don't have the Two-Handed or heavy prD&DFerty.",
             "You gain the following benefits while you are unarmed or wielding only martial artist Weapons and you aren't wearing armor or wielding a shield:",
             {
                "type":"list",
@@ -2899,9 +2899,9 @@
       },
       {
          "name":"Unarmored Movemen⁠",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Martial Artist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":2,
          "page":68,
          "entries":[
@@ -2910,9 +2910,9 @@
       },
       {
          "name":"Ki",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Martial Artist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":2,
          "page":68,
          "entries":[
@@ -2946,9 +2946,9 @@
       },
       {
          "name":"Soul Weapon",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Martial Artist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":2,
          "page":68,
          "entries":[
@@ -2959,16 +2959,16 @@
                "items":[
                   "The weapon must be a simple or martial weapon.",
                   "You must be proficient with it.",
-                  "It must lack the heavy and special properties."
+                  "It must lack the heavy and special prD&DFerties."
                ]
             }
          ]
       },
       {
          "name":"Martial Arts School",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Martial Artist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":3,
          "page":69,
          "entries":[
@@ -2977,9 +2977,9 @@
       },
       {
          "name":"Deflect Projectile",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Martial Artist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":3,
          "page":69,
          "entries":[
@@ -2989,9 +2989,9 @@
       },
       {
          "name":"Ki-Fueled Attack",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Martial Artist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":3,
          "page":69,
          "entries":[
@@ -3000,9 +3000,9 @@
       },
       {
          "name":"Ability Score Improvement",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Martial Artist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":4,
          "page":69,
          "entries":[
@@ -3011,9 +3011,9 @@
       },
       {
          "name":"Slow Fall",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Martial Artist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":4,
          "page":69,
          "entries":[
@@ -3022,9 +3022,9 @@
       },
       {
          "name":"Heart Chakra",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Martial Artist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":4,
          "page":69,
          "entries":[
@@ -3033,9 +3033,9 @@
       },
       {
          "name":"Extra Attack",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Martial Artist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":5,
          "page":69,
          "entries":[
@@ -3044,20 +3044,20 @@
       },
       {
          "name":"Stunning Strike",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Martial Artist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":5,
          "page":69,
          "entries":[
-            "Starting at 5th Level, you can interfere with the flow of ki in an opponent's body. When you hit another creature with a melee weapon {@action Attack}, you can spend 1 ki point to attempt a Stunning Strike. The target must succeed on a Constitution saving throw or be Stunned until the start of your next turn."
+            "Starting at 5th Level, you can interfere with the flow of ki in an D&DFponent's body. When you hit another creature with a melee weapon {@action Attack}, you can spend 1 ki point to attempt a Stunning Strike. The target must succeed on a Constitution saving throw or be Stunned until the start of your next turn."
          ]
       },
       {
          "name":"Martial Arts School Feature",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Martial Artist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":6,
          "page":69,
          "entries":[
@@ -3066,9 +3066,9 @@
       },
       {
          "name":"Focused Aim",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Martial Artist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":5,
          "page":69,
          "entries":[
@@ -3077,9 +3077,9 @@
       },
       {
          "name":"Solar Plexus Chakra",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Martial Artist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":6,
          "page":69,
          "entries":[
@@ -3088,9 +3088,9 @@
       },
       {
          "name":"Evasion",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Martial Artist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":7,
          "page":70,
          "entries":[
@@ -3099,9 +3099,9 @@
       },
       {
          "name":"Stomach Chakra",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Martial Artist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":7,
          "page":70,
          "entries":[
@@ -3110,9 +3110,9 @@
       },
       {
          "name":"Ability Score Improvement",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Martial Artist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":8,
          "page":69,
          "entries":[
@@ -3121,9 +3121,9 @@
       },
       {
          "name":"Acrobatic Movement",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Martial Artist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":9,
          "page":70,
          "entries":[
@@ -3132,9 +3132,9 @@
       },
       {
          "name":"Root Chakra",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Martial Artist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":10,
          "page":70,
          "entries":[
@@ -3144,9 +3144,9 @@
       },
       {
          "name":"Martial Arts School Feature",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Martial Artist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":11,
          "page":69,
          "entries":[
@@ -3155,9 +3155,9 @@
       },
       {
          "name":"Ability Score Improvement",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Martial Artist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":12,
          "page":69,
          "entries":[
@@ -3166,9 +3166,9 @@
       },
       {
          "name":"Throat Chakra",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Martial Artist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":13,
          "page":70,
          "entries":[
@@ -3177,9 +3177,9 @@
       },
       {
          "name":"Deflect Energy",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Martial Artist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":13,
          "page":70,
          "entries":[
@@ -3188,9 +3188,9 @@
       },
       {
          "name":"Crown Chakra",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Martial Artist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":14,
          "page":70,
          "entries":[
@@ -3200,9 +3200,9 @@
       },
       {
          "name":"Sacral Chakra",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Martial Artist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":15,
          "page":70,
          "entries":[
@@ -3211,9 +3211,9 @@
       },
       {
          "name":"Ability Score Improvement",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Martial Artist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":16,
          "page":69,
          "entries":[
@@ -3222,9 +3222,9 @@
       },
       {
          "name":"Martial Arts School Feature",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Martial Artist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":17,
          "page":69,
          "entries":[
@@ -3233,9 +3233,9 @@
       },
       {
          "name":"Third Eye Chakra",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Martial Artist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":18,
          "page":70,
          "entries":[
@@ -3244,9 +3244,9 @@
       },
       {
          "name":"Ability Score Improvement",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Martial Artist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":19,
          "page":69,
          "entries":[
@@ -3255,21 +3255,21 @@
       },
       {
          "name":"Death Chakra",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Martial Artist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":20,
          "page":70,
          "entries":[
-            "At 20th level, if you drop to 0 hit points, you can spend 4 ki points, roll four Martial Arts dice, and add the dice together. Your number of Hit Points instead changes to the total rolled.",
+            "At 20th level, if you drD&DF to 0 hit points, you can spend 4 ki points, roll four Martial Arts dice, and add the dice together. Your number of Hit Points instead changes to the total rolled.",
             "Each time you use this feature after the first, the ki point cost increases by 2. When you finish a Short Rest or Long Rest, the Ki Point cost resets to 4."
          ]
       },
       {
          "name":"Hawk-Eyed",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Marksman",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":1,
          "page":63,
          "entries":[
@@ -3278,9 +3278,9 @@
       },
       {
          "name":"Lock-On",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Marksman",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":1,
          "page":63,
          "entries":[
@@ -3292,13 +3292,13 @@
       },
       {
          "name":"Fighting Style",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Marksman",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":2,
          "page":63,
          "entries":[
-            "At 2nd level, you adopt a particular style of fighting as your specialty: choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.",
+            "At 2nd level, you adD&DFt a particular style of fighting as your specialty: choose one of the following D&DFtions. You can't take a Fighting Style D&DFtion more than once, even if you later get to choose again.",
             {
                "type":"entries",
                "name":"Close Quarters Shooter",
@@ -3331,9 +3331,9 @@
       },
       {
          "name":"Special Tactics (Spellcasting)",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Marksman",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":2,
          "page":63,
          "entries":[
@@ -3368,9 +3368,9 @@
       },
       {
          "name":"Gunsmith",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Marksman",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":2,
          "page":64,
          "entries":[
@@ -3379,9 +3379,9 @@
       },
       {
          "name":"Marksman Archetype",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Marksman",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":3,
          "page":64,
          "entries":[
@@ -3390,9 +3390,9 @@
       },
       {
          "name":"Prey Awareness",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Marksman",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":3,
          "page":64,
          "entries":[
@@ -3402,9 +3402,9 @@
       },
       {
          "name":"Ability Score Improvement",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Marksman",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":4,
          "page":64,
          "entries":[
@@ -3413,20 +3413,20 @@
       },
       {
          "name":"Expert Reload",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Marksman",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":4,
          "page":64,
          "entries":[
-            "At 4th level, choose one type of firearm you possess. You ignore the loading properties of only that firearm type (such as bazooka). You can choose a different firearm type when you gain an extra level in this class."
+            "At 4th level, choose one type of firearm you possess. You ignore the loading prD&DFerties of only that firearm type (such as bazooka). You can choose a different firearm type when you gain an extra level in this class."
          ]
       },
       {
          "name":"Extra Attack",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Marksman",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":5,
          "page":64,
          "entries":[
@@ -3435,9 +3435,9 @@
       },
       {
          "name":"Greater Lock-On",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Marksman",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":6,
          "page":64,
          "entries":[
@@ -3447,9 +3447,9 @@
       },
       {
          "name":"Marksman Archetype Feature",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Marksman",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":7,
          "page":64,
          "entries":[
@@ -3458,9 +3458,9 @@
       },
       {
          "name":"Ability Score Improvement",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Marksman",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":8,
          "page":64,
          "entries":[
@@ -3469,9 +3469,9 @@
       },
       {
          "name":"Fleet of Foot",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Marksman",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":8,
          "page":64,
          "entries":[
@@ -3480,9 +3480,9 @@
       },
       {
          "name":"Trick Shot",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Marksman",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":10,
          "page":65,
          "entries":[
@@ -3491,7 +3491,7 @@
                "type":"entries",
                "name":"Armshot",
                "entries":[
-                  "On a hit, the target must succeed on a Constitution saving throw or drop a single held item of your choice."
+                  "On a hit, the target must succeed on a Constitution saving throw or drD&DF a single held item of your choice."
                ]
             },
             {
@@ -3527,9 +3527,9 @@
       },
       {
          "name":"Marksman Archetype Feature",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Marksman",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":11,
          "page":64,
          "entries":[
@@ -3538,9 +3538,9 @@
       },
       {
          "name":"Ability Score Improvement",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Marksman",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":12,
          "page":64,
          "entries":[
@@ -3549,9 +3549,9 @@
       },
       {
          "name":"Silencer Shot",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Marksman",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":14,
          "page":65,
          "entries":[
@@ -3560,9 +3560,9 @@
       },
       {
          "name":"Marksman Archetype Feature",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Marksman",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":15,
          "page":64,
          "entries":[
@@ -3571,9 +3571,9 @@
       },
       {
          "name":"Ability Score Improvement",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Marksman",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":16,
          "page":64,
          "entries":[
@@ -3582,9 +3582,9 @@
       },
       {
          "name":"Ascended Awareness",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Marksman",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":18,
          "page":65,
          "entries":[
@@ -3593,9 +3593,9 @@
       },
       {
          "name":"Ability Score Improvement",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Marksman",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":19,
          "page":64,
          "entries":[
@@ -3604,9 +3604,9 @@
       },
       {
          "name":"One Shot One Kill",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Marksman",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "level":20,
          "page":65,
          "entries":[
@@ -3615,9 +3615,9 @@
       },
       {
          "name":"Hybrid Powers (Spellcasting)",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Hybrid",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":57,
          "level":1,
          "entries":[
@@ -3666,9 +3666,9 @@
       },
       {
          "name":"Hybrid Lineage",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Hybrid",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":58,
          "level":1,
          "entries":[
@@ -3677,9 +3677,9 @@
       },
       {
          "name":"Hybrid Enhancements",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Hybrid",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":58,
          "level":2,
          "entries":[
@@ -3755,14 +3755,14 @@
       },
       {
          "name":"Power Enhancements",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Hybrid",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":47,
          "level":3,
          "entries":[
-            "At 3rd level, you gain the ability to twist your hybrid powers (spells) to suit your needs. You gain two of the following Enhancements options of your choice. You gain another one at 10th and 17th level.",
-            "You can use only one Enhancement option on a hybrid power (spell) when you cast it, unless otherwise noted.",
+            "At 3rd level, you gain the ability to twist your hybrid powers (spells) to suit your needs. You gain two of the following Enhancements D&DFtions of your choice. You gain another one at 10th and 17th level.",
+            "You can use only one Enhancement D&DFtion on a hybrid power (spell) when you cast it, unless otherwise noted.",
             {
                "type":"list",
                "items":[
@@ -3770,12 +3770,12 @@
                   "Distant Enhancement. When you cast a hybrid power that has a range of 5 feet or greater, you can spend 1 hybrid point to double the range of the hybrid power.",
                   "When you cast a hybrid power that has a range of touch, you can spend 1 hybrid point to make the range of the hybrid power 30 feet.",
                   "Empowered Enhancement. When you roll damage for a hybrid power, you can spend 1 hybrid point to reroll a number of the damage dice up to your Charisma modifier (minimum of one). You must use the new rolls.",
-                  "You can use Empowered Enhancement even if you have already used a different Enhancement option during the casting of the hybrid power.",
+                  "You can use Empowered Enhancement even if you have already used a different Enhancement D&DFtion during the casting of the hybrid power.",
                   "Extended Enhancement. When you cast a hybrid power that has a duration of 1 minute or longer, you can spend 1 hybrid point to double its duration, to a maximum duration of 24 hours.",
                   "Heightened Enhancement. When you cast a hybrid power that forces a creature to make a saving throw to resist its effects, you can spend 3 hybrid points to give one target of the hybrid power disadvantage on its first saving throw made against the hybrid power.",
                   "Quickened Enhancement. When you cast a hybrid power that has a casting time of 1 action, you can spend 2 hybrid points to change the casting time to 1 bonus action for this casting.",
                   "Seeking Enhancement. If you make an attack roll for a hybrid power and miss, you can spend 2 hybrid points to reroll the {@dice d20}, and you must use the new roll.",
-                  "You can use Seeking Enhancement even if you have already used a different Enhancement option during the casting of the hybrid power.",
+                  "You can use Seeking Enhancement even if you have already used a different Enhancement D&DFtion during the casting of the hybrid power.",
                   "Seeking Enhancement. When you cast a hybrid power that requires you to make a hybrid attack roll or that forces a target to make a Dexterity saving throw, you can spend 1 hybrid point to ignore the effects of half- and three-quarters cover against targets of the hybrid power.",
                   "Subtle Enhancement. When you cast a hybrid power, you can spend 1 hybrid point to cast it without any somatic or verbal components.",
                   "Transmuted Enhancement. When you cast a hybrid power that deals a type of damage from the following list, you can spend 1 hybrid point to change that damage type to one of the other listed types: acid, cold, fire, lightning, poison, thunder.",
@@ -3786,9 +3786,9 @@
       },
       {
          "name":"Ability Score Improvement",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Hybrid",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":47,
          "level":4,
          "entries":[
@@ -3797,7 +3797,7 @@
             {
                "type":"list",
                "items":[
-                  "Replace one of the options you chose for the Enhancement feature with a different Enhancement option available to you.",
+                  "Replace one of the D&DFtions you chose for the Enhancement feature with a different Enhancement D&DFtion available to you.",
                   "Replace one natural ability (cantrip) you learned from this class' spellcasting feature with another cantrip from the hybrid spell list."
                ]
             }
@@ -3805,9 +3805,9 @@
       },
       {
          "name":"Hybrid Resilience",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Hybrid",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":47,
          "level":5,
          "entries":[
@@ -3816,9 +3816,9 @@
       },
       {
          "name":"Hybrid Lineage feature",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Hybrid",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":58,
          "level":6,
          "entries":[
@@ -3827,9 +3827,9 @@
       },
       {
          "name":"Ability Score Improvement",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Hybrid",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":47,
          "level":8,
          "entries":[
@@ -3838,7 +3838,7 @@
             {
                "type":"list",
                "items":[
-                  "Replace one of the options you chose for the Enhancement feature with a different Enhancement option available to you.",
+                  "Replace one of the D&DFtions you chose for the Enhancement feature with a different Enhancement D&DFtion available to you.",
                   "Replace one natural ability (cantrip) you learned from this class' spellcasting feature with another cantrip from the hybrid spell list."
                ]
             }
@@ -3846,14 +3846,14 @@
       },
       {
          "name":"Power Enhancements",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Hybrid",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":47,
          "level":10,
          "entries":[
-            "At 3rd level, you gain the ability to twist your hybrid powers (spells) to suit your needs. You gain two of the following Enhancements options of your choice. You gain another one at 10th and 17th level.",
-            "You can use only one Enhancement option on a hybrid power (spell) when you cast it, unless otherwise noted.",
+            "At 3rd level, you gain the ability to twist your hybrid powers (spells) to suit your needs. You gain two of the following Enhancements D&DFtions of your choice. You gain another one at 10th and 17th level.",
+            "You can use only one Enhancement D&DFtion on a hybrid power (spell) when you cast it, unless otherwise noted.",
             {
                "type":"list",
                "items":[
@@ -3861,12 +3861,12 @@
                   "Distant Enhancement. When you cast a hybrid power that has a range of 5 feet or greater, you can spend 1 hybrid point to double the range of the hybrid power.",
                   "When you cast a hybrid power that has a range of touch, you can spend 1 hybrid point to make the range of the hybrid power 30 feet.",
                   "Empowered Enhancement. When you roll damage for a hybrid power, you can spend 1 hybrid point to reroll a number of the damage dice up to your Charisma modifier (minimum of one). You must use the new rolls.",
-                  "You can use Empowered Enhancement even if you have already used a different Enhancement option during the casting of the hybrid power.",
+                  "You can use Empowered Enhancement even if you have already used a different Enhancement D&DFtion during the casting of the hybrid power.",
                   "Extended Enhancement. When you cast a hybrid power that has a duration of 1 minute or longer, you can spend 1 hybrid point to double its duration, to a maximum duration of 24 hours.",
                   "Heightened Enhancement. When you cast a hybrid power that forces a creature to make a saving throw to resist its effects, you can spend 3 hybrid points to give one target of the hybrid power disadvantage on its first saving throw made against the hybrid power.",
                   "Quickened Enhancement. When you cast a hybrid power that has a casting time of 1 action, you can spend 2 hybrid points to change the casting time to 1 bonus action for this casting.",
                   "Seeking Enhancement. If you make an attack roll for a hybrid power and miss, you can spend 2 hybrid points to reroll the {@dice d20}, and you must use the new roll.",
-                  "You can use Seeking Enhancement even if you have already used a different Enhancement option during the casting of the hybrid power.",
+                  "You can use Seeking Enhancement even if you have already used a different Enhancement D&DFtion during the casting of the hybrid power.",
                   "Seeking Enhancement. When you cast a hybrid power that requires you to make a hybrid attack roll or that forces a target to make a Dexterity saving throw, you can spend 1 hybrid point to ignore the effects of half- and three-quarters cover against targets of the hybrid power.",
                   "Subtle Enhancement. When you cast a hybrid power, you can spend 1 hybrid point to cast it without any somatic or verbal components.",
                   "Transmuted Enhancement. When you cast a hybrid power that deals a type of damage from the following list, you can spend 1 hybrid point to change that damage type to one of the other listed types: acid, cold, fire, lightning, poison, thunder.",
@@ -3877,9 +3877,9 @@
       },
       {
          "name":"Ability Score Improvement",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Hybrid",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":47,
          "level":12,
          "entries":[
@@ -3888,7 +3888,7 @@
             {
                "type":"list",
                "items":[
-                  "Replace one of the options you chose for the Enhancement feature with a different Enhancement option available to you.",
+                  "Replace one of the D&DFtions you chose for the Enhancement feature with a different Enhancement D&DFtion available to you.",
                   "Replace one natural ability (cantrip) you learned from this class' spellcasting feature with another cantrip from the hybrid spell list."
                ]
             }
@@ -3896,9 +3896,9 @@
       },
       {
          "name":"Hybrid Lineage feature",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Hybrid",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":58,
          "level":14,
          "entries":[
@@ -3907,9 +3907,9 @@
       },
       {
          "name":"Ability Score Improvement",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Hybrid",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":47,
          "level":16,
          "entries":[
@@ -3918,7 +3918,7 @@
             {
                "type":"list",
                "items":[
-                  "Replace one of the options you chose for the Enhancement feature with a different Enhancement option available to you.",
+                  "Replace one of the D&DFtions you chose for the Enhancement feature with a different Enhancement D&DFtion available to you.",
                   "Replace one natural ability (cantrip) you learned from this class' spellcasting feature with another cantrip from the hybrid spell list."
                ]
             }
@@ -3926,14 +3926,14 @@
       },
       {
          "name":"Power Enhancements",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Hybrid",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":47,
          "level":17,
          "entries":[
-            "At 3rd level, you gain the ability to twist your hybrid powers (spells) to suit your needs. You gain two of the following Enhancements options of your choice. You gain another one at 10th and 17th level.",
-            "You can use only one Enhancement option on a hybrid power (spell) when you cast it, unless otherwise noted.",
+            "At 3rd level, you gain the ability to twist your hybrid powers (spells) to suit your needs. You gain two of the following Enhancements D&DFtions of your choice. You gain another one at 10th and 17th level.",
+            "You can use only one Enhancement D&DFtion on a hybrid power (spell) when you cast it, unless otherwise noted.",
             {
                "type":"list",
                "items":[
@@ -3941,12 +3941,12 @@
                   "Distant Enhancement. When you cast a hybrid power that has a range of 5 feet or greater, you can spend 1 hybrid point to double the range of the hybrid power.",
                   "When you cast a hybrid power that has a range of touch, you can spend 1 hybrid point to make the range of the hybrid power 30 feet.",
                   "Empowered Enhancement. When you roll damage for a hybrid power, you can spend 1 hybrid point to reroll a number of the damage dice up to your Charisma modifier (minimum of one). You must use the new rolls.",
-                  "You can use Empowered Enhancement even if you have already used a different Enhancement option during the casting of the hybrid power.",
+                  "You can use Empowered Enhancement even if you have already used a different Enhancement D&DFtion during the casting of the hybrid power.",
                   "Extended Enhancement. When you cast a hybrid power that has a duration of 1 minute or longer, you can spend 1 hybrid point to double its duration, to a maximum duration of 24 hours.",
                   "Heightened Enhancement. When you cast a hybrid power that forces a creature to make a saving throw to resist its effects, you can spend 3 hybrid points to give one target of the hybrid power disadvantage on its first saving throw made against the hybrid power.",
                   "Quickened Enhancement. When you cast a hybrid power that has a casting time of 1 action, you can spend 2 hybrid points to change the casting time to 1 bonus action for this casting.",
                   "Seeking Enhancement. If you make an attack roll for a hybrid power and miss, you can spend 2 hybrid points to reroll the {@dice d20}, and you must use the new roll.",
-                  "You can use Seeking Enhancement even if you have already used a different Enhancement option during the casting of the hybrid power.",
+                  "You can use Seeking Enhancement even if you have already used a different Enhancement D&DFtion during the casting of the hybrid power.",
                   "Seeking Enhancement. When you cast a hybrid power that requires you to make a hybrid attack roll or that forces a target to make a Dexterity saving throw, you can spend 1 hybrid point to ignore the effects of half- and three-quarters cover against targets of the hybrid power.",
                   "Subtle Enhancement. When you cast a hybrid power, you can spend 1 hybrid point to cast it without any somatic or verbal components.",
                   "Transmuted Enhancement. When you cast a hybrid power that deals a type of damage from the following list, you can spend 1 hybrid point to change that damage type to one of the other listed types: acid, cold, fire, lightning, poison, thunder.",
@@ -3957,9 +3957,9 @@
       },
       {
          "name":"Hybrid Lineage feature",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Hybrid",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":58,
          "level":18,
          "entries":[
@@ -3968,9 +3968,9 @@
       },
       {
          "name":"Ability Score Improvement",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Hybrid",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":47,
          "level":19,
          "entries":[
@@ -3979,7 +3979,7 @@
             {
                "type":"list",
                "items":[
-                  "Replace one of the options you chose for the Enhancement feature with a different Enhancement option available to you.",
+                  "Replace one of the D&DFtions you chose for the Enhancement feature with a different Enhancement D&DFtion available to you.",
                   "Replace one natural ability (cantrip) you learned from this class' spellcasting feature with another cantrip from the hybrid spell list."
                ]
             }
@@ -3987,9 +3987,9 @@
       },
       {
          "name":"Hybrid Restoration",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Hybrid",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":47,
          "level":20,
          "entries":[
@@ -3998,20 +3998,20 @@
       },
       {
          "name":"Devilsmith Feature",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Devilforged",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":47,
          "level":1,
          "entries":[
-            "At 1st level, you have developed a particular style of devilsmithing which determines the types of equipment or items you specialize at infusing with. You can choose between Gear Smithing, Blade Smithing, and Firearm Smithing, all detailed at the end of the class description. Your choice grants you features at 1st level and again at 6th, 10th, and 14th level."
+            "At 1st level, you have develD&DFed a particular style of devilsmithing which determines the types of equipment or items you specialize at infusing with. You can choose between Gear Smithing, Blade Smithing, and Firearm Smithing, all detailed at the end of the class description. Your choice grants you features at 1st level and again at 6th, 10th, and 14th level."
          ]
       },
       {
          "name":"Devil Fruit Infusion (Spellcasting)",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Devilforged",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":46,
          "level":1,
          "entries":[
@@ -4062,20 +4062,20 @@
       },
       {
          "name":"Devilsmith",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Devilforged",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":47,
          "level":1,
          "entries":[
-            "At 1st level, you have developed a particular style of devilsmithing which determines the types of equipment or items you specialize at infusing with. You can choose between Gear Smithing, Blade Smithing, and Firearm Smithing, all detailed at the end of the class description. Your choice grants you features at 1st level and again at 6th, 10th, and 14th level."
+            "At 1st level, you have develD&DFed a particular style of devilsmithing which determines the types of equipment or items you specialize at infusing with. You can choose between Gear Smithing, Blade Smithing, and Firearm Smithing, all detailed at the end of the class description. Your choice grants you features at 1st level and again at 6th, 10th, and 14th level."
          ]
       },
       {
          "name":"Sea Devil's Emanations",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Devilforged",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":47,
          "level":2,
          "entries":[
@@ -4086,13 +4086,13 @@
       },
       {
          "name":"Infused Devil Fruit Category",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Devilforged",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":47,
          "level":3,
          "entries":[
-            "At 3rd level, you are able to further develop the abilities of your devil fruit-infused item to closer match the abilities of a specific devil fruit category, which are paramecia, zoan, or logia. You gain one of the following features of your choice.",
+            "At 3rd level, you are able to further develD&DF the abilities of your devil fruit-infused item to closer match the abilities of a specific devil fruit category, which are paramecia, zoan, or logia. You gain one of the following features of your choice.",
             {
                "type":"list",
                "items":[
@@ -4100,7 +4100,7 @@
                   {
                      "type":"list",
                      "items":[
-                        "Your infused item develops special enhanced properties, similar to that of a paramecia-type devil fruit user. You can use your action to activate an item's paramecia powers, transforming it into a weapon (unless it is already a weapon). While activated, you can choose the form that this weapon takes each time you activate it, allowing it to become any type of weapon listed in Chapter 5. You are proficient with it while you wield it. This weapon counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.",
+                        "Your infused item develD&DFs special enhanced prD&DFerties, similar to that of a paramecia-type devil fruit user. You can use your action to activate an item's paramecia powers, transforming it into a weapon (unless it is already a weapon). While activated, you can choose the form that this weapon takes each time you activate it, allowing it to become any type of weapon listed in Chapter 5. You are proficient with it while you wield it. This weapon counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.",
                         "Your infused weapon returns to your hand if it is more than 5 feet away from your for 1 minute or more. Additionally, you can return it back to its original form by deactivating its paramecia powers (no action required). Its powers disappear if you die, or if it becomes partially submerged in water or touches seastone."
                      ]
                   },
@@ -4128,65 +4128,65 @@
       },
       {
          "name":"Ability Score Improvement",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Devilforged",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":48,
          "level":4,
          "entries":[
             "When you reach 4th Level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two Ability Scores of your choice by 1. Alternatively, you can take a feat listed in Chapter 6. As normal, you can't increase an ability score above 20 using this feature.",
             "Additionally, when you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing the increased power of your infused item:",
             "Replace one cantrip you learned from this class's Devil Fruit Infusion feature with another cantrip from the devilforged spell list.",
-            "Replace the option you chose for the Infused Devil Fruit Category feature with one of that feature's other options.",
+            "Replace the D&DFtion you chose for the Infused Devil Fruit Category feature with one of that feature's other D&DFtions.",
             "If this change makes you ineligible for any of your Sea Devil's Emanations, you must also replace them now, choosing emanations for which you qualify."
          ]
       },
       {
          "name":"Devilsmith Feature",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Devilforged",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":47,
          "level":6,
          "entries":[
-            "At 1st level, you have developed a particular style of devilsmithing which determines the types of equipment or items you specialize at infusing with. You can choose between Gear Smithing, Blade Smithing, and Firearm Smithing, all detailed at the end of the class description. Your choice grants you features at 1st level and again at 6th, 10th, and 14th level."
+            "At 1st level, you have develD&DFed a particular style of devilsmithing which determines the types of equipment or items you specialize at infusing with. You can choose between Gear Smithing, Blade Smithing, and Firearm Smithing, all detailed at the end of the class description. Your choice grants you features at 1st level and again at 6th, 10th, and 14th level."
          ]
       },
       {
          "name":"Ability Score Improvement",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Devilforged",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":48,
          "level":8,
          "entries":[
             "When you reach 4th Level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two Ability Scores of your choice by 1. Alternatively, you can take a feat listed in Chapter 6. As normal, you can't increase an ability score above 20 using this feature.",
             "Additionally, when you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing the increased power of your infused item:",
             "Replace one cantrip you learned from this class's Devil Fruit Infusion feature with another cantrip from the devilforged spell list.",
-            "Replace the option you chose for the Infused Devil Fruit Category feature with one of that feature's other options.",
+            "Replace the D&DFtion you chose for the Infused Devil Fruit Category feature with one of that feature's other D&DFtions.",
             "If this change makes you ineligible for any of your Sea Devil's Emanations, you must also replace them now, choosing emanations for which you qualify."
          ]
       },
       {
          "name":"Devilsmith Feature",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Devilforged",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":47,
          "level":10,
          "entries":[
-            "At 1st level, you have developed a particular style of devilsmithing which determines the types of equipment or items you specialize at infusing with. You can choose between Gear Smithing, Blade Smithing, and Firearm Smithing, all detailed at the end of the class description. Your choice grants you features at 1st level and again at 6th, 10th, and 14th level."
+            "At 1st level, you have develD&DFed a particular style of devilsmithing which determines the types of equipment or items you specialize at infusing with. You can choose between Gear Smithing, Blade Smithing, and Firearm Smithing, all detailed at the end of the class description. Your choice grants you features at 1st level and again at 6th, 10th, and 14th level."
          ]
       },
       {
          "name":"Fiendish Assimilation (6th level)",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Devilforged",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":48,
          "level":11,
          "entries":[
-            "At 11th level, your devil fruit item develops immense newfound powers. Choose one 6th-level power (spell) from the devilforged spell list as this new power.",
+            "At 11th level, your devil fruit item develD&DFs immense newfound powers. Choose one 6th-level power (spell) from the devilforged spell list as this new power.",
             "You can cast your Fiendish Assimilation power (spell) once without expending a spell slot. You must finish a long rest before you can do so again.",
             "At higher levels, you gain more devilforged spells of your choice that can be cast in this way: one 7th-level spell at 13th level, one 8th-level spell at 15th level, and one 9th-level spell at 17th level. You regain all uses of your Fiendish Assimilation when you finish a long rest.",
             "Alternatively, you can choose to incorporate or \"steal\" the essence of other great Devil Fruit powers into your infused item. When you see a Devil Fruit spell or spell effect within 30 feet of you, you may use your reaction to \"store\" a portion of the energy of that spell into your infused item, making it your new Fiendish Assimilation spell. The maximum level of the spell stolen must be equal to your current Fiendish Assimilation spell level. For example, if you are 13th level, you can only steal up to 7th-level spells created by a Devil Fruit power and store them into your infused item.",
@@ -4195,28 +4195,28 @@
       },
       {
          "name":"Ability Score Improvement",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Devilforged",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":48,
          "level":12,
          "entries":[
             "When you reach 4th Level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two Ability Scores of your choice by 1. Alternatively, you can take a feat listed in Chapter 6. As normal, you can't increase an ability score above 20 using this feature.",
             "Additionally, when you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing the increased power of your infused item:",
             "Replace one cantrip you learned from this class's Devil Fruit Infusion feature with another cantrip from the devilforged spell list.",
-            "Replace the option you chose for the Infused Devil Fruit Category feature with one of that feature's other options.",
+            "Replace the D&DFtion you chose for the Infused Devil Fruit Category feature with one of that feature's other D&DFtions.",
             "If this change makes you ineligible for any of your Sea Devil's Emanations, you must also replace them now, choosing emanations for which you qualify."
          ]
       },
       {
          "name":"Fiendish Assimilation (7th level)",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Devilforged",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":48,
          "level":13,
          "entries":[
-            "At 11th level, your devil fruit item develops immense newfound powers. Choose one 6th-level power (spell) from the devilforged spell list as this new power.",
+            "At 11th level, your devil fruit item develD&DFs immense newfound powers. Choose one 6th-level power (spell) from the devilforged spell list as this new power.",
             "You can cast your Fiendish Assimilation power (spell) once without expending a spell slot. You must finish a long rest before you can do so again.",
             "At higher levels, you gain more devilforged spells of your choice that can be cast in this way: one 7th-level spell at 13th level, one 8th-level spell at 15th level, and one 9th-level spell at 17th level. You regain all uses of your Fiendish Assimilation when you finish a long rest.",
             "Alternatively, you can choose to incorporate or \"steal\" the essence of other great Devil Fruit powers into your infused item. When you see a Devil Fruit spell or spell effect within 30 feet of you, you may use your reaction to \"store\" a portion of the energy of that spell into your infused item, making it your new Fiendish Assimilation spell. The maximum level of the spell stolen must be equal to your current Fiendish Assimilation spell level. For example, if you are 13th level, you can only steal up to 7th-level spells created by a Devil Fruit power and store them into your infused item.",
@@ -4225,24 +4225,24 @@
       },
       {
          "name":"Devilsmith Feature",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Devilforged",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":47,
          "level":14,
          "entries":[
-            "At 1st level, you have developed a particular style of devilsmithing which determines the types of equipment or items you specialize at infusing with. You can choose between Gear Smithing, Blade Smithing, and Firearm Smithing, all detailed at the end of the class description. Your choice grants you features at 1st level and again at 6th, 10th, and 14th level."
+            "At 1st level, you have develD&DFed a particular style of devilsmithing which determines the types of equipment or items you specialize at infusing with. You can choose between Gear Smithing, Blade Smithing, and Firearm Smithing, all detailed at the end of the class description. Your choice grants you features at 1st level and again at 6th, 10th, and 14th level."
          ]
       },
       {
          "name":"Fiendish Assimilation (8th level)",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Devilforged",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":48,
          "level":15,
          "entries":[
-            "At 11th level, your devil fruit item develops immense newfound powers. Choose one 6th-level power (spell) from the devilforged spell list as this new power.",
+            "At 11th level, your devil fruit item develD&DFs immense newfound powers. Choose one 6th-level power (spell) from the devilforged spell list as this new power.",
             "You can cast your Fiendish Assimilation power (spell) once without expending a spell slot. You must finish a long rest before you can do so again.",
             "At higher levels, you gain more devilforged spells of your choice that can be cast in this way: one 7th-level spell at 13th level, one 8th-level spell at 15th level, and one 9th-level spell at 17th level. You regain all uses of your Fiendish Assimilation when you finish a long rest.",
             "Alternatively, you can choose to incorporate or \"steal\" the essence of other great Devil Fruit powers into your infused item. When you see a Devil Fruit spell or spell effect within 30 feet of you, you may use your reaction to \"store\" a portion of the energy of that spell into your infused item, making it your new Fiendish Assimilation spell. The maximum level of the spell stolen must be equal to your current Fiendish Assimilation spell level. For example, if you are 13th level, you can only steal up to 7th-level spells created by a Devil Fruit power and store them into your infused item.",
@@ -4251,28 +4251,28 @@
       },
       {
          "name":"Ability Score Improvement",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Devilforged",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":48,
          "level":16,
          "entries":[
             "When you reach 4th Level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two Ability Scores of your choice by 1. Alternatively, you can take a feat listed in Chapter 6. As normal, you can't increase an ability score above 20 using this feature.",
             "Additionally, when you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing the increased power of your infused item:",
             "Replace one cantrip you learned from this class's Devil Fruit Infusion feature with another cantrip from the devilforged spell list.",
-            "Replace the option you chose for the Infused Devil Fruit Category feature with one of that feature's other options.",
+            "Replace the D&DFtion you chose for the Infused Devil Fruit Category feature with one of that feature's other D&DFtions.",
             "If this change makes you ineligible for any of your Sea Devil's Emanations, you must also replace them now, choosing emanations for which you qualify."
          ]
       },
       {
          "name":"Fiendish Assimilation (9th level)",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Devilforged",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":48,
          "level":17,
          "entries":[
-            "At 11th level, your devil fruit item develops immense newfound powers. Choose one 6th-level power (spell) from the devilforged spell list as this new power.",
+            "At 11th level, your devil fruit item develD&DFs immense newfound powers. Choose one 6th-level power (spell) from the devilforged spell list as this new power.",
             "You can cast your Fiendish Assimilation power (spell) once without expending a spell slot. You must finish a long rest before you can do so again.",
             "At higher levels, you gain more devilforged spells of your choice that can be cast in this way: one 7th-level spell at 13th level, one 8th-level spell at 15th level, and one 9th-level spell at 17th level. You regain all uses of your Fiendish Assimilation when you finish a long rest.",
             "Alternatively, you can choose to incorporate or \"steal\" the essence of other great Devil Fruit powers into your infused item. When you see a Devil Fruit spell or spell effect within 30 feet of you, you may use your reaction to \"store\" a portion of the energy of that spell into your infused item, making it your new Fiendish Assimilation spell. The maximum level of the spell stolen must be equal to your current Fiendish Assimilation spell level. For example, if you are 13th level, you can only steal up to 7th-level spells created by a Devil Fruit power and store them into your infused item.",
@@ -4281,24 +4281,24 @@
       },
       {
          "name":"Ability Score Improvement",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Devilforged",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":48,
          "level":19,
          "entries":[
             "When you reach 4th Level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two Ability Scores of your choice by 1. Alternatively, you can take a feat listed in Chapter 6. As normal, you can't increase an ability score above 20 using this feature.",
             "Additionally, when you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing the increased power of your infused item:",
             "Replace one cantrip you learned from this class's Devil Fruit Infusion feature with another cantrip from the devilforged spell list.",
-            "Replace the option you chose for the Infused Devil Fruit Category feature with one of that feature's other options.",
+            "Replace the D&DFtion you chose for the Infused Devil Fruit Category feature with one of that feature's other D&DFtions.",
             "If this change makes you ineligible for any of your Sea Devil's Emanations, you must also replace them now, choosing emanations for which you qualify."
          ]
       },
       {
          "name":"Devil's Bounty",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Devilforged",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":48,
          "level":20,
          "entries":[
@@ -4307,13 +4307,13 @@
       },
       {
          "name":"Scrapper",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Bruiser",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":28,
          "level":1,
          "entries":[
-            "At 1st level, your life of scrapping and battling with beasts, humans, or other tough creatures has given you mastery of Combat styles that use unarmed strikes and bruiser weapons, which are simple melee weapons without the two-handed property, cutlasses, and improvised weapons. You can not use the finesse property of a weapon while using it as a bruiser weapon.",
+            "At 1st level, your life of scrapping and battling with beasts, humans, or other tough creatures has given you mastery of Combat styles that use unarmed strikes and bruiser weapons, which are simple melee weapons without the two-handed prD&DFerty, cutlasses, and improvised weapons. You can not use the finesse prD&DFerty of a weapon while using it as a bruiser weapon.",
             "You gain the following benefits while you are unarmed or wielding only bruiser Weapons and you aren't wearing armor and not wielding a shield:",
             {
                "type":"list",
@@ -4326,9 +4326,9 @@
       },
       {
          "name":"Unarmed Defence",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Bruiser",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":28,
          "level":1,
          "entries":[
@@ -4337,9 +4337,9 @@
       },
       {
          "name":"Fury",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Bruiser",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":28,
          "level":2,
          "entries":[
@@ -4373,9 +4373,9 @@
       },
       {
          "name":"Charge Right Through",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Bruiser",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":28,
          "level":2,
          "entries":[
@@ -4385,20 +4385,20 @@
       },
       {
          "name":"Brawling Style Feature",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Bruiser",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":28,
          "level":3,
          "entries":[
-            "At 3rd Level, you choose and develop a way of brawling that best defines your fighting style: Black Fist Style, Dragon Style, or Beast Style. all detailed at the end of the class description. Your brawling style grants you features at 3rd level and again at 6th, 11th, and 17th level."
+            "At 3rd Level, you choose and develD&DF a way of brawling that best defines your fighting style: Black Fist Style, Dragon Style, or Beast Style. all detailed at the end of the class description. Your brawling style grants you features at 3rd level and again at 6th, 11th, and 17th level."
          ]
       },
       {
          "name":"Blood for Brawn",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Bruiser",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":28,
          "level":3,
          "entries":[
@@ -4407,9 +4407,9 @@
       },
       {
          "name":"Ability Score Improvement",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Bruiser",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":29,
          "level":4,
          "entries":[
@@ -4418,9 +4418,9 @@
       },
       {
          "name":"Thrill of the Fight",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Bruiser",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":29,
          "level":4,
          "entries":[
@@ -4442,9 +4442,9 @@
       },
       {
          "name":"Extra Attack",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Bruiser",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":29,
          "level":5,
          "entries":[
@@ -4453,9 +4453,9 @@
       },
       {
          "name":"Rampage",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Bruiser",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":29,
          "level":5,
          "entries":[
@@ -4464,9 +4464,9 @@
       },
       {
          "name":"Fast Movement",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Bruiser",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":29,
          "level":5,
          "entries":[
@@ -4475,20 +4475,20 @@
       },
       {
          "name":"Brawling Style Feature",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Bruiser",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":28,
          "level":6,
          "entries":[
-            "At 3rd Level, you choose and develop a way of brawling that best defines your fighting style: Black Fist Style, Dragon Style, or Beast Style. all detailed at the end of the class description. Your brawling style grants you features at 3rd level and again at 6th, 11th, and 17th level."
+            "At 3rd Level, you choose and develD&DF a way of brawling that best defines your fighting style: Black Fist Style, Dragon Style, or Beast Style. all detailed at the end of the class description. Your brawling style grants you features at 3rd level and again at 6th, 11th, and 17th level."
          ]
       },
       {
          "name":"Spirit Assault",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Bruiser",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":29,
          "level":6,
          "entries":[
@@ -4497,9 +4497,9 @@
       },
       {
          "name":"Frenzied Rush",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Bruiser",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":29,
          "level":7,
          "entries":[
@@ -4509,9 +4509,9 @@
       },
       {
          "name":"Unbending Resolve",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Bruiser",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":29,
          "level":7,
          "entries":[
@@ -4520,9 +4520,9 @@
       },
       {
          "name":"Ability Score Improvement",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Bruiser",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":29,
          "level":8,
          "entries":[
@@ -4531,9 +4531,9 @@
       },
       {
          "name":"Brutal Frenzy",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Bruiser",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":30,
          "level":9,
          "entries":[
@@ -4542,9 +4542,9 @@
       },
       {
          "name":"Unbreakable",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Bruiser",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":30,
          "level":10,
          "entries":[
@@ -4553,20 +4553,20 @@
       },
       {
          "name":"Brawling Style Feature",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Bruiser",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":28,
          "level":11,
          "entries":[
-            "At 3rd Level, you choose and develop a way of brawling that best defines your fighting style: Black Fist Style, Dragon Style, or Beast Style. all detailed at the end of the class description. Your brawling style grants you features at 3rd level and again at 6th, 11th, and 17th level."
+            "At 3rd Level, you choose and develD&DF a way of brawling that best defines your fighting style: Black Fist Style, Dragon Style, or Beast Style. all detailed at the end of the class description. Your brawling style grants you features at 3rd level and again at 6th, 11th, and 17th level."
          ]
       },
       {
          "name":"Ability Score Improvement",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Bruiser",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":29,
          "level":12,
          "entries":[
@@ -4575,21 +4575,21 @@
       },
       {
          "name":"Undying Frenzy",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Bruiser",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":30,
          "level":13,
          "entries":[
-            "Starting at 13th level, your frenzy keeps you fighting despite lethal injuries. If you drop to 0 hit points while you're in a frenzy and don't die outright, you can make a DC 10 Constitution saving throw. If you succeed, you drop to 1 hit point instead.",
+            "Starting at 13th level, your frenzy keeps you fighting despite lethal injuries. If you drD&DF to 0 hit points while you're in a frenzy and don't die outright, you can make a DC 10 Constitution saving throw. If you succeed, you drD&DF to 1 hit point instead.",
             "Each time you use this feature after the first, the DC increases by 5. When you finish a short or long rest, the DC resets to 10."
          ]
       },
       {
          "name":"Focused Fury",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Bruiser",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":30,
          "level":14,
          "entries":[
@@ -4599,9 +4599,9 @@
       },
       {
          "name":"Tireless Training",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Bruiser",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":30,
          "level":15,
          "entries":[
@@ -4611,9 +4611,9 @@
       },
       {
          "name":"Ability Score Improvement",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Bruiser",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":29,
          "level":16,
          "entries":[
@@ -4622,20 +4622,20 @@
       },
       {
          "name":"Brawling Style Feature",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Bruiser",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":28,
          "level":17,
          "entries":[
-            "At 3rd Level, you choose and develop a way of brawling that best defines your fighting style: Black Fist Style, Dragon Style, or Beast Style. all detailed at the end of the class description. Your brawling style grants you features at 3rd level and again at 6th, 11th, and 17th level."
+            "At 3rd Level, you choose and develD&DF a way of brawling that best defines your fighting style: Black Fist Style, Dragon Style, or Beast Style. all detailed at the end of the class description. Your brawling style grants you features at 3rd level and again at 6th, 11th, and 17th level."
          ]
       },
       {
          "name":"Invincible",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Bruiser",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":30,
          "level":18,
          "entries":[
@@ -4644,9 +4644,9 @@
       },
       {
          "name":"Ability Score Improvement",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Bruiser",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":29,
          "level":19,
          "entries":[
@@ -4655,9 +4655,9 @@
       },
       {
          "name":"The King",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Bruiser",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":30,
          "level":20,
          "entries":[
@@ -4666,9 +4666,9 @@
       },
       {
          "name":"Alchemical Symbols",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Chemist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":35,
          "level":1,
          "entries":[
@@ -4677,9 +4677,9 @@
       },
       {
          "name":"Invention Power (Spellcasting)",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Chemist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":35,
          "level":1,
          "entries":[
@@ -4727,9 +4727,9 @@
       },
       {
          "name":"Monster Mutation",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Chemist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":36,
          "level":2,
          "entries":[
@@ -4761,13 +4761,13 @@
                   ]
                ]
             },
-            "You can stay in your abomination form for a number of hours equal to half your chemist level (rounded down). You then revert to your normal form unless you expend another use of this feature. You can revert to your normal form earlier by using a bonus action on your turn. You automatically revert if you fall unconscious, drop to 0 hit points, or die.",
+            "You can stay in your abomination form for a number of hours equal to half your chemist level (rounded down). You then revert to your normal form unless you expend another use of this feature. You can revert to your normal form earlier by using a bonus action on your turn. You automatically revert if you fall unconscious, drD&DF to 0 hit points, or die.",
             "While you are transformed, the following rules apply:",
             {
                "type":"list",
                "items":[
                   "Your game statistics are replaced by the statistics of the abomination, but you retain your alignment, personality, and Intelligence, Wisdom, and Charisma scores. You also retain all of your skill and saving throw proficiencies, in addition to gaining those of the creature. If the creature has the same proficiency as you and the bonus in its stat block is higher than yours, use the creature's bonus instead of yours. If the creature has any legendary or lair actions, you can't use them.",
-                  "When you transform, you assume the abomination's hit points and Hit Dice. When you revert to your normal form, you return to the number of hit points you had before you transformed. However, if you revert as a result of dropping to 0 hit points, any excess damage carries over to your normal form, For example, if you take 10 damage in animal form and have only 1 hit point left, you revert and take 9 damage. As long as the excess damage doesn't reduce your normal form to 0 hit points, you aren't knocked {@condition unconscious}.",
+                  "When you transform, you assume the abomination's hit points and Hit Dice. When you revert to your normal form, you return to the number of hit points you had before you transformed. However, if you revert as a result of drD&DFping to 0 hit points, any excess damage carries over to your normal form, For example, if you take 10 damage in animal form and have only 1 hit point left, you revert and take 9 damage. As long as the excess damage doesn't reduce your normal form to 0 hit points, you aren't knocked {@condition unconscious}.",
                   "You can't cast special powers (spells), and your ability to speak or take any action that requires hands is limited to the capabilities of your abomination form. Transforming doesn't break your {@status concentration} on a special power (spell) you've already cast, however, or prevent you from taking actions that are part of a special power (spell), such as Call Lightning, that you've already cast.",
                   "If you have Devil Fruit powers, you cannot use them while in this form, as your lineage factor is temporarily disrupted.",
                   "You retain the benefit of any features from your class, race, or other source and can use them if the new form is physically capable of doing so. However, you can't use any of your special senses, such as {@sense darkvision}, unless your new form also has that sense.",
@@ -4778,9 +4778,9 @@
       },
       {
          "name":"Chemist Study",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Chemist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":36,
          "level":2,
          "entries":[
@@ -4789,9 +4789,9 @@
       },
       {
          "name":"Monster Mutation Improvement",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Chemist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":36,
          "level":4,
          "entries":[
@@ -4823,13 +4823,13 @@
                   ]
                ]
             },
-            "You can stay in your abomination form for a number of hours equal to half your chemist level (rounded down). You then revert to your normal form unless you expend another use of this feature. You can revert to your normal form earlier by using a bonus action on your turn. You automatically revert if you fall unconscious, drop to 0 hit points, or die.",
+            "You can stay in your abomination form for a number of hours equal to half your chemist level (rounded down). You then revert to your normal form unless you expend another use of this feature. You can revert to your normal form earlier by using a bonus action on your turn. You automatically revert if you fall unconscious, drD&DF to 0 hit points, or die.",
             "While you are transformed, the following rules apply:",
             {
                "type":"list",
                "items":[
                   "Your game statistics are replaced by the statistics of the abomination, but you retain your alignment, personality, and Intelligence, Wisdom, and Charisma scores. You also retain all of your skill and saving throw proficiencies, in addition to gaining those of the creature. If the creature has the same proficiency as you and the bonus in its stat block is higher than yours, use the creature's bonus instead of yours. If the creature has any legendary or lair actions, you can't use them.",
-                  "When you transform, you assume the abomination's hit points and Hit Dice. When you revert to your normal form, you return to the number of hit points you had before you transformed. However, if you revert as a result of dropping to 0 hit points, any excess damage carries over to your normal form, For example, if you take 10 damage in animal form and have only 1 hit point left, you revert and take 9 damage. As long as the excess damage doesn't reduce your normal form to 0 hit points, you aren't knocked {@condition unconscious}.",
+                  "When you transform, you assume the abomination's hit points and Hit Dice. When you revert to your normal form, you return to the number of hit points you had before you transformed. However, if you revert as a result of drD&DFping to 0 hit points, any excess damage carries over to your normal form, For example, if you take 10 damage in animal form and have only 1 hit point left, you revert and take 9 damage. As long as the excess damage doesn't reduce your normal form to 0 hit points, you aren't knocked {@condition unconscious}.",
                   "You can't cast special powers (spells), and your ability to speak or take any action that requires hands is limited to the capabilities of your abomination form. Transforming doesn't break your {@status concentration} on a special power (spell) you've already cast, however, or prevent you from taking actions that are part of a special power (spell), such as Call Lightning, that you've already cast.",
                   "If you have Devil Fruit powers, you cannot use them while in this form, as your lineage factor is temporarily disrupted.",
                   "You retain the benefit of any features from your class, race, or other source and can use them if the new form is physically capable of doing so. However, you can't use any of your special senses, such as {@sense darkvision}, unless your new form also has that sense.",
@@ -4840,9 +4840,9 @@
       },
       {
          "name":"Ability Score Improvement",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Chemist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":36,
          "level":4,
          "entries":[
@@ -4852,9 +4852,9 @@
       },
       {
          "name":"Chemist Study",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Chemist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":36,
          "level":6,
          "entries":[
@@ -4863,9 +4863,9 @@
       },
       {
          "name":"Monster Mutation Improvement",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Chemist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":36,
          "level":8,
          "entries":[
@@ -4897,13 +4897,13 @@
                   ]
                ]
             },
-            "You can stay in your abomination form for a number of hours equal to half your chemist level (rounded down). You then revert to your normal form unless you expend another use of this feature. You can revert to your normal form earlier by using a bonus action on your turn. You automatically revert if you fall unconscious, drop to 0 hit points, or die.",
+            "You can stay in your abomination form for a number of hours equal to half your chemist level (rounded down). You then revert to your normal form unless you expend another use of this feature. You can revert to your normal form earlier by using a bonus action on your turn. You automatically revert if you fall unconscious, drD&DF to 0 hit points, or die.",
             "While you are transformed, the following rules apply:",
             {
                "type":"list",
                "items":[
                   "Your game statistics are replaced by the statistics of the abomination, but you retain your alignment, personality, and Intelligence, Wisdom, and Charisma scores. You also retain all of your skill and saving throw proficiencies, in addition to gaining those of the creature. If the creature has the same proficiency as you and the bonus in its stat block is higher than yours, use the creature's bonus instead of yours. If the creature has any legendary or lair actions, you can't use them.",
-                  "When you transform, you assume the abomination's hit points and Hit Dice. When you revert to your normal form, you return to the number of hit points you had before you transformed. However, if you revert as a result of dropping to 0 hit points, any excess damage carries over to your normal form, For example, if you take 10 damage in animal form and have only 1 hit point left, you revert and take 9 damage. As long as the excess damage doesn't reduce your normal form to 0 hit points, you aren't knocked {@condition unconscious}.",
+                  "When you transform, you assume the abomination's hit points and Hit Dice. When you revert to your normal form, you return to the number of hit points you had before you transformed. However, if you revert as a result of drD&DFping to 0 hit points, any excess damage carries over to your normal form, For example, if you take 10 damage in animal form and have only 1 hit point left, you revert and take 9 damage. As long as the excess damage doesn't reduce your normal form to 0 hit points, you aren't knocked {@condition unconscious}.",
                   "You can't cast special powers (spells), and your ability to speak or take any action that requires hands is limited to the capabilities of your abomination form. Transforming doesn't break your {@status concentration} on a special power (spell) you've already cast, however, or prevent you from taking actions that are part of a special power (spell), such as Call Lightning, that you've already cast.",
                   "If you have Devil Fruit powers, you cannot use them while in this form, as your lineage factor is temporarily disrupted.",
                   "You retain the benefit of any features from your class, race, or other source and can use them if the new form is physically capable of doing so. However, you can't use any of your special senses, such as {@sense darkvision}, unless your new form also has that sense.",
@@ -4914,9 +4914,9 @@
       },
       {
          "name":"Ability Score Improvement",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Chemist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":36,
          "level":8,
          "entries":[
@@ -4926,9 +4926,9 @@
       },
       {
          "name":"Chemist Study",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Chemist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":36,
          "level":10,
          "entries":[
@@ -4937,9 +4937,9 @@
       },
       {
          "name":"Ability Score Improvement",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Chemist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":36,
          "level":12,
          "entries":[
@@ -4949,9 +4949,9 @@
       },
       {
          "name":"Chemist Study",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Chemist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":36,
          "level":14,
          "entries":[
@@ -4960,9 +4960,9 @@
       },
       {
          "name":"Ability Score Improvement",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Chemist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":36,
          "level":16,
          "entries":[
@@ -4972,20 +4972,20 @@
       },
       {
          "name":"Immortality Research",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Chemist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":37,
          "level":18,
          "entries":[
-            "Starting at 18th level, the chemical knowledge that you possess allows you to develop medicine that makes you to age more slowly. For every 10 years that pass, your body ages only 1 year. This medicine only works on you."
+            "Starting at 18th level, the chemical knowledge that you possess allows you to develD&DF medicine that makes you to age more slowly. For every 10 years that pass, your body ages only 1 year. This medicine only works on you."
          ]
       },
       {
          "name":"Abomination Powers",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Chemist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":37,
          "level":18,
          "entries":[
@@ -4994,9 +4994,9 @@
       },
       {
          "name":"Ability Score Improvement",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Chemist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":36,
          "level":19,
          "entries":[
@@ -5006,9 +5006,9 @@
       },
       {
          "name":"Perfected Mutation",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Chemist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":37,
          "level":20,
          "entries":[
@@ -5020,280 +5020,280 @@
    "subclass":[
       {
          "name":"Black Fist Style",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Bruiser",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "shortName":"Black Fist",
          "subclassFeatures":[
-            "Black Fist Style|Bruiser|OP|Black Fist|OP|1|OP",
-            "Bonus Proficiency|Bruiser|OP|Black Fist|OP|1|OP",
-            "Demon Stance|Bruiser|OP|Black Fist|OP|3|OP",
-            "Haki-Coated|Bruiser|OP|Black Fist|OP|6|OP",
-            "Bone Crusher|Bruiser|OP|Black Fist|OP|11|OP",
-            "Black Fist Master|Bruiser|OP|Black Fist|OP|17|OP"
+            "Black Fist Style|Bruiser|D&DF|Black Fist|D&DF|1|D&DF",
+            "Bonus Proficiency|Bruiser|D&DF|Black Fist|D&DF|1|D&DF",
+            "Demon Stance|Bruiser|D&DF|Black Fist|D&DF|3|D&DF",
+            "Haki-Coated|Bruiser|D&DF|Black Fist|D&DF|6|D&DF",
+            "Bone Crusher|Bruiser|D&DF|Black Fist|D&DF|11|D&DF",
+            "Black Fist Master|Bruiser|D&DF|Black Fist|D&DF|17|D&DF"
          ]
       },
       {
          "name":"Dragon Style",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Bruiser",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "shortName":"Dragon Fist",
          "subclassFeatures":[
-            "Dragon Style|Bruiser|OP|Dragon Fist|OP|1|OP",
-            "Dragon Stance|Bruiser|OP|Dragon Fist|OP|3|OP",
-            "Dragon's Breath|Bruiser|OP|Dragon Fist|OP|3|OP",
-            "Thunderous Leap|Bruiser|OP|Dragon Fist|OP|6|OP",
-            "Conqueror of Three Worlds|Bruiser|OP|Dragon Fist|OP|11|OP",
-            "Dragon Emperor|Bruiser|OP|Dragon Fist|OP|17|OP"
+            "Dragon Style|Bruiser|D&DF|Dragon Fist|D&DF|1|D&DF",
+            "Dragon Stance|Bruiser|D&DF|Dragon Fist|D&DF|3|D&DF",
+            "Dragon's Breath|Bruiser|D&DF|Dragon Fist|D&DF|3|D&DF",
+            "Thunderous Leap|Bruiser|D&DF|Dragon Fist|D&DF|6|D&DF",
+            "Conqueror of Three Worlds|Bruiser|D&DF|Dragon Fist|D&DF|11|D&DF",
+            "Dragon Emperor|Bruiser|D&DF|Dragon Fist|D&DF|17|D&DF"
          ]
       },
       {
          "name":"Beast Style",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Bruiser",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "shortName":"Beast",
          "subclassFeatures":[
-            "Beast Style|Bruiser|OP|Beast|OP|1|OP",
-            "Bonus Proficiency|Bruiser|OP|Beast|OP|1|OP",
-            "Beast Companion|Bruiser|OP|Beast|OP|3|OP",
-            "Beast Stance|Bruiser|OP|Beast|OP|3|OP",
-            "Bestial Spirit Assault|Bruiser|OP|Beast|OP|6|OP",
-            "Primal Coordination|Bruiser|OP|Beast|OP|6|OP",
-            "Vicious Mauling|Bruiser|OP|Beast|OP|11|OP",
-            "Chain Frenzy|Bruiser|OP|Beast|OP|17|OP"
+            "Beast Style|Bruiser|D&DF|Beast|D&DF|1|D&DF",
+            "Bonus Proficiency|Bruiser|D&DF|Beast|D&DF|1|D&DF",
+            "Beast Companion|Bruiser|D&DF|Beast|D&DF|3|D&DF",
+            "Beast Stance|Bruiser|D&DF|Beast|D&DF|3|D&DF",
+            "Bestial Spirit Assault|Bruiser|D&DF|Beast|D&DF|6|D&DF",
+            "Primal Coordination|Bruiser|D&DF|Beast|D&DF|6|D&DF",
+            "Vicious Mauling|Bruiser|D&DF|Beast|D&DF|11|D&DF",
+            "Chain Frenzy|Bruiser|D&DF|Beast|D&DF|17|D&DF"
          ]
       },
       {
          "name":"Botany",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Chemist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "shortName":"Botany",
          "subclassFeatures":[
-            "Bonus Natural Ability (Cantrip)|Chemist|OP|Botany|OP|2|OP",
-            "Herbal Remedy|Chemist|OP|Botany|OP|2|OP",
-            "Field Invention Powers (Spells)|Chemist|OP|Botany|OP|3|OP",
-            "Field Invention Powers (Spells)|Chemist|OP|Botany|OP|5|OP",
-            "Nature's Step|Chemist|OP|Botany|OP|6|OP",
-            "Field Invention Powers (Spells)|Chemist|OP|Botany|OP|7|OP",
-            "Field Invention Powers (Spells)|Chemist|OP|Botany|OP|9|OP",
-            "Botanist's Antidote|Chemist|OP|Botany|OP|10|OP",
-            "Natural Repellent|Chemist|OP|Botany|OP|14|OP"
+            "Bonus Natural Ability (Cantrip)|Chemist|D&DF|Botany|D&DF|2|D&DF",
+            "Herbal Remedy|Chemist|D&DF|Botany|D&DF|2|D&DF",
+            "Field Invention Powers (Spells)|Chemist|D&DF|Botany|D&DF|3|D&DF",
+            "Field Invention Powers (Spells)|Chemist|D&DF|Botany|D&DF|5|D&DF",
+            "Nature's Step|Chemist|D&DF|Botany|D&DF|6|D&DF",
+            "Field Invention Powers (Spells)|Chemist|D&DF|Botany|D&DF|7|D&DF",
+            "Field Invention Powers (Spells)|Chemist|D&DF|Botany|D&DF|9|D&DF",
+            "Botanist's Antidote|Chemist|D&DF|Botany|D&DF|10|D&DF",
+            "Natural Repellent|Chemist|D&DF|Botany|D&DF|14|D&DF"
          ]
       },
       {
          "name":"Medicine",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Chemist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "shortName":"Medicine",
          "subclassFeatures":[
-            "Healing Balm|Chemist|OP|Medicine|OP|2|OP",
-            "Medical Tent|Chemist|OP|Medicine|OP|6|OP",
-            "Instant Rescue|Chemist|OP|Medicine|OP|10|OP",
-            "Brain Imaging|Chemist|OP|Medicine|OP|14|OP"
+            "Healing Balm|Chemist|D&DF|Medicine|D&DF|2|D&DF",
+            "Medical Tent|Chemist|D&DF|Medicine|D&DF|6|D&DF",
+            "Instant Rescue|Chemist|D&DF|Medicine|D&DF|10|D&DF",
+            "Brain Imaging|Chemist|D&DF|Medicine|D&DF|14|D&DF"
          ]
       },
       {
          "name":"Genetics",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Chemist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "shortName":"Genetics",
          "subclassFeatures":[
-            "Combat Mutation|Chemist|OP|Genetics|OP|2|OP",
-            "Special Monster Mutations|Chemist|OP|Genetics|OP|2|OP",
-            "Monsterous Strikes|Chemist|OP|Genetics|OP|6|OP",
-            "Elemental Mutation|Chemist|OP|Genetics|OP|10|OP",
-            "Thousand Mutations|Chemist|OP|Genetics|OP|14|OP"
+            "Combat Mutation|Chemist|D&DF|Genetics|D&DF|2|D&DF",
+            "Special Monster Mutations|Chemist|D&DF|Genetics|D&DF|2|D&DF",
+            "Monsterous Strikes|Chemist|D&DF|Genetics|D&DF|6|D&DF",
+            "Elemental Mutation|Chemist|D&DF|Genetics|D&DF|10|D&DF",
+            "Thousand Mutations|Chemist|D&DF|Genetics|D&DF|14|D&DF"
          ]
       },
       {
          "name":"Gear Smithing",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Devilforged",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "shortName":"Gear Smith",
          "subclassFeatures":[
-            "Expanded Power (Spell) List|Devilforged|OP|Gear Smithing|OP|1|OP",
-            "Tool Proficiency|Devilforged|OP|Gear Smithing|OP|1|OP",
-            "Armored Up|Devilforged|OP|Gear Smithing|OP|1|OP",
-            "Abyssal Enhancement|Devilforged|OP|Gear Smithing|OP|6|OP",
-            "Resilient Equipment|Devilforged|OP|Gear Smithing|OP|10|OP",
-            "Devilish Reconstruction|Devilforged|OP|Gear Smithing|OP|11|OP"
+            "Expanded Power (Spell) List|Devilforged|D&DF|Gear Smithing|D&DF|1|D&DF",
+            "Tool Proficiency|Devilforged|D&DF|Gear Smithing|D&DF|1|D&DF",
+            "Armored Up|Devilforged|D&DF|Gear Smithing|D&DF|1|D&DF",
+            "Abyssal Enhancement|Devilforged|D&DF|Gear Smithing|D&DF|6|D&DF",
+            "Resilient Equipment|Devilforged|D&DF|Gear Smithing|D&DF|10|D&DF",
+            "Devilish Reconstruction|Devilforged|D&DF|Gear Smithing|D&DF|11|D&DF"
          ]
       },
       {
          "name":"Blade Smithing",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Devilforged",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "shortName":"Blade Smithing",
          "subclassFeatures":[
-            "Expanded Power (Spell) List|Devilforged|OP|Blade Smithing|OP|1|OP",
-            "Devil's Branding|Devilforged|OP|Blade Smithing|OP|1|OP",
-            "Hell's Duelist|Devilforged|OP|Blade Smithing|OP|1|OP",
-            "Echoing Strike|Devilforged|OP|Blade Smithing|OP|6|OP",
-            "Demonic Deflection|Devilforged|OP|Blade Smithing|OP|10|OP",
-            "Archdevil's Branding|Devilforged|OP|Blade Smithing|OP|11|OP"
+            "Expanded Power (Spell) List|Devilforged|D&DF|Blade Smithing|D&DF|1|D&DF",
+            "Devil's Branding|Devilforged|D&DF|Blade Smithing|D&DF|1|D&DF",
+            "Hell's Duelist|Devilforged|D&DF|Blade Smithing|D&DF|1|D&DF",
+            "Echoing Strike|Devilforged|D&DF|Blade Smithing|D&DF|6|D&DF",
+            "Demonic Deflection|Devilforged|D&DF|Blade Smithing|D&DF|10|D&DF",
+            "Archdevil's Branding|Devilforged|D&DF|Blade Smithing|D&DF|11|D&DF"
          ]
       },
       {
          "name":"Firearm Smithing",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Devilforged",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "shortName":"Firearm Smithing",
          "subclassFeatures":[
-            "Expanded Power (Spell) List|Devilforged|OP|Firearm Smithing|OP|1|OP",
-            "Nether Scope|Devilforged|OP|Firearm Smithing|OP|6|OP",
-            "Blinding Flare|Devilforged|OP|Firearm Smithing|OP|6|OP",
-            "Exploding Shrapnel Shot|Devilforged|OP|Firearm Smithing|OP|10|OP",
-            "Hellstorm Artillery|Devilforged|OP|Firearm Smithing|OP|14|OP"
+            "Expanded Power (Spell) List|Devilforged|D&DF|Firearm Smithing|D&DF|1|D&DF",
+            "Nether ScD&DFe|Devilforged|D&DF|Firearm Smithing|D&DF|6|D&DF",
+            "Blinding Flare|Devilforged|D&DF|Firearm Smithing|D&DF|6|D&DF",
+            "Exploding Shrapnel Shot|Devilforged|D&DF|Firearm Smithing|D&DF|10|D&DF",
+            "Hellstorm Artillery|Devilforged|D&DF|Firearm Smithing|D&DF|14|D&DF"
          ]
       },
       {
          "name":"Seraphim Lineage",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Hybrid",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "shortName":"Seraphim Lineage",
          "subclassFeatures":[
-            "Lunarian Blessing|Hybrid|OP|Seraphim Lineage|OP|1|OP",
-            "Angelic Resilience|Hybrid|OP|Seraphim Lineage|OP|1|OP",
-            "Flame Affinity|Hybrid|OP|Seraphim Lineage|OP|6|OP",
-            "Celestial Wings|Hybrid|OP|Seraphim Lineage|OP|14|OP",
-            "Heavenly Presence|Hybrid|OP|Seraphim Lineage|OP|18|OP"
+            "Lunarian Blessing|Hybrid|D&DF|Seraphim Lineage|D&DF|1|D&DF",
+            "Angelic Resilience|Hybrid|D&DF|Seraphim Lineage|D&DF|1|D&DF",
+            "Flame Affinity|Hybrid|D&DF|Seraphim Lineage|D&DF|6|D&DF",
+            "Celestial Wings|Hybrid|D&DF|Seraphim Lineage|D&DF|14|D&DF",
+            "Heavenly Presence|Hybrid|D&DF|Seraphim Lineage|D&DF|18|D&DF"
          ]
       },
       {
          "name":"Germa Lineage",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Hybrid",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "shortName":"Germa Lineage",
          "subclassFeatures":[
-            "Bonus Proficiencies|Hybrid|OP|Germa Lineage|OP|1|OP",
-            "Elemental Powers|Hybrid|OP|Germa Lineage|OP|1|OP",
-            "Soldier's Durability|Hybrid|OP|Germa Lineage|OP|1|OP",
-            "Elemental Absorption|Hybrid|OP|Germa Lineage|OP|6|OP",
-            "Modified Flesh|Hybrid|OP|Germa Lineage|OP|14|OP",
-            "Warping Implosion|Hybrid|OP|Germa Lineage|OP|18|OP"
+            "Bonus Proficiencies|Hybrid|D&DF|Germa Lineage|D&DF|1|D&DF",
+            "Elemental Powers|Hybrid|D&DF|Germa Lineage|D&DF|1|D&DF",
+            "Soldier's Durability|Hybrid|D&DF|Germa Lineage|D&DF|1|D&DF",
+            "Elemental Absorption|Hybrid|D&DF|Germa Lineage|D&DF|6|D&DF",
+            "Modified Flesh|Hybrid|D&DF|Germa Lineage|D&DF|14|D&DF",
+            "Warping Implosion|Hybrid|D&DF|Germa Lineage|D&DF|18|D&DF"
          ]
       },
       {
          "name":"Beast Lineage",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Hybrid",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "shortName":"Beast Lineage",
          "subclassFeatures":[
-            "Animalistic Traits|Hybrid|OP|Beast Lineage|OP|1|OP",
-            "Sharpened Vision|Hybrid|OP|Beast Lineage|OP|1|OP",
-            "Bestial Defense|Hybrid|OP|Beast Lineage|OP|6|OP",
-            "Flexible Body|Hybrid|OP|Beast Lineage|OP|14|OP",
-            "Final Evolution|Hybrid|OP|Beast Lineage|OP|18|OP"
+            "Animalistic Traits|Hybrid|D&DF|Beast Lineage|D&DF|1|D&DF",
+            "Sharpened Vision|Hybrid|D&DF|Beast Lineage|D&DF|1|D&DF",
+            "Bestial Defense|Hybrid|D&DF|Beast Lineage|D&DF|6|D&DF",
+            "Flexible Body|Hybrid|D&DF|Beast Lineage|D&DF|14|D&DF",
+            "Final Evolution|Hybrid|D&DF|Beast Lineage|D&DF|18|D&DF"
          ]
       },
       {
          "name":"Gunslinger",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Marksman",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "shortName":"Gunslinger",
          "subclassFeatures":[
-            "Quick-draw|Marksman|OP|Gunslinger|OP|3|OP",
-            "Gunslinger Tactics|Marksman|OP|Gunslinger|OP|3|OP",
-            "Iron Mind|Marksman|OP|Gunslinger|OP|7|OP",
-            "High Noon|Marksman|OP|Gunslinger|OP|11|OP",
-            "Quick-Step|Marksman|OP|Gunslinger|OP|15|OP"
+            "Quick-draw|Marksman|D&DF|Gunslinger|D&DF|3|D&DF",
+            "Gunslinger Tactics|Marksman|D&DF|Gunslinger|D&DF|3|D&DF",
+            "Iron Mind|Marksman|D&DF|Gunslinger|D&DF|7|D&DF",
+            "High Noon|Marksman|D&DF|Gunslinger|D&DF|11|D&DF",
+            "Quick-Step|Marksman|D&DF|Gunslinger|D&DF|15|D&DF"
          ]
       },
       {
          "name":"Sniper",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Marksman",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "shortName":"Sniper",
          "subclassFeatures":[
-            "Scoping|Marksman|OP|Sniper|OP|3|OP",
-            "Empowered Bullet|Marksman|OP|Sniper|OP|3|OP",
-            "Vantage Point|Marksman|OP|Sniper|OP|7|OP",
-            "Sniper's Support|Marksman|OP|Sniper|OP|11|OP",
-            "Counter-Snipe|Marksman|OP|Sniper|OP|15|OP"
+            "ScD&DFing|Marksman|D&DF|Sniper|D&DF|3|D&DF",
+            "Empowered Bullet|Marksman|D&DF|Sniper|D&DF|3|D&DF",
+            "Vantage Point|Marksman|D&DF|Sniper|D&DF|7|D&DF",
+            "Sniper's Support|Marksman|D&DF|Sniper|D&DF|11|D&DF",
+            "Counter-Snipe|Marksman|D&DF|Sniper|D&DF|15|D&DF"
          ]
       },
       {
          "name":"Bounty Hunter",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Marksman",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "shortName":"Bounty Hunter",
          "subclassFeatures":[
-            "Bounty Hunter Tactics|Marksman|OP|Bounty Hunter|OP|3|OP",
-            "Hunter's Sense|Marksman|OP|Bounty Hunter|OP|3|OP",
-            "Bounty's Brand|Marksman|OP|Bounty Hunter|OP|3|OP",
-            "Stalker's Caution|Marksman|OP|Bounty Hunter|OP|7|OP",
-            "Tactical Counter|Marksman|OP|Bounty Hunter|OP|11|OP",
-            "Professional Hunter|Marksman|OP|Bounty Hunter|OP|15|OP"
+            "Bounty Hunter Tactics|Marksman|D&DF|Bounty Hunter|D&DF|3|D&DF",
+            "Hunter's Sense|Marksman|D&DF|Bounty Hunter|D&DF|3|D&DF",
+            "Bounty's Brand|Marksman|D&DF|Bounty Hunter|D&DF|3|D&DF",
+            "Stalker's Caution|Marksman|D&DF|Bounty Hunter|D&DF|7|D&DF",
+            "Tactical Counter|Marksman|D&DF|Bounty Hunter|D&DF|11|D&DF",
+            "Professional Hunter|Marksman|D&DF|Bounty Hunter|D&DF|15|D&DF"
          ]
       },
       {
          "name":"Six Powers",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Martial Artist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "shortName":"Six Powers",
          "subclassFeatures":[
-            "Finger Pistol|Martial Artist|OP|Six Powers|OP|3|OP",
-            "Tempest Kick|Martial Artist|OP|Six Powers|OP|3|OP",
-            "Iron Body and Paper Art|Martial Artist|OP|Six Powers|OP|6|OP",
-            "Shave|Martial Artist|OP|Six Powers|OP|11|OP",
-            "Moon Walk|Martial Artist|OP|Six Powers|OP|11|OP",
-            "Six King Gun|Martial Artist|OP|Six Powers|OP|17|OP"
+            "Finger Pistol|Martial Artist|D&DF|Six Powers|D&DF|3|D&DF",
+            "Tempest Kick|Martial Artist|D&DF|Six Powers|D&DF|3|D&DF",
+            "Iron Body and Paper Art|Martial Artist|D&DF|Six Powers|D&DF|6|D&DF",
+            "Shave|Martial Artist|D&DF|Six Powers|D&DF|11|D&DF",
+            "Moon Walk|Martial Artist|D&DF|Six Powers|D&DF|11|D&DF",
+            "Six King Gun|Martial Artist|D&DF|Six Powers|D&DF|17|D&DF"
          ]
       },
       {
          "name":"Fish-Man Karate",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Martial Artist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "shortName":"Fish-Man Karate",
          "subclassFeatures":[
-            "Water Adept|Martial Artist|OP|Fish-Man Karate|OP|3|OP",
-            "Arabesque Tile True Punch|Martial Artist|OP|Fish-Man Karate|OP|3|OP",
-            "Five Thousand Tile True Punch|Martial Artist|OP|Fish-Man Karate|OP|6|OP",
-            "Wrath of the Sea|Martial Artist|OP|Fish-Man Karate|OP|6|OP",
-            "Sharkskin Palm Block|Martial Artist|OP|Fish-Man Karate|OP|11|OP",
-            "Shark Pack Attack|Martial Artist|OP|Fish-Man Karate|OP|17|OP"
+            "Water Adept|Martial Artist|D&DF|Fish-Man Karate|D&DF|3|D&DF",
+            "Arabesque Tile True Punch|Martial Artist|D&DF|Fish-Man Karate|D&DF|3|D&DF",
+            "Five Thousand Tile True Punch|Martial Artist|D&DF|Fish-Man Karate|D&DF|6|D&DF",
+            "Wrath of the Sea|Martial Artist|D&DF|Fish-Man Karate|D&DF|6|D&DF",
+            "Sharkskin Palm Block|Martial Artist|D&DF|Fish-Man Karate|D&DF|11|D&DF",
+            "Shark Pack Attack|Martial Artist|D&DF|Fish-Man Karate|D&DF|17|D&DF"
          ]
       },
       {
          "name":"New Kama Kenpo",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Martial Artist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "shortName":"New Kama Kenpo",
          "subclassFeatures":[
-            "Okama Way|Martial Artist|OP|New Kama Kenpo|OP|3|OP",
-            "Spinning Spa|Martial Artist|OP|New Kama Kenpo|OP|3|OP",
-            "Kick Claw First Pointe|Martial Artist|OP|New Kama Kenpo|OP|6|OP",
-            "Awakening of the Maiden|Martial Artist|OP|New Kama Kenpo|OP|11|OP",
-            "Galaxy Spin|Martial Artist|OP|New Kama Kenpo|OP|17|OP"
+            "Okama Way|Martial Artist|D&DF|New Kama Kenpo|D&DF|3|D&DF",
+            "Spinning Spa|Martial Artist|D&DF|New Kama Kenpo|D&DF|3|D&DF",
+            "Kick Claw First Pointe|Martial Artist|D&DF|New Kama Kenpo|D&DF|6|D&DF",
+            "Awakening of the Maiden|Martial Artist|D&DF|New Kama Kenpo|D&DF|11|D&DF",
+            "Galaxy Spin|Martial Artist|D&DF|New Kama Kenpo|D&DF|17|D&DF"
          ]
       }
    ],
    "subclassFeature":[
       {
          "name":"Black Fist Style",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Bruiser",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":31,
          "subclassShortName":"Black Fist",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":1,
          "header":1,
          "entries":[
@@ -5302,12 +5302,12 @@
       },
       {
          "name":"Bonus Proficiency",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Bruiser",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":31,
          "subclassShortName":"Black Fist",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":1,
          "header":1,
          "entries":[
@@ -5316,26 +5316,26 @@
       },
       {
          "name":"Demon Stance",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Bruiser",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":31,
          "subclassShortName":"Black Fist",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":3,
          "header":1,
          "entries":[
-            "Also at the 3rd level, you develop a demonic bloodthirst, granting you power as you rip apart your enemies. When you reduce a creature within 5 feet of you to 0 hit points, you gain temporary hit points equal to your Constitution modifier + your Bruiser level (minimum of 1 temporary hit point)."
+            "Also at the 3rd level, you develD&DF a demonic bloodthirst, granting you power as you rip apart your enemies. When you reduce a creature within 5 feet of you to 0 hit points, you gain temporary hit points equal to your Constitution modifier + your Bruiser level (minimum of 1 temporary hit point)."
          ]
       },
       {
          "name":"Haki-Coated",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Bruiser",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":31,
          "subclassShortName":"Black Fist",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":6,
          "header":1,
          "entries":[
@@ -5344,16 +5344,16 @@
       },
       {
          "name":"Bone Crusher",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Bruiser",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":31,
          "subclassShortName":"Black Fist",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":11,
          "header":1,
          "entries":[
-            "At 11th level, you can perform a variety of combat maneuvers while you are grappling an opponent within 5 feet of you:",
+            "At 11th level, you can perform a variety of combat maneuvers while you are grappling an D&DFponent within 5 feet of you:",
             {
                "type":"list",
                "items":[
@@ -5366,12 +5366,12 @@
       },
       {
          "name":"Black Fist Master",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Bruiser",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":31,
          "subclassShortName":"Black Fist",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":17,
          "header":1,
          "entries":[
@@ -5380,12 +5380,12 @@
       },
       {
          "name":"Dragon Style",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Bruiser",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":32,
          "subclassShortName":"Dragon Fist",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":1,
          "header":1,
          "entries":[
@@ -5394,12 +5394,12 @@
       },
       {
          "name":"Dragon Stance",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Bruiser",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":32,
          "subclassShortName":"Dragon Fist",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":3,
          "header":1,
          "entries":[
@@ -5408,12 +5408,12 @@
       },
       {
          "name":"Dragon's Breath",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Bruiser",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":32,
          "subclassShortName":"Dragon Fist",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":3,
          "header":1,
          "entries":[
@@ -5423,12 +5423,12 @@
       },
       {
          "name":"Thunderous Leap",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Bruiser",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":32,
          "subclassShortName":"Dragon Fist",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":6,
          "header":1,
          "entries":[
@@ -5437,12 +5437,12 @@
       },
       {
          "name":"Conqueror of Three Worlds",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Bruiser",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":32,
          "subclassShortName":"Dragon Fist",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":11,
          "header":1,
          "entries":[
@@ -5453,12 +5453,12 @@
       },
       {
          "name":"Dragon Emperor",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Bruiser",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":32,
          "subclassShortName":"Dragon Fist",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":17,
          "header":1,
          "entries":[
@@ -5474,26 +5474,26 @@
       },
       {
          "name":"Beast Style",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Bruiser",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":33,
          "subclassShortName":"Beast",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":1,
          "header":1,
          "entries":[
-            "Certain great fighters desire a powerful companion in battle. Bruiser that utilize the beast style have developed a special bond with nature, allowing them to tame the fearsome beasts they might find along their journey. Through mutual respect and coordination, these bruisers and their companions make for a deadly duo."
+            "Certain great fighters desire a powerful companion in battle. Bruiser that utilize the beast style have develD&DFed a special bond with nature, allowing them to tame the fearsome beasts they might find along their journey. Through mutual respect and coordination, these bruisers and their companions make for a deadly duo."
          ]
       },
       {
          "name":"Bonus Proficiency",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Bruiser",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":33,
          "subclassShortName":"Beast",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":1,
          "header":1,
          "entries":[
@@ -5502,12 +5502,12 @@
       },
       {
          "name":"Beast Companion",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Bruiser",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":33,
          "subclassShortName":"Beast",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":3,
          "header":1,
          "entries":[
@@ -5522,7 +5522,7 @@
                "entries":[
                   "Your animal companion gains a variety of benefits while it is linked to you.",
                   "The animal companion loses its Multiattack action, if it has one.",
-                  "The companion obeys your commands as best it can. You can use a bonus action on each of your turns to verbally command your companion to take the {@action Attack}, Dash, {@action Disengage}, Dodge, or {@action Help} action that turn. It can also use its movement at any point during your turn. It does not have its own turn unless you are {@condition incapacitated} or absent, in which case your companion acts on its own and rolls initiative. Your companion never requires your command to use its reaction, such as when making an opportunity attack.",
+                  "The companion obeys your commands as best it can. You can use a bonus action on each of your turns to verbally command your companion to take the {@action Attack}, Dash, {@action Disengage}, Dodge, or {@action Help} action that turn. It can also use its movement at any point during your turn. It does not have its own turn unless you are {@condition incapacitated} or absent, in which case your companion acts on its own and rolls initiative. Your companion never requires your command to use its reaction, such as when making an D&DFportunity attack.",
                   "Your animal companion has abilities and game statistics determined in part by your level. Your companion uses your proficiency bonus rather than its own. You add your proficiency bonus to your companion's AC, saving throws, attack rolls, and damage rolls",
                   "Your animal companion gains proficiency in two skills of your choice. It also becomes proficient with all saving throws. For each level you gain after 3rd, your animal companion gains an additional hit die determined by the creature's hit dice and increases its hit points and maximum by rolling its hit die and adding its constitution modifier to the total, then increasing its maximum hit points by that amount.",
                   "Whenever you gain the Ability Score Improvement class feature, your companion's abilities also improve. Your companion can increase one ability score of your choice by 2, or it can increase two ability scores of your choice by 1. As normal, your companion can't increase an ability score above 20 using this feature unless its description specifies otherwise.",
@@ -5533,12 +5533,12 @@
       },
       {
          "name":"Beast Stance",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Bruiser",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":33,
          "subclassShortName":"Beast",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":3,
          "header":1,
          "entries":[
@@ -5568,12 +5568,12 @@
       },
       {
          "name":"Bestial Spirit Assault",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Bruiser",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":33,
          "subclassShortName":"Beast",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":6,
          "header":1,
          "entries":[
@@ -5582,12 +5582,12 @@
       },
       {
          "name":"Primal Coordination",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Bruiser",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":33,
          "subclassShortName":"Beast",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":6,
          "header":1,
          "entries":[
@@ -5596,12 +5596,12 @@
       },
       {
          "name":"Vicious Mauling",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Bruiser",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":33,
          "subclassShortName":"Beast",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":11,
          "header":1,
          "entries":[
@@ -5610,12 +5610,12 @@
       },
       {
          "name":"Chain Frenzy",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Bruiser",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":33,
          "subclassShortName":"Beast",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":17,
          "header":1,
          "entries":[
@@ -5624,12 +5624,12 @@
       },
       {
          "name":"Bonus Natural Ability (Cantrip)",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Chemist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":37,
          "subclassShortName":"Botany",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":2,
          "header":1,
          "entries":[
@@ -5638,12 +5638,12 @@
       },
       {
          "name":"Herbal Remedy",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Chemist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":37,
          "subclassShortName":"Botany",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":2,
          "header":1,
          "entries":[
@@ -5653,12 +5653,12 @@
       },
       {
          "name":"Field Invention Powers (Spells)",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Chemist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":38,
          "subclassShortName":"Botany",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":3,
          "header":1,
          "entries":[
@@ -5908,12 +5908,12 @@
       },
       {
          "name":"Field Invention Powers (Spells)",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Chemist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":38,
          "subclassShortName":"Botany",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":5,
          "header":1,
          "entries":[
@@ -6163,12 +6163,12 @@
       },
       {
          "name":"Nature's Step",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Chemist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":38,
          "subclassShortName":"Botany",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":6,
          "header":1,
          "entries":[
@@ -6178,12 +6178,12 @@
       },
       {
          "name":"Field Invention Powers (Spells)",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Chemist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":38,
          "subclassShortName":"Botany",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":7,
          "header":1,
          "entries":[
@@ -6433,12 +6433,12 @@
       },
       {
          "name":"Field Invention Powers (Spells)",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Chemist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":38,
          "subclassShortName":"Botany",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":9,
          "header":1,
          "entries":[
@@ -6688,12 +6688,12 @@
       },
       {
          "name":"Botanist's Antidote",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Chemist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":38,
          "subclassShortName":"Botany",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":10,
          "header":1,
          "entries":[
@@ -6702,90 +6702,90 @@
       },
       {
          "name":"Natural Repellent",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Chemist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":39,
          "subclassShortName":"Botany",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":14,
          "header":1,
          "entries":[
-            "When you reach 14th level, you develop plant-based fragrances that make wild creatures hesitant to attack you. When a beast or plant creature attacks you, that creature must make a Wisdom saving throw against your chemist invention save DC. On a failed save, the creature must choose a different target, or the attack automatically misses. On a successful save, the creature is immune to this effect for 24 hours.",
+            "When you reach 14th level, you develD&DF plant-based fragrances that make wild creatures hesitant to attack you. When a beast or plant creature attacks you, that creature must make a Wisdom saving throw against your chemist invention save DC. On a failed save, the creature must choose a different target, or the attack automatically misses. On a successful save, the creature is immune to this effect for 24 hours.",
             "The creature is aware of this effect before it makes its attack against you."
          ]
       },
       {
          "name":"Healing Balm",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Chemist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":39,
          "subclassShortName":"Medicine",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":2,
          "header":1,
          "entries":[
-            "At 2nd level, you develop a healing spray that works on allies even from a distance. You have a supply of this medicine represented by a number of d6s equal to your chemist level.",
+            "At 2nd level, you develD&DF a healing spray that works on allies even from a distance. You have a supply of this medicine represented by a number of d6s equal to your chemist level.",
             "As a bonus action, you can choose an ally you can see within 120 feet of you and spend a number of those dice equal to half your chemist level or less. Roll the spent dice and add them together. The target regains a number of hit points equal to the total. The target also gains 1 temporary hit point per die spent.",
             "You regain the expended dice when you finish a long rest."
          ]
       },
       {
          "name":"Medical Tent",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Chemist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":39,
          "subclassShortName":"Medicine",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":6,
          "header":1,
          "entries":[
             "At 6th level, through your study of field medics, you've learned how to set up advanced tents that guard your comrades while they rest inside. During a short or long rest, you can set up a sensor that detects intruders up to a 30-foot-radius around the tent where your allies rest.",
-            "While in the sensor's radius, you and your allies gain a +5 bonus to Dexterity ({@skill Stealth}) and Wisdom ({@skill Perception}) checks, and any light from open flames in the radius (a campfire, torches, or the like) isn't visible outside the radius",
+            "While in the sensor's radius, you and your allies gain a +5 bonus to Dexterity ({@skill Stealth}) and Wisdom ({@skill Perception}) checks, and any light from D&DFen flames in the radius (a campfire, torches, or the like) isn't visible outside the radius",
             "The sensor vanishes at the end of the rest or when you leave the radius."
          ]
       },
       {
          "name":"Instant Rescue",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Chemist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":39,
          "subclassShortName":"Medicine",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":10,
          "header":1,
          "entries":[
-            "Starting at 10th level, you develop technology that allows you to blink over to a different point in space. As a bonus action on your turn, you can teleport up to 60 feet to an unoccupied space you can see. Alternatively, you can use your action to teleport one willing creature you touch up to 30 feet to an unoccupied space you can see.",
+            "Starting at 10th level, you develD&DF technology that allows you to blink over to a different point in space. As a bonus action on your turn, you can teleport up to 60 feet to an unoccupied space you can see. Alternatively, you can use your action to teleport one willing creature you touch up to 30 feet to an unoccupied space you can see.",
             "You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses of it when you finish a long rest."
          ]
       },
       {
          "name":"Brain Imaging",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Chemist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":39,
          "subclassShortName":"Medicine",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":14,
          "header":1,
          "entries":[
-            "At 14th level, you develop a brain imaging device that allows you to be able to enter dreams and use special powers.",
+            "At 14th level, you develD&DF a brain imaging device that allows you to be able to enter dreams and use special powers.",
             "When you finish a short rest, you can cast one of the following invention powers (spells), without expending a invention power slot or requiring material components: Dream (with you as the messenger) and Scrying",
             "Once you use this feature, you can't use it again until you finish a long rest."
          ]
       },
       {
          "name":"Combat Mutation",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Chemist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":39,
          "subclassShortName":"Genetics",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":2,
          "header":1,
          "entries":[
@@ -6795,12 +6795,12 @@
       },
       {
          "name":"Special Monster Mutations",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Chemist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":39,
          "subclassShortName":"Genetics",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":2,
          "header":1,
          "entries":[
@@ -6844,12 +6844,12 @@
       },
       {
          "name":"Monsterous Strikes",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Chemist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":39,
          "subclassShortName":"Genetics",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":6,
          "header":1,
          "entries":[
@@ -6858,12 +6858,12 @@
       },
       {
          "name":"Elemental Mutation",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Chemist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":39,
          "subclassShortName":"Genetics",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":10,
          "header":1,
          "entries":[
@@ -6872,12 +6872,12 @@
       },
       {
          "name":"Thousand Mutations",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Chemist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":39,
          "subclassShortName":"Genetics",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":14,
          "header":1,
          "entries":[
@@ -6886,12 +6886,12 @@
       },
       {
          "name":"Expanded Power (Spell) List",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Devilforged",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":49,
          "subclassShortName":"Gear Smithing",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":1,
          "header":1,
          "entries":[
@@ -6934,12 +6934,12 @@
       },
       {
          "name":"Tool Proficiency",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Devilforged",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":49,
          "subclassShortName":"Gear Smithing",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":1,
          "header":1,
          "entries":[
@@ -6948,12 +6948,12 @@
       },
       {
          "name":"Armored Up",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Devilforged",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":49,
          "subclassShortName":"Gear Smithing",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":1,
          "header":1,
          "entries":[
@@ -6963,12 +6963,12 @@
       },
       {
          "name":"Abyssal Enhancement",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Devilforged",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":49,
          "subclassShortName":"Gear Smithing",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":6,
          "header":1,
          "entries":[
@@ -6978,12 +6978,12 @@
       },
       {
          "name":"Resilient Equipment",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Devilforged",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":49,
          "subclassShortName":"Gear Smithing",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":10,
          "header":1,
          "entries":[
@@ -6992,12 +6992,12 @@
       },
       {
          "name":"Devilish Reconstruction",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Devilforged",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":49,
          "subclassShortName":"Gear Smithing",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":11,
          "header":1,
          "entries":[
@@ -7007,12 +7007,12 @@
       },
       {
          "name":"Expanded Power (Spell) List",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Devilforged",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":49,
          "subclassShortName":"Blade Smithing",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":1,
          "header":1,
          "entries":[
@@ -7055,12 +7055,12 @@
       },
       {
          "name":"Devil's Branding",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Devilforged",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":49,
          "subclassShortName":"Blade Smithing",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":1,
          "header":1,
          "entries":[
@@ -7078,27 +7078,27 @@
       },
       {
          "name":"Hell's Duelist",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Devilforged",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":50,
          "subclassShortName":"Blade Smithing",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":1,
          "header":1,
          "entries":[
             "At 1st level, you acquire the training necessary to effectively arm yourself for battle. You gain proficiency with medium armor, shields, and martial melee weapons.",
-            "The experience you have gained in working with infusing various devil fruit powers into weapons has allowed you to become proficient with various weapons. When you finish a long rest, you can touch one weapon that you are proficient with and that lacks the two-handed property. When you attack with that weapon, you can use your Charisma modifier, instead of Strength or Dexterity, for the attack and damage rolls. This benefit lasts until you finish a long rest. If you later gain the Paramecia Infusion feature, this benefit extends to every infused weapon you enhance with that feature, no matter the weapon's type."
+            "The experience you have gained in working with infusing various devil fruit powers into weapons has allowed you to become proficient with various weapons. When you finish a long rest, you can touch one weapon that you are proficient with and that lacks the two-handed prD&DFerty. When you attack with that weapon, you can use your Charisma modifier, instead of Strength or Dexterity, for the attack and damage rolls. This benefit lasts until you finish a long rest. If you later gain the Paramecia Infusion feature, this benefit extends to every infused weapon you enhance with that feature, no matter the weapon's type."
          ]
       },
       {
          "name":"Echoing Strike",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Devilforged",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":50,
          "subclassShortName":"Blade Smithing",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":6,
          "header":1,
          "entries":[
@@ -7108,12 +7108,12 @@
       },
       {
          "name":"Demonic Deflection",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Devilforged",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":50,
          "subclassShortName":"Blade Smithing",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":10,
          "header":1,
          "entries":[
@@ -7122,12 +7122,12 @@
       },
       {
          "name":"Archdevil's Branding",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Devilforged",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":50,
          "subclassShortName":"Blade Smithing",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":11,
          "header":1,
          "entries":[
@@ -7136,12 +7136,12 @@
       },
       {
          "name":"Expanded Power (Spell) List",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Devilforged",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":50,
          "subclassShortName":"Firearm Smithing",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":1,
          "header":1,
          "entries":[
@@ -7184,12 +7184,12 @@
       },
       {
          "name":"Hellfire Artillery",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Devilforged",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":50,
          "subclassShortName":"Firearm Smithing",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":1,
          "header":1,
          "entries":[
@@ -7200,13 +7200,13 @@
          ]
       },
       {
-         "name":"Nether Scope",
-         "source":"OP",
+         "name":"Nether ScD&DFe",
+         "source":"D&DF",
          "className":"Devilforged",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":51,
          "subclassShortName":"Firearm Smithing",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":6,
          "header":1,
          "entries":[
@@ -7223,12 +7223,12 @@
       },
       {
          "name":"Blinding Flare",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Devilforged",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":51,
          "subclassShortName":"Firearm Smithing",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":6,
          "header":1,
          "entries":[
@@ -7237,12 +7237,12 @@
       },
       {
          "name":"Exploding Shrapnel Shot",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Devilforged",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":51,
          "subclassShortName":"Firearm Smithing",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":10,
          "header":1,
          "entries":[
@@ -7252,12 +7252,12 @@
       },
       {
          "name":"Hellstorm Artillery",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Devilforged",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":51,
          "subclassShortName":"Firearm Smithing",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":14,
          "header":1,
          "entries":[
@@ -7273,12 +7273,12 @@
       },
       {
          "name":"Lunarian Blessing",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Hybrid",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":59,
          "subclassShortName":"Seraphim Lineage",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":1,
          "header":1,
          "entries":[
@@ -7288,12 +7288,12 @@
       },
       {
          "name":"Angelic Resilience",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Hybrid",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":59,
          "subclassShortName":"Seraphim Lineage",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":1,
          "header":1,
          "entries":[
@@ -7303,12 +7303,12 @@
       },
       {
          "name":"Flame Affinity",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Hybrid",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":60,
          "subclassShortName":"Seraphim Lineage",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":6,
          "header":1,
          "entries":[
@@ -7317,12 +7317,12 @@
       },
       {
          "name":"Celestial Wings",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Hybrid",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":60,
          "subclassShortName":"Seraphim Lineage",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":14,
          "header":1,
          "entries":[
@@ -7332,12 +7332,12 @@
       },
       {
          "name":"Heavenly Presence",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Hybrid",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":60,
          "subclassShortName":"Seraphim Lineage",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":18,
          "header":1,
          "entries":[
@@ -7346,12 +7346,12 @@
       },
       {
          "name":"Bonus Proficiencies",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Hybrid",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":60,
          "subclassShortName":"Germa Lineage",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":1,
          "header":1,
          "entries":[
@@ -7360,16 +7360,16 @@
       },
       {
          "name":"Elemental Powers",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Hybrid",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":60,
          "subclassShortName":"Germa Lineage",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":1,
          "header":1,
          "entries":[
-            "Your affinity for elemental powers grants you the option to learn some non-hybrid spells that focus on weapon attacks. When your Hybrid Power (Spellcasting) feature lets you learn a hybrid spell of 1st level or higher, you can select the spell from the following list of germa powers (spells), in addition to the hybrid spell list. You must otherwise obey all the restrictions for selecting the spell, and it becomes a Hybrid Power (spell) for you.",
+            "Your affinity for elemental powers grants you the D&DFtion to learn some non-hybrid spells that focus on weapon attacks. When your Hybrid Power (Spellcasting) feature lets you learn a hybrid spell of 1st level or higher, you can select the spell from the following list of germa powers (spells), in addition to the hybrid spell list. You must otherwise obey all the restrictions for selecting the spell, and it becomes a Hybrid Power (spell) for you.",
             {
                "type":"table",
                "caption":"Germa Powers (Spells)",
@@ -7424,12 +7424,12 @@
       },
       {
          "name":"Soldier's Durability",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Hybrid",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":60,
          "subclassShortName":"Germa Lineage",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":1,
          "header":1,
          "entries":[
@@ -7439,12 +7439,12 @@
       },
       {
          "name":"Elemental Absorption",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Hybrid",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":61,
          "subclassShortName":"Germa Lineage",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":6,
          "header":1,
          "entries":[
@@ -7454,12 +7454,12 @@
       },
       {
          "name":"Modified Flesh",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Hybrid",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":61,
          "subclassShortName":"Germa Lineage",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":14,
          "header":1,
          "entries":[
@@ -7472,12 +7472,12 @@
       },
       {
          "name":"Warping Implosion",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Hybrid",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":61,
          "subclassShortName":"Germa Lineage",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":18,
          "header":1,
          "entries":[
@@ -7495,12 +7495,12 @@
       },
       {
          "name":"Animalistic Traits",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Hybrid",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":61,
          "subclassShortName":"Beast Lineage",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":1,
          "header":1,
          "entries":[
@@ -7517,57 +7517,57 @@
       },
       {
          "name":"Sharpened Vision",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Hybrid",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":61,
          "subclassShortName":"Beast Lineage",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":1,
          "header":1,
          "entries":[
-            "From 1st level, as you develop animal-like vision, you gain {@sense darkvision} with a range of 120 feet.",
+            "From 1st level, as you develD&DF animal-like vision, you gain {@sense darkvision} with a range of 120 feet.",
             "When you reach 3rd level in this class, you learn the See Invisibility spell, which doesn't count against your number of hybrid spells known. In addition, you can cast it by spending 2 hybrid points or by expending a spell slot."
          ]
       },
       {
          "name":"Bestial Defense",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Hybrid",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":61,
          "subclassShortName":"Beast Lineage",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":6,
          "header":1,
          "entries":[
             "At 6th level, you gain resistance to psychic damage, as your instincts make your mind too sturdy to influence.",
-            "You also gain the ability to defend yourself by making a sudden escape away from danger. As a reaction when you are hit by an attack and take bludgeoning, piercing, or slashing damage from it, you can reduce that damage by an amount equal to your hybrid level plus your Charisma score, and then you can move up to 30 feet without provoking opportunity attacks. Once you use this special reaction, you can't use it again until you finish a short or long rest."
+            "You also gain the ability to defend yourself by making a sudden escape away from danger. As a reaction when you are hit by an attack and take bludgeoning, piercing, or slashing damage from it, you can reduce that damage by an amount equal to your hybrid level plus your Charisma score, and then you can move up to 30 feet without provoking D&DFportunity attacks. Once you use this special reaction, you can't use it again until you finish a short or long rest."
          ]
       },
       {
          "name":"Flexible Body",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Hybrid",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":61,
          "subclassShortName":"Beast Lineage",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":14,
          "header":1,
          "entries":[
-            "Starting at 14th level, when you move on your turn, you take only half damage from opportunity attacks, and you can move through any enemy's space but can't willingly end your move there.",
-            "On your turn, you can move through any space that is at least 3 inches in diameter and do so without squeezing. When you stop moving, the regular squeezing rules apply if you're in a space one size smaller than you. You can't willingly stop in a space smaller than that, and if you're forced to do so, you immediately flow to the nearest space that can fit you, back along the path of your movement."
+            "Starting at 14th level, when you move on your turn, you take only half damage from D&DFportunity attacks, and you can move through any enemy's space but can't willingly end your move there.",
+            "On your turn, you can move through any space that is at least 3 inches in diameter and do so without squeezing. When you stD&DF moving, the regular squeezing rules apply if you're in a space one size smaller than you. You can't willingly stD&DF in a space smaller than that, and if you're forced to do so, you immediately flow to the nearest space that can fit you, back along the path of your movement."
          ]
       },
       {
          "name":"Final Evolution",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Hybrid",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":61,
          "subclassShortName":"Beast Lineage",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":18,
          "header":1,
          "entries":[
@@ -7584,12 +7584,12 @@
       },
       {
          "name":"Quick-draw",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Marksman",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":65,
          "subclassShortName":"Gunslinger",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":3,
          "header":1,
          "entries":[
@@ -7599,12 +7599,12 @@
       },
       {
          "name":"Gunslinger Tactics",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Marksman",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":65,
          "subclassShortName":"Gunslinger",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":3,
          "header":1,
          "entries":[
@@ -7627,7 +7627,7 @@
                   ],
                   [
                      "5th",
-                     "Rope Trick"
+                     "RD&DFe Trick"
                   ],
                   [
                      "9th",
@@ -7647,12 +7647,12 @@
       },
       {
          "name":"Iron Mind",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Marksman",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":65,
          "subclassShortName":"Gunslinger",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":7,
          "header":1,
          "entries":[
@@ -7661,12 +7661,12 @@
       },
       {
          "name":"High Noon",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Marksman",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":65,
          "subclassShortName":"Gunslinger",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":11,
          "header":1,
          "entries":[
@@ -7675,26 +7675,26 @@
       },
       {
          "name":"Quick-Step",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Marksman",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":65,
          "subclassShortName":"Gunslinger",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":15,
          "header":1,
          "entries":[
-            "At 15th level, you master the ability to disrupt and maneuver around an opponent's attacks. If a creature attacks you and does not have advantage on the attack roll, you can use your reaction to grant it disadvantage on the attack roll. You must use this ability before you know the result of the attack."
+            "At 15th level, you master the ability to disrupt and maneuver around an D&DFponent's attacks. If a creature attacks you and does not have advantage on the attack roll, you can use your reaction to grant it disadvantage on the attack roll. You must use this ability before you know the result of the attack."
          ]
       },
       {
-         "name":"Scoping",
-         "source":"OP",
+         "name":"ScD&DFing",
+         "source":"D&DF",
          "className":"Marksman",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":66,
          "subclassShortName":"Sniper",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":3,
          "header":1,
          "entries":[
@@ -7703,12 +7703,12 @@
       },
       {
          "name":"Empowered Bullet",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Marksman",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":66,
          "subclassShortName":"Sniper",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":3,
          "header":1,
          "entries":[
@@ -7718,12 +7718,12 @@
       },
       {
          "name":"Vantage Point",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Marksman",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":66,
          "subclassShortName":"Sniper",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":7,
          "header":1,
          "entries":[
@@ -7732,12 +7732,12 @@
       },
       {
          "name":"Sniper's Support",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Marksman",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":66,
          "subclassShortName":"Sniper",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":11,
          "header":1,
          "entries":[
@@ -7746,12 +7746,12 @@
       },
       {
          "name":"Counter-Snipe",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Marksman",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":66,
          "subclassShortName":"Sniper",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":15,
          "header":1,
          "entries":[
@@ -7760,12 +7760,12 @@
       },
       {
          "name":"Bounty Hunter Tactics",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Marksman",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":66,
          "subclassShortName":"Bounty Hunter",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":3,
          "header":1,
          "entries":[
@@ -7808,12 +7808,12 @@
       },
       {
          "name":"Hunter's Sense",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Marksman",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":66,
          "subclassShortName":"Bounty Hunter",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":3,
          "header":1,
          "entries":[
@@ -7823,12 +7823,12 @@
       },
       {
          "name":"Bounty's Brand",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Marksman",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":66,
          "subclassShortName":"Bounty Hunter",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":3,
          "header":1,
          "entries":[
@@ -7838,12 +7838,12 @@
       },
       {
          "name":"Stalker's Caution",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Marksman",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":66,
          "subclassShortName":"Bounty Hunter",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":7,
          "header":1,
          "entries":[
@@ -7852,12 +7852,12 @@
       },
       {
          "name":"Tactical Counter",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Marksman",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":66,
          "subclassShortName":"Bounty Hunter",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":11,
          "header":1,
          "entries":[
@@ -7867,12 +7867,12 @@
       },
       {
          "name":"Professional Hunter",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Marksman",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":66,
          "subclassShortName":"Bounty Hunter",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":15,
          "header":1,
          "entries":[
@@ -7881,12 +7881,12 @@
       },
       {
          "name":"Finger Pistol",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Martial Artist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":71,
          "subclassShortName":"Six Powers",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":3,
          "header":1,
          "entries":[
@@ -7895,12 +7895,12 @@
       },
       {
          "name":"Tempest Kick",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Martial Artist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":71,
          "subclassShortName":"Six Powers",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":3,
          "header":1,
          "entries":[
@@ -7911,12 +7911,12 @@
       },
       {
          "name":"Iron Body and Paper Art",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Martial Artist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":71,
          "subclassShortName":"Six Powers",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":6,
          "header":1,
          "entries":[
@@ -7927,12 +7927,12 @@
       },
       {
          "name":"Shave",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Martial Artist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":71,
          "subclassShortName":"Six Powers",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":11,
          "header":1,
          "entries":[
@@ -7942,27 +7942,27 @@
       },
       {
          "name":"Moon Walk",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Martial Artist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":71,
          "subclassShortName":"Six Powers",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":11,
          "header":1,
          "entries":[
-            "Also at 11th level, when you use your Whirlwind Step, you can now kick the air with such force that you begin to propel yourself. While you do this, you have a flying speed equal to your walking speed until the end of your next turn.",
+            "Also at 11th level, when you use your Whirlwind Step, you can now kick the air with such force that you begin to prD&DFel yourself. While you do this, you have a flying speed equal to your walking speed until the end of your next turn.",
             "Additionally, using the Slow Fall feature now reduces any Falling damage you take to 0."
          ]
       },
       {
          "name":"Six King Gun",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Martial Artist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":71,
          "subclassShortName":"Six Powers",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":17,
          "header":1,
          "entries":[
@@ -7971,12 +7971,12 @@
       },
       {
          "name":"Water Adept",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Martial Artist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":72,
          "subclassShortName":"Fish-Man Karate",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":3,
          "header":1,
          "entries":[
@@ -7985,12 +7985,12 @@
       },
       {
          "name":"Arabesque Tile True Punch",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Martial Artist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":72,
          "subclassShortName":"Fish-Man Karate",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":3,
          "header":1,
          "entries":[
@@ -8007,12 +8007,12 @@
       },
       {
          "name":"Five Thousand Tile True Punch",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Martial Artist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":72,
          "subclassShortName":"Fish-Man Karate",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":6,
          "header":1,
          "entries":[
@@ -8022,12 +8022,12 @@
       },
       {
          "name":"Wrath of the Sea",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Martial Artist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":72,
          "subclassShortName":"Fish-Man Karate",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":6,
          "header":1,
          "entries":[
@@ -8036,12 +8036,12 @@
       },
       {
          "name":"Sharkskin Palm Block",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Martial Artist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":72,
          "subclassShortName":"Fish-Man Karate",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":11,
          "header":1,
          "entries":[
@@ -8058,12 +8058,12 @@
       },
       {
          "name":"Shark Pack Attack",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Martial Artist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":72,
          "subclassShortName":"Fish-Man Karate",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":17,
          "header":1,
          "entries":[
@@ -8072,12 +8072,12 @@
       },
       {
          "name":"Okama Way",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Martial Artist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":73,
          "subclassShortName":"New Kama Kenpo",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":3,
          "header":1,
          "entries":[
@@ -8087,12 +8087,12 @@
       },
       {
          "name":"Spinning Spa",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Martial Artist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":73,
          "subclassShortName":"New Kama Kenpo",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":3,
          "header":1,
          "entries":[
@@ -8101,12 +8101,12 @@
       },
       {
          "name":"Kick Claw First Pointe",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Martial Artist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":73,
          "subclassShortName":"New Kama Kenpo",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":6,
          "header":1,
          "entries":[
@@ -8115,12 +8115,12 @@
       },
       {
          "name":"Awakening of the Maiden",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Martial Artist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":73,
          "subclassShortName":"New Kama Kenpo",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":11,
          "header":1,
          "entries":[
@@ -8130,12 +8130,12 @@
       },
       {
          "name":"Galaxy Spin",
-         "source":"OP",
+         "source":"D&DF",
          "className":"Martial Artist",
-         "classSource":"OP",
+         "classSource":"D&DF",
          "page":73,
          "subclassShortName":"New Kama Kenpo",
-         "subclassSource":"OP",
+         "subclassSource":"D&DF",
          "level":17,
          "header":1,
          "entries":[
