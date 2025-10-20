@@ -2,9 +2,9 @@
 	"_meta":{
 	   "sources":[
 		  {
-			 "json":"OnePieceDungeonMasterGuide",
-			 "abbreviation":"OPDM",
-			 "full":"One Piece Dungeon Master Guide",
+			 "json":"D&DF-DMG",
+			 "abbreviation":"D&DF-DMG",
+			 "full":"One Piece Dungeons and Devil Fruits Dungeon Master Guide",
 			 "authors":[
 				"OneWorldHD"
 			 ],
@@ -23,7 +23,7 @@
 	"monster":[
 	   {
 		  "name":"Sea King Wyrmling",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":23,
 		  "size":[
 			 "L"
@@ -136,7 +136,7 @@
 	   },
 	   {
 		  "name":"Island Whale",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":25,
 		  "size":[
 			 "G"
@@ -266,7 +266,7 @@
 	   },
 	   {
 		  "name":"Sea Beast [Cow]",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":25,
 		  "size":[
 			 "H"
@@ -357,7 +357,7 @@
 	   },
 	   {
 		  "name":"Ancient Sea King",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":24,
 		  "size":[
 			 "G"
@@ -541,7 +541,7 @@
 	   },
 	   {
 		  "name":"Sea King",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":23,
 		  "size":[
 			 "G"
@@ -670,7 +670,7 @@
 	   },
 	   {
 		  "name":"Young Sea King",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":23,
 		  "size":[
 			 "H"
@@ -799,7 +799,7 @@
 	   },
 	   {
 		  "name":"Adult Bananawani",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":30,
 		  "size":[
 			 "H"
@@ -885,7 +885,7 @@
 	   },
 	   {
 		  "name":"Naitamie-Norida Elephant",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":29,
 		  "size":[
 			 "G"
@@ -1082,7 +1082,7 @@
 	   },
 	   {
 		  "name":"Giant Aquatic Centipede",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":28,
 		  "size":[
 			 "H"
@@ -1166,7 +1166,7 @@
 	   },
 	   {
 		  "name":"Island Eater",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":28,
 		  "size":[
 			 "G"
@@ -1373,7 +1373,7 @@
 	   },
 	   {
 		  "name":"Yuda",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":28,
 		  "size":[
 			 "G"
@@ -1484,7 +1484,7 @@
 	   },
 	   {
 		  "name":"King Bull",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":27,
 		  "size":[
 			 "G"
@@ -1555,7 +1555,7 @@
 	   },
 	   {
 		  "name":"Yagara Bull",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":27,
 		  "size":[
 			 "L"
@@ -1624,7 +1624,7 @@
 	   },
 	   {
 		  "name":"Fighting Fish",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":27,
 		  "size":[
 			 "H"
@@ -1732,7 +1732,7 @@
 	   },
 	   {
 		  "name":"Little Fighting Fish",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":27,
 		  "size":[
 			 "L"
@@ -1833,7 +1833,7 @@
 	   },
 	   {
 		  "name":"Kung Fu Dugong",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":26,
 		  "size":[
 			 "S"
@@ -1912,7 +1912,7 @@
 	   },
 	   {
 		  "name":"Super Spot-Billed Duck",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":26,
 		  "size":[
 			 "L"
@@ -1965,7 +1965,7 @@
 	   },
 	   {
 		  "name":"Flying Fish",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":26,
 		  "size":[
 			 "L"
@@ -2047,7 +2047,7 @@
 	   },
 	   {
 		  "name":"Bananawani (F-Wani)",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":26,
 		  "size":[
 			 "H"
@@ -2132,7 +2132,7 @@
 	   },
 	   {
 		  "name":"Horn Shark",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":26,
 		  "size":[
 			 "H"
@@ -2222,7 +2222,7 @@
 	   },
 	   {
 		  "name":"Royal Squid",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":25,
 		  "size":[
 			 "H"
@@ -2344,7 +2344,7 @@
 	   },
 	   {
 		  "name":"Komatori",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":34,
 		  "size":[
 			 "L"
@@ -2405,7 +2405,7 @@
 	   },
 	   {
 		  "name":"Komashika",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":34,
 		  "size":[
 			 "L"
@@ -2466,7 +2466,7 @@
 	   },
 	   {
 		  "name":"Komainu",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":34,
 		  "size":[
 			 "H"
@@ -2565,7 +2565,7 @@
 	   },
 	   {
 		  "name":"Komadane",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":34,
 		  "size":[
 			 "L"
@@ -2638,7 +2638,7 @@
 	   },
 	   {
 		  "name":"Blue Gorilla",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":33,
 		  "size":[
 			 "M"
@@ -2738,7 +2738,7 @@
 	   },
 	   {
 		  "name":"Snake Weapon",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":33,
 		  "size":[
 			 "T"
@@ -2800,7 +2800,7 @@
 	   },
 	   {
 		  "name":"Giant God Snake",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":33,
 		  "size":[
 			 "G"
@@ -2898,7 +2898,7 @@
 	   },
 	   {
 		  "name":"Lapahn",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":33,
 		  "size":[
 			 "M"
@@ -2981,7 +2981,7 @@
 	   },
 	   {
 		  "name":"Sayin Goabird Chick",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":32,
 		  "size":[
 			 "M"
@@ -3037,7 +3037,7 @@
 	   },
 	   {
 		  "name":"Sayin Goabird",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":32,
 		  "size":[
 			 "G"
@@ -3124,7 +3124,7 @@
 	   },
 	   {
 		  "name":"Sky Dot Bird",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":32,
 		  "size":[
 			 "L"
@@ -3202,7 +3202,7 @@
 	   },
 	   {
 		  "name":"Sky Lamprey",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":32,
 		  "size":[
 			 "G"
@@ -3293,7 +3293,7 @@
 	   },
 	   {
 		  "name":"Sky Shark",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":31,
 		  "size":[
 			 "H"
@@ -3363,7 +3363,7 @@
 	   },
 	   {
 		  "name":"Swarm of Sky Fish",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":31,
 		  "size":[
 			 "M"
@@ -3437,7 +3437,7 @@
 	   },
 	   {
 		  "name":"Sky Fish",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":31,
 		  "size":[
 			 "T"
@@ -3496,7 +3496,7 @@
 	   },
 	   {
 		  "name":"Octopus Balloon",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":31,
 		  "size":[
 			 "S"
@@ -3585,7 +3585,7 @@
 	   },
 	   {
 		  "name":"Three-length Bird",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":30,
 		  "size":[
 			 "L"
@@ -3684,7 +3684,7 @@
 	   },
 	   {
 		  "name":"Cloud Fox",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":30,
 		  "size":[
 			 "T"
@@ -3747,7 +3747,7 @@
 	   },
 	   {
 		  "name":"South Bird",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":30,
 		  "size":[
 			 "S"
@@ -3822,7 +3822,7 @@
 	   },
 	   {
 		  "name":"Silver Den Den Mushi",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":37,
 		  "size":[
 			 "T"
@@ -3903,7 +3903,7 @@
 	   },
 	   {
 		  "name":"Golden Den Den Mushi",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":37,
 		  "size":[
 			 "T"
@@ -3989,7 +3989,7 @@
 	   },
 	   {
 		  "name":"Projector Den Den Mushi",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":37,
 		  "size":[
 			 "T"
@@ -4063,7 +4063,7 @@
 	   },
 	   {
 		  "name":"Proko Den Den Mushi",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":36,
 		  "size":[
 			 "H"
@@ -4144,7 +4144,7 @@
 	   },
 	   {
 		  "name":"Cameko Den Den Mushi",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":36,
 		  "size":[
 			 "T"
@@ -4225,7 +4225,7 @@
 	   },
 	   {
 		  "name":"Horned Den Den Mushi",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":36,
 		  "size":[
 			 "T"
@@ -4299,7 +4299,7 @@
 	   },
 	   {
 		  "name":"White Den Den Mushi",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":36,
 		  "size":[
 			 "T"
@@ -4376,7 +4376,7 @@
 	   },
 	   {
 		  "name":"Black Den Den Mushi",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":35,
 		  "size":[
 			 "T"
@@ -4460,7 +4460,7 @@
 	   },
 	   {
 		  "name":"Standard Den Den Mushi",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":35,
 		  "size":[
 			 "T"
@@ -4547,7 +4547,7 @@
 	   },
 	   {
 		  "name":"Navy Legend [Epic] (Spoilers)",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":53,
 		  "size":[
 			 "M"
@@ -4827,7 +4827,7 @@
 	   },
 	   {
 		  "name":"Dread Yonko [Epic] (Spoilers)",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":52,
 		  "size":[
 			 "M"
@@ -5067,7 +5067,7 @@
 	   },
 	   {
 		  "name":"Sea King Lord [Epic]",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":51,
 		  "size":[
 			 "G"
@@ -5379,7 +5379,7 @@
 	   },
 	   {
 		  "name":"Devil Fruit User (Logia)",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":50,
 		  "size":[
 			 "M"
@@ -5527,7 +5527,7 @@
 	   },
 	   {
 		  "name":"Devil Fruit User (Paramecia)",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":49,
 		  "size":[
 			 "M"
@@ -5646,7 +5646,7 @@
 	   },
 	   {
 		  "name":"Devil Fruit User (Zoan)",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":49,
 		  "size":[
 			 "M"
@@ -5790,7 +5790,7 @@
 	   },
 	   {
 		  "name":"Tinkerer",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":48,
 		  "size":[
 			 "M"
@@ -5884,7 +5884,7 @@
 	   },
 	   {
 		  "name":"Elbaf warrior",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":48,
 		  "size":[
 			 "G"
@@ -5992,7 +5992,7 @@
 	   },
 	   {
 		  "name":"Bounty Hunter",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":48,
 		  "size":[
 			 "M"
@@ -6131,7 +6131,7 @@
 	   },
 	   {
 		  "name":"Samurai",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":47,
 		  "size":[
 			 "M"
@@ -6235,7 +6235,7 @@
 	   },
 	   {
 		  "name":"Mink",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":47,
 		  "size":[
 			 "M"
@@ -6339,7 +6339,7 @@
 	   },
 	   {
 		  "name":"Fish-Man Martial Artist Master",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":47,
 		  "size":[
 			 "M"
@@ -6463,7 +6463,7 @@
 	   },
 	   {
 		  "name":"Fish-Man Martial Artist",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":47,
 		  "size":[
 			 "M"
@@ -6568,7 +6568,7 @@
 	   },
 	   {
 		  "name":"Seraphim (Spoilers)",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":46,
 		  "size":[
 			 "L"
@@ -6771,7 +6771,7 @@
 	   },
 	   {
 		  "name":"Pacifista",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":46,
 		  "size":[
 			 "L"
@@ -6928,7 +6928,7 @@
 	   },
 	   {
 		  "name":"Cipher Pol Assassin",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":45,
 		  "size":[
 			 "L"
@@ -7052,7 +7052,7 @@
 	   },
 	   {
 		  "name":"Celestial Dragon",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":45,
 		  "size":[
 			 "M"
@@ -7128,7 +7128,7 @@
 	   },
 	   {
 		  "name":"Pirate Leader [Emperor]",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":44,
 		  "size":[
 			 "H"
@@ -7366,7 +7366,7 @@
 	   },
 	   {
 		  "name":"Pirate Elite [Emperor's Commander]",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":43,
 		  "size":[
 			 "L"
@@ -7553,7 +7553,7 @@
 	   },
 	   {
 		  "name":"Pirate Elite [Warlord]",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":42,
 		  "size":[
 			 "L"
@@ -7732,7 +7732,7 @@
 	   },
 	   {
 		  "name":"Pirate Elite [Fleet Commander]",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":41,
 		  "size":[
 			 "L"
@@ -7872,7 +7872,7 @@
 	   },
 	   {
 		  "name":"Pirate Elite [Captain]",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":41,
 		  "size":[
 			 "M"
@@ -7983,7 +7983,7 @@
 	   },
 	   {
 		  "name":"Pirate Lackey [Buccaneer]",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":41,
 		  "size":[
 			 "M"
@@ -8080,7 +8080,7 @@
 	   },
 	   {
 		  "name":"Pirate Lackey [Recruit]",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":41,
 		  "size":[
 			 "M"
@@ -8169,7 +8169,7 @@
 	   },
 	   {
 		  "name":"Marine Leader [Fleet Admiral]",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":40,
 		  "size":[
 			 "L"
@@ -8404,7 +8404,7 @@
 	   },
 	   {
 		  "name":"Marine Elite [Admiral]",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":39,
 		  "size":[
 			 "L"
@@ -8601,7 +8601,7 @@
 	   },
 	   {
 		  "name":"Marine Elite [Vice Admiral]",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":38,
 		  "size":[
 			 "M"
@@ -8730,7 +8730,7 @@
 	   },
 	   {
 		  "name":"Marine Elite [Captain]",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":38,
 		  "size":[
 			 "M"
@@ -8848,7 +8848,7 @@
 	   },
 	   {
 		  "name":"Marine Soldier [Lieutenant]",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":38,
 		  "size":[
 			 "M"
@@ -8949,7 +8949,7 @@
 	   },
 	   {
 		  "name":"Marine Soldier [Recruit]",
-		  "source":"OnePieceDungeonMasterGuide",
+		  "source":"D&DF-DMG",
 		  "page":38,
 		  "size":[
 			 "M"
@@ -9036,7 +9036,7 @@
 	"table":[
 		{
 			"name": "Traveling Events",
-        	"source": "OnePieceDungeonMasterGuide",
+        	"source": "D&DF-DMG",
 			"caption": "Traveling Events",
 			"page":16,
 			"colLabels": [
@@ -9460,7 +9460,7 @@
 		},
 		{
 			"name": "Fishing",
-        	"source": "OnePieceDungeonMasterGuide",
+        	"source": "D&DF-DMG",
 			"caption": "Fishing",
 			"page":16,
 			"colLabels": [

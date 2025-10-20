@@ -1,0 +1,241 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+  "feat": [
+    {
+      "name": "Captain",
+      "source": "D&DF-PHB",
+      "prerequisite": [
+        {
+          "other": "Proficiency in Intimidation and Persuasion"
+        }
+      ],
+      "entries": [
+        "As the captain of your crew, you motivate, guide, and command those who sail under you. You are typically the strongest and most charismatic individual among them, and your goal is to unite your allies to overcome any obstacle.",
+        "The captain should always have the final say in group decisions, providing leadership and direction to the crew.",
+        {
+          "type": "entries",
+          "name": "Feature: Captain's Charisma",
+          "entries": [
+            "Your authority inspires natural respect. When you give an order to a willing ally, they feel compelled to follow it unless it goes directly against their ideals or alignment. This leadership should be used with wisdom, not tyranny."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Pirate Prestige Ability: Crew Recruitment",
+          "entries": [
+            "You can spend 1 pirate prestige point to recruit a hireling or specialist for a week without pay. After the week, they demand normal payment unless another point is spent.",
+            "You cannot recruit in locations where your crew's reputation is 5 or lower."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chef",
+      "source": "D&DF-PHB",
+      "prerequisite": [
+        {
+          "other": "Proficiency in Sleight of Hand and Survival, and with Cook's utensils"
+        }
+      ],
+      "entries": [
+        "As the ship's chef, you ensure the crew is well-fed and motivated. Your culinary skill keeps morale high and stomachs full, even through harsh seas.",
+        {
+          "type": "entries",
+          "name": "Feature: Food Preparation",
+          "entries": [
+            "You can prepare treats during a long rest equal to your proficiency bonus. These treats last 8 hours, and a creature can eat one as a bonus action to gain temporary hit points equal to your proficiency bonus."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Pirate Prestige Ability: First-Class Feast",
+          "entries": [
+            "As part of a short rest, you can spend 1 pirate prestige point to cook a feast. Any creature that eats your food and spends Hit Dice regains an additional 1d8 hit points."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Doctor",
+      "source": "D&DF-PHB",
+      "prerequisite": [
+        {
+          "other": "Proficiency in {{@skill |PHB} Medicine},   Herbalism kit, Brewer's supplies, or Alchemist's supplies"
+        }
+      ],
+      "entries": [
+        "You are responsible for the health and safety of your crewmates, treating injuries and diseases aboard the ship.",
+        {
+          "type": "entries",
+          "name": "Feature: Advanced Treatment",
+          "entries": [
+            "When you use a healer's kit to stabilize a dying creature, it regains 1 hit point. You can also spend ฿400,000 in supplies over 1 hour to end disease, blindness, deafness, paralysis, or poison on a creature."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Pirate Prestige Ability: First Aid",
+          "entries": [
+            "You can spend 1 pirate prestige point as an action to restore 1d6 + 4 hit points to a creature, plus hit points equal to their maximum Hit Dice. They cannot benefit again until a short or long rest."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Helmsman",
+      "source": "D&DF-PHB",
+      "prerequisite": [
+        {
+          "other": "Proficiency in {{@skill |PHB} Perception}, {{@skill |PHB} Survival}, and Vehicles (water)"
+        }
+      ],
+      "entries": [
+        "You are responsible for steering and maneuvering the ship through rough waters and dangerous conditions.",
+        {
+          "type": "entries",
+          "name": "Feature: Through Thick and Thin",
+          "entries": [
+            "You add your proficiency bonus to checks made to steer the ship or avoid hazards, even if already proficient."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Pirate Prestige Ability: At the Helm",
+          "entries": [
+            "When the ship or crew is targeted by an attack or effect, you can spend 1 pirate prestige point as a reaction to grant +2 to the ship's AC and to all crew members' AC and saving throws until the start of your next turn."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lookout",
+      "source": "D&DF-PHB",
+      "prerequisite": [
+        {
+          "other": "Proficiency in {{@skill |PHB} Insight} and {{@skill |PHB} Perception}"
+        }
+      ],
+      "entries": [
+        "You are the ship's eyes, scanning the horizon for islands, ships, or danger.",
+        {
+          "type": "entries",
+          "name": "Feature: Bird's Eye View",
+          "entries": [
+            "You can treat lightly obscured conditions (fog, rain, etc.) as clear when spotting ships or landmarks ahead."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Pirate Prestige Ability: Sharp-Sighted Scout",
+          "entries": [
+            "You can spend 1 pirate prestige point to make a Perception check with advantage, or gain +5 to passive Perception for 1 minute."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Musician",
+      "source": "D&DF-PHB",
+      "prerequisite": [
+        {
+          "other": "Proficiency in {{@skill |PHB} Performance} and {{@skill |PHB} Persuasion}"
+        }
+      ],
+      "entries": [
+        "You raise the crew's spirits with music and charisma, keeping morale strong during dark times.",
+        {
+          "type": "entries",
+          "name": "Feature: Musical Talent",
+          "entries": [
+            "You can play or sing with skill, inspiring the crew and boosting morale through your performances."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Pirate Prestige Ability: Song of Legends",
+          "entries": [
+            "You can spend 1 pirate prestige point to perform a legendary song that raises the crew's reputation by 1d4 in a location. You also gain +2 to Charisma checks when speaking with locals for 1 day after the performance."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Navigator",
+      "source": "D&DF-PHB",
+      "prerequisite": [
+        {
+          "other": "Proficiency in {{@skill |PHB} Nature} and {{@skill |PHB} Survival}, Cartographer's tools, and Navigator's tools"
+        }
+      ],
+      "entries": [
+        "You chart and guide your crew's course, ensuring the ship travels safely and efficiently across dangerous waters.",
+        {
+          "type": "entries",
+          "name": "Feature: Charting and Mapping",
+          "entries": [
+            "You can create maps and assist the helmsman or captain with navigation. You gain advantage on checks to determine direction or predict weather patterns."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Pirate Prestige Ability: Storm Tracking",
+          "entries": [
+            "You can spend 1 pirate prestige point to steer clear of a dangerous storm or sea hazard entirely. Exceptionally dangerous weather may require more points."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Record-Keeper",
+      "source": "D&DF-PHB",
+      "prerequisite": [
+        {
+          "other": "Proficiency in {{@skill |PHB} History} and {{@skill |PHB} Religion}"
+        }
+      ],
+      "entries": [
+        "You chronicle the ship's history, record its adventures, and analyze lore and knowledge gathered along the journey.",
+        {
+          "type": "entries",
+          "name": "Feature: Librarian of the Sea",
+          "entries": [
+            "At the start of each session, you may recap previous events. You can add your proficiency bonus to Intelligence checks involving written or historical information."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Pirate Prestige Ability: Flash of Insight",
+          "entries": [
+            "Spend 1 pirate prestige point to uncover a major clue or insight about a puzzle, artifact, or writing, as determined by the DM."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shipwright",
+      "source": "D&DF-PHB",
+      "prerequisite": [
+        {
+          "other": "Proficiency in {{@skill |PHB} Athletics},  Carpenter's tools, and Woodcarver's tools"
+        } 
+      ],
+      "entries": [
+        "You build, repair, and upgrade ships, ensuring your vessel is always ready for battle or voyage.",
+        {
+          "type": "entries",
+          "name": "Feature: Ship Building, Upgrading, and Repairing",
+          "entries": [
+            "You can reroll one failed roll during ship construction and only pay for materials, not labor. You are proficient in all ship maintenance tasks."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Pirate Prestige Ability: Defensive Coating",
+          "entries": [
+            "You can spend any number of pirate prestige points over an hour to grant the ship 10 temporary hit points per point spent. This coating lasts 7 days or until replaced."
+          ]
+        }
+      ]
+    }
+  ]
+}

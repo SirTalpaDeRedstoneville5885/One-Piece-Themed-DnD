@@ -1,0 +1,27 @@
+{
+   "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+   "_meta":{
+      "sources":[
+         {
+            "json":"D&DFPHB",
+            "abbreviation":"D&DFPHB",
+            "full":"One Piece Dungeons and Devil Fruits Player Handbook",
+            "authors":[
+               "OneWorldHD"
+            ],
+            "convertedBy":[
+               "Tarun",
+               "SirTalpadeRedstoneville58"
+            ],
+            "version":"2.0.0",
+            "color":"33FFCA",
+            "url":"https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm"
+         }
+        ],
+      "dateAdded":1707934751,
+      "dateLastModified":1707934751,
+      "edition": "classic"
+   }
+   
+
+}

@@ -1,0 +1,2399 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "D&DFPHB",
+        "abbreviation": "D&DFPHB",
+        "full": "One Piece Dungeons and Devil Fruits Player Handbook",
+        "authors": [
+          "OneWorldHD"
+        ],
+        "convertedBy": [
+          "Tarun",
+          "SirTalpadeRedstoneville58"
+        ],
+        "version": "2.0.0",
+        "color": "33FFCA",
+        "url": "https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm"
+      }
+    ],
+    "dateAdded": 1760974397,
+    "dateLastModified": 1760974397,
+    "edition": "classic"
+  },
+  "book": [
+    {
+      "name": "Dungeons and Devil Fruits",
+      "source": "D&DF-PHB",
+      "group": "homebrew",
+      "id": "D&DF-PHB",
+      "published": "",
+      "cover": {
+        "type": "external",
+        "url": "https://i.imgur.com/Uw1QgF6.jpg"
+      },
+      "author": "OneWorldHD",
+      "contents": [
+        {
+          "name": "Starting Information",
+          "headers": [
+            "Some Basic Info About These Rules",
+            "The World of One Piece"
+          ],
+          "ordinal": {
+            "type": "chapter",
+            "identifier": 0
+          }
+        },
+        {
+          "name": "Making a Character",
+          "headers": [
+            "Setting Up a Character",
+            "1st level and beyond"
+          ],
+          "ordinal": {
+            "identifier": 1,
+            "type": "chapter"
+          }
+        },
+        {
+          "name": "Races",
+          "headers": [
+            "Human",
+            "Fishman",
+            "Merfolk",
+            "Sky Islander",
+            "Mink",
+            "Yokai Tribesman",
+            "Cyborg",
+            "Dwarf [Optional]",
+            "Lunarian [Optional]",
+            "Elbaf Giant [Optional]"
+          ],
+          "ordinal": {
+            "identifier": 2,
+            "type": "chapter"
+          }
+        },
+        {
+          "name": "Class",
+          "headers": [
+            "Bruiser",
+            "Chemist",
+            "Devilforged",
+            "Hybrid",
+            "Marksman",
+            "Martial Artist",
+            "Priest",
+            "Rogue",
+            "Skald",
+            "Tinkerer",
+            "Warrior"
+          ],
+          "ordinal": {
+            "type": "chapter",
+            "identifier": 3
+          }
+        },
+        {
+          "name": "Crew and Background",
+          "headers": [
+            "Name and Physical Characteristics",
+            "Inspiration Dice Alternative: Pirate Prestige",
+            "Crew Roles",
+            "Backgrounds",
+            "Character Dreams"
+          ],
+          "ordinal": {
+            "type": "chapter",
+            "identifier": 4
+          }
+        },
+        {
+          "name": "Equipment",
+          "headers": [
+            "Wealth",
+            "Armor and Shields",
+            "Weapons",
+            "Adventuring Gear",
+            "Mounts and Vehciles",
+            "Special Equipment",
+            "Expenses",
+            "Trinkets"
+          ],
+          "ordinal": {
+            "type": "chapter",
+            "identifier": 5
+          }
+        },
+        {
+          "name": "Customization & Feats",
+          "headers": [
+            "Multiclassing",
+            "Feats"
+          ],
+          "ordinal": {
+            "type": "chapter",
+            "identifier": 6
+          }
+        },
+        {
+          "name": "Devil Fruits & Haki",
+          "headers": [
+            "Haki",
+            "Devil Fruits",
+            "Devil Fruit Generation",
+            "Designing a Devil Fruit Sheet with Steps",
+            "Designing A Paramecia Devil Fruit Sheet",
+            "Designing a Zoan Devil Fruit Sheet",
+            "Designing a Logia Devil Fruit Sheet"
+          ],
+          "ordinal": {
+            "type": "chapter",
+            "identifier": 7
+          }
+        },
+        {
+          "name": "Spell Lists",
+          "headers": [
+            "Class Spells",
+            "Custom Spells"
+          ],
+          "ordinal": {
+            "type": "chapter",
+            "identifier": 8
+          }
+        }
+      ]
+    }
+  ],
+  "bookData": [
+    {
+      "id": "D&DF-PHB",
+      "source": "D&DF-PHB",
+      "data": [
+        {
+          "type": "section",
+          "name": "Starting Information",
+          "page": 3,
+          "entries": [
+            {
+              "type": "image",
+              "href": {
+                "type": "external",
+                "url": "https://i.imgur.com/4kws2K4.jpg"
+              }
+            },
+            "DMs, be sure to explore the [Dungeons and Devil Fruits Dungeon Master's Guide](https://homebrewery.naturalcrit.com/share/sK-UDzk7x8U_) for this project! It offers a wealth of information beneficial for planning your campaign. Also be sure to check out the [Devil Fruit Encyclopedia](https://homebrewery.naturalcrit.com/share/24DkobVl8IGZ), which includes much more information on Devil Fruit powers and details to include in your game!",
+            "This rulebook aims to be a One Piece-themed adaptation of the Wizards of the Coast D&D 5e rule books. Familiarizing yourself with the basics of these rules before engaging with this system is essential. Once you've grasped the basic rules and terminology, you're good to go.  [Read this to get started if you are new to 5e!](https://dnd.wizards.com/articles/features/basicrules)",
+            "Furthermore, you'll need a solid understanding of the One Piece Universe. As a Dungeon Master, it's recommended that you watch or read a substantial portion of the series to effectively run this type of game. While it's less critical for players to be familiar with aspects outside of this rulebook, it is still beneficial. Below is a list of considerations and preparations needed before running a game with these rules.",
+            {
+              "type": "section",
+              "name": "Some Basic Info About These Rules",
+              "page": 3,
+              "entries": [
+                "If You're New to D&D or One Piece",
+                {
+                  "type": "list",
+                  "items": [
+                    "Have a way to run the campaign. If playing online, use a platform such as Roll20 or  something similar. If playing in person, make sure to have many of the required dice and character sheets set up prior to running a game.",
+                    "Come up with a story and world! You can either set up a sandbox world or make a clear path for your players to take if they are less adventurous. Make sure to discuss this with them prior so that everyone is on the same page about what they find fun.",
+                    "As stated above, familiaize yourself with One Piece lore and the D&D rules for playes and Dungeon Masters. Below are some more resources to check out!"
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Useful Links",
+                  "page": 3,
+                  "entries": [
+                    "Devil Fruits - These are magical fruits that have the ability to grant the eater super-human powers. There are some downsides to this, however. Read this to learn about Devil Fruits!",
+                    "World of One Piece - Most of the One Piece world is full of a variety of wacky large and small islands. There are very few large continents in this world. There is also the grand lind, the red line, the calm belt, and different sections of the ocean. Read this to learn more about the World of One Piece!",
+                    "Fighting Styles - There are many unique and powerful ways of fighting, even if you are a non-devil fruit user! Read this to learn more about these fighting styles in detail!"
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Da Rules! (5e)",
+                  "page": 3,
+                  "entries": [
+                    "If you are running a campaign with these rules, it is important to understand the rules of 5th Edition. I would highly recommend using the Player's Handbook and Dungeon Master's Guide in conjunction with the rules in this book. Most of the rules from 5e will apply to this campaign setting in this rulebook, only because they are the easiest to understand for most people. The only things that will be different are the races, classes, some spells, items, and a few other rules. Take what you want from the 5e rules and add them to your own game if a rule isn't covered in this book!",
+                    "Many of the standard rules will apply from the 5e rulebooks such as:",
+                    {
+                      "type": "list",
+                      "items": [
+                        "Spells, class mechanics, leveling, ability scores, character sheets, and skills work similarly with some modifications.",
+                        "Combat mechanics will function pretty much the same.",
+                        "Classes and races have been changed or overhauled to fit the One Piece theme.",
+                        "New player feats will be added and some will be slightly changed.",
+                        "Mages and magic are treated a bit different in this world and can be explained through science, spiritual skills, and elemental powers people naturally use.",
+                        "Most supernatural phenomenon are explained by devil fruits and haki, which serve as a potential supplement for magic items."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Important Side Note",
+                  "page": 3,
+                  "entries": [
+                    "Understand that when reading this, it is only used as a guide to help you run or play in a game of your own. It is entirely fanmade homebrew. In other words, the Dungeon Master has the final say about what the rules are. You could use 100% of these rules or only 10% , it is up to how you want to run your world! There may be a few typos or grammatical errors, and I will try to spot and fix them. Otherwise, thank you for reading this!"
+                  ]
+                },
+                {
+                  "type": "image",
+                  "href": {
+                    "type": "external",
+                    "url": "https://logos-world.net/wp-content/uploads/2023/03/Straw-Hat-Logo.png"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "The World of One Piece",
+              "page": 4,
+              "entries": [
+                "The map below gives a basic outline and potential roadmap for you to use for your own adventure. This section will also brief players who are new to the geography or nature of the One Piece world. You can either use the islands, factions, kingdoms, and objectives established in the main series. Or you could opt to make an entirely separate alternate universe with new factions, islands, and kingdoms custom tailored for your group's adventure.",
+                "Alternatively, you could use a mix of both types of settings, giving homage to certain locations, groups, and characters with your own spin while creating several new islands, allies, and villains for the group to meet. However you choose to run your campaign, using this world map will give you and your players an idea of a path to take to move forward toward adventure and the One Piece.",
+                {
+                  "type": "image",
+                  "href": {
+                    "type": "external",
+                    "url": "https://i.imgur.com/HCAPGPS.png"
+                  }
+                },
+                {
+                  "type": "entries",
+                  "name": "The Four Blue Seas",
+                  "page": 4,
+                  "entries": [
+                    {
+                      "type": "list",
+                      "items": [
+                        {
+                          "type": "entries",
+                          "name": "North Blue",
+                          "entries": [
+                            "A sea in which many legendary pirates and factions were birthed. The North Blue contains many great kingdoms, as well as once being ruled by the Vinsmoke family, and mostly ocean with smaller islands and some continents."
+                          ]
+                        },
+                        {
+                          "type": "entries",
+                          "name": "East Blue",
+                          "entries": [
+                            "Considered the weakest of all the seas. The East Blue contains mostly ocean with many small islands and some continents."
+                          ]
+                        },
+                        {
+                          "type": "entries",
+                          "name": "South Blue",
+                          "entries": [
+                            "A sea that, similar to the North Blue, was the home of many famous pirates. The South Blue contains many great kingdoms and mostly ocean with smaller islands and some continents."
+                          ]
+                        },
+                        {
+                          "type": "entries",
+                          "name": "West Blue",
+                          "entries": [
+                            "A sea riddled with crime, being ruled by various mafia organizations that run a strong Underworld. The West blue contains mostly ocean with smaller islands."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "The Grand Line",
+                  "page": 5,
+                  "entries": [
+                    "The Grand Line attracts an unsurmountable number of pirates and adventurers, both powerful and weak, to its seas. Many fail to even reach this sea, struggling to navigate its treacherous waters, extreme weather conditions, and powerful rival pirate crews or Marine forces. This sea also requires special tools to navigate. \"Log Pose\" compasses, for example, must be used to properly navigate and point ships to the next island since the sea's abnormal magnetic fields do not allow for ordinary compasses to be used. Moreover, Log Poses only allow for a limited and linear path to be taken because it will only point to one location at a time once it adjusts to the magnetic field of a nearby island.",
+                    {
+                      "type": "list",
+                      "items": [
+                        {
+                          "type": "entries",
+                          "name": "Reverse Mountain and Red Line",
+                          "entries": [
+                            "Reaching the grand line from the four blue seas requires travel by ship up through the Reverse mountain, which will carry any ship up with its powerful current and down into a single steep river into the Grand Line. This is a one-way trip, however, and a ship cannot pass back up through the reverse mountain once they've arrived in the Grand Line due to the powerful currents.",
+                            "Alternatively, one could reach the grand line by traveling across the calm belt. However, the calm belt is incredibly difficult to traverse due to reasons specified below, and is primarily crossed only by the Marines. One last way one could theoretically reach the Grand Line is by traveling across the Red Line itself, which is a massive land formation that is virtually impossible to cross for an ordinary person by foot, to loop around the calm belt and into central portion."
+                          ]
+                        },
+                        {
+                          "type": "entries",
+                          "name": "Calm Belt",
+                          "entries": [
+                            "This calm strip of sea that rests on both outer borders on each side of the Grand Line, contains many islands and creatures within it. However, despite its name, crossing the Calm Belt can prove to be instantly fatal to even the most powerful of pirate crews. Due to the complete absence of ocean currents and winds throughout the Calm Belt, there are very few ships that can effectively move through it. Additionally, a near-infinite number of Sea Kings and other sea monsters make the Calm Belt their home and will immediately destroy any suspecting ship or creature attempting to move over it.",
+                            "Only a select few ships manufactured by the Marines or special Kingdoms will dare to cross the Calm Belt using seastone technology or sea monster guides to bypass the dangers it presents."
+                          ]
+                        },
+                        {
+                          "type": "entries",
+                          "name": "Paradise",
+                          "entries": [
+                            "The first half of the Grand Line, often referred to as \"paradise\" when compared to the latter half of the Grand Line. Despite its name, this sea is notably dangerous and will eliminate most newbie pirates that attempt to explore it. Paradise contains many small continents and islands with extreme weather conditions, many of which never change in season, temperature, or climate. Each piece of land may contain villages, cities, kingdoms, or countries. Weather conditions all across Paradise are often lethal to crews without gifted navigators and sturdy ships.",
+                            "The Marines, warlords, armies, and established pirate crews will all defend their territories here or attack anyone unfamiliar on sight. Additionally, Sea Monsters and legendary beasts can be found commonly in the oceans or on islands within paradise that can easily threaten to annihilate any unsuspecting ship or traveler."
+                          ]
+                        },
+                        {
+                          "type": "entries",
+                          "name": "New World",
+                          "entries": [
+                            "Both the latter half of the Grand Line and the final frontier, this is the place where the strongest of the strong reside. It is also the deadliest sea, forcing even the most experienced of crews and ships into submission with its ruthless and completely unpredictable weather, hostile climates on many islands, and other supernatural threats that may randomly appear at a moments notice. Much like Paradise, there are many small continents and islands that are spread out across the sea.",
+                            "Legendary pirate crews rule over their own massive territories, earning their captains the title \"Emperor\" or \"Yonko\". Each compete for territory and resources, with some even aiming for the title of \"Pirate King\". Territory of the Emperor crews may encompass a massive range of kingdoms, countries, or large sections of ocean. It is often said to survive here, one must align with a Yonko crew or inevitably war against them. There are typically four of these emperors, though that number may change depending on the circumstances and balance of power in the New World. Even the Navy is often afraid of exploring these seas or challenging the mighty Yonko, as more than one Yonko alliance or fleet forming an alliance against them could threaten the entire World Government."
+                          ]
+                        },
+                        {
+                          "type": "entries",
+                          "name": "Final Island",
+                          "entries": [
+                            "To avoid massive spoilers, this section will intentionally be left vague.",
+                            "This legendary place rests at the very end of the Grand Line, within the final stretch of the New World. Within this mysterious location exists a colossal treasure that has had most pirates searching for decades to find. It also contains all the mysteries of the past, which will be useful to those searching for the truth of the world. The nature or exact contents of this location are still left open to interpretation, though any DM running their game can allow their players to reach this place by special means specific to their own adventure and world. The name of this island itself can be changed to fit a different plot or storyline for each world.",
+                            "However one chooses to run this location, it will most likely be reached at the very end of a campaign and will allow players to access the One Piece in some way. Perhaps it can act as a gateway to the treasure. It could be an underwater city which rises to the sky to carry the players to the treasure. It could even itself be a weapon of some sort that has the capacity to destroy the planet. Because the mystery of the One Piece and Raftel has not been revealed yet (as of 2022), it is fair to insert your own spin on what it could be that players find here"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Making a Character",
+          "page": 8,
+          "entries": [
+            {
+              "type": "image",
+              "href": {
+                "type": "external",
+                "url": "https://lh3.googleusercontent.com/Ryg5ih-fOWbpEGDpbJYJz5RTq3_28Tvo2h3JQRCdiz16lw5ghitDMN6hcWA57g0d6_8VOqQYcCemRBOfZGQA64ZKkFOn71zuF1LDsXwCh4ywF-_z6VqxbBqmbQvK_-PWfZcztxDd1WDTEEUHX6GdP60"
+              }
+            },
+            {
+              "type": "section",
+              "name": "Setting Up a Character",
+              "page": 8,
+              "entries": [
+                "This is typically the first step in any tabletop RPG or D&D-styled game. Use your imagination to think up what type of character you want to be in this world. Make sure it remains mostly thematic in regards to the setting, as this isn't a standard D&D campaign.",
+                "Think about what race you would like your character to be, their personality, goals, back story, specialties, career, appearance, traits, and relationships. Once you have all of these qualities decided, start following these steps below and writing everything down.",
+                "Using a \"Character Sheet\" provided by Wizards of the Coast for 5th Edition, you can track much of this. You may need to make a few modifications for certain things, like tracking Devil Fruit powers.",
+                {
+                  "type": "entries",
+                  "page": 8,
+                  "name": "Choosing Your Race",
+                  "entries": [
+                    "Races in the One Piece world are very unique and each exhibit many different abilities and defining traits. Deciding your race can be pretty important to describing your character's appearance and abilities, as well as occasionally defining their goals. Humans are easily the most common race to find when exploring the planet, although you may sometimes find individuals or communities of non-humans living in different areas, typically away from humans.",
+                    "If you are unsure of which race to go with, Human can be an easy choice. However, races such as Fishmen, Merfolk, Minks, Sky Tribesman, Kuja, Dwarves, and others are all possible races to choose from. More information on these races are listed in Chapter 2."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "page": 8,
+                  "name": "Choosing Your Class",
+                  "entries": [
+                    "Each character should specialize in a field while sailing the seas with their crew. A class will determine your prominent talents and skills, allowing your character to hone and grow their abilities throughout the adventure. For example, a Warrior may focus mainly on fighting while tinkerers can be useful in performing specifics tasks outside of combat that may benefit the group, such as navigating. While having an all-around useful character is important, sometimes it doesn't hurt to have a character that tends to be extremely good at only one thing, so long as they benefit the group and feel fun to play. A well-rounded party can make the journey far more enjoyable in the long-run.",
+                    "Put some time into deciding what you want your character's role to be in the crew. Maybe discuss it with others in the group to see what would work best for everyone. However, make sure to choose something you will have fun with and appreciate. Once you have a general idea for what your class will be, pick from the classes listed in Chapter 3."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "page": 8,
+                  "name": "Determining Your Ability Scores",
+                  "entries": [
+                    "The six abilities that are prevalent in every D&D campaign and determine your character's skills are: Strength, Dexterity, Constitution, Intelligence, Wisdom, and Charisma. When you calculate the number of each ability score, you will need to list them on your character sheet.",
+                    "The Dungeons and Dragons 5th Editions rules should list how you can determine your Ability Scores. However, I will also explain this process here. Using the Standard Array method, you can take the numbers 15, 14, 13, 12, 10, 8 and assign each number to a different Ability Score.",
+                    "You may also choose to Roll for your Ability Scores by rolling a {@dice d6} dice four times and recording the sum of the three highest rolls. Repeat this process five more times until you have written down six total sums. Then, allocate each of these six numbers to individual Ability Scores of your choice. As an example, you may end up with the six numbers 17, 11, 13, 9, 12, 14 after rolling. You might decide you want strength to be your highest Ability Score, so you would put 17 for your Strength Score. Then you would fill in your other Ability Scores accordingly.",
+                    "Lastly, one other way you can decide Ability Scores is through using Point Buy. You can easily find a free Point Buy Caculator online. It is of course always up to the DM to decide what method is used to determine Ability Scores for the party. Once you have calculated your ability scores, you will make changes to them according to your racial feats.",
+                    {
+                      "type": "table",
+                      "caption": "Ability Scores and Modifiers",
+                      "colLabels": [
+                        "Ability Score",
+                        "Modifier"
+                      ],
+                      "colStyles": [
+                        "col-6 text-center",
+                        "col-6 text-center"
+                      ],
+                      "rows": [
+                        [
+                          "1",
+                          "-5"
+                        ],
+                        [
+                          "2-3",
+                          "-4"
+                        ],
+                        [
+                          "4-5",
+                          "-3"
+                        ],
+                        [
+                          "6-7",
+                          "-2"
+                        ],
+                        [
+                          "8-9",
+                          "-1"
+                        ],
+                        [
+                          "10-11",
+                          "0"
+                        ],
+                        [
+                          "12-13",
+                          "+1"
+                        ],
+                        [
+                          "14-15",
+                          "+2"
+                        ],
+                        [
+                          "16-17",
+                          "+3"
+                        ],
+                        [
+                          "18-19",
+                          "+4"
+                        ],
+                        [
+                          "20-21",
+                          "+5"
+                        ],
+                        [
+                          "22-23",
+                          "+6"
+                        ],
+                        [
+                          "24-25",
+                          "+7"
+                        ],
+                        [
+                          "26-27",
+                          "+8"
+                        ],
+                        [
+                          "28-29",
+                          "+9"
+                        ],
+                        [
+                          "30",
+                          "+10"
+                        ]
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "page": 9,
+                      "name": "Beginning With a Devil Fruit, Haki, or Character Feat (Optional)",
+                      "entries": [
+                        "If your DM allows for it, your character might've already learned how to use basic haki, learned a character feat, or eaten a Devil Fruit prior to the start of their journey in this campaign. This would mean you gain a Haki ability or random Devil Fruit power at the very beginning of the adventure and cannot consume another Devil Fruit ever again. Of course, this also means you will never be able to swim again. This may make the start of the adventure far easier than normal, but things should even out in difficulty later on.",
+                        "If you are able to use this rule and start with a Devil Fruit or Haki, you may roll on the \"Uncommon\" Devil Fruit Table in Chapter 7. Once you have rolled your power, you are stuck with it, good or bad. If you instead start with Haki, you gain an \"Uncommon\" Haki Advancement feat of your choice in Chapter 7. If you are starting at later levels or right on the grand line, your DM may allow you to roll on the \"Rare\" Devil Fruit table instead and choose up to a \"Rare\" Haki Advancement feat. Lastly, if neither Haki or a Devil Fruit fits your taste, you may start with a Character Feat in Chapter 6. This can technically be done at any point in character creation, but make sure you meet any prerequisites needed for advancements and feats. Make sure to write down the name and abilities of your Devil Fruit as well as your Haki abilities somewhere on your character sheet or use separate handout provided by your DM."
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "page": 9,
+                      "name": "Describing Your Character",
+                      "entries": [
+                        "First, hopefully you've already decided on a name for your character. If not, try to think of something you like the sound of. If you can't think of anything, feel free to look up D&D name generators online. Then, start to really develop their personality and appearance in your head.",
+                        "After you have a concept in mind, you want to start writing and organizing these ideas onto your character sheet. Try to find what Alignment best fits them and their morals. Then, start to think up some defining Personality Traits. Once your mark those down on your character sheet, start getting into their Ideals, Bonds, and Flaws. These will provide a guideline on how you plan on roleplaying and making decisions with your character.",
+                        "Now you want to decide on your characters Background. Your background will provide you with tools and knowledge gained from how you've lived your life prior to the start of the campaign. This will affect how those who recognize you interact with you, how you're treated by the general public, and what your occupation is or was. A DM may provide you with custom backgrounds for this adventure, but feel free to choose from the ones listed in Chapter 4."
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "page": 9,
+                      "name": "Race, Devil Fruit, and Ability Scores",
+                      "entries": [
+                        "It is important to take into consideration how your race and Ability Scores can impact your character's appearance and personality. Some One Piece races may be noticeably taller than others, some may be tinier on average, and some may have very distinguishable traits.",
+                        "Additionally, if you are a Devil Fruit user, you may have certain physical features or personality traits that match the nature or properties of your power. For example, a user of the Moku Moku no mi (Smoke Logia) might be a huge chain smoker who tends to dress in white or gray colored clothing. A user of the Neko Neko no mi, Model: Lion (Zoan) could dress up in flashy golden clothing and consider themselves royalty. If your character ate a Devil Fruit before being introduced to the party, consider incorporating how you got the power and how it impacts your daily life into your background. It is up to you how you want to incorporate the theme of your Devil Fruit into your character.",
+                        "Furthermore, your final ability scores may also factor into your appearance and attitude. Here are some examples:",
+                        "A character with high strength may appear physically intimidating and bulky, with defined muscles and a towering figure. With low strength, they might appear scrawny or flabby.",
+                        "A character with high dexterity may appear incredibly quick and versatile when moving around, with a potentially more lean appearance. With low dexterity, they may be heavier or move a bit slower than others.",
+                        "A character with high constitution may appear noticeably healthy and sturdy. With low constitution, they may look a tad bit sickly or pale.",
+                        "A character with high intelligence may appear more structured or knowledgeable when talking to others, perhaps having several books or scrolls in their possession. With low intelligence, they may speak noticeably slow, sometimes having a dumbfounded look on their face when hearing complicated explanations.",
+                        "A character with high wisdom may appear more aware of their surroundings and have a grasp on the deeper meaning of interactions in their daily lives. With low wisdom, a character may seem aloof or carefree to others.",
+                        "A character with high charisma will most likely stand out in public and most social situations, having the ability to influence the attitudes and thoughts of others through interacting with them. With low charisma, a character may be more easily ignored or feel slightly more difficult to agree with in conversations."
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "page": 9,
+                      "name": "Getting Equipped",
+                      "entries": [
+                        "Class and background will typically decide what equipment your character starts with. Your equipment includes weapons, armor, tools, trinkets, clothing, and other gear. Look at Chapter 5 to record this information on your character sheet.",
+                        "Alternatively, you may choose to purchase your starting equipment instead. You will start with a set number of Belly (฿) to spend on equipment, based on the value given to you by your class.",
+                        "Further information on starting gold based on class is detailed in Chapter 5. Weapons in the One Piece world include various types of firearms such as pistols, rifles, and occasionally very high-tech weaponry such as laser beams. The most common weapons you will find are guns like flintlocks, and swords such as cutlasses and sabers. Much higher firepower weapons such as cannons are common, but are typically only used on ships or in fortresses.",
+                        "Melee Weapons require that you roll a {@dice 1d20} and add your strength or dexterity modifier as well as your Proficiency Bonus to the roll to hit. This modifier is also usually added on top of the damage roll. Melee weapons tend to use strength modifiers, but occasionally allow you to use other modifiers depending on your weapon or class.",
+                        "Ranged Weapons require that you roll a {@dice 1d20} and add your strength or dexterity modifier as well as your Proficiency Bonus to the roll to hit. This modifier is also usually added on top of the damage roll. Ranged weapons tend to use dexterity modifiers, but occasionally allow you to use other modifiers depending on your weapon or class.",
+                        "Traditional armor is used far less in the One Piece world often due to how inconvenient it can be for mobility, but it can still be rarely utilized by very tanky pirates. For this reason, it might be wise to reflavor these items for certain characters by instead using durable clothing or body armor that can be used underneath clothing as a substitute. Shields are not used quite as often either, but can still be found and used by very defensive-style duelists.",
+                        "Armor Class without armor is normally equal to 10 + Dexterity Modifier. Certain classes might change how this is calculated. Additionally, wearing armor or using shields will alter the Base or Modifier value of your AC.",
+                        "Be sure to write down all of these values on your character sheet for easy access and to remember them for combat encounters."
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "page": 10,
+                      "name": "Wrapping Up Session 0",
+                      "entries": [
+                        "If you are playing with a large group, it is sometimes a good idea to get everyone together a week or so before the first official campaign session to discuss character setup. This is usually called Session 0. With the help of your Dungeon Master and fellow players, try to decide how you want your characters to mesh together. Does everyone in the party/crew know each other before the campaign starts? Does your backstory include any of the other player characters or NPCs? How will your character's background and current occupation fit into the crew's goals and the story? These are all important questions to ask yourselves and especially the DM."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "1st level and beyond",
+              "page": 10,
+              "entries": [
+                "By exploring the One Piece World and fighting your way through various forces, your characters will start to develop new strategies and grow stronger over time. Each time a major advancement occurs, either due to reaching a specific number of Experience Points or reaching a Milestone in the story, you will gain a Character Level.",
+                "For example, if you start at level 1 with 0 Experience Points and gain enough experience over the course of a session to make your way to Level 2, you will mark this on your character sheet and upgrade your stats accordingly during your next Long Rest. Additionally, your DM may decide to use a Milestone system by granting you a level up upon reaching a new area or island, completing an important objective, or obtaining a key item or treasure.",
+                {
+                  "type": "table",
+                  "colLabels": [
+                    "Experience Points",
+                    "Level",
+                    "Proficiency Bonus"
+                  ],
+                  "colStyles": [
+                    "col-1 text-center",
+                    "col-3 text-right",
+                    "col-9 text-right"
+                  ],
+                  "rows": [
+                    [
+                      "0",
+                      "1",
+                      "+2"
+                    ],
+                    [
+                      "300",
+                      "2",
+                      "+2"
+                    ],
+                    [
+                      "900",
+                      "3",
+                      "+2"
+                    ],
+                    [
+                      "2,700",
+                      "4",
+                      "+2"
+                    ],
+                    [
+                      "6,500",
+                      "5",
+                      "+3"
+                    ],
+                    [
+                      "14,000",
+                      "6",
+                      "+3"
+                    ],
+                    [
+                      "23,000",
+                      "7",
+                      "+3"
+                    ],
+                    [
+                      "34,000",
+                      "8",
+                      "+3"
+                    ],
+                    [
+                      "48,000",
+                      "9",
+                      "+4"
+                    ],
+                    [
+                      "64,000",
+                      "10",
+                      "+4"
+                    ],
+                    [
+                      "85,000",
+                      "11",
+                      "+4"
+                    ],
+                    [
+                      "100,000",
+                      "12",
+                      "+4"
+                    ],
+                    [
+                      "120,000",
+                      "13",
+                      "+5"
+                    ],
+                    [
+                      "140,000",
+                      "14",
+                      "+5"
+                    ],
+                    [
+                      "165,000",
+                      "15",
+                      "+5"
+                    ],
+                    [
+                      "195,000",
+                      "16",
+                      "+5"
+                    ],
+                    [
+                      "225,000",
+                      "17",
+                      "+6"
+                    ],
+                    [
+                      "265,000",
+                      "18",
+                      "+6"
+                    ],
+                    [
+                      "305,000",
+                      "19",
+                      "+6"
+                    ],
+                    [
+                      "355,000",
+                      "20",
+                      "+6"
+                    ]
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "page": 11,
+                  "name": "level tiers during the adventure",
+                  "entries": [
+                    "During the journey, the DM may decide to structure the pacing and level advancement throughout the adventure to give the feeling of progression to players. By deciding level tiers for certain areas in the world, it will be easy to balance enemies and NPCs in ways that align with player progression.",
+                    "The first tier (levels 1-4) will be for very early exploration throughout the seas outside of the Grand Line, including the North Blue, East Blue, South Blue, and West Blue. It would be wise to start in one of these seas, preferably a fair distance away from Reverse Mountain and the Grand Line. Player characters will be fairly weak at this tier, and will only encounter minor enemies and challenges until they reach the Grand Line.",
+                    "The second tier (levels 5-10) will be where most of the first half of the campaign takes place, in a portion of the Grand Line called \"Paradise\". This will be where many mid-tier pirates and powerful members of the navy reside. The sea and various islands will be difficult to traverse, with sea monsters and extreme weather conditions constantly bombarding your travel at random. Surviving to the end of Paradise should prove to be a challenge and feel like an amazing accomplishment upon completing the end. However, the next two stages should feel far more threatening.",
+                    "The third tier (levels 11-15) is where players will start facing extremely overwhelming challenges. Making your way into the second half of the Grand Line, called the New World, the party should be facing unimaginably powerful pirate crews called the Yonko (or Four Emperors). The weather and islands here are even more threatening than the first half of the grand line, enough for a majority of crews to perish upon initially reaching this area. This will be the stage where characters start training, conducting espionage on the Yonko, and collecting Road Poneglyphs.",
+                    "The final tier (levels 16-20) is the last stretch of the journey. At this legendary tier, characters should be able to stand up to Yonko pirate crews and marine admirals. Most fights will be overwhelmingly large-scale and epic, involving hundreds or thousands of pirates in huge wars and battles across the end of the New World. Once several Yonko have fallen and Road Poneglyphs are copied down, the crew can make their way to the One Piece to become pirate kings/queens and complete the adventure."
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "section",
+          "name": "Races",
+          "page": 12,
+          "entries": [
+            {
+              "type": "image",
+              "href": {
+                "type": "external",
+                "url": "https://i.imgur.com/8UP9POi.jpg"
+              }
+            },
+            "The races in One Piece all have a variety of distinct traits that set them apart from one-another. While humans are the most common and reside on most islands, other demihuman races have their own islands and territories that they reside in around the world. These demihuman races also have a wide variety sizes, characteristics, abilities, and cultures. In many cases, non-human races can be seen as much stronger by default than ordinary humans. However, many humans may opt to regularly train to be on par with these races as well.",
+            "Typically, non-human races don't mingle well with human civilzation and culture due to the severe level of racism and oppression often being brought non-humans by the Navy and World Government, which further fuels anti-human sentiments among the human populace. When a non-human is introduced into a human society, it will most likely be treated more harshly than their human counterpart, oftentimes alienating them completely. Likewise, Humans may also be treated differently when entering a non-human tribe or country due to the resentment they hold. It is up to the DM to decide how to run these encounters during roleplay.",
+            "Remember, the One Piece world is very divided and has many themes of slavery and extreme hatred toward non-humans. If these themes are too extreme or uncomfortable to run, feel free to remove most of the racial tension for a more relaxed experience for non-human player characters.",
+            {
+              "type": "section",
+              "name": "Player Races",
+              "page": 12,
+              "entries": [
+                "When choosing a player character's race, it is important to choose an option that suits the character's personality, background, appearance, and perhaps even class and abilities. For example, a characer that loves to swim and interact with aquatic creatures may be best suited by picking the Fishman or Merfolk race. In order to properly make this choice, read each race option and consult with your DM for any questions or advice you may need.",
+                "For the purposes of game balance, many races from the One Piece world will be restricted from players. While some may technically be listed below for more lenient DMs to allow, they are by no means on the same level as the rest of the included races in this section. Races that may break game balance or prove to be far too strong will be marked with the \"Optional\" tag.",
+                {
+                  "type": "inset",
+                  "name": "Universal Language",
+                  "entries": [
+                    "You may notice the complete absence of spoken or written language traits available as you read through the below races.",
+                    "Due to the One Piece world having few, if any, diverse languages spoken, even among other non-human races, it can be assumed that each humanoid creature shares a \"Common\" language in which they can all speak with individual literacy depending on the creature's intelligence."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Human",
+              "page": 10,
+              "entries": [
+                "In the world of One Piece, humans can be considered highly invasive and territorial to most other races and creatures. While there are many good-spirited humans out there, the World Government and Navy often tarnish the reputation of humans among non-humans. Due to this fact, most non-human races don't get along well with humans on average. However, there can very well be brotherhood among these races in certain circumstances, so long as compassion and friendship is shown.",
+                "{@b Conquerors.} Humans will settle in and take control of just about anywhere they can reach. The exception to this rule may be places like Fish-man Island or Zou, which are too inconvenient and out-of-reach to settle on for most human civilizations. Most of the world is conquered and ruled by humans under the World Government.",
+                "{@b Great Kingdoms.} As humans have expanded over the centuries, they have established many large cities, kingdoms, and fortresses across various islands and continents. Human culture can also be very different depending on where you look. While some human settlements can be more open-minded and accepting, other places may be far less tolerant toward outsiders and different ideas or cultures.",
+                {
+                  "type": "section",
+                  "name": "Human Traits",
+                  "page": 10,
+                  "entries": [
+                    "While many humans vary in shape and size, your human character will have these traits.",
+                    "{@b Ability Score Increase.} Your ability scores each increase by 1.",
+                    "{@b Age.} Humans reach adulthood in their teens and live for around a century.",
+                    "{@b Alignment.} There is no clear alignment that is consistent among all humans. Just about any alignment can be justified.",
+                    "{@b Size.} Humans in the One Piece World are typically 5-6 feet tall. Some can rest far outside this range, but your size will count as medium.",
+                    "{@b Speed.} Your base walking speed is 30 feet.",
+                    {
+                      "type": "entries",
+                      "name": "Human Variant Traits",
+                      "entries": [
+                        "Some humans can be noticeably different in their abilities and skills. For this reason, you may choose to instead replace the standard Human Ability Score Increase with these traits instead:",
+                        "{@b Ability Score Increase.} Two different ability scores of your choice increase by 1.",
+                        "{@b Skill.} You gain proficiency in one skill of your choice.",
+                        "{@b Feat.} You gain one Character Feat of your choice that you meet the prerequisite for in Chapter 6. You may only choose a Haki-related feat if you receive DM permission"
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "Human Giant Traits",
+                      "entries": [
+                        "Very rarely, some humans may grow to be astonishingly larger than most others in the One Piece world, sometimes even doubling the average human height and weight. If your human character happens to fall under this category, you may choose to replace the standard Human Ability Score Increase with these traits instead:",
+                        "{@b Ability Score Increase.}You increase your Strength score by 2.",
+                        "{@b Size.} Humans in the One Piece World are typically 5-6 feet tall. Some can rest far outside this range, but your size will count as medium.",
+                        "{@b Natural Athlete.} You have proficiency in the {@skill Athletics} skill.",
+                        "{@b Warrior Training.} You have proficiency with the Battleaxe, Handaxe, Light Hammer, Longsword, Club, and Spear.",
+                        "{@b Giant's Endurance.} You can focus yourself to occasionally shrug off injury. When you take damage, you can use your reaction to roll a {@dice d12}. Add your Constitution modifier to the number rolled, and reduce the damage by that total. After you use this trait, you can't use it again until you finish a short or long rest.",
+                        "{@b Powerful Build.} You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift."
+                      ]
+                    },
+                    {
+                      "type": "entries",
+                      "name": "Kuja Traits",
+                      "entries": [
+                        "If your human character is female, you may choose to take this Kuja variant subrace. If you do so, you may choose to replace the standard Human Ability Score Increase with these traits instead:",
+                        "{@b Ability Score Increase.} You increase your constitution, wisdom, or charisma score by 2.",
+                        "{@b Skill.} You gain proficiency with longbows, shortbows, shortswords, and spears.",
+                        "{@b Beginner Haki.} You can choose to take the Color of Armament Training feat if you meet the prerequisite."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "section",
+              "name": "Fishman",
+              "page": 14,
+              "entries": [
+                "Fishmen, along with Merfolk, are one of the two races of humanoids that inhabit the sea. Fishmen are a roughly equal mix of Human and Fish, with human-like appendages and faces crossed with sea creatures such as sharks, blowfish, and other fish. They also have gills between their shoulders and necks, as well as often having webbed hands. Some species of fish-men may have extra appendages depending what on what species of fish they represent.",
+                "Fishmen have both lungs and gills, which allow them to breathe underwater and on land. Their webbed fingers and agile bodies allow them to move quickly in water for as long as they want. Some fishmen use their naturally strong bodies and unique features as a reason to believe they are superior to Humans. Despite these beliefs, fish-men often end up being the ones to become enslaved and oppressed by Humans, which drives their hatred for them even further. However, not all fish-men think this way and can actually get along well with humans as equals.",
+                "{@b Hybrids.} Fishmen have the ability to interbreed with other races, much like other humanoid races. It is not impossible to find half-humna or half-giant fishmen in places such as the grand line. Furthermore, fishmen can have children with merfolk, resulting in either a fishman or merfolk child being born.",
+                "{@b Oppressed.} Like other non-human races, fish-men are the victims of world-wide oppression by humans. Due to this, many fish-men stay within the confines of fish-man island and only occasionally leave. Some evil fish-men have opted to be pirates to seek revenge against humanity. Unfortunately, several also end up as slaves under the world government. Even on islands not directly under world government jurisdiction, humans still treat fish-men very unfairly. For this reason, playing a fish-man can prove very different when visiting various human-inhabited islands around the sea.",
+                "{@b Domination.} Though they are often misunderstood, many fish-men do hold the belief that they should rule over all other fish in the sea. And due to the cruel treatment they receive from humans, some grow to also want to conquer and rule over humanity as a whole. This isn't true of all fish-men though, as many do exhibit the desire to co-exist with other races and species.",
+                "{@b Extraordinary Strength.} As well as being born with bodies that provide natural weapons in battles, such as razor-sharp teeth, fish-men have incredibly strong bodies compared to average people. From birth, fish-men are ten times stronger than humans. Additionally, fish-men can be even more troublesome in underwater combat. Being even stronger underwater, they can easily devastate a human who isn't proficient at swimming. Unfortunately, this strength can be negated if a fish-man happens to be a Devil Fruit user.",
+                {
+                  "type": "section",
+                  "name": "Fish-Man Traits",
+                  "page": 14,
+                  "entries": [
+                    "Your fish-man character will have these traits.",
+                    "{@b Ability Score Increase.} Your consitution score increases by 1.",
+                    "{@b Age.} Fish-men reach adulthood in their teens and live for around a century.",
+                    "{@b Alignment.} Most fish-men are lawful and many stay true to their values, though some lean toward being neutral. Fish-men can live in harmony with other sea creatures, but may turn violent against humans. For this reason, a fish-man can range from being good to evil.",
+                    "{@b Size.} Fish-men are between 7 and 8 feet tall and weigh between 280 and 340 pounds on average. Your size is medium.",
+                    "{@b Speed.} Your base walking speed is 30 feet, and you have a Swimming speed of 35 feet.",
+                    "{@b Amphibious.} You can breath air and water.",
+                    "{@b Underwater Athlete.} You have proficiency in the {@skill Athletics} skill. While underwater, you face no penalties or disadvantage as a result of underwater combat rules.",
+                    "{@b Adapted to the Sea.} With the ability to adapt to extreme underwater depths, you have Resistance to cold damage."
+                  ]
+                },
+                {
+                  "type": "section",
+                  "name": "Fish-Man Subraces",
+                  "page": 15,
+                  "entries": [
+                    "Some races have subraces. Members of a subrace have the traits of the parent race in addition to the traits specified for their subrace. Relationships among subraces vary significantly from race to race and world to world.",
+                    "{@b Subrace.} Breeding among fish-people resulted in three main subraces: Shark, Manta Ray, Octopus, or Smelt-Whiting variants. Choose one of these Subraces and add its traits to your racial features alongside the ones listed above.",
+                    {
+                      "type": "entries",
+                      "name": "Shark Traits",
+                      "entries": [
+                        "These fish-men are known to have sharp shark-like teeth, light blue-tinted skin, large back fins, and extreme strength.",
+                        "{@b Ability Score Increase.} Your Strength score increases by 2.",
+                        "{@b Apex Predtaor.} You have proficiency in the {@skill Intimidation} skill.",
+                        "{@b Bite.} Your razor-sharp teeth are a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to {@dice 1d6} + your Strength modifier, instead of the bludgeoning damage normal for an Unarmed Strike."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "feat": [
+    {
+      "name": "Captain",
+      "source": "D&DF-PHB",
+      "prerequisite": [
+        {
+          "other": "Proficiency in {{@skill |PHB} Intimidation} and {{@skill |PHB} Persuasion}"
+        }
+      ],
+      "entries": [
+        "As the captain of your crew, you motivate, guide, and command those who sail under you. You are typically the strongest and most charismatic individual among them, and your goal is to unite your allies to overcome any obstacle.",
+        "The captain should always have the final say in group decisions, providing leadership and direction to the crew.",
+        {
+          "type": "entries",
+          "name": "Feature: Captain's Charisma",
+          "entries": [
+            "Your authority inspires natural respect. When you give an order to a willing ally, they feel compelled to follow it unless it goes directly against their ideals or alignment. This leadership should be used with wisdom, not tyranny."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Pirate Prestige Ability: Crew Recruitment",
+          "entries": [
+            "You can spend 1 pirate prestige point to recruit a hireling or specialist for a week without pay. After the week, they demand normal payment unless another point is spent.",
+            "You cannot recruit in locations where your crew's reputation is 5 or lower."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chef",
+      "source": "D&DF-PHB",
+      "prerequisite": [
+        {
+          "other": "Proficiency in {{@skill |PHB} Sleight of Hand} and {{@skill |PHB} Survival}, and with Cook's utensils"
+        }
+      ],
+      "entries": [
+        "As the ship's chef, you ensure the crew is well-fed and motivated. Your culinary skill keeps morale high and stomachs full, even through harsh seas.",
+        {
+          "type": "entries",
+          "name": "Feature: Food Preparation",
+          "entries": [
+            "You can prepare treats during a long rest equal to your proficiency bonus. These treats last 8 hours, and a creature can eat one as a bonus action to gain temporary hit points equal to your proficiency bonus."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Pirate Prestige Ability: First-Class Feast",
+          "entries": [
+            "As part of a short rest, you can spend 1 pirate prestige point to cook a feast. Any creature that eats your food and spends Hit Dice regains an additional 1d8 hit points."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Doctor",
+      "source": "D&DF-PHB",
+      "prerequisite": [
+        {
+          "other": "Proficiency in {{@skill |PHB} Medicine},   Herbalism kit, Brewer's supplies, or Alchemist's supplies"
+        }
+      ],
+      "entries": [
+        "You are responsible for the health and safety of your crewmates, treating injuries and diseases aboard the ship.",
+        {
+          "type": "entries",
+          "name": "Feature: Advanced Treatment",
+          "entries": [
+            "When you use a healer's kit to stabilize a dying creature, it regains 1 hit point. You can also spend ฿400,000 in supplies over 1 hour to end disease, blindness, deafness, paralysis, or poison on a creature."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Pirate Prestige Ability: First Aid",
+          "entries": [
+            "You can spend 1 pirate prestige point as an action to restore 1d6 + 4 hit points to a creature, plus hit points equal to their maximum Hit Dice. They cannot benefit again until a short or long rest."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Helmsman",
+      "source": "D&DF-PHB",
+      "prerequisite": [
+        {
+          "other": "Proficiency in {{@skill |PHB} Perception}, {{@skill |PHB} Survival}, and Vehicles (water)"
+        }
+      ],
+      "entries": [
+        "You are responsible for steering and maneuvering the ship through rough waters and dangerous conditions.",
+        {
+          "type": "entries",
+          "name": "Feature: Through Thick and Thin",
+          "entries": [
+            "You add your proficiency bonus to checks made to steer the ship or avoid hazards, even if already proficient."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Pirate Prestige Ability: At the Helm",
+          "entries": [
+            "When the ship or crew is targeted by an attack or effect, you can spend 1 pirate prestige point as a reaction to grant +2 to the ship's AC and to all crew members' AC and saving throws until the start of your next turn."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lookout",
+      "source": "D&DF-PHB",
+      "prerequisite": [
+        {
+          "other": "Proficiency in {{@skill |PHB} Insight} and {{@skill |PHB} Perception}"
+        }
+      ],
+      "entries": [
+        "You are the ship's eyes, scanning the horizon for islands, ships, or danger.",
+        {
+          "type": "entries",
+          "name": "Feature: Bird's Eye View",
+          "entries": [
+            "You can treat lightly obscured conditions (fog, rain, etc.) as clear when spotting ships or landmarks ahead."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Pirate Prestige Ability: Sharp-Sighted Scout",
+          "entries": [
+            "You can spend 1 pirate prestige point to make a Perception check with advantage, or gain +5 to passive Perception for 1 minute."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Musician",
+      "source": "D&DF-PHB",
+      "prerequisite": [
+        {
+          "other": "Proficiency in {{@skill |PHB} Performance} and {{@skill |PHB} Persuasion}"
+        }
+      ],
+      "entries": [
+        "You raise the crew's spirits with music and charisma, keeping morale strong during dark times.",
+        {
+          "type": "entries",
+          "name": "Feature: Musical Talent",
+          "entries": [
+            "You can play or sing with skill, inspiring the crew and boosting morale through your performances."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Pirate Prestige Ability: Song of Legends",
+          "entries": [
+            "You can spend 1 pirate prestige point to perform a legendary song that raises the crew's reputation by 1d4 in a location. You also gain +2 to Charisma checks when speaking with locals for 1 day after the performance."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Navigator",
+      "source": "D&DF-PHB",
+      "prerequisite": [
+        {
+          "other": "Proficiency in {{@skill |PHB} Nature} and {{@skill |PHB} Survival}, Cartographer's tools, and Navigator's tools"
+        }
+      ],
+      "entries": [
+        "You chart and guide your crew's course, ensuring the ship travels safely and efficiently across dangerous waters.",
+        {
+          "type": "entries",
+          "name": "Feature: Charting and Mapping",
+          "entries": [
+            "You can create maps and assist the helmsman or captain with navigation. You gain advantage on checks to determine direction or predict weather patterns."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Pirate Prestige Ability: Storm Tracking",
+          "entries": [
+            "You can spend 1 pirate prestige point to steer clear of a dangerous storm or sea hazard entirely. Exceptionally dangerous weather may require more points."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Record-Keeper",
+      "source": "D&DF-PHB",
+      "prerequisite": [
+        {
+          "other": "Proficiency in {{@skill |PHB} History} and {{@skill |PHB} Religion}"
+        }
+      ],
+      "entries": [
+        "You chronicle the ship's history, record its adventures, and analyze lore and knowledge gathered along the journey.",
+        {
+          "type": "entries",
+          "name": "Feature: Librarian of the Sea",
+          "entries": [
+            "At the start of each session, you may recap previous events. You can add your proficiency bonus to Intelligence checks involving written or historical information."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Pirate Prestige Ability: Flash of Insight",
+          "entries": [
+            "Spend 1 pirate prestige point to uncover a major clue or insight about a puzzle, artifact, or writing, as determined by the DM."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shipwright",
+      "source": "D&DF-PHB",
+      "prerequisite": [
+        {
+          "other": "Proficiency in {{@skill |PHB} Athletics},  Carpenter's tools, and Woodcarver's tools"
+        }
+      ],
+      "entries": [
+        "You build, repair, and upgrade ships, ensuring your vessel is always ready for battle or voyage.",
+        {
+          "type": "entries",
+          "name": "Feature: Ship Building, Upgrading, and Repairing",
+          "entries": [
+            "You can reroll one failed roll during ship construction and only pay for materials, not labor. You are proficient in all ship maintenance tasks."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Pirate Prestige Ability: Defensive Coating",
+          "entries": [
+            "You can spend any number of pirate prestige points over an hour to grant the ship 10 temporary hit points per point spent. This coating lasts 7 days or until replaced."
+          ]
+        }
+      ]
+    }
+  ],
+  "race": [
+    {
+      "name": "Cyborg",
+      "source": "OnePiece",
+      "page": "21",
+      "ability": [
+        {
+          "con": 2,
+          "choose": {
+            "from": [
+              "str",
+              "dex",
+              "cha",
+              "int",
+              "wis"
+            ],
+            "count": 1
+          }
+        }
+      ],
+      "size": [
+        "M"
+      ],
+      "speed": 30,
+      "traitTags": [
+        "Amphibious",
+        "Natural Armor",
+        "Skill Proficiency",
+        "Tool Proficiency"
+      ],
+      "resist": [
+        "poison"
+      ],
+      "entries": [
+        "Your cyborg will have these traits.",
+        {
+          "type": "entries",
+          "name": "Ability Score Increase",
+          "entries": [
+            "Your Constitution score increases by 2, and one other ability score of your choice increases by 1."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Age",
+          "entries": [
+            "Depending on how much of their body has been modified, cyborgs may have longer lifespans compared to other races. In theory, they are should still remain mortal so long as parts of them still remain organic."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Alignment",
+          "entries": [
+            "It can be assumed that many cyborgs act Lawfully, but they can technically fall under any alignment."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Size",
+          "entries": [
+            "Cyborgs in the One Piece World are typically 5-6 feet tall. Some can rest far outside this range, but your size will count as medium."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Speed",
+          "entries": [
+            "Your base walking speed is 30 feet."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Steel Skin",
+          "entries": [
+            "Your body has a layer of defensive metal beneath or replacing your skin, which can be enhanced with armor:",
+            "You gain a +1 bonus to Armor Class.",
+            "To reinforce your metal skin, first you must disassemble a piece of mundane or magical armor. After doing so, you must spend an hour consistently incorporating these parts into your skin. Once you are finished, you gain the AC and bonuses of your chosen armor as if you were wearing it, as well as all of the side-effects of that armor. To remove this armor, you must spend an hour replacing it with artificial skin.",
+            "This metal skin cannot be removed from your body against your will."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Robotic Resistance",
+          "entries": [
+            "You have advantage on Saving Throws against being Poisoned, and you have Resistance to poison damage."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Refueling",
+          "entries": [
+            "In place of eating food and drinking water each day, you must instead consume an equivalent amount of fuel to what a normal creature of your size would eat. The type of fuel you use can range from cola to gasoline (your choice), which costs roughly ฿5,000. Starvation rules apply to consuming fuel as they would with food for another race."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Maintenance",
+          "entries": [
+            "Instead of sleeping each day, you instead conduct maintenance on your body during a Long Rest. This includes oiling your joints, repairing any dents or broken parts, or fixing anything else you'd need to maintain. This takes at least six hours to complete. You are able to see and hear normally while you complete these tasks."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Cyborg Upgrades",
+          "entries": [
+            "You install a weapon or tool feature of your choice listed below into your body. Each time you level up, you can choose to completely replace one of these features with another one. At 5th level, you can install and use a second upgrade feature of your choice:",
+            {
+              "type": "list",
+              "items": [
+                "Flail Arm. When you make a unarmed strike or melee weapon attack on your turn that requires your arms to use, you can choose to extend its reach for that attack by 5 feet. You can only use this once on a single melee attack per turn.",
+                "Flame Breath. You learn the {@spell Create Bonfire|PHB} cantrip, which you produce from your mouth. Constitution is your Spellcasting Ability for this Spell.",
+                "Refrigerated Stomach. You may store up to 30 pounds of gear in your body, concealed and protected by your metallic flesh. This also acts to chill and preserve any food or fuel you may want to store.",
+                "Air Blast. You learn the {@spell Thunder Clap|PHB} cantrip, which you produce from air emitted from your body. Constitution is your Spellcasting Ability for this Spell.",
+                "Propeller Body Your limbs can rotate at extreme speeds in water, acting as a boat propeller. You gain a swimming speed of 25 feet.",
+                "Centaur Form Using an action to morph your lower body into the form of a horse, your speed increases by 10 feet for one minute. Additionally, you have advantage on all Strength checks and you can allow a medium or smaller creature to use you as a mount for the duration. Once you use this feature, you cannot use it again until you complete a short or long rest.",
+                "Shape-Memory Alloy Body. You gain one skill proficiency and one tool proficiency of your choice, which you can choose to swap out each time you level up.",
+                "Arsenal Infusion. You can spend an hour incorporating a single weapon you are proficient with into your body. Upon doing so, you can use this weapon as you normally would. Additionally, this weapon cannot be taken or removed from your body against your will. You may spend an hour to remove this weapon from your body.",
+                "Night Lens. You can see in {@quickref Vision and Light||2||dim light} within 60 feet of you as if it were {@quickref Vision and Light||2||bright light}, and in Darkness as if it were {@quickref Vision and Light||2||dim light}. You can't discern color in Darkness, only Shades of Gray.",
+                "Headlights. Lights on your body emit {@quickref Vision and Light||2||bright light} in a 20-foot radius and {@quickref Vision and Light||2||dim light} for an additional 20 feet.",
+                "Extended Flail. This is an upgrade of the Flail Arm Feature, meaning you must also have that upgrade learned in order to learn and use this one as well. Your Flail Arm reach extends to 10 feet.",
+                "Flamethrower. This is an upgrade of the Flame Breath Feature, meaning you must also have that upgrade learned in order to learn and use this one as well. You learn the {@spell Burning Hands|PHB} spell cast at the 2nd-Level, which acts as a powerful spray of fire emitted from your body. Constitution is your Spellcasting Ability for this Spell. Once you use this feature, you cannot use it again until you complete a long rest.",
+                "Radical Beam. This is an upgrade of the Air Blast Feature, meaning you must also have that upgrade learned in order to learn and use this one as well. You learn the {@spell Moonbeam|PHB} spell, which acts as a powerful explosive laser beam emitted from you body. Constitution is your Spellcasting Ability for this Spell. Once you use this feature, you cannot use it again until you complete a long rest.",
+                "General Cannon. This is an upgrade of the Air Blast Feature, meaning you must also have that upgrade learned in order to learn and use this one as well. You learn the {@spell Shatter|PHB} spell, which you produce from air emitted from your body. Constitution is your Spellcasting Ability for this Spell. Once you use this feature, you cannot use it again until you complete a long rest.",
+                "Larger Propellers. This is an upgrade of the Propeller Body Feature, meaning you must also have that upgrade learned in order to learn and use this one as well. You can now spin parts of your body like a propeller to lift you into the air. You now have a flying speed of 10 feet.",
+                "General Form. This is an upgrade of the Centaur Form Feature, meaning you must also have that upgrade learned in order to learn and use this one as well. You can now transform your body into a larger robotic form until you run out of energy. You can cast the {@spell Enlarge/Reduce} spell on yourself once with this trait, using only the spell's enlarge option, appearing to transform into a larger metal version of yourself. You regain the ability to cast this spell with this trait when you finish a long rest.",
+                "Advanced Shape-Memory Alloy. This is an upgrade of the Shape-Memory Alloy Body Feature, meaning you must also have that upgrade learned in order to learn and use this one as well. You learn an additional Skill of your choice. Additionally, you learn the Shield spell. Once you use this feature, you cannot use it again until you complete a long rest.",
+                "Grand Arsenal. This is an upgrade of the Arsenal Infusion Feature, meaning you must also have that Upgrade learned in order to learn and use this one as well. You are able to implement one more weapon into your body using Arsenal Infusion."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fish-Man",
+      "source": "OnePiece",
+      "page": 15,
+      "ability": [
+        {
+          "con": 1
+        }
+      ],
+      "size": [
+        "M"
+      ],
+      "traitTags": [
+        "Amphibious",
+        "Skill Proficiency"
+      ],
+      "resist": [
+        "cold"
+      ],
+      "entries": [
+        "Your fish-man character will have these traits.",
+        {
+          "type": "entries",
+          "name": "Ability Score Increase",
+          "entries": [
+            "Your consitution score increases by 1."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Age",
+          "entries": [
+            "Fish-men reach adulthood in their teens and live for around a century."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Alignment",
+          "entries": [
+            "Most fish-men are lawful and many stay true to their values, though some lean toward being neutral. Fish-men can live in harmony with other sea creatures, but may turn violent against humans. For this reason, a fish-man can range from being good to evil."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Size",
+          "entries": [
+            "Fish-men are between 7 and 8 feet tall and weigh between 280 and 340 pounds on average. Your size is medium."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Speed",
+          "entries": [
+            "Your base walking speed is 30 feet, and you have a Swimming speed of 35 feet."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Amphibious",
+          "entries": [
+            "You can breathe air and water."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Underwater Athlete",
+          "entries": [
+            "You have proficiency in the {@skill Athletics} skill. While underwater, you face no penalties or disadvantage as a result of underwater combat rules."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Adapted to the Sea",
+          "entries": [
+            "With the ability to adapt to extreme underwater depths, you have Resistance to cold damage."
+          ]
+        }
+      ],
+      "subraces": [
+        {
+          "name": "Shark Trait",
+          "source": "OnePiece",
+          "raceName": "Fish-Man",
+          "raceSource": "OnePiece",
+          "ability": [
+            {
+              "str": 2
+            }
+          ],
+          "entries": [
+            "These fish-men are known to have sharp shark-like teeth, light blue-tinted skin, large back fins, and extreme strength.",
+            {
+              "type": "entries",
+              "name": "Ability Score Increase",
+              "entries": [
+                "Your Strength score increases by 2."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Apex Predator",
+              "entries": [
+                "Apex Predtaor You have proficiency in the {@skill Intimidation} skill."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Bite",
+              "entries": [
+                "Your razor-sharp teeth are a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to {@dice 1d6} + your Strength modifier, instead of the bludgeoning damage normal for an Unarmed Strike."
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Manta Ray Traits",
+          "source": "OnePiece",
+          "raceName": "Fish-Man",
+          "raceSource": "OnePiece",
+          "ability": [
+            {
+              "dex": 2
+            }
+          ],
+          "entries": [
+            "These fish-men are known to have wide side-fins and light-blue skin, moving at high speeds underwater.",
+            {
+              "type": "entries",
+              "name": "Ability Score Increase",
+              "entries": [
+                "Your Dexterity score increases by 2."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Underwater Acrobatics",
+              "entries": [
+                "Underwater {@skill Acrobatics} You gain proficiency in the {@skill Acrobatics} skill. You have advantage on acrobatics check made while underwater."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Sea Glide",
+              "entries": [
+                "You have a Swimming speed of 40 feet"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Octopus Traits",
+          "source": "OnePiece",
+          "raceName": "Fish-Man",
+          "raceSource": "OnePiece",
+          "traitTags": [
+            "Tool Proficiency"
+          ],
+          "ability": [
+            {
+              "dex": 1,
+              "str": 1
+            }
+          ],
+          "entries": [
+            "These fish-men are known to have wide side-fins and light-blue skin, moving at high speeds underwater.",
+            {
+              "type": "entries",
+              "name": "Ability Score Increase",
+              "entries": [
+                "Your Strength and Dexterity scores both increase by 1."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Deadly Precision",
+              "entries": [
+                "Deadly Precision You gain proficiency in one of the following: sleight of hand or an Artisan's tool of your choice."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Multi-Armed",
+              "entries": [
+                "You have four additional arms, six in total. While you cannot efficiently wield weapons with these arms, you may use them to hold smaller items such as potions and trinkets. Additionally, you have advantage on grapple checks with your arms."
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Smelt-Whiting Traits",
+          "source": "OnePiece",
+          "raceName": "Fish-Man",
+          "raceSource": "OnePiece",
+          "traitTags": [
+            "Amphibious",
+            "Skill Proficiency"
+          ],
+          "ability": [
+            {
+              "cha": 2
+            }
+          ],
+          "entries": [
+            "Smelt-whiting fish-men are known to have more dominant fish-like characteristics compared to other fish-men, and can spit water at their enemies.",
+            {
+              "type": "entries",
+              "name": "Ability Score Increase",
+              "entries": [
+                "Your Charisma score increases by 2."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Big-Mouthed",
+              "entries": [
+                "You gain proficiency in the {@skill Deception} or {@skill Persuasion} skill (your choice).",
+                "Hydro Cannon You have the natural ability to shoot concentrated blasts of water out of your mouth. You can cast {@spell ray of frost} with this trait. Starting at 3rd Level, you can cast {@spell Ice Knife|XGE} with it. Once you Cast a Spell with this trait, you can't cast that spell with it again until you finish a Long Rest. Charisma is your Spellcasting Ability for these Spells"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Merfolk",
+      "source": "OnePiece",
+      "page": 16,
+      "size": "M",
+      "ability": [
+        {
+          "cha": 1,
+          "dex": 1,
+          "wis": 1
+        }
+      ],
+      "speed": [],
+      "traitTags": [
+        "Amphibious"
+      ],
+      "languageProficiencies": [
+        {
+          "other": true
+        }
+      ],
+      "resist": [
+        "cold"
+      ],
+      "entries": [
+        "Your merfolk character will have these traits.",
+        {
+          "type": "entries",
+          "name": "Ability Score Increase",
+          "entries": [
+            "Your Dexterity, Wisdom, and Charisma scores each increase by 1."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Age",
+          "entries": [
+            "Merfolk reach adulthood in their teens, mature considerably in their 30s, and live for around a century."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Alignment",
+          "entries": [
+            "Most merfolk are neutral or lawful good. However, few may turn violent against humans and become evil. They are rarely chaotic in nature."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Size",
+          "entries": [
+            "Merfolk are between 6 and 7 feet long and weigh between 160 and 240 pounds on average. Your size is medium."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Speed",
+          "entries": [
+            "Your base walking speed is 10 feet, and you have a Swimming speed of 50 feet. Once you reach age 30 as a female, your walking speed becomes 30 feet."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Amphibious",
+          "entries": [
+            "You can breathe air and water."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Merfolk Training⁠",
+          "entries": [
+            "You have proficiency with the spear, Trident, and net."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Merfolk Combat",
+          "entries": [
+            "Being trained in underwater combat, you can control the flow of water to attack your enemies (ice and cold damage is treated as water). You can cast {@spell Ray of Frost} with this trait. Starting at 3rd Level, you can cast {@spell Ice Knife|XGE} with it, and starting at 5th Level, you can also cast {@spell Rime's Binding Ice|FTD} with it. Once you Cast a Spell with this trait, you can't cast that spell with it again until you finish a Long Rest. Charisma is your Spellcasting Ability for these Spells."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Adapted to the Sea",
+          "entries": [
+            "With the ability to adapt to extreme underwater depths, you have Resistance to cold damage."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Languages",
+          "entries": [
+            "Merfolk can all speak and understand the universal spoken language of this world. Additionally, using gestures and sounds, you can communicate simple ideas with any beast that has an innate Swimming speed."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sky Islander",
+      "source": "OnePiece",
+      "page": 17,
+      "ability": [
+        {
+          "dex": 1
+        }
+      ],
+      "speed": 30,
+      "size": "M",
+      "entries": [
+        "Your sky islander will have these traits.",
+        {
+          "type": "entries",
+          "name": "Ability Score Increase",
+          "entries": [
+            "Your Dexterity score increases by 1."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Age",
+          "entries": [
+            "Sky islanders reach adulthood in their teens and live for around a century."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Alignment",
+          "entries": [
+            "Sky islanders vary in alignment, ranging from good to evil, lawful to chaotic, but are typically neutral in some way."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Size",
+          "entries": [
+            "Sky islanders in the One Piece World are typically 5-6 feet tall. Some can rest far outside this range, but your size will count as medium."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Speed",
+          "entries": [
+            "Your base walking speed is 30 feet."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Protection of the Clouds",
+          "entries": [
+            "You are able to form fluffy floating clouds around you to reduce the speed of your fall. You gain the ability to cast {@spell Feather Fall}. Once you use this ability, you cannot use it again until you complete a Short or Long rest."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Dial Proficiency",
+          "entries": [
+            "You innately understand dials that have came from sky islands and can carry one with you. Roll once on the Simple Dial Table in Chapter 5 to determine which one you start with."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Languages",
+          "entries": [
+            "Sky islanders can all speak and understand the universal spoken language of this world."
+          ]
+        }
+      ],
+      "subraces": [
+        {
+          "name": "Shandian",
+          "source": "OnePiece",
+          "raceName": "Sky Islander",
+          "raceSource": "OnePiece",
+          "weaponProficiencies": [
+            {
+              "quarterstaff": true,
+              "halberd": true,
+              "pike": true,
+              "glaive": true,
+              "spear": true,
+              "firearms": true
+            }
+          ],
+          "ability": [
+            {
+              "str": 2
+            }
+          ],
+          "entries": [
+            "Your Shandian heritage has gifted you with great strength and combat expertise.",
+            {
+              "type": "entries",
+              "name": "Ability Score Increase",
+              "entries": [
+                "Your Strength score increases by 2."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Shandian Weapon Training",
+              "entries": [
+                "You have proficiency with the quarterstaff, halberd, pike, glaive, spear, and heavy firearms."
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Berkians",
+          "source": "OnePiece",
+          "raceName": "Sky Islander",
+          "raceSource": "OnePiece",
+          "ability": [
+            {
+              "wis": 2
+            }
+          ],
+          "entries": [
+            "Your Birkan heritage has gifted you with powerful observation and foresight through mantra.",
+            {
+              "type": "entries",
+              "name": "Ability Score Increase",
+              "entries": [
+                "Your Wisdom score increases by 2."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Mantra Specialist",
+              "entries": [
+                "You can choose to take the Color of Observation Training feat if you meet the prerequisite."
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Skypeans",
+          "source": "OnePiece",
+          "raceName": "Sky Islander",
+          "raceSource": "OnePiece",
+          "ability": [
+            {
+              "int": 2
+            }
+          ],
+          "entries": [
+            "Your Skypiean heritage has gifted you with great knowledge of dials.",
+            {
+              "type": "entries",
+              "name": "Ability Score Increase",
+              "entries": [
+                "Your Intelligence score increases by 2."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Advanced Dial Proficiency",
+              "entries": [
+                "You start with an additional Dial, allowing you to roll once more on the {@table Simple Dial|OnePiece} Table to determine what other Dial you start with. Additionally, you gain advantage on all checks made to find a dial."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mink",
+      "source": "OnePiece",
+      "page": 15,
+      "ability": [
+        {
+          "str": 1,
+          "dex": 1,
+          "wis": 1
+        }
+      ],
+      "size": "M",
+      "speed": 30,
+      "traitTags": [
+        "Natural Weapon",
+        "Skill Proficiency"
+      ],
+      "resist": [
+        "lightning"
+      ],
+      "entries": [
+        "Your mink will have these traits.",
+        {
+          "type": "entries",
+          "name": "Ability Score Increase",
+          "entries": [
+            "Your Strength, Dexterity, and Wisdom scores each increase by 1."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Age",
+          "entries": [
+            "Minks reach adulthood in their teens and live for around a century."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Alignment",
+          "entries": [
+            "Most minks are neutral or lawful good. However, few may turn chaotic and give into their primal urges if exposed to the full moon for long enough."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Size",
+          "entries": [
+            "Minks in the One Piece World are typically 5-6 feet tall. Some can rest far outside this range, but your size will count as medium."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Speed",
+          "entries": [
+            "Your base walking speed is 30 feet."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Darkvision",
+          "entries": [
+            "You have an animal's keen Senses, especially in the dark. You can see in {@quickref Vision and Light||2||dim light} within 60 feet of you as if it were {@quickref Vision and Light||2||bright light}, and in Darkness as if it were {@quickref Vision and Light||2||dim light}. You can't discern color in Darkness, only Shades of Gray."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Beast's Slash",
+          "entries": [
+            "Because of your beast-like features, you have a climbing speed of 20 feet. In addition, your body is a natural Weapon, which you can use to make unarmed strikes. You can choose to deal slashing for your unarmed strikes, and your unarmed strike damage dice becomes a minimum of {@dice 1d6}."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Animal Instinct",
+          "entries": [
+            "You have proficiency in the {@skill Perception} and {@skill Stealth} Skills."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Electro",
+          "entries": [
+            "You know the {@spell Shocking Grasp|PHB} cantrip. Wisdom is your Spellcasting Ability for this Spell. Additionally, you are Resistant to lightning damage."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Sulong Transformation",
+          "entries": [
+            "Starting at 3rd Level, you can use your action to channel moonlight energy into your body and transform into a powerful bright white primal form with longer hair and enhanced size, bolstering your strength, speed, and electro.",
+            "Your transformation lasts for 1 minute or until you end it as a Bonus Action. During it, your speed increases by 10 feet, you have advantage on strength checks, and once on each of your turns, you can deal extra electric damage to one target when you deal damage to it with an {@action Attack} or a spell. The extra electric damage equals your level.",
+            "Once you use this trait, you can't use it again until you finish a Long Rest."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Yokai Tribesman",
+      "source": "OnePiece",
+      "page": 20,
+      "ability": [
+        {
+          "cha": 1
+        }
+      ],
+      "size": "M",
+      "speed": 30,
+      "traitTags": [
+        "Skill Proficiency",
+        "Tool Proficiency"
+      ],
+      "entries": [
+        "Your yokai tribesman will have these traits.",
+        {
+          "type": "entries",
+          "name": "Ability Score Increase",
+          "entries": [
+            "Your Charisma score increases by 1."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Age",
+          "entries": [
+            "Yokai Tribesmen reach adulthood in their teens and live for around a century."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Alignment",
+          "entries": [
+            "Yokai Tribesmen display various alignments, but many are seen as evil. However, any alignment can be reasonably chosen."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Tribal Charisma",
+          "entries": [
+            "The pride of your race and features has made you unbelievably confident in conversations. You have proficiency in the {@skill Intimidation} and {@skill Persuasion} skills."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Crafty",
+          "entries": [
+            "You gain proficiency in one tool or instrument of your choice."
+          ]
+        }
+      ],
+      "subraces": [
+        {
+          "name": "Longleg Tribesman",
+          "source": "OnePiece",
+          "raceName": "Yokai Tribesman",
+          "raceSource": "OnePiece",
+          "speed": 35,
+          "ability": [
+            {
+              "dex": 2
+            }
+          ],
+          "overwrite": {
+            "speed": 35
+          },
+          "entries": [
+            "Your longleg tribesman has been gifted with magnificent long legs that grant them the following traits.",
+            {
+              "type": "entries",
+              "name": "Ability Score Increase",
+              "entries": [
+                "Your Dexterity score increases by 2."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Size",
+              "entries": [
+                "Longleg tribesmen in the One Piece World are typically 7-8 feet tall. Some can rest far outside this range, but your size will count as medium."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Speed",
+              "entries": [
+                "Your base walking speed is 35 feet."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Longleg Stride",
+              "entries": [
+                "Your massive legs allow you to move with a burst of speed. When you move on Your Turn in Combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns."
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Longarm Tribesman",
+          "source": "OnePiece",
+          "raceName": "Yokai Tribesman",
+          "raceSource": "OnePiece",
+          "ability": [
+            {
+              "str": 2
+            }
+          ],
+          "traitTags": [
+            "Powerful Build"
+          ],
+          "entries": [
+            "Your longarm tribesman has been gifted with long and lanky arms that grant immense strength and reach.",
+            {
+              "type": "entries",
+              "name": "Ability Score Increase",
+              "entries": [
+                "Your Strength score increases by 2."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Size",
+              "entries": [
+                "Longarm tribesmen in the One Piece World are typically 5-6 feet tall. Some can rest far outside this range, but your size will count as medium."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Speed",
+              "entries": [
+                "Your base walking speed is 30 feet."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Long-Limbed",
+              "entries": [
+                "When you make a melee {@action Attack} on Your Turn, your reach for it is 5 feet greater than normal."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Powerful Build",
+              "entries": [
+                "You count as one size larger when determining your carrying Capacity and the weight you can push, drag, or lift."
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Snakeneck Tribesman",
+          "source": "OnePiece",
+          "raceName": "Yokai Tribesman",
+          "raceSource": "OnePiece",
+          "ability": [
+            {
+              "int": 2
+            }
+          ],
+          "traitTags": [
+            "Skill Proficiency"
+          ],
+          "entries": [
+            {
+              "type": "entries",
+              "name": "Ability Score Increase",
+              "entries": [
+                "Your Intelligence score increases by 2."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Size",
+              "entries": [
+                "Snakeneck tribesmen in the One Piece World are typically 6-8 feet tall due to their long neck. Some can rest far outside this range, but your size will count as medium."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Speed",
+              "entries": [
+                "Your base walking speed is 30 feet."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Quick Reflexes",
+              "entries": [
+                "You can add your proficiency bonus to your initiative rolls."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Serpentine Senses",
+              "entries": [
+                "You have proficiency in the {@skill Perception} skill."
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Three-Eyed Tribesman",
+          "source": "OnePiece",
+          "raceName": "Yokai Tribesman",
+          "raceSource": "OnePiece",
+          "ability": [
+            {
+              "wis": 2
+            }
+          ],
+          "traitTags": [
+            "Blindsight"
+          ],
+          "entries": [
+            "Your three-eyed tribesman is gifted with a third eye on the center of their forehead which grants them mysterious powers.",
+            {
+              "type": "entries",
+              "name": "Ability Score Increase",
+              "entries": [
+                "Your Wisdom score increases by 2."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Size",
+              "entries": [
+                "Three-eyed tribesmen in the One Piece World are typically 5-6 feet tall. Some can rest far outside this range, but your size will count as medium."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Speed",
+              "entries": [
+                "Your base walking speed is 30 feet."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Darkvision",
+              "entries": [
+                "You can see in {@quickref Vision and Light||2||dim light} within 60 feet of you as if it were {@quickref Vision and Light||2||bright light}, and in Darkness as if it were {@quickref Vision and Light||2||dim light}. You can't discern color in Darkness, only Shades of Gray."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "All-Seeing",
+              "entries": [
+                "You have {@sense blindsight} with a range of 10 feet. Within that range, you can effectively see anything that isn't behind total cover, even if you're {@condition blinded} or in darkness."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Third Eye (Optional)",
+              "entries": [
+                "Three-eyed tribesmen can all speak and understand the universal spoken language of this world. Additionally, some can awaken their third eye to be able to read and understand the language of the Poneglyphs (up to DM discretion)."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dwarf ",
+      "source": "OnePiece",
+      "page": 23,
+      "ability": [
+        {
+          "Dex": 1
+        }
+      ],
+      "size": [
+        "T"
+      ],
+      "speed": 30,
+      "entries": [
+        "Your dwarf will have these traits",
+        {
+          "type": "entries",
+          "name": "Ability Score Increase",
+          "entries": [
+            "Your Dexterity score increases by 1."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Age",
+          "entries": [
+            "Dwarves reach adulthood in their teens and live for around a century."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Alignment",
+          "entries": [
+            "Dwarves are typically Lawful Good, though they may sometimes fall under different alignments."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Speed",
+          "entries": [
+            "Your base walking speed is 30 feet."
+          ]
+        }
+      ],
+      "subraces": [
+        {
+          "name": "Tontatta Tribe",
+          "source": "OnePiece",
+          "raceName": "Dwarf",
+          "raceSource": "OnePiece",
+          "ability": [
+            {
+              "str": 2
+            }
+          ],
+          "traitTags": [
+            "Skill Proficiency"
+          ],
+          "resist": [
+            "poison"
+          ],
+          "entries": [
+            "Your tontatta tribesman has been granted supernatural agility, strength, and mastery over cultivating plants.",
+            {
+              "type": "entries",
+              "name": "Ability Score Increase",
+              "entries": [
+                "Your Strength score increases by 2."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Size",
+              "entries": [
+                "Dwarves in the One Piece World are typically 6-12 inches tall. Your size is tiny."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Hard to Detect",
+              "entries": [
+                "Your tiny size and evasiveness gives you proficiency in the {@skill Stealth} and {@skill Acrobatics} skills.",
+                "Glass Cannon Your hit point maximum decreases by 1, and it decreases by 1 every time you gain a level."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Super Strength",
+              "entries": [
+                "You are considered medium size when calculating push, pull, drag, or carry weight. You also roll normally on grapple checks and saves."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Swift Fury",
+              "entries": [
+                "When you reach 3rd level, you can cast the {@spell Zephyr Strike|XGE} spell as a 1st-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell Kinetic Jaunt|SCC} spell once with this trait and regain the ability to do so when you finish a long rest."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Master Cultivators",
+              "entries": [
+                "Your mastery of plants and plant products grants you resistance to poison damage and immunity to the Poisoned condition."
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Automata",
+          "source": "OnePiece",
+          "raceName": "Dwarf",
+          "raceSource": "OnePiece",
+          "ability": [
+            {
+              "con": 2
+            }
+          ],
+          "traitTags": [
+            "Amphibious",
+            "Natural Armor",
+            "Skill Proficiency"
+          ],
+          "resist": [
+            "poison"
+          ],
+          "immune": [
+            "lightning"
+          ],
+          "conditionImmune": [
+            "disease"
+          ],
+          "entries": [
+            "Your automata is a race of robots that resemble dwarves and have the ability to travel through outer space and live on the moon.",
+            {
+              "type": "entries",
+              "name": "Ability Score Increase",
+              "entries": [
+                "Your Constitution score increases by 2."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Size",
+              "entries": [
+                "Automata are between 3 and 4 feet tall. Your size is small."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Programmed Minds",
+              "entries": [
+                "You are immune to abilities that allow other creatures to read your thoughts."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Robotic Resilience",
+              "entries": [
+                "You were created to have remarkable Fortitude, represented by the following benefits:",
+                "You have advantage on Saving Throws against being Poisoned, and you have Resistance to poison damage.",
+                "You don't need to eat, drink, or breathe.",
+                "You are immune to disease.",
+                "You don't need to sleep, and magic can't put you to sleep."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Militaristic Design",
+              "entries": [
+                "You gain one skill proficiency and one weapon proficiency of your choice."
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Electric-Powered",
+              "entries": [
+                "You are immune to lightning damage. Additionally, if you are hit by an ability that would deal lightning damage, your attack rolls have advantage until the end of your next turn"
+              ]
+            },
+            {
+              "type": "entries",
+              "name": "Iron Shell",
+              "entries": [
+                "Your metallic body grants you a +1 bonus to Armor Class."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lunarian",
+      "source": "OnePiece",
+      "page": 24,
+      "ability": [
+        {
+          "dex": 2,
+          "con": 1
+        }
+      ],
+      "size": "M",
+      "speed": 25,
+      "resist": [
+        "fire"
+      ],
+      "entries": [
+        "Your lunarian will have these traits",
+        {
+          "type": "entries",
+          "name": "Ability Score Increase",
+          "entries": [
+            "Your Dexterity score increases by 2, and your Constitution score increases by 1."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Age",
+          "entries": [
+            "Lunarians live for an unknown period of time, but it can be assumed that they reach adulthood in their teens and live for around a century."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Alignment",
+          "entries": [
+            "There is no clear alignment that is consistent among all lunarians. Just about any alignment can be justified."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Size",
+          "entries": [
+            "Lunarians in the One Piece World are typically very tall, perhaps between 7 and 8 feet tall and weigh between 280 and 340 pounds. Your size is Medium."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Speed",
+          "entries": [
+            "Your base walking speed is 25 feet."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Flight",
+          "entries": [
+            "You have a flying speed of 50 feet. To use this speed, you can't be wearing medium or heavy armor."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Fire Resistance",
+          "entries": [
+            "You have resistance to fire damage."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Ignite",
+          "entries": [
+            "You know the {@spell Produce Flame|PHB} cantrip. When you reach 3rd level, you can cast the {@spell Burning Hands} spell as a 2nd-level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the {@spell Flame Blade} spell once with this trait and regain the ability to do so when you finish a long rest. Constitution is your spellcasting ability for these spells."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Elbaf Giant",
+      "source": "OnePiece",
+      "page": 24,
+      "ability": [
+        {
+          "str": 4,
+          "con": 4,
+          "dex": -2,
+          "int": -3
+        }
+      ],
+      "size": "G",
+      "speed": 40,
+      "traitTags": [
+        "Skill Proficiency"
+      ],
+      "entries": [
+        "Your giant will have these traits.",
+        {
+          "type": "entries",
+          "name": "Ability Score Increase",
+          "entries": [
+            "Your Strength and Constitution scores increase by 4. Your maximum for those scores is now 24. Your Dexterity score decreases by 2, and your Intelligence score decreases by 3."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Age",
+          "entries": [
+            "Giants can live for up to 300+ years."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Alignment",
+          "entries": [
+            "It can be assumed that many giants are neutral, but they can technically fall under any alignment."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Size",
+          "entries": [
+            "Giants in the One Piece World are typically 50-60 feet tall. Some can rest far outside this range, but your size will count as gargantuan."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Speed",
+          "entries": [
+            "Your base walking speed is 40 feet."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Warrior Training",
+          "entries": [
+            "You have proficiency with the Battleaxe, Handaxe, Light Hammer, Longsword, Club, and Spear."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Sheer Size",
+          "entries": [
+            "You have proficiency in the {@skill Athletics} and {@skill Intimidation} skills."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Overwhelming Charisma",
+          "entries": [
+            "Tales of you and your race's pride have spread throughout the world. Not only are you constantly oozing confidence in these things, but you can use your words to inspire and raise the spirits of your allies. Whenever you complete a Long Rest with your party, you can choose to spend 5 minutes making an inspiring speech, granting up to 5 allied creatures of your choice gain temporary HP equal to your proficiency bonus."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "(Note:)",
+          "entries": [
+            "Once again, this race is incredibly overpowered so I wouldn't recommend using it in a balanced campaign. However, you may still choose to include this player race in your game if you so desire. Or you can decide to use it for NPC or enemy stat sheets.)"
+          ]
+        }
+      ]
+    }
+  ]
+}
