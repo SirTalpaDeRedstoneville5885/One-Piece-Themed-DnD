@@ -22,13 +22,13 @@
               "special": "A leather-bound diary"
             },
             {
-              "special": "a bottle of ink"
+              "item": "bottle of ink"
             },
             {
-              "special": "an ink pen"
+              "item": "ink pen"
             },
             {
-              "special": "a set of traveler's clothes"
+              "item": "traveler's clothes"
             },
             {
               "special": "one trinket of special significance"
@@ -239,7 +239,7 @@
       ],
       "toolProficiencies": [
         {
-          "cartographer's tools": true,
+          "cartographer's tools": true,  
           "navigator's tools": true
         }
       ],
@@ -256,13 +256,13 @@
               "special": "a miner's pick"
             },
             {
-              "special": "a set of traveler's clothes"
+              "item": "traveler's clothes"
             },
             {
-              "special": "a shovel"
+              "item": "shovel"
             },
             {
-              "special": "a two-person tent"
+              "item": "tent"
             },
             {
               "special": "a trinket recovered from a dig site"
@@ -479,7 +479,7 @@
         {
           "_": [
             {
-              "special": "A set of well-loved carpenter's tools"
+              "item": "carpenter's tools"
             },
             {
               "special": "a blank book"
@@ -488,10 +488,10 @@
               "special": "1 ounce of ink"
             },
             {
-              "special": "an ink pen"
+              "item": "ink pen"
             },
             {
-              "special": "a set of traveler's clothes"
+              "item": "traveler's clothes"
             },
             {
               "special": "a wallet with ฿100000"
@@ -1098,7 +1098,7 @@
               "special": "A set of artisan's tools (one of your choice)"
             },
             {
-              "special": "a shovel"
+              "item": "shovel"
             },
             {
               "special": "an iron pot"
@@ -1507,7 +1507,7 @@
               "special": "a lucky charm or past trophy"
             },
             {
-              "special": "a set of traveler's clothes"
+              "item": "traveler's clothes"
             },
             {
               "special": "a wallet containing ฿100000"
@@ -1728,7 +1728,7 @@
               "special": "a set of common clothes"
             },
             {
-              "special": "an herbalism kit"
+              "item": "herbalism kit"
             },
             {
               "special": "฿50000"
@@ -1943,7 +1943,7 @@
         {
           "_": [
             {
-              "special": "One set of traveler's clothes"
+              "item": "traveler's clothes"
             },
             {
               "special": "a signet"
@@ -2366,7 +2366,7 @@
               "special": "a folded flag emblazoned with the symbol of the marines"
             },
             {
-              "special": "a set of traveler's clothes"
+              "item": "traveler's clothes"
             },
             {
               "special": "a wallet containing ฿100000"
@@ -3074,7 +3074,7 @@
               "special": "A belaying pin (club)"
             },
             {
-              "special": "rope (50 feet)"
+              "item": "rope"
             },
             {
               "special": "a lucky charm"
@@ -3665,7 +3665,7 @@
               "special": "an ancient artifact found in a sunken ship"
             },
             {
-              "special": "a set of traveler's clothes"
+              "item": "traveler's clothes"
             },
             {
               "special": "a wallet containing ฿150000"
@@ -4025,7 +4025,7 @@
               "special": "a trophy from an animal you killed"
             },
             {
-              "special": "a set of traveler's clothes"
+              "item": "traveler's clothes"
             },
             {
               "special": "฿100000 worth of gems and ores"
@@ -4195,7 +4195,7 @@
         {
           "_": [
             {
-              "special": "A crowbar"
+              "item": "crowbar"
             },
             {
               "special": "a set of dark common clothes including a hood"
@@ -4397,10 +4397,10 @@
         }
       ],
       "toolProficiencies": [
-            {
-              "anyArtisansTool": 2
-            }
-          ],
+        {
+          "anyArtisansTool": 2
+        }
+      ],
       "startingEquipment": [
         {
           "_": [
@@ -4568,6 +4568,6 @@
           ]
         }
       ]
-    }    
+    }
   ]
 }
