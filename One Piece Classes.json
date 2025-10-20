@@ -13,7 +13,7 @@
                "Tarun",
                "SirTalpadeRedstoneville58"
             ],
-            "version":"2.1.0",
+            "version":"2.1.1",
             "color":"33FFCA",
             "url":"https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm"
          }
@@ -83,10 +83,10 @@
             "weapons":[
                "Simple",
                "Improvised Weapon",
-               "Cutlasses"
+               "cutlasses"
             ],
             "tools":[
-               "None"
+               "none"
             ],
             "skills":[
                {
@@ -108,8 +108,8 @@
          "startingEquipment":{
             "default":[
                "(a) a cutlass or (b) any simple weapon",
-               "(a) a pirate’s pack or (b) an explorer’s pack",
-               "(a) a set of artisan’s tools or (b) a gaming set"
+               "(a) a pirate's pack or (b) an explorer's pack",
+               "(a) a set of artisan's tools or (b) a gaming set"
             ],
             "additionalFromBackground":true,
             "defaultData":[
@@ -124,17 +124,17 @@
                {
                   "a":[
                      {
-                        "item":"pirate’s pack|phb",
+                        "item":"pirate's pack|phb",
                         "quantity":2
                      }
                   ],
                   "b":[
-                     "explorer’s pack|phb"
+                     "explorer's pack|phb"
                   ]
                },
                {
                   "a":[
-                     "artisan’s tools|phb"
+                     "artisan's tools|phb"
                   ],
                   "b":[
                      "gaming set|phb"
@@ -2005,7 +2005,7 @@
             "additionalFromBackground":true,
             "default":[
                "(a) a {@item shortsword|phb} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
-               "(a) a pirate’s pack or (b) an {@item explorer's pack|phb}",
+               "(a) a pirate's pack or (b) an {@item explorer's pack|phb}",
                "10 {@item dart|phb|darts} or 2 {@item dagger|phb|daggers}"
             ],
             "defaultData":[
@@ -2463,10 +2463,6 @@
                "gainSubclassFeature":true
             },
             {
-               "classFeature":"Divine Domain|Priest|D&DF-PHB|1",
-               "gainSubclassFeature":true
-            },
-            {
                "classFeature":"Divine Domain|Priest|D&DF-PHB|2",
                "gainSubclassFeature":true
             },
@@ -2505,26 +2501,7 @@
             }
          ],
          "cantripProgression":[
-            3,
-            3,
-            3,
-            4,
-            4,
-            4,
-            4,
-            4,
-            4,
-            5,
-            5,
-            5,
-            5,
-            5,
-            5,
-            5,
-            5,
-            5,
-            5,
-            5
+            3,3,3,4,4,4,4,4,4,5,5,5,5,5,5,5,5,5,5,5
          ],
          "hd":{
             "number":1,
@@ -2544,7 +2521,7 @@
                "Simple"
             ],
             "tools":[
-               "None"
+               "none"
             ],
             "skills":[
                {
@@ -2591,10 +2568,10 @@
                      "scale mail|phb"
                   ],
                   "b":[               
-                     "Chain mail|phb"
+                     "Thick shirt|D&DF-PHB"
                   ],
                   "c":[
-                     "Thick shirt|D&DF-PHB"
+                     "Chain mail|phb"
                   ]
                },
                {                  
@@ -2871,7 +2848,7 @@
                   ]
                ]
             }
-   ]
+         ]
       }
    ],
    "classFeature":[
@@ -5770,7 +5747,7 @@
    "level": 2,
    "header": 2,
    "entries": [
-      "Starting at 2nd Level, the Priest can use Channel Divinity to destroy another creature’s life force by touch. When the Priest hits a creature with a melee Attack, the Priest can use Channel Divinity to deal extra necrotic damage to the target. The damage equals 5 + twice his or her Priest level."
+      "Starting at 2nd Level, the Priest can use Channel Divinity to destroy another creature's life force by touch. When the Priest hits a creature with a melee Attack, the Priest can use Channel Divinity to deal extra necrotic damage to the target. The damage equals 5 + twice his or her Priest level."
    ]
 },
 {
@@ -5784,7 +5761,7 @@
    "level": 6,
    "header": 2,
    "entries": [
-      "Starting at 6th level, the priest’s ability to channel negative energy becomes more potent. Necrotic damage dealt by the character’s Priest Holy Powers and Channel Divinity options ignores Resistance to necrotic damage."
+      "Starting at 6th level, the priest's ability to channel negative energy becomes more potent. Necrotic damage dealt by the character's Priest Holy Powers and Channel Divinity options ignores Resistance to necrotic damage."
    ]
 },
 {
@@ -5798,7 +5775,7 @@
    "level": 8,
    "header": 2,
    "entries": [
-      "At 8th level, the Priest gains the ability to infuse his or her weapon strikes with necrotic energy. Once on each of the priest’s turns when he or she hits a creature with a weapon Attack, the Priest can cause the Attack to deal an extra 1d8 necrotic damage to the target. When the Priest reaches 14th level, the extra damage increases to 2d8."
+      "At 8th level, the Priest gains the ability to infuse his or her weapon strikes with necrotic energy. Once on each of the priest's turns when he or she hits a creature with a weapon Attack, the Priest can cause the Attack to deal an extra 1d8 necrotic damage to the target. When the Priest reaches 14th level, the extra damage increases to 2d8."
    ]
 },
 {
@@ -5915,7 +5892,7 @@
    "level": 1,
    "header": 2,
    "entries": [
-      "Also at 1st level, you can whirl up a sandstorm between yourself and an attacking enemy. When you are attacked by a creature within 30 feet of you that you can see, you can use your Reaction to impose disadvantage on the Attack roll, causing sand to momentarily blind the attacker before it hits or misses. An attacker that can’t be Blinded is immune to this feature.",
+      "Also at 1st level, you can whirl up a sandstorm between yourself and an attacking enemy. When you are attacked by a creature within 30 feet of you that you can see, you can use your Reaction to impose disadvantage on the Attack roll, causing sand to momentarily blind the attacker before it hits or misses. An attacker that can't be Blinded is immune to this feature.",
       "You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a Long Rest."
    ]
 },
@@ -5929,18 +5906,7 @@
    "subclassSource": "D&DF-PHB",  
   "level": 1,
   "entries": [
-    "When you choose this domain at 1st level, you gain the {@spell light|PHB} cantrip if you don’t already know it."
-  ],
-  "additionalSpells": [
-    {
-      "known": {
-        "1": [
-          {
-            "will": ["light"]
-          }
-        ]
-      }
-    }
+    "When you choose this domain at 1st level, you gain the {@spell light|PHB} cantrip if you don't already know it."
   ]
 },
 {
