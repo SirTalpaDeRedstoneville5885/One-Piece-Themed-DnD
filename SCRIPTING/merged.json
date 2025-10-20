@@ -832,7 +832,7 @@
       "source": "D&DF-PHB",
       "prerequisite": [
         {
-          "other": "Proficiency in {{@skill |PHB} Intimidation} and {{@skill |PHB} Persuasion}"
+          "other": "Proficiency in {{@skill |PHB |Intimidation} and {{@skill |PHB} Persuasion}"
         }
       ],
       "entries": [
