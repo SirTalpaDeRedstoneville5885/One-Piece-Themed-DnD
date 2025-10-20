@@ -12,7 +12,7 @@
           "Tarun",
           "SirTalpadeRedstoneville58"
         ],
-        "version": "2.0.2",
+        "version": "2.0.3",
         "color": "33FFCA",
         "url": "https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm"
       }
@@ -832,7 +832,7 @@
       "source": "D&DF-PHB",
       "prerequisite": [
         {
-          "other": "Proficiency in {@skill Intimidation|PHB} and {{@skill |PHB} Persuasion}"
+          "other": "Proficiency in {@skill Intimidation|PHB} and {@skill Persuasion|PHB}"
         }
       ],
       "entries": [
@@ -860,7 +860,7 @@
       "source": "D&DF-PHB",
       "prerequisite": [
         {
-          "other": "Proficiency in {{@skill |PHB} Sleight of Hand} and {{@skill |PHB} Survival}, and with Cook's utensils"
+          "other": "Proficiency in {@skill Sleight of Hand|PHB} and {@skill Survival|PHB}, and with Cook's utensils"
         }
       ],
       "entries": [
@@ -886,7 +886,7 @@
       "source": "D&DF-PHB",
       "prerequisite": [
         {
-          "other": "Proficiency in {{@skill |PHB} Medicine},   Herbalism kit, Brewer's supplies, or Alchemist's supplies"
+          "other": "Proficiency in {@skill Medicine|PHB},   Herbalism kit, Brewer's supplies, or Alchemist's supplies"
         }
       ],
       "entries": [
@@ -912,7 +912,7 @@
       "source": "D&DF-PHB",
       "prerequisite": [
         {
-          "other": "Proficiency in {{@skill |PHB} Perception}, {{@skill |PHB} Survival}, and Vehicles (water)"
+          "other": "Proficiency in {@skill Perception|PHB}, {@skill Survival|PHB}, and Vehicles (water)"
         }
       ],
       "entries": [
@@ -938,7 +938,7 @@
       "source": "D&DF-PHB",
       "prerequisite": [
         {
-          "other": "Proficiency in {{@skill |PHB} Insight} and {{@skill |PHB} Perception}"
+          "other": "Proficiency in {@skill Insight|PHB} and {@skill Perception|PHB}"
         }
       ],
       "entries": [
@@ -964,7 +964,7 @@
       "source": "D&DF-PHB",
       "prerequisite": [
         {
-          "other": "Proficiency in {{@skill |PHB} Performance} and {{@skill |PHB} Persuasion}"
+          "other": "Proficiency in {@skill Performance|PHB} and {@skill Persuasion|PHB}"
         }
       ],
       "entries": [
@@ -990,7 +990,7 @@
       "source": "D&DF-PHB",
       "prerequisite": [
         {
-          "other": "Proficiency in {{@skill |PHB} Nature} and {{@skill |PHB} Survival}, Cartographer's tools, and Navigator's tools"
+          "other": "Proficiency in {@skill Nature|PHB} and {@skill Survival|PHB}, Cartographer's tools, and Navigator's tools"
         }
       ],
       "entries": [
@@ -1016,7 +1016,7 @@
       "source": "D&DF-PHB",
       "prerequisite": [
         {
-          "other": "Proficiency in {{@skill |PHB| History} and {{@skill |PHB} Religion}"
+          "other": "Proficiency in {@skill History|PHB| } and {@skill Religion|PHB}"
         }
       ],
       "entries": [
@@ -1042,7 +1042,7 @@
       "source": "D&DF-PHB",
       "prerequisite": [
         {
-          "other": "Proficiency in {{@skill |PHB} Athletics},  Carpenter's tools, and Woodcarver's tools"
+          "other": "Proficiency in {@skill Athletics|PHB},  Carpenter's tools, and Woodcarver's tools"
         }
       ],
       "entries": [
