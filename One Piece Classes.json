@@ -13,7 +13,7 @@
                "Tarun",
                "SirTalpadeRedstoneville58"
             ],
-            "version":"2.1.2",
+            "version":"2.1.5",
             "color":"33FFCA",
             "url":"https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm"
          }
@@ -2462,31 +2462,15 @@
                "classFeature":"Divine Domain|Priest|D&DF-PHB|1",
                "gainSubclassFeature":true
             },
-            {
-               "classFeature":"Divine Domain|Priest|D&DF-PHB|2",
-               "gainSubclassFeature":true
-            },
             "Destroy Undead|Priest|D&DF-PHB|5",
-            "Ability Score Improvement|Priest|D&DF-PHB|4",
-            {
-               "classFeature":"Domain feature|Priest|D&DF-PHB|6",
-               "gainSubclassFeature":true
-            },
+            "Ability Score Improvement|Priest|D&DF-PHB|4",         
             "Blessed Strikes|Priest|D&DF-PHB|8",
             "Destroy Undead|Priest|D&DF-PHB|8",
             "Ability Score Improvement|Priest|D&DF-PHB|8",
-            {
-               "classFeature":"Domain Feature|Priest|D&DF-PHB|8",
-               "gainSubclassFeature":true
-            },
             "A Call Beyond|Priest|D&DF-PHB|10",
             "Destroy Undead|Priest|D&DF-PHB|11",
             "Ability Score Improvement|Priest|D&DF-PHB|12",
             "Ability Score Improvement|Priest|D&DF-PHB|16",
-            {
-               "classFeature":"Domain Feature|Priest|D&DF-PHB|17",
-               "gainSubclassFeature":true
-            },
             "Destroy Undead|Priest|D&DF-PHB|14",
             "Destroy Undead|Priest|D&DF-PHB|17",
             "Ability Score Improvement|Priest|D&DF-PHB|19",
@@ -2627,48 +2611,16 @@
                ],
                "rows":[
                   [
-                     "2",
-                     "-",
-                     "-",
-                     "-",
-                     "-",
-                     "-",
-                     "-",
-                     "-",
-                     "-"
+                     "2","-","-","-","-","-","-","-","-"
                   ],
                   [
-                     "3",
-                     "-",
-                     "-",
-                     "-",
-                     "-",
-                     "-",
-                     "-",
-                     "-",
-                     "-"
+                     "3","-","-","-","-","-","-","-","-"
                   ],
                   [
-                     "4",
-                     "2",
-                     "-",
-                     "-",
-                     "-",
-                     "-",
-                     "-",
-                     "-",
-                     "-"
+                     "4","2", "-", "-", "-", "-", "-", "-", "-"
                   ],
                   [
-                     "4",
-                     "3",
-                     "-",
-                     "-",
-                     "-",
-                     "-",
-                     "-",
-                     "-",
-                     "-"
+                     "4","3","-","-","-","-","-","-","-"
                   ],
                   [
                      "4",
@@ -5889,7 +5841,7 @@
    "page": 78,
    "subclassShortName": "Desert Domain",
    "subclassSource": "D&DF-PHB",
-   "level": 18,
+   "level": 8,
    "header": 2,
    "entries": [
       "Starting at 8th level, you add fire or radiant damage equal to your Wisdom modifier to the damage you deal with any priest cantrip."
@@ -5911,13 +5863,13 @@
    ]
 },
 {
-  "name": "Bonus Cantrip",
-   "source": "D&DF-PHB",
-   "className": "Priest",
-   "classSource": "D&DF-PHB",
-   "page": 78,
-   "subclassShortName": "Desert Domain",
-   "subclassSource": "D&DF-PHB",  
+  "name": "Bonus Natural Ability (Cantrip)",
+  "source": "D&DF-PHB",
+  "className": "Priest",
+  "classSource": "D&DF-PHB",
+  "page": 78,
+  "subclassShortName": "Desert Domain",
+  "subclassSource": "D&DF-PHB",
   "level": 1,
   "entries": [
     "When you choose this domain at 1st level, you gain the {@spell light|PHB} cantrip if you don't already know it."
