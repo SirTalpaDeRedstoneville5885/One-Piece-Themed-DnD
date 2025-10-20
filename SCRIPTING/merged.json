@@ -3,7 +3,7 @@
     "sources": [
       {
         "json": "D&DFPHB",
-        "abbreviation": "D&DFPHB",
+        "abbreviation": "D&DF-PHB",
         "full": "One Piece Dungeons and Devil Fruits Player Handbook",
         "authors": [
           "OneWorldHD"
@@ -12,8 +12,8 @@
           "Tarun",
           "SirTalpadeRedstoneville58"
         ],
-        "version": "2.0.3",
-        "color": "33FFCA",
+        "version": "2.0.4",
+        "color": "0B3075",
         "url": "https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm"
       }
     ],
@@ -1067,7 +1067,7 @@
   "race": [
     {
       "name": "Cyborg",
-      "source": "OnePiece",
+      "source": "D&DF-PHB",
       "page": "21",
       "ability": [
         {
@@ -1199,7 +1199,7 @@
     },
     {
       "name": "Fish-Man",
-      "source": "OnePiece",
+      "source": "D&DF-PHB",
       "page": 15,
       "ability": [
         {
@@ -1278,9 +1278,9 @@
       "subraces": [
         {
           "name": "Shark Trait",
-          "source": "OnePiece",
+          "source": "D&DF-PHB",
           "raceName": "Fish-Man",
-          "raceSource": "OnePiece",
+          "raceSource": "D&DF-PHB",
           "ability": [
             {
               "str": 2
@@ -1313,9 +1313,9 @@
         },
         {
           "name": "Manta Ray Traits",
-          "source": "OnePiece",
+          "source": "D&DF-PHB",
           "raceName": "Fish-Man",
-          "raceSource": "OnePiece",
+          "raceSource": "D&DF-PHB",
           "ability": [
             {
               "dex": 2
@@ -1348,9 +1348,9 @@
         },
         {
           "name": "Octopus Traits",
-          "source": "OnePiece",
+          "source": "D&DF-PHB",
           "raceName": "Fish-Man",
-          "raceSource": "OnePiece",
+          "raceSource": "D&DF-PHB",
           "traitTags": [
             "Tool Proficiency"
           ],
@@ -1387,9 +1387,9 @@
         },
         {
           "name": "Smelt-Whiting Traits",
-          "source": "OnePiece",
+          "source": "D&DF-PHB",
           "raceName": "Fish-Man",
-          "raceSource": "OnePiece",
+          "raceSource": "D&DF-PHB",
           "traitTags": [
             "Amphibious",
             "Skill Proficiency"
@@ -1422,7 +1422,7 @@
     },
     {
       "name": "Merfolk",
-      "source": "OnePiece",
+      "source": "D&DF-PHB",
       "page": 16,
       "size": "M",
       "ability": [
@@ -1520,7 +1520,7 @@
     },
     {
       "name": "Sky Islander",
-      "source": "OnePiece",
+      "source": "D&DF-PHB",
       "page": 17,
       "ability": [
         {
@@ -1591,9 +1591,9 @@
       "subraces": [
         {
           "name": "Shandian",
-          "source": "OnePiece",
+          "source": "D&DF-PHB",
           "raceName": "Sky Islander",
-          "raceSource": "OnePiece",
+          "raceSource": "D&DF-PHB",
           "weaponProficiencies": [
             {
               "quarterstaff": true,
@@ -1629,9 +1629,9 @@
         },
         {
           "name": "Berkians",
-          "source": "OnePiece",
+          "source": "D&DF-PHB",
           "raceName": "Sky Islander",
-          "raceSource": "OnePiece",
+          "raceSource": "D&DF-PHB",
           "ability": [
             {
               "wis": 2
@@ -1657,9 +1657,9 @@
         },
         {
           "name": "Skypeans",
-          "source": "OnePiece",
+          "source": "D&DF-PHB",
           "raceName": "Sky Islander",
-          "raceSource": "OnePiece",
+          "raceSource": "D&DF-PHB",
           "ability": [
             {
               "int": 2
@@ -1678,7 +1678,7 @@
               "type": "entries",
               "name": "Advanced Dial Proficiency",
               "entries": [
-                "You start with an additional Dial, allowing you to roll once more on the {@table Simple Dial|OnePiece} Table to determine what other Dial you start with. Additionally, you gain advantage on all checks made to find a dial."
+                "You start with an additional Dial, allowing you to roll once more on the {@table Simple Dial|D&DF-PHB} Table to determine what other Dial you start with. Additionally, you gain advantage on all checks made to find a dial."
               ]
             }
           ]
@@ -1687,7 +1687,7 @@
     },
     {
       "name": "Mink",
-      "source": "OnePiece",
+      "source": "D&DF-PHB",
       "page": 15,
       "ability": [
         {
@@ -1783,7 +1783,7 @@
     },
     {
       "name": "Yokai Tribesman",
-      "source": "OnePiece",
+      "source": "D&DF-PHB",
       "page": 20,
       "ability": [
         {
@@ -1837,9 +1837,9 @@
       "subraces": [
         {
           "name": "Longleg Tribesman",
-          "source": "OnePiece",
+          "source": "D&DF-PHB",
           "raceName": "Yokai Tribesman",
-          "raceSource": "OnePiece",
+          "raceSource": "D&DF-PHB",
           "speed": 35,
           "ability": [
             {
@@ -1883,9 +1883,9 @@
         },
         {
           "name": "Longarm Tribesman",
-          "source": "OnePiece",
+          "source": "D&DF-PHB",
           "raceName": "Yokai Tribesman",
-          "raceSource": "OnePiece",
+          "raceSource": "D&DF-PHB",
           "ability": [
             {
               "str": 2
@@ -1935,9 +1935,9 @@
         },
         {
           "name": "Snakeneck Tribesman",
-          "source": "OnePiece",
+          "source": "D&DF-PHB",
           "raceName": "Yokai Tribesman",
-          "raceSource": "OnePiece",
+          "raceSource": "D&DF-PHB",
           "ability": [
             {
               "int": 2
@@ -1986,9 +1986,9 @@
         },
         {
           "name": "Three-Eyed Tribesman",
-          "source": "OnePiece",
+          "source": "D&DF-PHB",
           "raceName": "Yokai Tribesman",
-          "raceSource": "OnePiece",
+          "raceSource": "D&DF-PHB",
           "ability": [
             {
               "wis": 2
@@ -2047,7 +2047,7 @@
     },
     {
       "name": "Dwarf ",
-      "source": "OnePiece",
+      "source": "D&DF-PHB",
       "page": 23,
       "ability": [
         {
@@ -2092,9 +2092,9 @@
       "subraces": [
         {
           "name": "Tontatta Tribe",
-          "source": "OnePiece",
+          "source": "D&DF-PHB",
           "raceName": "Dwarf",
-          "raceSource": "OnePiece",
+          "raceSource": "D&DF-PHB",
           "ability": [
             {
               "str": 2
@@ -2155,9 +2155,9 @@
         },
         {
           "name": "Automata",
-          "source": "OnePiece",
+          "source": "D&DF-PHB",
           "raceName": "Dwarf",
-          "raceSource": "OnePiece",
+          "raceSource": "D&DF-PHB",
           "ability": [
             {
               "con": 2
@@ -2238,7 +2238,7 @@
     },
     {
       "name": "Lunarian",
-      "source": "OnePiece",
+      "source": "D&DF-PHB",
       "page": 24,
       "ability": [
         {
@@ -2313,7 +2313,7 @@
     },
     {
       "name": "Elbaf Giant",
-      "source": "OnePiece",
+      "source": "D&DF-PHB",
       "page": 24,
       "ability": [
         {
