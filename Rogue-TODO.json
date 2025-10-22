@@ -1,0 +1,945 @@
+
+{
+   "_meta":{
+      "sources":[
+         {
+            "json":"assRogue-D&DF-PHB",
+            "abbreviation":"assRogue-D&DF-PHB",
+            "full":"One Piece Rogue",
+            "authors":[
+               "OneWorldHD"
+            ],
+            "convertedBy":[
+               "Tarun",
+               "SirTalpadeRedstoneville58"
+            ],
+            "version":"2.1.5",
+            "color":"33FFCA",
+            "url":"https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm"
+         }
+      ],
+      "dateAdded":1707934751,
+      "dateLastModified":1707934751,
+      "edition": "classic"
+   },   
+   "class": [ 
+      {
+   "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+         "name":"Rogue",
+         "source":"assRogue-D&DF-PHB",
+         "classFeatures": [
+         	"Expertise|Rogue|assRogue-D&DF-PHB|1",
+         	"Sneak Attack|Rogue|assRogue-D&DF-PHB|1",
+         	"Thieves' Cant|Rogue|assRogue-D&DF-PHB|1",
+         	"Cunning Action|Rogue|assRogue-D&DF-PHB|2",
+         	{
+         		"classFeature": "Roguish Archetype|Rogue|assRogue-D&DF-PHB|3",
+         		"gainSubclassFeature": true
+         	},
+         	"Steady Aim|Rogue|assRogue-D&DF-PHB|3|TCE",
+         	"Ability Score Improvement|Rogue|assRogue-D&DF-PHB|4",
+         	"Uncanny Dodge|Rogue|assRogue-D&DF-PHB|5",
+         	"Expertise|Rogue|assRogue-D&DF-PHB|6",
+         	"Evasion|Rogue|assRogue-D&DF-PHB|7",
+         	"Ability Score Improvement|Rogue|assRogue-D&DF-PHB|8",
+         	{
+         		"classFeature": "Roguish Archetype feature|Rogue|assRogue-D&DF-PHB|9",
+         		"gainSubclassFeature": true
+         	},
+         	"Ability Score Improvement|Rogue|assRogue-D&DF-PHB|10",
+         	"Reliable Talent|Rogue|assRogue-D&DF-PHB|11",
+         	"Ability Score Improvement|Rogue|assRogue-D&DF-PHB|12",
+         	{
+         		"classFeature": "Roguish Archetype feature|Rogue|assRogue-D&DF-PHB|13",
+         		"gainSubclassFeature": true
+         	},
+         	"Power of Observation|Rogue|assRogue-D&DF-PHB|14",
+         	"Slippery Mind|Rogue|assRogue-D&DF-PHB|15",
+         	"Ability Score Improvement|Rogue|assRogue-D&DF-PHB|16",
+         	{
+         		"classFeature": "Roguish Archetype feature|Rogue|assRogue-D&DF-PHB|17",
+         		"gainSubclassFeature": true
+         	},
+         	"Elusive|Rogue|assRogue-D&DF-PHB|18",
+         	"Ability Score Improvement|Rogue|assRogue-D&DF-PHB|19",
+         	"Stroke of Luck|Rogue|assRogue-D&DF-PHB|20"
+         ],
+         "hd":{
+            "number":1,
+            "faces":8
+         },
+         "proficiency":[
+            "dex",
+            "cha"
+         ],
+         "startingProficiencies": {
+         	"armor": [
+         		"light"
+         	],
+         	"weapons": [
+         		"simple",
+         		"{@item pistol|dmg|pistols}",
+         		"{@item longsword|phb|longswords}",
+         		"{@item rapier|phb|rapiers}",
+         		"{@item shortsword|phb|shortswords}"
+         	],
+         	"tools": [
+         		"{@item thieves' tools|PHB}"
+         	],
+         	"toolProficiencies": [
+         		{
+                  "thieves' tools": true
+         		}
+         	],
+            "skills":[
+               {
+                  "choose":{
+                     "from":[
+                        "acrobatics",
+                        "athletics",
+                        "deception",
+                        "insight",
+                        "intimidation",
+                        "investigation",
+                        "perception",
+                        "performance",
+                        "persuasion",
+                        "sleight of hand",
+                        "stealth"
+                     ],
+                     "count":4
+                  }
+               }
+            ]
+         },
+         "startingEquipment": {
+         	"additionalFromBackground": true,
+         	"default": [
+         		"(a) a {@item rapier|phb} or (b) a {@item shortsword|phb}",
+         		"(a) a {@item musket|dmg} and 20 {@item bullets|dmg} of {@item arrows (20)|phb|20 arrows} or (b) a {@item shortsword|phb}",
+         		"(a) a {@item burglar's pack|phb}, (b) a {@item dungeoneer's pack|phb}, or (c) an {@item explorer's pack|phb}",
+         		"{@item Leather armor|phb}, two {@item dagger|phb|daggers}, and {@item thieves' tools|phb}"
+         	],
+         	"goldAlternative": "{@dice 4d4 × 10|4d4 × 10|Starting Gold}",
+         	"defaultData": [
+         		{
+                  "a": [
+                  	"rapier|phb"
+                  ],
+                  "b": [
+                  	"shortsword|phb"
+                  ]
+         		},
+         		{
+                  "a": [
+                  	"musket|phb",
+                  	"bullets (20)|dmg"
+                  ],
+                  "b": [
+                  	"pistol|phb",
+                  	"bullets (20)|dmg"
+                  ]
+         		},
+         		{
+                  "a": [
+                  	"burglar's pack|phb"
+                  ],
+                  "b": [
+                  	"dungeoneer's pack|phb"
+                  ],
+                  "c": [
+                  	"explorer's pack|phb"
+                  ]
+         		},
+         		{
+                  "_": [
+                  	"thick shirt|D&DF-pHB",
+                  	{
+                  		"item": "dagger|phb",
+                  		"quantity": 2
+                  	},
+                  	"thieves' tools|phb"
+                  ]
+         		}
+         	]
+         },
+         "multiclassing": {
+         	"requirements": {
+         		"dex": 13
+         	},
+         	"proficienciesGained": {
+         		"armor": [
+                  "light"
+         		],
+         		"skills": [
+                  {
+                  	"choose": {
+                  		"from": [
+                           "acrobatics",
+                           "athletics",
+                           "deception",
+                           "insight",
+                           "intimidation",
+                           "investigation",
+                           "perception",
+                           "performance",
+                           "persuasion",
+                           "sleight of hand",
+                           "stealth"
+                  		],
+                  		"count": 1
+                  	}
+                  }
+         		],
+         		"tools": [
+                  "{@item thieves' tools|PHB}"
+         		],
+         		"toolProficiencies": [
+                  {
+                  	"thieves' tools": true
+                  }
+         		]
+         	}
+         }
+      }
+  ],
+  "classFeature": [
+		{
+         "name": "Expertise",
+         "source": "assRogue-D&DF-PHB",
+         "page": 94,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 1,
+         "entries": [
+         	"At 1st level, choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with {@item thieves' tools|phb}. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.",
+         	"At 6th level, you can choose two more of your proficiencies (in skills or with {@item thieves' tools|phb}) to gain this benefit."
+         ]
+		},
+		{
+         "name": "Sneak Attack",
+         "source": "assRogue-D&DF-PHB",
+         "page": 94,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 1,
+         "entries": [
+         	"Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra {@damage 1d6} damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.",
+         	"You don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't {@condition incapacitated}, and you don't have disadvantage on the attack roll.",
+         	"The amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the Rogue table."
+         ]
+		},
+		{
+         "name": "Thieves' Cant",
+         "source": "assRogue-D&DF-PHB",
+         "page": 94,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 1,
+         "entries": [
+         	"During your rogue training you learned thieves' cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creature that knows thieves' cant understands such messages. It takes four times longer to convey such a message than it does to speak the same idea plainly.",
+         	"In addition, you understand a set of secret signs and symbols used to convey short, simple messages, such as whether an area is dangerous or the territory of a thieves' guild, whether loot is nearby, or whether the people in an area are easy marks or will provide a safe house for thieves on the run."
+         ]
+		},
+		{
+         "name": "Cunning Action",
+         "source": "assRogue-D&DF-PHB",
+         "page": 94,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 2,
+         "entries": [
+         	"Starting at 2nd level, your quick thinking and agility allow you to move and act quickly. You can take a bonus action on each of your turns in combat. This action can be used only to take the {@action Dash}, {@action Disengage}, or {@action Hide} action."
+         ]
+		},
+		{
+         "name": "Roguish Archetype",
+         "source": "assRogue-D&DF-PHB",
+         "page": 94,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 3,
+         "entries": [
+         	"At 3rd level, you choose an archetype that you emulate in the exercise of your rogue abilities from the list of available archetypes. Your archetype choice grants you features at 3rd level and then again at 9th, 13th, and 17th level."
+         ]
+		},
+		{
+         "name": "Steady Aim",
+         "source": "TCE",
+         "page": 62,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 3,
+         "isClassFeatureVariant": true,
+         "entries": [
+         	"{@i 3rd-level rogue {@variantrule optional class features|tce|optional feature}}",
+         	"As a bonus action, you give yourself advantage on your next attack roll on the current turn. You can use this bonus action only if you haven't moved during this turn, and after you use the bonus action, your speed is 0 until the end of the current turn."
+         ]
+		},
+		{
+         "name": "Ability Score Improvement",
+         "source": "assRogue-D&DF-PHB",
+         "page": 94,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 4,
+         "entries": [
+         	"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+         	"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+         ]
+		},
+		{
+         "name": "Uncanny Dodge",
+         "source": "assRogue-D&DF-PHB",
+         "page": 94,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 5,
+         "entries": [
+         	"Starting at 5th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you."
+         ]
+		},
+		{
+         "name": "Expertise",
+         "source": "assRogue-D&DF-PHB",
+         "page": 94,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 6,
+         "entries": [
+         	"At 6th level, you can choose two more of your proficiencies (in skills or with {@item thieves' tools|phb}) to gain the benefit of Expertise."
+         ]
+		},
+		{
+         "name": "Evasion",
+         "source": "assRogue-D&DF-PHB",
+         "page": 94,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 7,
+         "entries": [
+         	"Beginning at 7th level, you can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or an {@spell ice storm} spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail."
+         ]
+		},
+		{
+         "name": "Ability Score Improvement",
+         "source": "assRogue-D&DF-PHB",
+         "page": 94,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 8,
+         "entries": [
+         	"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+         	"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+         ]
+		},
+		{
+         "name": "Roguish Archetype feature",
+         "source": "assRogue-D&DF-PHB",
+         "page": 94,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 9,
+         "entries": [
+         	"At 9th level, you gain a feature granted by your Roguish Archetype."
+         ]
+		},
+		{
+         "name": "Ability Score Improvement",
+         "source": "assRogue-D&DF-PHB",
+         "page": 94,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 10,
+         "entries": [
+         	"When you reach 10th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+         	"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+         ]
+		},
+		{
+         "name": "Reliable Talent",
+         "source": "assRogue-D&DF-PHB",
+         "page": 94,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 11,
+         "entries": [
+         	"By 11th level, you have refined your chosen skills until they approach perfection. Whenever you make an ability check that lets you add your proficiency bonus, you can treat a {@dice d20} roll of 9 or lower as a 10."
+         ]
+		},
+		{
+         "name": "Ability Score Improvement",
+         "source": "assRogue-D&DF-PHB",
+         "page": 94,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 12,
+         "entries": [
+         	"When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+         	"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+         ]
+		},
+		{
+         "name": "Roguish Archetype feature",
+         "source": "assRogue-D&DF-PHB",
+         "page": 94,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 13,
+         "entries": [
+         	"At 13th level, you gain a feature granted by your Roguish Archetype."
+         ]
+		},
+		{
+         "name": "Blindsense",
+         "source": "assRogue-D&DF-PHB",
+         "page": 94,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 14,
+         "entries": [
+         	"Starting at 14th level, if you are able to hear, you are aware of the location of any hidden or {@condition invisible} creature within 10 feet of you."
+         ]
+		},
+		{
+         "name": "Slippery Mind",
+         "source": "assRogue-D&DF-PHB",
+         "page": 94,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 15,
+         "entries": [
+         	"By 15th level, you have acquired greater mental strength. You gain proficiency in Wisdom saving throws."
+         ]
+		},
+		{
+         "name": "Ability Score Improvement",
+         "source": "assRogue-D&DF-PHB",
+         "page": 94,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 16,
+         "entries": [
+         	"When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+         	"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+         ]
+		},
+		{
+         "name": "Roguish Archetype feature",
+         "source": "assRogue-D&DF-PHB",
+         "page": 94,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 17,
+         "entries": [
+         	"At 17th level, you gain a feature granted by your Roguish Archetype."
+         ]
+		},
+		{
+         "name": "Elusive",
+         "source": "assRogue-D&DF-PHB",
+         "page": 94,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 18,
+         "entries": [
+         	"Beginning at 18th level, you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you aren't {@condition incapacitated}."
+         ]
+		},
+		{
+         "name": "Ability Score Improvement",
+         "source": "assRogue-D&DF-PHB",
+         "page": 94,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 19,
+         "entries": [
+         	"When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+         	"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+         ]
+		},
+		{
+         "name": "Stroke of Luck",
+         "source": "assRogue-D&DF-PHB",
+         "page": 94,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 20,
+         "entries": [
+         	"At 20th level, you have an uncanny knack for succeeding when you need to. If your attack misses a target within range, you can turn the miss into a hit. Alternatively, if you fail an ability check, you can treat the {@dice d20} roll as a 20.",
+         	"Once you use this feature, you can't use it again until you finish a short or long rest."
+         ]
+		},
+		{
+         "name": "Expertise",
+         "source": "assRogue-D&DF-PHB",
+         "page": 128,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 1,
+         "entries": [
+         	"You gain {@variantrule Expertise|assRogue-D&DF-PHB} in two of your skill proficiencies of your choice. {@skill Sleight of Hand|assRogue-D&DF-PHB} and {@skill Stealth|assRogue-D&DF-PHB} are recommended if you have proficiency in them.",
+         	"At Rogue level 6, you gain {@variantrule Expertise|assRogue-D&DF-PHB} in two more of your skill proficiencies of your choice."
+         ]
+		},
+		{
+         "name": "Sneak Attack",
+         "source": "assRogue-D&DF-PHB",
+         "page": 128,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 1,
+         "entries": [
+         	"You know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra {@damage 1d6} damage to one creature you hit with an attack roll if you have {@variantrule Advantage|assRogue-D&DF-PHB} on the roll and the attack uses a Finesse or a Ranged weapon. The extra damage's type is the same as the weapon's type.",
+         	"You don't need {@variantrule Advantage|assRogue-D&DF-PHB} on the attack roll if at least one of your allies is within 5 feet of the target, the ally doesn't have the {@condition Incapacitated|assRogue-D&DF-PHB} condition, and you don't have {@variantrule Disadvantage|assRogue-D&DF-PHB} on the attack roll.",
+         	"The extra damage increases as you gain Rogue levels, as shown in the Sneak Attack column of the Rogue Features table."
+         ]
+		},
+		{
+         "name": "Thieves' Cant",
+         "source": "assRogue-D&DF-PHB",
+         "page": 128,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 1,
+         "entries": [
+         	"You picked up various languages in the communities where you plied your roguish talents. You know Thieves' Cant and one other language of your choice, which you choose from the language tables in {@book chapter 2|assRogue-D&DF-PHB|2|Choose Languages}."
+         ]
+		},
+		{
+         "name": "Weapon Mastery",
+         "source": "assRogue-D&DF-PHB",
+         "page": 128,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 1,
+         "entries": [
+         	"Your training with weapons allows you to use the {@variantrule weapon mastery properties|assRogue-D&DF-PHB|mastery properties} of two kinds of {@filter weapons|items|type=simple weapon;martial weapon} of your choice with which you have proficiency, such as {@item Dagger|assRogue-D&DF-PHB|Daggers} and {@item Shortbow|assRogue-D&DF-PHB|Shortbows}.",
+         	"Whenever you finish a {@variantrule Long Rest|assRogue-D&DF-PHB}, you can change the kinds of weapons you chose. For example, you could switch to using the {@variantrule weapon mastery properties|assRogue-D&DF-PHB|mastery properties} of {@item Scimitar|assRogue-D&DF-PHB|Scimitars} and {@item Shortsword|assRogue-D&DF-PHB|Shortswords}."
+         ]
+		},
+		{
+         "name": "Cunning Action",
+         "source": "assRogue-D&DF-PHB",
+         "page": 129,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 2,
+         "entries": [
+         	"Your quick thinking and agility allow you to move and act quickly. On your turn, you can take one of the following actions as a {@variantrule Bonus Action|assRogue-D&DF-PHB}: {@action Dash|assRogue-D&DF-PHB}, {@action Disengage|assRogue-D&DF-PHB}, or {@action Hide|assRogue-D&DF-PHB}."
+         ]
+		},
+		{
+         "name": "Rogue Subclass",
+         "source": "assRogue-D&DF-PHB",
+         "page": 129,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 3,
+         "entries": [
+         	"You gain a Rogue subclass of your choice. A subclass is a specialization that grants you features at certain Rogue levels. For the rest of your career, you gain each of your subclass's features that are of your Rogue level or lower."
+         ]
+		},
+		{
+         "name": "Steady Aim",
+         "source": "assRogue-D&DF-PHB",
+         "page": 129,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 3,
+         "entries": [
+         	"As a {@variantrule Bonus Action|assRogue-D&DF-PHB}, you give yourself {@variantrule Advantage|assRogue-D&DF-PHB} on your next attack roll on the current turn. You can use this feature only if you haven't moved during this turn, and after you use it, your {@variantrule Speed|assRogue-D&DF-PHB} is 0 until the end of the current turn."
+         ]
+		},
+		{
+         "name": "Ability Score Improvement",
+         "source": "assRogue-D&DF-PHB",
+         "page": 129,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 4,
+         "entries": [
+         	"You gain the {@feat Ability Score Improvement|assRogue-D&DF-PHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Rogue levels 8, 10, 12, and 16."
+         ]
+		},
+		{
+         "name": "Cunning Strike",
+         "source": "assRogue-D&DF-PHB",
+         "page": 129,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 5,
+         "entries": [
+         	"You've developed cunning ways to use your Sneak Attack. When you deal Sneak Attack damage, you can add one of the following Cunning Strike effects. Each effect has a die cost, which is the number of Sneak Attack damage dice you must forgo to add the effect. You remove the die before rolling, and the effect occurs immediately after the attack's damage is dealt. For example, if you add the Poison effect, remove {@dice 1d6} from the Sneak Attack's damage before rolling.",
+         	"If a Cunning Strike effect requires a saving throw, the DC equals 8 plus your Dexterity modifier and {@variantrule Proficiency|assRogue-D&DF-PHB|Proficiency Bonus}.",
+         	{
+         		"type": "entries",
+         		"entries": [
+                  {
+                  	"type": "refClassFeature",
+                  	"classFeature": "Poison (Cost: 1d6)|Rogue|assRogue-D&DF-PHB|5|assRogue-D&DF-PHB"
+                  },
+                  {
+                  	"type": "refClassFeature",
+                  	"classFeature": "Trip (Cost: 1d6)|Rogue|assRogue-D&DF-PHB|5|assRogue-D&DF-PHB"
+                  },
+                  {
+                  	"type": "refClassFeature",
+                  	"classFeature": "Withdraw (Cost: 1d6)|Rogue|assRogue-D&DF-PHB|5|assRogue-D&DF-PHB"
+                  }
+         		]
+         	}
+         ]
+		},
+		{
+         "name": "Poison (Cost: 1d6)",
+         "source": "assRogue-D&DF-PHB",
+         "page": 129,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 5,
+         "entries": [
+         	"You add a toxin to your strike, forcing the target to make a Constitution saving throw. On a failed save, the target has the {@condition Poisoned|assRogue-D&DF-PHB} condition for 1 minute. At the end of each of its turns, the {@condition Poisoned|assRogue-D&DF-PHB} target repeats the save, ending the effect on itself on a success.",
+         	"To use this effect, you must have a {@item Poisoner's Kit|assRogue-D&DF-PHB} on your person."
+         ]
+		},
+		{
+         "name": "Trip (Cost: 1d6)",
+         "source": "assRogue-D&DF-PHB",
+         "page": 129,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 5,
+         "entries": [
+         	"If the target is Large or smaller, it must succeed on a Dexterity saving throw or have the {@condition Prone|assRogue-D&DF-PHB} condition."
+         ]
+		},
+		{
+         "name": "Uncanny Dodge",
+         "source": "assRogue-D&DF-PHB",
+         "page": 129,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 5,
+         "entries": [
+         	"When an attacker that you can see hits you with an attack roll, you can take a {@variantrule Reaction|assRogue-D&DF-PHB} to halve the attack's damage against you (round down)."
+         ]
+		},
+		{
+         "name": "Withdraw (Cost: 1d6)",
+         "source": "assRogue-D&DF-PHB",
+         "page": 129,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 5,
+         "entries": [
+         	"Immediately after the attack, you move up to half your {@variantrule Speed|assRogue-D&DF-PHB} without provoking {@action Opportunity Attack|assRogue-D&DF-PHB|Opportunity Attacks}."
+         ]
+		},
+		{
+         "name": "Expertise",
+         "source": "assRogue-D&DF-PHB",
+         "page": 129,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 6,
+         "entries": [
+         	"You gain {@variantrule Expertise|assRogue-D&DF-PHB} in two of your Skill Proficiencies of your choice."
+         ]
+		},
+		{
+         "name": "Evasion",
+         "source": "assRogue-D&DF-PHB",
+         "page": 129,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 7,
+         "entries": [
+         	"You can nimbly dodge out of the way of certain dangers. When you're subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail. You can't use this feature if you have the {@condition Incapacitated|assRogue-D&DF-PHB} condition."
+         ]
+		},
+		{
+         "name": "Reliable Talent",
+         "source": "assRogue-D&DF-PHB",
+         "page": 130,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 7,
+         "entries": [
+         	"Whenever you make an ability check that uses one of your skill or tool proficiencies, you can treat a {@dice d20} roll of 9 or lower as a 10."
+         ]
+		},
+		{
+         "name": "Ability Score Improvement",
+         "source": "assRogue-D&DF-PHB",
+         "page": 130,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 8,
+         "entries": [
+         	"You gain the {@feat Ability Score Improvement|assRogue-D&DF-PHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+         ]
+		},
+		{
+         "name": "Subclass Feature",
+         "source": "assRogue-D&DF-PHB",
+         "page": 130,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 9,
+         "entries": [
+         	"You gain a feature from your Rogue Subclass."
+         ]
+		},
+		{
+         "name": "Ability Score Improvement",
+         "source": "assRogue-D&DF-PHB",
+         "page": 130,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 10,
+         "entries": [
+         	"You gain the {@feat Ability Score Improvement|assRogue-D&DF-PHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+         ]
+		},
+		{
+         "name": "Improved Cunning Strike",
+         "source": "assRogue-D&DF-PHB",
+         "page": 130,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 11,
+         "entries": [
+         	"You can use up to two Cunning Strike effects when you deal Sneak Attack damage, paying the die cost for each effect."
+         ]
+		},
+		{
+         "name": "Ability Score Improvement",
+         "source": "assRogue-D&DF-PHB",
+         "page": 131,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 12,
+         "entries": [
+         	"You gain the {@feat Ability Score Improvement|assRogue-D&DF-PHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+         ]
+		},
+		{
+         "name": "Subclass Feature",
+         "source": "assRogue-D&DF-PHB",
+         "page": 131,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 13,
+         "entries": [
+         	"You gain a feature from your Rogue Subclass."
+         ]
+		},
+		{
+         "name": "Daze (Cost: 2d6)",
+         "source": "assRogue-D&DF-PHB",
+         "page": 131,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 14,
+         "entries": [
+         	"The target must succeed on a Constitution saving throw, or on its next turn, it can do only one of the following: move or take an action or a {@variantrule Bonus Action|assRogue-D&DF-PHB}."
+         ]
+		},
+		{
+         "name": "Power of Observation",
+         "source": "assRogue-D&DF-PHB",
+         "page": 131,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 14,
+         "entries": [
+         	"Starting at 14th level, you may unlock any one \"Rare\" or lower Color of Observation Haki Advancement feat from Chapter 7. If you have already taken all the rare and lower observation haki feats, you may take a rare or lower haki advancement feat under a different color of haki, assuming you meet the prerequisites."
+         ]
+		},
+		{
+         "name": "Knock Out (Cost: 6d6)",
+         "source": "assRogue-D&DF-PHB",
+         "page": 131,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 14,
+         "entries": [
+         	"The target must succeed on a Constitution saving throw, or it has the {@condition Unconscious|assRogue-D&DF-PHB} condition for 1 minute or until it takes any damage. The {@condition Unconscious|assRogue-D&DF-PHB} target repeats the save at the end of each of its turns, ending the effect on itself on a success."
+         ]
+		},
+		{
+         "name": "Obscure (Cost: 3d6)",
+         "source": "assRogue-D&DF-PHB",
+         "page": 131,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 14,
+         "entries": [
+         	"The target must succeed on a Dexterity saving throw, or it has the {@condition Blinded|assRogue-D&DF-PHB} condition until the end of its next turn."
+         ]
+		},
+		{
+         "name": "Slippery Mind",
+         "source": "assRogue-D&DF-PHB",
+         "page": 131,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 15,
+         "entries": [
+         	"Your cunning mind is exceptionally difficult to control. You gain proficiency in Wisdom and Charisma saving throws."
+         ]
+		},
+		{
+         "name": "Ability Score Improvement",
+         "source": "assRogue-D&DF-PHB",
+         "page": 131,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 16,
+         "entries": [
+         	"You gain the {@feat Ability Score Improvement|assRogue-D&DF-PHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+         ]
+		},
+		{
+         "name": "Subclass Feature",
+         "source": "assRogue-D&DF-PHB",
+         "page": 131,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 17,
+         "entries": [
+         	"You gain a feature from your Rogue Subclass."
+         ]
+		},
+		{
+         "name": "Elusive",
+         "source": "assRogue-D&DF-PHB",
+         "page": 131,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 18,
+         "entries": [
+         	"You're so evasive that attackers rarely gain the upper hand against you. No attack roll can have {@variantrule Advantage|assRogue-D&DF-PHB} against you unless you have the {@condition Incapacitated|assRogue-D&DF-PHB} condition."
+         ]
+		},
+		{
+         "name": "Epic Boon",
+         "source": "assRogue-D&DF-PHB",
+         "page": 131,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 19,
+         "entries": [
+         	"You gain an {@filter Epic Boon feat|feats|category=EB} or another {@5etools feat|feats.html} of your choice for which you qualify. {@feat Boon of the Night Spirit|assRogue-D&DF-PHB} is recommended."
+         ]
+		},
+		{
+         "name": "Stroke of Luck",
+         "source": "assRogue-D&DF-PHB",
+         "page": 131,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "level": 20,
+         "entries": [
+         	"You have a marvelous knack for succeeding when you need to. If you fail a {@variantrule D20 Test|assRogue-D&DF-PHB}, you can turn the roll into a 20.",
+         	"Once you use this feature, you can't use it again until you finish a {@variantrule Short Rest|assRogue-D&DF-PHB|Short} or {@variantrule Long Rest|assRogue-D&DF-PHB}."
+         ]
+		},
+      {
+			"name": "Swashbuckler",
+			"source": "assRogue-D&DF-PHB",
+			"page": 48,
+			"className": "Rogue",
+			"classSource": "assRogue-D&DF-PHB",
+			"subclassShortName": "Swashbuckler",
+			"subclassSource": "assRogue-D&DF-PHB",
+			"level": 3,
+			"entries": [
+				"You focus your training on the art of the blade, relying on speed, elegance, and charm in equal parts. While some warriors are brutes clad in heavy armor, your method of fighting looks almost like a performance. Duelists and pirates typically belong to this archetype.",
+				"A Swashbuckler excels in single combat, and can fight with two weapons while safely darting away from an opponent.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Fancy Footwork|Rogue||Swashbuckler|assRogue-D&DF-PHB|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Rakish Audacity|Rogue||Swashbuckler|assRogue-D&DF-PHB|3"
+				}
+			]
+		},
+		{
+			"name": "Fancy Footwork",
+			"source": "assRogue-D&DF-PHB",
+			"page": 48,
+			"className": "Rogue",
+			"classSource": "assRogue-D&DF-PHB",
+			"subclassShortName": "Swashbuckler",
+			"subclassSource": "assRogue-D&DF-PHB",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"When you choose this archetype at 3rd level, you learn how to land a strike and then slip away without reprisal. During your turn, if you make a melee attack against a creature, that creature can't make opportunity attacks against you for the rest of your turn."
+			]
+		},
+		{
+			"name": "Rakish Audacity",
+			"source": "assRogue-D&DF-PHB",
+			"page": 48,
+			"className": "Rogue",
+			"classSource": "assRogue-D&DF-PHB",
+			"subclassShortName": "Swashbuckler",
+			"subclassSource": "assRogue-D&DF-PHB",
+			"level": 3,
+			"header": 1,
+			"entries": [
+				"Starting at 3rd level, your confidence propels you into battle. You can give yourself a bonus to your initiative rolls equal to your Charisma modifier.",
+				"You also gain an additional way to use your Sneak Attack; you don't need advantage on your attack roll to use Sneak Attack against a creature if you are within 5 feet of it, no other creatures are within 5 feet of you, and you don't have disadvantage on the attack roll. All the other rules for Sneak Attack still apply to you."
+			]
+		},
+		{
+			"name": "Panache",
+			"source": "assRogue-D&DF-PHB",
+			"page": 48,
+			"className": "Rogue",
+			"classSource": "assRogue-D&DF-PHB",
+			"subclassShortName": "Swashbuckler",
+			"subclassSource": "assRogue-D&DF-PHB",
+			"level": 9,
+			"header": 2,
+			"entries": [
+				"At 9th level, your charm becomes extraordinarily beguiling. As an action, you can make a Charisma ({@skill Persuasion}) check contested by a creature's Wisdom ({@skill Insight}) check. The creature must be able to hear you, and the two of you must share a language.",
+				"If you succeed on the check and the creature is hostile to you, it has disadvantage on attack rolls against targets other than you and can't make opportunity attacks against targets other than you. This effect lasts for 1 minute, until one of your companions attacks the target or affects it with a spell, or until you and the target are more than 60 feet apart.",
+				"If you succeed on the check and the creature isn't hostile to you, it is {@condition charmed} by you for 1 minute. While {@condition charmed}, it regards you as a friendly acquaintance. This effect ends immediately if you or your companions do anything harmful to it."
+			]
+		},
+		{
+			"name": "Elegant Maneuver",
+			"source": "assRogue-D&DF-PHB",
+			"page": 48,
+			"className": "Rogue",
+			"classSource": "assRogue-D&DF-PHB",
+			"subclassShortName": "Swashbuckler",
+			"subclassSource": "assRogue-D&DF-PHB",
+			"level": 13,
+			"header": 2,
+			"entries": [
+				"Starting at 13th level, you can use a bonus action on your turn to gain advantage on the next Dexterity ({@skill Acrobatics}) or Strength ({@skill Athletics}) check you make during the same turn."
+			]
+		},
+		{
+			"name": "Master Duelist",
+			"source": "assRogue-D&DF-PHB",
+			"page": 48,
+			"className": "Rogue",
+			"classSource": "assRogue-D&DF-PHB",
+			"subclassShortName": "Swashbuckler",
+			"subclassSource": "assRogue-D&DF-PHB",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"Beginning at 17th level, your mastery of the blade lets you turn failure into success in combat. If you miss with an attack roll, you can roll it again with advantage. Once you do so, you can't use this feature again until you finish a short or long rest."
+			]
+		}
+	]
+}
