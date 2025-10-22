@@ -367,7 +367,7 @@
                "(a) a {@item rapier|phb} or (b) a {@item shortsword|phb}",
                "(a) a {@item musket|dmg} and 20 {@item bullets|dmg} of {@item arrows (20)|phb|20 arrows} or (b) a {@item shortsword|phb}",
                "(a) a {@item burglar's pack|phb}, (b) a {@item dungeoneer's pack|phb}, or (c) an {@item explorer's pack|phb}",
-               "{@item Leather armor|phb}, two {@item dagger|phb|daggers}, and {@item thieves' tools|phb}"
+               "{@item thick shirt|D&DF}, two {@item dagger|phb|daggers}, and {@item thieves' tools|phb}"
             ],
             "goldAlternative": "{@dice 4d4 × 10|4d4 × 10|Starting Gold}",
             "defaultData": [
@@ -1499,19 +1499,9 @@
          "level": 3,
          "entries": [
             "When you reach 3rd Level, you gain the ability to cast Nature Powers (Spells). See the general rules of Spellcasting and the Tinkerer spell list in chapter 8.",
-            "Natural Abilities (Cantrips). You learn three natural abilities (cantrips): {@spell druidcraft|PHB|Druidcraft} and two other Cantrips of your choice from the Tinkerer spell list. You learn another tinkerer cantrip of your choice at 10th level.",
-            "Nature Power Slots (Spell Slots). The Elemental Trickster Nature Powers table shows how many Nature Power Slots you have to cast Tinkerer Spells of 1st Level and higher as Nature Powers. To cast one of these Nature Powers (spells), you must expend a slot of the nature power’s level or higher. You regain all expended Nature Power Slots when you finish a Long Rest.",
-            "For example, if you know the 1st-level nature power Charm Person and have a 1st-level and a 2nd-level slot available, you can use charm person using either slot.",
-            "Nature Powers (Spells) Known of 1st-Level and Higher. You know three 1st-level Tinkerer Spells of your choice, two of which you must choose from the Enchantment and Illusion spells on the tinkerer spell list.",
-            "The Natural Powers Known (Spells Known) column of the Elemental Trickster Natural Powers table shows when you learn more Tinkerer spells of 1st Level or higher. Each of these spells must be an Enchantment or Illusion spell of your choice, and must be of a level for which you have Spell Slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd Level.",
-            "The Nature Powers (Spells) you learn at 8th, 14th, and 20th level can come from any school of magic.",
-            "Whenever you gain a level in this class, you can replace one of the Tinkerer Spells you know with another nature power (spell) of your choice from the tinkerer spell list. The new nature power must be of a level for which you have Nature Power Slots, and it must be an Enchantment or Illusion nature power (spell), unless you're replacing the nature power you gained at 3rd, 8th, 14th, or 20th level from any school of magic.",
-            "Special Power Ability. Intelligence is your Special Power ability for your Tinkerer spells, since you learn your Nature Powers (Spells) through dedicated study and memorization. You use your Intelligence whenever a nature power (spell) refers to your Special Power (spellcasting) ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a tinkerer spell you cast and when making an Attack roll with one.",
-            "Special Power save DC = 8 + your Proficiency Bonus + your Intelligence modifier",
-            "Special Power Attack modifier = your Proficiency Bonus + your Intelligence modifier",
             {
                "type": "refSubclassFeature",
-               "subclassFeature": "Spellcasting|Rogue|assRogue-D&DF-PHB|Elemental Trickster|assRogue-D&DF-PHB|3"
+               "subclassFeature": "Nature Power (Spellcasting)|Rogue|assRogue-D&DF-PHB|Elemental Trickster|assRogue-D&DF-PHB|3"
             },
             {
                "type": "refSubclassFeature",
@@ -1556,9 +1546,9 @@
          ]
       },
       {
-         "name": "Spellcasting",
+         "name": "Nature Power (Spellcasting)",
          "source": "assRogue-D&DF-PHB",
-         "page": 83,
+         "page": 84,
          "className": "Rogue",
          "classSource": "assRogue-D&DF-PHB",
          "subclassShortName": "Elemental Trickster",
@@ -1566,15 +1556,14 @@
          "level": 3,
          "header": 1,
          "entries": [
-            "When you reach 3rd level, you gain the ability to cast spells. See {@book chapter 10|PHB|10} for the general rules of spellcasting and {@book chapter 11|PHB|11} for the {@filter tinker spell list|spells|class=tinker}.",
             {
                "type": "entries",
                "entries": [
                   {
                      "type": "entries",
-                     "name": "Cantrips",
+                     "name": "Natural Abilities (Cantrips).",
                      "entries": [
-                        "You learn three cantrips: {@spell druidcraft} and two other cantrips of your choice from the tinker spell list. You learn another tinker cantrip of your choice at 10th level."
+                        "You learn three cantrips: {@spell druidcraft} and two other cantrips of your choice from the tinkerer spell list. You learn another tinkerer cantrip of your choice at 10th level."
                      ]
                   }
                ]
@@ -1584,9 +1573,9 @@
                "entries": [
                   {
                      "type": "entries",
-                     "name": "Spell Slots",
+                     "name": "Nature Power Slots (Spell Slots)",
                      "entries": [
-                        "The Elemental Trickster Spellcasting table shows how many spell slots you have to cast your {@filter tinker spells|spells|class=wizard} of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+                        "The Elemental Trickster Spellcasting table shows how many spell slots you have to cast your {@filter tinkerer spells|spells|class=wizard} of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
                         "For example, if you know the 1st-level spell {@spell charm person} and have a 1st-level and a 2nd-level spell slot available, you can cast {@spell charm person} using either slot."
                      ]
                   }
@@ -1597,12 +1586,12 @@
                "entries": [
                   {
                      "type": "entries",
-                     "name": "Spells Known of 1st-Level and Higher",
+                     "name": "Nature Powers (Spells) Known of 1st-Level and Higher",
                      "entries": [
-                        "You know three 1st-level tinker spells of your choice, two of which you must choose from the enchantment and illusion spells on the tinker spell list.",
-                        "The Spells Known column of the Elemental Trickster Spellcasting table shows when you learn more tinker spells of 1st level or higher. Each of these spells must be an enchantment or illusion spell of your choice, and must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level.",
-                        "The spells you learn at 8th, 14th, and 20th level can come from any school of magic.",
-                        "Whenever you gain a level in this class, you can replace one of the tinker spells you know with another spell of your choice from the tinker spell list. The new spell must be of a level for which you have spell slots, and it must be an enchantment or illusion spell, unless you're replacing the spell you gained at 3rd, 8th, 14th, or 20th level from any school of magic."
+                        "You know three 1st-level tinkerer spells of your choice, two of which you must choose from the enchantment and illusion spells on the tinkerer spell list.",
+                        "The Natural Powers Known (Spells Known) column of the Elemental Trickster Spellcasting table shows when you learn more tinkerer spells of 1st level or higher. Each of these spells must be an enchantment or illusion spell of your choice, and must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level.",
+                        "The Nature Powers (Spells) you learn at 8th, 14th, and 20th level can come from any school of magic.",
+                        "Whenever you gain a level in this class, you can replace one of the tinkerer spells you know with another spell of your choice from the tinkerer spell list. The new nature power (spell) must be of a level for which you have Nature Power Slots slots, and it must be an enchantment or illusion , unless you're replacing the spell you gained at 3rd, 8th, 14th, or 20th level from any school of magic."
                      ]
                   }
                ]
@@ -1612,9 +1601,9 @@
                "entries": [
                   {
                      "type": "entries",
-                     "name": "Spellcasting Ability",
+                     "name": "Special Power Ability",
                      "entries": [
-                        "Intelligence is your spellcasting ability for your tinker spells, since you learn your spells through dedicated study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a tinker spell you cast and when making an attack roll with one.",
+                        "Intelligence is your Special Power ability for your Tinkerer spells, since you learn your Nature Powers (Spells) through dedicated study and memorization. You use your Intelligence whenever a nature power (spell) refers to your Special Power (spellcasting) ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a tinkerer spell you cast and when making an Attack roll with one.",
                         {
                            "type": "abilityDc",
                            "name": "Spell",
@@ -1636,23 +1625,9 @@
          ]
       },
       {
-         "name": "Ingenious Ambush",
-         "source": "assRogue-D&DF-PHB",
-         "page": 83,
-         "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
-         "subclassShortName": "Elemental Trickster",
-         "subclassSource": "assRogue-D&DF-PHB",
-         "level": 13,
-         "header": 2,
-         "entries": [
-    "Starting at 13th level, if you are hidden from a creature when you Cast a Nature Power (Spell) on it, the creature has disadvantage on any saving throw it makes against the nature power (spell) this turn."
-         ]   
-   },
-      {
          "name": "Gift of the Wild",
          "source": "assRogue-D&DF-PHB",
-         "page": 83,
+         "page": 85,
          "className": "Rogue",
          "classSource": "assRogue-D&DF-PHB",
          "subclassShortName": "Elemental Trickster",
@@ -1665,9 +1640,23 @@
         ]
       },
       {
+         "name": "Ingenious Ambush",
+         "source": "assRogue-D&DF-PHB",
+         "page": 85,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "subclassShortName": "Elemental Trickster",
+         "subclassSource": "assRogue-D&DF-PHB",
+         "level": 13,
+         "header": 2,
+         "entries": [
+    "Starting at 13th level, if you are hidden from a creature when you Cast a Nature Power (Spell) on it, the creature has disadvantage on any saving throw it makes against the nature power (spell) this turn."
+         ]   
+   },
+      {
          "name": "Lord of Nature",
          "source": "assRogue-D&DF-PHB",
-         "page": 83,
+         "page": 85,
          "className": "Rogue",
          "classSource": "assRogue-D&DF-PHB",
          "subclassShortName": "Elemental Trickster",
@@ -1676,7 +1665,7 @@
          "header": 2,
          "entries": [
             "At 17th level, you gain the ability to magically steal the knowledge of how to cast a spell from another spellcaster.",
-            "Immediately after a creature casts a spell that targets you or includes you in its area of effect, you can use your reaction to force the creature to make a saving throw with its spellcasting ability modifier. The DC equals your spell save DC. On a failed save, you negate the spell's effect against you, and you steal the knowledge of the spell if it is at least 1st level and of a level you can cast (it doesn't need to be a tinker spell). For the next 8 hours, you know the spell and can cast it using your spell slots. The creature can't cast that spell until the 8 hours have passed.",
+            "Immediately after a creature casts a spell that targets you or includes you in its area of effect, you can use your reaction to force the creature to make a saving throw with its spellcasting ability modifier. The DC equals your spell save DC. On a failed save, you negate the spell's effect against you, and you steal the knowledge of the spell if it is at least 1st level and of a level you can cast (it doesn't need to be a tinkerer spell). For the next 8 hours, you know the spell and can cast it using your spell slots. The creature can't cast that spell until the 8 hours have passed.",
             "Once you use this feature, you can't use it again until you finish a long rest."
          ]
       }
