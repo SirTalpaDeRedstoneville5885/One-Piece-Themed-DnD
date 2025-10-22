@@ -989,16 +989,16 @@
          "spellcastingAbility": "int",
          "casterProgression": "1/3",
          "cantripProgression": [
-            0, 0, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3
+            3, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4
          ],
          "spellsKnownProgression": [
-            0, 0, 3, 4, 4, 4, 5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 11, 11, 12, 13
+            3, 4, 4, 4, 4, 5, 5, 6, 6, 7, 8, 8, 9, 10, 10, 11, 11, 11, 12, 13
          ],
          "additionalSpells": [
             {
                "known": {
                   "3": [
-                     "mage hand#c"
+                     "druidcraft#c"
                   ]
                },
                "expanded": {
@@ -1263,9 +1263,9 @@
          ],
          "subclassFeatures": [
             "Elemental Trickster|Rogue|assRogue-D&DF-PHB|Elemental Trickster|assRogue-D&DF-PHB|3",
-            "Magical Ambush|Rogue|assRogue-D&DF-PHB|Elemental Trickster|assRogue-D&DF-PHB|9",
-            "Versatile Trickster|Rogue|assRogue-D&DF-PHB|Elemental Trickster|assRogue-D&DF-PHB|13",
-            "Spell Thief|Rogue|assRogue-D&DF-PHB|Elemental Trickster|assRogue-D&DF-PHB|17"
+            "Gift of the Wild|Rogue|assRogue-D&DF-PHB|Elemental Trickster|assRogue-D&DF-PHB|9",
+            "Ingenious Ambush|Rogue|assRogue-D&DF-PHB|Elemental Trickster|assRogue-D&DF-PHB|13",
+            "Lord of Nature|Rogue|assRogue-D&DF-PHB|Elemental Trickster|assRogue-D&DF-PHB|17"
          ]
       },
       {
@@ -1498,19 +1498,29 @@
          "subclassSource": "assRogue-D&DF-PHB",
          "level": 3,
          "entries": [
-            "Some rogues enhance their fine-honed skills of stealth and agility with magic, learning tricks of enchantment and illusion. These rogues include pickpockets and burglars, but also pranksters, mischief-makers, and a significant number of adventurers.",
+            "When you reach 3rd Level, you gain the ability to cast Nature Powers (Spells). See the general rules of Spellcasting and the Tinkerer spell list in chapter 8.",
+            "Natural Abilities (Cantrips). You learn three natural abilities (cantrips): {@spell druidcraft|PHB|Druidcraft} and two other Cantrips of your choice from the Tinkerer spell list. You learn another tinkerer cantrip of your choice at 10th level.",
+            "Nature Power Slots (Spell Slots). The Elemental Trickster Nature Powers table shows how many Nature Power Slots you have to cast Tinkerer Spells of 1st Level and higher as Nature Powers. To cast one of these Nature Powers (spells), you must expend a slot of the nature power’s level or higher. You regain all expended Nature Power Slots when you finish a Long Rest.",
+            "For example, if you know the 1st-level nature power Charm Person and have a 1st-level and a 2nd-level slot available, you can use charm person using either slot.",
+            "Nature Powers (Spells) Known of 1st-Level and Higher. You know three 1st-level Tinkerer Spells of your choice, two of which you must choose from the Enchantment and Illusion spells on the tinkerer spell list.",
+            "The Natural Powers Known (Spells Known) column of the Elemental Trickster Natural Powers table shows when you learn more Tinkerer spells of 1st Level or higher. Each of these spells must be an Enchantment or Illusion spell of your choice, and must be of a level for which you have Spell Slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd Level.",
+            "The Nature Powers (Spells) you learn at 8th, 14th, and 20th level can come from any school of magic.",
+            "Whenever you gain a level in this class, you can replace one of the Tinkerer Spells you know with another nature power (spell) of your choice from the tinkerer spell list. The new nature power must be of a level for which you have Nature Power Slots, and it must be an Enchantment or Illusion nature power (spell), unless you're replacing the nature power you gained at 3rd, 8th, 14th, or 20th level from any school of magic.",
+            "Special Power Ability. Intelligence is your Special Power ability for your Tinkerer spells, since you learn your Nature Powers (Spells) through dedicated study and memorization. You use your Intelligence whenever a nature power (spell) refers to your Special Power (spellcasting) ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a tinkerer spell you cast and when making an Attack roll with one.",
+            "Special Power save DC = 8 + your Proficiency Bonus + your Intelligence modifier",
+            "Special Power Attack modifier = your Proficiency Bonus + your Intelligence modifier",
             {
                "type": "refSubclassFeature",
                "subclassFeature": "Spellcasting|Rogue|assRogue-D&DF-PHB|Elemental Trickster|assRogue-D&DF-PHB|3"
             },
             {
                "type": "refSubclassFeature",
-               "subclassFeature": "Mage Hand Legerdemain|Rogue|assRogue-D&DF-PHB|Elemental Trickster|assRogue-D&DF-PHB|3"
+               "subclassFeature": "Nature's Invention|Rogue|assRogue-D&DF-PHB|Elemental Trickster|assRogue-D&DF-PHB|3"
             }
          ]
       },
       {
-         "name": "Mage Hand Legerdemain",
+         "name": "Nature's Invention",
          "source": "assRogue-D&DF-PHB",
          "page": 83,
          "className": "Rogue",
@@ -1520,17 +1530,29 @@
          "level": 3,
          "header": 1,
          "entries": [
-            "Starting at 3rd level, when you cast {@spell mage hand}, you can make the spectral hand {@condition invisible}, and you can perform the following additional tasks with it:",
+            "Starting at 3rd level, when you cast {@spell druidcraft|PHB}, you can perform the following additional tasks with it:",
             {
                "type": "list",
                "items": [
-                  "You can stow one object the hand is holding in a container worn or carried by another creature.",
-                  "You can retrieve an object in a container worn or carried by another creature.",
-                  "You can use {@item thieves' tools|phb} to pick locks and disarm traps at range."
+                  "You can make your next Ranged Weapon attack deal fire, cold, or lightning damage instead. You can use this feature a number of times equal to twice your Intelligence modifier. You regain all uses of this feature again once you complete a short or long rest.",
+                  "You can enhance any natural shell and turn it into a Simple Dial of your choice. You can't use this feature again until you complete a long rest. You can have a number of Dials created this way equal to your Intelligence Modifier. You can cast this spell again to remove the properties from a Simple Dial you created and revert it back to a normal shell.",
+                  "You create a natural trap of your choice. This works the same as a Hunting Trap or Caltrops (pick one). You can use this feature a number of times equal to twice your Intelligence modifier. You regain all uses of this feature again once you complete a short or long rest."
                ]
-            },
-            "You can perform one of these tasks without being noticed by a creature if you succeed on a Dexterity ({@skill Sleight of Hand}) check contested by the creature's Wisdom ({@skill Perception}) check.",
-            "In addition, you can use the bonus action granted by your Cunning Action to control the hand."
+            }
+         ]
+      },
+      {
+         "name": "Bonus Proficiencies",
+         "source": "assRogue-D&DF-PHB",
+         "page": 83,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "subclassShortName": "Elemental Trickster",
+         "subclassSource": "assRogue-D&DF-PHB",
+         "level": 3,
+         "header": 2,
+         "entries": [
+            "When you choose this archetype at 3rd Level, you gain proficiency with {darts}, blowguns|assRogue-D&DF-PHB, giant sling|assRogue-D&DF-PHB"
          ]
       },
       {
@@ -1544,7 +1566,7 @@
          "level": 3,
          "header": 1,
          "entries": [
-            "When you reach 3rd level, you gain the ability to cast spells. See {@book chapter 10|PHB|10} for the general rules of spellcasting and {@book chapter 11|PHB|11} for the {@filter wizard spell list|spells|class=wizard}.",
+            "When you reach 3rd level, you gain the ability to cast spells. See {@book chapter 10|PHB|10} for the general rules of spellcasting and {@book chapter 11|PHB|11} for the {@filter tinker spell list|spells|class=tinker}.",
             {
                "type": "entries",
                "entries": [
@@ -1552,7 +1574,7 @@
                      "type": "entries",
                      "name": "Cantrips",
                      "entries": [
-                        "You learn three cantrips: {@spell mage hand} and two other cantrips of your choice from the wizard spell list. You learn another wizard cantrip of your choice at 10th level."
+                        "You learn three cantrips: {@spell druidcraft} and two other cantrips of your choice from the tinker spell list. You learn another tinker cantrip of your choice at 10th level."
                      ]
                   }
                ]
@@ -1564,7 +1586,7 @@
                      "type": "entries",
                      "name": "Spell Slots",
                      "entries": [
-                        "The Elemental Trickster Spellcasting table shows how many spell slots you have to cast your {@filter wizard spells|spells|class=wizard} of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
+                        "The Elemental Trickster Spellcasting table shows how many spell slots you have to cast your {@filter tinker spells|spells|class=wizard} of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.",
                         "For example, if you know the 1st-level spell {@spell charm person} and have a 1st-level and a 2nd-level spell slot available, you can cast {@spell charm person} using either slot."
                      ]
                   }
@@ -1577,10 +1599,10 @@
                      "type": "entries",
                      "name": "Spells Known of 1st-Level and Higher",
                      "entries": [
-                        "You know three 1st-level wizard spells of your choice, two of which you must choose from the enchantment and illusion spells on the wizard spell list.",
-                        "The Spells Known column of the Elemental Trickster Spellcasting table shows when you learn more wizard spells of 1st level or higher. Each of these spells must be an enchantment or illusion spell of your choice, and must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level.",
+                        "You know three 1st-level tinker spells of your choice, two of which you must choose from the enchantment and illusion spells on the tinker spell list.",
+                        "The Spells Known column of the Elemental Trickster Spellcasting table shows when you learn more tinker spells of 1st level or higher. Each of these spells must be an enchantment or illusion spell of your choice, and must be of a level for which you have spell slots. For instance, when you reach 7th level in this class, you can learn one new spell of 1st or 2nd level.",
                         "The spells you learn at 8th, 14th, and 20th level can come from any school of magic.",
-                        "Whenever you gain a level in this class, you can replace one of the wizard spells you know with another spell of your choice from the wizard spell list. The new spell must be of a level for which you have spell slots, and it must be an enchantment or illusion spell, unless you're replacing the spell you gained at 3rd, 8th, 14th, or 20th level from any school of magic."
+                        "Whenever you gain a level in this class, you can replace one of the tinker spells you know with another spell of your choice from the tinker spell list. The new spell must be of a level for which you have spell slots, and it must be an enchantment or illusion spell, unless you're replacing the spell you gained at 3rd, 8th, 14th, or 20th level from any school of magic."
                      ]
                   }
                ]
@@ -1592,7 +1614,7 @@
                      "type": "entries",
                      "name": "Spellcasting Ability",
                      "entries": [
-                        "Intelligence is your spellcasting ability for your wizard spells, since you learn your spells through dedicated study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a wizard spell you cast and when making an attack roll with one.",
+                        "Intelligence is your spellcasting ability for your tinker spells, since you learn your spells through dedicated study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a tinker spell you cast and when making an attack roll with one.",
                         {
                            "type": "abilityDc",
                            "name": "Spell",
@@ -1614,21 +1636,7 @@
          ]
       },
       {
-         "name": "Magical Ambush",
-         "source": "assRogue-D&DF-PHB",
-         "page": 83,
-         "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
-         "subclassShortName": "Elemental Trickster",
-         "subclassSource": "assRogue-D&DF-PHB",
-         "level": 9,
-         "header": 2,
-         "entries": [
-            "Starting at 9th level, if you are hidden from a creature when you cast a spell on it, the creature has disadvantage on any saving throw it makes against the spell this turn."
-         ]
-      },
-      {
-         "name": "Versatile Trickster",
+         "name": "Ingenious Ambush",
          "source": "assRogue-D&DF-PHB",
          "page": 83,
          "className": "Rogue",
@@ -1638,11 +1646,26 @@
          "level": 13,
          "header": 2,
          "entries": [
-            "At 13th level, you gain the ability to distract targets with your {@spell mage hand}. As a bonus action on your turn, you can designate a creature within 5 feet of the spectral hand created by the spell. Doing so gives you advantage on attack rolls against that creature until the end of the turn."
-         ]
+    "Starting at 13th level, if you are hidden from a creature when you Cast a Nature Power (Spell) on it, the creature has disadvantage on any saving throw it makes against the nature power (spell) this turn."
+         ]   
+   },
+      {
+         "name": "Gift of the Wild",
+         "source": "assRogue-D&DF-PHB",
+         "page": 83,
+         "className": "Rogue",
+         "classSource": "assRogue-D&DF-PHB",
+         "subclassShortName": "Elemental Trickster",
+         "subclassSource": "assRogue-D&DF-PHB",
+         "level": 9,
+         "header": 2,
+         "entries": [
+         "At 9th level, you may also learn {Druid} Spells using your Nature Power (Spellcasting) feature, using the same limitations.",
+         "Additionally, you may use Druidcraft as a bonus action." 
+        ]
       },
       {
-         "name": "Spell Thief",
+         "name": "Lord of Nature",
          "source": "assRogue-D&DF-PHB",
          "page": 83,
          "className": "Rogue",
@@ -1653,7 +1676,7 @@
          "header": 2,
          "entries": [
             "At 17th level, you gain the ability to magically steal the knowledge of how to cast a spell from another spellcaster.",
-            "Immediately after a creature casts a spell that targets you or includes you in its area of effect, you can use your reaction to force the creature to make a saving throw with its spellcasting ability modifier. The DC equals your spell save DC. On a failed save, you negate the spell's effect against you, and you steal the knowledge of the spell if it is at least 1st level and of a level you can cast (it doesn't need to be a wizard spell). For the next 8 hours, you know the spell and can cast it using your spell slots. The creature can't cast that spell until the 8 hours have passed.",
+            "Immediately after a creature casts a spell that targets you or includes you in its area of effect, you can use your reaction to force the creature to make a saving throw with its spellcasting ability modifier. The DC equals your spell save DC. On a failed save, you negate the spell's effect against you, and you steal the knowledge of the spell if it is at least 1st level and of a level you can cast (it doesn't need to be a tinker spell). For the next 8 hours, you know the spell and can cast it using your spell slots. The creature can't cast that spell until the 8 hours have passed.",
             "Once you use this feature, you can't use it again until you finish a long rest."
          ]
       }
