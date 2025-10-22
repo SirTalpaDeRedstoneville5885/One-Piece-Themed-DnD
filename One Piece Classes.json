@@ -12,7 +12,7 @@
           "Tarun",
           "SirTalpadeRedstoneville58"
         ],
-        "version": "2.2.0",
+        "version": "2.2.1",
         "color": "33FFCA",
         "url": "https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm"
       }
@@ -146,10 +146,7 @@
           "str": 13,
           "con": 13
         },
-        "proficienciesGained": {
-          "armor": [
-            ""
-          ],
+        "proficienciesGained": {          
           "weapons": [
             "Simple"
           ],
@@ -2456,7 +2453,7 @@
       "classFeatures": [
         "Holy Power (Spellcasting)|Priest|D&DF-PHB|1",
         "Channel divinity|Priest|D&DF-PHB|2",
-        "Channel divinity: Turn Undead|Priest|D&DF-PHB|2",
+        "Turn Undead|Priest|D&DF-PHB|2",
         {
           "classFeature": "Divine Domain|Priest|D&DF-PHB|1",
           "gainSubclassFeature": true
@@ -3331,7 +3328,7 @@
       ]
     },
     {
-      "name": "Channel Divinity: Turn Undead",
+      "name": "Turn Undead",
       "source": "D&DF-PHB",
       "className": "Priest",
       "classSource": "D&DF-PHB",
@@ -6326,7 +6323,7 @@
       "subclassFeatures": [
         "Reap|Priest|D&DF-PHB|Death Domain|D&DF-PHB|1|D&DF-PHB",
         "Bonus Proficiency|Priest|D&DF-PHB|Death Domain|D&DF-PHB|1|D&DF-PHB",
-        "Channel Divinity: Sudden Decay|Priest|D&DF-PHB|Death Domain|D&DF-PHB|2|D&DF-PHB",
+        "Sudden Decay|Priest|D&DF-PHB|Death Domain|D&DF-PHB|2|D&DF-PHB",
         "Withering Grasp|Priest|D&DF-PHB|Death Domain|D&DF-PHB|6|D&DF-PHB",
         "Siphoning Strike|Priest|D&DF-PHB|Death Domain|D&DF-PHB|8|D&DF-PHB",
         "Improved Reap|Priest|D&DF-PHB|Death Domain|D&DF-PHB|17|D&DF-PHB"
@@ -6350,7 +6347,7 @@
       "subclassFeatures": [
         "Blinding Sands|Priest|D&DF-PHB|Desert Domain|D&DF-PHB|1|D&DF-PHB",
         "Bonus Natural Ability (Cantrip)|Priest|D&DF-PHB|Desert Domain|D&DF-PHB|1|D&DF-PHB",
-        "Channel Divinity: Scorching sun|Priest|D&DF-PHB|Desert Domain|D&DF-PHB|2|D&DF-PHB",
+        "Scorching sun|Priest|D&DF-PHB|Desert Domain|D&DF-PHB|2|D&DF-PHB",
         "Crippling Sands|Priest|D&DF-PHB|Desert Domain|D&DF-PHB|6|D&DF-PHB",
         "Rising Heat|Priest|D&DF-PHB|Desert Domain|D&DF-PHB|8|D&DF-PHB",
         "Desert Aura|Priest|D&DF-PHB|Desert Domain|D&DF-PHB|17|D&DF-PHB"
@@ -6374,7 +6371,7 @@
       "subclassFeatures": [
         "Thunderous Dial Strike|Priest|D&DF-PHB|Sky Domain|D&DF-PHB|1|D&DF-PHB",
         "Bonus Proficiencies|Priest|D&DF-PHB|Sky Domain|D&DF-PHB|1|D&DF-PHB",
-        "Channel Divinity: Destructive Wrath|Priest|D&DF-PHB|Sky Domain|D&DF-PHB|2|D&DF-PHB",
+        "Destructive Wrath|Priest|D&DF-PHB|Sky Domain|D&DF-PHB|2|D&DF-PHB",
         "Dial Ritual|Priest|D&DF-PHB|Sky Domain|D&DF-PHB|6|D&DF-PHB",
         "Dial Infusion|Priest|D&DF-PHB|Sky Domain|D&DF-PHB|8|D&DF-PHB",
         "Dial Glide|Priest|D&DF-PHB|Sky Domain|D&DF-PHB|17|D&DF-PHB"
@@ -7049,7 +7046,7 @@
       ]
     },
     {
-      "name": "Channel Divinity: Sudden Decay",
+      "name": "Sudden Decay",
       "source": "D&DF-PHB",
       "className": "Priest",
       "classSource": "D&DF-PHB",
@@ -7144,7 +7141,7 @@
       }
     },
     {
-      "name": "Channel Divinity: Destructive Wrath",
+      "name": "Destructive Wrath",
       "source": "D&DF-PHB",
       "className": "Priest",
       "classSource": "D&DF-PHB",
@@ -7242,7 +7239,7 @@
       ]
     },
     {
-      "name": "Channel Divinity: Scorching Sun",
+      "name": "Scorching Sun",
       "source": "D&DF-PHB",
       "className": "Priest",
       "classSource": "D&DF-PHB",
