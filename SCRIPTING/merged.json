@@ -12,7 +12,7 @@
           "Tarun",
           "SirTalpadeRedstoneville58"
         ],
-        "version": "2.1.0",
+        "version": "2.1.1",
         "color": "0B3075",
         "url": "https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm"
       }
@@ -6966,19 +6966,7 @@
       ]
     }
   ],
-  "item": [
-    {
-      "name": "Sea King Half Plate",
-      "source": "D&DF-PHB",
-      "page": 140,
-      "type": "MA",
-      "rarity": "none",
-      "ac": 15,
-      "stealth": true,
-      "entries": [
-        "This half plate armor is crafted from nearly impenetrable Sea King hide and scale plating that covers most of the wearer's body."
-      ]
-    },
+  "item": [    
     {
       "name": "Attack Cuisine",
       "entries": [
@@ -7078,29 +7066,29 @@
       "source": "D&DF-PHB",
       "rarity": "none",
       "entries": [
-        "Includes:",
+        "Includes",
         {
           "type": "list",
           "items": [
-            "a chest",
-            "a bag of 1,000 ball bearings",
+            "a {@item chest|phb}",
+            "a {@item Ball Bearings (Bag of 1,000)|phb|bag of 1,000 ball bearings}",
             "2 cases for maps and scrolls",
-            "a set of travelers' clothes",
-            "an ink pen",
+            "a {@item travelers' clothes|phb}",
+            "an {@item ink pen|phb}",
             "a bottle of ink and 5 sheets of paper",
-            "a hammer",
-            "soap",
-            "a lamp",
-            "2 flasks of oil",
-            "20 days of rations",
-            "a tankard",
-            "a fishing tackle",
-            "a small knife"
+            "a {@item hammer|phb}",
+            "{@item soap|phb|}",
+            "a {@item lamp|phb}",
+            "2 {@item Oil (flask)|phb|flasks of oil}",
+            "20 days {@item Rations (1 day)|phb|rations}",
+            "a {@item tankard|phb}",
+            "a {@item fishing tackle|phb}",
+            "a small knife."            
           ]
         },
-        "The pack also has 50 feet of hempen rope strapped to the side of it."
+        "the pack also has {@item Hempen Rope (50 feet)|phb|50 feet of hempen rope} strapped to the side of it."
       ]
-    },
+    },    
     {
       "name": "Power Source",
       "entries": [
@@ -7121,7 +7109,7 @@
       ],
       "type": "HA",
       "ac": 18,
-      "strength": "Str 15",
+      "strength": 15,
       "stealth": true,
       "cost": { "unit": "฿", "value": 15000000 },
       "weight": 65,
@@ -7131,8 +7119,8 @@
     },
     {
       "name": "Dense Coat",
-      "entries": [],
-      "type": "HA",
+      "entries": ["This type of coat is a made from durable fabrics and materials that provides basic protection."],
+      "type": "LA",
       "ac": 11,
       "stealth": true,
       "cost": { "unit": "฿", "value": 50000 },
@@ -7143,8 +7131,8 @@
     },
     {
       "name": "Light Bulletproof Shirt",
-      "entries": [],
-      "type": "HA",
+      "entries": ["An undershirt consisting of durable synthetic fibers that provides noticeable protection against bullets and other weapons."],
+      "type": "LA",
       "ac": 12,
       "cost": { "unit": "฿", "value": 450000 },
       "weight": 9,
@@ -7154,8 +7142,8 @@
     },
     {
       "name": "Thick Shirt",
-      "entries": [],
-      "type": "HA",
+      "entries": ["Thicker shirts consist of high-quality quilted cloth or leathers that don't hinder flexibility."],
+      "type": "LA",
       "ac": 11,
       "cost": { "unit": "฿", "value": 100000 },
       "weight": 6,
@@ -7168,7 +7156,7 @@
       "entries": [
         "A protective jacket consisting of durable synthetic fibers that provides decent protection against bullets and other weapons without making too much noise."
       ],
-      "type": "HA",
+      "type": "MA",
       "ac": 13,
       "dexterityMax": 2,
       "cost": { "unit": "฿", "value": 500000 },
@@ -7182,7 +7170,7 @@
       "entries": [
         "This armor consists of fully bulletproof materials made from durable synthetic fibers. Your vital organs are completely protected by this suit, though your legs and arms are left partially uncovered."
       ],
-      "type": "HA",
+      "type": "MA",
       "ac": 14,
       "dexterityMax": 2,
       "cost": { "unit": "฿", "value": 4000000 },
@@ -7190,6 +7178,21 @@
       "page": 140,
       "source": "D&DF-PHB",
       "rarity": "none"
-    }
+    },
+    {
+      "name": "Sea King Half Plate",
+      "source": "D&DF-PHB",
+      "page": 140,
+      "type": "MA",
+      "rarity": "none",
+      "ac": 15,
+      "dexterityMax": 2,
+      "cost": { "unit": "฿", "value": 75000000 },
+      "weight": 40,
+      "stealth": true,
+      "entries": [
+        "This half plate armor is crafted from nearly impenetrable Sea King hide and scale plating that covers most of the wearer's body."
+      ]
+    },
   ]
 }
