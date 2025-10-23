@@ -12,7 +12,7 @@
           "Tarun",
           "SirTalpadeRedstoneville58"
         ],
-        "version": "2.3.0",
+        "version": "2.3.2",
         "color": "0B3075",
         "url": "https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm"
       }
@@ -7071,18 +7071,17 @@
           "type": "list",
           "items": [
             "a {@item chest|phb}",
-            "a {@item Ball Bearings (Bag of 1,000)|phb|bag of 1,000 ball bearings}",
             "2 cases for maps and scrolls",
             "a {@item travelers' clothes|phb}",
             "an {@item ink pen|phb}",
             "a bottle of ink and 5 sheets of paper",
             "a {@item hammer|phb}",
-            "{@item soap|phb|}",
             "a {@item lamp|phb}",
             "2 {@item Oil (flask)|phb|flasks of oil}",
             "20 days {@item Rations (1 day)|phb|rations}",
             "a {@item tankard|phb}",
             "a {@item fishing tackle|phb}",
+            "some {@item soap|phb|}",
             "a small knife."            
           ]
         },
@@ -7193,6 +7192,16 @@
       "entries": [
         "This half plate armor is crafted from nearly impenetrable Sea King hide and scale plating that covers most of the wearer's body."
       ]
+    },
+    {
+      "name": "Colossal Saddle",
+      "source": "D&DF-PHB",
+      "page": 147,
+      "basicRules": true,
+      "type": "TAH",
+      "rarity": "none",
+      "weight": 900,
+      "value": 145000
     }
   ]
 }
