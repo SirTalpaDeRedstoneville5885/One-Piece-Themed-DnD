@@ -12,7 +12,7 @@
           "Tarun",
           "SirTalpadeRedstoneville58"
         ],
-        "version": "2.3.4",
+        "version": "2.3.5",
         "color": "0B3075",
         "url": "https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm"
       }
@@ -7257,11 +7257,11 @@
       "dmgType": "fire",
       "range": "60/300",
       "property": [
-        "Ammunition",
         "Heavy",
-        "Loading",
         "Two-handed"
       ],
+      "ammunition": true,
+      "reload": 1,
       "value": 50000,
       "weight": 18,
       "page": 143,
@@ -7277,11 +7277,11 @@
       "dmgType": "P",
       "range": "80/320",
       "property": [
-        "Ammunition",
         "Heavy",
-        "Loading",
         "Two-handed"
       ],
+      "ammunition": true,
+      "reload": 1,
       "value": 2500,
       "weight": 18,
       "page": 143,
@@ -7297,11 +7297,11 @@
       "dmgType": "P",
       "range": "150/600",
       "property": [
-        "Ammunition",
         "Heavy",
-        "Loading",
         "Two-handed"
       ],
+      "ammunition": true,
+      "reload": 1,
       "value": 50000,
       "weight": 18,
       "page": 143,
@@ -7317,11 +7317,11 @@
       "dmgType": "P",
       "range": "80/320",
       "property": [
-        "Ammunition",
         "Heavy",
-        "Loading",
         "Two-handed"
       ],
+      "ammunition": true,
+      "reload": 1,
       "value": 10000,
       "weight": 18,
       "page": 143,
@@ -7337,10 +7337,11 @@
       "dmgType": "B",
       "range": "60/600",
       "property": [
-        "Ammunition",
         "Heavy",
         "Two-handed"
       ],
+      "ammunition": true,
+      "reload": 1,
       "value": 1500,
       "weight": 5,
       "page": 143,
