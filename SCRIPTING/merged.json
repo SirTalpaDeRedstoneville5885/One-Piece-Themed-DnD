@@ -12,7 +12,7 @@
           "Tarun",
           "SirTalpadeRedstoneville58"
         ],
-        "version": "2.3.3",
+        "version": "2.3.4",
         "color": "0B3075",
         "url": "https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm"
       }
@@ -7284,44 +7284,6 @@
       ],
       "value": 2500,
       "weight": 18,
-      "page": 143,
-      "source": "D&DF-PHB",
-      "rarity": "none",
-      "firearm": true
-    },
-    {
-      "entries": [],
-      "name": "Musket",
-      "type": "M",
-      "dmg1": "1d10",
-      "dmgType": "B",
-      "range": "80/320",
-      "property": [
-        "Ammunition",
-        "Loading",
-        "Two-handed"
-      ],
-      "value": 2500,
-      "weight": 8,
-      "page": 143,
-      "source": "D&DF-PHB",
-      "rarity": "none",
-      "firearm": true
-    },
-    {
-      "entries": [],
-      "name": "Pistol",
-      "type": "M",
-      "dmg1": "1d10",
-      "dmgType": "P",
-      "range": "30/120",
-      "property": [
-        "Ammunition",
-        "Light",
-        "Loading"
-      ],
-      "value": 7500,
-      "weight": 3,
       "page": 143,
       "source": "D&DF-PHB",
       "rarity": "none",
