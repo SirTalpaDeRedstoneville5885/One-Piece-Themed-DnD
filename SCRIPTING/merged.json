@@ -12,7 +12,7 @@
           "Tarun",
           "SirTalpadeRedstoneville58"
         ],
-        "version": "2.0.4",
+        "version": "2.1.0",
         "color": "0B3075",
         "url": "https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm"
       }
@@ -6964,6 +6964,232 @@
           ]
         }
       ]
+    }
+  ],
+  "item": [
+    {
+      "name": "Sea King Half Plate",
+      "source": "D&DF-PHB",
+      "page": 140,
+      "type": "MA",
+      "rarity": "none",
+      "ac": 15,
+      "stealth": true,
+      "entries": [
+        "This half plate armor is crafted from nearly impenetrable Sea King hide and scale plating that covers most of the wearer's body."
+      ]
+    },
+    {
+      "name": "Attack Cuisine",
+      "entries": [
+        "A character who eats this powerful meal regains 2d4 + 2 hit points. Eating it all takes an action."
+      ],
+      "type": "G",
+      "cost": { "unit": "฿", "value": 500000 },
+      "weight": 2,
+      "page": 147,
+      "source": "D&DF-PHB",
+      "rarity": "none"
+    },
+    {
+      "name": "Bazooka Rounds (20)",
+      "entries": [
+        "Ammunition for bazookas and similar heavy firearms. Typically used in military or pirate-grade weaponry."
+      ],
+      "type": "G",
+      "cost": { "unit": "฿", "value": 100000 },
+      "weight": 5,
+      "page": 147,
+      "source": "D&DF-PHB",
+      "rarity": "none"
+    },
+    {
+      "name": "Case, Gun Bullets",
+      "entries": [
+        "This wooden case can hold up to twenty gun bullets or five bazooka rounds."
+      ],
+      "type": "G",
+      "cost": { "unit": "฿", "value": 10000 },
+      "weight": 1,
+      "page": 147,
+      "source": "D&DF-PHB",
+      "rarity": "none"
+    },
+    {
+      "name": "Fire Explosive",
+      "entries": [
+        "Explosives require a method of being lit using heat or fire, and then being thrown. As an action, you can throw this explosive up to 20 feet, letting it explode where it lands.",
+        "Make a ranged attack against a creature or object, treating it as an improvised weapon. On a hit, the target takes 1d4 fire damage at the start of each of its turns.",
+        "If it hits flammable material, it burns away a random 5-foot cube per round. A creature can extinguish the fire with a DC 10 Dexterity check or water."
+      ],
+      "type": "G",
+      "cost": { "unit": "฿", "value": 500000 },
+      "weight": 1,
+      "page": 147,
+      "source": "D&DF-PHB",
+      "rarity": "none"
+    },
+    {
+      "name": "Gun Bullets (20)",
+      "entries": [
+        "Standard ammunition for pistols and rifles used by pirates, marines, and bounty hunters."
+      ],
+      "type": "G",
+      "cost": { "unit": "฿", "value": 10000 },
+      "weight": 1.5,
+      "page": 147,
+      "source": "D&DF-PHB",
+      "rarity": "none"
+    },
+    {
+      "name": "Handcuffs",
+      "entries": [
+        "Metal restraints designed to bind a Small or Medium creature. Escaping requires a DC 20 Dexterity check; breaking them requires a DC 20 Strength check.",
+        "They come with one key. A creature proficient with thieves' tools can pick the lock with a DC 15 Dexterity check.",
+        "Handcuffs have 15 hit points."
+      ],
+      "type": "G",
+      "cost": { "unit": "฿", "value": 20000 },
+      "weight": 6,
+      "page": 147,
+      "source": "D&DF-PHB",
+      "rarity": "none"
+    },
+    {
+      "name": "Log Pose",
+      "entries": [
+        "A log pose, similar to a compass, helps navigators find their way to nearby islands or locations.",
+        "It records magnetic waves unique to each island, allowing safe travel on the Grand Line.",
+        "Paradise log poses do not work in the New World; a New World log pose (ten times more expensive) is required there."
+      ],
+      "type": "G",
+      "cost": { "unit": "฿", "value": 500000 },
+      "weight": 0.25,
+      "page": 147,
+      "source": "D&DF-PHB",
+      "rarity": "none"
+    },
+    {
+      "name": "Pirate's Pack",
+      "type": "G",
+      "cost": { "unit": "฿", "value": 320000 },
+      "weight": 24,
+      "page": 147,
+      "source": "D&DF-PHB",
+      "rarity": "none",
+      "entries": [
+        "Includes:",
+        {
+          "type": "list",
+          "items": [
+            "a chest",
+            "a bag of 1,000 ball bearings",
+            "2 cases for maps and scrolls",
+            "a set of travelers' clothes",
+            "an ink pen",
+            "a bottle of ink and 5 sheets of paper",
+            "a hammer",
+            "soap",
+            "a lamp",
+            "2 flasks of oil",
+            "20 days of rations",
+            "a tankard",
+            "a fishing tackle",
+            "a small knife"
+          ]
+        },
+        "The pack also has 50 feet of hempen rope strapped to the side of it."
+      ]
+    },
+    {
+      "name": "Power Source",
+      "entries": [
+        "A special item—battery, dial, energy crystal, or fuel rod—designed to channel energy for abilities or spells.",
+        "Tinkerers can use it as a spellcasting focus for technological or energy-based powers."
+      ],
+      "type": "G",
+      "cost": { "unit": "฿", "value": 100000 },
+      "weight": 3,
+      "page": 147,
+      "source": "D&DF-PHB",
+      "rarity": "none"
+    },
+    {
+      "name": "Steel Wootz Armor",
+      "entries": [
+        "Consists of shaped, interlocking steel plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, giant shoulder plates, and thick layers of padding underneath the armor. Sometimes comes in a gold coating."
+      ],
+      "type": "HA",
+      "ac": 18,
+      "strength": "Str 15",
+      "stealth": true,
+      "cost": { "unit": "฿", "value": 15000000 },
+      "weight": 65,
+      "page": 140,
+      "source": "D&DF-PHB",
+      "rarity": "none"
+    },
+    {
+      "name": "Dense Coat",
+      "entries": [],
+      "type": "HA",
+      "ac": 11,
+      "stealth": true,
+      "cost": { "unit": "฿", "value": 50000 },
+      "weight": 8,
+      "page": 140,
+      "source": "D&DF-PHB",
+      "rarity": "none"
+    },
+    {
+      "name": "Light Bulletproof Shirt",
+      "entries": [],
+      "type": "HA",
+      "ac": 12,
+      "cost": { "unit": "฿", "value": 450000 },
+      "weight": 9,
+      "page": 140,
+      "source": "D&DF-PHB",
+      "rarity": "none"
+    },
+    {
+      "name": "Thick Shirt",
+      "entries": [],
+      "type": "HA",
+      "ac": 11,
+      "cost": { "unit": "฿", "value": 100000 },
+      "weight": 6,
+      "page": 140,
+      "source": "D&DF-PHB",
+      "rarity": "none"
+    },
+    {
+      "name": "Bulletproof Jacket",
+      "entries": [
+        "A protective jacket consisting of durable synthetic fibers that provides decent protection against bullets and other weapons without making too much noise."
+      ],
+      "type": "HA",
+      "ac": 13,
+      "dexterityMax": 2,
+      "cost": { "unit": "฿", "value": 500000 },
+      "weight": 11,
+      "page": 140,
+      "source": "D&DF-PHB",
+      "rarity": "none"
+    },
+    {
+      "name": "Bulletproof Suit",
+      "entries": [
+        "This armor consists of fully bulletproof materials made from durable synthetic fibers. Your vital organs are completely protected by this suit, though your legs and arms are left partially uncovered."
+      ],
+      "type": "HA",
+      "ac": 14,
+      "dexterityMax": 2,
+      "cost": { "unit": "฿", "value": 4000000 },
+      "weight": 14,
+      "page": 140,
+      "source": "D&DF-PHB",
+      "rarity": "none"
     }
   ]
 }

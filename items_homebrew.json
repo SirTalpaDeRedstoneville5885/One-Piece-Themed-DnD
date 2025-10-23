@@ -1,0 +1,449 @@
+{
+  "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+  "_meta": {
+    "sources": [
+      {
+        "json": "D&DFitems",
+        "abbreviation": "D&DF-items",
+        "full": "One Piece Dungeons and Devil Fruits Player Handbook items",
+        "authors": [
+          "OneWorldHD"
+        ],
+        "convertedBy": [
+          "Tarun",
+          "SirTalpadeRedstoneville58"
+        ],
+        "version": "0.0.1",
+        "color": "0B3075",
+        "url": "https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm"
+      }
+    ],
+    "dateAdded": 1761177016,
+    "dateLastModified": 1761177016,
+    "edition": "classic"
+  },
+  "item": [  
+    {
+      "entries": [
+        "**Speed:** 60 ft.",
+        "**Carrying capacity:** 580 lb."
+      ],
+      "name": "Bananawani (F-wani)",
+      "type": "mount",
+      "value": "฿4,500,000",
+      "page": 147,
+      "source": "D&DF-PHB",
+      "rarity": "none"
+    },
+    {
+      "entries": [
+        "**Speed:** 50 ft. (swim & fly)",
+        "**Carrying capacity:** 520 lb."
+      ],
+      "name": "Flying Fish",
+      "type": "mount",
+      "value": "฿10,000,000",
+      "page": 147,
+      "source": "D&DF-PHB",
+      "rarity": "none"
+    },
+    {
+      "entries": [
+        "**Speed:** 60 ft.",
+        "**Carrying capacity:** 590 lb."
+      ],
+      "name": "Komadane",
+      "type": "mount",
+      "value": "฿6,500,000",
+      "page": 147,
+      "source": "D&DF-PHB",
+      "rarity": "none"
+    },
+    {
+      "entries": [
+        "**Speed:** 60 ft.",
+        "**Carrying capacity:** 570 lb."
+      ],
+      "name": "Komashika",
+      "type": "mount",
+      "value": "฿6,000,000",
+      "page": 147,
+      "source": "D&DF-PHB",
+      "rarity": "none"
+    },
+    {
+      "entries": [
+        "**Speed:** 60 ft.",
+        "**Carrying capacity:** 550 lb."
+      ],
+      "name": "Komatori",
+      "type": "mount",
+      "value": "฿5,500,000",
+      "page": 147,
+      "source": "D&DF-PHB",
+      "rarity": "none"
+    },
+    {
+      "entries": [
+        "**Speed:** 60 ft.",
+        "**Carrying capacity:** 275 lb."
+      ],
+      "name": "Super Spot-Billed Duck",
+      "type": "mount",
+      "value": "฿400,000",
+      "page": 147,
+      "source": "D&DF-PHB",
+      "rarity": "none"
+    },
+    {
+      "entries": [
+        "**Speed:** 40 ft. (swim)",
+        "**Carrying capacity:** 620 lb."
+      ],
+      "name": "Yagara Bull",
+      "type": "mount",
+      "value": "฿5,000,000",
+      "page": 147,
+      "source": "D&DF-PHB",
+      "rarity": "none"
+    },
+    {
+      "entries": [],
+      "name": "Colossal Saddle",
+      "type": "G",
+      "value": "฿14,500,000",
+      "weight": "900 lb.",
+      "page": 147,
+      "source": "D&DF-PHB",
+      "rarity": "none"
+    },
+    {
+      "entries": [],
+      "name": "Exotic Saddle",
+      "type": "G",
+      "value": "฿600,000",
+      "weight": "40 lb.",
+      "page": 147,
+      "source": "D&DF-PHB",
+      "rarity": "none"
+    },
+    {
+      "entries": [
+        "**Max crew:** 1000",
+        "**Speed:** 5 mph",
+        "**Builder:** required"
+      ],
+      "name": "Battleship",
+      "type": "veh",
+      "value": "฿3,000,000,000",
+      "page": 147,
+      "source": "D&DF-PHB",
+      "rarity": "none"
+    },
+    {
+      "entries": [
+        "**Max crew:** 30",
+        "**Speed:** 5 mph"
+      ],
+      "name": "Brig",
+      "type": "veh",
+      "value": "฿150,000,000",
+      "page": 147,
+      "source": "D&DF-PHB",
+      "rarity": "none"
+    },
+    {
+      "entries": [
+        "**Max crew:** 8",
+        "**Speed:** 4 mph"
+      ],
+      "name": "Caravel",
+      "type": "veh",
+      "value": "฿50,000,000",
+      "page": 147,
+      "source": "D&DF-PHB",
+      "rarity": "none"
+    },
+    {
+      "entries": [
+        "**Max crew:** 100",
+        "**Speed:** 3 mph"
+      ],
+      "name": "Carrack",
+      "type": "veh",
+      "value": "฿300,000,000",
+      "page": 147,
+      "source": "D&DF-PHB",
+      "rarity": "none"
+    },
+    {
+      "entries": [
+        "**Max crew:** 20",
+        "**Speed:** 4 mph"
+      ],
+      "name": "Cog",
+      "type": "veh",
+      "value": "฿100,000,000",
+      "page": 147,
+      "source": "D&DF-PHB",
+      "rarity": "none"
+    },
+    {
+      "entries": [
+        "**Max crew:** 200",
+        "**Speed:** 4 mph"
+      ],
+      "name": "Galleon",
+      "type": "veh",
+      "value": "฿500,000,000",
+      "page": 147,
+      "source": "D&DF-PHB",
+      "rarity": "none"
+    },
+    {
+      "entries": [
+        "**Max crew:** 400",
+        "**Speed:** 3 mph",
+        "**Builder:** required"
+      ],
+      "name": "Man-o-War",
+      "type": "veh",
+      "value": "฿1,000,000,000",
+      "page": 147,
+      "source": "D&DF-PHB",
+      "rarity": "none"
+    },
+    {
+      "entries": [
+        "**Max crew:** 3",
+        "**Speed:** 3 mph"
+      ],
+      "name": "Sloop",
+      "type": "veh",
+      "value": "฿30,000,000",
+      "page": 147,
+      "source": "D&DF-PHB",
+      "rarity": "none"
+    },
+    {
+      "entries": [
+        "**Max crew:** 20",
+        "**Speed:** 5 mph",
+        "**Builder:** required"
+      ],
+      "name": "Submarine",
+      "type": "veh",
+      "value": "฿600,000,000",
+      "page": 147,
+      "source": "D&DF-PHB",
+      "rarity": "none"
+    },
+    {
+      "entries": [
+        "**Max crew:** 1",
+        "**Speed:** 25 mph"
+      ],
+      "name": "Waver",
+      "type": "veh",
+      "value": "฿5,000,000",
+      "page": 147,
+      "source": "D&DF-PHB",
+      "rarity": "none"
+    },
+    {
+      "entries": [],
+      "name": "Cutlass",
+      "type": "M",
+      "dmg1": "1d6",
+      "dmgType": "slashing",
+      "property": [
+        "Light](3-Mechanics/CLI/rules/item-properties.md#light)"
+      ],
+      "value": "฿300,000",
+      "weight": "3 lb.",
+      "page": 142,
+      "source": "D&DF-PHB",
+      "rarity": "none"
+    },
+    {
+      "entries": [],
+      "name": "Katana, light",
+      "type": "M",
+      "dmg1": "1d8",
+      "dmgType": "slashing",
+      "property": [
+        "Finesse](3-Mechanics/CLI/rules/item-properties.md#finesse)"
+      ],
+      "value": "฿300,000",
+      "weight": "2 lb.",
+      "page": 142,
+      "source": "D&DF-PHB",
+      "rarity": "none"
+    },
+    {
+      "entries": [],
+      "name": "Katana",
+      "type": "M",
+      "dmg1": "1d8 slashing\n1d10 slashing two handed",
+      "property": [
+        "Versatile](3-Mechanics/CLI/rules/item-properties.md#versatile-1d10)"
+      ],
+      "value": "฿200,000",
+      "weight": "3 lb.",
+      "page": 142,
+      "source": "D&DF-PHB",
+      "rarity": "none"
+    },
+    {
+      "entries": [],
+      "name": "Saber",
+      "type": "M",
+      "dmg1": "1d8",
+      "dmgType": "slashing",
+      "property": [
+        "Finesse](3-Mechanics/CLI/rules/item-properties.md#finesse)"
+      ],
+      "value": "฿300,000",
+      "weight": "3 lb.",
+      "page": 142,
+      "source": "D&DF-PHB",
+      "rarity": "none"
+    },
+    {
+      "entries": [],
+      "name": "Bazooka",
+      "type": "M",
+      "dmg1": "2d6",
+      "dmgType": "fire",
+      "range": "60/300",
+      "property": [
+        "Ammunition](3-Mechanics/CLI/rules/item-properties.md#ammunition)",
+        "Heavy](3-Mechanics/CLI/rules/item-properties.md#heavy)",
+        "Loading](3-Mechanics/CLI/rules/item-properties.md#loading)",
+        "Two-handed](3-Mechanics/CLI/rules/item-properties.md#two-handed)"
+      ],
+      "value": "฿5,000,000",
+      "weight": "18 lb.",
+      "page": 143,
+      "source": "D&DF-PHB",
+      "rarity": "none",
+      "firearm": true
+    },
+    {
+      "entries": [],
+      "name": "Machine Gun",
+      "type": "M",
+      "dmg1": "3d4",
+      "dmgType": "piercing",
+      "range": "80/320",
+      "property": [
+        "Ammunition](3-Mechanics/CLI/rules/item-properties.md#ammunition)",
+        "Heavy](3-Mechanics/CLI/rules/item-properties.md#heavy)",
+        "Loading](3-Mechanics/CLI/rules/item-properties.md#loading)",
+        "Two-handed](3-Mechanics/CLI/rules/item-properties.md#two-handed)"
+      ],
+      "value": "฿2,500,000",
+      "weight": "18 lb.",
+      "page": 143,
+      "source": "D&DF-PHB",
+      "rarity": "none",
+      "firearm": true
+    },
+    {
+      "entries": [],
+      "name": "Musket",
+      "type": "M",
+      "dmg1": "1d10",
+      "dmgType": "bludgeoning",
+      "range": "80/320",
+      "property": [
+        "Ammunition](3-Mechanics/CLI/rules/item-properties.md#ammunition)",
+        "Loading](3-Mechanics/CLI/rules/item-properties.md#loading)",
+        "Two-handed](3-Mechanics/CLI/rules/item-properties.md#two-handed)"
+      ],
+      "value": "฿250,000",
+      "weight": "8 lb.",
+      "page": 143,
+      "source": "D&DF-PHB",
+      "rarity": "none",
+      "firearm": true
+    },
+    {
+      "entries": [],
+      "name": "Pistol",
+      "type": "M",
+      "dmg1": "1d10",
+      "dmgType": "piercing",
+      "range": "30/120",
+      "property": [
+        "Ammunition](3-Mechanics/CLI/rules/item-properties.md#ammunition)",
+        "Light](3-Mechanics/CLI/rules/item-properties.md#light)",
+        "Loading](3-Mechanics/CLI/rules/item-properties.md#loading)"
+      ],
+      "value": "฿750,000",
+      "weight": "3 lb.",
+      "page": 143,
+      "source": "D&DF-PHB",
+      "rarity": "none",
+      "firearm": true
+    },
+    {
+      "entries": [],
+      "name": "Rifle, sniper",
+      "type": "M",
+      "dmg1": "2d6",
+      "dmgType": "piercing",
+      "range": "150/600",
+      "property": [
+        "Ammunition](3-Mechanics/CLI/rules/item-properties.md#ammunition)",
+        "Heavy](3-Mechanics/CLI/rules/item-properties.md#heavy)",
+        "Loading](3-Mechanics/CLI/rules/item-properties.md#loading)",
+        "Two-handed](3-Mechanics/CLI/rules/item-properties.md#two-handed)"
+      ],
+      "value": "฿5,000,000",
+      "weight": "18 lb.",
+      "page": 143,
+      "source": "D&DF-PHB",
+      "rarity": "none",
+      "firearm": true
+    },
+    {
+      "entries": [],
+      "name": "Rifle",
+      "type": "M",
+      "dmg1": "1d12",
+      "dmgType": "piercing",
+      "range": "80/320",
+      "property": [
+        "Ammunition](3-Mechanics/CLI/rules/item-properties.md#ammunition)",
+        "Heavy](3-Mechanics/CLI/rules/item-properties.md#heavy)",
+        "Loading](3-Mechanics/CLI/rules/item-properties.md#loading)",
+        "Two-handed](3-Mechanics/CLI/rules/item-properties.md#two-handed)"
+      ],
+      "value": "฿1,000,000",
+      "weight": "18 lb.",
+      "page": 143,
+      "source": "D&DF-PHB",
+      "rarity": "none",
+      "firearm": true
+    },
+    {
+      "entries": [],
+      "name": "Sling, giant",
+      "type": "M",
+      "dmg1": "1d8",
+      "dmgType": "bludgeoning",
+      "range": "60/600",
+      "property": [
+        "Ammunition](3-Mechanics/CLI/rules/item-properties.md#ammunition)",
+        "Heavy](3-Mechanics/CLI/rules/item-properties.md#heavy)",
+        "Two-handed](3-Mechanics/CLI/rules/item-properties.md#two-handed)"
+      ],
+      "value": "฿150,000",
+      "weight": "5 lb.",
+      "page": 143,
+      "source": "D&DF-PHB",
+      "rarity": "none"
+    }
+  ]
+}
