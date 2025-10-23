@@ -12,7 +12,7 @@
           "Tarun",
           "SirTalpadeRedstoneville58"
         ],
-        "version": "2.1.1",
+        "version": "2.3.0",
         "color": "0B3075",
         "url": "https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm"
       }
@@ -6970,10 +6970,10 @@
     {
       "name": "Attack Cuisine",
       "entries": [
-        "A character who eats this powerful meal regains 2d4 + 2 hit points. Eating it all takes an action."
+        "A character who eats this powerful meal regains {@dice 2d4 + 2} hit points. Eating it all takes an action."
       ],
       "type": "G",
-      "cost": { "unit": "฿", "value": 500000 },
+      "value": 5000,
       "weight": 2,
       "page": 147,
       "source": "D&DF-PHB",
@@ -6985,7 +6985,7 @@
         "Ammunition for bazookas and similar heavy firearms. Typically used in military or pirate-grade weaponry."
       ],
       "type": "G",
-      "cost": { "unit": "฿", "value": 100000 },
+      "value": 1000,
       "weight": 5,
       "page": 147,
       "source": "D&DF-PHB",
@@ -6997,7 +6997,7 @@
         "This wooden case can hold up to twenty gun bullets or five bazooka rounds."
       ],
       "type": "G",
-      "cost": { "unit": "฿", "value": 10000 },
+      "value": 100,
       "weight": 1,
       "page": 147,
       "source": "D&DF-PHB",
@@ -7011,7 +7011,7 @@
         "If it hits flammable material, it burns away a random 5-foot cube per round. A creature can extinguish the fire with a DC 10 Dexterity check or water."
       ],
       "type": "G",
-      "cost": { "unit": "฿", "value": 500000 },
+      "value": 5000,
       "weight": 1,
       "page": 147,
       "source": "D&DF-PHB",
@@ -7023,7 +7023,7 @@
         "Standard ammunition for pistols and rifles used by pirates, marines, and bounty hunters."
       ],
       "type": "G",
-      "cost": { "unit": "฿", "value": 10000 },
+      "value": 100,
       "weight": 1.5,
       "page": 147,
       "source": "D&DF-PHB",
@@ -7037,7 +7037,7 @@
         "Handcuffs have 15 hit points."
       ],
       "type": "G",
-      "cost": { "unit": "฿", "value": 20000 },
+      "value": 200,
       "weight": 6,
       "page": 147,
       "source": "D&DF-PHB",
@@ -7051,7 +7051,7 @@
         "Paradise log poses do not work in the New World; a New World log pose (ten times more expensive) is required there."
       ],
       "type": "G",
-      "cost": { "unit": "฿", "value": 500000 },
+      "value": 5000,
       "weight": 0.25,
       "page": 147,
       "source": "D&DF-PHB",
@@ -7060,7 +7060,7 @@
     {
       "name": "Pirate's Pack",
       "type": "G",
-      "cost": { "unit": "฿", "value": 320000 },
+      "value": 3200,
       "weight": 24,
       "page": 147,
       "source": "D&DF-PHB",
@@ -7096,7 +7096,7 @@
         "Tinkerers can use it as a spellcasting focus for technological or energy-based powers."
       ],
       "type": "G",
-      "cost": { "unit": "฿", "value": 100000 },
+      "value": 1000,
       "weight": 3,
       "page": 147,
       "source": "D&DF-PHB",
@@ -7111,7 +7111,7 @@
       "ac": 18,
       "strength": 15,
       "stealth": true,
-      "cost": { "unit": "฿", "value": 15000000 },
+      "value": 150000,
       "weight": 65,
       "page": 140,
       "source": "D&DF-PHB",
@@ -7123,7 +7123,7 @@
       "type": "LA",
       "ac": 11,
       "stealth": true,
-      "cost": { "unit": "฿", "value": 50000 },
+      "value": 500,
       "weight": 8,
       "page": 140,
       "source": "D&DF-PHB",
@@ -7134,7 +7134,7 @@
       "entries": ["An undershirt consisting of durable synthetic fibers that provides noticeable protection against bullets and other weapons."],
       "type": "LA",
       "ac": 12,
-      "cost": { "unit": "฿", "value": 450000 },
+      "value": 4500,
       "weight": 9,
       "page": 140,
       "source": "D&DF-PHB",
@@ -7145,7 +7145,7 @@
       "entries": ["Thicker shirts consist of high-quality quilted cloth or leathers that don't hinder flexibility."],
       "type": "LA",
       "ac": 11,
-      "cost": { "unit": "฿", "value": 100000 },
+      "value": 1000,
       "weight": 6,
       "page": 140,
       "source": "D&DF-PHB",
@@ -7159,7 +7159,7 @@
       "type": "MA",
       "ac": 13,
       "dexterityMax": 2,
-      "cost": { "unit": "฿", "value": 500000 },
+      "value": 5000,
       "weight": 11,
       "page": 140,
       "source": "D&DF-PHB",
@@ -7173,7 +7173,7 @@
       "type": "MA",
       "ac": 14,
       "dexterityMax": 2,
-      "cost": { "unit": "฿", "value": 4000000 },
+      "value": 40000,
       "weight": 14,
       "page": 140,
       "source": "D&DF-PHB",
@@ -7187,12 +7187,12 @@
       "rarity": "none",
       "ac": 15,
       "dexterityMax": 2,
-      "cost": { "unit": "฿", "value": 75000000 },
+      "value": 750000,
       "weight": 40,
       "stealth": true,
       "entries": [
         "This half plate armor is crafted from nearly impenetrable Sea King hide and scale plating that covers most of the wearer's body."
       ]
-    },
+    }
   ]
 }
