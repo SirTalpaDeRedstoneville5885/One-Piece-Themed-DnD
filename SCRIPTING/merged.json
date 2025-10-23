@@ -12,7 +12,7 @@
           "Tarun",
           "SirTalpadeRedstoneville58"
         ],
-        "version": "2.3.6",
+        "version": "2.3.7",
         "color": "0B3075",
         "url": "https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm"
       }
@@ -7197,7 +7197,6 @@
       "name": "Colossal Saddle",
       "source": "D&DF-PHB",
       "page": 147,
-      "basicRules": true,
       "type": "TAH",
       "rarity": "none",
       "weight": 900,
@@ -7252,12 +7251,12 @@
       "rarity": "none"
     },
     {
-      "entries": [],
       "name": "Bazooka",
-      "type": "M",
+      "entries": [],
+      "type": "R",
       "dmg1": "2d6",
       "weaponCategory": "martial",
-      "dmgType": "fire",
+      "dmgType": "F",
       "range": "60/300",
       "property": [
         "H",
@@ -7275,9 +7274,9 @@
       "firearm": true
     },
     {
-      "entries": [],
       "name": "Machine Gun",
-      "type": "M",
+      "entries": [],
+      "type": "R",
       "dmg1": "3d4",
       "dmgType": "P",
       "range": "80/320",
@@ -7298,9 +7297,9 @@
       "firearm": true
     },
     {
-      "entries": [],
       "name": "Rifle, sniper",
-      "type": "M",
+      "entries": [],
+      "type": "R",
       "dmg1": "2d6",
       "dmgType": "P",
       "range": "150/600",
@@ -7321,9 +7320,9 @@
       "firearm": true
     },
     {
-      "entries": [],
       "name": "Rifle",
-      "type": "M",
+      "entries": [],
+      "type": "R",
       "dmg1": "1d12",
       "dmgType": "P",
       "range": "80/320",
@@ -7342,9 +7341,9 @@
       "firearm": true
     },
     {
-      "entries": [],
       "name": "Sling, giant",
-      "type": "M",
+      "entries": [],
+      "type": "R",
       "dmg1": "1d8",
       "dmgType": "B",
       "range": "60/600",
