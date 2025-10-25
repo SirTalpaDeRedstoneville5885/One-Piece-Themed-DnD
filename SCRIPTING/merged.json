@@ -12,7 +12,7 @@
           "Tarun",
           "SirTalpadeRedstoneville58"
         ],
-        "version": "2.4.0",
+        "version": "2.4.1",
         "color": "0B3075",
         "url": "https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm"
       }
@@ -7362,87 +7362,67 @@
       "rarity": "none"
     },
     {
-      "name": "Ace (Supreme Meito)",
-      "entries": [
-        {
-                      "type": "list",
-                      "items": [
-                        {
-                          "type": "entries",
-                          "name": "Black Surge",
-                          "entries": [
-                            "Ace surges with black lightning haki when held by powerful users. It deals an extra {@dice 2d6} force damage to any target it hits."
-                          ]
-                        },
-                        {
-                          "type": "entries",
-                          "name": "Supreme Meito",
-                          "entries": [
-                            "This weapon once belonged to the Pirate King, seving as his trademarked weapon. It ranks as one of the 12 Supreme Grade Meito.",
-                            "You gain a +3 bonus to Attack and Damage Rolls made with this weapon."
-                          ]
-                        },
-                        {
-                          "type": "list",
-                          "name": "Conqueror's Divine Will",
-                          "items": [
-                            {
-                              "type": "entries",
-                              "entries": [
-                                "You can telepathically communicate with Sea Kings within 60 feet of you."
-                              ],
-                              "type": "entries",
-                                "name": "",
-                                "page": 0,
-                                "entries": [
-                                  "Ace scores a critical hit on a roll of 19 or 20."
-                                ],
-                              "type": "entries",
-                                "name": "",
-                                "page": 0,
-                                "entries": [
-                                  "You can cast Dominate Monster (save DC 17) on another creature. Once you have done so, Ace can’t be used this way again until the next dawn."
-                                ]
-                            }
-                          ]
-                        }
-                      ]
-                    }
-      ],
-      "baseItem": "cutlass| D&DF-PHB",
-      "weaponCategory": "martial",
-      "reqAttune": true,
-      "ammunition": true,
-      "reload": 1,
-      "value": 1500,
-      "weight": 5,
-      "page": 143,
-      "source": "D&DF-PHB",
-      "bonusWeapon": "+3",
-      "attachedSpells": {
-        "daily": {
-                  "1e": [
-                    "dominate monster|phb"
-                  ]
-                }
-      },
-      "rarity": "legendary"
+    "name": "Ace (Supreme Meito)",
+    "entries": [
+      {
+        "type": "list",
+        "items": [
+          {
+            "type": "entries",
+            "name": "Black Surge",
+            "entries": [
+              "Ace surges with black lightning haki when held by powerful users. It deals an extra {@dice 2d6} force damage to any target it hits."
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Supreme Meito",
+            "entries": [
+              "This weapon once belonged to the Pirate King, serving as his trademarked weapon. It ranks as one of the 12 Supreme Grade Meito.",
+              "You gain a +3 bonus to Attack and Damage Rolls made with this weapon."
+            ]
+          },
+          {
+            "type": "entries",
+            "name": "Conqueror's Divine Will",
+            "entries": [
+              "You can telepathically communicate with Sea Kings within 60 feet of you.",
+              "Ace scores a critical hit on a roll of 19 or 20.",
+              "You can cast Dominate Monster (save DC 17) on another creature. Once you have done so, Ace can’t be used this way again until the next dawn."
+            ]
+          }
+        ]
+      }
+    ],
+    "baseItem": "cutlass|D&DF-PHB",
+    "weaponCategory": "martial",
+    "reqAttune": true,
+    "ammunition": true,
+    "reload": 1,
+    "value": 1500,
+    "weight": 5,
+    "page": 143,
+    "source": "D&DF-PHB",
+    "bonusWeapon": "+3",
+    "attachedSpells": {
+      "daily": {
+        "1e": ["dominate monster|phb"]
+      }
     },
-    {
-      "entries": [],
-      "name": "Cutlass",
-      "type": "M",
-      "dmg1": "1d6",
-      "dmgType": "S",
-      "property": [
-        "L"
-      ],
-      "value": 3000,
-      "weight": 3,
-      "page": 142,
-      "source": "D&DF-PHB",
-      "rarity": "none"
-    },
-
-  ]
+    "rarity": "legendary"
+  },
+  {
+    "entries": [],
+    "name": "Cutlass",
+    "type": "M",
+    "dmg1": "1d6",
+    "dmgType": "S",
+    "property": ["L"],
+    "value": 3000,
+    "weight": 3,
+    "page": 142,
+    "source": "D&DF-PHB",
+    "rarity": "none"
+  }
+]
 }
