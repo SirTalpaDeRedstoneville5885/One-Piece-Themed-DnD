@@ -7399,7 +7399,7 @@
                       ]
                     }
       ],
-      "baseitem": "cutlass| D&DF-PHB",
+      "baseItem": "cutlass| D&DF-PHB",
       "weaponCategory": "martial",
       "reqAttune": true,
       "ammunition": true,
