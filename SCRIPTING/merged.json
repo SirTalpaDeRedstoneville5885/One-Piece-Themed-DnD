@@ -7375,26 +7375,24 @@
                           ]
                         },
                         {
+                          "type": "entries",
+                          "name": "Supreme Meito",
+                          "entries": [
+                            "This weapon once belonged to the Pirate King, seving as his trademarked weapon. It ranks as one of the 12 Supreme Grade Meito.",
+                            "You gain a +3 bonus to Attack and Damage Rolls made with this weapon."
+                          ]
+                        },
+                        {
                           "type": "list",
                           "name": "Conqueror's Divine Will",
-                          "entries": [
-                            "This calm strip of sea that rests on both outer borders on each side of the Grand Line, contains many islands and creatures within it. However, despite its name, crossing the Calm Belt can prove to be instantly fatal to even the most powerful of pirate crews. Due to the complete absence of ocean currents and winds throughout the Calm Belt, there are very few ships that can effectively move through it. Additionally, a near-infinite number of Sea Kings and other sea monsters make the Calm Belt their home and will immediately destroy any suspecting ship or creature attempting to move over it.",
-                            "Only a select few ships manufactured by the Marines or special Kingdoms will dare to cross the Calm Belt using seastone technology or sea monster guides to bypass the dangers it presents."
-                          ],
                           "items": [
                             {
                               "type": "entries",
                               "entries": [
-                                "You can telepathically communicate with Sea Kings within 60 feet of you."
-                              ],
-                              "type": "entries",
-                              "entries": [
-                                "Ace scores a critical hit on a roll of 19 or 20."
-                              ],
-                              "type": "entries",
-                              "entries": [
+                                "You can telepathically communicate with Sea Kings within 60 feet of you.",
+                                "Ace scores a critical hit on a roll of 19 or 20.",
                                 "You can cast Dominate Monster (save DC 17) on another creature. Once you have done so, Ace can’t be used this way again until the next dawn."
-                              ]                              
+                              ]                    
                             }
                           ]
                         }
