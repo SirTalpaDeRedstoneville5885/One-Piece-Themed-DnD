@@ -7491,7 +7491,7 @@
      "name": "Yoru (Supreme Meito)",
      "type": "M",
      "rarity": "legendary",
-     "source": "D&DF-PHB",
+     "source": "D&DF-DMG",
      "baseItem": "greatsword|phb",
      "weaponCategory": "martial",
      "reqAttune": true,

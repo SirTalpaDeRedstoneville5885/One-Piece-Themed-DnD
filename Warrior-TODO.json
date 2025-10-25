@@ -5,7 +5,7 @@
          {
             "json":"D&DF-PHB",
             "abbreviation":"D&DF-PHB",
-            "full":"One Piece Rogue",
+            "full":"One Piece Warrior",
             "authors":[
                "OneWorldHD"
             ],
@@ -25,89 +25,79 @@
    "class": [ 
       {
    "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
-         "name":"Rogue",
+         "name":"Warrior",
          "source":"D&DF-PHB",         
          "classFeatures": [
-            "Expertise|Rogue|D&DF-PHB|1",
-            "Sneak Attack|Rogue|D&DF-PHB|1",
-            "Thieves' Cant|Rogue|D&DF-PHB|1",
-            "Cunning Action|Rogue|D&DF-PHB|2",
+            "Fighting Style|Warrior||1",
+            "Second Wind|Warrior||1",
+            "Action Surge|Warrior||2",
             {
-               "classFeature": "Roguish Archetype|Rogue|D&DF-PHB|3",
+               "classFeature": "Martial Archetype|Warrior||3",
                "gainSubclassFeature": true
             },
-            "Steady Aim|Rogue|D&DF-PHB|3",
-            "Ability Score Improvement|Rogue|D&DF-PHB|4",
-            "Uncanny Dodge|Rogue|D&DF-PHB|5",
-            "Expertise|Rogue|D&DF-PHB|6",
-            "Evasion|Rogue|D&DF-PHB|7",
-            "Ability Score Improvement|Rogue|D&DF-PHB|8",
+            "Ability Score Improvement|Warrior||4",
+            "Martial Versatility|Warrior||4|TCE",
+            "Extra Attack|Warrior||5",
+            "Ability Score Improvement|Warrior||6",
             {
-               "classFeature": "Roguish Archetype feature|Rogue|D&DF-PHB|9",
+               "classFeature": "Martial Archetype feature|Warrior||7",
                "gainSubclassFeature": true
             },
-            "Ability Score Improvement|Rogue|D&DF-PHB|10",
-            "Reliable Talent|Rogue|D&DF-PHB|11",
-            "Ability Score Improvement|Rogue|D&DF-PHB|12",
+            "Ability Score Improvement|Warrior||8",
+            "Indomitable|Warrior||9",
             {
-               "classFeature": "Roguish Archetype feature|Rogue|D&DF-PHB|13",
+               "classFeature": "Martial Archetype feature|Warrior||10",
                "gainSubclassFeature": true
             },
-            "Power of Observation|Rogue|D&DF-PHB|14",
-            "Slippery Mind|Rogue|D&DF-PHB|15",
-            "Ability Score Improvement|Rogue|D&DF-PHB|16",
+            "Extra Attack (2)|Warrior||11",
+            "Ability Score Improvement|Warrior||12",
+            "Indomitable (two uses)|Warrior||13",
+            "Ability Score Improvement|Warrior||14",
             {
-               "classFeature": "Roguish Archetype feature|Rogue|D&DF-PHB|17",
+               "classFeature": "Martial Archetype feature|Warrior||15",
                "gainSubclassFeature": true
             },
-            "Elusive|Rogue|D&DF-PHB|18",
-            "Ability Score Improvement|Rogue|D&DF-PHB|19",
-            "Stroke of Luck|Rogue|D&DF-PHB|20"
+            "Ability Score Improvement|Warrior||16",
+            "Action Surge (two uses)|Warrior||17",
+            "Indomitable (three uses)|Warrior||17",
+            {
+               "classFeature": "Martial Archetype feature|Warrior||18",
+               "gainSubclassFeature": true
+            },
+            "Ability Score Improvement|Warrior||19",
+            "Extra Attack (3)|Warrior||20"
          ],
-         "hd":{
-            "number":1,
-            "faces":10
-         },
+         "subclassTitle": "Warrior Type",
          "proficiency":[
-            "dex",
-            "cha"
+            "str",
+            "con"
          ],
          "startingProficiencies": {
             "armor": [
-               "light"
+               "light",
+               "medium",
+               "heavy",
+               "shield"
             ],
             "weapons": [
                "simple",
-               "{@item pistol|dmg|pistols}",
-               "{@item longsword|phb|longswords}",
-               "{@item rapier|phb|rapiers}",
-               "{@item shortsword|phb|shortswords}"
+               "martial"
             ],
-            "tools": [
-               "{@item thieves' tools|PHB}"
-            ],
-            "toolProficiencies": [
-               {
-                  "thieves' tools": true
-               }
-            ],
+            "tools": ["none"],            
             "skills":[
                {
                   "choose":{
                      "from":[
                         "acrobatics",
+                        "animal handling",
                         "athletics",
-                        "deception",
+                        "history",
                         "insight",
                         "intimidation",
-                        "investigation",
                         "perception",
-                        "performance",
-                        "persuasion",
-                        "sleight of hand",
-                        "stealth"
+                        "survival"
                      ],
-                     "count":4
+                     "count":2
                   }
                }
             ]
@@ -115,69 +105,58 @@
          "startingEquipment": {
             "additionalFromBackground": true,
             "default": [
-               "(a) a {@item rapier|phb} or (b) a {@item shortsword|phb}",
-               "(a) a {@item musket|dmg} and 20 {@item bullets|dmg} of {@item arrows (20)|phb|20 arrows} or (b) a {@item shortsword|phb}",
-               "(a) a {@item burglar's pack|phb}, (b) a {@item dungeoneer's pack|phb}, or (c) an {@item explorer's pack|phb}",
-               "{@item thick shirt|D&DF}, two {@item dagger|phb|daggers}, and {@item thieves' tools|phb}"
+               "(a) {@item chain mail|phb} or (b) {@item thick shirt|D&DF-PHB}, {@item rifle|D&DF-PHB}, and {@item bullets (20)|dmg|20 Bullets}",
+               "(a) a {@filter martial weapon|items|source=phb|category=basic|type=martial weapon} and a {@item shield|phb} or (b) two {@filter martial weapons|items|source=phb|category=basic|type=martial weapon}",
+               "(a) a {@item pistol|dmg} and {@item bullets (20)|phb|20 Bullets} or (b) two {@item handaxe|phb|handaxes}",
+               "(a) a {@item dungeoneer's pack|phb} or (b) an {@item explorer's pack|phb}"
             ],
-            "goldAlternative": "{@dice 4d4 × 10|4d4 × 10|Starting Gold}",
+            "goldAlternative": "{@dice 5d4 × 10|5d4 × 10|Starting Gold}",
             "defaultData": [
                {
                   "a": [
-                     "rapier|phb"
+                     "chain mail|phb"
                   ],
                   "b": [
-                     "shortsword|phb"
+                     "{@item thick shirt|D&DF-PHB}",
+                     "{@item rifle|D&DF-PHB}", 
+                     "{@item bullets (20)|dmg|20 Bullets}"
                   ]
                },
                {
                   "a": [
-                     "musket|phb",
-                     "bullets (20)|dmg"
+                     {
+                        "equipmentType": "weaponMartial"
+                     },
+                     "shield|phb"
                   ],
                   "b": [
-                     "pistol|phb",
-                     "bullets (20)|dmg"
+                     {
+                        "equipmentType": "weaponMartial",
+                        "quantity": 2
+                     }
                   ]
                },
                {
                   "a": [
-                     "burglar's pack|phb"
+                     "{@item pistol|dmg}",
+                     "{@item bullets (20)|phb|20 Bullets}"
                   ],
                   "b": [
+                     {
+                        "item": "handaxe|phb",
+                        "quantity": 2
+                     }
+                  ]
+               },
+               {
+                  "a": [
                      "dungeoneer's pack|phb"
                   ],
-                  "c": [
+                  "b": [
                      "explorer's pack|phb"
-                  ]
-               },
-               {
-                  "_": [
-                     "thick shirt|D&DF-pHB",
-                     {
-                        "item": "dagger|phb",
-                        "quantity": 2
-                     },
-                     "thieves' tools|phb"
                   ]
                }
             ]
-         },
-         "multiclassing": {
-            "requirements": {
-               "dex": 13
-            },
-            "proficienciesGained": {
-               "armor": [
-                  "light",
-                  "medium",
-                  "shield"
-               ],
-               "weapons": [
-                  "simple",
-                  "martial"
-               ]
-            }
          }
       }
   ],
@@ -186,7 +165,7 @@
          "name": "Expertise",
          "source": "D&DF-PHB",
          "page": 94,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 1,
          "entries": [
@@ -198,24 +177,24 @@
          "name": "Sneak Attack",
          "source": "D&DF-PHB",
          "page": 94,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 1,
          "entries": [
             "Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra {@damage 1d6} damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.",
             "You don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't {@condition incapacitated}, and you don't have disadvantage on the attack roll.",
-            "The amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the Rogue table."
+            "The amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the Warrior table."
          ]
       },
       {
          "name": "Thieves' Cant",
          "source": "D&DF-PHB",
          "page": 94,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 1,
          "entries": [
-            "During your rogue training you learned thieves' cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creature that knows thieves' cant understands such messages. It takes four times longer to convey such a message than it does to speak the same idea plainly.",
+            "During your Warrior training you learned thieves' cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creature that knows thieves' cant understands such messages. It takes four times longer to convey such a message than it does to speak the same idea plainly.",
             "In addition, you understand a set of secret signs and symbols used to convey short, simple messages, such as whether an area is dangerous or the territory of a thieves' guild, whether loot is nearby, or whether the people in an area are easy marks or will provide a safe house for thieves on the run."
          ]
       },
@@ -223,7 +202,7 @@
          "name": "Cunning Action",
          "source": "D&DF-PHB",
          "page": 94,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 2,
          "entries": [
@@ -231,21 +210,21 @@
          ]
       },
       {
-         "name": "Roguish Archetype",
+         "name": "Warrior Type",
          "source": "D&DF-PHB",
          "page": 94,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 3,
          "entries": [
-            "At 3rd level, you choose an archetype that you emulate in the exercise of your rogue abilities from the list of available archetypes. Your archetype choice grants you features at 3rd level and then again at 9th, 13th, and 17th level."
+            "At 3rd level, you choose an archetype that you emulate in the exercise of your Warrior abilities from the list of available archetypes. Your archetype choice grants you features at 3rd level and then again at 9th, 13th, and 17th level."
          ]
       },
       {
          "name": "Steady Aim",
          "source": "D&DF-PHB",
          "page": 62,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 3,
          "isClassFeatureVariant": true,
@@ -257,7 +236,7 @@
          "name": "Ability Score Improvement",
          "source": "D&DF-PHB",
          "page": 94,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 4,
          "entries": [
@@ -269,7 +248,7 @@
          "name": "Uncanny Dodge",
          "source": "D&DF-PHB",
          "page": 94,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 5,
          "entries": [
@@ -280,7 +259,7 @@
          "name": "Expertise",
          "source": "D&DF-PHB",
          "page": 94,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 6,
          "entries": [
@@ -291,7 +270,7 @@
          "name": "Evasion",
          "source": "D&DF-PHB",
          "page": 94,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 7,
          "entries": [
@@ -302,7 +281,7 @@
          "name": "Ability Score Improvement",
          "source": "D&DF-PHB",
          "page": 94,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 8,
          "entries": [
@@ -311,21 +290,21 @@
          ]
       },
       {
-         "name": "Roguish Archetype feature",
+         "name": "Warrior Type feature",
          "source": "D&DF-PHB",
          "page": 94,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 9,
          "entries": [
-            "At 9th level, you gain a feature granted by your Roguish Archetype."
+            "At 9th level, you gain a feature granted by your Warrior Type."
          ]
       },
       {
          "name": "Ability Score Improvement",
          "source": "D&DF-PHB",
          "page": 94,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 10,
          "entries": [
@@ -337,7 +316,7 @@
          "name": "Reliable Talent",
          "source": "D&DF-PHB",
          "page": 94,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 11,
          "entries": [
@@ -348,7 +327,7 @@
          "name": "Ability Score Improvement",
          "source": "D&DF-PHB",
          "page": 94,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 12,
          "entries": [
@@ -357,21 +336,21 @@
          ]
       },
       {
-         "name": "Roguish Archetype feature",
+         "name": "Warrior Type feature",
          "source": "D&DF-PHB",
          "page": 94,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 13,
          "entries": [
-            "At 13th level, you gain a feature granted by your Roguish Archetype."
+            "At 13th level, you gain a feature granted by your Warrior Type."
          ]
       },
       {
          "name": "Blindsense",
          "source": "D&DF-PHB",
          "page": 94,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 14,
          "entries": [
@@ -382,7 +361,7 @@
          "name": "Slippery Mind",
          "source": "D&DF-PHB",
          "page": 94,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 15,
          "entries": [
@@ -393,7 +372,7 @@
          "name": "Ability Score Improvement",
          "source": "D&DF-PHB",
          "page": 94,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 16,
          "entries": [
@@ -402,21 +381,21 @@
          ]
       },
       {
-         "name": "Roguish Archetype feature",
+         "name": "Warrior Type feature",
          "source": "D&DF-PHB",
          "page": 94,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 17,
          "entries": [
-            "At 17th level, you gain a feature granted by your Roguish Archetype."
+            "At 17th level, you gain a feature granted by your Warrior Type."
          ]
       },
       {
          "name": "Elusive",
          "source": "D&DF-PHB",
          "page": 94,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 18,
          "entries": [
@@ -427,7 +406,7 @@
          "name": "Ability Score Improvement",
          "source": "D&DF-PHB",
          "page": 94,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 19,
          "entries": [
@@ -439,7 +418,7 @@
          "name": "Stroke of Luck",
          "source": "D&DF-PHB",
          "page": 94,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 20,
          "entries": [
@@ -451,32 +430,32 @@
          "name": "Expertise",
          "source": "D&DF-PHB",
          "page": 81,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 1,
          "entries": [
             "You gain {@variantrule Expertise|D&DF-PHB} in two of your skill proficiencies of your choice. {@skill Sleight of Hand|D&DF-PHB} and {@skill Stealth|D&DF-PHB} are recommended if you have proficiency in them.",
-            "At Rogue level 6, you gain {@variantrule Expertise|D&DF-PHB} in two more of your skill proficiencies of your choice."
+            "At Warrior level 6, you gain {@variantrule Expertise|D&DF-PHB} in two more of your skill proficiencies of your choice."
          ]
       },
       {
          "name": "Sneak Attack",
          "source": "D&DF-PHB",
          "page": 81,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 1,
          "entries": [
             "You know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra {@damage 1d6} damage to one creature you hit with an attack roll if you have {@variantrule Advantage|D&DF-PHB} on the roll and the attack uses a Finesse or a Ranged weapon. The extra damage's type is the same as the weapon's type.",
             "You don't need {@variantrule Advantage|D&DF-PHB} on the attack roll if at least one of your allies is within 5 feet of the target, the ally doesn't have the {@condition Incapacitated|D&DF-PHB} condition, and you don't have {@variantrule Disadvantage|D&DF-PHB} on the attack roll.",
-            "The extra damage increases as you gain Rogue levels, as shown in the Sneak Attack column of the Rogue Features table."
+            "The extra damage increases as you gain Warrior levels, as shown in the Sneak Attack column of the Warrior Features table."
          ]
       },
       {
          "name": "Thieves' Cant",
          "source": "D&DF-PHB",
          "page": 81,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 1,
          "entries": [
@@ -487,7 +466,7 @@
          "name": "Weapon Mastery",
          "source": "D&DF-PHB",
          "page": 81,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 1,
          "entries": [
@@ -499,7 +478,7 @@
          "name": "Cunning Action",
          "source": "D&DF-PHB",
          "page": 81,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 2,
          "entries": [
@@ -507,21 +486,21 @@
          ]
       },
       {
-         "name": "Rogue Subclass",
+         "name": "Warrior Subclass",
          "source": "D&DF-PHB",
          "page": 81,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 3,
          "entries": [
-            "You gain a Rogue subclass of your choice. A subclass is a specialization that grants you features at certain Rogue levels. For the rest of your career, you gain each of your subclass's features that are of your Rogue level or lower."
+            "You gain a Warrior subclass of your choice. A subclass is a specialization that grants you features at certain Warrior levels. For the rest of your career, you gain each of your subclass's features that are of your Warrior level or lower."
          ]
       },
       {
          "name": "Steady Aim",
          "source": "D&DF-PHB",
          "page": 81,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 3,
          "entries": [
@@ -532,18 +511,18 @@
          "name": "Ability Score Improvement",
          "source": "D&DF-PHB",
          "page": 81,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 4,
          "entries": [
-            "You gain the {@feat Ability Score Improvement|D&DF-PHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Rogue levels 8, 10, 12, and 16."
+            "You gain the {@feat Ability Score Improvement|D&DF-PHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Warrior levels 8, 10, 12, and 16."
          ]
       },
       {
          "name": "Uncanny Dodge",
          "source": "D&DF-PHB",
          "page": 81,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 5,
          "entries": [
@@ -554,7 +533,7 @@
          "name": "Expertise",
          "source": "D&DF-PHB",
          "page": 81,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 6,
          "entries": [
@@ -565,7 +544,7 @@
          "name": "Evasion",
          "source": "D&DF-PHB",
          "page": 81,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 7,
          "entries": [
@@ -576,7 +555,7 @@
          "name": "Reliable Talent",
          "source": "D&DF-PHB",
          "page": 130,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 7,
          "entries": [
@@ -587,7 +566,7 @@
          "name": "Ability Score Improvement",
          "source": "D&DF-PHB",
          "page": 130,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 8,
          "entries": [
@@ -598,18 +577,18 @@
          "name": "Subclass Feature",
          "source": "D&DF-PHB",
          "page": 130,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 9,
          "entries": [
-            "You gain a feature from your Rogue Subclass."
+            "You gain a feature from your Warrior Subclass."
          ]
       },
       {
          "name": "Ability Score Improvement",
          "source": "D&DF-PHB",
          "page": 130,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 10,
          "entries": [
@@ -620,7 +599,7 @@
          "name": "Ability Score Improvement",
          "source": "D&DF-PHB",
          "page": 82,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 12,
          "entries": [
@@ -631,18 +610,18 @@
          "name": "Subclass Feature",
          "source": "D&DF-PHB",
          "page": 82,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 13,
          "entries": [
-            "You gain a feature from your Rogue Subclass."
+            "You gain a feature from your Warrior Subclass."
          ]
       },
       {
          "name": "Power of Observation",
          "source": "D&DF-PHB",
          "page": 82,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 14,
          "entries": [
@@ -653,7 +632,7 @@
          "name": "Slippery Mind",
          "source": "D&DF-PHB",
          "page": 82,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 15,
          "entries": [
@@ -664,7 +643,7 @@
          "name": "Ability Score Improvement",
          "source": "D&DF-PHB",
          "page": 82,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 16,
          "entries": [
@@ -675,18 +654,18 @@
          "name": "Subclass Feature",
          "source": "D&DF-PHB",
          "page": 82,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 17,
          "entries": [
-            "You gain a feature from your Rogue Subclass."
+            "You gain a feature from your Warrior Subclass."
          ]
       },
       {
          "name": "Elusive",
          "source": "D&DF-PHB",
          "page": 82,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 18,
          "entries": [
@@ -697,7 +676,7 @@
          "name": "Stroke of Luck",
          "source": "D&DF-PHB",
          "page": 82,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 20,
          "entries": [
@@ -711,7 +690,7 @@
          "name": "Elemental Trickster",
          "shortName": "Elemental Trickster",
          "source": "D&DF-PHB",
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "page": 83,
          "edition": "classic",
@@ -766,8 +745,8 @@
                   }
                ],
                "colLabels": [
-                  "{@filter Cantrips Known|spells|level=0|subclass=Rogue: Elemental Trickster}",
-                  "{@filter Spells Known|spells|subclass=Rogue: Elemental Trickster}"
+                  "{@filter Cantrips Known|spells|level=0|subclass=Warrior: Elemental Trickster}",
+                  "{@filter Spells Known|spells|subclass=Warrior: Elemental Trickster}"
                ],
                "rows": [
                   [
@@ -861,10 +840,10 @@
                   }
                ],
                "colLabels": [
-                  "{@filter 1st|spells|level=1|subclass=Rogue: Elemental Trickster}",
-                  "{@filter 2nd|spells|level=2|subclass=Rogue: Elemental Trickster}",
-                  "{@filter 3rd|spells|level=3|subclass=Rogue: Elemental Trickster}",
-                  "{@filter 4th|spells|level=4|subclass=Rogue: Elemental Trickster}"
+                  "{@filter 1st|spells|level=1|subclass=Warrior: Elemental Trickster}",
+                  "{@filter 2nd|spells|level=2|subclass=Warrior: Elemental Trickster}",
+                  "{@filter 3rd|spells|level=3|subclass=Warrior: Elemental Trickster}",
+                  "{@filter 4th|spells|level=4|subclass=Warrior: Elemental Trickster}"
                ],
                "rowsSpellProgression": [
                   [
@@ -991,40 +970,40 @@
             }
          ],
          "subclassFeatures": [
-            "Elemental Trickster|Rogue|D&DF-PHB|Elemental Trickster|D&DF-PHB|3",
-            "Gift of the Wild|Rogue|D&DF-PHB|Elemental Trickster|D&DF-PHB|9",
-            "Ingenious Ambush|Rogue|D&DF-PHB|Elemental Trickster|D&DF-PHB|13",
-            "Lord of Nature|Rogue|D&DF-PHB|Elemental Trickster|D&DF-PHB|17"
+            "Elemental Trickster|Warrior|D&DF-PHB|Elemental Trickster|D&DF-PHB|3",
+            "Gift of the Wild|Warrior|D&DF-PHB|Elemental Trickster|D&DF-PHB|9",
+            "Ingenious Ambush|Warrior|D&DF-PHB|Elemental Trickster|D&DF-PHB|13",
+            "Lord of Nature|Warrior|D&DF-PHB|Elemental Trickster|D&DF-PHB|17"
          ]
       },
       {
          "name": "Thief",
          "shortName": "Thief",
          "source": "D&DF-PHB",
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "page": 83,
          "edition": "classic",
          "subclassFeatures": [
-            "Thief|Rogue|D&DF-PHB|Thief|D&DF-PHB|3",
-            "Supreme Sneak|Rogue|D&DF-PHB|Thief|D&DF-PHB|9",
-            "Use Magic Device|Rogue|D&DF-PHB|Thief|D&DF-PHB|13",
-            "Thief's Reflexes|Rogue|D&DF-PHB|Thief|D&DF-PHB|17"
+            "Thief|Warrior|D&DF-PHB|Thief|D&DF-PHB|3",
+            "Supreme Sneak|Warrior|D&DF-PHB|Thief|D&DF-PHB|9",
+            "Use Magic Device|Warrior|D&DF-PHB|Thief|D&DF-PHB|13",
+            "Thief's Reflexes|Warrior|D&DF-PHB|Thief|D&DF-PHB|17"
          ]
       },
       {
          "name": "Swashbuckler",
          "shortName": "Swashbuckler",
          "source": "D&DF-PHB",
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "page": 82,
          "edition": "classic",
          "subclassFeatures": [
-            "Swashbuckler|Rogue|D&DF-PHB|Swashbuckler|D&DF-PHB|3",
-            "Panache|Rogue|D&DF-PHB|Swashbuckler|D&DF-PHB|9",
-            "Elegant Maneuver|Rogue|D&DF-PHB|Swashbuckler|D&DF-PHB|13",
-            "Master Duelist|Rogue|D&DF-PHB|Swashbuckler|D&DF-PHB|17"
+            "Swashbuckler|Warrior|D&DF-PHB|Swashbuckler|D&DF-PHB|3",
+            "Panache|Warrior|D&DF-PHB|Swashbuckler|D&DF-PHB|9",
+            "Elegant Maneuver|Warrior|D&DF-PHB|Swashbuckler|D&DF-PHB|13",
+            "Master Duelist|Warrior|D&DF-PHB|Swashbuckler|D&DF-PHB|17"
          ],
          "hasFluff": true
       }
@@ -1034,7 +1013,7 @@
          "name": "Swashbuckler",
          "source": "D&DF-PHB",
          "page": 82,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "subclassShortName": "Swashbuckler",
          "subclassSource": "D&DF-PHB",
@@ -1044,11 +1023,11 @@
             "A Swashbuckler excels in single combat, and can fight with two weapons while safely darting away from an opponent.",
             {
                "type": "refSubclassFeature",
-               "subclassFeature": "Fancy Footwork|Rogue|D&DF-PHB|Swashbuckler|D&DF-PHB|3"
+               "subclassFeature": "Fancy Footwork|Warrior|D&DF-PHB|Swashbuckler|D&DF-PHB|3"
             },
             {
                "type": "refSubclassFeature",
-               "subclassFeature": "Rakish Audacity|Rogue|D&DF-PHB|Swashbuckler|D&DF-PHB|3"
+               "subclassFeature": "Rakish Audacity|Warrior|D&DF-PHB|Swashbuckler|D&DF-PHB|3"
             }
          ]
       },
@@ -1056,7 +1035,7 @@
          "name": "Fancy Footwork",
          "source": "D&DF-PHB",
          "page": 82,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "subclassShortName": "Swashbuckler",
          "subclassSource": "D&DF-PHB",
@@ -1070,7 +1049,7 @@
          "name": "Rakish Audacity",
          "source": "D&DF-PHB",
          "page": 82,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "subclassShortName": "Swashbuckler",
          "subclassSource": "D&DF-PHB",
@@ -1085,7 +1064,7 @@
          "name": "Panache",
          "source": "D&DF-PHB",
          "page": 82,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "subclassShortName": "Swashbuckler",
          "subclassSource": "D&DF-PHB",
@@ -1101,7 +1080,7 @@
          "name": "Elegant Maneuver",
          "source": "D&DF-PHB",
          "page": 82,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "subclassShortName": "Swashbuckler",
          "subclassSource": "D&DF-PHB",
@@ -1115,7 +1094,7 @@
          "name": "Master Duelist",
          "source": "D&DF-PHB",
          "page": 82,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "subclassShortName": "Swashbuckler",
          "subclassSource": "D&DF-PHB",
@@ -1129,20 +1108,20 @@
          "name": "Thief",
          "source": "D&DF-PHB",
          "page": 83,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "subclassShortName": "Thief",
          "subclassSource": "D&DF-PHB",
          "level": 3,
          "entries": [
-            "You hone your skills in the larcenous arts. Burglars, bandits, cutpurses, and other criminals typically follow this archetype, but so do rogues who prefer to think of themselves as professional treasure seekers, explorers, delvers, and investigators. In addition to improving your agility and stealth, you learn skills useful for delving into ancient ruins, reading unfamiliar languages, and using magic items you normally couldn't employ.",
+            "You hone your skills in the larcenous arts. Burglars, bandits, cutpurses, and other criminals typically follow this archetype, but so do Warriors who prefer to think of themselves as professional treasure seekers, explorers, delvers, and investigators. In addition to improving your agility and stealth, you learn skills useful for delving into ancient ruins, reading unfamiliar languages, and using magic items you normally couldn't employ.",
             {
                "type": "refSubclassFeature",
-               "subclassFeature": "Fast Hands|Rogue|D&DF-PHB|Thief|D&DF-PHB|3"
+               "subclassFeature": "Fast Hands|Warrior|D&DF-PHB|Thief|D&DF-PHB|3"
             },
             {
                "type": "refSubclassFeature",
-               "subclassFeature": "Second-Story Work|Rogue|D&DF-PHB|Thief|D&DF-PHB|3"
+               "subclassFeature": "Second-Story Work|Warrior|D&DF-PHB|Thief|D&DF-PHB|3"
             }
          ]
       },
@@ -1150,7 +1129,7 @@
          "name": "Fast Hands",
          "source": "D&DF-PHB",
          "page": 83,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "subclassShortName": "Thief",
          "subclassSource": "D&DF-PHB",
@@ -1164,7 +1143,7 @@
          "name": "Second-Story Work",
          "source": "D&DF-PHB",
          "page": 83,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "subclassShortName": "Thief",
          "subclassSource": "D&DF-PHB",
@@ -1179,7 +1158,7 @@
          "name": "Supreme Sneak",
          "source": "D&DF-PHB",
          "page": 83,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "subclassShortName": "Thief",
          "subclassSource": "D&DF-PHB",
@@ -1193,7 +1172,7 @@
          "name": "Use Magic Device",
          "source": "D&DF-PHB",
          "page": 83,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "subclassShortName": "Thief",
          "subclassSource": "D&DF-PHB",
@@ -1207,7 +1186,7 @@
          "name": "Thief's Reflexes",
          "source": "D&DF-PHB",
          "page": 83,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "subclassShortName": "Thief",
          "subclassSource": "D&DF-PHB",
@@ -1221,7 +1200,7 @@
          "name": "Elemental Trickster",
          "source": "D&DF-PHB",
          "page": 83,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "subclassShortName": "Elemental Trickster",
          "subclassSource": "D&DF-PHB",
@@ -1230,11 +1209,11 @@
             "When you reach 3rd Level, you gain the ability to cast Nature Powers (Spells). See the general rules of Spellcasting and the Tinkerer spell list in chapter 8.",
             {
                "type": "refSubclassFeature",
-               "subclassFeature": "Nature Power (Spellcasting)|Rogue|D&DF-PHB|Elemental Trickster|D&DF-PHB|3"
+               "subclassFeature": "Nature Power (Spellcasting)|Warrior|D&DF-PHB|Elemental Trickster|D&DF-PHB|3"
             },
             {
                "type": "refSubclassFeature",
-               "subclassFeature": "Nature's Invention|Rogue|D&DF-PHB|Elemental Trickster|D&DF-PHB|3"
+               "subclassFeature": "Nature's Invention|Warrior|D&DF-PHB|Elemental Trickster|D&DF-PHB|3"
             }
          ]
       },
@@ -1242,7 +1221,7 @@
          "name": "Nature's Invention",
          "source": "D&DF-PHB",
          "page": 83,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "subclassShortName": "Elemental Trickster",
          "subclassSource": "D&DF-PHB",
@@ -1264,7 +1243,7 @@
          "name": "Bonus Proficiencies",
          "source": "D&DF-PHB",
          "page": 83,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "subclassShortName": "Elemental Trickster",
          "subclassSource": "D&DF-PHB",
@@ -1278,7 +1257,7 @@
          "name": "Nature Power (Spellcasting)",
          "source": "D&DF-PHB",
          "page": 84,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "subclassShortName": "Elemental Trickster",
          "subclassSource": "D&DF-PHB",
@@ -1357,7 +1336,7 @@
          "name": "Gift of the Wild",
          "source": "D&DF-PHB",
          "page": 85,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "subclassShortName": "Elemental Trickster",
          "subclassSource": "D&DF-PHB",
@@ -1372,7 +1351,7 @@
          "name": "Ingenious Ambush",
          "source": "D&DF-PHB",
          "page": 85,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "subclassShortName": "Elemental Trickster",
          "subclassSource": "D&DF-PHB",
@@ -1386,7 +1365,7 @@
          "name": "Lord of Nature",
          "source": "D&DF-PHB",
          "page": 85,
-         "className": "Rogue",
+         "className": "Warrior",
          "classSource": "D&DF-PHB",
          "subclassShortName": "Elemental Trickster",
          "subclassSource": "D&DF-PHB",
