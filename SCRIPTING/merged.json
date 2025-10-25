@@ -7389,10 +7389,20 @@
                             {
                               "type": "entries",
                               "entries": [
-                                "You can telepathically communicate with Sea Kings within 60 feet of you.",
-                                "Ace scores a critical hit on a roll of 19 or 20.",
-                                "You can cast Dominate Monster (save DC 17) on another creature. Once you have done so, Ace can’t be used this way again until the next dawn."
-                              ]                    
+                                "You can telepathically communicate with Sea Kings within 60 feet of you."
+                              ],
+                              "type": "entries",
+                                "name": "",
+                                "page": 0,
+                                "entries": [
+                                  "Ace scores a critical hit on a roll of 19 or 20."
+                                ],
+                              "type": "entries",
+                                "name": "",
+                                "page": 0,
+                                "entries": [
+                                  "You can cast Dominate Monster (save DC 17) on another creature. Once you have done so, Ace can’t be used this way again until the next dawn."
+                                ]
                             }
                           ]
                         }
@@ -7416,7 +7426,23 @@
                   ]
                 }
       },
+      "rarity": "legendary"
+    },
+    {
+      "entries": [],
+      "name": "Cutlass",
+      "type": "M",
+      "dmg1": "1d6",
+      "dmgType": "S",
+      "property": [
+        "L"
+      ],
+      "value": 3000,
+      "weight": 3,
+      "page": 142,
+      "source": "D&DF-PHB",
       "rarity": "none"
-    }
+    },
+
   ]
 }
