@@ -12,7 +12,7 @@
           "Tarun",
           "SirTalpadeRedstoneville58"
         ],
-        "version": "2.5.0",
+        "version": "2.5.1",
         "color": "0B3075",
         "url": "https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm"
       }
@@ -7512,6 +7512,7 @@
      "name": "Raid Suit",
      "type": "LA",
      "rarity": "legendary",
+     "baseItem": "Light Bulletproof Shirt|D&DF-PHB",
      "source": "D&DF-PHB",
      "reqAttune": true,
      "ac": 13,
