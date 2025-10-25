@@ -15,6 +15,21 @@
         "version": "2.6.0",
         "color": "0B3075",
         "url": "https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm"
+      },
+      {
+        "json": "D&DFDMG",
+        "abbreviation": "D&DF-DMG",
+        "full": "One Piece Dungeons and Devil Fruits Dungeon's Master Guide",
+        "authors": [
+          "OneWorldHD"
+        ],
+        "convertedBy": [
+          "Tarun",
+          "SirTalpadeRedstoneville58"
+        ],
+        "version": "2.1.0",
+        "color": "AF6528",
+        "url": "https://homebrewery.naturalcrit.com/share/sK-UDzk7x8U_"
       }
     ],
     "dateAdded": 1760976825,
@@ -7398,7 +7413,7 @@
     "weaponCategory": "martial",
     "reqAttune": true,
     "value": 1500,
-    "source": "D&DF-PHB",
+    "source": "D&DF-DMG",
     "bonusWeapon": "+3",
     "rarity": "legendary",
     "attachedSpells": {
@@ -7426,7 +7441,7 @@
     "name": "Energy Steroids",
     "type": "P",
     "tier": "legendary",
-    "source": "D&DF-PHB",
+    "source": "D&DF-DMG",
     "rarity": "legendary",
     "reqAttune": false,
     "value": 0,
@@ -7443,7 +7458,7 @@
     "type": "A",
     "rarity": "rare",
     "tier": "very rare",
-    "source": "D&DF-PHB",
+    "source": "D&DF-DMG",
     "weaponCategory": "ammunition",
     "value": 0,
     "weight": 0,
@@ -7501,7 +7516,7 @@
      "name": "Muggy Ball",
      "type": "G",
      "rarity": "very rare",
-     "source": "D&DF-PHB",
+    "source": "D&DF-DMG",
      "value": 0,
      "weight": 1,
      "entries": [
@@ -7513,7 +7528,7 @@
      "type": "LA",
      "rarity": "legendary",
      "baseItem": "Light Bulletproof Shirt|D&DF-PHB",
-     "source": "D&DF-PHB",
+    "source": "D&DF-DMG",
      "reqAttune": true,
      "ac": 13,
      "armor": "light",
