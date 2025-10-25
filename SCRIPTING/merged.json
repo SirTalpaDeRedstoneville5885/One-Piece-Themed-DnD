@@ -2,7 +2,7 @@
   "_meta": {
     "sources": [
       {
-        "json": "D&DFPHB",
+        "json": "D&DF-PHB",
         "abbreviation": "D&DF-PHB",
         "full": "One Piece Dungeons and Devil Fruits Player Handbook",
         "authors": [
@@ -12,12 +12,12 @@
           "Tarun",
           "SirTalpadeRedstoneville58"
         ],
-        "version": "2.6.0",
+        "version": "2.6.1",
         "color": "0B3075",
         "url": "https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm"
       },
       {
-        "json": "D&DFDMG",
+        "json": "D&DF-DMG",
         "abbreviation": "D&DF-DMG",
         "full": "One Piece Dungeons and Devil Fruits Dungeon's Master Guide",
         "authors": [

@@ -21,18 +21,29 @@
       "dateAdded":1707934751,
       "dateLastModified":1707934751,
       "edition": "classic"
-   },   
-   "class": [ 
+   },
+   "class": [
       {
    "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
          "name":"Warrior",
-         "source":"D&DF-PHB",         
+         "source":"D&DF-PHB",
+         "optionalfeatureProgression": [
+            {
+               "name": "Fighting Style",
+               "featureType": [
+                  "FS:F"
+               ],
+               "progression": {
+                  "1": 1
+               }
+            }
+         ],
          "classFeatures": [
             "Fighting Style|Warrior||1",
             "Second Wind|Warrior||1",
             "Action Surge|Warrior||2",
             {
-               "classFeature": "Martial Archetype|Warrior||3",
+               "classFeature": "Warrior Type|Warrior||3",
                "gainSubclassFeature": true
             },
             "Ability Score Improvement|Warrior||4",
@@ -40,13 +51,13 @@
             "Extra Attack|Warrior||5",
             "Ability Score Improvement|Warrior||6",
             {
-               "classFeature": "Martial Archetype feature|Warrior||7",
+               "classFeature": "Warrior Type feature|Warrior||7",
                "gainSubclassFeature": true
             },
             "Ability Score Improvement|Warrior||8",
             "Indomitable|Warrior||9",
             {
-               "classFeature": "Martial Archetype feature|Warrior||10",
+               "classFeature": "Warrior Type feature|Warrior||10",
                "gainSubclassFeature": true
             },
             "Extra Attack (2)|Warrior||11",
@@ -54,14 +65,14 @@
             "Indomitable (two uses)|Warrior||13",
             "Ability Score Improvement|Warrior||14",
             {
-               "classFeature": "Martial Archetype feature|Warrior||15",
+               "classFeature": "Warrior Type feature|Warrior||15",
                "gainSubclassFeature": true
             },
             "Ability Score Improvement|Warrior||16",
             "Action Surge (two uses)|Warrior||17",
             "Indomitable (three uses)|Warrior||17",
             {
-               "classFeature": "Martial Archetype feature|Warrior||18",
+               "classFeature": "Warrior Type feature|Warrior||18",
                "gainSubclassFeature": true
             },
             "Ability Score Improvement|Warrior||19",
@@ -83,7 +94,7 @@
                "simple",
                "martial"
             ],
-            "tools": ["none"],            
+            "tools": ["none"],
             "skills":[
                {
                   "choose":{
@@ -118,7 +129,7 @@
                   ],
                   "b": [
                      "{@item thick shirt|D&DF-PHB}",
-                     "{@item rifle|D&DF-PHB}", 
+                     "{@item rifle|D&DF-PHB}",
                      "{@item bullets (20)|dmg|20 Bullets}"
                   ]
                },
@@ -160,84 +171,117 @@
          }
       }
   ],
-  "classFeature": [
+"classFeature": [
       {
-         "name": "Expertise",
-         "source": "D&DF-PHB",
-         "page": 94,
+         "name": "Fighting Style",
+         "source": "PHB",
+         "page": 72,
+         "srd": true,
+         "basicRules": true,
          "className": "Warrior",
-         "classSource": "D&DF-PHB",
+         "classSource": "PHB",
          "level": 1,
          "entries": [
-            "At 1st level, choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with {@item thieves' tools|phb}. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.",
-            "At 6th level, you can choose two more of your proficiencies (in skills or with {@item thieves' tools|phb}) to gain this benefit."
+            "You adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take the same Fighting Style option more than once, even if you get to choose again.",
+            {
+               "type": "options",
+               "count": 1,
+               "entries": [
+                  {
+                     "type": "refOptionalfeature",
+                     "optionalfeature": "Archery"
+                  },
+                  {
+                     "type": "refOptionalfeature",
+                     "optionalfeature": "Defense"
+                  },
+                  {
+                     "type": "refOptionalfeature",
+                     "optionalfeature": "Dueling"
+                  },
+                  {
+                     "type": "refOptionalfeature",
+                     "optionalfeature": "Great Weapon Fighting"
+                  },
+                  {
+                     "type": "refOptionalfeature",
+                     "optionalfeature": "Protection"
+                  },
+                  {
+                     "type": "refOptionalfeature",
+                     "optionalfeature": "Two-Weapon Fighting"
+                  },
+                  {
+                     "type": "refOptionalfeature",
+                     "optionalfeature": "Blind Fighting|TCE"
+                  },
+                  {
+                     "type": "refOptionalfeature",
+                     "optionalfeature": "Interception|TCE"
+                  },
+                  {
+                     "type": "refOptionalfeature",
+                     "optionalfeature": "Superior Technique|TCE"
+                  },
+                  {
+                     "type": "refOptionalfeature",
+                     "optionalfeature": "Thrown Weapon Fighting|TCE"
+                  },
+                  {
+                     "type": "refOptionalfeature",
+                     "optionalfeature": "Unarmed Fighting|TCE"
+                  }
+               ]
+            }
          ]
       },
       {
-         "name": "Sneak Attack",
-         "source": "D&DF-PHB",
-         "page": 94,
+         "name": "Second Wind",
+         "source": "PHB",
+         "page": 72,
          "className": "Warrior",
-         "classSource": "D&DF-PHB",
+         "classSource": "PHB",
          "level": 1,
          "entries": [
-            "Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra {@damage 1d6} damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.",
-            "You don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't {@condition incapacitated}, and you don't have disadvantage on the attack roll.",
-            "The amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the Warrior table."
+            "You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to {@dice 1d10} + your Warrior level.",
+            "Once you use this feature, you must finish a short or long rest before you can use it again."
          ]
       },
       {
-         "name": "Thieves' Cant",
-         "source": "D&DF-PHB",
-         "page": 94,
+         "name": "Action Surge",
+         "source": "PHB",
+         "page": 72,
+         "srd": true,
+         "basicRules": true,
          "className": "Warrior",
-         "classSource": "D&DF-PHB",
-         "level": 1,
-         "entries": [
-            "During your Warrior training you learned thieves' cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creature that knows thieves' cant understands such messages. It takes four times longer to convey such a message than it does to speak the same idea plainly.",
-            "In addition, you understand a set of secret signs and symbols used to convey short, simple messages, such as whether an area is dangerous or the territory of a thieves' guild, whether loot is nearby, or whether the people in an area are easy marks or will provide a safe house for thieves on the run."
-         ]
-      },
-      {
-         "name": "Cunning Action",
-         "source": "D&DF-PHB",
-         "page": 94,
-         "className": "Warrior",
-         "classSource": "D&DF-PHB",
+         "classSource": "PHB",
          "level": 2,
          "entries": [
-            "Starting at 2nd level, your quick thinking and agility allow you to move and act quickly. You can take a bonus action on each of your turns in combat. This action can be used only to take the {@action Dash}, {@action Disengage}, or {@action Hide} action."
+            "Starting at 2nd level, you can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action.",
+            "Once you use this feature, you must finish a short or long rest before you can use it again. Starting at 17th level, you can use it twice before a rest, but only once on the same turn."
          ]
       },
       {
          "name": "Warrior Type",
-         "source": "D&DF-PHB",
-         "page": 94,
+         "source": "PHB",
+         "page": 72,
+         "srd": true,
+         "basicRules": true,
          "className": "Warrior",
-         "classSource": "D&DF-PHB",
+         "classSource": "PHB",
          "level": 3,
          "entries": [
-            "At 3rd level, you choose an archetype that you emulate in the exercise of your Warrior abilities from the list of available archetypes. Your archetype choice grants you features at 3rd level and then again at 9th, 13th, and 17th level."
-         ]
-      },
-      {
-         "name": "Steady Aim",
-         "source": "D&DF-PHB",
-         "page": 62,
-         "className": "Warrior",
-         "classSource": "D&DF-PHB",
-         "level": 3,
-         "isClassFeatureVariant": true,
-         "entries": [
-            "As a bonus action, you give yourself advantage on your next attack roll on the current turn. You can use this bonus action only if you haven't moved during this turn, and after you use the bonus action, your speed is 0 until the end of the current turn."
+            "At 3rd level, you choose an archetype from the list available that you strive to emulate in your combat styles and techniques. The archetype you choose grants you features at 3rd level and again at 7th, 10th, 15th, and 18th level."
          ]
       },
       {
          "name": "Ability Score Improvement",
-         "source": "D&DF-PHB",
-         "page": 94,
+         "source": "PHB",
+         "page": 72,
+         "srd": true,
+         "basicRules": true,
          "className": "Warrior",
-         "classSource": "D&DF-PHB",
+         "classSource": "PHB",
          "level": 4,
          "entries": [
             "When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -245,44 +289,74 @@
          ]
       },
       {
-         "name": "Uncanny Dodge",
-         "source": "D&DF-PHB",
-         "page": 94,
+         "name": "Martial Versatility",
+         "source": "TCE",
+         "page": 41,
          "className": "Warrior",
-         "classSource": "D&DF-PHB",
+         "classSource": "PHB",
+         "level": 4,
+         "isClassFeatureVariant": true,
+         "entries": [
+            "{@i 4th-level Warrior {@variantrule optional class features|tce|optional feature}}",
+            "Whenever you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, as you shift the focus of your martial practice:",
+            {
+               "type": "list",
+               "items": [
+                  "Replace a {@filter fighting style|optionalfeatures|feature type=FS:F} you know with another fighting style available to Warriors.",
+                  "If you know any {@filter maneuvers|optionalfeatures|feature type=MV:B} from the {@class Warrior|phb|Battle Master|Battle Master|phb|2-0} archetype, you can replace one maneuver you know with a different maneuver."
+               ]
+            }
+         ]
+      },
+      {
+         "name": "Extra Attack",
+         "source": "PHB",
+         "page": 72,
+         "srd": true,
+         "basicRules": true,
+         "className": "Warrior",
+         "classSource": "PHB",
          "level": 5,
          "entries": [
-            "Starting at 5th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you."
-         ]
-      },
-      {
-         "name": "Expertise",
-         "source": "D&DF-PHB",
-         "page": 94,
-         "className": "Warrior",
-         "classSource": "D&DF-PHB",
-         "level": 6,
-         "entries": [
-            "At 6th level, you can choose two more of your proficiencies (in skills or with {@item thieves' tools|phb}) to gain the benefit of Expertise."
-         ]
-      },
-      {
-         "name": "Evasion",
-         "source": "D&DF-PHB",
-         "page": 94,
-         "className": "Warrior",
-         "classSource": "D&DF-PHB",
-         "level": 7,
-         "entries": [
-            "Beginning at 7th level, you can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or an {@spell ice storm} spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail."
+            "Beginning at 5th level, you can attack twice, instead of once, whenever you take the {@action Attack} action on your turn.",
+            "The number of attacks increases to three when you reach 11th level in this class and to four when you reach 20th level in this class."
          ]
       },
       {
          "name": "Ability Score Improvement",
-         "source": "D&DF-PHB",
-         "page": 94,
+         "source": "PHB",
+         "page": 72,
+         "srd": true,
+         "basicRules": true,
          "className": "Warrior",
-         "classSource": "D&DF-PHB",
+         "classSource": "PHB",
+         "level": 6,
+         "entries": [
+            "When you reach 6th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+            "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+         ]
+      },
+      {
+         "name": "Warrior Type feature",
+         "source": "PHB",
+         "page": 72,
+         "srd": true,
+         "basicRules": true,
+         "className": "Warrior",
+         "classSource": "PHB",
+         "level": 7,
+         "entries": [
+            "At 7th level, you gain a feature granted by your Warrior Type."
+         ]
+      },
+      {
+         "name": "Ability Score Improvement",
+         "source": "PHB",
+         "page": 72,
+         "srd": true,
+         "basicRules": true,
+         "className": "Warrior",
+         "classSource": "PHB",
          "level": 8,
          "entries": [
             "When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -290,45 +364,53 @@
          ]
       },
       {
-         "name": "Warrior Type feature",
-         "source": "D&DF-PHB",
-         "page": 94,
+         "name": "Indomitable",
+         "source": "PHB",
+         "page": 72,
+         "srd": true,
+         "basicRules": true,
          "className": "Warrior",
-         "classSource": "D&DF-PHB",
+         "classSource": "PHB",
          "level": 9,
          "entries": [
-            "At 9th level, you gain a feature granted by your Warrior Type."
+            "Beginning at 9th level, you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can't use this feature again until you finish a long rest.",
+            "You can use this feature twice between long rests starting at 13th level and three times between long rests starting at 17th level."
          ]
       },
       {
-         "name": "Ability Score Improvement",
-         "source": "D&DF-PHB",
-         "page": 94,
+         "name": "Warrior Type feature",
+         "source": "PHB",
+         "page": 72,
+         "srd": true,
+         "basicRules": true,
          "className": "Warrior",
-         "classSource": "D&DF-PHB",
+         "classSource": "PHB",
          "level": 10,
          "entries": [
-            "When you reach 10th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
-            "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+            "At 10th level, you gain a feature granted by your Warrior Type."
          ]
       },
       {
-         "name": "Reliable Talent",
-         "source": "D&DF-PHB",
-         "page": 94,
+         "name": "Extra Attack (2)",
+         "source": "PHB",
+         "page": 72,
+         "srd": true,
+         "basicRules": true,
          "className": "Warrior",
-         "classSource": "D&DF-PHB",
+         "classSource": "PHB",
          "level": 11,
          "entries": [
-            "By 11th level, you have refined your chosen skills until they approach perfection. Whenever you make an ability check that lets you add your proficiency bonus, you can treat a {@dice d20} roll of 9 or lower as a 10."
+            "At 11th level, you can attack three times whenever you take the {@action Attack} action on your turn."
          ]
       },
       {
          "name": "Ability Score Improvement",
-         "source": "D&DF-PHB",
-         "page": 94,
+         "source": "PHB",
+         "page": 72,
+         "srd": true,
+         "basicRules": true,
          "className": "Warrior",
-         "classSource": "D&DF-PHB",
+         "classSource": "PHB",
          "level": 12,
          "entries": [
             "When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -336,44 +418,53 @@
          ]
       },
       {
-         "name": "Warrior Type feature",
-         "source": "D&DF-PHB",
-         "page": 94,
+         "name": "Indomitable (two uses)",
+         "source": "PHB",
+         "page": 72,
+         "srd": true,
+         "basicRules": true,
          "className": "Warrior",
-         "classSource": "D&DF-PHB",
+         "classSource": "PHB",
          "level": 13,
          "entries": [
-            "At 13th level, you gain a feature granted by your Warrior Type."
-         ]
-      },
-      {
-         "name": "Blindsense",
-         "source": "D&DF-PHB",
-         "page": 94,
-         "className": "Warrior",
-         "classSource": "D&DF-PHB",
-         "level": 14,
-         "entries": [
-            "Starting at 14th level, if you are able to hear, you are aware of the location of any hidden or {@condition invisible} creature within 10 feet of you."
-         ]
-      },
-      {
-         "name": "Slippery Mind",
-         "source": "D&DF-PHB",
-         "page": 94,
-         "className": "Warrior",
-         "classSource": "D&DF-PHB",
-         "level": 15,
-         "entries": [
-            "By 15th level, you have acquired greater mental strength. You gain proficiency in Wisdom saving throws."
+            "At 13th level, you can use Indomitable twice between long rests."
          ]
       },
       {
          "name": "Ability Score Improvement",
-         "source": "D&DF-PHB",
-         "page": 94,
+         "source": "PHB",
+         "page": 72,
+         "srd": true,
+         "basicRules": true,
          "className": "Warrior",
-         "classSource": "D&DF-PHB",
+         "classSource": "PHB",
+         "level": 14,
+         "entries": [
+            "When you reach 14th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+            "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+         ]
+      },
+      {
+         "name": "Warrior Type feature",
+         "source": "PHB",
+         "page": 72,
+         "srd": true,
+         "basicRules": true,
+         "className": "Warrior",
+         "classSource": "PHB",
+         "level": 15,
+         "entries": [
+            "At 15th level, you gain a feature granted by your Warrior Type."
+         ]
+      },
+      {
+         "name": "Ability Score Improvement",
+         "source": "PHB",
+         "page": 72,
+         "srd": true,
+         "basicRules": true,
+         "className": "Warrior",
+         "classSource": "PHB",
          "level": 16,
          "entries": [
             "When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -381,33 +472,52 @@
          ]
       },
       {
-         "name": "Warrior Type feature",
-         "source": "D&DF-PHB",
-         "page": 94,
+         "name": "Action Surge (two uses)",
+         "source": "PHB",
+         "page": 72,
+         "srd": true,
+         "basicRules": true,
          "className": "Warrior",
-         "classSource": "D&DF-PHB",
+         "classSource": "PHB",
          "level": 17,
          "entries": [
-            "At 17th level, you gain a feature granted by your Warrior Type."
+            "At 17th level, you can use Action Surge twice before a rest, but only once on the same turn."
          ]
       },
       {
-         "name": "Elusive",
-         "source": "D&DF-PHB",
-         "page": 94,
+         "name": "Indomitable (three uses)",
+         "source": "PHB",
+         "page": 72,
+         "srd": true,
+         "basicRules": true,
          "className": "Warrior",
-         "classSource": "D&DF-PHB",
+         "classSource": "PHB",
+         "level": 17,
+         "entries": [
+            "At 17th level, you can use Indomitable three times between long rests."
+         ]
+      },
+      {
+         "name": "Warrior Type feature",
+         "source": "PHB",
+         "page": 72,
+         "srd": true,
+         "basicRules": true,
+         "className": "Warrior",
+         "classSource": "PHB",
          "level": 18,
          "entries": [
-            "Beginning at 18th level, you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you aren't {@condition incapacitated}."
+            "At 18th level, you gain a feature granted by your Warrior Type."
          ]
       },
       {
          "name": "Ability Score Improvement",
-         "source": "D&DF-PHB",
-         "page": 94,
+         "source": "PHB",
+         "page": 72,
+         "srd": true,
+         "basicRules": true,
          "className": "Warrior",
-         "classSource": "D&DF-PHB",
+         "classSource": "PHB",
          "level": 19,
          "entries": [
             "When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -415,80 +525,94 @@
          ]
       },
       {
-         "name": "Stroke of Luck",
-         "source": "D&DF-PHB",
-         "page": 94,
+         "name": "Extra Attack (3)",
+         "source": "PHB",
+         "page": 72,
+         "srd": true,
+         "basicRules": true,
          "className": "Warrior",
-         "classSource": "D&DF-PHB",
+         "classSource": "PHB",
          "level": 20,
          "entries": [
-            "At 20th level, you have an uncanny knack for succeeding when you need to. If your attack misses a target within range, you can turn the miss into a hit. Alternatively, if you fail an ability check, you can treat the {@dice d20} roll as a 20.",
-            "Once you use this feature, you can't use it again until you finish a short or long rest."
+            "At 20th level, you can attack four times whenever you take the {@action Attack} action on your turn."
          ]
       },
       {
-         "name": "Expertise",
+         "name": "Fighting Style",
          "source": "D&DF-PHB",
-         "page": 81,
+         "page": 91,
+         "srd52": true,
+         "basicRules2024": true,
          "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 1,
          "entries": [
-            "You gain {@variantrule Expertise|D&DF-PHB} in two of your skill proficiencies of your choice. {@skill Sleight of Hand|D&DF-PHB} and {@skill Stealth|D&DF-PHB} are recommended if you have proficiency in them.",
-            "At Warrior level 6, you gain {@variantrule Expertise|D&DF-PHB} in two more of your skill proficiencies of your choice."
+            "You have honed your martial prowess and gain a {@filter Fighting Style feat|feats|category=FS} of your choice. {@feat Defense|XPHB} is recommended.",
+            "Whenever you gain a Warrior level, you can replace the feat you chose with a different {@filter Fighting Style feat|feats|category=FS}."
          ]
       },
       {
-         "name": "Sneak Attack",
+         "name": "Second Wind",
          "source": "D&DF-PHB",
-         "page": 81,
+         "page": 91,
+         "srd52": true,
+         "basicRules2024": true,
          "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 1,
          "entries": [
-            "You know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra {@damage 1d6} damage to one creature you hit with an attack roll if you have {@variantrule Advantage|D&DF-PHB} on the roll and the attack uses a Finesse or a Ranged weapon. The extra damage's type is the same as the weapon's type.",
-            "You don't need {@variantrule Advantage|D&DF-PHB} on the attack roll if at least one of your allies is within 5 feet of the target, the ally doesn't have the {@condition Incapacitated|D&DF-PHB} condition, and you don't have {@variantrule Disadvantage|D&DF-PHB} on the attack roll.",
-            "The extra damage increases as you gain Warrior levels, as shown in the Sneak Attack column of the Warrior Features table."
-         ]
-      },
-      {
-         "name": "Thieves' Cant",
-         "source": "D&DF-PHB",
-         "page": 81,
-         "className": "Warrior",
-         "classSource": "D&DF-PHB",
-         "level": 1,
-         "entries": [
-            "You picked up various languages in the communities where you plied your roguish talents. You know Thieves' Cant and one other language of your choice, which you choose from the language tables in {@book chapter 2|D&DF-PHB|2|Choose Languages}."
+            "You have a limited well of physical and mental stamina that you can draw on. As a {@variantrule Bonus Action|XPHB}, you can use it to regain {@variantrule Hit Points|XPHB} equal to {@dice 1d10} plus your Warrior level.",
+            "You can use this feature twice. You regain one expended use when you finish a {@variantrule Short Rest|XPHB}, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}.",
+            "When you reach certain Warrior levels, you gain more uses of this feature, as shown in the Second Wind column of the Warrior Features table."
          ]
       },
       {
          "name": "Weapon Mastery",
          "source": "D&DF-PHB",
-         "page": 81,
+         "page": 91,
+         "srd52": true,
+         "basicRules2024": true,
          "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 1,
          "entries": [
-            "Your training with weapons allows you to use the {@variantrule weapon mastery properties|D&DF-PHB|mastery properties} of two kinds of {@filter weapons|items|type=simple weapon;martial weapon} of your choice with which you have proficiency, such as {@item Dagger|D&DF-PHB|Daggers} and {@item Shortbow|D&DF-PHB|Shortbows}.",
-            "Whenever you finish a {@variantrule Long Rest|D&DF-PHB}, you can change the kinds of weapons you chose. For example, you could switch to using the {@variantrule weapon mastery properties|D&DF-PHB|mastery properties} of {@item Scimitar|D&DF-PHB|Scimitars} and {@item Shortsword|D&DF-PHB|Shortswords}."
+            "Your training with weapons allows you to use the {@variantrule weapon mastery properties|XPHB|mastery properties} of three kinds of {@filter Simple|items|type=simple weapon} or {@filter Martial|items|type=martial weapon} weapons of your choice. Whenever you finish a {@variantrule Long Rest|XPHB}, you can practice weapon drills and change one of those weapon choices.",
+            "When you reach certain Warrior levels, you gain the ability to use the {@variantrule weapon mastery properties|XPHB|mastery properties} of more kinds of weapons, as shown in the {@variantrule Weapon|XPHB} Mastery column of the Warrior Features table."
          ]
       },
       {
-         "name": "Cunning Action",
+         "name": "Action Surge",
          "source": "D&DF-PHB",
-         "page": 81,
+         "page": 91,
+         "srd52": true,
+         "basicRules2024": true,
          "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 2,
          "entries": [
-            "Your quick thinking and agility allow you to move and act quickly. On your turn, you can take one of the following actions as a {@variantrule Bonus Action|D&DF-PHB}: {@action Dash|D&DF-PHB}, {@action Disengage|D&DF-PHB}, or {@action Hide|D&DF-PHB}."
+            "You can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action, except the {@action Magic|XPHB} action.",
+            "Once you use this feature, you can't do so again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}. Starting at level 17, you can use it twice before a rest but only once on a turn."
+         ]
+      },
+      {
+         "name": "Tactical Mind",
+         "source": "D&DF-PHB",
+         "page": 91,
+         "srd52": true,
+         "basicRules2024": true,
+         "className": "Warrior",
+         "classSource": "D&DF-PHB",
+         "level": 2,
+         "entries": [
+            "You have a mind for tactics on and off the battlefield. When you fail an ability check, you can expend a use of your Second Wind to push yourself toward success. Rather than regaining {@variantrule Hit Points|XPHB}, you roll {@dice 1d10} and add the number rolled to the ability check, potentially turning it into a success. If the check still fails, this use of Second Wind isn't expended."
          ]
       },
       {
          "name": "Warrior Subclass",
          "source": "D&DF-PHB",
-         "page": 81,
+         "page": 92,
+         "srd52": true,
+         "basicRules2024": true,
          "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 3,
@@ -497,194 +621,283 @@
          ]
       },
       {
-         "name": "Steady Aim",
-         "source": "D&DF-PHB",
-         "page": 81,
-         "className": "Warrior",
-         "classSource": "D&DF-PHB",
-         "level": 3,
-         "entries": [
-            "As a {@variantrule Bonus Action|D&DF-PHB}, you give yourself {@variantrule Advantage|D&DF-PHB} on your next attack roll on the current turn. You can use this feature only if you haven't moved during this turn, and after you use it, your {@variantrule Speed|D&DF-PHB} is 0 until the end of the current turn."
-         ]
-      },
-      {
          "name": "Ability Score Improvement",
          "source": "D&DF-PHB",
-         "page": 81,
+         "page": 92,
+         "srd52": true,
+         "basicRules2024": true,
          "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 4,
          "entries": [
-            "You gain the {@feat Ability Score Improvement|D&DF-PHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Warrior levels 8, 10, 12, and 16."
+            "You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Warrior levels 6, 8, 12, 14, and 16."
          ]
       },
       {
-         "name": "Uncanny Dodge",
+         "name": "Extra Attack",
          "source": "D&DF-PHB",
-         "page": 81,
+         "page": 92,
+         "srd52": true,
+         "basicRules2024": true,
          "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 5,
          "entries": [
-            "When an attacker that you can see hits you with an attack roll, you can take a {@variantrule Reaction|D&DF-PHB} to halve the attack's damage against you (round down)."
+            "You can attack twice instead of once whenever you take the {@action Attack|XPHB} action on your turn."
          ]
       },
       {
-         "name": "Expertise",
+         "name": "Tactical Shift",
          "source": "D&DF-PHB",
-         "page": 81,
+         "page": 92,
+         "srd52": true,
+         "basicRules2024": true,
+         "className": "Warrior",
+         "classSource": "D&DF-PHB",
+         "level": 5,
+         "entries": [
+            "Whenever you activate your Second Wind with a {@variantrule Bonus Action|XPHB}, you can move up to half your {@variantrule Speed|XPHB} without provoking {@action Opportunity Attack|XPHB|Opportunity Attacks}."
+         ]
+      },
+      {
+         "name": "Ability Score Improvement",
+         "source": "D&DF-PHB",
+         "page": 92,
+         "srd52": true,
+         "basicRules2024": true,
          "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 6,
          "entries": [
-            "You gain {@variantrule Expertise|D&DF-PHB} in two of your Skill Proficiencies of your choice."
+            "You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
          ]
       },
       {
-         "name": "Evasion",
+         "name": "Subclass Feature",
          "source": "D&DF-PHB",
-         "page": 81,
+         "page": 92,
+         "srd52": true,
+         "basicRules2024": true,
          "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 7,
          "entries": [
-            "You can nimbly dodge out of the way of certain dangers. When you're subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail. You can't use this feature if you have the {@condition Incapacitated|D&DF-PHB} condition."
-         ]
-      },
-      {
-         "name": "Reliable Talent",
-         "source": "D&DF-PHB",
-         "page": 130,
-         "className": "Warrior",
-         "classSource": "D&DF-PHB",
-         "level": 7,
-         "entries": [
-            "Whenever you make an ability check that uses one of your skill or tool proficiencies, you can treat a {@dice d20} roll of 9 or lower as a 10."
+            "You gain a feature from your Warrior Subclass."
          ]
       },
       {
          "name": "Ability Score Improvement",
          "source": "D&DF-PHB",
-         "page": 130,
+         "page": 92,
+         "srd52": true,
+         "basicRules2024": true,
          "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 8,
          "entries": [
-            "You gain the {@feat Ability Score Improvement|D&DF-PHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+            "You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
          ]
       },
       {
-         "name": "Subclass Feature",
+         "name": "Indomitable",
          "source": "D&DF-PHB",
-         "page": 130,
+         "page": 92,
+         "srd52": true,
+         "basicRules2024": true,
          "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 9,
          "entries": [
-            "You gain a feature from your Warrior Subclass."
+            "If you fail a saving throw, you can reroll it with a bonus equal to your Warrior level. You must use the new roll, and you can't use this feature again until you finish a {@variantrule Long Rest|XPHB}.",
+            "You can use this feature twice before a {@variantrule Long Rest|XPHB} starting at level 13 and three times before a {@variantrule Long Rest|XPHB} starting at level 17."
          ]
       },
       {
-         "name": "Ability Score Improvement",
+         "name": "Tactical Master",
          "source": "D&DF-PHB",
-         "page": 130,
+         "page": 92,
+         "srd52": true,
+         "basicRules2024": true,
+         "className": "Warrior",
+         "classSource": "D&DF-PHB",
+         "level": 9,
+         "entries": [
+            "When you attack with a weapon whose mastery property you can use, you can replace that property with the {@itemMastery Push|XPHB}, {@itemMastery Sap|XPHB}, or {@itemMastery Slow|XPHB} property for that attack."
+         ]
+      },
+      {
+         "name": "Subclass Feature",
+         "source": "D&DF-PHB",
+         "page": 92,
+         "srd52": true,
+         "basicRules2024": true,
          "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 10,
          "entries": [
-            "You gain the {@feat Ability Score Improvement|D&DF-PHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+            "You gain a feature from your Warrior Subclass."
+         ]
+      },
+      {
+         "name": "Two Extra Attacks",
+         "source": "D&DF-PHB",
+         "page": 92,
+         "srd52": true,
+         "basicRules2024": true,
+         "className": "Warrior",
+         "classSource": "D&DF-PHB",
+         "level": 11,
+         "entries": [
+            "You can attack three times instead of once whenever you take the {@action Attack|XPHB} action on your turn."
          ]
       },
       {
          "name": "Ability Score Improvement",
          "source": "D&DF-PHB",
-         "page": 82,
+         "page": 92,
+         "srd52": true,
+         "basicRules2024": true,
          "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 12,
          "entries": [
-            "You gain the {@feat Ability Score Improvement|D&DF-PHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+            "You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
          ]
       },
       {
-         "name": "Subclass Feature",
+         "name": "Indomitable",
          "source": "D&DF-PHB",
-         "page": 82,
+         "page": 92,
+         "srd52": true,
+         "basicRules2024": true,
          "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 13,
          "entries": [
-            "You gain a feature from your Warrior Subclass."
+            "If you fail a saving throw, you can reroll it with a bonus equal to your Warrior level. You must use the new roll, and you can't use this feature again until you finish a {@variantrule Long Rest|XPHB}.",
+            "You can use this feature twice before a {@variantrule Long Rest|XPHB} starting at level 13 and three times before a {@variantrule Long Rest|XPHB} starting at level 17."
          ]
       },
       {
-         "name": "Power of Observation",
+         "name": "Studied Attacks",
          "source": "D&DF-PHB",
-         "page": 82,
+         "page": 92,
+         "srd52": true,
+         "basicRules2024": true,
          "className": "Warrior",
          "classSource": "D&DF-PHB",
-         "level": 14,
+         "level": 13,
          "entries": [
-            "Starting at 14th level, you may unlock any one \"Rare\" or lower Color of Observation Haki Advancement feat from Chapter 7. If you have already taken all the rare and lower observation haki feats, you may take a rare or lower haki advancement feat under a different color of haki, assuming you meet the prerequisites."
-         ]
-      },
-      {
-         "name": "Slippery Mind",
-         "source": "D&DF-PHB",
-         "page": 82,
-         "className": "Warrior",
-         "classSource": "D&DF-PHB",
-         "level": 15,
-         "entries": [
-            "Your cunning mind is exceptionally difficult to control. You gain proficiency in Wisdom and Charisma saving throws."
+            "You study your opponents and learn from each attack you make. If you make an attack roll against a creature and miss, you have {@variantrule Advantage|XPHB} on your next attack roll against that creature before the end of your next turn."
          ]
       },
       {
          "name": "Ability Score Improvement",
          "source": "D&DF-PHB",
-         "page": 82,
+         "page": 92,
+         "srd52": true,
+         "basicRules2024": true,
          "className": "Warrior",
          "classSource": "D&DF-PHB",
-         "level": 16,
+         "level": 14,
          "entries": [
-            "You gain the {@feat Ability Score Improvement|D&DF-PHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+            "You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
          ]
       },
       {
          "name": "Subclass Feature",
          "source": "D&DF-PHB",
-         "page": 82,
+         "page": 92,
+         "srd52": true,
+         "basicRules2024": true,
          "className": "Warrior",
          "classSource": "D&DF-PHB",
-         "level": 17,
+         "level": 15,
          "entries": [
             "You gain a feature from your Warrior Subclass."
          ]
       },
       {
-         "name": "Elusive",
+         "name": "Ability Score Improvement",
          "source": "D&DF-PHB",
-         "page": 82,
+         "page": 92,
+         "srd52": true,
+         "basicRules2024": true,
+         "className": "Warrior",
+         "classSource": "D&DF-PHB",
+         "level": 16,
+         "entries": [
+            "You gain the {@feat Ability Score Improvement|XPHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+         ]
+      },
+      {
+         "name": "Action Surge",
+         "source": "D&DF-PHB",
+         "page": 91,
+         "srd52": true,
+         "basicRules2024": true,
+         "className": "Warrior",
+         "classSource": "D&DF-PHB",
+         "level": 17,
+         "entries": [
+            "You can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action, except the {@action Magic|XPHB} action.",
+            "Once you use this feature, you can't do so again until you finish a {@variantrule Short Rest|XPHB|Short} or {@variantrule Long Rest|XPHB}. Starting at level 17, you can use it twice before a rest but only once on a turn."
+         ]
+      },
+      {
+         "name": "Indomitable",
+         "source": "D&DF-PHB",
+         "page": 92,
+         "srd52": true,
+         "basicRules2024": true,
+         "className": "Warrior",
+         "classSource": "D&DF-PHB",
+         "level": 17,
+         "entries": [
+            "If you fail a saving throw, you can reroll it with a bonus equal to your Warrior level. You must use the new roll, and you can't use this feature again until you finish a {@variantrule Long Rest|XPHB}.",
+            "You can use this feature twice before a {@variantrule Long Rest|XPHB} starting at level 13 and three times before a {@variantrule Long Rest|XPHB} starting at level 17."
+         ]
+      },
+      {
+         "name": "Subclass Feature",
+         "source": "D&DF-PHB",
+         "page": 92,
+         "srd52": true,
+         "basicRules2024": true,
          "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 18,
          "entries": [
-            "You're so evasive that attackers rarely gain the upper hand against you. No attack roll can have {@variantrule Advantage|D&DF-PHB} against you unless you have the {@condition Incapacitated|D&DF-PHB} condition."
+            "You gain a feature from your Warrior Subclass."
          ]
       },
       {
-         "name": "Stroke of Luck",
+         "name": "Epic Boon",
          "source": "D&DF-PHB",
-         "page": 82,
+         "page": 92,
+         "srd52": true,
+         "basicRules2024": true,
+         "className": "Warrior",
+         "classSource": "D&DF-PHB",
+         "level": 19,
+         "entries": [
+            "You gain an {@filter Epic Boon feat|feats|category=EB} or another {@5etools feat|feats.html} of your choice for which you qualify. {@feat Boon of Combat Prowess|XPHB} is recommended."
+         ]
+      },
+      {
+         "name": "Three Extra Attacks",
+         "source": "D&DF-PHB",
+         "page": 92,
+         "srd52": true,
+         "basicRules2024": true,
          "className": "Warrior",
          "classSource": "D&DF-PHB",
          "level": 20,
          "entries": [
-            "You have a marvelous knack for succeeding when you need to. If you fail a {@variantrule D20 Test|D&DF-PHB}, you can turn the roll into a 20.",
-            "Once you use this feature, you can't use it again until you finish a {@variantrule Short Rest|D&DF-PHB|Short} or {@variantrule Long Rest|D&DF-PHB}."
+            "You can attack four times instead of once whenever you take the {@action Attack|XPHB} action on your turn."
          ]
       }
-  ],
+   ],
    "subclass": [
       {
          "name": "Elemental Trickster",
@@ -1344,7 +1557,7 @@
          "header": 2,
          "entries": [
          "At 9th level, you may also learn {Druid} Spells using your Nature Power (Spellcasting) feature, using the same limitations.",
-         "Additionally, you may use Druidcraft as a bonus action." 
+         "Additionally, you may use Druidcraft as a bonus action."
         ]
       },
       {
@@ -1359,7 +1572,7 @@
          "header": 2,
          "entries": [
     "Starting at 13th level, if you are hidden from a creature when you Cast a Nature Power (Spell) on it, the creature has disadvantage on any saving throw it makes against the nature power (spell) this turn."
-         ]   
+         ]
    },
       {
          "name": "Lord of Nature",
