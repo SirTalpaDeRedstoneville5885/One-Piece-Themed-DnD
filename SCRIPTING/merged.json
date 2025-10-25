@@ -7397,18 +7397,9 @@
     "baseItem": "cutlass|D&DF-PHB",
     "weaponCategory": "martial",
     "reqAttune": true,
-    "ammunition": true,
-    "reload": 1,
     "value": 1500,
-    "weight": 5,
-    "page": 143,
     "source": "D&DF-PHB",
     "bonusWeapon": "+3",
-    "attachedSpells": {
-      "daily": {
-        "1e": ["dominate monster|phb"]
-      }
-    },
     "rarity": "legendary"
   },
   {
@@ -7424,5 +7415,5 @@
     "source": "D&DF-PHB",
     "rarity": "none"
   }
-]
+  ]
 }
