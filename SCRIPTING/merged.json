@@ -12,7 +12,7 @@
           "Tarun",
           "SirTalpadeRedstoneville58"
         ],
-        "version": "2.3.7",
+        "version": "2.4.0",
         "color": "0B3075",
         "url": "https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm"
       }
@@ -6966,7 +6966,7 @@
       ]
     }
   ],
-  "item": [    
+  "item": [
     {
       "name": "Attack Cuisine",
       "entries": [
@@ -7082,12 +7082,12 @@
             "a {@item tankard|phb}",
             "a {@item fishing tackle|phb}",
             "some {@item soap|phb|}",
-            "a small knife."            
+            "a small knife."
           ]
         },
         "the pack also has {@item Hempen Rope (50 feet)|phb|50 feet of hempen rope} strapped to the side of it."
       ]
-    },    
+    },
     {
       "name": "Power Source",
       "entries": [
@@ -7359,6 +7359,65 @@
       "weight": 5,
       "page": 143,
       "source": "D&DF-PHB",
+      "rarity": "none"
+    },
+    {
+      "name": "Ace (Supreme Meito)",
+      "entries": [
+        {
+                      "type": "list",
+                      "items": [
+                        {
+                          "type": "entries",
+                          "name": "Black Surge",
+                          "entries": [
+                            "Ace surges with black lightning haki when held by powerful users. It deals an extra {@dice 2d6} force damage to any target it hits."
+                          ]
+                        },
+                        {
+                          "type": "list",
+                          "name": "Conqueror's Divine Will",
+                          "entries": [
+                            "This calm strip of sea that rests on both outer borders on each side of the Grand Line, contains many islands and creatures within it. However, despite its name, crossing the Calm Belt can prove to be instantly fatal to even the most powerful of pirate crews. Due to the complete absence of ocean currents and winds throughout the Calm Belt, there are very few ships that can effectively move through it. Additionally, a near-infinite number of Sea Kings and other sea monsters make the Calm Belt their home and will immediately destroy any suspecting ship or creature attempting to move over it.",
+                            "Only a select few ships manufactured by the Marines or special Kingdoms will dare to cross the Calm Belt using seastone technology or sea monster guides to bypass the dangers it presents."
+                          ],
+                          "items": [
+                            {
+                              "type": "entries",
+                              "entries": [
+                                "You can telepathically communicate with Sea Kings within 60 feet of you."
+                              ],
+                              "type": "entries",
+                              "entries": [
+                                "Ace scores a critical hit on a roll of 19 or 20."
+                              ],
+                              "type": "entries",
+                              "entries": [
+                                "You can cast Dominate Monster (save DC 17) on another creature. Once you have done so, Ace can’t be used this way again until the next dawn."
+                              ]                              
+                            }
+                          ]
+                        }
+                      ]
+                    }
+      ],
+      "baseitem": "cutlass| D&DF-PHB",
+      "weaponCategory": "martial",
+      "reqAttune": true,
+      "ammunition": true,
+      "reload": 1,
+      "value": 1500,
+      "weight": 5,
+      "page": 143,
+      "source": "D&DF-PHB",
+      "bonusWeapon": "+3",
+      "attachedSpells": {
+        "daily": {
+                  "1e": [
+                    "dominate monster|phb"
+                  ]
+                }
+      },
       "rarity": "none"
     }
   ]
