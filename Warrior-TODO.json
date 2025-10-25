@@ -3,8 +3,8 @@
    "_meta":{
       "sources":[
          {
-            "json":"assRogue-D&DF-PHB",
-            "abbreviation":"assRogue-D&DF-PHB",
+            "json":"D&DF-PHB",
+            "abbreviation":"D&DF-PHB",
             "full":"One Piece Rogue",
             "authors":[
                "OneWorldHD"
@@ -26,296 +26,47 @@
       {
    "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
          "name":"Rogue",
-         "source":"assRogue-D&DF-PHB",
-         "classTableGroups": [
-            {
-               "colLabels": [
-                  "Sneak Attack"
-               ],
-               "rows": [
-                  [
-                     {
-                        "type": "dice",
-                        "toRoll": [
-                           {
-                              "number": 1,
-                              "faces": 6
-                           }
-                        ],
-                        "rollable": true
-                     }
-                  ],
-                  [
-                     {
-                        "type": "dice",
-                        "toRoll": [
-                           {
-                              "number": 1,
-                              "faces": 6
-                           }
-                        ],
-                        "rollable": true
-                     }
-                  ],
-                  [
-                     {
-                        "type": "dice",
-                        "toRoll": [
-                           {
-                              "number": 2,
-                              "faces": 6
-                           }
-                        ],
-                        "rollable": true
-                     }
-                  ],
-                  [
-                     {
-                        "type": "dice",
-                        "toRoll": [
-                           {
-                              "number": 2,
-                              "faces": 6
-                           }
-                        ],
-                        "rollable": true
-                     }
-                  ],
-                  [
-                     {
-                        "type": "dice",
-                        "toRoll": [
-                           {
-                              "number": 3,
-                              "faces": 6
-                           }
-                        ],
-                        "rollable": true
-                     }
-                  ],
-                  [
-                     {
-                        "type": "dice",
-                        "toRoll": [
-                           {
-                              "number": 3,
-                              "faces": 6
-                           }
-                        ],
-                        "rollable": true
-                     }
-                  ],
-                  [
-                     {
-                        "type": "dice",
-                        "toRoll": [
-                           {
-                              "number": 4,
-                              "faces": 6
-                           }
-                        ],
-                        "rollable": true
-                     }
-                  ],
-                  [
-                     {
-                        "type": "dice",
-                        "toRoll": [
-                           {
-                              "number": 4,
-                              "faces": 6
-                           }
-                        ],
-                        "rollable": true
-                     }
-                  ],
-                  [
-                     {
-                        "type": "dice",
-                        "toRoll": [
-                           {
-                              "number": 5,
-                              "faces": 6
-                           }
-                        ],
-                        "rollable": true
-                     }
-                  ],
-                  [
-                     {
-                        "type": "dice",
-                        "toRoll": [
-                           {
-                              "number": 5,
-                              "faces": 6
-                           }
-                        ],
-                        "rollable": true
-                     }
-                  ],
-                  [
-                     {
-                        "type": "dice",
-                        "toRoll": [
-                           {
-                              "number": 6,
-                              "faces": 6
-                           }
-                        ],
-                        "rollable": true
-                     }
-                  ],
-                  [
-                     {
-                        "type": "dice",
-                        "toRoll": [
-                           {
-                              "number": 6,
-                              "faces": 6
-                           }
-                        ],
-                        "rollable": true
-                     }
-                  ],
-                  [
-                     {
-                        "type": "dice",
-                        "toRoll": [
-                           {
-                              "number": 7,
-                              "faces": 6
-                           }
-                        ],
-                        "rollable": true
-                     }
-                  ],
-                  [
-                     {
-                        "type": "dice",
-                        "toRoll": [
-                           {
-                              "number": 7,
-                              "faces": 6
-                           }
-                        ],
-                        "rollable": true
-                     }
-                  ],
-                  [
-                     {
-                        "type": "dice",
-                        "toRoll": [
-                           {
-                              "number": 8,
-                              "faces": 6
-                           }
-                        ],
-                        "rollable": true
-                     }
-                  ],
-                  [
-                     {
-                        "type": "dice",
-                        "toRoll": [
-                           {
-                              "number": 8,
-                              "faces": 6
-                           }
-                        ],
-                        "rollable": true
-                     }
-                  ],
-                  [
-                     {
-                        "type": "dice",
-                        "toRoll": [
-                           {
-                              "number": 9,
-                              "faces": 6
-                           }
-                        ],
-                        "rollable": true
-                     }
-                  ],
-                  [
-                     {
-                        "type": "dice",
-                        "toRoll": [
-                           {
-                              "number": 9,
-                              "faces": 6
-                           }
-                        ],
-                        "rollable": true
-                     }
-                  ],
-                  [
-                     {
-                        "type": "dice",
-                        "toRoll": [
-                           {
-                              "number": 10,
-                              "faces": 6
-                           }
-                        ],
-                        "rollable": true
-                     }
-                  ],
-                  [
-                     {
-                        "type": "dice",
-                        "toRoll": [
-                           {
-                              "number": 10,
-                              "faces": 6
-                           }
-                        ],
-                        "rollable": true
-                     }
-                  ]
-               ]
-            }
-         ],
+         "source":"D&DF-PHB",         
          "classFeatures": [
-            "Expertise|Rogue|assRogue-D&DF-PHB|1",
-            "Sneak Attack|Rogue|assRogue-D&DF-PHB|1",
-            "Thieves' Cant|Rogue|assRogue-D&DF-PHB|1",
-            "Cunning Action|Rogue|assRogue-D&DF-PHB|2",
+            "Expertise|Rogue|D&DF-PHB|1",
+            "Sneak Attack|Rogue|D&DF-PHB|1",
+            "Thieves' Cant|Rogue|D&DF-PHB|1",
+            "Cunning Action|Rogue|D&DF-PHB|2",
             {
-               "classFeature": "Roguish Archetype|Rogue|assRogue-D&DF-PHB|3",
+               "classFeature": "Roguish Archetype|Rogue|D&DF-PHB|3",
                "gainSubclassFeature": true
             },
-            "Steady Aim|Rogue|assRogue-D&DF-PHB|3",
-            "Ability Score Improvement|Rogue|assRogue-D&DF-PHB|4",
-            "Uncanny Dodge|Rogue|assRogue-D&DF-PHB|5",
-            "Expertise|Rogue|assRogue-D&DF-PHB|6",
-            "Evasion|Rogue|assRogue-D&DF-PHB|7",
-            "Ability Score Improvement|Rogue|assRogue-D&DF-PHB|8",
+            "Steady Aim|Rogue|D&DF-PHB|3",
+            "Ability Score Improvement|Rogue|D&DF-PHB|4",
+            "Uncanny Dodge|Rogue|D&DF-PHB|5",
+            "Expertise|Rogue|D&DF-PHB|6",
+            "Evasion|Rogue|D&DF-PHB|7",
+            "Ability Score Improvement|Rogue|D&DF-PHB|8",
             {
-               "classFeature": "Roguish Archetype feature|Rogue|assRogue-D&DF-PHB|9",
+               "classFeature": "Roguish Archetype feature|Rogue|D&DF-PHB|9",
                "gainSubclassFeature": true
             },
-            "Ability Score Improvement|Rogue|assRogue-D&DF-PHB|10",
-            "Reliable Talent|Rogue|assRogue-D&DF-PHB|11",
-            "Ability Score Improvement|Rogue|assRogue-D&DF-PHB|12",
+            "Ability Score Improvement|Rogue|D&DF-PHB|10",
+            "Reliable Talent|Rogue|D&DF-PHB|11",
+            "Ability Score Improvement|Rogue|D&DF-PHB|12",
             {
-               "classFeature": "Roguish Archetype feature|Rogue|assRogue-D&DF-PHB|13",
+               "classFeature": "Roguish Archetype feature|Rogue|D&DF-PHB|13",
                "gainSubclassFeature": true
             },
-            "Power of Observation|Rogue|assRogue-D&DF-PHB|14",
-            "Slippery Mind|Rogue|assRogue-D&DF-PHB|15",
-            "Ability Score Improvement|Rogue|assRogue-D&DF-PHB|16",
+            "Power of Observation|Rogue|D&DF-PHB|14",
+            "Slippery Mind|Rogue|D&DF-PHB|15",
+            "Ability Score Improvement|Rogue|D&DF-PHB|16",
             {
-               "classFeature": "Roguish Archetype feature|Rogue|assRogue-D&DF-PHB|17",
+               "classFeature": "Roguish Archetype feature|Rogue|D&DF-PHB|17",
                "gainSubclassFeature": true
             },
-            "Elusive|Rogue|assRogue-D&DF-PHB|18",
-            "Ability Score Improvement|Rogue|assRogue-D&DF-PHB|19",
-            "Stroke of Luck|Rogue|assRogue-D&DF-PHB|20"
+            "Elusive|Rogue|D&DF-PHB|18",
+            "Ability Score Improvement|Rogue|D&DF-PHB|19",
+            "Stroke of Luck|Rogue|D&DF-PHB|20"
          ],
          "hd":{
             "number":1,
-            "faces":8
+            "faces":10
          },
          "proficiency":[
             "dex",
@@ -418,35 +169,13 @@
             },
             "proficienciesGained": {
                "armor": [
-                  "light"
+                  "light",
+                  "medium",
+                  "shield"
                ],
-               "skills": [
-                  {
-                     "choose": {
-                        "from": [
-                           "acrobatics",
-                           "athletics",
-                           "deception",
-                           "insight",
-                           "intimidation",
-                           "investigation",
-                           "perception",
-                           "performance",
-                           "persuasion",
-                           "sleight of hand",
-                           "stealth"
-                        ],
-                        "count": 1
-                     }
-                  }
-               ],
-               "tools": [
-                  "{@item thieves' tools|PHB}"
-               ],
-               "toolProficiencies": [
-                  {
-                     "thieves' tools": true
-                  }
+               "weapons": [
+                  "simple",
+                  "martial"
                ]
             }
          }
@@ -455,10 +184,10 @@
   "classFeature": [
       {
          "name": "Expertise",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 94,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "level": 1,
          "entries": [
             "At 1st level, choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with {@item thieves' tools|phb}. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.",
@@ -467,10 +196,10 @@
       },
       {
          "name": "Sneak Attack",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 94,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "level": 1,
          "entries": [
             "Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra {@damage 1d6} damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.",
@@ -480,10 +209,10 @@
       },
       {
          "name": "Thieves' Cant",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 94,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "level": 1,
          "entries": [
             "During your rogue training you learned thieves' cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creature that knows thieves' cant understands such messages. It takes four times longer to convey such a message than it does to speak the same idea plainly.",
@@ -492,10 +221,10 @@
       },
       {
          "name": "Cunning Action",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 94,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "level": 2,
          "entries": [
             "Starting at 2nd level, your quick thinking and agility allow you to move and act quickly. You can take a bonus action on each of your turns in combat. This action can be used only to take the {@action Dash}, {@action Disengage}, or {@action Hide} action."
@@ -503,10 +232,10 @@
       },
       {
          "name": "Roguish Archetype",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 94,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "level": 3,
          "entries": [
             "At 3rd level, you choose an archetype that you emulate in the exercise of your rogue abilities from the list of available archetypes. Your archetype choice grants you features at 3rd level and then again at 9th, 13th, and 17th level."
@@ -514,10 +243,10 @@
       },
       {
          "name": "Steady Aim",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 62,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "level": 3,
          "isClassFeatureVariant": true,
          "entries": [
@@ -526,10 +255,10 @@
       },
       {
          "name": "Ability Score Improvement",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 94,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "level": 4,
          "entries": [
             "When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -538,10 +267,10 @@
       },
       {
          "name": "Uncanny Dodge",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 94,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "level": 5,
          "entries": [
             "Starting at 5th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you."
@@ -549,10 +278,10 @@
       },
       {
          "name": "Expertise",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 94,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "level": 6,
          "entries": [
             "At 6th level, you can choose two more of your proficiencies (in skills or with {@item thieves' tools|phb}) to gain the benefit of Expertise."
@@ -560,10 +289,10 @@
       },
       {
          "name": "Evasion",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 94,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "level": 7,
          "entries": [
             "Beginning at 7th level, you can nimbly dodge out of the way of certain area effects, such as a red dragon's fiery breath or an {@spell ice storm} spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail."
@@ -571,10 +300,10 @@
       },
       {
          "name": "Ability Score Improvement",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 94,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "level": 8,
          "entries": [
             "When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -583,10 +312,10 @@
       },
       {
          "name": "Roguish Archetype feature",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 94,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "level": 9,
          "entries": [
             "At 9th level, you gain a feature granted by your Roguish Archetype."
@@ -594,10 +323,10 @@
       },
       {
          "name": "Ability Score Improvement",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 94,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "level": 10,
          "entries": [
             "When you reach 10th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -606,10 +335,10 @@
       },
       {
          "name": "Reliable Talent",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 94,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "level": 11,
          "entries": [
             "By 11th level, you have refined your chosen skills until they approach perfection. Whenever you make an ability check that lets you add your proficiency bonus, you can treat a {@dice d20} roll of 9 or lower as a 10."
@@ -617,10 +346,10 @@
       },
       {
          "name": "Ability Score Improvement",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 94,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "level": 12,
          "entries": [
             "When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -629,10 +358,10 @@
       },
       {
          "name": "Roguish Archetype feature",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 94,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "level": 13,
          "entries": [
             "At 13th level, you gain a feature granted by your Roguish Archetype."
@@ -640,10 +369,10 @@
       },
       {
          "name": "Blindsense",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 94,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "level": 14,
          "entries": [
             "Starting at 14th level, if you are able to hear, you are aware of the location of any hidden or {@condition invisible} creature within 10 feet of you."
@@ -651,10 +380,10 @@
       },
       {
          "name": "Slippery Mind",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 94,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "level": 15,
          "entries": [
             "By 15th level, you have acquired greater mental strength. You gain proficiency in Wisdom saving throws."
@@ -662,10 +391,10 @@
       },
       {
          "name": "Ability Score Improvement",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 94,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "level": 16,
          "entries": [
             "When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -674,10 +403,10 @@
       },
       {
          "name": "Roguish Archetype feature",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 94,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "level": 17,
          "entries": [
             "At 17th level, you gain a feature granted by your Roguish Archetype."
@@ -685,10 +414,10 @@
       },
       {
          "name": "Elusive",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 94,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "level": 18,
          "entries": [
             "Beginning at 18th level, you are so evasive that attackers rarely gain the upper hand against you. No attack roll has advantage against you while you aren't {@condition incapacitated}."
@@ -696,10 +425,10 @@
       },
       {
          "name": "Ability Score Improvement",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 94,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "level": 19,
          "entries": [
             "When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -708,10 +437,10 @@
       },
       {
          "name": "Stroke of Luck",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 94,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "level": 20,
          "entries": [
             "At 20th level, you have an uncanny knack for succeeding when you need to. If your attack misses a target within range, you can turn the miss into a hit. Alternatively, if you fail an ability check, you can treat the {@dice d20} roll as a 20.",
@@ -720,69 +449,69 @@
       },
       {
          "name": "Expertise",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 81,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "level": 1,
          "entries": [
-            "You gain {@variantrule Expertise|assRogue-D&DF-PHB} in two of your skill proficiencies of your choice. {@skill Sleight of Hand|assRogue-D&DF-PHB} and {@skill Stealth|assRogue-D&DF-PHB} are recommended if you have proficiency in them.",
-            "At Rogue level 6, you gain {@variantrule Expertise|assRogue-D&DF-PHB} in two more of your skill proficiencies of your choice."
+            "You gain {@variantrule Expertise|D&DF-PHB} in two of your skill proficiencies of your choice. {@skill Sleight of Hand|D&DF-PHB} and {@skill Stealth|D&DF-PHB} are recommended if you have proficiency in them.",
+            "At Rogue level 6, you gain {@variantrule Expertise|D&DF-PHB} in two more of your skill proficiencies of your choice."
          ]
       },
       {
          "name": "Sneak Attack",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 81,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "level": 1,
          "entries": [
-            "You know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra {@damage 1d6} damage to one creature you hit with an attack roll if you have {@variantrule Advantage|assRogue-D&DF-PHB} on the roll and the attack uses a Finesse or a Ranged weapon. The extra damage's type is the same as the weapon's type.",
-            "You don't need {@variantrule Advantage|assRogue-D&DF-PHB} on the attack roll if at least one of your allies is within 5 feet of the target, the ally doesn't have the {@condition Incapacitated|assRogue-D&DF-PHB} condition, and you don't have {@variantrule Disadvantage|assRogue-D&DF-PHB} on the attack roll.",
+            "You know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra {@damage 1d6} damage to one creature you hit with an attack roll if you have {@variantrule Advantage|D&DF-PHB} on the roll and the attack uses a Finesse or a Ranged weapon. The extra damage's type is the same as the weapon's type.",
+            "You don't need {@variantrule Advantage|D&DF-PHB} on the attack roll if at least one of your allies is within 5 feet of the target, the ally doesn't have the {@condition Incapacitated|D&DF-PHB} condition, and you don't have {@variantrule Disadvantage|D&DF-PHB} on the attack roll.",
             "The extra damage increases as you gain Rogue levels, as shown in the Sneak Attack column of the Rogue Features table."
          ]
       },
       {
          "name": "Thieves' Cant",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 81,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "level": 1,
          "entries": [
-            "You picked up various languages in the communities where you plied your roguish talents. You know Thieves' Cant and one other language of your choice, which you choose from the language tables in {@book chapter 2|assRogue-D&DF-PHB|2|Choose Languages}."
+            "You picked up various languages in the communities where you plied your roguish talents. You know Thieves' Cant and one other language of your choice, which you choose from the language tables in {@book chapter 2|D&DF-PHB|2|Choose Languages}."
          ]
       },
       {
          "name": "Weapon Mastery",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 81,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "level": 1,
          "entries": [
-            "Your training with weapons allows you to use the {@variantrule weapon mastery properties|assRogue-D&DF-PHB|mastery properties} of two kinds of {@filter weapons|items|type=simple weapon;martial weapon} of your choice with which you have proficiency, such as {@item Dagger|assRogue-D&DF-PHB|Daggers} and {@item Shortbow|assRogue-D&DF-PHB|Shortbows}.",
-            "Whenever you finish a {@variantrule Long Rest|assRogue-D&DF-PHB}, you can change the kinds of weapons you chose. For example, you could switch to using the {@variantrule weapon mastery properties|assRogue-D&DF-PHB|mastery properties} of {@item Scimitar|assRogue-D&DF-PHB|Scimitars} and {@item Shortsword|assRogue-D&DF-PHB|Shortswords}."
+            "Your training with weapons allows you to use the {@variantrule weapon mastery properties|D&DF-PHB|mastery properties} of two kinds of {@filter weapons|items|type=simple weapon;martial weapon} of your choice with which you have proficiency, such as {@item Dagger|D&DF-PHB|Daggers} and {@item Shortbow|D&DF-PHB|Shortbows}.",
+            "Whenever you finish a {@variantrule Long Rest|D&DF-PHB}, you can change the kinds of weapons you chose. For example, you could switch to using the {@variantrule weapon mastery properties|D&DF-PHB|mastery properties} of {@item Scimitar|D&DF-PHB|Scimitars} and {@item Shortsword|D&DF-PHB|Shortswords}."
          ]
       },
       {
          "name": "Cunning Action",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 81,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "level": 2,
          "entries": [
-            "Your quick thinking and agility allow you to move and act quickly. On your turn, you can take one of the following actions as a {@variantrule Bonus Action|assRogue-D&DF-PHB}: {@action Dash|assRogue-D&DF-PHB}, {@action Disengage|assRogue-D&DF-PHB}, or {@action Hide|assRogue-D&DF-PHB}."
+            "Your quick thinking and agility allow you to move and act quickly. On your turn, you can take one of the following actions as a {@variantrule Bonus Action|D&DF-PHB}: {@action Dash|D&DF-PHB}, {@action Disengage|D&DF-PHB}, or {@action Hide|D&DF-PHB}."
          ]
       },
       {
          "name": "Rogue Subclass",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 81,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "level": 3,
          "entries": [
             "You gain a Rogue subclass of your choice. A subclass is a specialization that grants you features at certain Rogue levels. For the rest of your career, you gain each of your subclass's features that are of your Rogue level or lower."
@@ -790,65 +519,65 @@
       },
       {
          "name": "Steady Aim",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 81,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "level": 3,
          "entries": [
-            "As a {@variantrule Bonus Action|assRogue-D&DF-PHB}, you give yourself {@variantrule Advantage|assRogue-D&DF-PHB} on your next attack roll on the current turn. You can use this feature only if you haven't moved during this turn, and after you use it, your {@variantrule Speed|assRogue-D&DF-PHB} is 0 until the end of the current turn."
+            "As a {@variantrule Bonus Action|D&DF-PHB}, you give yourself {@variantrule Advantage|D&DF-PHB} on your next attack roll on the current turn. You can use this feature only if you haven't moved during this turn, and after you use it, your {@variantrule Speed|D&DF-PHB} is 0 until the end of the current turn."
          ]
       },
       {
          "name": "Ability Score Improvement",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 81,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "level": 4,
          "entries": [
-            "You gain the {@feat Ability Score Improvement|assRogue-D&DF-PHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Rogue levels 8, 10, 12, and 16."
+            "You gain the {@feat Ability Score Improvement|D&DF-PHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify. You gain this feature again at Rogue levels 8, 10, 12, and 16."
          ]
       },
       {
          "name": "Uncanny Dodge",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 81,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "level": 5,
          "entries": [
-            "When an attacker that you can see hits you with an attack roll, you can take a {@variantrule Reaction|assRogue-D&DF-PHB} to halve the attack's damage against you (round down)."
+            "When an attacker that you can see hits you with an attack roll, you can take a {@variantrule Reaction|D&DF-PHB} to halve the attack's damage against you (round down)."
          ]
       },
       {
          "name": "Expertise",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 81,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "level": 6,
          "entries": [
-            "You gain {@variantrule Expertise|assRogue-D&DF-PHB} in two of your Skill Proficiencies of your choice."
+            "You gain {@variantrule Expertise|D&DF-PHB} in two of your Skill Proficiencies of your choice."
          ]
       },
       {
          "name": "Evasion",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 81,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "level": 7,
          "entries": [
-            "You can nimbly dodge out of the way of certain dangers. When you're subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail. You can't use this feature if you have the {@condition Incapacitated|assRogue-D&DF-PHB} condition."
+            "You can nimbly dodge out of the way of certain dangers. When you're subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail. You can't use this feature if you have the {@condition Incapacitated|D&DF-PHB} condition."
          ]
       },
       {
          "name": "Reliable Talent",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 130,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "level": 7,
          "entries": [
             "Whenever you make an ability check that uses one of your skill or tool proficiencies, you can treat a {@dice d20} roll of 9 or lower as a 10."
@@ -856,21 +585,21 @@
       },
       {
          "name": "Ability Score Improvement",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 130,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "level": 8,
          "entries": [
-            "You gain the {@feat Ability Score Improvement|assRogue-D&DF-PHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+            "You gain the {@feat Ability Score Improvement|D&DF-PHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
          ]
       },
       {
          "name": "Subclass Feature",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 130,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "level": 9,
          "entries": [
             "You gain a feature from your Rogue Subclass."
@@ -878,32 +607,32 @@
       },
       {
          "name": "Ability Score Improvement",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 130,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "level": 10,
          "entries": [
-            "You gain the {@feat Ability Score Improvement|assRogue-D&DF-PHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+            "You gain the {@feat Ability Score Improvement|D&DF-PHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
          ]
       },
       {
          "name": "Ability Score Improvement",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 82,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "level": 12,
          "entries": [
-            "You gain the {@feat Ability Score Improvement|assRogue-D&DF-PHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+            "You gain the {@feat Ability Score Improvement|D&DF-PHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
          ]
       },
       {
          "name": "Subclass Feature",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 82,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "level": 13,
          "entries": [
             "You gain a feature from your Rogue Subclass."
@@ -911,10 +640,10 @@
       },
       {
          "name": "Power of Observation",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 82,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "level": 14,
          "entries": [
             "Starting at 14th level, you may unlock any one \"Rare\" or lower Color of Observation Haki Advancement feat from Chapter 7. If you have already taken all the rare and lower observation haki feats, you may take a rare or lower haki advancement feat under a different color of haki, assuming you meet the prerequisites."
@@ -922,10 +651,10 @@
       },
       {
          "name": "Slippery Mind",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 82,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "level": 15,
          "entries": [
             "Your cunning mind is exceptionally difficult to control. You gain proficiency in Wisdom and Charisma saving throws."
@@ -933,21 +662,21 @@
       },
       {
          "name": "Ability Score Improvement",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 82,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "level": 16,
          "entries": [
-            "You gain the {@feat Ability Score Improvement|assRogue-D&DF-PHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
+            "You gain the {@feat Ability Score Improvement|D&DF-PHB} feat or another {@5etools feat|feats.html} of your choice for which you qualify."
          ]
       },
       {
          "name": "Subclass Feature",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 82,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "level": 17,
          "entries": [
             "You gain a feature from your Rogue Subclass."
@@ -955,25 +684,25 @@
       },
       {
          "name": "Elusive",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 82,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "level": 18,
          "entries": [
-            "You're so evasive that attackers rarely gain the upper hand against you. No attack roll can have {@variantrule Advantage|assRogue-D&DF-PHB} against you unless you have the {@condition Incapacitated|assRogue-D&DF-PHB} condition."
+            "You're so evasive that attackers rarely gain the upper hand against you. No attack roll can have {@variantrule Advantage|D&DF-PHB} against you unless you have the {@condition Incapacitated|D&DF-PHB} condition."
          ]
       },
       {
          "name": "Stroke of Luck",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 82,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "level": 20,
          "entries": [
-            "You have a marvelous knack for succeeding when you need to. If you fail a {@variantrule D20 Test|assRogue-D&DF-PHB}, you can turn the roll into a 20.",
-            "Once you use this feature, you can't use it again until you finish a {@variantrule Short Rest|assRogue-D&DF-PHB|Short} or {@variantrule Long Rest|assRogue-D&DF-PHB}."
+            "You have a marvelous knack for succeeding when you need to. If you fail a {@variantrule D20 Test|D&DF-PHB}, you can turn the roll into a 20.",
+            "Once you use this feature, you can't use it again until you finish a {@variantrule Short Rest|D&DF-PHB|Short} or {@variantrule Long Rest|D&DF-PHB}."
          ]
       }
   ],
@@ -981,9 +710,9 @@
       {
          "name": "Elemental Trickster",
          "shortName": "Elemental Trickster",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "page": 83,
          "edition": "classic",
          "spellcastingAbility": "int",
@@ -1033,7 +762,7 @@
                "subclasses": [
                   {
                      "name": "Elemental Trickster",
-                     "source": "assRogue-D&DF-PHB"
+                     "source": "D&DF-PHB"
                   }
                ],
                "colLabels": [
@@ -1128,7 +857,7 @@
                "subclasses": [
                   {
                      "name": "Elemental Trickster",
-                     "source": "assRogue-D&DF-PHB"
+                     "source": "D&DF-PHB"
                   }
                ],
                "colLabels": [
@@ -1262,40 +991,40 @@
             }
          ],
          "subclassFeatures": [
-            "Elemental Trickster|Rogue|assRogue-D&DF-PHB|Elemental Trickster|assRogue-D&DF-PHB|3",
-            "Gift of the Wild|Rogue|assRogue-D&DF-PHB|Elemental Trickster|assRogue-D&DF-PHB|9",
-            "Ingenious Ambush|Rogue|assRogue-D&DF-PHB|Elemental Trickster|assRogue-D&DF-PHB|13",
-            "Lord of Nature|Rogue|assRogue-D&DF-PHB|Elemental Trickster|assRogue-D&DF-PHB|17"
+            "Elemental Trickster|Rogue|D&DF-PHB|Elemental Trickster|D&DF-PHB|3",
+            "Gift of the Wild|Rogue|D&DF-PHB|Elemental Trickster|D&DF-PHB|9",
+            "Ingenious Ambush|Rogue|D&DF-PHB|Elemental Trickster|D&DF-PHB|13",
+            "Lord of Nature|Rogue|D&DF-PHB|Elemental Trickster|D&DF-PHB|17"
          ]
       },
       {
          "name": "Thief",
          "shortName": "Thief",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "page": 83,
          "edition": "classic",
          "subclassFeatures": [
-            "Thief|Rogue|assRogue-D&DF-PHB|Thief|assRogue-D&DF-PHB|3",
-            "Supreme Sneak|Rogue|assRogue-D&DF-PHB|Thief|assRogue-D&DF-PHB|9",
-            "Use Magic Device|Rogue|assRogue-D&DF-PHB|Thief|assRogue-D&DF-PHB|13",
-            "Thief's Reflexes|Rogue|assRogue-D&DF-PHB|Thief|assRogue-D&DF-PHB|17"
+            "Thief|Rogue|D&DF-PHB|Thief|D&DF-PHB|3",
+            "Supreme Sneak|Rogue|D&DF-PHB|Thief|D&DF-PHB|9",
+            "Use Magic Device|Rogue|D&DF-PHB|Thief|D&DF-PHB|13",
+            "Thief's Reflexes|Rogue|D&DF-PHB|Thief|D&DF-PHB|17"
          ]
       },
       {
          "name": "Swashbuckler",
          "shortName": "Swashbuckler",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "page": 82,
          "edition": "classic",
          "subclassFeatures": [
-            "Swashbuckler|Rogue|assRogue-D&DF-PHB|Swashbuckler|assRogue-D&DF-PHB|3",
-            "Panache|Rogue|assRogue-D&DF-PHB|Swashbuckler|assRogue-D&DF-PHB|9",
-            "Elegant Maneuver|Rogue|assRogue-D&DF-PHB|Swashbuckler|assRogue-D&DF-PHB|13",
-            "Master Duelist|Rogue|assRogue-D&DF-PHB|Swashbuckler|assRogue-D&DF-PHB|17"
+            "Swashbuckler|Rogue|D&DF-PHB|Swashbuckler|D&DF-PHB|3",
+            "Panache|Rogue|D&DF-PHB|Swashbuckler|D&DF-PHB|9",
+            "Elegant Maneuver|Rogue|D&DF-PHB|Swashbuckler|D&DF-PHB|13",
+            "Master Duelist|Rogue|D&DF-PHB|Swashbuckler|D&DF-PHB|17"
          ],
          "hasFluff": true
       }
@@ -1303,34 +1032,34 @@
    "subclassFeature": [
       {
          "name": "Swashbuckler",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 82,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "subclassShortName": "Swashbuckler",
-         "subclassSource": "assRogue-D&DF-PHB",
+         "subclassSource": "D&DF-PHB",
          "level": 3,
          "entries": [
             "You focus your training on the art of the blade, relying on speed, elegance, and charm in equal parts. While some warriors are brutes clad in heavy armor, your method of fighting looks almost like a performance. Duelists and pirates typically belong to this archetype.",
             "A Swashbuckler excels in single combat, and can fight with two weapons while safely darting away from an opponent.",
             {
                "type": "refSubclassFeature",
-               "subclassFeature": "Fancy Footwork|Rogue|assRogue-D&DF-PHB|Swashbuckler|assRogue-D&DF-PHB|3"
+               "subclassFeature": "Fancy Footwork|Rogue|D&DF-PHB|Swashbuckler|D&DF-PHB|3"
             },
             {
                "type": "refSubclassFeature",
-               "subclassFeature": "Rakish Audacity|Rogue|assRogue-D&DF-PHB|Swashbuckler|assRogue-D&DF-PHB|3"
+               "subclassFeature": "Rakish Audacity|Rogue|D&DF-PHB|Swashbuckler|D&DF-PHB|3"
             }
          ]
       },
       {
          "name": "Fancy Footwork",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 82,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "subclassShortName": "Swashbuckler",
-         "subclassSource": "assRogue-D&DF-PHB",
+         "subclassSource": "D&DF-PHB",
          "level": 3,
          "header": 1,
          "entries": [
@@ -1339,12 +1068,12 @@
       },
       {
          "name": "Rakish Audacity",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 82,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "subclassShortName": "Swashbuckler",
-         "subclassSource": "assRogue-D&DF-PHB",
+         "subclassSource": "D&DF-PHB",
          "level": 3,
          "header": 1,
          "entries": [
@@ -1354,12 +1083,12 @@
       },
       {
          "name": "Panache",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 82,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "subclassShortName": "Swashbuckler",
-         "subclassSource": "assRogue-D&DF-PHB",
+         "subclassSource": "D&DF-PHB",
          "level": 9,
          "header": 2,
          "entries": [
@@ -1370,12 +1099,12 @@
       },
       {
          "name": "Elegant Maneuver",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 82,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "subclassShortName": "Swashbuckler",
-         "subclassSource": "assRogue-D&DF-PHB",
+         "subclassSource": "D&DF-PHB",
          "level": 13,
          "header": 2,
          "entries": [
@@ -1384,12 +1113,12 @@
       },
       {
          "name": "Master Duelist",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 82,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "subclassShortName": "Swashbuckler",
-         "subclassSource": "assRogue-D&DF-PHB",
+         "subclassSource": "D&DF-PHB",
          "level": 17,
          "header": 2,
          "entries": [
@@ -1398,33 +1127,33 @@
       },
       {
          "name": "Thief",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 83,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "subclassShortName": "Thief",
-         "subclassSource": "assRogue-D&DF-PHB",
+         "subclassSource": "D&DF-PHB",
          "level": 3,
          "entries": [
             "You hone your skills in the larcenous arts. Burglars, bandits, cutpurses, and other criminals typically follow this archetype, but so do rogues who prefer to think of themselves as professional treasure seekers, explorers, delvers, and investigators. In addition to improving your agility and stealth, you learn skills useful for delving into ancient ruins, reading unfamiliar languages, and using magic items you normally couldn't employ.",
             {
                "type": "refSubclassFeature",
-               "subclassFeature": "Fast Hands|Rogue|assRogue-D&DF-PHB|Thief|assRogue-D&DF-PHB|3"
+               "subclassFeature": "Fast Hands|Rogue|D&DF-PHB|Thief|D&DF-PHB|3"
             },
             {
                "type": "refSubclassFeature",
-               "subclassFeature": "Second-Story Work|Rogue|assRogue-D&DF-PHB|Thief|assRogue-D&DF-PHB|3"
+               "subclassFeature": "Second-Story Work|Rogue|D&DF-PHB|Thief|D&DF-PHB|3"
             }
          ]
       },
       {
          "name": "Fast Hands",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 83,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "subclassShortName": "Thief",
-         "subclassSource": "assRogue-D&DF-PHB",
+         "subclassSource": "D&DF-PHB",
          "level": 3,
          "header": 1,
          "entries": [
@@ -1433,12 +1162,12 @@
       },
       {
          "name": "Second-Story Work",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 83,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "subclassShortName": "Thief",
-         "subclassSource": "assRogue-D&DF-PHB",
+         "subclassSource": "D&DF-PHB",
          "level": 3,
          "header": 1,
          "entries": [
@@ -1448,12 +1177,12 @@
       },
       {
          "name": "Supreme Sneak",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 83,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "subclassShortName": "Thief",
-         "subclassSource": "assRogue-D&DF-PHB",
+         "subclassSource": "D&DF-PHB",
          "level": 9,
          "header": 2,
          "entries": [
@@ -1462,12 +1191,12 @@
       },
       {
          "name": "Use Magic Device",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 83,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "subclassShortName": "Thief",
-         "subclassSource": "assRogue-D&DF-PHB",
+         "subclassSource": "D&DF-PHB",
          "level": 13,
          "header": 2,
          "entries": [
@@ -1476,12 +1205,12 @@
       },
       {
          "name": "Thief's Reflexes",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 83,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "subclassShortName": "Thief",
-         "subclassSource": "assRogue-D&DF-PHB",
+         "subclassSource": "D&DF-PHB",
          "level": 17,
          "header": 2,
          "entries": [
@@ -1490,33 +1219,33 @@
       },
       {
          "name": "Elemental Trickster",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 83,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "subclassShortName": "Elemental Trickster",
-         "subclassSource": "assRogue-D&DF-PHB",
+         "subclassSource": "D&DF-PHB",
          "level": 3,
          "entries": [
             "When you reach 3rd Level, you gain the ability to cast Nature Powers (Spells). See the general rules of Spellcasting and the Tinkerer spell list in chapter 8.",
             {
                "type": "refSubclassFeature",
-               "subclassFeature": "Nature Power (Spellcasting)|Rogue|assRogue-D&DF-PHB|Elemental Trickster|assRogue-D&DF-PHB|3"
+               "subclassFeature": "Nature Power (Spellcasting)|Rogue|D&DF-PHB|Elemental Trickster|D&DF-PHB|3"
             },
             {
                "type": "refSubclassFeature",
-               "subclassFeature": "Nature's Invention|Rogue|assRogue-D&DF-PHB|Elemental Trickster|assRogue-D&DF-PHB|3"
+               "subclassFeature": "Nature's Invention|Rogue|D&DF-PHB|Elemental Trickster|D&DF-PHB|3"
             }
          ]
       },
       {
          "name": "Nature's Invention",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 83,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "subclassShortName": "Elemental Trickster",
-         "subclassSource": "assRogue-D&DF-PHB",
+         "subclassSource": "D&DF-PHB",
          "level": 3,
          "header": 1,
          "entries": [
@@ -1533,26 +1262,26 @@
       },
       {
          "name": "Bonus Proficiencies",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 83,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "subclassShortName": "Elemental Trickster",
-         "subclassSource": "assRogue-D&DF-PHB",
+         "subclassSource": "D&DF-PHB",
          "level": 3,
          "header": 2,
          "entries": [
-            "When you choose this archetype at 3rd Level, you gain proficiency with {darts}, blowguns|assRogue-D&DF-PHB, giant sling|assRogue-D&DF-PHB"
+            "When you choose this archetype at 3rd Level, you gain proficiency with {darts}, blowguns|D&DF-PHB, giant sling|D&DF-PHB"
          ]
       },
       {
          "name": "Nature Power (Spellcasting)",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 84,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "subclassShortName": "Elemental Trickster",
-         "subclassSource": "assRogue-D&DF-PHB",
+         "subclassSource": "D&DF-PHB",
          "level": 3,
          "header": 1,
          "entries": [
@@ -1626,12 +1355,12 @@
       },
       {
          "name": "Gift of the Wild",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 85,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "subclassShortName": "Elemental Trickster",
-         "subclassSource": "assRogue-D&DF-PHB",
+         "subclassSource": "D&DF-PHB",
          "level": 9,
          "header": 2,
          "entries": [
@@ -1641,12 +1370,12 @@
       },
       {
          "name": "Ingenious Ambush",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 85,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "subclassShortName": "Elemental Trickster",
-         "subclassSource": "assRogue-D&DF-PHB",
+         "subclassSource": "D&DF-PHB",
          "level": 13,
          "header": 2,
          "entries": [
@@ -1655,12 +1384,12 @@
    },
       {
          "name": "Lord of Nature",
-         "source": "assRogue-D&DF-PHB",
+         "source": "D&DF-PHB",
          "page": 85,
          "className": "Rogue",
-         "classSource": "assRogue-D&DF-PHB",
+         "classSource": "D&DF-PHB",
          "subclassShortName": "Elemental Trickster",
-         "subclassSource": "assRogue-D&DF-PHB",
+         "subclassSource": "D&DF-PHB",
          "level": 17,
          "header": 2,
          "entries": [
