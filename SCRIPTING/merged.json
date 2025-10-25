@@ -27,7 +27,7 @@
           "Tarun",
           "SirTalpadeRedstoneville58"
         ],
-        "version": "2.2.0",
+        "version": "2.3.0",
         "color": "AF6528",
         "url": "https://homebrewery.naturalcrit.com/share/sK-UDzk7x8U_"
       }
@@ -17183,8 +17183,995 @@
         ]
       }
     ]
-  }
-
-
+  },
+    {
+      "name": "Battleship",
+      "source": "D&DF-DMG",
+      "page": 0,
+      "vehicleType": "SHIP",
+      "terrain": [
+        "water"
+      ],
+      "size": "Gargantuan",
+      "pace": 4,
+      "str": 28,
+      "dex": 4,
+      "con": 20,
+      "int": 0,
+      "wis": 0,
+      "cha": 0,
+      "action": [
+        "On its turn, the battleship can move using its control and one movement component, and attack with its weapons. With half crew or fewer, it moves at half speed and can only use half its weapons (rounded down)."
+      ],
+      "hull": {
+        "ac": 15,
+        "hp": 1000,
+        "dt": 20
+      },
+      "control": [
+        {
+          "name": "Helm",
+          "ac": 16,
+          "hp": 50,
+          "dt": 0,
+          "entries": [
+            "Controls movement components with one 90-degree turn."
+          ]
+        }
+      ],
+      "movement": [
+        {
+          "name": "Sails",
+          "ac": 12,
+          "hp": 100,
+          "hpNote": "Loses 5 ft. of speed per 20 damage taken.",
+          "isControl": false,
+          "speed": [
+            {
+              "mode": "water",
+              "entries": [
+                "Speed 25 ft.; 15 ft. while sailing into the wind; 35 ft. while sailing with the wind."
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Paddle-Wheel",
+          "ac": 12,
+          "hp": 100,
+          "hpNote": "Loses 10 ft. of speed per 25 damage taken.",
+          "isControl": false,
+          "speed": [
+            {
+              "mode": "water",
+              "entries": [
+                "Speed 35 ft. when powered by a huge engine."
+              ]
+            }
+          ]
+        }
+      ],
+      "weapon": [
+        {
+          "name": "Large Cannon",
+          "count": 14,
+          "ac": 15,
+          "hp": 100,
+          "dt": 0,
+          "entries": [
+            "Ranged Weapon Attack: +5 to hit, range 200/800 ft. (can’t hit within 60 ft.), one target. Hit: 16 (5d10) bludgeoning damage."
+          ]
+        }
+      ],
+      "other": [
+        {
+          "name": "Seastone Bottom",
+          "entries": [
+            "Allows the ship to pass by underwater sea creatures undetected, enabling calm belt traversal."
+          ]
+        },
+        {
+          "name": "Huge Fuel Engine",
+          "entries": [
+            "Armor Class 16; Hit Points 100. Acts as 50 crew and powers engine-based movement components. Requires fuel (see Fueling Your Ship)."
+          ]
+        },
+        {
+          "name": "Ship Details",
+          "entries": [
+            "Cost: ฿3,000,000,000",
+            "Crew: up to 1000 crew and 500 passengers",
+            "Cargo Capacity: 10,000 tons",
+            "Travel Pace: 4 miles per hour (96 miles per day)",
+            "Upgrade Slots: 12"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Brig",
+      "source": "D&DF-DMG",
+      "page": 0,
+      "vehicleType": "SHIP",
+      "terrain": [
+        "water"
+      ],
+      "size": "Gargantuan",
+      "pace": 5,
+      "str": 20,
+      "dex": 7,
+      "con": 17,
+      "int": 0,
+      "wis": 0,
+      "cha": 0,
+      "damageImmunities": [
+        "poison",
+        "psychic"
+      ],
+      "conditionImmunities": [
+        "blinded",
+        "charmed",
+        "deafened",
+        "exhaustion",
+        "frightened",
+        "incapacitated",
+        "paralyzed",
+        "petrified",
+        "poisoned",
+        "prone",
+        "stunned",
+        "unconscious"
+      ],
+      "action": [
+        "On its turn, the brig can move using its control and one movement component, and attack with its weapons. If it has half its crew or fewer, it moves at half speed and can only use half its weapons (rounded down)."
+      ],
+      "hull": {
+        "ac": 15,
+        "hp": 300,
+        "dt": 15
+      },
+      "control": [
+        {
+          "name": "Helm",
+          "ac": 18,
+          "hp": 50,
+          "dt": 0,
+          "entries": [
+            "Controls movement components, with one 90-degree turn. If the helm is destroyed, the brig can't turn."
+          ]
+        }
+      ],
+      "movement": [
+        {
+          "name": "Sails",
+          "ac": 12,
+          "hp": 100,
+          "hpNote": "Loses 5 ft. of speed per 25 damage taken.",
+          "isControl": false,
+          "speed": [
+            {
+              "mode": "water",
+              "entries": [
+                "Speed 45 ft.; 15 ft. while sailing into the wind; 60 ft. while sailing with the wind."
+              ]
+            }
+          ]
+        }
+      ],
+      "weapon": [
+        {
+          "name": "Cannon",
+          "count": 2,
+          "ac": 15,
+          "hp": 50,
+          "dt": 0,
+          "entries": [
+            "Ranged Weapon Attack: +6 to hit, range 120/480 ft., one target. Hit: 16 (3d10) bludgeoning damage."
+          ]
+        },
+        {
+          "name": "Carronade",
+          "count": 1,
+          "ac": 15,
+          "hp": 30,
+          "dt": 0,
+          "entries": [
+            "Ranged Weapon Attack: +6 to hit, range 120/480 ft., one target. Hit: 11 (2d10) bludgeoning damage."
+          ]
+        }
+      ],
+      "other": [
+        {
+          "name": "Ship Details",
+          "entries": [
+            "Cost: ฿150,000,000",
+            "Crew: up to 50 crew and 30 passengers",
+            "Cargo Capacity: 100 tons",
+            "Travel Pace: 5 miles per hour (120 miles per day)",
+            "Upgrade Slots: 7"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Carrack",
+      "source": "D&DF-DMG",
+      "page": 0,
+      "vehicleType": "SHIP",
+      "terrain": [
+        "water"
+      ],
+      "size": "Gargantuan",
+      "pace": 3,
+      "str": 22,
+      "dex": 4,
+      "con": 18,
+      "int": 0,
+      "wis": 0,
+      "cha": 0,
+      "damageImmunities": [
+        "poison",
+        "psychic"
+      ],
+      "conditionImmunities": [
+        "blinded",
+        "charmed",
+        "deafened",
+        "exhaustion",
+        "frightened",
+        "incapacitated",
+        "paralyzed",
+        "petrified",
+        "poisoned",
+        "prone",
+        "stunned",
+        "unconscious"
+      ],
+      "action": [
+        "On its turn, the carrack can move using its control and one movement component, and attack with its weapons. If it has half its crew or fewer, it moves at half speed and can only use half its weapons (rounded down)."
+      ],
+      "hull": {
+        "ac": 15,
+        "hp": 400,
+        "dt": 20
+      },
+      "control": [
+        {
+          "name": "Helm",
+          "ac": 16,
+          "hp": 50,
+          "dt": 0,
+          "entries": [
+            "Controls movement components, with one 90-degree turn. If the helm is destroyed, the carrack can't turn."
+          ]
+        }
+      ],
+      "movement": [
+        {
+          "name": "Sails",
+          "ac": 12,
+          "hp": 100,
+          "hpNote": "Loses 5 ft. of speed per 20 damage taken.",
+          "isControl": false,
+          "speed": [
+            {
+              "mode": "water",
+              "entries": [
+                "Speed 25 ft.; 15 ft. while sailing into the wind; 35 ft. while sailing with the wind."
+              ]
+            }
+          ]
+        }
+      ],
+      "weapon": [
+        {
+          "name": "Cannon",
+          "count": 2,
+          "ac": 15,
+          "hp": 50,
+          "dt": 0,
+          "entries": [
+            "Ranged Weapon Attack: +6 to hit, range 120/480 ft., one target. Hit: 16 (3d10) bludgeoning damage."
+          ]
+        },
+        {
+          "name": "Large Cannon",
+          "count": 2,
+          "ac": 15,
+          "hp": 100,
+          "dt": 0,
+          "entries": [
+            "Ranged Weapon Attack: +5 to hit, range 200/800 ft. (can't hit targets within 60 ft.), one target. Hit: 16 (5d10) bludgeoning damage."
+          ]
+        }
+      ],
+      "other": [
+        {
+          "name": "Ship Details",
+          "entries": [
+            "Cost: ฿300,000,000",
+            "Crew: up to 100 crew and 40 passengers",
+            "Cargo Capacity: 150 tons",
+            "Travel Pace: 3 miles per hour (72 miles per day)",
+            "Upgrade Slots: 8"
+          ]
+        }
+      ]
+    },
+    {
+  "name": "Cog",
+  "source": "D&DF-DMG",
+  "page": 0,
+  "vehicleType": "SHIP",
+  "terrain": [
+    "water"
+  ],
+  "size": "Gargantuan",
+  "pace": 4,
+  "str": 20,
+  "dex": 7,
+  "con": 16,
+  "int": 0,
+  "wis": 0,
+  "cha": 0,
+  "damageImmunities": [
+    "poison",
+    "psychic"
+  ],
+  "conditionImmunities": [
+    "blinded",
+    "charmed",
+    "deafened",
+    "exhaustion",
+    "frightened",
+    "incapacitated",
+    "paralyzed",
+    "petrified",
+    "poisoned",
+    "prone",
+    "stunned",
+    "unconscious"
+  ],
+  "action": [
+    "On its turn, the cog can move using its control and one movement component, and attack with its weapons. If it has half its crew or fewer, it moves at half speed and can only use half its weapons (rounded down)."
+  ],
+  "hull": {
+    "ac": 15,
+    "hp": 250,
+    "dt": 15
+  },
+  "control": [
+    {
+      "name": "Helm",
+      "ac": 18,
+      "hp": 50,
+      "dt": 0,
+      "entries": [
+        "Controls movement components, with one 90-degree turn. If the helm is destroyed, the cog can't turn."
+      ]
+    }
+  ],
+  "movement": [
+    {
+      "name": "Sails",
+      "ac": 12,
+      "hp": 100,
+      "hpNote": "Loses 5 ft. of speed per 25 damage taken.",
+      "isControl": false,
+      "speed": [
+        {
+          "mode": "water",
+          "entries": [
+            "Speed 35 ft.; 15 ft. while sailing into the wind; 50 ft. while sailing with the wind."
+          ]
+        }
+      ]
+    }
+  ],
+  "weapon": [
+    {
+      "name": "Cannon",
+      "count": 2,
+      "ac": 15,
+      "hp": 50,
+      "dt": 0,
+      "entries": [
+        "Ranged Weapon Attack: +6 to hit, range 120/480 ft., one target. Hit: 16 (3d10) bludgeoning damage."
+      ]
+    }
+  ],
+  "other": [
+    {
+      "name": "Ship Details",
+      "entries": [
+        "Cost: ฿100,000,000",
+        "Crew: up to 20 crew and 20 passengers",
+        "Cargo Capacity: 50 tons",
+        "Travel Pace: 4 miles per hour (96 miles per day)",
+        "Upgrade Slots: 6"
+      ]
+    }
   ]
+    },
+    {
+      "name": "Waver",
+      "source": "D&DF-DMG",
+      "page": 0,
+      "vehicleType": "SHIP",
+      "terrain": [
+        "water"
+      ],
+      "size": "Medium",
+      "pace": 25,
+      "str": 10,
+      "dex": 16,
+      "con": 10,
+      "int": 0,
+      "wis": 0,
+      "cha": 0,
+      "damageImmunities": [
+        "poison",
+        "psychic"
+      ],
+      "conditionImmunities": [
+        "blinded",
+        "charmed",
+        "deafened",
+        "exhaustion",
+        "frightened",
+        "incapacitated",
+        "paralyzed",
+        "petrified",
+        "poisoned",
+        "prone",
+        "stunned",
+        "unconscious"
+      ],
+      "action": [
+        "On its turn, the waver can move using its control and one movement component, and attack with any weapons it has."
+      ],
+      "hull": {
+        "ac": 11,
+        "hp": 50,
+        "dt": 0
+      },
+      "control": [
+        {
+          "name": "Dial (control)",
+          "ac": 11,
+          "hp": 25,
+          "dt": 0,
+          "entries": [
+            "Dial control: Controls movement components. Without the breath dial, the waver's speed is 0."
+          ]
+        }
+      ],
+      "movement": [
+        {
+          "name": "Large Breath Dial",
+          "ac": 12,
+          "hp": 25,
+          "hpNote": "The large breath dial on a waver holds a charge that allows for up to 50 miles of movement before it needs to be recharged. Recharging requires the waver or dial to rest for up to 8 hours without interruption. The dial can be replaced by another large breath dial if lost or broken.",
+          "isControl": false,
+          "speed": [
+            {
+              "mode": "water",
+              "entries": [
+                "Locomotion (water): large breath dial, speed 60 ft. Move up to its speed, with one 90-degree turn. Without the breath dial, the waver's speed is 0."
+              ]
+            }
+          ]
+        }
+      ],
+      "weapon": [],
+      "other": [
+        {
+          "name": "Ship Details",
+          "entries": [
+            "Cost: ฿5,000,000",
+            "Crew: 1 crew, 1 passenger",
+            "Cargo Capacity: 0.2 tons",
+            "Travel Pace: 25 miles per hour",
+            "Upgrade Slots: 0"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Submarine",
+      "source": "D&DF-DMG",
+      "page": 0,
+      "vehicleType": "SHIP",
+      "terrain": [
+        "water"
+      ],
+      "size": "Gargantuan",
+      "pace": 5,
+      "str": 16,
+      "dex": 14,
+      "con": 16,
+      "int": 0,
+      "wis": 0,
+      "cha": 0,
+      "damageImmunities": [
+        "poison",
+        "psychic",
+        "necrotic"
+      ],
+      "conditionImmunities": [
+        "blinded",
+        "charmed",
+        "deafened",
+        "exhaustion",
+        "frightened",
+        "incapacitated",
+        "paralyzed",
+        "petrified",
+        "poisoned",
+        "prone",
+        "stunned",
+        "unconscious"
+      ],
+      "action": [
+        "On its turn, the submarine can move using its control and one movement component, and attack with its weapons. If it has half its crew or fewer, it moves at half speed and can only use half its weapons (rounded down)."
+      ],
+      "hull": {
+        "ac": 18,
+        "hp": 300,
+        "dt": 15
+      },
+      "control": [
+        {
+          "name": "Helm",
+          "ac": 18,
+          "hp": 50,
+          "dt": 0,
+          "entries": [
+            "Controls movement components, including the ability to ascend or descend into deep waters, with one 90-degree turn. If the helm is destroyed, the submarine can't turn.",
+            "The submarine detects all objects and creatures within 300 ft. using sonar detection and can relay the information to a screen in the helm, as if using blindsight. If the helm is destroyed, the submarine can no longer detect anything using sonar."
+          ]
+        }
+      ],
+      "movement": [
+        {
+          "name": "Propellers (2)",
+          "ac": 15,
+          "hp": 100,
+          "hpNote": "Loses 10 ft. of speed per 25 damage taken.",
+          "isControl": false,
+          "speed": [
+            {
+              "mode": "water",
+              "entries": [
+                "Locomotion and Diving (water): two propellers, speed 45 ft."
+              ]
+            }
+          ]
+        }
+      ],
+      "weapon": [
+        {
+          "name": "Cannon",
+          "count": 4,
+          "ac": 15,
+          "hp": 50,
+          "dt": 0,
+          "entries": [
+            "Ranged Weapon Attack: +6 to hit, range 120/480 ft., one target. Hit: 16 (3d10) bludgeoning damage."
+          ]
+        }
+      ],
+      "other": [
+        {
+          "name": "Ship Details",
+          "entries": [
+            "Cost: ฿600,000,000",
+            "Crew: up to 20 crew and 10 passengers",
+            "Cargo Capacity: 1 ton",
+            "Travel Pace: 5 miles per hour",
+            "Upgrade Slots: 6"
+          ]
+        }
+      ]
+    }
+    ,
+    {
+      "name": "Sloop",
+      "source": "D&DF-DMG",
+      "page": 0,
+      "vehicleType": "SHIP",
+      "terrain": [
+        "water"
+      ],
+      "size": "Gargantuan",
+      "pace": 3,
+      "str": 16,
+      "dex": 7,
+      "con": 13,
+      "int": 0,
+      "wis": 0,
+      "cha": 0,
+      "damageImmunities": [
+        "poison",
+        "psychic"
+      ],
+      "conditionImmunities": [
+        "blinded",
+        "charmed",
+        "deafened",
+        "exhaustion",
+        "frightened",
+        "incapacitated",
+        "paralyzed",
+        "petrified",
+        "poisoned",
+        "prone",
+        "stunned",
+        "unconscious"
+      ],
+      "action": [
+        "On its turn, the sloop can move using its control and one movement component, and attack with any weapons it has."
+      ],
+      "hull": {
+        "ac": 15,
+        "hp": 100,
+        "dt": 10
+      },
+      "control": [
+        {
+          "name": "Helm",
+          "ac": 12,
+          "hp": 50,
+          "dt": 0,
+          "entries": [
+            "Controls movement components, with one 90-degree turn. If the helm is destroyed, the sloop can't turn."
+          ]
+        }
+      ],
+      "movement": [
+        {
+          "name": "Sails",
+          "ac": 12,
+          "hp": 25,
+          "hpNote": "",
+          "isControl": false,
+          "speed": [
+            {
+              "mode": "water",
+              "entries": [
+                "Locomotion (water): sails, speed 25 ft.; 15 ft. while sailing into the wind; 35 ft. while sailing with the wind."
+              ]
+            }
+          ]
+        }
+      ],
+      "weapon": [
+        {
+          "name": "Cannon",
+          "count": 1,
+          "ac": 15,
+          "hp": 50,
+          "dt": 0,
+          "entries": [
+            "Ranged Weapon Attack: +6 to hit, range 120/480 ft., one target. Hit: 16 (3d10) bludgeoning damage. Often only present on combat sloops."
+          ]
+        }
+      ],
+      "other": [
+        {
+          "name": "Ship Details",
+          "entries": [
+            "Cost: ฿30,000,000",
+            "Crew: up to 3 crew and 4 passengers",
+            "Cargo Capacity: 0.5 tons",
+            "Travel Pace: 3 miles per hour",
+            "Upgrade Slots: 3"
+          ]
+        }
+      ]
+    },{
+      "name": "Rowboat",
+      "source": "D&DF-DMG",
+      "page": 0,
+      "vehicleType": "SHIP",
+      "terrain": [
+        "water"
+      ],
+      "size": "Large",
+      "pace": 25,
+      "str": 11,
+      "dex": 8,
+      "con": 11,
+      "int": 0,
+      "wis": 0,
+      "cha": 0,
+      "damageImmunities": [
+        "poison",
+        "psychic"
+      ],
+      "conditionImmunities": [
+        "blinded",
+        "charmed",
+        "deafened",
+        "exhaustion",
+        "frightened",
+        "incapacitated",
+        "paralyzed",
+        "petrified",
+        "poisoned",
+        "prone",
+        "stunned",
+        "unconscious"
+      ],
+      "action": [
+        "On its turn, the rowboat can move using its control and one movement component, and attack with any weapons it has."
+      ],
+      "hull": {
+        "ac": 11,
+        "hp": 50,
+        "dt": 0
+      },
+      "control": [
+        {
+          "name": "Oars (control)",
+          "ac": 11,
+          "hp": 25,
+          "dt": 0,
+          "entries": [
+            "Controls movement components. Without the oars, the rowboat's speed is 0."
+          ]
+        }
+      ],
+      "movement": [
+        {
+          "name": "Oars",
+          "ac": 12,
+          "hp": 25,
+          "hpNote": "",
+          "isControl": false,
+          "speed": [
+            {
+              "mode": "water",
+              "entries": [
+                "Locomotion (water): oars, speed 15 ft. Move up to its speed, with one 90-degree turn."
+              ]
+            }
+          ]
+        }
+      ],
+      "weapon": [],
+      "other": [
+        {
+          "name": "Ship Details",
+          "entries": [
+            "Cost: ฿500,000",
+            "Crew: 1 crew, 1 passenger",
+            "Cargo Capacity: 0.2 tons",
+            "Travel Pace: 25 miles per hour",
+            "Upgrade Slots: 1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Man-O-War",
+      "source": "D&DF-DMG",
+      "page": 0,
+      "vehicleType": "SHIP",
+      "terrain": [
+        "water"
+      ],
+      "size": "Gargantuan",
+      "pace": 3,
+      "str": 28,
+      "dex": 4,
+      "con": 20,
+      "int": 0,
+      "wis": 0,
+      "cha": 0,
+      "damageImmunities": [
+        "poison",
+        "psychic"
+      ],
+      "conditionImmunities": [
+        "blinded",
+        "charmed",
+        "deafened",
+        "exhaustion",
+        "frightened",
+        "incapacitated",
+        "paralyzed",
+        "petrified",
+        "poisoned",
+        "prone",
+        "stunned",
+        "unconscious"
+      ],
+      "action": [
+        "On its turn, the man-o-war can move using its control and one movement component, and attack with its weapons. If it has half its crew or fewer, it moves at half speed and can only use half its weapons (rounded down)."
+      ],
+      "hull": {
+        "ac": 15,
+        "hp": 1000,
+        "dt": 20
+      },
+      "control": [
+        {
+          "name": "Helm",
+          "ac": 16,
+          "hp": 50,
+          "dt": 0,
+          "entries": [
+            "Controls movement components, with one 90-degree turn. If the helm is destroyed, the man-o-war can't turn."
+          ]
+        }
+      ],
+      "movement": [
+        {
+          "name": "Sails",
+          "ac": 12,
+          "hp": 100,
+          "hpNote": "Loses 5 ft. of speed per 20 damage taken.",
+          "isControl": false,
+          "speed": [
+            {
+              "mode": "water",
+              "entries": [
+                "Locomotion (water): sails, speed 25 ft.; 15 ft. while sailing into the wind; 35 ft. while sailing with the wind."
+              ]
+            }
+          ]
+        }
+      ],
+      "weapon": [
+        {
+          "name": "Cannon",
+          "count": 10,
+          "ac": 15,
+          "hp": 50,
+          "dt": 0,
+          "entries": [
+            "Ranged Weapon Attack: +6 to hit, range 120/480 ft., one target. Hit: 16 (3d10) bludgeoning damage."
+          ]
+        },
+        {
+          "name": "Large Cannon",
+          "count": 4,
+          "ac": 15,
+          "hp": 100,
+          "dt": 0,
+          "entries": [
+            "Ranged Weapon Attack: +5 to hit, range 200/800 ft. (can't hit targets within 60 ft.), one target. Hit: 16 (5d10) bludgeoning damage."
+          ]
+        },
+        {
+          "name": "Ram",
+          "count": 1,
+          "ac": 18,
+          "hp": 100,
+          "dt": 10,
+          "entries": [
+            "The vehicle has advantage on all saving throws and checks relating to crashing when it crashes into a creature or object. Any damage it suffers from the crash is instead applied to the ram. These benefits do not apply if another vehicle crashes into the vehicle."
+          ]
+        }
+      ],
+      "other": [
+        {
+          "name": "Ship Details",
+          "entries": [
+            "Cost: ฿1,000,000,000",
+            "Crew: up to 400 crew and 300 passengers",
+            "Cargo Capacity: 1,000 tons",
+            "Travel Pace: 3 miles per hour",
+            "Upgrade Slots: 11"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Galleon",
+      "source": "D&DF-DMG",
+      "page": 0,
+      "vehicleType": "SHIP",
+      "terrain": [
+        "water"
+      ],
+      "size": "Gargantuan",
+      "pace": 4,
+      "str": 26,
+      "dex": 7,
+      "con": 20,
+      "int": 0,
+      "wis": 0,
+      "cha": 0,
+      "damageImmunities": [
+        "poison",
+        "psychic"
+      ],
+      "conditionImmunities": [
+        "blinded",
+        "charmed",
+        "deafened",
+        "exhaustion",
+        "frightened",
+        "incapacitated",
+        "paralyzed",
+        "petrified",
+        "poisoned",
+        "prone",
+        "stunned",
+        "unconscious"
+      ],
+      "action": [
+        "On its turn, the galleon can move using its control and one movement component, and attack with its weapons. If it has half its crew or fewer, it moves at half speed and can only use half its weapons (rounded down)."
+      ],
+      "hull": {
+        "ac": 15,
+        "hp": 600,
+        "dt": 20
+      },
+      "control": [
+        {
+          "name": "Helm",
+          "ac": 18,
+          "hp": 100,
+          "dt": 0,
+          "entries": [
+            "Controls movement components, with one 90-degree turn. If the helm is destroyed, the galleon can't turn."
+          ]
+        }
+      ],
+      "movement": [
+        {
+          "name": "Sails",
+          "ac": 12,
+          "hp": 100,
+          "hpNote": "Loses 5 ft. of speed per 20 damage taken.",
+          "isControl": false,
+          "speed": [
+            {
+              "mode": "water",
+              "entries": [
+                "Locomotion (water): sails, speed 35 ft.; 15 ft. while sailing into the wind; 50 ft. while sailing with the wind."
+              ]
+            }
+          ]
+        }
+      ],
+      "weapon": [
+        {
+          "name": "Cannon",
+          "count": 6,
+          "ac": 15,
+          "hp": 50,
+          "dt": 0,
+          "entries": [
+            "Ranged Weapon Attack: +6 to hit, range 120/480 ft., one target. Hit: 16 (3d10) bludgeoning damage."
+          ]
+        },
+        {
+          "name": "Large Cannon",
+          "count": 2,
+          "ac": 15,
+          "hp": 100,
+          "dt": 0,
+          "entries": [
+            "Ranged Weapon Attack: +5 to hit, range 200/800 ft. (can't hit targets within 60 ft.), one target. Hit: 16 (5d10) bludgeoning damage."
+          ]
+        }
+      ],
+      "other": [
+        {
+          "name": "Ship Details",
+          "entries": [
+            "Cost: ฿500,000,000",
+            "Crew: up to 200 crew and 150 passengers",
+            "Cargo Capacity: 500 tons",
+            "Travel Pace: 4 miles per hour",
+            "Upgrade Slots: 10"
+          ]
+        }
+      ]
+    }
+ ]
 }
