@@ -7400,7 +7400,14 @@
     "value": 1500,
     "source": "D&DF-PHB",
     "bonusWeapon": "+3",
-    "rarity": "legendary"
+    "rarity": "legendary",
+    "attachedSpells": {
+        "daily": {
+          "1e": [
+            "dominate monster"
+          ]
+        }
+      },
   },
   {
     "entries": [],
