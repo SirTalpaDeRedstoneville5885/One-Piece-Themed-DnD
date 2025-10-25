@@ -12,7 +12,7 @@
           "Tarun",
           "SirTalpadeRedstoneville58"
         ],
-        "version": "2.4.3",
+        "version": "2.5.0",
         "color": "0B3075",
         "url": "https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm"
       }
@@ -25,7 +25,7 @@
     {
       "name": "Dungeons and Devil Fruits",
       "source": "D&DF-PHB",
-      "group": "homebrew",
+      "group": "D&DF-PHB",
       "id": "D&DF-PHB",
       "published": "",
       "cover": {
@@ -184,7 +184,7 @@
                 "url": "https://i.imgur.com/4kws2K4.jpg"
               }
             },
-            "DMs, be sure to explore the [Dungeons and Devil Fruits Dungeon Master's Guide](https://homebrewery.naturalcrit.com/share/sK-UDzk7x8U_) for this project! It offers a wealth of information beneficial for planning your campaign. Also be sure to check out the [Devil Fruit Encyclopedia](https://homebrewery.naturalcrit.com/share/24DkobVl8IGZ), which includes much more information on Devil Fruit powers and details to include in your game!",
+            "DMs, be sure to explore the [Dungeons and Devil Fruits Dungeon Master's Guide](https://D&DF-PHBery.naturalcrit.com/share/sK-UDzk7x8U_) for this project! It offers a wealth of information beneficial for planning your campaign. Also be sure to check out the [Devil Fruit Encyclopedia](https://D&DF-PHBery.naturalcrit.com/share/24DkobVl8IGZ), which includes much more information on Devil Fruit powers and details to include in your game!",
             "This rulebook aims to be a One Piece-themed adaptation of the Wizards of the Coast D&D 5e rule books. Familiarizing yourself with the basics of these rules before engaging with this system is essential. Once you've grasped the basic rules and terminology, you're good to go.  [Read this to get started if you are new to 5e!](https://dnd.wizards.com/articles/features/basicrules)",
             "Furthermore, you'll need a solid understanding of the One Piece Universe. As a Dungeon Master, it's recommended that you watch or read a substantial portion of the series to effectively run this type of game. While it's less critical for players to be familiar with aspects outside of this rulebook, it is still beneficial. Below is a list of considerations and preparations needed before running a game with these rules.",
             {
@@ -236,7 +236,7 @@
                   "name": "Important Side Note",
                   "page": 3,
                   "entries": [
-                    "Understand that when reading this, it is only used as a guide to help you run or play in a game of your own. It is entirely fanmade homebrew. In other words, the Dungeon Master has the final say about what the rules are. You could use 100% of these rules or only 10% , it is up to how you want to run your world! There may be a few typos or grammatical errors, and I will try to spot and fix them. Otherwise, thank you for reading this!"
+                    "Understand that when reading this, it is only used as a guide to help you run or play in a game of your own. It is entirely fanmade D&DF-PHB. In other words, the Dungeon Master has the final say about what the rules are. You could use 100% of these rules or only 10% , it is up to how you want to run your world! There may be a few typos or grammatical errors, and I will try to spot and fix them. Otherwise, thank you for reading this!"
                   ]
                 },
                 {
@@ -7421,6 +7421,192 @@
     "page": 142,
     "source": "D&DF-PHB",
     "rarity": "none"
-  }
-  ]
+  },
+  {
+    "name": "Energy Steroids",
+    "type": "P",
+    "tier": "legendary",
+    "source": "D&DF-PHB",
+    "rarity": "legendary",
+    "reqAttune": false,
+    "value": 0,
+    "weight": 0,
+    "entries": [
+      "When you eat these pills, your Strength score changes to 29 for 24 hours. These pills have no effect on you if your Strength is equal to or greater than that score.",
+      "At the end of the 24 hours after you've consumed these pills, you must make a DC 19 Constitution saving throw, taking {@damage 10d12} necrotic damage on a failed save, or half as much damage on a successful one.",
+      "If the save fails, you also age to the point where you have only 1 year left before you die of old age. In this aged state, you have disadvantage on attack rolls, ability checks, and saving throws, and your walking speed is halved.",
+      "Only the {@spell wish} spell or the {@spell greater restoration|phb|greater restoration} cast with a 9th-level spell slot can end these effects and restore you to your previous age."
+    ]
+      },
+      {
+    "name": "Excite Bullets",
+    "type": "A",
+    "rarity": "rare",
+    "tier": "very rare",
+    "source": "D&DF-PHB",
+    "weaponCategory": "ammunition",
+    "value": 0,
+    "weight": 0,
+    "reqAttune": false,
+    "entries": [
+      "These bullets are laced with a special poison which causes its victim to become afflicted with one of the following two diseases depending on the rarity type of the excite bullet.",
+      {
+        "type": "entries",
+        "name": "Mummy",
+        "entries": [
+          "A creature subjected to this type of poison must succeed on a DC 15 Constitution saving throw or take {@damage 1d6} necrotic damage and become diseased. The diseased creature must repeat the saving throw at the start of every turn, taking {@damage 1d6} necrotic damage on a failed save.",
+          "Until this disease ends, the damage the creature takes can’t be healed by any means, and the disease decreases the creature's maximum hit points by the amount of necrotic damage it has taken from this disease. If this disease reduces the target's hit point maximum to 0, the target dies, and its body turns to dust.",
+          "Any other creature that touches a diseased creature before it recovers becomes subjected to the mummy poison and must succeed on a saving throw against it.",
+          "This disease lasts until the diseased creature succeeds on a saving throw against it. Once it ends, the diseased creature can heal normally, but does not regain its lost maximum hit points until it completes a long rest."
+        ]
+      },
+      {
+        "type": "entries",
+        "name": "Ice Oni",
+        "entries": [
+          "A creature subjected to this type of poison must succeed on a DC 16 Constitution saving throw or take {@damage 1d6} cold damage and become diseased. The diseased creature must repeat the saving throw at the start of every turn, taking {@damage 1d6} cold damage on a failed save.",
+          "Until this disease ends, the diseased creature is under the effect of the {@spell confusion} spell.",
+          "Any other creature that touches a diseased creature before it recovers becomes subjected to the ice oni poison and must succeed on a saving throw against it.",
+          "This disease lasts until the diseased creature succeeds on a saving throw against it, ending the {@spell confusion} effect on the creature."
+        ]
+      }
+    ]
+  },
+  {
+     "name": "Yoru (Supreme Meito)",
+     "type": "M",
+     "rarity": "legendary",
+     "source": "D&DF-PHB",
+     "baseItem": "greatsword|phb",
+     "weaponCategory": "martial",
+     "reqAttune": true,
+     "value": 0,
+     "weight": 6,
+     "bonusWeapon": "+3",
+     "entries": [
+       "You gain a +3 bonus to attack and damage rolls made with this magic weapon. The {@spell shield} spell provides no defense against the sword, which passes through that spell's barrier of magical force.",
+       "When you land a critical hit with this weapon, green flames erupt from its blade and deal an extra {@damage 2d6} radiant damage to the target.",
+       {
+         "type": "entries",
+         "name": "Ranged Slash",
+         "entries": [
+           "The greatsword has 3 charges. You can expend 1 charge and make a ranged attack with which you are proficient, using your Strength modifier for the attack and damage rolls. This releases a slashing projectile with a normal range of 60 feet and a long range of 180 feet, dealing the weapon's damage on a hit.",
+           "Additionally, you can expend 3 charges to cast the custom spell *Great Heaven Splitter*.",
+           "The sword regains all expended charges daily at dawn."
+         ]
+       }
+     ]
+  },
+  {
+     "name": "Muggy Ball",
+     "type": "G",
+     "rarity": "very rare",
+     "source": "D&DF-PHB",
+     "value": 0,
+     "weight": 1,
+     "entries": [
+       "You can use an action to grab a muggy ball and throw or fire it up to 150 feet away. When it reaches the end of its trajectory, the ball detonates as a {@spell fireball|phb} spell cast at 5th level (save DC 17)."
+     ]
+  },
+     {
+     "name": "Raid Suit",
+     "type": "LA",
+     "rarity": "legendary",
+     "source": "D&DF-PHB",
+     "reqAttune": true,
+     "ac": 13,
+     "armor": "light",
+     "value": 0,
+     "weight": 10,
+     "entries": [
+       "Raid suits come in the form of canisters that transform into a suit of armor around its user. To equip a raid suit, one must be attuned to the canister, hold it at waist level, and spend an action to release the suit from the canister, which then forms around its user. The raid suit remains on until its user removes it as a bonus action, returning it to its canister form.",
+       "You gain a +3 bonus to AC, have a flying speed of 50 feet, and gain advantage on Dexterity ability checks and saving throws while you wear this armor. Spells or cantrips cast from the raid suit (not counting innate or regular spellcasting you can cast normally) have a Spell Attack modifier of +8 and a Spell Save DC of 16. You can use the following abilities determined by the type of raid suit you possess:",
+       {
+         "type": "entries",
+         "name": "Garuda",
+         "entries": [
+           "This raid suit canister is light grey and marked with a white \"J\"; it gains the following properties:",
+           {
+             "type": "list",
+             "items": [
+               "As an action, you can summon forth a magical lance which you are proficient with. The lance has a +2 bonus to attack rolls and deals an extra {@damage 2d4} lightning damage. The lance disappears when the raid suit returns to the canister, or if you dismiss it as a bonus action.",
+               "As an action, you can use the armor to cast {@spell freedom of movement} on yourself. This property can't be used again until the next dawn."
+             ]
+           }
+         ]
+       },
+       {
+         "type": "entries",
+         "name": "Poison Pink",
+         "entries": [
+           "This raid suit canister is pink and marked with a white \"0\"; it gains the following properties:",
+           {
+             "type": "list",
+             "items": [
+               "You are immune to poison damage and the poisoned condition. You can also spend an action to touch a creature and end the poisoned condition on it.",
+               "As an action, you can use the armor to cast {@spell contagion}, no material components required. This property can't be used again until the next dawn."
+             ]
+           }
+         ]
+       },
+       {
+         "type": "entries",
+         "name": "Sparking Red",
+         "entries": [
+           "This raid suit canister is red and marked with a white \"1\"; it gains the following properties:",
+           {
+             "type": "list",
+             "items": [
+               "You are resistant to fire damage. You can also use this armor to cast the {@spell fire bolt} cantrip as an action.",
+               "As an action, you can use the armor to cast {@spell fireball}. This property can't be used again until the next dawn."
+             ]
+           }
+         ]
+       },
+       {
+         "type": "entries",
+         "name": "Shock Blue",
+         "entries": [
+           "This raid suit canister is blue and marked with a white \"2\"; it gains the following properties:",
+           {
+             "type": "list",
+             "items": [
+               "You are resistant to lightning damage. You can also use this armor to cast the {@spell shocking grasp} cantrip as an action.",
+               "As an action, you can use the armor to cast {@spell lightning bolt}. This property can't be used again until the next dawn."
+             ]
+           }
+         ]
+       },
+       {
+         "type": "entries",
+         "name": "Stealth Black",
+         "entries": [
+           "This raid suit canister is black and marked with a yellow \"3\"; it gains the following properties:",
+           {
+             "type": "list",
+             "items": [
+               "You can use this armor to cast {@spell invisibility} on yourself as an action.",
+               "As an action, you can use the armor to cast {@spell greater invisibility} on yourself. This property can't be used again until the next dawn."
+             ]
+           }
+         ]
+       },
+       {
+         "type": "entries",
+         "name": "Winch Green",
+         "entries": [
+           "This raid suit canister is green and marked with a white \"4\"; it gains the following properties:",
+           {
+             "type": "list",
+             "items": [
+               "While wearing this armor, your Strength score changes to 21. The item has no effect on you if your Strength without the raid suit is already equal to or greater than 21.",
+               "As an action, you can use the armor to cast {@spell pulse wave|tce}. This property can't be used again until the next dawn."
+             ]
+           }
+         ]
+       }
+     ]
+    }
+
+ ]
 }
