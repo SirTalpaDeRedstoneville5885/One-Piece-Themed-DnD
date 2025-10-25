@@ -27,7 +27,7 @@
           "Tarun",
           "SirTalpadeRedstoneville58"
         ],
-        "version": "2.1.0",
+        "version": "2.2.0",
         "color": "AF6528",
         "url": "https://homebrewery.naturalcrit.com/share/sK-UDzk7x8U_"
       }
@@ -17105,5 +17105,86 @@
 				]
 			]
 		}		
-	]
+	],
+  "vehicle": [
+  {
+    "name": "Caravel",
+    "source": "D&DF-DMG",
+    "page": 0,
+    "vehicleType": "SHIP",
+    "terrain": [
+      "water"
+    ],
+    "size": "Gargantuan",
+    "pace": 4,
+    "str": 18,
+    "dex": 7,
+    "con": 15,
+    "int": 0,
+    "wis": 0,
+    "cha": 0,
+    "action": [
+      "On its turn, the caravel can move using its control and one movement component, and attack with its weapons. If it has half its crew or fewer, it moves at half speed and can only use half its weapons (rounded down)."
+    ],
+    "hull": {
+      "ac": 15,
+      "hp": 150,
+      "dt": 10
+    },
+    "control": [
+      {
+        "name": "Helm",
+        "ac": 15,
+        "hp": 50,
+        "dt": 0,
+        "entries": [
+          "Controls movement components, with one 90-degree turn. If the helm is destroyed, the caravel can't turn."
+        ]
+      }
+    ],
+    "movement": [
+      {
+        "name": "Sails",
+        "ac": 12,
+        "hp": 100,
+        "hpNote": "Loses 5 ft. of speed per 25 damage taken to sails.",
+        "isControl": false,
+        "speed": [
+          {
+            "mode": "water",
+            "entries": [
+              "Speed 35 ft.; 15 ft. while sailing into the wind; 50 ft. while sailing with the wind."
+            ]
+          }
+        ]
+      }
+    ],
+    "weapon": [
+      {
+        "name": "Cannon",
+        "count": 2,
+        "ac": 15,
+        "hp": 50,
+        "dt": 0,
+        "entries": [
+          "Ranged Weapon Attack: +6 to hit, range 120/480 ft., one target. Hit: 16 (3d10) bludgeoning damage."
+        ]
+      }
+    ],
+    "other": [
+      {
+        "name": "Ship Details",
+        "entries": [
+          "Cost: ฿50,000,000",
+          "Crew: up to 8 crew and 10 passengers",
+          "Cargo Capacity: 10 tons",
+          "Travel Pace: 4 miles per hour (96 miles per day)",
+          "Upgrade Slots: 5"
+        ]
+      }
+    ]
+  }
+
+
+  ]
 }
