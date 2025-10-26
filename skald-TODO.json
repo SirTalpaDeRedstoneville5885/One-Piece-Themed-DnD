@@ -28,40 +28,67 @@
       "startingProficiencies": {
         "armor": ["light"],
         "weapons": ["simple", "longsword", "rapier", "cutlass", "shortsword"],
-        "tools": ["three musical instruments"],
+        "tools": ["three {@item musical instrument|PHB|musical instruments} of your choice"],
+        "toolProficiencies": [
+          {
+            "musical instrument": true,
+            "anyMusicalInstrument": 3
+          }
+        ],
         "skills": [
           {
-            "choose": {
-              "from": [
-                "acrobatics",
-                "animal handling",
-                "arcana",
-                "athletics",
-                "history",
-                "insight",
-                "intimidation",
-                "investigation",
-                "medicine",
-                "performance",
-                "persuasion",
-                "religion",
-                "stealth"
-              ],
-              "count": 3
-            }
+            "any": 3
           }
         ]
-      },
+      }, 
       "startingEquipment": {
         "additionalFromBackground": true,
         "default": [
-          "(a) a Rapier or (b) a Longsword or (c) any simple weapon",
-          "(a) a Pirate's pack or (b) an Entertainer's pack",
-          "(a) Bagpipes or (b) any other musical instrument",
-          "Thick Shirt",
-          "Dagger"
+          "(a) a {@item rapier|phb}, (b) a {@item longsword|phb}, or (c) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
+          "(a) a {@item pirates' pack|D&DF-PHB} or (b) an {@item entertainer's pack|phb}",
+          "(a) a {@item Bagpipes|phb} or (b) any other {@filter musical instrument|items|miscellaneous=mundane|type=instrument} (not a piano)",
+          "{@item thick shirt|D&DF-PHB}, and a {@item dagger|phb}"
         ],
-        "goldAlternative": "{@dice 5d4 × 10|5d4 × 10|Starting Gold}"
+        "goldAlternative": "{@dice 5d4 × 10|5d4 × 10|Starting Gold}",
+        "defaultData": [
+          {
+            "a": [
+              "rapier|phb"
+            ],
+            "b": [
+              "longsword|phb"
+            ],
+            "c": [
+              {
+                "equipmentType": "weaponSimple"
+              }
+            ]
+          },
+          {
+            "a": [
+              "pirates' pack|D&DF-PHB"
+            ],
+            "b": [
+              "entertainer's pack|phb"
+            ]
+          },
+          {
+            "a": [
+              "Bagpipes|phb"
+            ],
+            "b": [
+              {
+                "equipmentType": "instrumentMusical"
+              }
+            ]
+          },
+          {
+            "_": [
+              "thick shirt|D&DF-PHB",
+              "dagger|phb"
+            ]
+          }
+        ]
       },
       "classTableGroups": [
         {
@@ -269,7 +296,6 @@
       "page": 5,
       "className": "Skald",
       "classSource": "SkaldHB",
-      "subclassSource": "SkaldHB",
       "subclassFeatures": [
         "Pain-Numbing Verse|Skald|SkaldHB|Hypnotism|SkaldHB|3|SkaldHB",
         "Hypnotic Words|Skald|SkaldHB|Hypnotism|SkaldHB|3|SkaldHB",
@@ -284,7 +310,6 @@
       "page": 6,
       "className": "Skald",
       "classSource": "SkaldHB",
-      "subclassSource": "SkaldHB",
       "subclassFeatures": [
         "Bonus Proficiencies (Battlehymn)|Skald|SkaldHB|Battlehymn|SkaldHB|3|SkaldHB",
         "Warrior Verse|Skald|SkaldHB|Battlehymn|SkaldHB|3|SkaldHB",
@@ -299,7 +324,6 @@
       "page": 7,
       "className": "Skald",
       "classSource": "SkaldHB",
-      "subclassSource": "SkaldHB",
       "subclassFeatures": [
         "Bonus Proficiencies (Underworld)|Skald|SkaldHB|Underworld|SkaldHB|3|SkaldHB",
         "Haunting Verse|Skald|SkaldHB|Underworld|SkaldHB|3|SkaldHB",
