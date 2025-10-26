@@ -439,6 +439,147 @@
       "Shepard of Spirits|Warrior|DwarDF-PHB|Cursed Soul|DwarDF-PHB|10|DwarDF-PHB",
       "Silver Mist|Warrior|DwarDF-PHB|Cursed Soul|DwarDF-PHB|15|DwarDF-PHB",
       "Jest of the Dead|Warrior|DwarDF-PHB|Cursed Soul|DwarDF-PHB|18|DwarDF-PHB"
+    ],
+    "subclassTableGroups": [
+      {
+        "subclasses": [
+          {
+            "name": "Cursed Soul",
+            "source": "DwarDF-PHB"
+          }
+        ],
+        "colLabels": ["Cursed Spirit Dice Size"],
+        "rows": [
+          [0],
+          [0],
+          [
+            {
+              "type": "dice",
+              "toRoll": [{ "number": 1, "faces": 6 }],
+              "rollable": true
+            }
+          ],
+          [
+            {
+              "type": "dice",
+              "toRoll": [{ "number": 1, "faces": 6 }],
+              "rollable": true
+            }
+          ],
+          [
+            {
+              "type": "dice",
+              "toRoll": [{ "number": 1, "faces": 6 }],
+              "rollable": true
+            }
+          ],
+          [
+            {
+              "type": "dice",
+              "toRoll": [{ "number": 1, "faces": 6 }],
+              "rollable": true
+            }
+          ],
+          [
+            {
+              "type": "dice",
+              "toRoll": [{ "number": 1, "faces": 6 }],
+              "rollable": true
+            }
+          ],
+          [
+            {
+              "type": "dice",
+              "toRoll": [{ "number": 1, "faces": 6 }],
+              "rollable": true
+            }
+          ],
+          [
+            {
+              "type": "dice",
+              "toRoll": [{ "number": 1, "faces": 8 }],
+              "rollable": true
+            }
+          ],
+          [
+            {
+              "type": "dice",
+              "toRoll": [{ "number": 1, "faces": 8 }],
+              "rollable": true
+            }
+          ],
+          [
+            {
+              "type": "dice",
+              "toRoll": [{ "number": 1, "faces": 8 }],
+              "rollable": true
+            }
+          ],
+          [
+            {
+              "type": "dice",
+              "toRoll": [{ "number": 1, "faces": 10 }],
+              "rollable": true
+            }
+          ],
+          [
+            {
+              "type": "dice",
+              "toRoll": [{ "number": 1, "faces": 10 }],
+              "rollable": true
+            }
+          ],
+          [
+            {
+              "type": "dice",
+              "toRoll": [{ "number": 1, "faces": 10 }],
+              "rollable": true
+            }
+          ],
+          [
+            {
+              "type": "dice",
+              "toRoll": [{ "number": 1, "faces": 10 }],
+              "rollable": true
+            }
+          ],
+          [
+            {
+              "type": "dice",
+              "toRoll": [{ "number": 1, "faces": 10 }],
+              "rollable": true
+            }
+          ],
+          [
+            {
+              "type": "dice",
+              "toRoll": [{ "number": 1, "faces": 12 }],
+              "rollable": true
+            }
+          ],
+          [
+            {
+              "type": "dice",
+              "toRoll": [{ "number": 1, "faces": 12 }],
+              "rollable": true
+            }
+          ],
+          [
+            {
+              "type": "dice",
+              "toRoll": [{ "number": 1, "faces": 12 }],
+              "rollable": true
+            }
+          ],
+          [
+            {
+              "type": "dice",
+              "toRoll": [{ "number": 1, "faces": 12 }],
+              "rollable": true
+            }
+          ]
+        ]
+      }
     ]
   },
   {
