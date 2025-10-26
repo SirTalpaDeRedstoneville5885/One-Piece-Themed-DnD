@@ -27,7 +27,7 @@
           "Tarun",
           "SirTalpadeRedstoneville58"
         ],
-        "version": "2.3.0",
+        "version": "2.4.0",
         "color": "AF6528",
         "url": "https://homebrewery.naturalcrit.com/share/sK-UDzk7x8U_"
       }
@@ -18173,5 +18173,358 @@
         }
       ]
     }
- ]
+ ],
+ "vehicleUpgrade": [
+  {
+    "name": "Dial Upgrade",
+    "source": "D&DF-DMG",
+    "upgradeType": ["SHP:M"],
+    "entries": [
+      "**Component Type.** Special Medium",
+      "**Upgrade DC.** 12 (requires dial proficiency)",
+      "**Component Cost.** ฿5,000,000 + 5% of ship cost",
+      "**Upgrade Slots Required.** 1",
+      "**Armor Class.** 12",
+      "**Hit Points.** 25",
+      "**Locomotion (water).** Large breath dial or jet dial, adds speed to one movement component; speed +60 ft. if attached to a Medium vehicle; +30 ft. if attached to a Large vehicle; +15 ft. if attached to a Huge vehicle; and +10 ft. if attached to a Gargantuan vehicle; stacking with each additional dial attached (maximum bonus +60 ft.). Adds 1 mph bonus to travel pace for every +10 ft. bonus.",
+      "A dial will run for up to 2 hours before it needs to be recharged for 8 hours."
+    ]
+  },
+  {
+    "name": "Oars Upgrade",
+    "source": "D&DF-DMG",
+    "upgradeType": ["SHP:M"],
+    "entries": [
+      "**Component Type.** Large",
+      "**Upgrade DC.** 10",
+      "**Component Cost.** ฿100,000 + 5% of ship cost",
+      "**Upgrade Slots Required.** 1",
+      "**Armor Class.** 12",
+      "**Hit Points.** 100; -5 ft. speed per 25 damage taken",
+      "**Locomotion (water).** Oars, speed based on ship type."
+    ]
+  },
+  {
+    "name": "Sails Upgrade",
+    "source": "D&DF-DMG",
+    "upgradeType": ["SHP:M"],
+    "entries": [
+      "**Component Type.** Huge",
+      "**Upgrade DC.** 15",
+      "**Component Cost.** ฿1,000,000 + 10% of ship cost",
+      "**Upgrade Slots Required.** 2",
+      "**Armor Class.** 12",
+      "**Hit Points.** 100; -5 ft. speed per 20 damage taken",
+      "**Locomotion (water).** Sails, speed based on ship type."
+    ]
+  },
+  {
+    "name": "Paddle-Wheel Upgrade",
+    "source": "D&DF-DMG",
+    "upgradeType": ["SHP:M"],
+    "entries": [
+      "*Requirement:* At least one huge engine installed on the ship and a control component.",
+      "**Component Type.** Special Huge",
+      "**Upgrade DC.** 17",
+      "**Component Cost.** ฿10,000,000 + 20% of ship cost",
+      "**Upgrade Slots Required.** 2",
+      "**Armor Class.** 12",
+      "**Hit Points.** 100; -10 ft. speed per 25 damage taken",
+      "**Locomotion (water).** Paddle-wheel, 35 ft. while the helm is intact (4 mph)."
+    ]
+  },
+  {
+    "name": "Propeller Upgrade",
+    "source": "D&DF-DMG",
+    "upgradeType": ["SHP:M"],
+    "entries": [
+      "*Requirement:* At least one huge engine installed on the ship and a control component.",
+      "**Component Type.** Special Huge",
+      "**Upgrade DC.** 17",
+      "**Component Cost.** ฿20,000,000 + 20% of ship cost",
+      "**Upgrade Slots Required.** 2",
+      "**Armor Class.** 18",
+      "**Hit Points.** 100; -5 ft. speed per 25 damage taken",
+      "**Locomotion (water).** Propeller, speed 45 ft. while the helm is intact (5 mph)."
+    ]
+  },
+  {
+    "name": "Rocket Booster Upgrade",
+    "source": "D&DF-DMG",
+    "upgradeType": ["SHP:M"],
+    "entries": [
+      "*Requirement:* At least one huge engine installed on the ship and a control component.",
+      "**Component Type.** Special Huge",
+      "**Upgrade DC.** 20",
+      "**Component Cost.** ฿100,000,000 + 50% of ship cost",
+      "**Upgrade Slots Required.** 2",
+      "**Armor Class.** 18",
+      "**Hit Points.** 100; -1 mile flight speed per 20 damage taken",
+      "The rocket booster allows for a vehicle to fly for up to 5 miles in any direction it chooses for up to 10 seconds. Afterwards, the ship lands and the booster must recharge for 24 hours before reuse. There is a 25% chance the ship crashes during landing."
+    ]
+  },
+  {
+    "name": "Flight Core Upgrade",
+    "source": "D&DF-DMG",
+    "upgradeType": ["SHP:M"],
+    "entries": [
+      "*Requirement:* At least one huge engine installed on the ship and a control component.",
+      "**Component Type.** Special Gargantuan",
+      "**Upgrade DC.** 20",
+      "**Component Cost.** ฿500,000,000 + 100% of ship cost",
+      "**Upgrade Slots Required.** 3",
+      "**Armor Class.** 18",
+      "**Hit Points.** 100; -5 ft. speed per 20 damage taken",
+      "**Locomotion (air).** Flight, speed 35 ft.; if the core is destroyed, the vehicle falls and crashes (4 mph)."
+    ]
+  },
+  {
+    "name": "Standard Fuel Engine Upgrade",
+    "source": "D&DF-DMG",
+    "upgradeType": ["SHP:O"],
+    "entries": [
+      "**Component Type.** Advanced Medium",
+      "**Upgrade DC.** 12",
+      "**Component Cost.** ฿4,000,000",
+      "**Upgrade Slots Required.** 1",
+      "**Armor Class.** 16",
+      "**Hit Points.** 25",
+      "Counts as 4 crew members and powers movement components requiring an engine. Requires fuel."
+    ]
+  },
+  {
+    "name": "Large Fuel Engine Upgrade",
+    "source": "D&DF-DMG",
+    "upgradeType": ["SHP:O"],
+    "entries": [
+      "**Component Type.** Advanced Large",
+      "**Upgrade DC.** 17",
+      "**Component Cost.** ฿10,000,000",
+      "**Upgrade Slots Required.** 2",
+      "**Armor Class.** 16",
+      "**Hit Points.** 50",
+      "Counts as 10 crew members and powers movement components requiring an engine. Requires fuel."
+    ]
+  },
+  {
+    "name": "Huge Fuel Engine Upgrade",
+    "source": "D&DF-DMG",
+    "upgradeType": ["SHP:O"],
+    "entries": [
+      "**Component Type.** Advanced Huge",
+      "**Upgrade DC.** 20",
+      "**Component Cost.** ฿50,000,000",
+      "**Upgrade Slots Required.** 2",
+      "**Armor Class.** 16",
+      "**Hit Points.** 100",
+      "Counts as 50 crew members and powers movement components requiring an engine. Requires fuel."
+    ]
+  },
+  {
+    "name": "Wing Attachment Upgrade",
+    "source": "D&DF-DMG",
+    "upgradeType": ["SHP:H"],
+    "entries": [
+      "**Component Type.** Huge",
+      "**Upgrade DC.** 15",
+      "**Component Cost.** ฿500,000 + 10% of ship cost",
+      "**Upgrade Slots Required.** 1",
+      "**Armor Class.** 12",
+      "**Hit Points.** 50",
+      "A falling vehicle's descent slows to 60 ft. per round, avoiding crashes from falls. The ship can glide. If destroyed midair, the vehicle falls and crashes."
+    ]
+  },
+  {
+    "name": "Helm Upgrade",
+    "source": "D&DF-DMG",
+    "upgradeType": ["SHP:O"],
+    "entries": [
+      "**Component Type.** Large",
+      "**Upgrade DC.** 10",
+      "**Component Cost.** 5% of ship cost",
+      "**Upgrade Slots Required.** 1",
+      "**Armor Class.** 12",
+      "**Hit Points.** 50",
+      "Controls movement components with one 90-degree turn. If destroyed, the vehicle can't turn."
+    ]
+  },
+  {
+    "name": "Control Room Upgrade",
+    "source": "D&DF-DMG",
+    "upgradeType": ["SHP:O"],
+    "entries": [
+      "**Component Type.** Special Huge",
+      "**Upgrade DC.** 15",
+      "**Component Cost.** ฿5,000,000 + 10% of ship cost",
+      "**Upgrade Slots Required.** 2",
+      "**Armor Class.** 15",
+      "**Hit Points.** 100",
+      "Controls movement components, with one 90-degree turn. If destroyed, the vehicle can't turn. Has full cover from attacks outside the vehicle."
+    ]
+  },
+  {
+    "name": "Steel Plating Upgrade",
+    "source": "D&DF-DMG",
+    "upgradeType": ["SHP:H"],
+    "entries": [
+      "Note: Can be added after initial construction.",
+      "**Component Type.** Size determined by vehicle size",
+      "**Upgrade DC.** 15",
+      "**Component Cost.** ฿50,000,000 + 30% of ship cost",
+      "**Upgrade Slots Required.** 2",
+      "Incorporates steel plating around the hull, increasing damage threshold by 5, granting immunity to necrotic damage, and raising AC to 18. The vehicle moves at half speed."
+    ]
+  },
+  {
+    "name": "Element Resistant Wax Upgrade",
+    "source": "D&DF-DMG",
+    "upgradeType": ["SHP:H"],
+    "entries": [
+      "Note: Can be added after initial construction.",
+      "**Component Type.** Special (size determined by vehicle size)",
+      "**Upgrade DC.** 15",
+      "**Component Cost.** ฿5,000,000 + 30% of ship cost",
+      "**Upgrade Slots Required.** 1",
+      "Applies a wax coating granting the hull resistance to one chosen damage type until removed. Only one coating can be active at a time."
+    ]
+  },
+  {
+    "name": "Adam Wood Upgrade",
+    "source": "D&DF-DMG",
+    "upgradeType": ["SHP:H"],
+    "entries": [
+      "**Component Type.** Special (size determined by vehicle size)",
+      "**Upgrade DC.** 17",
+      "**Component Cost.** ฿100,000,000 + 50% of ship cost",
+      "**Upgrade Slots Required.** 1",
+      "Incorporates Adam Wood into the hull, increasing damage threshold by 5 and granting +2 AC to all components."
+    ]
+  },
+  {
+    "name": "Seastone Bottom Upgrade",
+    "source": "D&DF-DMG",
+    "upgradeType": ["SHP:H"],
+    "entries": [
+      "**Component Type.** Special (size determined by vehicle size)",
+      "**Upgrade DC.** 20",
+      "**Component Cost.** ฿300,000,000 + 50% of ship cost",
+      "**Upgrade Slots Required.** 1",
+      "Incorporates seastone onto the bottom of the ship, allowing passage through the Calm Belt by avoiding detection from underwater creatures."
+    ]
+  },
+  {
+    "name": "Docking Upgrade",
+    "source": "D&DF-DMG",
+    "upgradeType": ["SHP:H"],
+    "entries": [
+      "*Requirement:* Vehicle must be Gargantuan.",
+      "**Component Type.** Gargantuan",
+      "**Upgrade DC.** 15",
+      "**Component Cost.** ฿10,000,000 + 30% of ship cost",
+      "**Upgrade Slots Required.** 2",
+      "Allows docking for up to 7 Huge or smaller vehicles. One vehicle can be released from docking per turn."
+    ]
+  },
+  {
+    "name": "Carronade Upgrade",
+    "source": "D&DF-DMG",
+    "upgradeType": ["SHP:W"],
+    "entries": [
+      "**Component Type.** Medium",
+      "**Upgrade DC.** 10",
+      "**Component Cost.** ฿10,000,000",
+      "**Upgrade Slots Required.** 1",
+      "**Armor Class.** 15",
+      "**Hit Points.** 30",
+      "*Ranged Weapon Attack:* +6 to hit, range 120/480 ft., one target. *Hit:* (2d10) bludgeoning damage."
+    ]
+  },
+  {
+    "name": "Cannon Upgrade",
+    "source": "D&DF-DMG",
+    "upgradeType": ["SHP:W"],
+    "entries": [
+      "**Component Type.** Medium",
+      "**Upgrade DC.** 10",
+      "**Component Cost.** ฿20,000,000",
+      "**Upgrade Slots Required.** 1",
+      "**Armor Class.** 15",
+      "**Hit Points.** 50",
+      "*Ranged Weapon Attack:* +6 to hit, range 120/480 ft., one target. *Hit:* (3d10) bludgeoning damage."
+    ]
+  },
+  {
+    "name": "Large Cannon Upgrade",
+    "source": "D&DF-DMG",
+    "upgradeType": ["SHP:W"],
+    "entries": [
+      "**Component Type.** Medium",
+      "**Upgrade DC.** 12",
+      "**Component Cost.** ฿80,000,000",
+      "**Upgrade Slots Required.** 1",
+      "**Armor Class.** 15",
+      "**Hit Points.** 100",
+      "*Ranged Weapon Attack:* +5 to hit, range 200/800 ft., one target. *Hit:* (5d10) bludgeoning damage."
+    ]
+  },
+  {
+    "name": "Harpoon Cannon Upgrade",
+    "source": "D&DF-DMG",
+    "upgradeType": ["SHP:W"],
+    "entries": [
+      "**Component Type.** Medium",
+      "**Upgrade DC.** 10",
+      "**Component Cost.** ฿25,000,000",
+      "**Upgrade Slots Required.** 1",
+      "**Armor Class.** 15",
+      "**Hit Points.** 50",
+      "*Ranged Weapon Attack:* +6 to hit, range 120/400 ft., one target. *Hit:* (3d6) piercing damage and grapples the target (escape DC 15). The rope has AC 10, 15 HP, vulnerability to fire, and immunity to bludgeoning, poison, and psychic damage."
+    ]
+  },
+  {
+    "name": "Ram Upgrade",
+    "source": "D&DF-DMG",
+    "upgradeType": ["SHP:W"],
+    "entries": [
+      "**Component Type.** Large",
+      "**Upgrade DC.** 15",
+      "**Component Cost.** ฿50,000,000",
+      "**Upgrade Slots Required.** 1",
+      "**Armor Class.** 18",
+      "**Hit Points.** 100 (threshold 10)",
+      "Gives advantage on crash saves. Damage from collisions is applied to the ram instead of the hull. These benefits don’t apply if another vehicle crashes into this one."
+    ]
+  },
+  {
+    "name": "Flamethrower Upgrade",
+    "source": "D&DF-DMG",
+    "upgradeType": ["SHP:W"],
+    "entries": [
+      "*Requirement:* At least one huge engine installed on the ship and a control component.",
+      "**Component Type.** Special Huge",
+      "**Upgrade DC.** 20",
+      "**Component Cost.** ฿300,000,000",
+      "**Upgrade Slots Required.** 2",
+      "**Armor Class.** 18",
+      "**Hit Points.** 100",
+      "**Flamethrower.** Sprays a 30-ft cone of fire (DC 16 Dex save, 45 (10d8) fire damage). Flammable objects ignite. Recharge: 24 hours."
+    ]
+  },
+  {
+    "name": "Beam Cannon Upgrade",
+    "source": "D&DF-DMG",
+    "upgradeType": ["SHP:W"],
+    "entries": [
+      "*Requirement:* At least one huge engine installed on the ship and a control component.",
+      "**Component Type.** Special Huge",
+      "**Upgrade DC.** 20",
+      "**Component Cost.** ฿500,000,000",
+      "**Upgrade Slots Required.** 2",
+      "**Armor Class.** 18",
+      "**Hit Points.** 100",
+      "**Force Beam.** Fires a 90-ft line (5 ft. wide, DC 16 Dex save, 45 (10d8) force damage). Disintegrates nonmagical Medium or smaller objects; destroys 5-ft cubes of larger targets. Recharge: 24 hours."
+    ]
+  }
+]
+
 }
