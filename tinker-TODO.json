@@ -156,7 +156,7 @@
       ],
       "spellcasting": {
         "ability": "int",
-        "progression": "third",
+        "progression": "full",
         "cantripsKnownProgression": [
           3, 3, 3, 4, 4, 4, 4, 4, 4, 5,
           5, 5, 5, 5, 5, 5, 5, 5, 5, 5
@@ -334,11 +334,11 @@
       "classSource": "D&tinDF-PHB",
       "shortName": "Military Science",
       "subclassFeatures": [
-        "Deflector Shield|Tinkerer|D&tinDF-PHB|2",
-        "Tactical Mind|Tinkerer|D&tinDF-PHB|2",
-        "Power Surge|Tinkerer|D&tinDF-PHB|6",
-        "Durable Tech|Tinkerer|D&tinDF-PHB|10",
-        "Deflecting Shroud|Tinkerer|D&tinDF-PHB|14"
+        "Deflector Shield|Tinkerer|D&tinDF-PHB|Military Science|D&tinDF-PHB|2|D&tinDF-PHB",
+        "Tactical Mind|Tinkerer|D&tinDF-PHB|Military Science|D&tinDF-PHB|2|D&tinDF-PHB",
+        "Power Surge|Tinkerer|D&tinDF-PHB|Military Science|D&tinDF-PHB|6|D&tinDF-PHB",
+        "Durable Tech|Tinkerer|D&tinDF-PHB|Military Science|D&tinDF-PHB|10|D&tinDF-PHB",
+        "Deflecting Shroud|Tinkerer|D&tinDF-PHB|Military Science|D&tinDF-PHB|14|D&tinDF-PHB"
       ],
       "fluff": {
         "type": "entries",
@@ -363,11 +363,11 @@
         ]
       },
       "subclassFeatures": [
-        "Cloud Surfing|Tinkerer|D&tinDF-PHB|2",
-        "Storm Forecasting|Tinkerer|D&tinDF-PHB|6",
-        "Weather Control|Tinkerer|D&tinDF-PHB|10",
-        "Thunder Counter|Tinkerer|D&tinDF-PHB|14",
-        "Storm Immunity|Tinkerer|D&tinDF-PHB|18"
+        "Cloud Surfing|Tinkerer|D&tinDF-PHB|Meteorology|D&tinDF-PHB|2|D&tinDF-PHB",
+        "Storm Forecasting|Tinkerer|D&tinDF-PHB|Meteorology|D&tinDF-PHB|6|D&tinDF-PHB",
+        "Weather Control|Tinkerer|D&tinDF-PHB|Meteorology|D&tinDF-PHB|10|D&tinDF-PHB",
+        "Thunder Counter|Tinkerer|D&tinDF-PHB|Meteorology|D&tinDF-PHB|14|D&tinDF-PHB",
+        "Storm Immunity|Tinkerer|D&tinDF-PHB|Meteorology|D&tinDF-PHB|18|D&tinDF-PHB"
       ]
     },
     {
@@ -378,11 +378,11 @@
       "classSource": "D&tinDF-PHB",
       "shortName": "Robotics",
       "subclassFeatures": [
-        "Machine Summoning|Tinkerer|D&tinDF-PHB|2",
-        "Simple Robots|Tinkerer|D&tinDF-PHB|2",
-        "Quantum Teleportation|Tinkerer|D&tinDF-PHB|6",
-        "Autopilot Controls|Tinkerer|D&tinDF-PHB|10",
-        "Reinforced Exterior|Tinkerer|D&tinDF-PHB|14"
+        "Machine Summoning|Tinkerer|D&tinDF-PHB|Robotics|D&tinDF-PHB|2|D&tinDF-PHB",
+        "Simple Robots|Tinkerer|D&tinDF-PHB|Robotics|D&tinDF-PHB|2|D&tinDF-PHB",
+        "Quantum Teleportation|Tinkerer|D&tinDF-PHB|Robotics|D&tinDF-PHB|6|D&tinDF-PHB",
+        "Autopilot Controls|Tinkerer|D&tinDF-PHB|Robotics|D&tinDF-PHB|10|D&tinDF-PHB",
+        "Reinforced Exterior|Tinkerer|D&tinDF-PHB|Robotics|D&tinDF-PHB|14|D&tinDF-PHB"
       ],
       "fluff": {
         "type": "entries",
@@ -456,7 +456,7 @@
       "subclassShortName": "Military Science",
       "level": 14,
       "entries": [
-        "When you use Deflector Shield you may deal force damage equal to half your Tinkerer level to up to three creatures you can see within 60 feet."
+        "At 14th level, your Deflector Shield becomes infused with deadly energy. When you use your Deflector Shield feature, you can cause power to arc from you. Up to three creatures of your choice that you can see within 60 feet of you each take force damage equal to half your Tinkerer level."
       ]
     },
     {
@@ -589,25 +589,5 @@
         "Creatures you summon or create with a Conjuration Tinkerer spell gain 30 temporary hit points."
       ]
     }
-  ],
-  "spellList":[
-    {
-          "name": "Tinkerer",
-          "spells":
-          [
-            "0": [ "Acid Splash", "Blade Ward", "Booming Blade", "Chill Touch", "Control Flames", "Create Bonfire", "Dancing Lights", "Encode Thoughts", "Fire Bolt", "Friends", "Frostbite", "Green-Flame Blade", "Gust", "Infestation", "Light", "Lightning Lure", "Mage Hand", "Mending", "Message", "Mind Sliver", "Minor Illusion", "Mold Earth", "Poison Spray", "Prestidigitation", "Ray of Frost", "Sapping Sting", "Shocking Grasp", "Sword Burst", "Thunderclap", "Toll the Dead", "True Strike" ],
-            "1": [ "Absorb Elements", "Alarm", "Burning Hands", "Catapult", "Cause Fear", "Charm Person", "Chromatic Orb", "Color Spray", "Detect Magic", "Disguise Self", "Distort Value", "Earth Tremor", "Expeditious Retreat", "False Life", "Feather Fall", "Find Familiar", "Fog Cloud", "Frost Fingers", "Gift of Alacrity", "Grease", "Ice Knife", "Identify", "Illusory Script", "Jump", "Longstrider", "Mage Armor", "Magic Missile", "Magnify Gravity", "Protection from Evil and Good", "Ray of Sickness", "Shield", "Silent Image", "Silvery Barbs", "Sleep", "Snare", "Tasha's Caustic Brew", "Tasha's Hideous Laughter", "Tenser's Floating Disk", "Thunderwave", "Unseen Servant", "Witch Bolt" ],
-            "2": [ "Aganazzar's Scorcher", "Air Bubble", "Alter Self", "Arcane Lock", "Augury", "Blindness/Deafness", "Blur", "Borrowed Knowledge", "Cloud of Daggers", "Continual Flame", "Crown of Madness", "Darkness", "Darkvision", "Detect Thoughts", "Dragon's Breath", "Dust Devil", "Earthbind", "Enhance Ability", "Enlarge/Reduce", "Flaming Sphere", "Flock of Familiars", "Fortune's Favor", "Gentle Repose", "Gift of Gab", "Gust of Wind", "Hold Person", "Immovable Object", "Invisibility", "Kinetic Jaunt", "Knock", "Levitate", "Locate Object", "Magic Mouth", "Magic Weapon", "Melf's Acid Arrow", "Mind Spike", "Mirror Image", "Misty Step", "Phantasmal Force", "Pyrotechnics", "Ray of Enfeeblement", "Rope Trick", "Scorching Ray", "See Invisibility", "Shadow Blade", "Shatter", "Snilloc's Snowball Swarm", "Spider Climb", "Suggestion", "Tasha's Mind Whip", "Vortex Warp", "Warding Wind", "Web" ],
-            "3": [ "Animate Dead", "Bestow Curse", "Blink", "Catnap", "Clairvoyance", "Counterspell", "Dispel Magic", "Erupting Earth", "Fear", "Feign Death", "Fireball", "Fly", "Glyhp of Warding", "Haste", "Hypnotic Pattern", "Leomund's Tiny Hut", "Lightning Bolt", "Magic Circle", "Major Image", "Melf's Minute Meteors", "Phantom Steed", "Protection From Energy", "Remove Curse", "Sending", "Sleet Storm", "Slow", "Speak With Dead", "Spirit Shroud", "Stinking Cloud", "Summon Fey", "Summon Lesser Demons", "Summon Shadowspawn", "Summon Undead", "Thunder Step", "Tiny Servant", "Vampiric Touch", "Water Breathing" ],
-            "4": [ "Arcane Eye", "Blight", "Charm Monster", "Confusion", "Conjure Minor Elementals", "Dimension Door", "Divination", "Elemental Bane", "Evard's Black Tentacles", "Fabricate", "Fire Shield", "Greater Invisibility", "Hallucinatory Terrain", "Ice Storm", "Leomund's Secret Chest", "Locate Creature", "Mordenkainen's Faithful Hound", "Otiluke's Resilient Sphere", "Phantasmal Killer", "Polymorph", "Sickening Radiance", "Stone Shape", "Stoneskin", "Storm Sphere", "Summon Construct", "Summon Elemental", "Summon Greater Demon", "Wall of Fire" ],
-            "5": [ "Animate Objects", "Bigby's Hand", "Cloudkill", "Cone of Cold", "Conjure Elemental", "Control Winds", "Creation", "Danse Macabre", "Dawn", "Dominate Person", "Dream", "Enervation", "Far Step", "Geas", "Hold Monster", "Immolation", "Infernal Calling", "Legend Lore", "Mislead", "Modify Memory", "Negative Energy Flood", "Passwall", "Planar Binding", "Scrying", "Seeming", "Steel Wind Strike", "Telekinesis", "Wall of Force", "Wall of Stone" ],
-            "6": [ "Chain Lightning", "Circle of Death", "Contingency", "Create Homunculus", "Create Undead", "Disintegrate", "Eyebite", "Globe of Invulnerability", "Fizban's Platinum Shield", "Flesh to Stone", "Move Earth", "Programmed Illusion", "Soul Cage", "Sunbeam", "True Seeing" ],
-            "7": [ "Crown of Stars", "Delayed Blast Fireball", "Finger of Death", "Forcecage", "Project Image", "Reverse Gravity", "Resurrection", "Simulacrum" ],
-            "8": [ "Antimagic Field", "Clone", "Control Weather", "Demiplane", "Feeblemind", "Maze", "Mind Blank", "Power Word Stun"  ],
-            "9": [ "Foresight","Imprisonment","Meteor Swarm","Power Word Kill","True Polymorph","Weird" ],
-          ],
-          "source": "D&tinDF-PHB",
-          "spellListType": "groups"
-    }
-  ]
+  ]  
 }

@@ -12,7 +12,7 @@
           "Tarun",
           "SirTalpadeRedstoneville58"
         ],
-        "version": "2.5",
+        "version": "2.6",
         "color": "33FFCA",
         "url": "https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm"
       }
@@ -3401,7 +3401,7 @@
       "startingEquipment": {
         "additionalFromBackground": true,
         "default": [
-          "(a) {@item chain mail|phb} or (b) {@item thick shirt|D&DF-PHB}, {@item rifle|dmg}, and {@item bullets (20)|dmg|20 bullets}",
+          "(a) {@item chain mail|phb} or (b) {@item thick shirt|D&DF-PHB}, {@item rifle|D&DF-PHB}, and {@item bullets (20)|dmg|20 bullets}",
           "(a) a {@filter martial weapon|items|source=phb|category=basic|type=martial weapon} and a {@item shield|phb} or (b) two {@filter martial weapons|items|source=phb|category=basic|type=martial weapon}",
           "(a) a {@item pistol|dmg} and {@item bullets (20)|dmg|20 bullets} or (b) two {@item handaxe|phb|handaxes}",
           "(a) a {@item dungeoneer's pack|phb} or (b) an {@item explorer's pack|phb}"
@@ -7087,7 +7087,7 @@
       "classSource": "D&DF-PHB",
       "shortName": "Sniper",
       "subclassFeatures": [
-        "ScD&DF-PHBing|Marksman|D&DF-PHB|Sniper|D&DF-PHB|3|D&DF-PHB",
+        "Scoping|Marksman|D&DF-PHB|Sniper|D&DF-PHB|3|D&DF-PHB",
         "Empowered Bullet|Marksman|D&DF-PHB|Sniper|D&DF-PHB|3|D&DF-PHB",
         "Vantage Point|Marksman|D&DF-PHB|Sniper|D&DF-PHB|7|D&DF-PHB",
         "Sniper's Support|Marksman|D&DF-PHB|Sniper|D&DF-PHB|11|D&DF-PHB",

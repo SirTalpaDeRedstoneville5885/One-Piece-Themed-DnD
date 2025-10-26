@@ -1,0 +1,132 @@
+{
+"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+  "class": [
+    {
+      "name": "Skald",
+      "source": "SkaldHB",
+      "edition": "classic",
+      "hd": {
+        "number": 1,
+        "faces": 8
+      },
+      "proficiency": {
+        "armor": ["light"],
+        "weapons": ["simple", "longsword", "rapier", "cutlass", "shortsword"],
+        "tools": ["three musical instruments"],
+        "savingThrows": ["dex", "cha"],
+        "skillsNumber": 3,
+        "skills": ["any"]
+      },
+      "startingEquipment": {
+        "additionalFromBackground": true,
+        "default": [
+          "(a) Rapier, (b) Longsword, or (c) any simple weapon",
+          "(a) Pirate's pack or (b) Entertainer's pack",
+          "(a) Bagpipes or (b) any other musical instrument",
+          "Thick Shirt",
+          "Dagger"
+        ]
+      },
+      "spellcastingAbility": "cha",
+      "spellcastingFactor": "full",
+      "casterProgression": "full",
+      "cantripProgression": [2,2,2,3,3,3,3,3,3,4,4,4,4,4,4,4,4,4,4,4],
+      "spellsKnownProgression": [4,5,6,7,8,9,10,11,12,14,15,15,16,18,19,19,20,22,22,22],
+      "slotsProgression": "full",
+      "classTableGroups": [
+        {
+          "colLabels": [
+            "Level",
+            "Proficiency Bonus",
+            "Features",
+            "Cantrips Known",
+            "Spells Known",
+            "1st",
+            "2nd",
+            "3rd",
+            "4th",
+            "5th",
+            "6th",
+            "7th",
+            "8th",
+            "9th"
+          ],
+          "rows": [
+            ["1st", "+2", "Spirit Power (Spellcasting), Skaldic Verse (d6)", "2", "4", "2", "-", "-", "-", "-", "-", "-", "-", "-"],
+            ["2nd", "+2", "Jack of All Trades, Song of the Sea (d6), Versatile Verse", "2", "5", "3", "-", "-", "-", "-", "-", "-", "-", "-"],
+            ["3rd", "+2", "Skald School, Expertise", "2", "6", "4", "2", "-", "-", "-", "-", "-", "-", "-"],
+            ["4th", "+2", "Ability Score Improvement", "3", "7", "4", "3", "-", "-", "-", "-", "-", "-", "-"],
+            ["5th", "+3", "Skaldic Verse (d8), Continued Verse", "3", "8", "4", "3", "2", "-", "-", "-", "-", "-", "-", "-"],
+            ["6th", "+3", "Skald School feature, Counterverse", "3", "9", "4", "3", "3", "-", "-", "-", "-", "-", "-", "-"],
+            ["7th", "+3", "-", "3", "10", "4", "3", "3", "1", "-", "-", "-", "-", "-"],
+            ["8th", "+3", "Ability Score Improvement", "3", "11", "4", "3", "3", "2", "-", "-", "-", "-", "-"],
+            ["9th", "+4", "Song of the Sea (d8)", "3", "12", "4", "3", "3", "3", "1", "-", "-", "-", "-"],
+            ["10th", "+4", "Skaldic Verse (d10), Expertise, Tales of Legends", "4", "14", "4", "3", "3", "3", "2", "-", "-", "-", "-"],
+            ["11th", "+4", "-", "4", "15", "4", "3", "3", "3", "2", "1", "-", "-", "-"],
+            ["12th", "+4", "Ability Score Improvement", "4", "15", "4", "3", "3", "3", "2", "1", "-", "-", "-"],
+            ["13th", "+5", "Song of the Sea (d10)", "4", "16", "4", "3", "3", "3", "2", "1", "1", "-", "-"],
+            ["14th", "+5", "Skald School feature, Tales of Legends", "4", "18", "4", "3", "3", "3", "2", "1", "1", "-", "-"],
+            ["15th", "+5", "Skaldic Verse (d12)", "4", "19", "4", "3", "3", "3", "2", "1", "1", "1", "-"],
+            ["16th", "+5", "Ability Score Improvement", "4", "19", "4", "3", "3", "3", "2", "1", "1", "1", "-"],
+            ["17th", "+6", "Song of the Sea (d12)", "4", "20", "4", "3", "3", "3", "2", "1", "1", "1", "1"],
+            ["18th", "+6", "Tales of Legends", "4", "22", "4", "3", "3", "3", "3", "1", "1", "1", "1"],
+            ["19th", "+6", "Ability Score Improvement", "4", "22", "4", "3", "3", "3", "3", "2", "1", "1", "1"],
+            ["20th", "+6", "Superior Verse", "4", "22", "4", "3", "3", "3", "3", "2", "2", "1", "1"]
+          ]
+        }
+      ],
+      "classFeatures": [
+        "Spirit Power (Spellcasting)|SkaldHB|1",
+        "Skaldic Verse|SkaldHB|1",
+        "Jack of All Trades|SkaldHB|2",
+        "Song of the Sea|SkaldHB|2",
+        "Versatile Verse|SkaldHB|2",
+        "Skald School|SkaldHB|3",
+        "Expertise|SkaldHB|3",
+        "Ability Score Improvement|SkaldHB|4",
+        "Continued Verse|SkaldHB|5",
+        "Counterverse|SkaldHB|6",
+        "Tales of Legends|SkaldHB|10",
+        "Superior Verse|SkaldHB|20"
+      ],
+      "subclasses": [
+        {
+          "name": "School of Hypnotism",
+          "shortName": "Hypnotism",
+          "source": "SkaldHB",
+          "subclassSource": "SkaldHB",
+          "features": [
+            "Pain-Numbing Verse|SkaldHB|3",
+            "Hypnotic Words|SkaldHB|3",
+            "Collar of Command|SkaldHB|6",
+            "Complete Hypnosis|SkaldHB|14"
+          ]
+        },
+        {
+          "name": "School of Battlehymn",
+          "shortName": "Battlehymn",
+          "source": "SkaldHB",
+          "subclassSource": "SkaldHB",
+          "features": [
+            "Bonus Proficiencies (Battlehymn)|SkaldHB|3",
+            "Warrior Verse|SkaldHB|3",
+            "Extra Attack (Battlehymn)|SkaldHB|6",
+            "War Rhythm|SkaldHB|14"
+          ]
+        },
+        {
+          "name": "School of the Underworld",
+          "shortName": "Underworld",
+          "source": "SkaldHB",
+          "subclassSource": "SkaldHB",
+          "features": [
+            "Bonus Proficiencies (Underworld)|SkaldHB|3",
+            "Haunting Verse|SkaldHB|3",
+            "Additional Tales of Legends|SkaldHB|6",
+            "Power of the Deep|SkaldHB|14"
+          ]
+        }
+      ]
+    }
+  ]
+}
