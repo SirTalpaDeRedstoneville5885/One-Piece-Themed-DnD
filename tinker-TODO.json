@@ -3,8 +3,8 @@
   "_meta": {
     "sources": [
       {
-        "json": "D&tinDF-PHB",
-        "abbreviation": "D&tinDF-PHB",
+        "json": "D&DF-PHB",
+        "abbreviation": "D&DF-PHB",
         "full": "One Piece Tinker and his shits",
         "authors": [
           "OneWorldHD"
@@ -24,7 +24,7 @@
   "class": [
     {
       "name": "Tinkerer",
-      "source": "D&tinDF-PHB",
+      "source": "D&DF-PHB",
       "page": 92,
       "hd": { "number": 1, "faces": 6 },
       "subclassTitle": "Tinkerer Study",
@@ -87,32 +87,32 @@
         ]
       },
       "classFeatures": [
-        "Creation Power (Spellcasting)|Tinkerer|D&tinDF-PHB|1",
-        "Recharging|Tinkerer|D&tinDF-PHB|1",
+        "Creation Power (Spellcasting)|Tinkerer|D&DF-PHB|1",
+        "Recharging|Tinkerer|D&DF-PHB|1",
         {
-          "classFeature": "Tinkerer Study|Tinkerer|D&tinDF-PHB|2",
+          "classFeature": "Tinkerer Study|Tinkerer|D&DF-PHB|2",
           "gainSubclassFeature": true
         },
-        "Adaptive Cantrip Technology|Tinkerer|D&tinDF-PHB|3",
-        "Ability Score Improvement|Tinkerer|D&tinDF-PHB|4",
+        "Adaptive Cantrip Technology|Tinkerer|D&DF-PHB|3",
+        "Ability Score Improvement|Tinkerer|D&DF-PHB|4",
         {
-          "classFeature": "Tinkerer Study feature|Tinkerer|D&tinDF-PHB|6",
+          "classFeature": "Tinkerer Study feature|Tinkerer|D&DF-PHB|6",
           "gainSubclassFeature": true
         },
-        "Ability Score Improvement|Tinkerer|D&tinDF-PHB|8",
+        "Ability Score Improvement|Tinkerer|D&DF-PHB|8",
         {
-          "classFeature": "Tinkerer Study feature|Tinkerer|D&tinDF-PHB|10",
+          "classFeature": "Tinkerer Study feature|Tinkerer|D&DF-PHB|10",
           "gainSubclassFeature": true
         },
-        "Ability Score Improvement|Tinkerer|D&tinDF-PHB|12",
+        "Ability Score Improvement|Tinkerer|D&DF-PHB|12",
         {
-          "classFeature": "Tinkerer Study feature|Tinkerer|D&tinDF-PHB|14",
+          "classFeature": "Tinkerer Study feature|Tinkerer|D&DF-PHB|14",
           "gainSubclassFeature": true
         },
-        "Ability Score Improvement|Tinkerer|D&tinDF-PHB|16",
-        "Master of Innovation|Tinkerer|D&tinDF-PHB|18",
-        "Ability Score Improvement|Tinkerer|D&tinDF-PHB|19",
-        "Ultimate Technology|Tinkerer|D&tinDF-PHB|20"
+        "Ability Score Improvement|Tinkerer|D&DF-PHB|16",
+        "Master of Innovation|Tinkerer|D&DF-PHB|18",
+        "Ability Score Improvement|Tinkerer|D&DF-PHB|19",
+        "Ultimate Technology|Tinkerer|D&DF-PHB|20"
       ],
       "classTableGroups": [
         {
@@ -170,8 +170,8 @@
       "name": "Creation Power (Spellcasting)",
       "page": 92,
       "className": "Tinkerer",
-      "source": "D&tinDF-PHB",
-      "classSource": "D&tinDF-PHB",
+      "source": "D&DF-PHB",
+      "classSource": "D&DF-PHB",
       "level": 1,
       "entries": [
         "As a Student of robotics and advanced technology, you have a Gadget of choice along with blueprints containing Creations (spells) that show the first glimmerings of your true abilities. This class uses the Tinkerer Spell List in Chapter 8.",
@@ -284,8 +284,8 @@
       "name": "Recharging",
       "page": 93,
       "className": "Tinkerer",
-      "classSource": "D&tinDF-PHB",
-      "source": "D&tinDF-PHB",
+      "classSource": "D&DF-PHB",
+      "source": "D&DF-PHB",
       "level": 1,
       "entries": [
         "You have learned how to restore bits of power to your Gadget by recharging it during a rest. Once per day when you finish a Short Rest, you can choose expended Creation Power (Spell) Slots to recover. The Creation Power Slots can have a combined level that is equal to or less than half your Tinkerer level (rounded up), and none of the slots can be 6th level or higher.\nFor example, if you're a 4th-level Tinkerer, you can recover up to two levels worth of Spell Slots. You can recover either a 2nd-level spell slot or two 1st-level Spell Slots."
@@ -295,8 +295,8 @@
       "name": "Tinkerer Study",
       "page": 93,
       "className": "Tinkerer",
-      "classSource": "D&tinDF-PHB",
-      "source": "D&tinDF-PHB",
+      "classSource": "D&DF-PHB",
+      "source": "D&DF-PHB",
       "level": 2,
       "entries": [
         "At 2nd level you choose a Tinkerer Study: Military Science, Meteorology, or Robotics. Your choice gives features at 2nd level and again at 6th, 10th, and 14th level."
@@ -306,8 +306,8 @@
       "name": "Adaptive Cantrip Technology",
       "page": 93,
       "className": "Tinkerer",
-      "classSource": "D&tinDF-PHB",
-      "source": "D&tinDF-PHB",
+      "classSource": "D&DF-PHB",
+      "source": "D&DF-PHB",
       "level": 3,
       "entries": [
         "At 3rd level, whenever you finish a long rest, you can replace one tinkerer cantrip you know with another cantrip from the tinkerer spell list."
@@ -317,8 +317,8 @@
       "name": "Ability Score Improvement",
       "page": 93,
       "className": "Tinkerer",
-      "classSource": "D&tinDF-PHB",
-      "source": "D&tinDF-PHB",
+      "classSource": "D&DF-PHB",
+      "source": "D&DF-PHB",
       "level": 4,
       "entries": [
         "At levels 4, 8, 12, 16, and 19 you can increase ability scores as usual, or take a feat if your DM allows."
@@ -328,8 +328,8 @@
       "name": "Master of Innovation",
       "page": 93,
       "className": "Tinkerer",
-      "source": "D&tinDF-PHB",
-      "classSource": "D&tinDF-PHB",
+      "source": "D&DF-PHB",
+      "classSource": "D&DF-PHB",
       "level": 18,
       "entries": [
         "At 18th level, you have achieved such mastery over certain Creation Powers (Spells) that you can cast them at will. Choose a 1st-level Tinkerer Creation Power (spell) and a 2nd-level Tinkerer spell that are in your Spellbook. You can cast those spells⁠ at their lowest level without expending a spell slot when you have them prepared. If you want to cast either spell at a higher level, you must expend a spell slot as normal.\nBy spending 8 hours in study, you can exchange one or both of the Spells you chose for different spells⁠ of the same levels."
@@ -339,8 +339,8 @@
       "name": "Ultimate Technology",
       "page": 93,
       "className": "Tinkerer",
-      "source": "D&tinDF-PHB",
-      "classSource": "D&tinDF-PHB",
+      "source": "D&DF-PHB",
+      "classSource": "D&DF-PHB",
       "level": 20,
       "entries": [
         "When you reach 20th level, you gain mastery over two powerful Creation Powers (Spells) and can cast them with little effort. Choose two 3rd-level Tinkerer creation powers in your spellbook⁠ as your signature creation powers⁠. You always have these creation powers⁠ prepared, they don't count against the number of creation powers you have prepared, and you can cast each of them once at 3rd Level without expending a creation power (spell) slot. When you do so, you can't do so again until you finish a short or Long Rest.\nIf you want to cast either creation power at a higher level, you must expend a creation power slot as normal."
@@ -350,8 +350,8 @@
     "name": "Tinkerer Study feature",
     "page": 3,
     "className": "Tinkerer",
-    "classSource": "D&tinDF-PHB",
-    "source": "D&tinDF-PHB",
+    "classSource": "D&DF-PHB",
+    "source": "D&DF-PHB",
     "level": 6,
     "entries": [
       "At 6th level, you gain an additional feature from your chosen Tinkerer Study."
@@ -361,8 +361,8 @@
     "name": "Tinkerer Study feature",
     "page": 3,
     "className": "Tinkerer",
-    "classSource": "D&tinDF-PHB",
-    "source": "D&tinDF-PHB",
+    "classSource": "D&DF-PHB",
+    "source": "D&DF-PHB",
     "level": 10,
     "entries": [
       "At 10th level, you gain an additional feature from your chosen Tinkerer Study."
@@ -372,8 +372,8 @@
     "name": "Tinkerer Study feature",
     "page": 3,
     "className": "Tinkerer",
-    "classSource": "D&tinDF-PHB",
-    "source": "D&tinDF-PHB",
+    "classSource": "D&DF-PHB",
+    "source": "D&DF-PHB",
     "level": 14,
     "entries": [
       "At 14th level, you gain an additional feature from your chosen Tinkerer Study."
@@ -383,8 +383,8 @@
       "name": "Ability Score Improvement",
       "page": 93,
       "className": "Tinkerer",
-      "classSource": "D&tinDF-PHB",
-      "source": "D&tinDF-PHB",
+      "classSource": "D&DF-PHB",
+      "source": "D&DF-PHB",
       "level": 8,
       "entries": [
         "At levels 4, 8, 12, 16, and 19 you can increase ability scores as usual, or take a feat if your DM allows."
@@ -394,8 +394,8 @@
       "name": "Ability Score Improvement",
       "page": 93,
       "className": "Tinkerer",
-      "classSource": "D&tinDF-PHB",
-      "source": "D&tinDF-PHB",
+      "classSource": "D&DF-PHB",
+      "source": "D&DF-PHB",
       "level": 12,
       "entries": [
         "At levels 4, 8, 12, 16, and 19 you can increase ability scores as usual, or take a feat if your DM allows."
@@ -405,8 +405,8 @@
       "name": "Ability Score Improvement",
       "page": 93,
       "className": "Tinkerer",
-      "classSource": "D&tinDF-PHB",
-      "source": "D&tinDF-PHB",
+      "classSource": "D&DF-PHB",
+      "source": "D&DF-PHB",
       "level": 16,
       "entries": [
         "At levels 4, 8, 12, 16, and 19 you can increase ability scores as usual, or take a feat if your DM allows."
@@ -416,8 +416,8 @@
       "name": "Ability Score Improvement",
       "page": 93,
       "className": "Tinkerer",
-      "classSource": "D&tinDF-PHB",
-      "source": "D&tinDF-PHB",
+      "classSource": "D&DF-PHB",
+      "source": "D&DF-PHB",
       "level": 19,
       "entries": [
         "At levels 4, 8, 12, 16, and 19 you can increase ability scores as usual, or take a feat if your DM allows."
@@ -428,17 +428,17 @@
   "subclass": [
     {
       "name": "Military Science",
-      "source": "D&tinDF-PHB",
+      "source": "D&DF-PHB",
       "page": 94,
       "className": "Tinkerer",
-      "classSource": "D&tinDF-PHB",
+      "classSource": "D&DF-PHB",
       "shortName": "Military Science",
       "subclassFeatures": [
-        "Deflector Shield|Tinkerer|D&tinDF-PHB|Military Science|D&tinDF-PHB|2|D&tinDF-PHB",
-        "Tactical Mind|Tinkerer|D&tinDF-PHB|Military Science|D&tinDF-PHB|2|D&tinDF-PHB",
-        "Power Surge|Tinkerer|D&tinDF-PHB|Military Science|D&tinDF-PHB|6|D&tinDF-PHB",
-        "Durable Tech|Tinkerer|D&tinDF-PHB|Military Science|D&tinDF-PHB|10|D&tinDF-PHB",
-        "Deflecting Shroud|Tinkerer|D&tinDF-PHB|Military Science|D&tinDF-PHB|14|D&tinDF-PHB"
+        "Deflector Shield|Tinkerer|D&DF-PHB|Military Science|D&DF-PHB|2|D&DF-PHB",
+        "Tactical Mind|Tinkerer|D&DF-PHB|Military Science|D&DF-PHB|2|D&DF-PHB",
+        "Power Surge|Tinkerer|D&DF-PHB|Military Science|D&DF-PHB|6|D&DF-PHB",
+        "Durable Tech|Tinkerer|D&DF-PHB|Military Science|D&DF-PHB|10|D&DF-PHB",
+        "Deflecting Shroud|Tinkerer|D&DF-PHB|Military Science|D&DF-PHB|14|D&DF-PHB"
       ],
       "fluff": {
         "type": "entries",
@@ -450,10 +450,10 @@
     },
     {
       "name": "Meteorology",
-      "source": "D&tinDF-PHB",
+      "source": "D&DF-PHB",
       "page": 95,
       "className": "Tinkerer",
-      "classSource": "D&tinDF-PHB",
+      "classSource": "D&DF-PHB",
       "shortName": "Meteorology",
       "fluff": {
         "type": "entries",
@@ -463,26 +463,26 @@
         ]
       },
       "subclassFeatures": [
-        "Cloud Surfing|Tinkerer|D&tinDF-PHB|Meteorology|D&tinDF-PHB|2|D&tinDF-PHB",
-        "Storm Forecasting|Tinkerer|D&tinDF-PHB|Meteorology|D&tinDF-PHB|6|D&tinDF-PHB",
-        "Weather Control|Tinkerer|D&tinDF-PHB|Meteorology|D&tinDF-PHB|10|D&tinDF-PHB",
-        "Thunder Counter|Tinkerer|D&tinDF-PHB|Meteorology|D&tinDF-PHB|14|D&tinDF-PHB",
-        "Storm Immunity|Tinkerer|D&tinDF-PHB|Meteorology|D&tinDF-PHB|18|D&tinDF-PHB"
+        "Cloud Surfing|Tinkerer|D&DF-PHB|Meteorology|D&DF-PHB|2|D&DF-PHB",
+        "Storm Forecasting|Tinkerer|D&DF-PHB|Meteorology|D&DF-PHB|6|D&DF-PHB",
+        "Weather Control|Tinkerer|D&DF-PHB|Meteorology|D&DF-PHB|10|D&DF-PHB",
+        "Thunder Counter|Tinkerer|D&DF-PHB|Meteorology|D&DF-PHB|14|D&DF-PHB",
+        "Storm Immunity|Tinkerer|D&DF-PHB|Meteorology|D&DF-PHB|18|D&DF-PHB"
       ]
     },
     {
       "name": "Robotics",
-      "source": "D&tinDF-PHB",
+      "source": "D&DF-PHB",
       "page": 95,
       "className": "Tinkerer",
-      "classSource": "D&tinDF-PHB",
+      "classSource": "D&DF-PHB",
       "shortName": "Robotics",
       "subclassFeatures": [
-        "Machine Summoning|Tinkerer|D&tinDF-PHB|Robotics|D&tinDF-PHB|2|D&tinDF-PHB",
-        "Simple Robots|Tinkerer|D&tinDF-PHB|Robotics|D&tinDF-PHB|2|D&tinDF-PHB",
-        "Quantum Teleportation|Tinkerer|D&tinDF-PHB|Robotics|D&tinDF-PHB|6|D&tinDF-PHB",
-        "Autopilot Controls|Tinkerer|D&tinDF-PHB|Robotics|D&tinDF-PHB|10|D&tinDF-PHB",
-        "Reinforced Exterior|Tinkerer|D&tinDF-PHB|Robotics|D&tinDF-PHB|14|D&tinDF-PHB"
+        "Machine Summoning|Tinkerer|D&DF-PHB|Robotics|D&DF-PHB|2|D&DF-PHB",
+        "Simple Robots|Tinkerer|D&DF-PHB|Robotics|D&DF-PHB|2|D&DF-PHB",
+        "Quantum Teleportation|Tinkerer|D&DF-PHB|Robotics|D&DF-PHB|6|D&DF-PHB",
+        "Autopilot Controls|Tinkerer|D&DF-PHB|Robotics|D&DF-PHB|10|D&DF-PHB",
+        "Reinforced Exterior|Tinkerer|D&DF-PHB|Robotics|D&DF-PHB|14|D&DF-PHB"
       ],
       "fluff": {
         "type": "entries",
@@ -496,11 +496,11 @@
    "subclassFeature": [
     {
       "name": "Deflector Shield",
-      "source": "D&tinDF-PHB",
+      "source": "D&DF-PHB",
       "page": 94,
-      "subclassSource": "D&tinDF-PHB",
+      "subclassSource": "D&DF-PHB",
       "className": "Tinkerer",
-      "classSource": "D&tinDF-PHB",
+      "classSource": "D&DF-PHB",
       "subclassShortName": "Military Science",
       "level": 2,
       "entries": [
@@ -509,11 +509,11 @@
     },
     {
       "name": "Tactical Mind",
-      "source": "D&tinDF-PHB",
+      "source": "D&DF-PHB",
       "page": 94,
       "className": "Tinkerer",
-      "subclassSource": "D&tinDF-PHB",
-      "classSource": "D&tinDF-PHB",
+      "subclassSource": "D&DF-PHB",
+      "classSource": "D&DF-PHB",
       "subclassShortName": "Military Science",
       "level": 2,
       "entries": [
@@ -522,11 +522,11 @@
     },
     {
       "name": "Power Surge",
-      "source": "D&tinDF-PHB",
+      "source": "D&DF-PHB",
       "page": 94,
       "className": "Tinkerer",
-      "subclassSource": "D&tinDF-PHB",
-      "classSource": "D&tinDF-PHB",
+      "subclassSource": "D&DF-PHB",
+      "classSource": "D&DF-PHB",
       "subclassShortName": "Military Science",
       "level": 6,
       "entries": [
@@ -535,11 +535,11 @@
     },
     {
       "name": "Durable Tech",
-      "source": "D&tinDF-PHB",
+      "source": "D&DF-PHB",
       "page": 94,
       "className": "Tinkerer",
-      "subclassSource": "D&tinDF-PHB",
-      "classSource": "D&tinDF-PHB",
+      "subclassSource": "D&DF-PHB",
+      "classSource": "D&DF-PHB",
       "subclassShortName": "Military Science",
       "level": 10,
       "entries": [
@@ -548,11 +548,11 @@
     },
     {
       "name": "Deflecting Shroud",
-      "source": "D&tinDF-PHB",
+      "source": "D&DF-PHB",
       "page": 94,
-      "subclassSource": "D&tinDF-PHB",
+      "subclassSource": "D&DF-PHB",
       "className": "Tinkerer",
-      "classSource": "D&tinDF-PHB",
+      "classSource": "D&DF-PHB",
       "subclassShortName": "Military Science",
       "level": 14,
       "entries": [
@@ -561,11 +561,11 @@
     },
     {
       "name": "Cloud Surfing",
-      "source": "D&tinDF-PHB",
+      "source": "D&DF-PHB",
       "page": 95,
       "className": "Tinkerer",
-      "subclassSource": "D&tinDF-PHB",
-      "classSource": "D&tinDF-PHB",
+      "subclassSource": "D&DF-PHB",
+      "classSource": "D&DF-PHB",
       "subclassShortName": "Meteorology",
       "level": 2,
       "entries": [
@@ -574,11 +574,11 @@
     },
     {
       "name": "Storm Forecasting",
-      "source": "D&tinDF-PHB",
+      "source": "D&DF-PHB",
       "page": 95,
       "className": "Tinkerer",
-      "subclassSource": "D&tinDF-PHB",
-      "classSource": "D&tinDF-PHB",
+      "subclassSource": "D&DF-PHB",
+      "classSource": "D&DF-PHB",
       "subclassShortName": "Meteorology",
       "level": 6,
       "entries": [
@@ -587,11 +587,11 @@
     },
     {
       "name": "Weather Control",
-      "source": "D&tinDF-PHB",
+      "source": "D&DF-PHB",
       "page": 95,
       "className": "Tinkerer",
-      "subclassSource": "D&tinDF-PHB",
-      "classSource": "D&tinDF-PHB",
+      "subclassSource": "D&DF-PHB",
+      "classSource": "D&DF-PHB",
       "subclassShortName": "Meteorology",
       "level": 10,
       "entries": [
@@ -600,11 +600,11 @@
     },
     {
       "name": "Thunder Counter",
-      "source": "D&tinDF-PHB",
+      "source": "D&DF-PHB",
       "page": 95,
       "className": "Tinkerer",
-      "subclassSource": "D&tinDF-PHB",
-      "classSource": "D&tinDF-PHB",
+      "subclassSource": "D&DF-PHB",
+      "classSource": "D&DF-PHB",
       "subclassShortName": "Meteorology",
       "level": 14,
       "entries": [
@@ -613,11 +613,11 @@
     },
     {
       "name": "Storm Immunity",
-      "source": "D&tinDF-PHB",
+      "source": "D&DF-PHB",
       "page": 95,
       "className": "Tinkerer",
-      "subclassSource": "D&tinDF-PHB",
-      "classSource": "D&tinDF-PHB",
+      "subclassSource": "D&DF-PHB",
+      "classSource": "D&DF-PHB",
       "subclassShortName": "Meteorology",
       "level": 18,
       "entries": [
@@ -626,12 +626,12 @@
     },
     {
       "name": "Machine Summoning",
-      "source": "D&tinDF-PHB",
+      "source": "D&DF-PHB",
       "page": 95,
       "className": "Tinkerer",
-      "classSource": "D&tinDF-PHB",
+      "classSource": "D&DF-PHB",
       "subclassShortName": "Robotics",
-      "subclassSource": "D&tinDF-PHB",
+      "subclassSource": "D&DF-PHB",
       "level": 2,
       "entries": [
         "Starting at 2nd Level, whenever you summon a creature using a Conjuration Creation Power (spell), it will appear as a machine or robot that you crafted. It will also be considered a Construct, but retain all other properties. The money and time you must spend to copy a Conjuration creation power into Your Gadget is halved."
@@ -639,11 +639,11 @@
     },
     {
       "name": "Simple Robots",
-      "source": "D&tinDF-PHB",
+      "source": "D&DF-PHB",
       "page": 95,
       "className": "Tinkerer",
-      "classSource": "D&tinDF-PHB",
-      "subclassSource": "D&tinDF-PHB",
+      "classSource": "D&DF-PHB",
+      "subclassSource": "D&DF-PHB",
       "subclassShortName": "Robotics",
       "level": 2,
       "entries": [
@@ -652,11 +652,11 @@
     },
     {
       "name": "Quantum Teleportation",
-      "source": "D&tinDF-PHB",
+      "source": "D&DF-PHB",
       "page": 95,
       "className": "Tinkerer",
-      "classSource": "D&tinDF-PHB",
-      "subclassSource": "D&tinDF-PHB",
+      "classSource": "D&DF-PHB",
+      "subclassSource": "D&DF-PHB",
       "subclassShortName": "Robotics",
       "level": 6,
       "entries": [
@@ -665,11 +665,11 @@
     },
     {
       "name": "Autopilot Controls",
-      "source": "D&tinDF-PHB",
+      "source": "D&DF-PHB",
       "page": 95,
-      "subclassSource": "D&tinDF-PHB",
+      "subclassSource": "D&DF-PHB",
       "className": "Tinkerer",
-      "classSource": "D&tinDF-PHB",
+      "classSource": "D&DF-PHB",
       "subclassShortName": "Robotics",
       "level": 10,
       "entries": [
@@ -678,11 +678,11 @@
     },
     {
       "name": "Reinforced Exterior",
-      "source": "D&tinDF-PHB",
-      "subclassSource": "D&tinDF-PHB",
+      "source": "D&DF-PHB",
+      "subclassSource": "D&DF-PHB",
       "page": 95,
       "className": "Tinkerer",
-      "classSource": "D&tinDF-PHB",
+      "classSource": "D&DF-PHB",
       "subclassShortName": "Robotics",
       "level": 14,
       "entries": [
