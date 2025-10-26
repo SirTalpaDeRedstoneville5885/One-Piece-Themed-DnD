@@ -1,8 +1,8 @@
 {
   "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
   "_meta": {
-    "sources": [
-      {
+    "sources": [     
+        {
         "json": "SkaldHB",
         "abbreviation": "SkaldHB",
         "full": "Skald Homebrew",
@@ -10,8 +10,8 @@
         "convertedBy": ["ConvertedBy"],
         "version": "1.0.0",
         "color": "33FFCA",
-        "url": ""
-      }
+        "url": "https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm" 
+        }     
     ],
     "dateAdded": 1710000000,
     "dateLastModified": 1710000000,
@@ -127,6 +127,7 @@
       "page": 2,
       "className": "Skald",
       "classSource": "SkaldHB",
+      "source": "SkaldHB",
       "level": 1,
       "entries": [
         "You have learned to spiritually attune to the emotions of others and to project that power as Spirit Powers (spells). See the Skald table for slots and Natural Abilities (cantrips).",
@@ -141,6 +142,7 @@
       "name": "Skaldic Verse",
       "page": 2,
       "className": "Skald",
+      "source": "SkaldHB",
       "classSource": "SkaldHB",
       "level": 1,
       "entries": [
@@ -151,6 +153,7 @@
     {
       "name": "Jack of All Trades",
       "page": 2,
+      "source": "SkaldHB",
       "className": "Skald",
       "classSource": "SkaldHB",
       "level": 2,
@@ -161,6 +164,7 @@
     {
       "name": "Song of the Sea",
       "page": 2,
+      "source": "SkaldHB",
       "className": "Skald",
       "classSource": "SkaldHB",
       "level": 2,
@@ -171,6 +175,7 @@
     {
       "name": "Versatile Verse",
       "page": 2,
+      "source": "SkaldHB",
       "className": "Skald",
       "classSource": "SkaldHB",
       "level": 2,
@@ -181,6 +186,7 @@
     {
       "name": "Skald School",
       "page": 3,
+      "source": "SkaldHB",
       "className": "Skald",
       "classSource": "SkaldHB",
       "level": 3,
@@ -191,6 +197,7 @@
     {
       "name": "Expertise",
       "page": 3,
+      "source": "SkaldHB",
       "className": "Skald",
       "classSource": "SkaldHB",
       "level": 3,
@@ -201,6 +208,7 @@
     {
       "name": "Ability Score Improvement",
       "page": 3,
+      "source": "SkaldHB",
       "className": "Skald",
       "classSource": "SkaldHB",
       "level": 4,
@@ -211,6 +219,7 @@
     {
       "name": "Continued Verse",
       "page": 3,
+      "source": "SkaldHB",
       "className": "Skald",
       "classSource": "SkaldHB",
       "level": 5,
@@ -221,6 +230,7 @@
     {
       "name": "Counterverse",
       "page": 3,
+      "source": "SkaldHB",
       "className": "Skald",
       "classSource": "SkaldHB",
       "level": 6,
@@ -231,6 +241,7 @@
     {
       "name": "Tales of Legends",
       "page": 4,
+      "source": "SkaldHB",
       "className": "Skald",
       "classSource": "SkaldHB",
       "level": 10,
@@ -241,6 +252,7 @@
     {
       "name": "Superior Verse",
       "page": 4,
+      "source": "SkaldHB",
       "className": "Skald",
       "classSource": "SkaldHB",
       "level": 20,
@@ -303,6 +315,7 @@
       "page": 5,
       "source": "SkaldHB",
       "className": "Skald",
+      "subclassSource": "SkaldHB",
       "classSource": "SkaldHB",
       "subclassShortName": "Hypnotism",
       "level": 3,
@@ -316,6 +329,7 @@
       "source": "SkaldHB",
       "className": "Skald",
       "classSource": "SkaldHB",
+      "subclassSource": "SkaldHB",
       "subclassShortName": "Hypnotism",
       "level": 3,
       "entries": [
@@ -326,6 +340,7 @@
       "name": "Collar of Command",
       "page": 5,
       "source": "SkaldHB",
+      "subclassSource": "SkaldHB",
       "className": "Skald",
       "classSource": "SkaldHB",
       "subclassShortName": "Hypnotism",
@@ -340,6 +355,7 @@
       "source": "SkaldHB",
       "className": "Skald",
       "classSource": "SkaldHB",
+      "subclassSource": "SkaldHB",
       "subclassShortName": "Hypnotism",
       "level": 14,
       "entries": [
@@ -352,6 +368,7 @@
       "source": "SkaldHB",
       "className": "Skald",
       "classSource": "SkaldHB",
+      "subclassSource": "SkaldHB",
       "subclassShortName": "Battlehymn",
       "level": 3,
       "entries": [
@@ -364,6 +381,7 @@
       "source": "SkaldHB",
       "className": "Skald",
       "classSource": "SkaldHB",
+      "subclassSource": "SkaldHB",
       "subclassShortName": "Battlehymn",
       "level": 3,
       "entries": [
@@ -376,6 +394,7 @@
       "source": "SkaldHB",
       "className": "Skald",
       "classSource": "SkaldHB",
+      "subclassSource": "SkaldHB",
       "subclassShortName": "Battlehymn",
       "level": 6,
       "entries": [
@@ -388,6 +407,7 @@
       "source": "SkaldHB",
       "className": "Skald",
       "classSource": "SkaldHB",
+      "subclassSource": "SkaldHB",
       "subclassShortName": "Battlehymn",
       "level": 14,
       "entries": [
@@ -400,6 +420,7 @@
       "source": "SkaldHB",
       "className": "Skald",
       "classSource": "SkaldHB",
+      "subclassSource": "SkaldHB",
       "subclassShortName": "Underworld",
       "level": 3,
       "entries": [
@@ -412,6 +433,7 @@
       "source": "SkaldHB",
       "className": "Skald",
       "classSource": "SkaldHB",
+      "subclassSource": "SkaldHB",
       "subclassShortName": "Underworld",
       "level": 3,
       "entries": [
@@ -424,6 +446,7 @@
       "source": "SkaldHB",
       "className": "Skald",
       "classSource": "SkaldHB",
+      "subclassSource": "SkaldHB",
       "subclassShortName": "Underworld",
       "level": 6,
       "entries": [
@@ -436,6 +459,7 @@
       "source": "SkaldHB",
       "className": "Skald",
       "classSource": "SkaldHB",
+      "subclassSource": "SkaldHB",
       "subclassShortName": "Underworld",
       "level": 14,
       "entries": [
