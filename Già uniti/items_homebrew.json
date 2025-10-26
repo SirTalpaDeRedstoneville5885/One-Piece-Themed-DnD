@@ -28,12 +28,12 @@
       "name": "Katana, light",
       "type": "M",
       "dmg1": "1d8",
-      "dmgType": "slashing",
+      "dmgType": "S",
       "property": [
-        "Finesse](3-Mechanics/CLI/rules/item-properties.md#finesse)"
+        "F"
       ],
       "value": "฿300,000",
-      "weight": "2 lb.",
+      "weight": 2,
       "page": 142,
       "source": "D&DF-PHB",
       "rarity": "none"
@@ -42,12 +42,13 @@
       "entries": [],
       "name": "Katana",
       "type": "M",
-      "dmg1": "1d8 slashing\n1d10 slashing two handed",
+      "dmg1": "1d8",
+      "dmg2": "1d10",
       "property": [
-        "Versatile](3-Mechanics/CLI/rules/item-properties.md#versatile-1d10)"
+        "V"
       ],
       "value": "฿200,000",
-      "weight": "3 lb.",
+      "weight": 3,
       "page": 142,
       "source": "D&DF-PHB",
       "rarity": "none"
@@ -57,12 +58,12 @@
       "name": "Saber",
       "type": "M",
       "dmg1": "1d8",
-      "dmgType": "slashing",
+      "dmgType": "S",
       "property": [
-        "Finesse](3-Mechanics/CLI/rules/item-properties.md#finesse)"
+        "F"
       ],
       "value": "฿300,000",
-      "weight": "3 lb.",
+      "weight": 3,
       "page": 142,
       "source": "D&DF-PHB",
       "rarity": "none"
@@ -70,18 +71,18 @@
     {
       "entries": [],
       "name": "Bazooka",
-      "type": "M",
+      "type": "R",
       "dmg1": "2d6",
-      "dmgType": "fire",
+      "dmgType": "F",
       "range": "60/300",
       "property": [
-        "Ammunition](3-Mechanics/CLI/rules/item-properties.md#ammunition)",
-        "Heavy](3-Mechanics/CLI/rules/item-properties.md#heavy)",
-        "Loading](3-Mechanics/CLI/rules/item-properties.md#loading)",
-        "Two-handed](3-Mechanics/CLI/rules/item-properties.md#two-handed)"
+        "A",
+        "H",
+        "L",
+        "TW"
       ],
       "value": "฿5,000,000",
-      "weight": "18 lb.",
+      "weight": 18,
       "page": 143,
       "source": "D&DF-PHB",
       "rarity": "none",
@@ -90,18 +91,18 @@
     {
       "entries": [],
       "name": "Machine Gun",
-      "type": "M",
+      "type": "R",
       "dmg1": "3d4",
-      "dmgType": "piercing",
+      "dmgType": "P",
       "range": "80/320",
       "property": [
-        "Ammunition](3-Mechanics/CLI/rules/item-properties.md#ammunition)",
-        "Heavy](3-Mechanics/CLI/rules/item-properties.md#heavy)",
-        "Loading](3-Mechanics/CLI/rules/item-properties.md#loading)",
-        "Two-handed](3-Mechanics/CLI/rules/item-properties.md#two-handed)"
+        "A",
+        "H",
+        "L",
+        "TW"
       ],
       "value": "฿2,500,000",
-      "weight": "18 lb.",
+      "weight": 18,
       "page": 143,
       "source": "D&DF-PHB",
       "rarity": "none",
@@ -110,17 +111,17 @@
     {
       "entries": [],
       "name": "Musket",
-      "type": "M",
+      "type": "R",
       "dmg1": "1d10",
-      "dmgType": "bludgeoning",
+      "dmgType": "B",
       "range": "80/320",
       "property": [
-        "Ammunition](3-Mechanics/CLI/rules/item-properties.md#ammunition)",
-        "Loading](3-Mechanics/CLI/rules/item-properties.md#loading)",
-        "Two-handed](3-Mechanics/CLI/rules/item-properties.md#two-handed)"
+        "A",
+        "L",
+        "TW"
       ],
       "value": "฿250,000",
-      "weight": "8 lb.",
+      "weight": 8,
       "page": 143,
       "source": "D&DF-PHB",
       "rarity": "none",
@@ -131,15 +132,15 @@
       "name": "Pistol",
       "type": "M",
       "dmg1": "1d10",
-      "dmgType": "piercing",
+      "dmgType": "P",
       "range": "30/120",
       "property": [
-        "Ammunition](3-Mechanics/CLI/rules/item-properties.md#ammunition)",
-        "Light](3-Mechanics/CLI/rules/item-properties.md#light)",
-        "Loading](3-Mechanics/CLI/rules/item-properties.md#loading)"
+        "A",
+        "Light",
+        "L"
       ],
       "value": "฿750,000",
-      "weight": "3 lb.",
+      "weight": 3,
       "page": 143,
       "source": "D&DF-PHB",
       "rarity": "none",
@@ -150,16 +151,16 @@
       "name": "Rifle, sniper",
       "type": "M",
       "dmg1": "2d6",
-      "dmgType": "piercing",
+      "dmgType": "P",
       "range": "150/600",
       "property": [
-        "Ammunition](3-Mechanics/CLI/rules/item-properties.md#ammunition)",
-        "Heavy](3-Mechanics/CLI/rules/item-properties.md#heavy)",
-        "Loading](3-Mechanics/CLI/rules/item-properties.md#loading)",
-        "Two-handed](3-Mechanics/CLI/rules/item-properties.md#two-handed)"
+        "A",
+        "H",
+        "L",
+        "TW"
       ],
       "value": "฿5,000,000",
-      "weight": "18 lb.",
+      "weight": 18,
       "page": 143,
       "source": "D&DF-PHB",
       "rarity": "none",
@@ -170,16 +171,16 @@
       "name": "Rifle",
       "type": "M",
       "dmg1": "1d12",
-      "dmgType": "piercing",
+      "dmgType": "P",
       "range": "80/320",
       "property": [
-        "Ammunition](3-Mechanics/CLI/rules/item-properties.md#ammunition)",
-        "Heavy](3-Mechanics/CLI/rules/item-properties.md#heavy)",
-        "Loading](3-Mechanics/CLI/rules/item-properties.md#loading)",
-        "Two-handed](3-Mechanics/CLI/rules/item-properties.md#two-handed)"
+        "A",
+        "H",
+        "L",
+        "TW"
       ],
       "value": "฿1,000,000",
-      "weight": "18 lb.",
+      "weight": 18,
       "page": 143,
       "source": "D&DF-PHB",
       "rarity": "none",
@@ -190,15 +191,15 @@
       "name": "Sling, giant",
       "type": "M",
       "dmg1": "1d8",
-      "dmgType": "bludgeoning",
+      "dmgType": "B",
       "range": "60/600",
       "property": [
-        "Ammunition](3-Mechanics/CLI/rules/item-properties.md#ammunition)",
-        "Heavy](3-Mechanics/CLI/rules/item-properties.md#heavy)",
-        "Two-handed](3-Mechanics/CLI/rules/item-properties.md#two-handed)"
+        "A",
+        "H",
+        "TW"
       ],
       "value": "฿150,000",
-      "weight": "5 lb.",
+      "weight": 5,
       "page": 143,
       "source": "D&DF-PHB",
       "rarity": "none"

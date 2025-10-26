@@ -12,7 +12,7 @@
           "Tarun",
           "SirTalpadeRedstoneville58"
         ],
-        "version": "2.3.0",
+        "version": "2.3.1",
         "color": "33FFCA",
         "url": "https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm"
       }
@@ -3278,7 +3278,7 @@
     },
     {
       "name": "Warrior",
-      "source": "DwarDF-PHB",
+      "source": "D&DF-PHB",
       "page": 96,
       "optionalfeatureProgression": [
         {
@@ -3296,43 +3296,43 @@
         "faces": 10
       },
       "classFeatures": [
-        "Fighting Style|Warrior|DwarDF-PHB|1",
-        "Second Wind|Warrior|DwarDF-PHB|1",
-        "Action Surge|Warrior|DwarDF-PHB|2",
+        "Fighting Style|Warrior|D&DF-PHB|1",
+        "Second Wind|Warrior|D&DF-PHB|1",
+        "Action Surge|Warrior|D&DF-PHB|2",
         {
-          "classFeature": "Warrior Type|Warrior|DwarDF-PHB|3",
+          "classFeature": "Warrior Type|Warrior|D&DF-PHB|3",
           "gainSubclassFeature": true
         },
-        "Ability Score Improvement|Warrior|DwarDF-PHB|4",
-        "Extra Attack|Warrior|DwarDF-PHB|5",
-        "Ability Score Improvement|Warrior|DwarDF-PHB|6",
+        "Ability Score Improvement|Warrior|D&DF-PHB|4",
+        "Extra Attack|Warrior|D&DF-PHB|5",
+        "Ability Score Improvement|Warrior|D&DF-PHB|6",
         {
-          "classFeature": "Warrior Type feature|Warrior|DwarDF-PHB|7",
+          "classFeature": "Warrior Type feature|Warrior|D&DF-PHB|7",
           "gainSubclassFeature": true
         },
-        "Ability Score Improvement|Warrior|DwarDF-PHB|8",
-        "Indomitable|Warrior|DwarDF-PHB|9",
+        "Ability Score Improvement|Warrior|D&DF-PHB|8",
+        "Indomitable|Warrior|D&DF-PHB|9",
         {
-          "classFeature": "Warrior Type feature|Warrior|DwarDF-PHB|10",
+          "classFeature": "Warrior Type feature|Warrior|D&DF-PHB|10",
           "gainSubclassFeature": true
         },
-        "Extra Attack (2)|Warrior|DwarDF-PHB|11",
-        "Ability Score Improvement|Warrior|DwarDF-PHB|12",
-        "Indomitable (two uses)|Warrior|DwarDF-PHB|13",
-        "Ability Score Improvement|Warrior|DwarDF-PHB|14",
+        "Extra Attack (2)|Warrior|D&DF-PHB|11",
+        "Ability Score Improvement|Warrior|D&DF-PHB|12",
+        "Indomitable (two uses)|Warrior|D&DF-PHB|13",
+        "Ability Score Improvement|Warrior|D&DF-PHB|14",
         {
-          "classFeature": "Warrior Type feature|Warrior|DwarDF-PHB|15",
+          "classFeature": "Warrior Type feature|Warrior|D&DF-PHB|15",
           "gainSubclassFeature": true
         },
-        "Ability Score Improvement|Warrior|DwarDF-PHB|16",
-        "Action Surge (two uses)|Warrior|DwarDF-PHB|17",
-        "Indomitable (three uses)|Warrior|DwarDF-PHB|17",
+        "Ability Score Improvement|Warrior|D&DF-PHB|16",
+        "Action Surge (two uses)|Warrior|D&DF-PHB|17",
+        "Indomitable (three uses)|Warrior|D&DF-PHB|17",
         {
-          "classFeature": "Warrior Type feature|Warrior|DwarDF-PHB|18",
+          "classFeature": "Warrior Type feature|Warrior|D&DF-PHB|18",
           "gainSubclassFeature": true
         },
-        "Ability Score Improvement|Warrior|DwarDF-PHB|19",
-        "Extra Attack (3)|Warrior|DwarDF-PHB|20"
+        "Ability Score Improvement|Warrior|D&DF-PHB|19",
+        "Extra Attack (3)|Warrior|D&DF-PHB|20"
       ],
       "subclassTableGroups": [
         {
@@ -6458,9 +6458,9 @@
     {
       "name": "Fighting Style",
       "page": 97,
-      "source": "DwarDF-PHB",
+      "source": "D&DF-PHB",
       "className": "Warrior",
-      "classSource": "DwarDF-PHB",
+      "classSource": "D&DF-PHB",
       "level": 1,
       "entries": [
         "You adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take the same Fighting Style option more than once, even if you get to choose again.",
@@ -6520,9 +6520,9 @@
       "name": "Action Surge",
       "page": 97,
       "className": "Warrior",
-      "classSource": "DwarDF-PHB",
+      "classSource": "D&DF-PHB",
       "level": 2,
-      "source": "DwarDF-PHB",
+      "source": "D&DF-PHB",
       "entries": [
         "Starting at 2nd level, you can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action.",
         "Once you use this feature, you must finish a short or long rest before you can use it again. Starting at 17th level, you can use it twice before a rest, but only once on the same turn."
@@ -6532,8 +6532,8 @@
       "name": "Warrior Type",
       "page": 97,
       "className": "Warrior",
-      "classSource": "DwarDF-PHB",
-      "source": "DwarDF-PHB",
+      "classSource": "D&DF-PHB",
+      "source": "D&DF-PHB",
       "level": 3,
       "entries": [
         "At 3rd level, you choose a type from the list available that you strive to emulate in your combat styles and techniques. The type you choose grants you features at 3rd level and again at 7th, 10th, 15th, and 18th level."
@@ -6543,8 +6543,8 @@
       "name": "Ability Score Improvement",
       "page": 97,
       "className": "Warrior",
-      "classSource": "DwarDF-PHB",
-      "source": "DwarDF-PHB",
+      "classSource": "D&DF-PHB",
+      "source": "D&DF-PHB",
       "level": 4,
       "entries": [
         "When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
@@ -6555,9 +6555,9 @@
       "name": "Extra Attack",
       "page": 97,
       "className": "Warrior",
-      "classSource": "DwarDF-PHB",
+      "classSource": "D&DF-PHB",
       "level": 5,
-      "source": "DwarDF-PHB",
+      "source": "D&DF-PHB",
       "entries": [
         "Beginning at 5th level, you can attack twice, instead of once, whenever you take the {@action Attack} action on your turn.",
         "The number of attacks increases to three when you reach 11th level in this class and to four when you reach 20th level in this class."
@@ -6567,9 +6567,9 @@
       "name": "Ability Score Improvement",
       "page": 97,
       "className": "Warrior",
-      "classSource": "DwarDF-PHB",
+      "classSource": "D&DF-PHB",
       "level": 6,
-      "source": "DwarDF-PHB",
+      "source": "D&DF-PHB",
       "entries": [
         "When you reach 6th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
         "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
@@ -6579,9 +6579,9 @@
       "name": "Warrior Type feature",
       "page": 97,
       "className": "Warrior",
-      "classSource": "DwarDF-PHB",
+      "classSource": "D&DF-PHB",
       "level": 7,
-      "source": "DwarDF-PHB",
+      "source": "D&DF-PHB",
       "entries": [
         "At 7th level, you gain a feature granted by your Warrior Type."
       ]
@@ -6590,9 +6590,9 @@
       "name": "Ability Score Improvement",
       "page": 97,
       "className": "Warrior",
-      "classSource": "DwarDF-PHB",
+      "classSource": "D&DF-PHB",
       "level": 8,
-      "source": "DwarDF-PHB",
+      "source": "D&DF-PHB",
       "entries": [
         "When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
         "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
@@ -6601,9 +6601,9 @@
     {
       "name": "Indomitable",
       "page": 97,
-      "source": "DwarDF-PHB",
+      "source": "D&DF-PHB",
       "className": "Warrior",
-      "classSource": "DwarDF-PHB",
+      "classSource": "D&DF-PHB",
       "level": 9,
       "entries": [
         "Beginning at 9th level, you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can't use this feature again until you finish a long rest.",
@@ -6613,9 +6613,9 @@
     {
       "name": "Warrior Type feature",
       "page": 97,
-      "source": "DwarDF-PHB",
+      "source": "D&DF-PHB",
       "className": "Warrior",
-      "classSource": "DwarDF-PHB",
+      "classSource": "D&DF-PHB",
       "level": 10,
       "entries": [
         "At 10th level, you gain a feature granted by your Warrior Type."
@@ -6624,9 +6624,9 @@
     {
       "name": "Extra Attack (2)",
       "page": 97,
-      "source": "DwarDF-PHB",
+      "source": "D&DF-PHB",
       "className": "Warrior",
-      "classSource": "DwarDF-PHB",
+      "classSource": "D&DF-PHB",
       "level": 11,
       "entries": [
         "At 11th level, you can attack three times whenever you take the {@action Attack} action on your turn."
@@ -6636,9 +6636,9 @@
       "name": "Ability Score Improvement",
       "page": 97,
       "className": "Warrior",
-      "classSource": "DwarDF-PHB",
+      "classSource": "D&DF-PHB",
       "level": 12,
-      "source": "DwarDF-PHB",
+      "source": "D&DF-PHB",
       "entries": [
         "When you reach 12th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
         "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
@@ -6648,9 +6648,9 @@
       "name": "Indomitable (two uses)",
       "page": 97,
       "className": "Warrior",
-      "classSource": "DwarDF-PHB",
+      "classSource": "D&DF-PHB",
       "level": 13,
-      "source": "DwarDF-PHB",
+      "source": "D&DF-PHB",
       "entries": [
         "At 13th level, you can use Indomitable twice between long rests."
       ]
@@ -6659,9 +6659,9 @@
       "name": "Ability Score Improvement",
       "page": 97,
       "className": "Warrior",
-      "classSource": "DwarDF-PHB",
+      "classSource": "D&DF-PHB",
       "level": 14,
-      "source": "DwarDF-PHB",
+      "source": "D&DF-PHB",
       "entries": [
         "When you reach 14th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
         "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
@@ -6671,9 +6671,9 @@
       "name": "Warrior Type feature",
       "page": 97,
       "className": "Warrior",
-      "classSource": "DwarDF-PHB",
+      "classSource": "D&DF-PHB",
       "level": 15,
-      "source": "DwarDF-PHB",
+      "source": "D&DF-PHB",
       "entries": [
         "At 15th level, you gain a feature granted by your Warrior Type."
       ]
@@ -6682,9 +6682,9 @@
       "name": "Ability Score Improvement",
       "page": 97,
       "className": "Warrior",
-      "classSource": "DwarDF-PHB",
+      "classSource": "D&DF-PHB",
       "level": 16,
-      "source": "DwarDF-PHB",
+      "source": "D&DF-PHB",
       "entries": [
         "When you reach 16th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
         "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
@@ -6694,9 +6694,9 @@
       "name": "Action Surge (two uses)",
       "page": 97,
       "className": "Warrior",
-      "classSource": "DwarDF-PHB",
+      "classSource": "D&DF-PHB",
       "level": 17,
-      "source": "DwarDF-PHB",
+      "source": "D&DF-PHB",
       "entries": [
         "At 17th level, you can use Action Surge twice before a rest, but only once on the same turn."
       ]
@@ -6705,9 +6705,9 @@
       "name": "Indomitable (three uses)",
       "page": 97,
       "className": "Warrior",
-      "classSource": "DwarDF-PHB",
+      "classSource": "D&DF-PHB",
       "level": 17,
-      "source": "DwarDF-PHB",
+      "source": "D&DF-PHB",
       "entries": [
         "At 17th level, you can use Indomitable three times between long rests."
       ]
@@ -6716,9 +6716,9 @@
       "name": "Warrior Type feature",
       "page": 97,
       "className": "Warrior",
-      "classSource": "DwarDF-PHB",
+      "classSource": "D&DF-PHB",
       "level": 18,
-      "source": "DwarDF-PHB",
+      "source": "D&DF-PHB",
       "entries": [
         "At 18th level, you gain a feature granted by your Warrior Type."
       ]
@@ -6727,9 +6727,9 @@
       "name": "Ability Score Improvement",
       "page": 97,
       "className": "Warrior",
-      "classSource": "DwarDF-PHB",
+      "classSource": "D&DF-PHB",
       "level": 19,
-      "source": "DwarDF-PHB",
+      "source": "D&DF-PHB",
       "entries": [
         "When you reach 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
         "If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
@@ -6739,9 +6739,9 @@
       "name": "Extra Attack (3)",
       "page": 97,
       "className": "Warrior",
-      "classSource": "DwarDF-PHB",
+      "classSource": "D&DF-PHB",
       "level": 20,
-      "source": "DwarDF-PHB",
+      "source": "D&DF-PHB",
       "entries": [
         "At 20th level, you can attack four times whenever you take the {@action Attack} action on your turn."
       ]
@@ -6750,9 +6750,9 @@
       "name": "Second Wind",
       "page": 97,
       "className": "Warrior",
-      "classSource": "DwarDF-PHB",
+      "classSource": "D&DF-PHB",
       "level": 1,
-      "source": "DwarDF-PHB",
+      "source": "D&DF-PHB",
       "entries": [
         "You have a limited well of physical and mental stamina that you can draw on. As a {@variantrule Bonus Action|XPHB}, you can use it to regain {@variantrule Hit Points|XPHB} equal to {@dice 1d10} plus your Warrior level.\nYou can use this feature twice. You regain one expended use when you finish a {@variantrule Short Rest|XPHB}, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}.\nWhen you reach certain Warrior levels, you gain more uses of this feature, as shown in the Second Wind column of the Warrior Features table."
       ]
@@ -7459,23 +7459,23 @@
     {
       "name": "Cursed Soul",
       "shortName": "Cursed Soul",
-      "source": "DwarDF-PHB",
+      "source": "D&DF-PHB",
       "page": 78,
       "className": "Warrior",
-      "classSource": "DwarDF-PHB",
+      "classSource": "D&DF-PHB",
       "subclassFeatures": [
-        "Champion of Malice|Warrior|DwarDF-PHB|Cursed Soul|DwarDF-PHB|3|DwarDF-PHB",
-        "Evil's Embrace|Warrior|DwarDF-PHB|Cursed Soul|DwarDF-PHB|7|DwarDF-PHB",
-        "Shepard of Spirits|Warrior|DwarDF-PHB|Cursed Soul|DwarDF-PHB|10|DwarDF-PHB",
-        "Silver Mist|Warrior|DwarDF-PHB|Cursed Soul|DwarDF-PHB|15|DwarDF-PHB",
-        "Jest of the Dead|Warrior|DwarDF-PHB|Cursed Soul|DwarDF-PHB|18|DwarDF-PHB"
+        "Champion of Malice|Warrior|D&DF-PHB|Cursed Soul|D&DF-PHB|3|D&DF-PHB",
+        "Evil's Embrace|Warrior|D&DF-PHB|Cursed Soul|D&DF-PHB|7|D&DF-PHB",
+        "Shepard of Spirits|Warrior|D&DF-PHB|Cursed Soul|D&DF-PHB|10|D&DF-PHB",
+        "Silver Mist|Warrior|D&DF-PHB|Cursed Soul|D&DF-PHB|15|D&DF-PHB",
+        "Jest of the Dead|Warrior|D&DF-PHB|Cursed Soul|D&DF-PHB|18|D&DF-PHB"
       ],
       "subclassTableGroups": [
         {
           "subclasses": [
             {
               "name": "Cursed Soul",
-              "source": "DwarDF-PHB"
+              "source": "D&DF-PHB"
             }
           ],
           "colLabels": [
@@ -7711,34 +7711,34 @@
     {
       "name": "Black Weapon",
       "shortName": "Black Weapon",
-      "source": "DwarDF-PHB",
+      "source": "D&DF-PHB",
       "page": 79,
       "className": "Warrior",
-      "classSource": "DwarDF-PHB",
+      "classSource": "D&DF-PHB",
       "subclassFeatures": [
-        "Sharpened Spirit|Warrior|DwarDF-PHB|Black Weapon|DwarDF-PHB|3|DwarDF-PHB",
-        "Haki Weapon|Warrior|DwarDF-PHB|Black Weapon|DwarDF-PHB|7|DwarDF-PHB",
-        "Improved Style|Warrior|DwarDF-PHB|Black Weapon|DwarDF-PHB|10|DwarDF-PHB",
-        "Superior Sharpened Spirit|Warrior|DwarDF-PHB|Black Weapon|DwarDF-PHB|15|DwarDF-PHB",
-        "Haki Weapon Master|Warrior|DwarDF-PHB|Black Weapon|DwarDF-PHB|18|DwarDF-PHB"
+        "Sharpened Spirit|Warrior|D&DF-PHB|Black Weapon|D&DF-PHB|3|D&DF-PHB",
+        "Haki Weapon|Warrior|D&DF-PHB|Black Weapon|D&DF-PHB|7|D&DF-PHB",
+        "Improved Style|Warrior|D&DF-PHB|Black Weapon|D&DF-PHB|10|D&DF-PHB",
+        "Superior Sharpened Spirit|Warrior|D&DF-PHB|Black Weapon|D&DF-PHB|15|D&DF-PHB",
+        "Haki Weapon Master|Warrior|D&DF-PHB|Black Weapon|D&DF-PHB|18|D&DF-PHB"
       ]
     },
     {
       "name": "Elemental Weapon",
       "shortName": "Elemental Weapon",
-      "source": "DwarDF-PHB",
+      "source": "D&DF-PHB",
       "page": 80,
       "className": "Warrior",
-      "classSource": "DwarDF-PHB",
+      "classSource": "D&DF-PHB",
       "casterProgression": "1/3",
       "spellcastingAbility": "wis",
       "subclassFeatures": [
-        "Elementalist (Spellcasting)|Warrior|DwarDF-PHB|Elemental Weapon|DwarDF-PHB|3|DwarDF-PHB",
-        "Elemental Style|Warrior|DwarDF-PHB|Elemental Weapon|DwarDF-PHB|3|DwarDF-PHB",
-        "Dance of Elements|Warrior|DwarDF-PHB|Elemental Weapon|DwarDF-PHB|7|DwarDF-PHB",
-        "Water Siphon|Warrior|DwarDF-PHB|Elemental Weapon|DwarDF-PHB|10|DwarDF-PHB",
-        "Lightning Dash|Warrior|DwarDF-PHB|Elemental Weapon|DwarDF-PHB|15|DwarDF-PHB",
-        "Improved Dance of Elements|Warrior|DwarDF-PHB|Elemental Weapon|DwarDF-PHB|18|DwarDF-PHB"
+        "Elementalist (Spellcasting)|Warrior|D&DF-PHB|Elemental Weapon|D&DF-PHB|3|D&DF-PHB",
+        "Elemental Style|Warrior|D&DF-PHB|Elemental Weapon|D&DF-PHB|3|D&DF-PHB",
+        "Dance of Elements|Warrior|D&DF-PHB|Elemental Weapon|D&DF-PHB|7|D&DF-PHB",
+        "Water Siphon|Warrior|D&DF-PHB|Elemental Weapon|D&DF-PHB|10|D&DF-PHB",
+        "Lightning Dash|Warrior|D&DF-PHB|Elemental Weapon|D&DF-PHB|15|D&DF-PHB",
+        "Improved Dance of Elements|Warrior|D&DF-PHB|Elemental Weapon|D&DF-PHB|18|D&DF-PHB"
       ],
       "cantripProgression": [
         2,
@@ -11514,11 +11514,11 @@
     },
     {
       "name": "Champion of Malice",
-      "source": "DwarDF-PHB",
+      "source": "D&DF-PHB",
       "page": 98,
-      "subclassSource": "DwarDF-PHB",
+      "subclassSource": "D&DF-PHB",
       "className": "Warrior",
-      "classSource": "DwarDF-PHB",
+      "classSource": "D&DF-PHB",
       "subclassShortName": "Cursed Soul",
       "level": 3,
       "entries": [
@@ -11559,11 +11559,11 @@
     },
     {
       "name": "Evil's Embrace",
-      "source": "DwarDF-PHB",
+      "source": "D&DF-PHB",
       "page": 98,
       "className": "Warrior",
-      "subclassSource": "DwarDF-PHB",
-      "classSource": "DwarDF-PHB",
+      "subclassSource": "D&DF-PHB",
+      "classSource": "D&DF-PHB",
       "subclassShortName": "Cursed Soul",
       "level": 7,
       "entries": [
@@ -11587,11 +11587,11 @@
     },
     {
       "name": "Shepard of Spirits",
-      "source": "DwarDF-PHB",
+      "source": "D&DF-PHB",
       "page": 99,
       "className": "Warrior",
-      "subclassSource": "DwarDF-PHB",
-      "classSource": "DwarDF-PHB",
+      "subclassSource": "D&DF-PHB",
+      "classSource": "D&DF-PHB",
       "subclassShortName": "Cursed Soul",
       "level": 10,
       "entries": [
@@ -11602,11 +11602,11 @@
     },
     {
       "name": "Silver Mist",
-      "source": "DwarDF-PHB",
+      "source": "D&DF-PHB",
       "page": 99,
-      "subclassSource": "DwarDF-PHB",
+      "subclassSource": "D&DF-PHB",
       "className": "Warrior",
-      "classSource": "DwarDF-PHB",
+      "classSource": "D&DF-PHB",
       "subclassShortName": "Cursed Soul",
       "level": 15,
       "entries": [
@@ -11617,11 +11617,11 @@
     },
     {
       "name": "Jest of the Dead",
-      "source": "DwarDF-PHB",
+      "source": "D&DF-PHB",
       "page": 100,
-      "subclassSource": "DwarDF-PHB",
+      "subclassSource": "D&DF-PHB",
       "className": "Warrior",
-      "classSource": "DwarDF-PHB",
+      "classSource": "D&DF-PHB",
       "subclassShortName": "Cursed Soul",
       "level": 18,
       "entries": [
@@ -11638,78 +11638,78 @@
     },
     {
       "name": "Sharpened Spirit",
-      "source": "DwarDF-PHB",
+      "source": "D&DF-PHB",
       "page": 101,
       "className": "Warrior",
-      "classSource": "DwarDF-PHB",
+      "classSource": "D&DF-PHB",
       "subclassShortName": "Black Weapon",
       "level": 3,
-      "subclassSource": "DwarDF-PHB",
+      "subclassSource": "D&DF-PHB",
       "entries": [
         "Beginning when you choose this style at 3rd Level, your weapon attacks score a critical hit on a roll of 19 or 20."
       ]
     },
     {
       "name": "Haki Weapon",
-      "source": "DwarDF-PHB",
+      "source": "D&DF-PHB",
       "page": 101,
       "className": "Warrior",
-      "classSource": "DwarDF-PHB",
+      "classSource": "D&DF-PHB",
       "subclassShortName": "Black Weapon",
       "level": 7,
-      "subclassSource": "DwarDF-PHB",
+      "subclassSource": "D&DF-PHB",
       "entries": [
         "At 7th level, you may unlock any one 'Uncommon' Color of Armament Haki Advancement feat from Chapter 7 of this book. If you have already taken all the uncommon armament haki feats, you may take an uncommon haki advancement feat under a different color of haki, assuming you meet the prerequisites."
       ]
     },
     {
       "name": "Improved Style",
-      "source": "DwarDF-PHB",
+      "source": "D&DF-PHB",
       "page": 101,
       "className": "Warrior",
-      "classSource": "DwarDF-PHB",
+      "classSource": "D&DF-PHB",
       "subclassShortName": "Black Weapon",
       "level": 10,
-      "subclassSource": "DwarDF-PHB",
+      "subclassSource": "D&DF-PHB",
       "entries": [
         "At 10th level, you can choose a second option from the Fighting Style class feature."
       ]
     },
     {
       "name": "Superior Sharpened Spirit",
-      "source": "DwarDF-PHB",
+      "source": "D&DF-PHB",
       "page": 101,
       "className": "Warrior",
-      "classSource": "DwarDF-PHB",
+      "classSource": "D&DF-PHB",
       "subclassShortName": "Black Weapon",
       "level": 15,
-      "subclassSource": "DwarDF-PHB",
+      "subclassSource": "D&DF-PHB",
       "entries": [
         "Starting at 15th level, your weapon attacks score a critical hit on a roll of 18–20."
       ]
     },
     {
       "name": "Haki Weapon Master",
-      "source": "DwarDF-PHB",
+      "source": "D&DF-PHB",
       "page": 101,
       "className": "Warrior",
-      "classSource": "DwarDF-PHB",
+      "classSource": "D&DF-PHB",
       "subclassShortName": "Black Weapon",
       "level": 18,
-      "subclassSource": "DwarDF-PHB",
+      "subclassSource": "D&DF-PHB",
       "entries": [
         "At 18th level, you may unlock any one 'Very Rare' or lower Color of Armament Haki Advancement feat from Chapter 7. If you have already taken all the very rare and lower armament haki feats, you may take a very rare or lower haki advancement feat under a different color of haki, assuming you meet the prerequisites."
       ]
     },
     {
       "name": "Elementalist (Spellcasting)",
-      "source": "DwarDF-PHB",
+      "source": "D&DF-PHB",
       "page": 102,
       "className": "Warrior",
-      "classSource": "DwarDF-PHB",
+      "classSource": "D&DF-PHB",
       "subclassShortName": "Elemental Weapon",
       "level": 3,
-      "subclassSource": "DwarDF-PHB",
+      "subclassSource": "D&DF-PHB",
       "entries": [
         "When you reach 3rd Level, you augment your martial prowess with the ability to use Elemental Powers (Cast Spells). You use the Tinkerer spell list in Chapter 8.",
         "You learn two Natural Abilities (Cantrips) of your choice from the Tinkerer spell list. You learn an additional tinkerer cantrip of your choice at 10th level.",
@@ -11720,13 +11720,13 @@
     },
     {
       "name": "Elemental Style",
-      "source": "DwarDF-PHB",
+      "source": "D&DF-PHB",
       "page": 103,
       "className": "Warrior",
-      "classSource": "DwarDF-PHB",
+      "classSource": "D&DF-PHB",
       "subclassShortName": "Elemental Weapon",
       "level": 3,
-      "subclassSource": "DwarDF-PHB",
+      "subclassSource": "D&DF-PHB",
       "entries": [
         "At 3rd Level, you learn a ritual that creates a spiritual bond between yourself and one weapon.",
         "Once you have bonded a weapon to yourself, you can use it as a Spellcasting Focus for your Tinkerer Spells.",
@@ -11735,12 +11735,12 @@
     },
     {
       "name": "Dance of Elements",
-      "source": "DwarDF-PHB",
+      "source": "D&DF-PHB",
       "page": 103,
       "className": "Warrior",
-      "classSource": "DwarDF-PHB",
+      "classSource": "D&DF-PHB",
       "subclassShortName": "Elemental Weapon",
-      "subclassSource": "DwarDF-PHB",
+      "subclassSource": "D&DF-PHB",
       "level": 7,
       "entries": [
         "Beginning at 7th level, when you use your action to cast a cantrip, you can make one weapon Attack as a Bonus Action."
@@ -11748,12 +11748,12 @@
     },
     {
       "name": "Water Siphon",
-      "source": "DwarDF-PHB",
+      "source": "D&DF-PHB",
       "page": 104,
       "className": "Warrior",
-      "classSource": "DwarDF-PHB",
+      "classSource": "D&DF-PHB",
       "subclassShortName": "Elemental Weapon",
-      "subclassSource": "DwarDF-PHB",
+      "subclassSource": "D&DF-PHB",
       "level": 10,
       "entries": [
         "At 10th level, you learn how to make your weapon strikes undercut a creature's Resistance to your Spells. When you hit a creature with a weapon Attack, that creature has disadvantage on the next saving throw it makes against a spell you cast before the end of your next turn."
@@ -11761,12 +11761,12 @@
     },
     {
       "name": "Lightning Dash",
-      "source": "DwarDF-PHB",
+      "source": "D&DF-PHB",
       "page": 104,
       "className": "Warrior",
-      "classSource": "DwarDF-PHB",
+      "classSource": "D&DF-PHB",
       "subclassShortName": "Elemental Weapon",
-      "subclassSource": "DwarDF-PHB",
+      "subclassSource": "D&DF-PHB",
       "level": 15,
       "entries": [
         "At 15th level, you gain the ability to teleport up to 30 feet to an unoccupied space you can see when you use your Action Surge. You can teleport before or after the additional action."
@@ -11774,13 +11774,13 @@
     },
     {
       "name": "Improved Dance of Elements",
-      "source": "DwarDF-PHB",
+      "source": "D&DF-PHB",
       "page": 104,
       "className": "Warrior",
-      "classSource": "DwarDF-PHB",
+      "classSource": "D&DF-PHB",
       "subclassShortName": "Elemental Weapon",
       "level": 18,
-      "subclassSource": "DwarDF-PHB",
+      "subclassSource": "D&DF-PHB",
       "entries": [
         "Starting at 18th level, when you use your action to Cast a Spell, you can make one weapon Attack as a Bonus Action."
       ]
