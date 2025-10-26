@@ -3856,7 +3856,7 @@
       "level": 1,
       "page": 68,
       "entries": [
-        "At 1st level, your practice of Martial Arts gives you mastery of Combat styles that use unarmed strikes and martial artist Weapons, which are shortswords and any simple melee weapons⁠ that don't have the Two-Handed or heavy prD&DF-PHBerty.",
+        "At 1st level, your practice of Martial Arts gives you mastery of Combat styles that use unarmed strikes and martial artist Weapons, which are shortswords and any simple melee weapons⁠ that don't have the Two-Handed or heavy property.",
         "You gain the following benefits while you are unarmed or wielding only martial artist Weapons and you aren't wearing armor or wielding a shield:",
         {
           "type": "list",
@@ -3931,7 +3931,7 @@
           "items": [
             "The weapon must be a simple or martial weapon.",
             "You must be proficient with it.",
-            "It must lack the heavy and special prD&DF-PHBerties."
+            "It must lack the heavy and special properties."
           ]
         }
       ]
@@ -4022,7 +4022,7 @@
       "level": 5,
       "page": 69,
       "entries": [
-        "Starting at 5th Level, you can interfere with the flow of ki in an D&DF-PHBponent's body. When you hit another creature with a melee weapon {@action Attack}, you can spend 1 ki point to attempt a Stunning Strike. The target must succeed on a Constitution saving throw or be Stunned until the start of your next turn."
+        "Starting at 5th Level, you can interfere with the flow of ki in an opponent's body. When you hit another creature with a melee weapon {@action Attack}, you can spend 1 ki point to attempt a Stunning Strike. The target must succeed on a Constitution saving throw or be Stunned until the start of your next turn."
       ]
     },
     {
@@ -4270,7 +4270,7 @@
       "level": 2,
       "page": 63,
       "entries": [
-        "At 2nd level, you adD&DF-PHBt a particular style of fighting as your specialty: choose one of the following D&DF-PHBtions. You can't take a Fighting Style D&DF-PHBtion more than once, even if you later get to choose again.",
+        "At 2nd level, you adopt a particular style of fighting as your specialty: choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.",
         {
           "type": "entries",
           "name": "Close Quarters Shooter",
@@ -4391,7 +4391,7 @@
       "level": 4,
       "page": 64,
       "entries": [
-        "At 4th level, choose one type of firearm you possess. You ignore the loading prD&DF-PHBerties of only that firearm type (such as bazooka). You can choose a different firearm type when you gain an extra level in this class."
+        "At 4th level, choose one type of firearm you possess. You ignore the loading properties of only that firearm type (such as bazooka). You can choose a different firearm type when you gain an extra level in this class."
       ]
     },
     {
@@ -4733,8 +4733,8 @@
       "page": 47,
       "level": 3,
       "entries": [
-        "At 3rd level, you gain the ability to twist your hybrid powers (spells) to suit your needs. You gain two of the following Enhancements D&DF-PHBtions of your choice. You gain another one at 10th and 17th level.",
-        "You can use only one Enhancement D&DF-PHBtion on a hybrid power (spell) when you cast it, unless otherwise noted.",
+        "At 3rd level, you gain the ability to twist your hybrid powers (spells) to suit your needs. You gain two of the following Enhancements options of your choice. You gain another one at 10th and 17th level.",
+        "You can use only one Enhancement option on a hybrid power (spell) when you cast it, unless otherwise noted.",
         {
           "type": "list",
           "items": [
@@ -4742,12 +4742,12 @@
             "Distant Enhancement. When you cast a hybrid power that has a range of 5 feet or greater, you can spend 1 hybrid point to double the range of the hybrid power.",
             "When you cast a hybrid power that has a range of touch, you can spend 1 hybrid point to make the range of the hybrid power 30 feet.",
             "Empowered Enhancement. When you roll damage for a hybrid power, you can spend 1 hybrid point to reroll a number of the damage dice up to your Charisma modifier (minimum of one). You must use the new rolls.",
-            "You can use Empowered Enhancement even if you have already used a different Enhancement D&DF-PHBtion during the casting of the hybrid power.",
+            "You can use Empowered Enhancement even if you have already used a different Enhancement option during the casting of the hybrid power.",
             "Extended Enhancement. When you cast a hybrid power that has a duration of 1 minute or longer, you can spend 1 hybrid point to double its duration, to a maximum duration of 24 hours.",
             "Heightened Enhancement. When you cast a hybrid power that forces a creature to make a saving throw to resist its effects, you can spend 3 hybrid points to give one target of the hybrid power disadvantage on its first saving throw made against the hybrid power.",
             "Quickened Enhancement. When you cast a hybrid power that has a casting time of 1 action, you can spend 2 hybrid points to change the casting time to 1 bonus action for this casting.",
             "Seeking Enhancement. If you make an attack roll for a hybrid power and miss, you can spend 2 hybrid points to reroll the {@dice d20}, and you must use the new roll.",
-            "You can use Seeking Enhancement even if you have already used a different Enhancement D&DF-PHBtion during the casting of the hybrid power.",
+            "You can use Seeking Enhancement even if you have already used a different Enhancement option during the casting of the hybrid power.",
             "Seeking Enhancement. When you cast a hybrid power that requires you to make a hybrid attack roll or that forces a target to make a Dexterity saving throw, you can spend 1 hybrid point to ignore the effects of half- and three-quarters cover against targets of the hybrid power.",
             "Subtle Enhancement. When you cast a hybrid power, you can spend 1 hybrid point to cast it without any somatic or verbal components.",
             "Transmuted Enhancement. When you cast a hybrid power that deals a type of damage from the following list, you can spend 1 hybrid point to change that damage type to one of the other listed types: acid, cold, fire, lightning, poison, thunder.",
@@ -4769,7 +4769,7 @@
         {
           "type": "list",
           "items": [
-            "Replace one of the D&DF-PHBtions you chose for the Enhancement feature with a different Enhancement D&DF-PHBtion available to you.",
+            "Replace one of the options you chose for the Enhancement feature with a different Enhancement option available to you.",
             "Replace one natural ability (cantrip) you learned from this class' spellcasting feature with another cantrip from the hybrid spell list."
           ]
         }
@@ -4810,7 +4810,7 @@
         {
           "type": "list",
           "items": [
-            "Replace one of the D&DF-PHBtions you chose for the Enhancement feature with a different Enhancement D&DF-PHBtion available to you.",
+            "Replace one of the options you chose for the Enhancement feature with a different Enhancement option available to you.",
             "Replace one natural ability (cantrip) you learned from this class' spellcasting feature with another cantrip from the hybrid spell list."
           ]
         }
@@ -4824,8 +4824,8 @@
       "page": 47,
       "level": 10,
       "entries": [
-        "At 3rd level, you gain the ability to twist your hybrid powers (spells) to suit your needs. You gain two of the following Enhancements D&DF-PHBtions of your choice. You gain another one at 10th and 17th level.",
-        "You can use only one Enhancement D&DF-PHBtion on a hybrid power (spell) when you cast it, unless otherwise noted.",
+        "At 3rd level, you gain the ability to twist your hybrid powers (spells) to suit your needs. You gain two of the following Enhancements options of your choice. You gain another one at 10th and 17th level.",
+        "You can use only one Enhancement option on a hybrid power (spell) when you cast it, unless otherwise noted.",
         {
           "type": "list",
           "items": [
@@ -4833,12 +4833,12 @@
             "Distant Enhancement. When you cast a hybrid power that has a range of 5 feet or greater, you can spend 1 hybrid point to double the range of the hybrid power.",
             "When you cast a hybrid power that has a range of touch, you can spend 1 hybrid point to make the range of the hybrid power 30 feet.",
             "Empowered Enhancement. When you roll damage for a hybrid power, you can spend 1 hybrid point to reroll a number of the damage dice up to your Charisma modifier (minimum of one). You must use the new rolls.",
-            "You can use Empowered Enhancement even if you have already used a different Enhancement D&DF-PHBtion during the casting of the hybrid power.",
+            "You can use Empowered Enhancement even if you have already used a different Enhancement option during the casting of the hybrid power.",
             "Extended Enhancement. When you cast a hybrid power that has a duration of 1 minute or longer, you can spend 1 hybrid point to double its duration, to a maximum duration of 24 hours.",
             "Heightened Enhancement. When you cast a hybrid power that forces a creature to make a saving throw to resist its effects, you can spend 3 hybrid points to give one target of the hybrid power disadvantage on its first saving throw made against the hybrid power.",
             "Quickened Enhancement. When you cast a hybrid power that has a casting time of 1 action, you can spend 2 hybrid points to change the casting time to 1 bonus action for this casting.",
             "Seeking Enhancement. If you make an attack roll for a hybrid power and miss, you can spend 2 hybrid points to reroll the {@dice d20}, and you must use the new roll.",
-            "You can use Seeking Enhancement even if you have already used a different Enhancement D&DF-PHBtion during the casting of the hybrid power.",
+            "You can use Seeking Enhancement even if you have already used a different Enhancement option during the casting of the hybrid power.",
             "Seeking Enhancement. When you cast a hybrid power that requires you to make a hybrid attack roll or that forces a target to make a Dexterity saving throw, you can spend 1 hybrid point to ignore the effects of half- and three-quarters cover against targets of the hybrid power.",
             "Subtle Enhancement. When you cast a hybrid power, you can spend 1 hybrid point to cast it without any somatic or verbal components.",
             "Transmuted Enhancement. When you cast a hybrid power that deals a type of damage from the following list, you can spend 1 hybrid point to change that damage type to one of the other listed types: acid, cold, fire, lightning, poison, thunder.",
@@ -4860,7 +4860,7 @@
         {
           "type": "list",
           "items": [
-            "Replace one of the D&DF-PHBtions you chose for the Enhancement feature with a different Enhancement D&DF-PHBtion available to you.",
+            "Replace one of the options you chose for the Enhancement feature with a different Enhancement option available to you.",
             "Replace one natural ability (cantrip) you learned from this class' spellcasting feature with another cantrip from the hybrid spell list."
           ]
         }
@@ -4890,7 +4890,7 @@
         {
           "type": "list",
           "items": [
-            "Replace one of the D&DF-PHBtions you chose for the Enhancement feature with a different Enhancement D&DF-PHBtion available to you.",
+            "Replace one of the options you chose for the Enhancement feature with a different Enhancement option available to you.",
             "Replace one natural ability (cantrip) you learned from this class' spellcasting feature with another cantrip from the hybrid spell list."
           ]
         }
@@ -4904,8 +4904,8 @@
       "page": 47,
       "level": 17,
       "entries": [
-        "At 3rd level, you gain the ability to twist your hybrid powers (spells) to suit your needs. You gain two of the following Enhancements D&DF-PHBtions of your choice. You gain another one at 10th and 17th level.",
-        "You can use only one Enhancement D&DF-PHBtion on a hybrid power (spell) when you cast it, unless otherwise noted.",
+        "At 3rd level, you gain the ability to twist your hybrid powers (spells) to suit your needs. You gain two of the following Enhancements options of your choice. You gain another one at 10th and 17th level.",
+        "You can use only one Enhancement option on a hybrid power (spell) when you cast it, unless otherwise noted.",
         {
           "type": "list",
           "items": [
@@ -4913,12 +4913,12 @@
             "Distant Enhancement. When you cast a hybrid power that has a range of 5 feet or greater, you can spend 1 hybrid point to double the range of the hybrid power.",
             "When you cast a hybrid power that has a range of touch, you can spend 1 hybrid point to make the range of the hybrid power 30 feet.",
             "Empowered Enhancement. When you roll damage for a hybrid power, you can spend 1 hybrid point to reroll a number of the damage dice up to your Charisma modifier (minimum of one). You must use the new rolls.",
-            "You can use Empowered Enhancement even if you have already used a different Enhancement D&DF-PHBtion during the casting of the hybrid power.",
+            "You can use Empowered Enhancement even if you have already used a different Enhancement option during the casting of the hybrid power.",
             "Extended Enhancement. When you cast a hybrid power that has a duration of 1 minute or longer, you can spend 1 hybrid point to double its duration, to a maximum duration of 24 hours.",
             "Heightened Enhancement. When you cast a hybrid power that forces a creature to make a saving throw to resist its effects, you can spend 3 hybrid points to give one target of the hybrid power disadvantage on its first saving throw made against the hybrid power.",
             "Quickened Enhancement. When you cast a hybrid power that has a casting time of 1 action, you can spend 2 hybrid points to change the casting time to 1 bonus action for this casting.",
             "Seeking Enhancement. If you make an attack roll for a hybrid power and miss, you can spend 2 hybrid points to reroll the {@dice d20}, and you must use the new roll.",
-            "You can use Seeking Enhancement even if you have already used a different Enhancement D&DF-PHBtion during the casting of the hybrid power.",
+            "You can use Seeking Enhancement even if you have already used a different Enhancement option during the casting of the hybrid power.",
             "Seeking Enhancement. When you cast a hybrid power that requires you to make a hybrid attack roll or that forces a target to make a Dexterity saving throw, you can spend 1 hybrid point to ignore the effects of half- and three-quarters cover against targets of the hybrid power.",
             "Subtle Enhancement. When you cast a hybrid power, you can spend 1 hybrid point to cast it without any somatic or verbal components.",
             "Transmuted Enhancement. When you cast a hybrid power that deals a type of damage from the following list, you can spend 1 hybrid point to change that damage type to one of the other listed types: acid, cold, fire, lightning, poison, thunder.",
@@ -4951,7 +4951,7 @@
         {
           "type": "list",
           "items": [
-            "Replace one of the D&DF-PHBtions you chose for the Enhancement feature with a different Enhancement D&DF-PHBtion available to you.",
+            "Replace one of the options you chose for the Enhancement feature with a different Enhancement option available to you.",
             "Replace one natural ability (cantrip) you learned from this class' spellcasting feature with another cantrip from the hybrid spell list."
           ]
         }
@@ -4976,7 +4976,7 @@
       "page": 47,
       "level": 1,
       "entries": [
-        "At 1st level, you have develD&DF-PHBed a particular style of devilsmithing which determines the types of equipment or items you specialize at infusing with. You can choose between Gear Smithing, Blade Smithing, and Firearm Smithing, all detailed at the end of the class description. Your choice grants you features at 1st level and again at 6th, 10th, and 14th level."
+        "At 1st level, you have developed a particular style of devilsmithing which determines the types of equipment or items you specialize at infusing with. You can choose between Gear Smithing, Blade Smithing, and Firearm Smithing, all detailed at the end of the class description. Your choice grants you features at 1st level and again at 6th, 10th, and 14th level."
       ]
     },
     {
@@ -5040,7 +5040,7 @@
       "page": 47,
       "level": 1,
       "entries": [
-        "At 1st level, you have develD&DF-PHBed a particular style of devilsmithing which determines the types of equipment or items you specialize at infusing with. You can choose between Gear Smithing, Blade Smithing, and Firearm Smithing, all detailed at the end of the class description. Your choice grants you features at 1st level and again at 6th, 10th, and 14th level."
+        "At 1st level, you have developed a particular style of devilsmithing which determines the types of equipment or items you specialize at infusing with. You can choose between Gear Smithing, Blade Smithing, and Firearm Smithing, all detailed at the end of the class description. Your choice grants you features at 1st level and again at 6th, 10th, and 14th level."
       ]
     },
     {
@@ -5072,7 +5072,7 @@
             {
               "type": "list",
               "items": [
-                "Your infused item develD&DF-PHBs special enhanced prD&DF-PHBerties, similar to that of a paramecia-type devil fruit user. You can use your action to activate an item's paramecia powers, transforming it into a weapon (unless it is already a weapon). While activated, you can choose the form that this weapon takes each time you activate it, allowing it to become any type of weapon listed in Chapter 5. You are proficient with it while you wield it. This weapon counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.",
+                "Your infused item develops special enhanced properties, similar to that of a paramecia-type devil fruit user. You can use your action to activate an item's paramecia powers, transforming it into a weapon (unless it is already a weapon). While activated, you can choose the form that this weapon takes each time you activate it, allowing it to become any type of weapon listed in Chapter 5. You are proficient with it while you wield it. This weapon counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.",
                 "Your infused weapon returns to your hand if it is more than 5 feet away from your for 1 minute or more. Additionally, you can return it back to its original form by deactivating its paramecia powers (no action required). Its powers disappear if you die, or if it becomes partially submerged in water or touches seastone."
               ]
             },
@@ -5109,7 +5109,7 @@
         "When you reach 4th Level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two Ability Scores of your choice by 1. Alternatively, you can take a feat listed in Chapter 6. As normal, you can't increase an ability score above 20 using this feature.",
         "Additionally, when you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing the increased power of your infused item:",
         "Replace one cantrip you learned from this class's Devil Fruit Infusion feature with another cantrip from the devilforged spell list.",
-        "Replace the D&DF-PHBtion you chose for the Infused Devil Fruit Category feature with one of that feature's other D&DF-PHBtions.",
+        "Replace the option you chose for the Infused Devil Fruit Category feature with one of that feature's other options.",
         "If this change makes you ineligible for any of your Sea Devil's Emanations, you must also replace them now, choosing emanations for which you qualify."
       ]
     },
@@ -5121,7 +5121,7 @@
       "page": 47,
       "level": 6,
       "entries": [
-        "At 1st level, you have develD&DF-PHBed a particular style of devilsmithing which determines the types of equipment or items you specialize at infusing with. You can choose between Gear Smithing, Blade Smithing, and Firearm Smithing, all detailed at the end of the class description. Your choice grants you features at 1st level and again at 6th, 10th, and 14th level."
+        "At 1st level, you have developed a particular style of devilsmithing which determines the types of equipment or items you specialize at infusing with. You can choose between Gear Smithing, Blade Smithing, and Firearm Smithing, all detailed at the end of the class description. Your choice grants you features at 1st level and again at 6th, 10th, and 14th level."
       ]
     },
     {
@@ -5135,7 +5135,7 @@
         "When you reach 4th Level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two Ability Scores of your choice by 1. Alternatively, you can take a feat listed in Chapter 6. As normal, you can't increase an ability score above 20 using this feature.",
         "Additionally, when you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing the increased power of your infused item:",
         "Replace one cantrip you learned from this class's Devil Fruit Infusion feature with another cantrip from the devilforged spell list.",
-        "Replace the D&DF-PHBtion you chose for the Infused Devil Fruit Category feature with one of that feature's other D&DF-PHBtions.",
+        "Replace the option you chose for the Infused Devil Fruit Category feature with one of that feature's other options.",
         "If this change makes you ineligible for any of your Sea Devil's Emanations, you must also replace them now, choosing emanations for which you qualify."
       ]
     },
@@ -5147,7 +5147,7 @@
       "page": 47,
       "level": 10,
       "entries": [
-        "At 1st level, you have develD&DF-PHBed a particular style of devilsmithing which determines the types of equipment or items you specialize at infusing with. You can choose between Gear Smithing, Blade Smithing, and Firearm Smithing, all detailed at the end of the class description. Your choice grants you features at 1st level and again at 6th, 10th, and 14th level."
+        "At 1st level, you have developed a particular style of devilsmithing which determines the types of equipment or items you specialize at infusing with. You can choose between Gear Smithing, Blade Smithing, and Firearm Smithing, all detailed at the end of the class description. Your choice grants you features at 1st level and again at 6th, 10th, and 14th level."
       ]
     },
     {
@@ -5158,7 +5158,7 @@
       "page": 48,
       "level": 11,
       "entries": [
-        "At 11th level, your devil fruit item develD&DF-PHBs immense newfound powers. Choose one 6th-level power (spell) from the devilforged spell list as this new power.",
+        "At 11th level, your devil fruit item develops immense newfound powers. Choose one 6th-level power (spell) from the devilforged spell list as this new power.",
         "You can cast your Fiendish Assimilation power (spell) once without expending a spell slot. You must finish a long rest before you can do so again.",
         "At higher levels, you gain more devilforged spells of your choice that can be cast in this way: one 7th-level spell at 13th level, one 8th-level spell at 15th level, and one 9th-level spell at 17th level. You regain all uses of your Fiendish Assimilation when you finish a long rest.",
         "Alternatively, you can choose to incorporate or \"steal\" the essence of other great Devil Fruit powers into your infused item. When you see a Devil Fruit spell or spell effect within 30 feet of you, you may use your reaction to \"store\" a portion of the energy of that spell into your infused item, making it your new Fiendish Assimilation spell. The maximum level of the spell stolen must be equal to your current Fiendish Assimilation spell level. For example, if you are 13th level, you can only steal up to 7th-level spells created by a Devil Fruit power and store them into your infused item.",
@@ -5176,7 +5176,7 @@
         "When you reach 4th Level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two Ability Scores of your choice by 1. Alternatively, you can take a feat listed in Chapter 6. As normal, you can't increase an ability score above 20 using this feature.",
         "Additionally, when you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing the increased power of your infused item:",
         "Replace one cantrip you learned from this class's Devil Fruit Infusion feature with another cantrip from the devilforged spell list.",
-        "Replace the D&DF-PHBtion you chose for the Infused Devil Fruit Category feature with one of that feature's other D&DF-PHBtions.",
+        "Replace the option you chose for the Infused Devil Fruit Category feature with one of that feature's other options.",
         "If this change makes you ineligible for any of your Sea Devil's Emanations, you must also replace them now, choosing emanations for which you qualify."
       ]
     },
@@ -5188,7 +5188,7 @@
       "page": 48,
       "level": 13,
       "entries": [
-        "At 11th level, your devil fruit item develD&DF-PHBs immense newfound powers. Choose one 6th-level power (spell) from the devilforged spell list as this new power.",
+        "At 11th level, your devil fruit item develops immense newfound powers. Choose one 6th-level power (spell) from the devilforged spell list as this new power.",
         "You can cast your Fiendish Assimilation power (spell) once without expending a spell slot. You must finish a long rest before you can do so again.",
         "At higher levels, you gain more devilforged spells of your choice that can be cast in this way: one 7th-level spell at 13th level, one 8th-level spell at 15th level, and one 9th-level spell at 17th level. You regain all uses of your Fiendish Assimilation when you finish a long rest.",
         "Alternatively, you can choose to incorporate or \"steal\" the essence of other great Devil Fruit powers into your infused item. When you see a Devil Fruit spell or spell effect within 30 feet of you, you may use your reaction to \"store\" a portion of the energy of that spell into your infused item, making it your new Fiendish Assimilation spell. The maximum level of the spell stolen must be equal to your current Fiendish Assimilation spell level. For example, if you are 13th level, you can only steal up to 7th-level spells created by a Devil Fruit power and store them into your infused item.",
@@ -5203,7 +5203,7 @@
       "page": 47,
       "level": 14,
       "entries": [
-        "At 1st level, you have develD&DF-PHBed a particular style of devilsmithing which determines the types of equipment or items you specialize at infusing with. You can choose between Gear Smithing, Blade Smithing, and Firearm Smithing, all detailed at the end of the class description. Your choice grants you features at 1st level and again at 6th, 10th, and 14th level."
+        "At 1st level, you have developed a particular style of devilsmithing which determines the types of equipment or items you specialize at infusing with. You can choose between Gear Smithing, Blade Smithing, and Firearm Smithing, all detailed at the end of the class description. Your choice grants you features at 1st level and again at 6th, 10th, and 14th level."
       ]
     },
     {
@@ -5214,7 +5214,7 @@
       "page": 48,
       "level": 15,
       "entries": [
-        "At 11th level, your devil fruit item develD&DF-PHBs immense newfound powers. Choose one 6th-level power (spell) from the devilforged spell list as this new power.",
+        "At 11th level, your devil fruit item develops immense newfound powers. Choose one 6th-level power (spell) from the devilforged spell list as this new power.",
         "You can cast your Fiendish Assimilation power (spell) once without expending a spell slot. You must finish a long rest before you can do so again.",
         "At higher levels, you gain more devilforged spells of your choice that can be cast in this way: one 7th-level spell at 13th level, one 8th-level spell at 15th level, and one 9th-level spell at 17th level. You regain all uses of your Fiendish Assimilation when you finish a long rest.",
         "Alternatively, you can choose to incorporate or \"steal\" the essence of other great Devil Fruit powers into your infused item. When you see a Devil Fruit spell or spell effect within 30 feet of you, you may use your reaction to \"store\" a portion of the energy of that spell into your infused item, making it your new Fiendish Assimilation spell. The maximum level of the spell stolen must be equal to your current Fiendish Assimilation spell level. For example, if you are 13th level, you can only steal up to 7th-level spells created by a Devil Fruit power and store them into your infused item.",
@@ -5232,7 +5232,7 @@
         "When you reach 4th Level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two Ability Scores of your choice by 1. Alternatively, you can take a feat listed in Chapter 6. As normal, you can't increase an ability score above 20 using this feature.",
         "Additionally, when you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing the increased power of your infused item:",
         "Replace one cantrip you learned from this class's Devil Fruit Infusion feature with another cantrip from the devilforged spell list.",
-        "Replace the D&DF-PHBtion you chose for the Infused Devil Fruit Category feature with one of that feature's other D&DF-PHBtions.",
+        "Replace the option you chose for the Infused Devil Fruit Category feature with one of that feature's other options.",
         "If this change makes you ineligible for any of your Sea Devil's Emanations, you must also replace them now, choosing emanations for which you qualify."
       ]
     },
@@ -5244,7 +5244,7 @@
       "page": 48,
       "level": 17,
       "entries": [
-        "At 11th level, your devil fruit item develD&DF-PHBs immense newfound powers. Choose one 6th-level power (spell) from the devilforged spell list as this new power.",
+        "At 11th level, your devil fruit item develops immense newfound powers. Choose one 6th-level power (spell) from the devilforged spell list as this new power.",
         "You can cast your Fiendish Assimilation power (spell) once without expending a spell slot. You must finish a long rest before you can do so again.",
         "At higher levels, you gain more devilforged spells of your choice that can be cast in this way: one 7th-level spell at 13th level, one 8th-level spell at 15th level, and one 9th-level spell at 17th level. You regain all uses of your Fiendish Assimilation when you finish a long rest.",
         "Alternatively, you can choose to incorporate or \"steal\" the essence of other great Devil Fruit powers into your infused item. When you see a Devil Fruit spell or spell effect within 30 feet of you, you may use your reaction to \"store\" a portion of the energy of that spell into your infused item, making it your new Fiendish Assimilation spell. The maximum level of the spell stolen must be equal to your current Fiendish Assimilation spell level. For example, if you are 13th level, you can only steal up to 7th-level spells created by a Devil Fruit power and store them into your infused item.",
@@ -5262,7 +5262,7 @@
         "When you reach 4th Level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two Ability Scores of your choice by 1. Alternatively, you can take a feat listed in Chapter 6. As normal, you can't increase an ability score above 20 using this feature.",
         "Additionally, when you reach a level in this class that grants the Ability Score Improvement feature, you can do one of the following, representing the increased power of your infused item:",
         "Replace one cantrip you learned from this class's Devil Fruit Infusion feature with another cantrip from the devilforged spell list.",
-        "Replace the D&DF-PHBtion you chose for the Infused Devil Fruit Category feature with one of that feature's other D&DF-PHBtions.",
+        "Replace the option you chose for the Infused Devil Fruit Category feature with one of that feature's other options.",
         "If this change makes you ineligible for any of your Sea Devil's Emanations, you must also replace them now, choosing emanations for which you qualify."
       ]
     },
@@ -5285,7 +5285,7 @@
       "page": 28,
       "level": 1,
       "entries": [
-        "At 1st level, your life of scrapping and battling with beasts, humans, or other tough creatures has given you mastery of Combat styles that use unarmed strikes and bruiser weapons, which are simple melee weapons without the two-handed prD&DF-PHBerty, cutlasses, and improvised weapons. You can not use the finesse prD&DF-PHBerty of a weapon while using it as a bruiser weapon.",
+        "At 1st level, your life of scrapping and battling with beasts, humans, or other tough creatures has given you mastery of Combat styles that use unarmed strikes and bruiser weapons, which are simple melee weapons without the two-handed property, cutlasses, and improvised weapons. You can not use the finesse property of a weapon while using it as a bruiser weapon.",
         "You gain the following benefits while you are unarmed or wielding only bruiser Weapons and you aren't wearing armor and not wielding a shield:",
         {
           "type": "list",
@@ -5739,7 +5739,7 @@
           "type": "list",
           "items": [
             "Your game statistics are replaced by the statistics of the abomination, but you retain your alignment, personality, and Intelligence, Wisdom, and Charisma scores. You also retain all of your skill and saving throw proficiencies, in addition to gaining those of the creature. If the creature has the same proficiency as you and the bonus in its stat block is higher than yours, use the creature's bonus instead of yours. If the creature has any legendary or lair actions, you can't use them.",
-            "When you transform, you assume the abomination's hit points and Hit Dice. When you revert to your normal form, you return to the number of hit points you had before you transformed. However, if you revert as a result of drD&DF-PHBping to 0 hit points, any excess damage carries over to your normal form, For example, if you take 10 damage in animal form and have only 1 hit point left, you revert and take 9 damage. As long as the excess damage doesn't reduce your normal form to 0 hit points, you aren't knocked {@condition unconscious}.",
+            "When you transform, you assume the abomination's hit points and Hit Dice. When you revert to your normal form, you return to the number of hit points you had before you transformed. However, if you revert as a result of dropping to 0 hit points, any excess damage carries over to your normal form, For example, if you take 10 damage in animal form and have only 1 hit point left, you revert and take 9 damage. As long as the excess damage doesn't reduce your normal form to 0 hit points, you aren't knocked {@condition unconscious}.",
             "You can't cast special powers (spells), and your ability to speak or take any action that requires hands is limited to the capabilities of your abomination form. Transforming doesn't break your {@status concentration} on a special power (spell) you've already cast, however, or prevent you from taking actions that are part of a special power (spell), such as Call Lightning, that you've already cast.",
             "If you have Devil Fruit powers, you cannot use them while in this form, as your lineage factor is temporarily disrupted.",
             "You retain the benefit of any features from your class, race, or other source and can use them if the new form is physically capable of doing so. However, you can't use any of your special senses, such as {@sense darkvision}, unless your new form also has that sense.",
@@ -5801,7 +5801,7 @@
           "type": "list",
           "items": [
             "Your game statistics are replaced by the statistics of the abomination, but you retain your alignment, personality, and Intelligence, Wisdom, and Charisma scores. You also retain all of your skill and saving throw proficiencies, in addition to gaining those of the creature. If the creature has the same proficiency as you and the bonus in its stat block is higher than yours, use the creature's bonus instead of yours. If the creature has any legendary or lair actions, you can't use them.",
-            "When you transform, you assume the abomination's hit points and Hit Dice. When you revert to your normal form, you return to the number of hit points you had before you transformed. However, if you revert as a result of drD&DF-PHBping to 0 hit points, any excess damage carries over to your normal form, For example, if you take 10 damage in animal form and have only 1 hit point left, you revert and take 9 damage. As long as the excess damage doesn't reduce your normal form to 0 hit points, you aren't knocked {@condition unconscious}.",
+            "When you transform, you assume the abomination's hit points and Hit Dice. When you revert to your normal form, you return to the number of hit points you had before you transformed. However, if you revert as a result of dropping to 0 hit points, any excess damage carries over to your normal form, For example, if you take 10 damage in animal form and have only 1 hit point left, you revert and take 9 damage. As long as the excess damage doesn't reduce your normal form to 0 hit points, you aren't knocked {@condition unconscious}.",
             "You can't cast special powers (spells), and your ability to speak or take any action that requires hands is limited to the capabilities of your abomination form. Transforming doesn't break your {@status concentration} on a special power (spell) you've already cast, however, or prevent you from taking actions that are part of a special power (spell), such as Call Lightning, that you've already cast.",
             "If you have Devil Fruit powers, you cannot use them while in this form, as your lineage factor is temporarily disrupted.",
             "You retain the benefit of any features from your class, race, or other source and can use them if the new form is physically capable of doing so. However, you can't use any of your special senses, such as {@sense darkvision}, unless your new form also has that sense.",
@@ -5875,7 +5875,7 @@
           "type": "list",
           "items": [
             "Your game statistics are replaced by the statistics of the abomination, but you retain your alignment, personality, and Intelligence, Wisdom, and Charisma scores. You also retain all of your skill and saving throw proficiencies, in addition to gaining those of the creature. If the creature has the same proficiency as you and the bonus in its stat block is higher than yours, use the creature's bonus instead of yours. If the creature has any legendary or lair actions, you can't use them.",
-            "When you transform, you assume the abomination's hit points and Hit Dice. When you revert to your normal form, you return to the number of hit points you had before you transformed. However, if you revert as a result of drD&DF-PHBping to 0 hit points, any excess damage carries over to your normal form, For example, if you take 10 damage in animal form and have only 1 hit point left, you revert and take 9 damage. As long as the excess damage doesn't reduce your normal form to 0 hit points, you aren't knocked {@condition unconscious}.",
+            "When you transform, you assume the abomination's hit points and Hit Dice. When you revert to your normal form, you return to the number of hit points you had before you transformed. However, if you revert as a result of dropping to 0 hit points, any excess damage carries over to your normal form, For example, if you take 10 damage in animal form and have only 1 hit point left, you revert and take 9 damage. As long as the excess damage doesn't reduce your normal form to 0 hit points, you aren't knocked {@condition unconscious}.",
             "You can't cast special powers (spells), and your ability to speak or take any action that requires hands is limited to the capabilities of your abomination form. Transforming doesn't break your {@status concentration} on a special power (spell) you've already cast, however, or prevent you from taking actions that are part of a special power (spell), such as Call Lightning, that you've already cast.",
             "If you have Devil Fruit powers, you cannot use them while in this form, as your lineage factor is temporarily disrupted.",
             "You retain the benefit of any features from your class, race, or other source and can use them if the new form is physically capable of doing so. However, you can't use any of your special senses, such as {@sense darkvision}, unless your new form also has that sense.",
@@ -7017,7 +7017,7 @@
       "shortName": "Firearm Smithing",
       "subclassFeatures": [
         "Expanded Power (Spell) List|Devilforged|D&DF-PHB|Firearm Smithing|D&DF-PHB|1|D&DF-PHB",
-        "Nether ScD&DF-PHBe|Devilforged|D&DF-PHB|Firearm Smithing|D&DF-PHB|6|D&DF-PHB",
+        "Nether Scope|Devilforged|D&DF-PHB|Firearm Smithing|D&DF-PHB|6|D&DF-PHB",
         "Blinding Flare|Devilforged|D&DF-PHB|Firearm Smithing|D&DF-PHB|6|D&DF-PHB",
         "Exploding Shrapnel Shot|Devilforged|D&DF-PHB|Firearm Smithing|D&DF-PHB|10|D&DF-PHB",
         "Hellstorm Artillery|Devilforged|D&DF-PHB|Firearm Smithing|D&DF-PHB|14|D&DF-PHB"
@@ -8411,7 +8411,7 @@
       "level": 11,
       "header": 1,
       "entries": [
-        "At 11th level, you can perform a variety of combat maneuvers while you are grappling an D&DF-PHBponent within 5 feet of you:",
+        "At 11th level, you can perform a variety of combat maneuvers while you are grappling an opponent within 5 feet of you:",
         {
           "type": "list",
           "items": [
@@ -8541,7 +8541,7 @@
       "level": 1,
       "header": 1,
       "entries": [
-        "Certain great fighters desire a powerful companion in battle. Bruiser that utilize the beast style have develD&DF-PHBed a special bond with nature, allowing them to tame the fearsome beasts they might find along their journey. Through mutual respect and coordination, these bruisers and their companions make for a deadly duo."
+        "Certain great fighters desire a powerful companion in battle. Bruiser that utilize the beast style have developed a special bond with nature, allowing them to tame the fearsome beasts they might find along their journey. Through mutual respect and coordination, these bruisers and their companions make for a deadly duo."
       ]
     },
     {
@@ -8580,7 +8580,7 @@
           "entries": [
             "Your animal companion gains a variety of benefits while it is linked to you.",
             "The animal companion loses its Multiattack action, if it has one.",
-            "The companion obeys your commands as best it can. You can use a bonus action on each of your turns to verbally command your companion to take the {@action Attack}, Dash, {@action Disengage}, Dodge, or {@action Help} action that turn. It can also use its movement at any point during your turn. It does not have its own turn unless you are {@condition incapacitated} or absent, in which case your companion acts on its own and rolls initiative. Your companion never requires your command to use its reaction, such as when making an D&DF-PHBportunity attack.",
+            "The companion obeys your commands as best it can. You can use a bonus action on each of your turns to verbally command your companion to take the {@action Attack}, Dash, {@action Disengage}, Dodge, or {@action Help} action that turn. It can also use its movement at any point during your turn. It does not have its own turn unless you are {@condition incapacitated} or absent, in which case your companion acts on its own and rolls initiative. Your companion never requires your command to use its reaction, such as when making an opportunity attack.",
             "Your animal companion has abilities and game statistics determined in part by your level. Your companion uses your proficiency bonus rather than its own. You add your proficiency bonus to your companion's AC, saving throws, attack rolls, and damage rolls",
             "Your animal companion gains proficiency in two skills of your choice. It also becomes proficient with all saving throws. For each level you gain after 3rd, your animal companion gains an additional hit die determined by the creature's hit dice and increases its hit points and maximum by rolling its hit die and adding its constitution modifier to the total, then increasing its maximum hit points by that amount.",
             "Whenever you gain the Ability Score Improvement class feature, your companion's abilities also improve. Your companion can increase one ability score of your choice by 2, or it can increase two ability scores of your choice by 1. As normal, your companion can't increase an ability score above 20 using this feature unless its description specifies otherwise.",
@@ -9801,7 +9801,7 @@
       "header": 1,
       "entries": [
         "At 6th level, through your study of field medics, you've learned how to set up advanced tents that guard your comrades while they rest inside. During a short or long rest, you can set up a sensor that detects intruders up to a 30-foot-radius around the tent where your allies rest.",
-        "While in the sensor's radius, you and your allies gain a +5 bonus to Dexterity ({@skill Stealth}) and Wisdom ({@skill perception}) checks, and any light from D&DF-PHBen flames in the radius (a campfire, torches, or the like) isn't visible outside the radius",
+        "While in the sensor's radius, you and your allies gain a +5 bonus to Dexterity ({@skill Stealth}) and Wisdom ({@skill perception}) checks, and any light from open flames in the radius (a campfire, torches, or the like) isn't visible outside the radius",
         "The sensor vanishes at the end of the rest or when you leave the radius."
       ]
     },
@@ -10146,7 +10146,7 @@
       "header": 1,
       "entries": [
         "At 1st level, you acquire the training necessary to effectively arm yourself for battle. You gain proficiency with medium armor, shields, and martial melee weapons.",
-        "The experience you have gained in working with infusing various devil fruit powers into weapons has allowed you to become proficient with various weapons. When you finish a long rest, you can touch one weapon that you are proficient with and that lacks the two-handed prD&DF-PHBerty. When you attack with that weapon, you can use your Charisma modifier, instead of Strength or Dexterity, for the attack and damage rolls. This benefit lasts until you finish a long rest. If you later gain the Paramecia Infusion feature, this benefit extends to every infused weapon you enhance with that feature, no matter the weapon's type."
+        "The experience you have gained in working with infusing various devil fruit powers into weapons has allowed you to become proficient with various weapons. When you finish a long rest, you can touch one weapon that you are proficient with and that lacks the two-handed property. When you attack with that weapon, you can use your Charisma modifier, instead of Strength or Dexterity, for the attack and damage rolls. This benefit lasts until you finish a long rest. If you later gain the Paramecia Infusion feature, this benefit extends to every infused weapon you enhance with that feature, no matter the weapon's type."
       ]
     },
     {
@@ -10258,7 +10258,7 @@
       ]
     },
     {
-      "name": "Nether ScD&DF-PHBe",
+      "name": "Nether Scope",
       "source": "D&DF-PHB",
       "className": "Devilforged",
       "classSource": "D&DF-PHB",
@@ -10427,7 +10427,7 @@
       "level": 1,
       "header": 1,
       "entries": [
-        "Your affinity for elemental powers grants you the D&DF-PHBtion to learn some non-hybrid spells that focus on weapon attacks. When your Hybrid Power (Spellcasting) feature lets you learn a hybrid spell of 1st level or higher, you can select the spell from the following list of germa powers (spells), in addition to the hybrid spell list. You must otherwise obey all the restrictions for selecting the spell, and it becomes a Hybrid Power (spell) for you.",
+        "Your affinity for elemental powers grants you the option to learn some non-hybrid spells that focus on weapon attacks. When your Hybrid Power (Spellcasting) feature lets you learn a hybrid spell of 1st level or higher, you can select the spell from the following list of germa powers (spells), in addition to the hybrid spell list. You must otherwise obey all the restrictions for selecting the spell, and it becomes a Hybrid Power (spell) for you.",
         {
           "type": "table",
           "caption": "Germa Powers (Spells)",
@@ -10600,7 +10600,7 @@
       "header": 1,
       "entries": [
         "At 6th level, you gain resistance to psychic damage, as your instincts make your mind too sturdy to influence.",
-        "You also gain the ability to defend yourself by making a sudden escape away from danger. As a reaction when you are hit by an attack and take bludgeoning, piercing, or slashing damage from it, you can reduce that damage by an amount equal to your hybrid level plus your Charisma score, and then you can move up to 30 feet without provoking D&DF-PHBportunity attacks. Once you use this special reaction, you can't use it again until you finish a short or long rest."
+        "You also gain the ability to defend yourself by making a sudden escape away from danger. As a reaction when you are hit by an attack and take bludgeoning, piercing, or slashing damage from it, you can reduce that damage by an amount equal to your hybrid level plus your Charisma score, and then you can move up to 30 feet without provoking opportunity attacks. Once you use this special reaction, you can't use it again until you finish a short or long rest."
       ]
     },
     {
@@ -10614,7 +10614,7 @@
       "level": 14,
       "header": 1,
       "entries": [
-        "Starting at 14th level, when you move on your turn, you take only half damage from D&DF-PHBportunity attacks, and you can move through any enemy's space but can't willingly end your move there.",
+        "Starting at 14th level, when you move on your turn, you take only half damage from opportunity attacks, and you can move through any enemy's space but can't willingly end your move there.",
         "On your turn, you can move through any space that is at least 3 inches in diameter and do so without squeezing. When you stD&DF-PHB moving, the regular squeezing rules apply if you're in a space one size smaller than you. You can't willingly stD&DF-PHB in a space smaller than that, and if you're forced to do so, you immediately flow to the nearest space that can fit you, back along the path of your movement."
       ]
     },
@@ -10685,7 +10685,7 @@
             ],
             [
               "5th",
-              "RD&DF-PHBe Trick"
+              "Rope Trick"
             ],
             [
               "9th",
@@ -10742,11 +10742,11 @@
       "level": 15,
       "header": 1,
       "entries": [
-        "At 15th level, you master the ability to disrupt and maneuver around an D&DF-PHBponent's attacks. If a creature attacks you and does not have advantage on the attack roll, you can use your reaction to grant it disadvantage on the attack roll. You must use this ability before you know the result of the attack."
+        "At 15th level, you master the ability to disrupt and maneuver around an opponent's attacks. If a creature attacks you and does not have advantage on the attack roll, you can use your reaction to grant it disadvantage on the attack roll. You must use this ability before you know the result of the attack."
       ]
     },
     {
-      "name": "ScD&DF-PHBing",
+      "name": "Scoping",
       "source": "D&DF-PHB",
       "className": "Marksman",
       "classSource": "D&DF-PHB",
@@ -11009,7 +11009,7 @@
       "level": 11,
       "header": 1,
       "entries": [
-        "Also at 11th level, when you use your Whirlwind Step, you can now kick the air with such force that you begin to prD&DF-PHBel yourself. While you do this, you have a flying speed equal to your walking speed until the end of your next turn.",
+        "Also at 11th level, when you use your Whirlwind Step, you can now kick the air with such force that you begin to propel yourself. While you do this, you have a flying speed equal to your walking speed until the end of your next turn.",
         "Additionally, using the Slow Fall feature now reduces any Falling damage you take to 0."
       ]
     },
