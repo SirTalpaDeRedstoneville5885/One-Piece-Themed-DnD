@@ -25,14 +25,21 @@
     {
       "name": "Tinkerer",
       "source": "D&tinDF-PHB",
-      "page": 1,
+      "page": 92,
       "hd": { "number": 1, "faces": 6 },
       "subclassTitle": "Tinkerer Study",
       "proficiency": ["int", "wis"],
       "startingProficiencies": {
         "armor": ["none"],
         "weapons": ["dagger", "dart", "sling", "quarterstaff", "musket"],
-        "tools": ["thieves' tools", "tinker's tools"],
+        "tools": ["thieves' tools", "tinker's tools", "any one type of {@item artisan's tools|PHB}"],
+        "toolProficiencies": [
+          {
+            "thieves' tools": true,
+            "tinker's tools": true,
+            "anyArtisansTool": 1
+          }
+        ],
         "skills": [
           {
             "choose": {
@@ -52,21 +59,59 @@
       "startingEquipment": {
         "additionalFromBackground": true,
         "default": [
-          "(a) a quarterstaff or (b) a dagger",
+          "(a) a {@item quarterstaff|PHB} or (b) a {@item dagger|PHB}",
           "a gadget of choice and blueprints",
-          "thieves' tools",
-          "dungeoneer's pack"
+          "{@item thieves' tools|PHB}"
         ],
-        "goldAlternative": "{@dice 5d4×10|5d4×10|Starting Gold}"
+        "goldAlternative": "{@dice 5d4×10|5d4×10|Starting Gold}",
+        "defaultData": [
+          {
+            "a": [
+              "quartestaff|phb"
+            ],
+            "b": [
+              "dagger|PHB"
+            ]
+          },
+          {
+            "a": [
+              "a gadget of your choices and blueprints"
+            ],
+            "b": [
+               "{@item thieves' tools|PHB}"
+            ],
+            "c" : [
+              "{@item dungeoneer's pack|PHB}"
+            ]
+          }
+        ]
       },
       "classFeatures": [
         "Creation Power (Spellcasting)|Tinkerer|D&tinDF-PHB|1",
         "Recharging|Tinkerer|D&tinDF-PHB|1",
-        "Tinkerer Study|Tinkerer|D&tinDF-PHB|2",
+        {
+          "classFeature": "Tinkerer Study|Tinkerer|D&tinDF-PHB|2",
+          "gainSubclassFeature": true
+        },
         "Adaptive Cantrip Technology|Tinkerer|D&tinDF-PHB|3",
         "Ability Score Improvement|Tinkerer|D&tinDF-PHB|4",
-        "Tinkerer Study feature|Tinkerer|D&tinDF-PHB|6",
+        {
+          "classFeature": "Tinkerer Study feature|Tinkerer|D&tinDF-PHB|6",
+          "gainSubclassFeature": true
+        },
+        "Ability Score Improvement|Tinkerer|D&tinDF-PHB|8",
+        {
+          "classFeature": "Tinkerer Study feature|Tinkerer|D&tinDF-PHB|10",
+          "gainSubclassFeature": true
+        },
+        "Ability Score Improvement|Tinkerer|D&tinDF-PHB|12",
+        {
+          "classFeature": "Tinkerer Study feature|Tinkerer|D&tinDF-PHB|14",
+          "gainSubclassFeature": true
+        },
+        "Ability Score Improvement|Tinkerer|D&tinDF-PHB|16",
         "Master of Innovation|Tinkerer|D&tinDF-PHB|18",
+        "Ability Score Improvement|Tinkerer|D&tinDF-PHB|19",
         "Ultimate Technology|Tinkerer|D&tinDF-PHB|20"
       ],
       "classTableGroups": [
@@ -211,7 +256,73 @@
     "entries": [
       "At 6th level, you gain an additional feature from your chosen Tinkerer Study."
     ]
-  }
+  },
+  {
+    "name": "Tinkerer Study feature",
+    "page": 3,
+    "className": "Tinkerer",
+    "classSource": "D&tinDF-PHB",
+    "source": "D&tinDF-PHB",
+    "level": 10,
+    "entries": [
+      "At 10th level, you gain an additional feature from your chosen Tinkerer Study."
+    ]
+  },
+  {
+    "name": "Tinkerer Study feature",
+    "page": 3,
+    "className": "Tinkerer",
+    "classSource": "D&tinDF-PHB",
+    "source": "D&tinDF-PHB",
+    "level": 14,
+    "entries": [
+      "At 14th level, you gain an additional feature from your chosen Tinkerer Study."
+    ]
+  },
+  {
+      "name": "Ability Score Improvement",
+      "page": 3,
+      "className": "Tinkerer",
+      "classSource": "D&tinDF-PHB",
+      "source": "D&tinDF-PHB",
+      "level": 8,
+      "entries": [
+        "At levels 4, 8, 12, 16, and 19 you can increase ability scores as usual, or take a feat if your DM allows."
+      ]
+    },
+  {
+      "name": "Ability Score Improvement",
+      "page": 3,
+      "className": "Tinkerer",
+      "classSource": "D&tinDF-PHB",
+      "source": "D&tinDF-PHB",
+      "level": 12,
+      "entries": [
+        "At levels 4, 8, 12, 16, and 19 you can increase ability scores as usual, or take a feat if your DM allows."
+      ]
+    },
+  {
+      "name": "Ability Score Improvement",
+      "page": 3,
+      "className": "Tinkerer",
+      "classSource": "D&tinDF-PHB",
+      "source": "D&tinDF-PHB",
+      "level": 16,
+      "entries": [
+        "At levels 4, 8, 12, 16, and 19 you can increase ability scores as usual, or take a feat if your DM allows."
+      ]
+    },
+  {
+      "name": "Ability Score Improvement",
+      "page": 3,
+      "className": "Tinkerer",
+      "classSource": "D&tinDF-PHB",
+      "source": "D&tinDF-PHB",
+      "level": 19,
+      "entries": [
+        "At levels 4, 8, 12, 16, and 19 you can increase ability scores as usual, or take a feat if your DM allows."
+      ]
+    }
 
   ],
   "subclass": [
@@ -481,8 +592,8 @@
   ],
   "spellList":[
     {
-          "name": "Tinkerer",          
-          "spells": 
+          "name": "Tinkerer",
+          "spells":
           [
             "0": [ "Acid Splash", "Blade Ward", "Booming Blade", "Chill Touch", "Control Flames", "Create Bonfire", "Dancing Lights", "Encode Thoughts", "Fire Bolt", "Friends", "Frostbite", "Green-Flame Blade", "Gust", "Infestation", "Light", "Lightning Lure", "Mage Hand", "Mending", "Message", "Mind Sliver", "Minor Illusion", "Mold Earth", "Poison Spray", "Prestidigitation", "Ray of Frost", "Sapping Sting", "Shocking Grasp", "Sword Burst", "Thunderclap", "Toll the Dead", "True Strike" ],
             "1": [ "Absorb Elements", "Alarm", "Burning Hands", "Catapult", "Cause Fear", "Charm Person", "Chromatic Orb", "Color Spray", "Detect Magic", "Disguise Self", "Distort Value", "Earth Tremor", "Expeditious Retreat", "False Life", "Feather Fall", "Find Familiar", "Fog Cloud", "Frost Fingers", "Gift of Alacrity", "Grease", "Ice Knife", "Identify", "Illusory Script", "Jump", "Longstrider", "Mage Armor", "Magic Missile", "Magnify Gravity", "Protection from Evil and Good", "Ray of Sickness", "Shield", "Silent Image", "Silvery Barbs", "Sleep", "Snare", "Tasha's Caustic Brew", "Tasha's Hideous Laughter", "Tenser's Floating Disk", "Thunderwave", "Unseen Servant", "Witch Bolt" ],
