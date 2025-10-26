@@ -24,179 +24,93 @@
       "edition": "classic"
    },
    "class": [
+  {
+    "name": "Warrior",
+    "source": "DwarDF-PHB",
+    "page": 96,
+    "optionalfeatureProgression": [
       {
-         "name":"Warrior",
-         "source": "DwarDF-PHB",
-         "page": 96,
-         "optionalfeatureProgression": [
-            {
-               "name": "Fighting Style",
-               "featureType": [
-                  "FS:F"
-               ],
-               "progression": {
-                  "1": 1
-               }
-            }
-         ],
-         "hd": {
-            "number": 1,
-            "faces": 10
-         },
-         "classFeatures": [
-            "Fighting Style|Warrior|DwarDF-PHB|1",
-            "Second Wind|Warrior|DwarDF-PHB|1",
-            "Action Surge|Warrior|DwarDF-PHB|2",
-            {
-               "classFeature": "Warrior Type|Warrior|DwarDF-PHB|3",
-               "gainSubclassFeature": true
-            },
-            "Ability Score Improvement|Warrior|DwarDF-PHB|4",
-            "Extra Attack|Warrior|DwarDF-PHB|5",
-            "Ability Score Improvement|Warrior|DwarDF-PHB|6",
-            {
-               "classFeature": "Warrior Type feature|Warrior|DwarDF-PHB|7",
-               "gainSubclassFeature": true
-            },
-            "Ability Score Improvement|Warrior|DwarDF-PHB|8",
-            "Indomitable|Warrior|DwarDF-PHB|9",
-            {
-               "classFeature": "Warrior Type feature|Warrior|DwarDF-PHB|10",
-               "gainSubclassFeature": true
-            },
-            "Extra Attack (2)|Warrior|DwarDF-PHB|11",
-            "Ability Score Improvement|Warrior|DwarDF-PHB|12",
-            "Indomitable (two uses)|Warrior|DwarDF-PHB|13",
-            "Ability Score Improvement|Warrior|DwarDF-PHB|14",
-            {
-               "classFeature": "Warrior Type feature|Warrior|DwarDF-PHB|15",
-               "gainSubclassFeature": true
-            },
-            "Ability Score Improvement|Warrior|DwarDF-PHB|16",
-            "Action Surge (two uses)|Warrior|DwarDF-PHB|17",
-            "Indomitable (three uses)|Warrior|DwarDF-PHB|17",
-            {
-               "classFeature": "Warrior Type feature|Warrior|DwarDF-PHB|18",
-               "gainSubclassFeature": true
-            },
-            "Ability Score Improvement|Warrior|DwarDF-PHB|19",
-            "Extra Attack (3)|Warrior|DwarDF-PHB|20"
-         ],
-         "subclassTitle": "Warrior Type",
-         "subclassTableGroups": [],
-         "proficiency":[
-            "str",
-            "con"
-         ],
-         "startingProficiencies": {
-            "armor": [
-               "light",
-               "medium",
-               "heavy",
-               "shield"
-            ],
-            "weapons": [
-               "simple",
-               "martial"
-            ],
-            "tools": [],         
-            "skills":[
-               {
-                  "choose":{
-                     "from":[
-                        "acrobatics",
-                        "animal handling",
-                        "athletics",
-                        "history",
-                        "insight",
-                        "intimidation",
-                        "perception",
-                        "survival"
-                     ],
-                     "count":2
-                  }
-               }
-            ]
-         },
-         "startingEquipment": {
-            "additionalFromBackground": true,
-            "default": [
-               "(a) {@item chain mail|phb} or (b) {@item thick shirt|DwarDF-PHB}, {@item rifle|DwarDF-PHB}, and {@item bullets (20)|dmg|20 Bullets}",
-               "(a) a {@filter martial weapon|items|source=phb|category=basic|type=martial weapon} and a {@item shield|phb} or (b) two {@filter martial weapons|items|source=phb|category=basic|type=martial weapon}",
-               "(a) a {@item pistol|dmg} and {@item bullets (20)|phb|20 Bullets} or (b) two {@item handaxe|phb|handaxes}",
-               "(a) a {@item dungeoneer's pack|phb} or (b) an {@item explorer's pack|phb}"
-            ],
-            "goldAlternative": "{@dice 5d4 × 10|5d4 × 10|Starting Gold}",
-            "defaultData": [
-               {
-                  "a": [
-                     "chain mail|DwarDF-PHB"
-                  ],
-                  "b": [
-                     "{@item thick shirt|DwarDF-PHB}",
-                     "{@item rifle|DwarDF-PHB}",
-                     "{@item bullets (20)|dmg|20 Bullets}"
-                  ]
-               },
-               {
-                  "a": [
-                     {
-                        "equipmentType": "weaponMartial"
-                     },
-                     "shield|DwarDF-PHB"
-                  ],
-                  "b": [
-                     {
-                        "equipmentType": "weaponMartial",
-                        "quantity": 2
-                     }
-                  ]
-               },
-               {
-                  "a": [
-                     "{@item pistol|dmg}",
-                     "{@item bullets (20)|phb|20 Bullets}"
-                  ],
-                  "b": [
-                     {
-                        "item": "handaxe|DwarDF-PHB",
-                        "quantity": 2
-                     }
-                  ]
-               },
-               {
-                  "a": [
-                     "dungeoneer's pack|DwarDF-PHB"
-                  ],
-                  "b": [
-                     "explorer's pack|DwarDF-PHB"
-                  ]
-               }
-            ]
-         },        
-         "multiclassing": {
-            "requirements": {
-               "or": [
-                  {
-                     "str": 13,
-                     "dex": 13
-                  }
-               ]
-            },
-            "proficienciesGained": {
-               "armor": [
-                  "light",
-                  "medium",
-                  "shield"
-               ],
-               "weapons": [
-                  "simple",
-                  "martial"
-               ]
-            }
-         }
+        "name": "Fighting Style",
+        "featureType": ["FS:F"],
+        "progression": { "1": 1 }
       }
-  ],
+    ],
+    "hd": { "number": 1, "faces": 10 },
+    "classFeatures": [
+      "Fighting Style|Warrior|DwarDF-PHB|1",
+      "Second Wind|Warrior|DwarDF-PHB|1",
+      "Action Surge|Warrior|DwarDF-PHB|2",
+      {
+        "classFeature": "Warrior Type|Warrior|DwarDF-PHB|3",
+        "gainSubclassFeature": true
+      },
+      "Ability Score Improvement|Warrior|DwarDF-PHB|4",
+      "Extra Attack|Warrior|DwarDF-PHB|5",
+      "Ability Score Improvement|Warrior|DwarDF-PHB|6",
+      {
+        "classFeature": "Warrior Type feature|Warrior|DwarDF-PHB|7",
+        "gainSubclassFeature": true
+      },
+      "Ability Score Improvement|Warrior|DwarDF-PHB|8",
+      "Indomitable|Warrior|DwarDF-PHB|9",
+      {
+        "classFeature": "Warrior Type feature|Warrior|DwarDF-PHB|10",
+        "gainSubclassFeature": true
+      },
+      "Extra Attack (2)|Warrior|DwarDF-PHB|11",
+      "Ability Score Improvement|Warrior|DwarDF-PHB|12",
+      "Indomitable (two uses)|Warrior|DwarDF-PHB|13",
+      "Ability Score Improvement|Warrior|DwarDF-PHB|14",
+      {
+        "classFeature": "Warrior Type feature|Warrior|DwarDF-PHB|15",
+        "gainSubclassFeature": true
+      },
+      "Ability Score Improvement|Warrior|DwarDF-PHB|16",
+      "Action Surge (two uses)|Warrior|DwarDF-PHB|17",
+      "Indomitable (three uses)|Warrior|DwarDF-PHB|17",
+      {
+        "classFeature": "Warrior Type feature|Warrior|DwarDF-PHB|18",
+        "gainSubclassFeature": true
+      },
+      "Ability Score Improvement|Warrior|DwarDF-PHB|19",
+      "Extra Attack (3)|Warrior|DwarDF-PHB|20"
+    ],
+    "subclassTableGroups": [],
+    "proficiency": ["str", "con"],
+    "startingProficiencies": {
+      "armor": ["light", "medium", "heavy", "shield"],
+      "weapons": ["simple", "martial"],
+      "tools": [],
+      "skills": [
+        {
+          "choose": {
+            "from": [
+              "acrobatics",
+              "animal handling",
+              "athletics",
+              "history",
+              "insight",
+              "intimidation",
+              "perception",
+              "survival"
+            ],
+            "count": 2
+          }
+        }
+      ]
+    },
+    "multiclassing": {
+      "requirements": {
+        "or": [{ "str": 13, "dex": 13 }]
+      },
+      "proficienciesGained": {
+        "armor": ["light", "medium", "shield"],
+        "weapons": ["simple", "martial"]
+      }
+    }
+  }
+],
+
 "classFeature": [
       {
          "name": "Fighting Style",
@@ -497,9 +411,7 @@
          "level": 1,
          "source": "DwarDF-PHB",
          "entries": [
-            "You have a limited well of physical and mental stamina that you can draw on. As a {@variantrule Bonus Action|XPHB}, you can use it to regain {@variantrule Hit Points|XPHB} equal to {@dice 1d10} plus your Warrior level.",
-            "You can use this feature twice. You regain one expended use when you finish a {@variantrule Short Rest|XPHB}, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}.",
-            "When you reach certain Warrior levels, you gain more uses of this feature, as shown in the Second Wind column of the Warrior Features table."
+            "You have a limited well of physical and mental stamina that you can draw on. As a {@variantrule Bonus Action|XPHB}, you can use it to regain {@variantrule Hit Points|XPHB} equal to {@dice 1d10} plus your Warrior level.\nYou can use this feature twice. You regain one expended use when you finish a {@variantrule Short Rest|XPHB}, and you regain all expended uses when you finish a {@variantrule Long Rest|XPHB}.\nWhen you reach certain Warrior levels, you gain more uses of this feature, as shown in the Second Wind column of the Warrior Features table."
          ]
       }
    ],
@@ -583,7 +495,6 @@
     "className": "Warrior",
     "classSource": "DwarDF-PHB",
     "subclassShortName": "Cursed Soul",
-    "header": 3,
     "level": 3,
     "entries": [
       "When you reach 3rd Level, you harbor evil energy within yourself. This energy is represented by your Cursed Spirit dice, which are each a d6. You have a number of these dice equal to twice your Proficiency Bonus, and they fuel various cursed powers you have, which are detailed below.",
