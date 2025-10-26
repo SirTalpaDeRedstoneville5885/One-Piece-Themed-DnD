@@ -168,32 +168,132 @@
   "classFeature": [
     {
       "name": "Creation Power (Spellcasting)",
-      "page": 2,
+      "page": 92,
       "className": "Tinkerer",
       "source": "D&tinDF-PHB",
       "classSource": "D&tinDF-PHB",
       "level": 1,
       "entries": [
-        "You gain the ability to prepare and cast Tinkerer creation powers (spells). See the Tinkerer table for spell slots and Natural Abilities (cantrips) known.",
-        "Gadget & Blueprints: At 1st level, you have a gadget and blueprints containing six 1st-level Tinkerer spells of your choice. Your gadget is a power source and acts as a spellcasting focus.",
-        "Preparing Spells: You prepare a number of spells equal to your Intelligence modifier + your Tinkerer level (minimum 1).",
-        "Spellcasting ability: Intelligence. Creation save DC = 8 + proficiency bonus + INT modifier. Creation attack modifier = proficiency bonus + INT modifier."
+        "As a Student of robotics and advanced technology, you have a Gadget of choice along with blueprints containing Creations (spells) that show the first glimmerings of your true abilities. This class uses the Tinkerer Spell List in Chapter 8.",
+        {
+          "type": "entries",
+          "name": "Gadget & Blueprints (Spellbook)",
+          "entries": [
+            "At 1st Level, you have a Gadget and blueprints (similar to a spellbook in standard 5e) containing six 1st-level Tinkerer Spells of your choice. Your Blueprints are instructions which tell you how to build your gadget, as well as a repository of the spells and abilities you discover, except your natural abilities (Cantrips), which can be used with or without your blueprints and gadget using materials or separate devices and methods. Your gadget is a form of Power Source (see Chapter 5 under 'Adventuring Gear'), and is used as a spellcasting focus."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Tools Required",
+          "entries": [
+            "To build, add to, and use your gadget, which allows you to cast your tinkerer Creation Power (spell) effects, you must use special tools—specifically thieves' tools or some kind of artisan's tool. You must be proficient with the tool to use it in this way."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Natural Abilities (Cantrips)",
+          "entries": [
+            "At 1st Level, you know three Natural Abilities (Cantrips) of your choice from the Tinkerer spell list. You learn additional Tinkerer Cantrips of your choice at higher levels, as shown in the Natural Abilities (Cantrips) Known column of the Tinkerer table."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Preparing and Using Creations (Casting Spells)",
+          "entries": [
+            "The Tinkerer table shows how many Creation Power (Spell) Slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended Spell Slots when you finish a Long Rest.",
+            "You prepare and install the list of Tinkerer Creation Powers (Spells) onto your gadget that are available for you to cast. To do so, choose a number of spells from your Blueprints equal to your Intelligence modifier + your Tinkerer level (minimum of one spell). The spells must be of a level for which you have Spell Slots.",
+            "For example, if you're a 3rd-level Tinkerer, you have four 1st-level and two 2nd-level Creation Power (Spell) Slots. With an Intelligence of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination, chosen from your Blueprints. If you prepare the 1st-level spell Magic Missile, you can cast it using a 1st-level or a 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.",
+            "You can change your list of prepared Creation Powers (Spells) installed on your gadget when you finish a Long Rest. Preparing a new list of Creation Powers requires time spent studying your Blueprints and adding them to parts of your gadget using your tools: at least 1 minute per Creation Power (Spell) level for each creation power (spell) on your list."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Creation Power Ability (Spellcasting Ability)",
+          "entries": [
+            "Intelligence is your Creation (Spellcasting) ability for your Tinkerer Creation Powers (Spells), since you learn your spells through dedicated study and memorization. You use your Intelligence whenever a spell refers to your spellcasting ability. In addition, you use your Intelligence modifier when setting the saving throw DC for a Tinkerer Creation Power (spell) you cast and when making an attack roll with one.",
+            {
+              "type": "abilityDc",
+              "name": "Creation Power",
+              "attributes": [
+                "int"
+              ]
+            },
+            {
+              "type": "abilityAttackMod",
+              "name": "Creation Power",
+              "attributes": [
+                "int"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Ritual Casting",
+          "entries": [
+            "You can cast a Tinkerer creation power (spell) as a ritual if that creation power has the ritual tag and you have the creation power in your Blueprints. You don't need to have the creation power prepared."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Learning Creation Powers (Spells) of 1st Level and Higher",
+          "entries": [
+            "Each time you gain a Tinkerer level, you can add two Tinkerer Spells of your choice to your Blueprint (Spellbook) for free. Each of these spells must be of a level for which you have Creation Power (Spell) Slots, as shown on the Tinkerer table. On your adventures, you might find other Creation Powers (Spells) that you can add to your Blueprints and Gadget."
+          ]
+        },
+        {
+          "type": "inset",
+          "name": "Your Blueprints",
+          "entries": [
+            "The Creation Powers (Spells) and abilities that you add to your Gadget from Blueprints as you gain levels reflect the advanced research you conduct on your own, as well as scientific breakthroughs you have had about the nature of the world and technological innovation. You might find other spells during your adventures. You could discover a spell recorded on blueprints in an abandoned factory, for example, or in dusty records in an ancient library.",
+            {
+              "type": "entries",
+              "entries": [
+                {
+                  "type": "entries",
+                  "name": "Copying a Creation Power (Spell) into your Blueprints",
+                  "entries": [
+                    "When you find a Tinkerer Creation Power (Tinkerer spell) of 1st Level or higher, you can add it to your Blueprints if it is of a Creation Power (Spell) level you can prepare and if you can spare the time to decipher and copy it.",
+                    "Copying that creation into your Blueprints involves reproducing the basic form of the creation, then deciphering the unique system of notation used by the inventor who designed it. You must practice the creation power until you understand the technology, methods, and parts required, then transcribe it into your Blueprints using your own notation.",
+                    "For each level of the creation power (spell), the process takes 2 hours and costs ฿500,000. The cost represents material components you expend with the writing utensils you need to record it, as well as the tools and supplies used as you experiment with the creation power (spell) and add new parts to your gadget to power the ability."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "Replacing your Blueprints or Gadget",
+                  "entries": [
+                    "You can copy a creation power (spell) from your own blueprints to another blueprint—for example, if you want to make a backup copy of your blueprints to craft another device. This is just like copying a creation (spell) into your blueprints, but faster and easier, since you understand your own notation and already know how to cast the spell. You need spend only 1 hour and ฿100,000 for each level of the copied creation (spell) to copy the blueprints.",
+                    "If you lose your blueprints, you can use the same procedure to transcribe the Creation Powers (Spells) that you have prepared into new blueprints. Drawing out the remainder of your blueprints requires you to find new creations (spells) to do so, as normal. For this reason, many tinkerers keep backup blueprints in a safe place.",
+                    "Rebuilding your gadget requires having your tools. You must spend at least 1 hour rebuilding your gadget using your tools during a Short or Long Rest in order to use it again. If you are missing your tools, you can choose to pay for a new Power Source instead, which will serve as your new gadget."
+                  ]
+                },
+                {
+                  "type": "entries",
+                  "name": "The Gadget's Appearance",
+                  "entries": [
+                    "Your specialized Gadget is a unique device that you build and add to over time, with its own decorative features and designs. It might be a plain metallic staff that can be disassembled, an attached segment of a weapon you are proficient with, or a complex contraption with interconnecting parts and robotic protrusions."
+                  ]
+                }
+              ]
+            }
+          ]
+        }
       ]
     },
     {
       "name": "Recharging",
-      "page": 2,
+      "page": 93,
       "className": "Tinkerer",
       "classSource": "D&tinDF-PHB",
       "source": "D&tinDF-PHB",
       "level": 1,
       "entries": [
-        "Once per day when you finish a short rest, you can choose expended spell slots to recover. The combined level of the slots you recover can be equal to or less than half your Tinkerer level (rounded up). None of the returned slots can be 6th level or higher."
+        "You have learned how to restore bits of power to your Gadget by recharging it during a rest. Once per day when you finish a Short Rest, you can choose expended Creation Power (Spell) Slots to recover. The Creation Power Slots can have a combined level that is equal to or less than half your Tinkerer level (rounded up), and none of the slots can be 6th level or higher.\nFor example, if you're a 4th-level Tinkerer, you can recover up to two levels worth of Spell Slots. You can recover either a 2nd-level spell slot or two 1st-level Spell Slots."
       ]
     },
     {
       "name": "Tinkerer Study",
-      "page": 3,
+      "page": 93,
       "className": "Tinkerer",
       "classSource": "D&tinDF-PHB",
       "source": "D&tinDF-PHB",
@@ -204,18 +304,18 @@
     },
     {
       "name": "Adaptive Cantrip Technology",
-      "page": 3,
+      "page": 93,
       "className": "Tinkerer",
       "classSource": "D&tinDF-PHB",
       "source": "D&tinDF-PHB",
       "level": 3,
       "entries": [
-        "Whenever you finish a long rest, you can replace one Tinkerer cantrip you know with another cantrip from the Tinkerer spell list."
+        "At 3rd level, whenever you finish a long rest, you can replace one tinkerer cantrip you know with another cantrip from the tinkerer spell list."
       ]
     },
     {
       "name": "Ability Score Improvement",
-      "page": 3,
+      "page": 93,
       "className": "Tinkerer",
       "classSource": "D&tinDF-PHB",
       "source": "D&tinDF-PHB",
@@ -226,24 +326,24 @@
     },
     {
       "name": "Master of Innovation",
-      "page": 4,
+      "page": 93,
       "className": "Tinkerer",
       "source": "D&tinDF-PHB",
       "classSource": "D&tinDF-PHB",
       "level": 18,
       "entries": [
-        "Choose one 1st-level Tinkerer spell and one 2nd-level Tinkerer spell from your Blueprints. While you have them prepared, you can cast each at its lowest level at will without expending slots. To change your choices, study for 8 hours to replace one or both with spells of the same levels."
+        "At 18th level, you have achieved such mastery over certain Creation Powers (Spells) that you can cast them at will. Choose a 1st-level Tinkerer Creation Power (spell) and a 2nd-level Tinkerer spell that are in your Spellbook. You can cast those spells⁠ at their lowest level without expending a spell slot when you have them prepared. If you want to cast either spell at a higher level, you must expend a spell slot as normal.\nBy spending 8 hours in study, you can exchange one or both of the Spells you chose for different spells⁠ of the same levels."
       ]
     },
     {
       "name": "Ultimate Technology",
-      "page": 4,
+      "page": 93,
       "className": "Tinkerer",
       "source": "D&tinDF-PHB",
       "classSource": "D&tinDF-PHB",
       "level": 20,
       "entries": [
-        "Choose two 3rd-level Tinkerer spells in your Blueprints as signature creation powers. You always have these prepared and can cast each once at 3rd level without expending a slot. You regain uses after a short or long rest."
+        "When you reach 20th level, you gain mastery over two powerful Creation Powers (Spells) and can cast them with little effort. Choose two 3rd-level Tinkerer creation powers in your spellbook⁠ as your signature creation powers⁠. You always have these creation powers⁠ prepared, they don't count against the number of creation powers you have prepared, and you can cast each of them once at 3rd Level without expending a creation power (spell) slot. When you do so, you can't do so again until you finish a short or Long Rest.\nIf you want to cast either creation power at a higher level, you must expend a creation power slot as normal."
       ]
     },
     {
@@ -281,7 +381,7 @@
   },
   {
       "name": "Ability Score Improvement",
-      "page": 3,
+      "page": 93,
       "className": "Tinkerer",
       "classSource": "D&tinDF-PHB",
       "source": "D&tinDF-PHB",
@@ -292,7 +392,7 @@
     },
   {
       "name": "Ability Score Improvement",
-      "page": 3,
+      "page": 93,
       "className": "Tinkerer",
       "classSource": "D&tinDF-PHB",
       "source": "D&tinDF-PHB",
@@ -303,7 +403,7 @@
     },
   {
       "name": "Ability Score Improvement",
-      "page": 3,
+      "page": 93,
       "className": "Tinkerer",
       "classSource": "D&tinDF-PHB",
       "source": "D&tinDF-PHB",
@@ -314,7 +414,7 @@
     },
   {
       "name": "Ability Score Improvement",
-      "page": 3,
+      "page": 93,
       "className": "Tinkerer",
       "classSource": "D&tinDF-PHB",
       "source": "D&tinDF-PHB",
@@ -329,7 +429,7 @@
     {
       "name": "Military Science",
       "source": "D&tinDF-PHB",
-      "page": 5,
+      "page": 94,
       "className": "Tinkerer",
       "classSource": "D&tinDF-PHB",
       "shortName": "Military Science",
@@ -351,7 +451,7 @@
     {
       "name": "Meteorology",
       "source": "D&tinDF-PHB",
-      "page": 6,
+      "page": 95,
       "className": "Tinkerer",
       "classSource": "D&tinDF-PHB",
       "shortName": "Meteorology",
@@ -373,7 +473,7 @@
     {
       "name": "Robotics",
       "source": "D&tinDF-PHB",
-      "page": 7,
+      "page": 95,
       "className": "Tinkerer",
       "classSource": "D&tinDF-PHB",
       "shortName": "Robotics",
@@ -397,59 +497,59 @@
     {
       "name": "Deflector Shield",
       "source": "D&tinDF-PHB",
-      "page": 5,
+      "page": 94,
       "subclassSource": "D&tinDF-PHB",
       "className": "Tinkerer",
       "classSource": "D&tinDF-PHB",
       "subclassShortName": "Military Science",
       "level": 2,
       "entries": [
-        "When you are hit by an attack or fail a saving throw, you can use your reaction to gain +2 to AC against that attack or +4 to that saving throw. When you use this feature, you cannot cast spells other than cantrips until the end of your next turn."
+        "At 2nd Level, you have learned to create technology that fortifies yourself against harm. When you are hit by an Attack or you fail a saving throw, you can use your Reaction to gain a +2 bonus to your AC against that Attack or a +4 bonus to that saving throw.\nWhen you use this feature, you can’t cast Creation Powers (Spells) other than Natural Abilities (Cantrips) until the end of your next turn."
       ]
     },
     {
       "name": "Tactical Mind",
       "source": "D&tinDF-PHB",
-      "page": 5,
+      "page": 94,
       "className": "Tinkerer",
       "subclassSource": "D&tinDF-PHB",
       "classSource": "D&tinDF-PHB",
       "subclassShortName": "Military Science",
       "level": 2,
       "entries": [
-        "You gain a bonus to initiative equal to your Intelligence modifier."
+        "Starting at 2nd Level, your quick wit and tactical thinking allows you to react fast in battle. You gain a bonus to your Initiative rolls equal to your Intelligence modifier."
       ]
     },
     {
       "name": "Power Surge",
       "source": "D&tinDF-PHB",
-      "page": 5,
+      "page": 94,
       "className": "Tinkerer",
       "subclassSource": "D&tinDF-PHB",
       "classSource": "D&tinDF-PHB",
       "subclassShortName": "Military Science",
       "level": 6,
       "entries": [
-        "You can store Power Surges equal to your Intelligence modifier (minimum 1). After a long rest your Power Surges reset to 1. When you successfully end a spell with Dispel Magic or Counterspell, you gain one Power Surge. Spend a Power Surge to add force damage equal to your Tinkerer level to a damaging Tinkerer spell (once per turn)."
+        "Starting at 6th level, you can store power and energy within your gadgets to later empower your damaging Creation Powers (Spells). In its stored form, this energy is called a Power Surge.\nYou can store a maximum number of Power Surges equal to your Intelligence modifier (minimum of one). Whenever you finish a Long Rest, your number of Power Surges resets to one. Whenever you successfully end a creation power (spell) with Dispel Magic or Counterspell, you gain one Power Surge, as you steal energy from the special power (spell) you foiled. If you end a Short Rest with no Power Surges, you gain one Power Surge.\nOnce per turn when you deal damage to a creature or object with a Tinkerer creation power (spell), you can spend one Power Surge to deal extra force damage to that target. The extra damage equals your Tinkerer level."
       ]
     },
     {
       "name": "Durable Tech",
       "source": "D&tinDF-PHB",
-      "page": 5,
+      "page": 94,
       "className": "Tinkerer",
       "subclassSource": "D&tinDF-PHB",
       "classSource": "D&tinDF-PHB",
       "subclassShortName": "Military Science",
       "level": 10,
       "entries": [
-        "While concentrating on a spell, you gain +2 to AC and +2 to all saving throws."
+        "Beginning at 10th level, your technology is made to be incredibly tough and difficult to disrupt. While you maintain Concentration on a spell, you have a +2 bonus to AC and all Saving Throws."
       ]
     },
     {
       "name": "Deflecting Shroud",
       "source": "D&tinDF-PHB",
-      "page": 5,
+      "page": 94,
       "subclassSource": "D&tinDF-PHB",
       "className": "Tinkerer",
       "classSource": "D&tinDF-PHB",
@@ -462,59 +562,59 @@
     {
       "name": "Cloud Surfing",
       "source": "D&tinDF-PHB",
-      "page": 6,
+      "page": 95,
       "className": "Tinkerer",
       "subclassSource": "D&tinDF-PHB",
       "classSource": "D&tinDF-PHB",
       "subclassShortName": "Meteorology",
       "level": 2,
       "entries": [
-        "As a bonus action immediately before or after you cast a 1st-level or higher Tinkerer spell, create a floating cloud beneath you and fly up to 10 feet without provoking opportunity attacks."
+        "Starting at 2nd level, you can use a Bonus Action on Your Turn to create a floating cloud beneath you that that pulls you in any direction using an air current, immediately before or after you Cast a Creation Power (Spell) of 1st level or higher. Doing so allows you to fly up to 10 feet without provoking Opportunity Attacks."
       ]
     },
     {
       "name": "Storm Forecasting",
       "source": "D&tinDF-PHB",
-      "page": 6,
+      "page": 95,
       "className": "Tinkerer",
       "subclassSource": "D&tinDF-PHB",
       "classSource": "D&tinDF-PHB",
       "subclassShortName": "Meteorology",
       "level": 6,
       "entries": [
-        "While holding your gadget, you have resistance to lightning and thunder. When you start casting a Tinkerer spell of 1st level or higher that deals lightning or thunder, you may cause creatures of your choice within 10 feet to take lightning or thunder damage equal to half your Tinkerer level."
+        "At 6th level, you gain Resistance to lightning and thunder damage while holding your gadget. In addition, whenever you start Casting a Creation Power (Spell) of 1st level or higher that deals lightning or thunder damage, storm clouds emerge from your gadget. This eruption causes creatures of your choice that you can see within 10 feet of you to take lightning or thunder damage (choose each time this ability activates) equal to half your Tinkerer level.\nAt 18th level, you become immune to lightning and thunder damage while holding your gadget."
       ]
     },
     {
       "name": "Weather Control",
       "source": "D&tinDF-PHB",
-      "page": 6,
+      "page": 95,
       "className": "Tinkerer",
       "subclassSource": "D&tinDF-PHB",
       "classSource": "D&tinDF-PHB",
       "subclassShortName": "Meteorology",
       "level": 10,
       "entries": [
-        "You can use an action to change weather effects in a 20-foot-radius sphere centered on you (detailed in the class text). You can use this effect a number of times equal to your proficiency bonus per long rest; you may expend a spell slot to use it again."
+        "At 10th level, you gain the ability to create and control weather around you.\nIf it is raining, you can use an action to cause the rain to stop Falling or wind to change direction in a 20-foot-radius Sphere centered on you. You can end this Effect as a Bonus Action.\nAs an action, you can cause clouds to form in a 20-foot-radius Sphere around you and create rain and wind in that area for 1 minute. Up to 10 gallons of water will fall from this rain altogether onto whatever surface is beneath it, extinguishing any small flames, and reducing all fire damage dealt in the area by an amount equal to your intelligence modifier. The wind will disperse any fog within 20 feet of you while this Effect is active. You can also end this Effect as a Bonus Action. You can use this effect a number of times equal to your proficiency bonus until you complete a Long Rest. If you are out of uses of this feature, you may expend a creation power (spell) slot to use it again."
       ]
     },
     {
       "name": "Thunder Counter",
       "source": "D&tinDF-PHB",
-      "page": 6,
+      "page": 95,
       "className": "Tinkerer",
       "subclassSource": "D&tinDF-PHB",
       "classSource": "D&tinDF-PHB",
       "subclassShortName": "Meteorology",
       "level": 14,
       "entries": [
-        "When hit by a melee attack, use your reaction to deal thunder damage equal to your Tinkerer level to the attacker. The attacker must make a Strength save vs your Creation save DC or be pushed up to 20 feet in a straight line."
+        "Starting at 14th level, when you are hit by a melee Attack, you can use your Reaction to deal thunder damage to the attacker. The damage equals your Tinkerer level. The attacker must also make a Strength saving throw against your Tinkerer creation (spell) save DC. On a failed save, the attacker is pushed in a straight line up to 20 feet away from you."
       ]
     },
     {
       "name": "Storm Immunity",
       "source": "D&tinDF-PHB",
-      "page": 6,
+      "page": 95,
       "className": "Tinkerer",
       "subclassSource": "D&tinDF-PHB",
       "classSource": "D&tinDF-PHB",
@@ -527,66 +627,66 @@
     {
       "name": "Machine Summoning",
       "source": "D&tinDF-PHB",
-      "page": 7,
+      "page": 95,
       "className": "Tinkerer",
       "classSource": "D&tinDF-PHB",
       "subclassShortName": "Robotics",
       "subclassSource": "D&tinDF-PHB",
       "level": 2,
       "entries": [
-        "When you summon a creature with a Conjuration Tinkerer spell, it appears as a construct and counts as a Construct. The cost/time to copy a Conjuration spell into your Blueprints is halved."
+        "Starting at 2nd Level, whenever you summon a creature using a Conjuration Creation Power (spell), it will appear as a machine or robot that you crafted. It will also be considered a Construct, but retain all other properties. The money and time you must spend to copy a Conjuration creation power into Your Gadget is halved."
       ]
     },
     {
       "name": "Simple Robots",
       "source": "D&tinDF-PHB",
-      "page": 7,
+      "page": 95,
       "className": "Tinkerer",
       "classSource": "D&tinDF-PHB",
       "subclassSource": "D&tinDF-PHB",
       "subclassShortName": "Robotics",
       "level": 2,
       "entries": [
-        "As an action you can craft a tiny or small robot that functions within 30 feet of you; AC = 8 + INT modifier, HP = 1, speed 30 ft (pick walk/swim/fly). The robot lasts 1 hour unless maintained; it is destroyed on taking damage or if you create another."
+        "At 2nd Level, you can use your action to quickly craft a short robot in your hand or on the ground in an unoccupied space that you can see within 5 feet of you. This robot counts as a tiny or small Construct and weighs no more than 10 pounds, and it can only be made of simple materials and metals. Its AC is equal to 8 + your Intelligence Modifier, and its HP is 1. It can function and move within 30 feet of you while you hold your Gadget. Once it leaves this radius, it will power down and become useless. It can walk, swim, or fly (pick one) at a speed of 30 feet while it is active, and carry up to half of its weight. As an action on your turn, you can tell it to perform a simple task such as retrieving an object nearby, opening a small door, or fitting through a tight space.\nAdditionally, you can instead create an inanimate contraption in your hand or on the ground in an unoccupied space that you can see within 5 feet of you. This object can be no larger than 3 feet on a side and weigh no more than 10 pounds, and its shape must be that of a simple object that you have seen. The object is electrically powered, radiating bright light in a 20-foot radius and dim light for an additional 20 feet if you use a bonus action to turn it on.\nThis robot or contraption falls apart and gets destroyed after 1 hour unless you spend an action to maintain it at the end of the hour. It will also be destroyed if it takes at least a point of damage, or if you make another robot or contraption."
       ]
     },
     {
       "name": "Quantum Teleportation",
       "source": "D&tinDF-PHB",
-      "page": 7,
+      "page": 95,
       "className": "Tinkerer",
       "classSource": "D&tinDF-PHB",
       "subclassSource": "D&tinDF-PHB",
       "subclassShortName": "Robotics",
       "level": 6,
       "entries": [
-        "As an action you can teleport up to 30 feet to an unoccupied space you can see, or swap places with a robot/construct you created within range. Recharge: long rest or casting a Conjuration Tinkerer spell of 1st level or higher."
+        "Starting at 6th level, you can use your action to teleport⁠ up to 30 feet to an unoccupied space that you can see. Alternatively, you can choose a space within range that is occupied by a robot, contraption, or Construct that you have created or summoned. You both teleport, swapping places.\nOnce you use this feature, you can’t use it again until you finish a Long Rest or you cast a Conjuration creation power (spell) of 1st level or higher."
       ]
     },
     {
       "name": "Autopilot Controls",
       "source": "D&tinDF-PHB",
-      "page": 7,
+      "page": 95,
       "subclassSource": "D&tinDF-PHB",
       "className": "Tinkerer",
       "classSource": "D&tinDF-PHB",
       "subclassShortName": "Robotics",
       "level": 10,
       "entries": [
-        "While you are concentrating on a Conjuration spell, your concentration cannot be broken as a result of taking damage."
+        "Beginning at 10th level, while you are concentrating on a Conjuration creation power (spell), your Concentration can’t be broken as a result of taking damage."
       ]
     },
     {
       "name": "Reinforced Exterior",
       "source": "D&tinDF-PHB",
       "subclassSource": "D&tinDF-PHB",
-      "page": 7,
+      "page": 95,
       "className": "Tinkerer",
       "classSource": "D&tinDF-PHB",
       "subclassShortName": "Robotics",
       "level": 14,
       "entries": [
-        "Creatures you summon or create with a Conjuration Tinkerer spell gain 30 temporary hit points."
+        "Starting at 14th level, any creature that you summon or create with a Conjuration creation power (spell) has 30 Temporary Hit Points."
       ]
     }
   ]  
