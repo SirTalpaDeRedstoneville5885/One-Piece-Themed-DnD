@@ -5,16 +5,17 @@
       {
         "json": "D&tinDF-PHB",
         "abbreviation": "D&tinDF-PHB",
-        "full": "D&tinDF-PHB",
+        "full": "One Piece Tinker and his shits",
         "authors": [
-          "HomebrewAuthor"
+          "OneWorldHD"
         ],
         "convertedBy": [
-          "ConvertedBy"
+          "Tarun",
+          "SirTalpadeRedstoneville58"
         ],
-        "version": "1.0.0",
-        "color": "33FFCA",
-        "url": ""
+        "version": "2.6.1",
+        "color": "0B3075",
+        "url": "https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm"
       }
     ],
     "dateAdded": 1710000000,
@@ -25,30 +26,13 @@
       "name": "Tinkerer",
       "source": "D&tinDF-PHB",
       "page": 1,
-      "hd": {
-        "number": 1,
-        "faces": 6
-      },
+      "hd": { "number": 1, "faces": 6 },
       "subclassTitle": "Tinkerer Study",
-      "proficiency": [
-        "int",
-        "wis"
-      ],
+      "proficiency": ["int", "wis"],
       "startingProficiencies": {
-        "armor": [
-          "none"
-        ],
-        "weapons": [
-          "dagger",
-          "dart",
-          "sling",
-          "quarterstaff",
-          "musket"
-        ],
-        "tools": [
-          "thieves' tools",
-          "tinker's tools"
-        ],
+        "armor": ["none"],
+        "weapons": ["dagger", "dart", "sling", "quarterstaff", "musket"],
+        "tools": ["thieves' tools", "tinker's tools"],
         "skills": [
           {
             "choose": {
@@ -73,7 +57,7 @@
           "thieves' tools",
           "dungeoneer's pack"
         ],
-        "goldAlternative": "{@dice 5d4 × 10|5d4 × 10|Starting Gold}"
+        "goldAlternative": "{@dice 5d4×10|5d4×10|Starting Gold}"
       },
       "classFeatures": [
         "Creation Power (Spellcasting)|Tinkerer|D&tinDF-PHB|1",
@@ -102,315 +86,37 @@
             "9th"
           ],
           "rows": [
-            [
-              "1",
-              "+2",
-              "3",
-              "2",
-              "—",
-              "—",
-              "—",
-              "—",
-              "—",
-              "—",
-              "—",
-              "—"
-            ],
-            [
-              "2",
-              "+2",
-              "3",
-              "3",
-              "—",
-              "—",
-              "—",
-              "—",
-              "—",
-              "—",
-              "—",
-              "—"
-            ],
-            [
-              "3",
-              "+2",
-              "3",
-              "4",
-              "2",
-              "—",
-              "—",
-              "—",
-              "—",
-              "—",
-              "—",
-              "—"
-            ],
-            [
-              "4",
-              "+2",
-              "4",
-              "4",
-              "3",
-              "—",
-              "—",
-              "—",
-              "—",
-              "—",
-              "—",
-              "—"
-            ],
-            [
-              "5",
-              "+3",
-              "4",
-              "4",
-              "3",
-              "2",
-              "—",
-              "—",
-              "—",
-              "—",
-              "—",
-              "—"
-            ],
-            [
-              "6",
-              "+3",
-              "4",
-              "4",
-              "3",
-              "3",
-              "—",
-              "—",
-              "—",
-              "—",
-              "—",
-              "—"
-            ],
-            [
-              "7",
-              "+3",
-              "4",
-              "4",
-              "3",
-              "3",
-              "1",
-              "—",
-              "—",
-              "—",
-              "—",
-              "—"
-            ],
-            [
-              "8",
-              "+3",
-              "4",
-              "4",
-              "3",
-              "3",
-              "2",
-              "—",
-              "—",
-              "—",
-              "—",
-              "—"
-            ],
-            [
-              "9",
-              "+4",
-              "4",
-              "4",
-              "3",
-              "3",
-              "3",
-              "1",
-              "—",
-              "—",
-              "—",
-              "—"
-            ],
-            [
-              "10",
-              "+4",
-              "5",
-              "4",
-              "3",
-              "3",
-              "3",
-              "2",
-              "—",
-              "—",
-              "—",
-              "—"
-            ],
-            [
-              "11",
-              "+4",
-              "5",
-              "4",
-              "3",
-              "3",
-              "3",
-              "2",
-              "1",
-              "—",
-              "—",
-              "—"
-            ],
-            [
-              "12",
-              "+4",
-              "5",
-              "4",
-              "3",
-              "3",
-              "3",
-              "2",
-              "1",
-              "—",
-              "—",
-              "—"
-            ],
-            [
-              "13",
-              "+5",
-              "5",
-              "4",
-              "3",
-              "3",
-              "3",
-              "2",
-              "1",
-              "1",
-              "—",
-              "—"
-            ],
-            [
-              "14",
-              "+5",
-              "5",
-              "4",
-              "3",
-              "3",
-              "3",
-              "2",
-              "1",
-              "1",
-              "—",
-              "—"
-            ],
-            [
-              "15",
-              "+5",
-              "5",
-              "4",
-              "3",
-              "3",
-              "3",
-              "2",
-              "1",
-              "1",
-              "1",
-              "—"
-            ],
-            [
-              "16",
-              "+5",
-              "5",
-              "4",
-              "3",
-              "3",
-              "3",
-              "2",
-              "1",
-              "1",
-              "1",
-              "—"
-            ],
-            [
-              "17",
-              "+6",
-              "5",
-              "4",
-              "3",
-              "3",
-              "3",
-              "2",
-              "1",
-              "1",
-              "1",
-              "1"
-            ],
-            [
-              "18",
-              "+6",
-              "5",
-              "4",
-              "3",
-              "3",
-              "3",
-              "3",
-              "1",
-              "1",
-              "1",
-              "1"
-            ],
-            [
-              "19",
-              "+6",
-              "5",
-              "4",
-              "3",
-              "3",
-              "3",
-              "3",
-              "2",
-              "1",
-              "1",
-              "1"
-            ],
-            [
-              "20",
-              "+6",
-              "5",
-              "4",
-              "3",
-              "3",
-              "3",
-              "3",
-              "2",
-              "2",
-              "1",
-              "1"
-            ]
+            ["1", "+2", "3", "2", "—", "—", "—", "—", "—", "—", "—", "—"],
+            ["2", "+2", "3", "3", "—", "—", "—", "—", "—", "—", "—", "—"],
+            ["3", "+2", "3", "4", "2", "—", "—", "—", "—", "—", "—", "—"],
+            ["4", "+2", "4", "4", "3", "—", "—", "—", "—", "—", "—", "—"],
+            ["5", "+3", "4", "4", "3", "2", "—", "—", "—", "—", "—", "—"],
+            ["6", "+3", "4", "4", "3", "3", "—", "—", "—", "—", "—", "—"],
+            ["7", "+3", "4", "4", "3", "3", "1", "—", "—", "—", "—", "—"],
+            ["8", "+3", "4", "4", "3", "3", "2", "—", "—", "—", "—", "—"],
+            ["9", "+4", "4", "4", "3", "3", "3", "1", "—", "—", "—", "—"],
+            ["10", "+4", "5", "4", "3", "3", "3", "2", "—", "—", "—", "—"],
+            ["11", "+4", "5", "4", "3", "3", "3", "2", "1", "—", "—", "—"],
+            ["12", "+4", "5", "4", "3", "3", "3", "2", "1", "—", "—", "—"],
+            ["13", "+5", "5", "4", "3", "3", "3", "2", "1", "1", "—", "—"],
+            ["14", "+5", "5", "4", "3", "3", "3", "2", "1", "1", "—", "—"],
+            ["15", "+5", "5", "4", "3", "3", "3", "2", "1", "1", "1", "—"],
+            ["16", "+5", "5", "4", "3", "3", "3", "2", "1", "1", "1", "—"],
+            ["17", "+6", "5", "4", "3", "3", "3", "2", "1", "1", "1", "1"],
+            ["18", "+6", "5", "4", "3", "3", "3", "3", "1", "1", "1", "1"],
+            ["19", "+6", "5", "4", "3", "3", "3", "3", "2", "1", "1", "1"],
+            ["20", "+6", "5", "4", "3", "3", "3", "3", "2", "2", "1", "1"]
           ]
         }
       ],
       "spellcasting": {
-        "spellcastingAbility": "int",
-        "spellcastingProgression": "third",
-        "cantripsKnownAtLevel": {
-          "1": 3,
-          "2": 3,
-          "3": 3,
-          "4": 4,
-          "5": 4,
-          "6": 4,
-          "7": 4,
-          "8": 4,
-          "9": 4,
-          "10": 5,
-          "11": 5,
-          "12": 5,
-          "13": 5,
-          "14": 5,
-          "15": 5,
-          "16": 5,
-          "17": 5,
-          "18": 5,
-          "19": 5,
-          "20": 5
-        },
-        "spellList": "Tinkerer"
+        "ability": "int",
+        "progression": "third",
+        "cantripsKnownProgression": [
+          3, 3, 3, 4, 4, 4, 4, 4, 4, 5,
+          5, 5, 5, 5, 5, 5, 5, 5, 5, 5
+        ],
+        "spellList": { "class": "Tinkerer" }
       }
     }
   ],
@@ -419,6 +125,7 @@
       "name": "Creation Power (Spellcasting)",
       "page": 2,
       "className": "Tinkerer",
+      "source": "D&tinDF-PHB",
       "classSource": "D&tinDF-PHB",
       "level": 1,
       "entries": [
@@ -433,6 +140,7 @@
       "page": 2,
       "className": "Tinkerer",
       "classSource": "D&tinDF-PHB",
+      "source": "D&tinDF-PHB",
       "level": 1,
       "entries": [
         "Once per day when you finish a short rest, you can choose expended spell slots to recover. The combined level of the slots you recover can be equal to or less than half your Tinkerer level (rounded up). None of the returned slots can be 6th level or higher."
@@ -443,6 +151,7 @@
       "page": 3,
       "className": "Tinkerer",
       "classSource": "D&tinDF-PHB",
+      "source": "D&tinDF-PHB",
       "level": 2,
       "entries": [
         "At 2nd level you choose a Tinkerer Study: Military Science, Meteorology, or Robotics. Your choice gives features at 2nd level and again at 6th, 10th, and 14th level."
@@ -453,6 +162,7 @@
       "page": 3,
       "className": "Tinkerer",
       "classSource": "D&tinDF-PHB",
+      "source": "D&tinDF-PHB",
       "level": 3,
       "entries": [
         "Whenever you finish a long rest, you can replace one Tinkerer cantrip you know with another cantrip from the Tinkerer spell list."
@@ -463,6 +173,7 @@
       "page": 3,
       "className": "Tinkerer",
       "classSource": "D&tinDF-PHB",
+      "source": "D&tinDF-PHB",
       "level": 4,
       "entries": [
         "At levels 4, 8, 12, 16, and 19 you can increase ability scores as usual, or take a feat if your DM allows."
@@ -472,6 +183,7 @@
       "name": "Master of Innovation",
       "page": 4,
       "className": "Tinkerer",
+      "source": "D&tinDF-PHB",
       "classSource": "D&tinDF-PHB",
       "level": 18,
       "entries": [
@@ -482,12 +194,25 @@
       "name": "Ultimate Technology",
       "page": 4,
       "className": "Tinkerer",
+      "source": "D&tinDF-PHB",
       "classSource": "D&tinDF-PHB",
       "level": 20,
       "entries": [
         "Choose two 3rd-level Tinkerer spells in your Blueprints as signature creation powers. You always have these prepared and can cast each once at 3rd level without expending a slot. You regain uses after a short or long rest."
       ]
-    }
+    },
+    {
+    "name": "Tinkerer Study feature",
+    "page": 3,
+    "className": "Tinkerer",
+    "classSource": "D&tinDF-PHB",
+    "source": "D&tinDF-PHB",
+    "level": 6,
+    "entries": [
+      "At 6th level, you gain an additional feature from your chosen Tinkerer Study."
+    ]
+  }
+
   ],
   "subclass": [
     {
@@ -510,8 +235,7 @@
         "entries": [
           "Those who study military science apply their tinkering to warfare, improving offensive and defensive capabilities."
         ]
-      },
-      "casterProgression": "none"
+      }
     },
     {
       "name": "Meteorology",
@@ -520,13 +244,6 @@
       "className": "Tinkerer",
       "classSource": "D&tinDF-PHB",
       "shortName": "Meteorology",
-      "subclassFeatures": [
-        "Cloud Surfing|Tinkerer|D&tinDF-PHB|2",
-        "Storm Forecasting|Tinkerer|D&tinDF-PHB|6",
-        "Weather Control|Tinkerer|D&tinDF-PHB|10",
-        "Thunder Counter|Tinkerer|D&tinDF-PHB|14",
-        "Storm Immunity|Tinkerer|D&tinDF-PHB|18"
-      ],
       "fluff": {
         "type": "entries",
         "name": "Meteorology",
@@ -534,7 +251,13 @@
           "Meteorology tinkerers manipulate weather and storms with their technology."
         ]
       },
-      "casterProgression": "none"
+      "subclassFeatures": [
+        "Cloud Surfing|Tinkerer|D&tinDF-PHB|2",
+        "Storm Forecasting|Tinkerer|D&tinDF-PHB|6",
+        "Weather Control|Tinkerer|D&tinDF-PHB|10",
+        "Thunder Counter|Tinkerer|D&tinDF-PHB|14",
+        "Storm Immunity|Tinkerer|D&tinDF-PHB|18"
+      ]
     },
     {
       "name": "Robotics",
@@ -556,15 +279,15 @@
         "entries": [
           "Robotics tinkerers craft automatons, constructs, and robots to assist them."
         ]
-      },
-      "casterProgression": "none"
+      }
     }
   ],
-  "subclassFeature": [
+   "subclassFeature": [
     {
       "name": "Deflector Shield",
       "source": "D&tinDF-PHB",
       "page": 5,
+      "subclassSource": "D&tinDF-PHB",
       "className": "Tinkerer",
       "classSource": "D&tinDF-PHB",
       "subclassShortName": "Military Science",
@@ -578,6 +301,7 @@
       "source": "D&tinDF-PHB",
       "page": 5,
       "className": "Tinkerer",
+      "subclassSource": "D&tinDF-PHB",
       "classSource": "D&tinDF-PHB",
       "subclassShortName": "Military Science",
       "level": 2,
@@ -590,6 +314,7 @@
       "source": "D&tinDF-PHB",
       "page": 5,
       "className": "Tinkerer",
+      "subclassSource": "D&tinDF-PHB",
       "classSource": "D&tinDF-PHB",
       "subclassShortName": "Military Science",
       "level": 6,
@@ -602,6 +327,7 @@
       "source": "D&tinDF-PHB",
       "page": 5,
       "className": "Tinkerer",
+      "subclassSource": "D&tinDF-PHB",
       "classSource": "D&tinDF-PHB",
       "subclassShortName": "Military Science",
       "level": 10,
@@ -613,6 +339,7 @@
       "name": "Deflecting Shroud",
       "source": "D&tinDF-PHB",
       "page": 5,
+      "subclassSource": "D&tinDF-PHB",
       "className": "Tinkerer",
       "classSource": "D&tinDF-PHB",
       "subclassShortName": "Military Science",
@@ -626,6 +353,7 @@
       "source": "D&tinDF-PHB",
       "page": 6,
       "className": "Tinkerer",
+      "subclassSource": "D&tinDF-PHB",
       "classSource": "D&tinDF-PHB",
       "subclassShortName": "Meteorology",
       "level": 2,
@@ -638,6 +366,7 @@
       "source": "D&tinDF-PHB",
       "page": 6,
       "className": "Tinkerer",
+      "subclassSource": "D&tinDF-PHB",
       "classSource": "D&tinDF-PHB",
       "subclassShortName": "Meteorology",
       "level": 6,
@@ -650,6 +379,7 @@
       "source": "D&tinDF-PHB",
       "page": 6,
       "className": "Tinkerer",
+      "subclassSource": "D&tinDF-PHB",
       "classSource": "D&tinDF-PHB",
       "subclassShortName": "Meteorology",
       "level": 10,
@@ -662,6 +392,7 @@
       "source": "D&tinDF-PHB",
       "page": 6,
       "className": "Tinkerer",
+      "subclassSource": "D&tinDF-PHB",
       "classSource": "D&tinDF-PHB",
       "subclassShortName": "Meteorology",
       "level": 14,
@@ -674,6 +405,7 @@
       "source": "D&tinDF-PHB",
       "page": 6,
       "className": "Tinkerer",
+      "subclassSource": "D&tinDF-PHB",
       "classSource": "D&tinDF-PHB",
       "subclassShortName": "Meteorology",
       "level": 18,
@@ -688,6 +420,7 @@
       "className": "Tinkerer",
       "classSource": "D&tinDF-PHB",
       "subclassShortName": "Robotics",
+      "subclassSource": "D&tinDF-PHB",
       "level": 2,
       "entries": [
         "When you summon a creature with a Conjuration Tinkerer spell, it appears as a construct and counts as a Construct. The cost/time to copy a Conjuration spell into your Blueprints is halved."
@@ -699,6 +432,7 @@
       "page": 7,
       "className": "Tinkerer",
       "classSource": "D&tinDF-PHB",
+      "subclassSource": "D&tinDF-PHB",
       "subclassShortName": "Robotics",
       "level": 2,
       "entries": [
@@ -711,6 +445,7 @@
       "page": 7,
       "className": "Tinkerer",
       "classSource": "D&tinDF-PHB",
+      "subclassSource": "D&tinDF-PHB",
       "subclassShortName": "Robotics",
       "level": 6,
       "entries": [
@@ -721,6 +456,7 @@
       "name": "Autopilot Controls",
       "source": "D&tinDF-PHB",
       "page": 7,
+      "subclassSource": "D&tinDF-PHB",
       "className": "Tinkerer",
       "classSource": "D&tinDF-PHB",
       "subclassShortName": "Robotics",
@@ -732,6 +468,7 @@
     {
       "name": "Reinforced Exterior",
       "source": "D&tinDF-PHB",
+      "subclassSource": "D&tinDF-PHB",
       "page": 7,
       "className": "Tinkerer",
       "classSource": "D&tinDF-PHB",
@@ -744,10 +481,9 @@
   ],
   "spellList":[
     {
-          "name": "Tinkerer",
-          "source": "D&tinDF-PHB",
-          "spellListType": "groups",
-          "spells": {
+          "name": "Tinkerer",          
+          "spells": 
+          [
             "0": [ "Acid Splash", "Blade Ward", "Booming Blade", "Chill Touch", "Control Flames", "Create Bonfire", "Dancing Lights", "Encode Thoughts", "Fire Bolt", "Friends", "Frostbite", "Green-Flame Blade", "Gust", "Infestation", "Light", "Lightning Lure", "Mage Hand", "Mending", "Message", "Mind Sliver", "Minor Illusion", "Mold Earth", "Poison Spray", "Prestidigitation", "Ray of Frost", "Sapping Sting", "Shocking Grasp", "Sword Burst", "Thunderclap", "Toll the Dead", "True Strike" ],
             "1": [ "Absorb Elements", "Alarm", "Burning Hands", "Catapult", "Cause Fear", "Charm Person", "Chromatic Orb", "Color Spray", "Detect Magic", "Disguise Self", "Distort Value", "Earth Tremor", "Expeditious Retreat", "False Life", "Feather Fall", "Find Familiar", "Fog Cloud", "Frost Fingers", "Gift of Alacrity", "Grease", "Ice Knife", "Identify", "Illusory Script", "Jump", "Longstrider", "Mage Armor", "Magic Missile", "Magnify Gravity", "Protection from Evil and Good", "Ray of Sickness", "Shield", "Silent Image", "Silvery Barbs", "Sleep", "Snare", "Tasha's Caustic Brew", "Tasha's Hideous Laughter", "Tenser's Floating Disk", "Thunderwave", "Unseen Servant", "Witch Bolt" ],
             "2": [ "Aganazzar's Scorcher", "Air Bubble", "Alter Self", "Arcane Lock", "Augury", "Blindness/Deafness", "Blur", "Borrowed Knowledge", "Cloud of Daggers", "Continual Flame", "Crown of Madness", "Darkness", "Darkvision", "Detect Thoughts", "Dragon's Breath", "Dust Devil", "Earthbind", "Enhance Ability", "Enlarge/Reduce", "Flaming Sphere", "Flock of Familiars", "Fortune's Favor", "Gentle Repose", "Gift of Gab", "Gust of Wind", "Hold Person", "Immovable Object", "Invisibility", "Kinetic Jaunt", "Knock", "Levitate", "Locate Object", "Magic Mouth", "Magic Weapon", "Melf's Acid Arrow", "Mind Spike", "Mirror Image", "Misty Step", "Phantasmal Force", "Pyrotechnics", "Ray of Enfeeblement", "Rope Trick", "Scorching Ray", "See Invisibility", "Shadow Blade", "Shatter", "Snilloc's Snowball Swarm", "Spider Climb", "Suggestion", "Tasha's Mind Whip", "Vortex Warp", "Warding Wind", "Web" ],
@@ -757,8 +493,10 @@
             "6": [ "Chain Lightning", "Circle of Death", "Contingency", "Create Homunculus", "Create Undead", "Disintegrate", "Eyebite", "Globe of Invulnerability", "Fizban's Platinum Shield", "Flesh to Stone", "Move Earth", "Programmed Illusion", "Soul Cage", "Sunbeam", "True Seeing" ],
             "7": [ "Crown of Stars", "Delayed Blast Fireball", "Finger of Death", "Forcecage", "Project Image", "Reverse Gravity", "Resurrection", "Simulacrum" ],
             "8": [ "Antimagic Field", "Clone", "Control Weather", "Demiplane", "Feeblemind", "Maze", "Mind Blank", "Power Word Stun"  ],
-            "9": [ "Foresight","Imprisonment","Meteor Swarm","Power Word Kill","True Polymorph","Weird" ]
-    }
+            "9": [ "Foresight","Imprisonment","Meteor Swarm","Power Word Kill","True Polymorph","Weird" ],
+          ],
+          "source": "D&tinDF-PHB",
+          "spellListType": "groups"
     }
   ]
 }

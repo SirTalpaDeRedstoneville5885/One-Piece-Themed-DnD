@@ -14,7 +14,7 @@ All the ones that do not have the (DMG) are from the D&DF-PHB
 - [x] Priest
 - [x] Rogue
 - [ ] Skald
-- [ ] Tinkerer
+- [ ] Tinkerer (WIP)
 - [x] Warrior
 
 ### Items
@@ -35,6 +35,11 @@ All the ones that do not have the (DMG) are from the D&DF-PHB
 - [ ] Dreams
 - [ ] Feats
 - [ ] Haki
+
+### Other
+
+- [ ] Custom Spells
+- [ ] Spell Lists
 
 ### Book things
 

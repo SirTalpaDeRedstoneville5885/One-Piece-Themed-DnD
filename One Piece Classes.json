@@ -12,7 +12,7 @@
           "Tarun",
           "SirTalpadeRedstoneville58"
         ],
-        "version": "2.3.1",
+        "version": "2.4.0",
         "color": "33FFCA",
         "url": "https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm"
       }
@@ -3407,6 +3407,62 @@
             }
           ]
         },
+        "startingEquipment": {
+				"additionalFromBackground": true,
+				"default": [
+					"(a) {@item chain mail|phb} or (b) {@item thick shirt|D&DF-PHB}, {@item rifle|dmg}, and {@item bullets (20)|dmg|20 bullets}",
+					"(a) a {@filter martial weapon|items|source=phb|category=basic|type=martial weapon} and a {@item shield|phb} or (b) two {@filter martial weapons|items|source=phb|category=basic|type=martial weapon}",
+					"(a) a {@item pistol|dmg} and {@item bullets (20)|dmg|20 bullets} or (b) two {@item handaxe|phb|handaxes}",
+					"(a) a {@item dungeoneer's pack|phb} or (b) an {@item explorer's pack|phb}"
+				],
+				"goldAlternative": "{@dice 5d4 × 10|5d4 × 10|Starting Gold}",
+				"defaultData": [
+					{
+						"a": [
+							"chain mail|phb"
+						],
+						"b": [
+							"{@item thick shirt|D&DF-PHB}",
+              "{@item rifle|dmg}",
+              "{@item bullets (20)|dmg|20 bullets}"
+						]
+					},
+					{
+						"a": [
+							{
+								"equipmentType": "weaponMartial"
+							},
+							"shield|phb"
+						],
+						"b": [
+							{
+								"equipmentType": "weaponMartial",
+								"quantity": 2
+							}
+						]
+					},
+					{
+						"a": [
+							"{@item pistol|dmg}",
+              "{@item bullets (20)|dmg|20 bullets}"
+						],
+						"b": [
+							{
+								"item": "handaxe|phb",
+								"quantity": 2
+							}
+						]
+					},
+					{
+						"a": [
+							"dungeoneer's pack|phb"
+						],
+						"b": [
+							"explorer's pack|phb"
+						]
+					}
+				]
+			},
         "proficienciesGained": {
           "armor": [
             "light",
