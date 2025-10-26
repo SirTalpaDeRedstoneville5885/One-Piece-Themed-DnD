@@ -1,46 +1,76 @@
 {
-"$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+  "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+  "_meta": {
+    "sources": [
+      {
+        "json": "SkaldHB",
+        "abbreviation": "SkaldHB",
+        "full": "Skald Homebrew",
+        "authors": ["HomebrewAuthor"],
+        "convertedBy": ["ConvertedBy"],
+        "version": "1.0.0",
+        "color": "33FFCA",
+        "url": ""
+      }
+    ],
+    "dateAdded": 1710000000,
+    "dateLastModified": 1710000000,
+    "edition": "classic"
+  },
   "class": [
     {
       "name": "Skald",
       "source": "SkaldHB",
-      "edition": "classic",
-      "hd": {
-        "number": 1,
-        "faces": 8
-      },
-      "proficiency": {
+      "page": 1,
+      "hd": { "number": 1, "faces": 8 },
+      "proficiency": ["dex", "cha"],
+      "subclassTitle": "Skald School",
+      "startingProficiencies": {
         "armor": ["light"],
         "weapons": ["simple", "longsword", "rapier", "cutlass", "shortsword"],
         "tools": ["three musical instruments"],
-        "savingThrows": ["dex", "cha"],
-        "skillsNumber": 3,
-        "skills": ["any"]
+        "skills": [
+          {
+            "choose": {
+              "from": [
+                "acrobatics",
+                "animal handling",
+                "arcana",
+                "athletics",
+                "history",
+                "insight",
+                "intimidation",
+                "investigation",
+                "medicine",
+                "performance",
+                "persuasion",
+                "religion",
+                "stealth"
+              ],
+              "count": 3
+            }
+          }
+        ]
       },
       "startingEquipment": {
         "additionalFromBackground": true,
         "default": [
-          "(a) Rapier, (b) Longsword, or (c) any simple weapon",
-          "(a) Pirate's pack or (b) Entertainer's pack",
+          "(a) a Rapier or (b) a Longsword or (c) any simple weapon",
+          "(a) a Pirate's pack or (b) an Entertainer's pack",
           "(a) Bagpipes or (b) any other musical instrument",
           "Thick Shirt",
           "Dagger"
-        ]
+        ],
+        "goldAlternative": "{@dice 5d4 × 10|5d4 × 10|Starting Gold}"
       },
-      "spellcastingAbility": "cha",
-      "spellcastingFactor": "full",
-      "casterProgression": "full",
-      "cantripProgression": [2,2,2,3,3,3,3,3,3,4,4,4,4,4,4,4,4,4,4,4],
-      "spellsKnownProgression": [4,5,6,7,8,9,10,11,12,14,15,15,16,18,19,19,20,22,22,22],
-      "slotsProgression": "full",
       "classTableGroups": [
         {
           "colLabels": [
             "Level",
             "Proficiency Bonus",
             "Features",
-            "Cantrips Known",
-            "Spells Known",
+            "Natural Abilities (Cantrips) Known",
+            "Spirit Powers (Spells) Known",
             "1st",
             "2nd",
             "3rd",
@@ -52,22 +82,22 @@
             "9th"
           ],
           "rows": [
-            ["1st", "+2", "Spirit Power (Spellcasting), Skaldic Verse (d6)", "2", "4", "2", "-", "-", "-", "-", "-", "-", "-", "-"],
-            ["2nd", "+2", "Jack of All Trades, Song of the Sea (d6), Versatile Verse", "2", "5", "3", "-", "-", "-", "-", "-", "-", "-", "-"],
-            ["3rd", "+2", "Skald School, Expertise", "2", "6", "4", "2", "-", "-", "-", "-", "-", "-", "-"],
-            ["4th", "+2", "Ability Score Improvement", "3", "7", "4", "3", "-", "-", "-", "-", "-", "-", "-"],
-            ["5th", "+3", "Skaldic Verse (d8), Continued Verse", "3", "8", "4", "3", "2", "-", "-", "-", "-", "-", "-", "-"],
-            ["6th", "+3", "Skald School feature, Counterverse", "3", "9", "4", "3", "3", "-", "-", "-", "-", "-", "-", "-"],
-            ["7th", "+3", "-", "3", "10", "4", "3", "3", "1", "-", "-", "-", "-", "-"],
-            ["8th", "+3", "Ability Score Improvement", "3", "11", "4", "3", "3", "2", "-", "-", "-", "-", "-"],
-            ["9th", "+4", "Song of the Sea (d8)", "3", "12", "4", "3", "3", "3", "1", "-", "-", "-", "-"],
-            ["10th", "+4", "Skaldic Verse (d10), Expertise, Tales of Legends", "4", "14", "4", "3", "3", "3", "2", "-", "-", "-", "-"],
-            ["11th", "+4", "-", "4", "15", "4", "3", "3", "3", "2", "1", "-", "-", "-"],
-            ["12th", "+4", "Ability Score Improvement", "4", "15", "4", "3", "3", "3", "2", "1", "-", "-", "-"],
-            ["13th", "+5", "Song of the Sea (d10)", "4", "16", "4", "3", "3", "3", "2", "1", "1", "-", "-"],
-            ["14th", "+5", "Skald School feature, Tales of Legends", "4", "18", "4", "3", "3", "3", "2", "1", "1", "-", "-"],
-            ["15th", "+5", "Skaldic Verse (d12)", "4", "19", "4", "3", "3", "3", "2", "1", "1", "1", "-"],
-            ["16th", "+5", "Ability Score Improvement", "4", "19", "4", "3", "3", "3", "2", "1", "1", "1", "-"],
+            ["1st", "+2", "Spirit Power (Spellcasting), Skaldic Verse (d6)", "2", "4", "2", "—", "—", "—", "—", "—", "—", "—", "—"],
+            ["2nd", "+2", "Jack of All Trades, Song of the Sea (d6), Versatile Verse", "2", "5", "3", "—", "—", "—", "—", "—", "—", "—", "—"],
+            ["3rd", "+2", "Skald School, Expertise", "2", "6", "4", "2", "—", "—", "—", "—", "—", "—", "—"],
+            ["4th", "+2", "Ability Score Improvement", "3", "7", "4", "3", "—", "—", "—", "—", "—", "—", "—"],
+            ["5th", "+3", "Skaldic Verse (d8), Continued Verse", "3", "8", "4", "3", "2", "—", "—", "—", "—", "—", "—"],
+            ["6th", "+3", "Skald School feature, Counterverse", "3", "9", "4", "3", "3", "—", "—", "—", "—", "—", "—"],
+            ["7th", "+3", "—", "3", "10", "4", "3", "3", "1", "—", "—", "—", "—", "—"],
+            ["8th", "+3", "Ability Score Improvement", "3", "11", "4", "3", "3", "2", "—", "—", "—", "—", "—"],
+            ["9th", "+4", "Song of the Sea (d8)", "3", "12", "4", "3", "3", "3", "1", "—", "—", "—", "—"],
+            ["10th", "+4", "Skaldic Verse (d10), Expertise, Tales of Legends", "4", "14", "4", "3", "3", "3", "2", "—", "—", "—", "—"],
+            ["11th", "+4", "—", "4", "15", "4", "3", "3", "3", "2", "1", "—", "—", "—"],
+            ["12th", "+4", "Ability Score Improvement", "4", "15", "4", "3", "3", "3", "2", "1", "—", "—", "—"],
+            ["13th", "+5", "Song of the Sea (d10)", "4", "16", "4", "3", "3", "3", "2", "1", "1", "—", "—"],
+            ["14th", "+5", "Skald School feature, Tales of Legends", "4", "18", "4", "3", "3", "3", "2", "1", "1", "—", "—"],
+            ["15th", "+5", "Skaldic Verse (d12)", "4", "19", "4", "3", "3", "3", "2", "1", "1", "1", "—"],
+            ["16th", "+5", "Ability Score Improvement", "4", "19", "4", "3", "3", "3", "2", "1", "1", "1", "—"],
             ["17th", "+6", "Song of the Sea (d12)", "4", "20", "4", "3", "3", "3", "2", "1", "1", "1", "1"],
             ["18th", "+6", "Tales of Legends", "4", "22", "4", "3", "3", "3", "3", "1", "1", "1", "1"],
             ["19th", "+6", "Ability Score Improvement", "4", "22", "4", "3", "3", "3", "3", "2", "1", "1", "1"],
@@ -88,44 +118,328 @@
         "Counterverse|SkaldHB|6",
         "Tales of Legends|SkaldHB|10",
         "Superior Verse|SkaldHB|20"
-      ],
-      "subclasses": [
+      ]
+    }
+  ],
+  "classFeature": [
+    {
+      "name": "Spirit Power (Spellcasting)",
+      "page": 2,
+      "className": "Skald",
+      "classSource": "SkaldHB",
+      "level": 1,
+      "entries": [
+        "You have learned to spiritually attune to the emotions of others and to project that power as Spirit Powers (spells). See the Skald table for slots and Natural Abilities (cantrips).",
+        "Natural Abilities (Cantrips): You know two cantrips of your choice from the Skald spell list. You learn additional cantrips at the levels shown in the Skald table.",
+        "Spirit Powers (Spells) Known: You know four 1st-level Spirit Powers of your choice from the Skald spell list. The Spirit Powers Known column shows when you learn more.",
+        "Spellcasting Ability: Charisma. Spirit save DC = 8 + your proficiency bonus + your Charisma modifier. Spirit attack modifier = your proficiency bonus + your Charisma modifier.",
+        "Ritual Casting: You can cast any Skald spell you know as a ritual if it has the ritual tag.",
+        "Spellcasting Focus: You can use a musical instrument as a spellcasting focus for your Skald spells."
+      ]
+    },
+    {
+      "name": "Skaldic Verse",
+      "page": 2,
+      "className": "Skald",
+      "classSource": "SkaldHB",
+      "level": 1,
+      "entries": [
+        "You can inspire powerful emotions. As a bonus action, choose one creature other than yourself within 60 feet that can hear you: that creature gains a Skaldic Verse die (a d6). Within the next 10 minutes the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The creature can wait until after it rolls before deciding to use the die, but must decide before the DM states the result.",
+        "You can use this feature a number of times equal to your Charisma modifier (minimum of once). You regain uses on a long rest. The die increases to d8 at 5th level, d10 at 10th level, and d12 at 15th level."
+      ]
+    },
+    {
+      "name": "Jack of All Trades",
+      "page": 2,
+      "className": "Skald",
+      "classSource": "SkaldHB",
+      "level": 2,
+      "entries": [
+        "Starting at 2nd level, you can add half your proficiency bonus, rounded down, to any ability check you make that doesn't already include your proficiency bonus."
+      ]
+    },
+    {
+      "name": "Song of the Sea",
+      "page": 2,
+      "className": "Skald",
+      "classSource": "SkaldHB",
+      "level": 2,
+      "entries": [
+        "Beginning at 2nd level, you can use soothing music during a short rest. If you or any friendly creatures who can hear your performance spend Hit Dice to regain hit points at the end of the short rest, each of those creatures regains an extra 1d6 HP. The extra increases to 1d8 at 9th level, 1d10 at 13th level, and 1d12 at 17th level."
+      ]
+    },
+    {
+      "name": "Versatile Verse",
+      "page": 2,
+      "className": "Skald",
+      "classSource": "SkaldHB",
+      "level": 2,
+      "entries": [
+        "If a creature has a Skaldic Verse die from you and casts a spell that restores HP or deals damage, the creature can roll that die and add the result to the HP regained or damage dealt. The die is then lost."
+      ]
+    },
+    {
+      "name": "Skald School",
+      "page": 3,
+      "className": "Skald",
+      "classSource": "SkaldHB",
+      "level": 3,
+      "entries": [
+        "At 3rd level you choose a Skald School: School of Hypnotism, School of Battlehymn, or School of the Underworld. Your choice grants features at 3rd, 6th, and 14th level."
+      ]
+    },
+    {
+      "name": "Expertise",
+      "page": 3,
+      "className": "Skald",
+      "classSource": "SkaldHB",
+      "level": 3,
+      "entries": [
+        "At 3rd level, choose two skill proficiencies. Your proficiency bonus is doubled for any ability check that uses either chosen proficiency. At 10th level choose two more."
+      ]
+    },
+    {
+      "name": "Ability Score Improvement",
+      "page": 3,
+      "className": "Skald",
+      "classSource": "SkaldHB",
+      "level": 4,
+      "entries": [
+        "When you reach 4th level, and again at 8th, 12th, 16th, and 19th, you can increase one ability score of your choice by 2, or two ability scores of your choice by 1. You can also take a feat if your DM allows."
+      ]
+    },
+    {
+      "name": "Continued Verse",
+      "page": 3,
+      "className": "Skald",
+      "classSource": "SkaldHB",
+      "level": 5,
+      "entries": [
+        "Beginning at 5th level, you regain all expended uses of Skaldic Verse when you finish a short or long rest."
+      ]
+    },
+    {
+      "name": "Counterverse",
+      "page": 3,
+      "className": "Skald",
+      "classSource": "SkaldHB",
+      "level": 6,
+      "entries": [
+        "As an action, start a Performance that lasts until the end of your next turn. During it, you and friendly creatures within 30 feet have advantage on saves against being frightened or charmed. A creature must be able to hear you. The Performance ends early if you are incapacitated, silenced, or voluntarily end it."
+      ]
+    },
+    {
+      "name": "Tales of Legends",
+      "page": 4,
+      "className": "Skald",
+      "classSource": "SkaldHB",
+      "level": 10,
+      "entries": [
+        "At 10th level choose two spells from any class (including cantrips). Each must be of a level you can cast (or a cantrip). These count as Skald spells for you and are included in Spirit Powers Known. You learn two more at 14th level and again at 18th level."
+      ]
+    },
+    {
+      "name": "Superior Verse",
+      "page": 4,
+      "className": "Skald",
+      "classSource": "SkaldHB",
+      "level": 20,
+      "entries": [
+        "At 20th level, when you roll initiative and have no uses of Skaldic Verse left, you regain one use."
+      ]
+    }
+  ],
+  "subclass": [
         {
-          "name": "School of Hypnotism",
-          "shortName": "Hypnotism",
-          "source": "SkaldHB",
-          "subclassSource": "SkaldHB",
-          "features": [
-            "Pain-Numbing Verse|SkaldHB|3",
-            "Hypnotic Words|SkaldHB|3",
-            "Collar of Command|SkaldHB|6",
-            "Complete Hypnosis|SkaldHB|14"
-          ]
-        },
-        {
-          "name": "School of Battlehymn",
-          "shortName": "Battlehymn",
-          "source": "SkaldHB",
-          "subclassSource": "SkaldHB",
-          "features": [
-            "Bonus Proficiencies (Battlehymn)|SkaldHB|3",
-            "Warrior Verse|SkaldHB|3",
-            "Extra Attack (Battlehymn)|SkaldHB|6",
-            "War Rhythm|SkaldHB|14"
-          ]
-        },
-        {
-          "name": "School of the Underworld",
-          "shortName": "Underworld",
-          "source": "SkaldHB",
-          "subclassSource": "SkaldHB",
-          "features": [
-            "Bonus Proficiencies (Underworld)|SkaldHB|3",
-            "Haunting Verse|SkaldHB|3",
-            "Additional Tales of Legends|SkaldHB|6",
-            "Power of the Deep|SkaldHB|14"
-          ]
-        }
+      "name": "School of Hypnotism",
+      "shortName": "Hypnotism",
+      "source": "SkaldHB",
+      "page": 5,
+      "className": "Skald",
+      "classSource": "SkaldHB",
+      "subclassSource": "SkaldHB",
+      "subclassFeatures": [
+        "Pain-Numbing Verse|Skald|SkaldHB|Hypnotism|SkaldHB|3|SkaldHB",
+        "Hypnotic Words|Skald|SkaldHB|Hypnotism|SkaldHB|3|SkaldHB",
+        "Collar of Command|Skald|SkaldHB|Hypnotism|SkaldHB|6|SkaldHB",
+        "Complete Hypnosis|Skald|SkaldHB|Hypnotism|SkaldHB|14|SkaldHB"
+      ]
+    },
+    {
+      "name": "School of Battlehymn",
+      "shortName": "Battlehymn",
+      "source": "SkaldHB",
+      "page": 6,
+      "className": "Skald",
+      "classSource": "SkaldHB",
+      "subclassSource": "SkaldHB",
+      "subclassFeatures": [
+        "Bonus Proficiencies (Battlehymn)|Skald|SkaldHB|Battlehymn|SkaldHB|3|SkaldHB",
+        "Warrior Verse|Skald|SkaldHB|Battlehymn|SkaldHB|3|SkaldHB",
+        "Extra Attack (Battlehymn)|Skald|SkaldHB|Battlehymn|SkaldHB|6|SkaldHB",
+        "War Rhythm|Skald|SkaldHB|Battlehymn|SkaldHB|14|SkaldHB"
+      ]
+    },
+    {
+      "name": "School of the Underworld",
+      "shortName": "Underworld",
+      "source": "SkaldHB",
+      "page": 7,
+      "className": "Skald",
+      "classSource": "SkaldHB",
+      "subclassSource": "SkaldHB",
+      "subclassFeatures": [
+        "Bonus Proficiencies (Underworld)|Skald|SkaldHB|Underworld|SkaldHB|3|SkaldHB",
+        "Haunting Verse|Skald|SkaldHB|Underworld|SkaldHB|3|SkaldHB",
+        "Additional Tales of Legends|Skald|SkaldHB|Underworld|SkaldHB|6|SkaldHB",
+        "Power of the Deep|Skald|SkaldHB|Underworld|SkaldHB|14|SkaldHB"
+      ]
+    }
+    
+  ],
+  "subclassFeature": [
+    {
+      "name": "Pain-Numbing Verse",
+      "page": 5,
+      "source": "SkaldHB",
+      "className": "Skald",
+      "classSource": "SkaldHB",
+      "subclassShortName": "Hypnotism",
+      "level": 3,
+      "entries": [
+        "When you join the School of Hypnotism at 3rd level, you can expend a Skaldic Verse die to grant an ally hit-themed temporary HP as described in the class text. The die scales at 5th/10th/15th levels."
+      ]
+    },
+    {
+      "name": "Hypnotic Words",
+      "page": 5,
+      "source": "SkaldHB",
+      "className": "Skald",
+      "classSource": "SkaldHB",
+      "subclassShortName": "Hypnotism",
+      "level": 3,
+      "entries": [
+        "If you speak alone with a Humanoid for 1 minute, it must succeed on a Wisdom save vs your Spirit save DC or be charmed for 1 hour (or until attacked/damaged/threatened). On a success the target suspects nothing. Recharge: short or long rest per use."
+      ]
+    },
+    {
+      "name": "Collar of Command",
+      "page": 5,
+      "source": "SkaldHB",
+      "className": "Skald",
+      "classSource": "SkaldHB",
+      "subclassShortName": "Hypnotism",
+      "level": 6,
+      "entries": [
+        "As a bonus action, you cast Command without expending a spell slot and gain an aura allowing bonus-action Commands each turn for 1 minute. Recharge: long rest."
+      ]
+    },
+    {
+      "name": "Complete Hypnosis",
+      "page": 5,
+      "source": "SkaldHB",
+      "className": "Skald",
+      "classSource": "SkaldHB",
+      "subclassShortName": "Hypnotism",
+      "level": 14,
+      "entries": [
+        "As an action, hypnotically whisper to one creature within 30 ft; it must make a Wisdom save or be charmed for 8 hours (or until attacked/damaged/forced save). Recharge: long rest."
+      ]
+    },
+    {
+      "name": "Bonus Proficiencies (Battlehymn)",
+      "page": 6,
+      "source": "SkaldHB",
+      "className": "Skald",
+      "classSource": "SkaldHB",
+      "subclassShortName": "Battlehymn",
+      "level": 3,
+      "entries": [
+        "When you join the School of Battlehymn you gain proficiency with medium armor, shields, and martial weapons."
+      ]
+    },
+    {
+      "name": "Warrior Verse",
+      "page": 6,
+      "source": "SkaldHB",
+      "className": "Skald",
+      "classSource": "SkaldHB",
+      "subclassShortName": "Battlehymn",
+      "level": 3,
+      "entries": [
+        "An ally with a Skaldic Verse die can add the die to weapon damage or use it as a reaction to add the die to AC vs an attack after seeing the roll but before the result is declared."
+      ]
+    },
+    {
+      "name": "Extra Attack (Battlehymn)",
+      "page": 6,
+      "source": "SkaldHB",
+      "className": "Skald",
+      "classSource": "SkaldHB",
+      "subclassShortName": "Battlehymn",
+      "level": 6,
+      "entries": [
+        "Starting at 6th level you can attack twice, instead of once, when you take the Attack action."
+      ]
+    },
+    {
+      "name": "War Rhythm",
+      "page": 6,
+      "source": "SkaldHB",
+      "className": "Skald",
+      "classSource": "SkaldHB",
+      "subclassShortName": "Battlehymn",
+      "level": 14,
+      "entries": [
+        "When you cast a Skald spell, you can make one weapon attack as a bonus action."
+      ]
+    },
+    {
+      "name": "Bonus Proficiencies (Underworld)",
+      "page": 7,
+      "source": "SkaldHB",
+      "className": "Skald",
+      "classSource": "SkaldHB",
+      "subclassShortName": "Underworld",
+      "level": 3,
+      "entries": [
+        "When you join this school you gain proficiency in three skills of your choice."
+      ]
+    },
+    {
+      "name": "Haunting Verse",
+      "page": 7,
+      "source": "SkaldHB",
+      "className": "Skald",
+      "classSource": "SkaldHB",
+      "subclassShortName": "Underworld",
+      "level": 3,
+      "entries": [
+        "As a reaction when a creature you can see within 60 ft makes an attack roll, ability check, or damage roll, expend a Skaldic Verse die to subtract the die result from that roll. The creature is immune if it can't hear you or is immune to being charmed."
+      ]
+    },
+    {
+      "name": "Additional Tales of Legends",
+      "page": 7,
+      "source": "SkaldHB",
+      "className": "Skald",
+      "classSource": "SkaldHB",
+      "subclassShortName": "Underworld",
+      "level": 6,
+      "entries": [
+        "At 6th level you learn two spells from any class; they count as Skald spells for you but do not count against Spirit Powers Known."
+      ]
+    },
+    {
+      "name": "Power of the Deep",
+      "page": 7,
+      "source": "SkaldHB",
+      "className": "Skald",
+      "classSource": "SkaldHB",
+      "subclassShortName": "Underworld",
+      "level": 14,
+      "entries": [
+        "When you make an ability check you may expend a Skaldic Verse die and add the roll to the check; you may do so after rolling but before the DM says success/fail."
       ]
     }
   ]
