@@ -74,8 +74,19 @@
       },
       "Ability Score Improvement|Warrior|DwarDF-PHB|19",
       "Extra Attack (3)|Warrior|DwarDF-PHB|20"
+   ],
+    "subclassTableGroups": [
+      {
+        "colLabels": ["Level", "Features"],
+        "rows": [
+          ["3rd", "Warrior Type feature"],
+          ["7th", "Warrior Type feature"],
+          ["10th", "Warrior Type feature"],
+          ["15th", "Warrior Type feature"],
+          ["18th", "Warrior Type feature"]
+        ]
+      }
     ],
-    "subclassTableGroups": [],
     "proficiency": ["str", "con"],
     "startingProficiencies": {
       "armor": ["light", "medium", "heavy", "shield"],
@@ -110,7 +121,6 @@
     }
   }
 ],
-
 "classFeature": [
       {
          "name": "Fighting Style",
@@ -418,72 +428,62 @@
 "subclass": [
   {
     "name": "Cursed Soul",
+    "shortName": "Cursed Soul",
     "source": "DwarDF-PHB",
-    "page": 98,
+    "page": 78,
     "className": "Warrior",
     "classSource": "DwarDF-PHB",
-    "shortName": "Cursed Soul",
     "subclassFeatures": [
-      "Champion of Malice|Warrior|DwarDF-PHB|3",
-      "Evil's Embrace|Warrior|DwarDF-PHB|7",
-      "Shepard of Spirits|Warrior|DwarDF-PHB|10",
-      "Silver Mist|Warrior|DwarDF-PHB|15",
-      "Jest of the Dead|Warrior|DwarDF-PHB|18"
-    ],
-    "fluff": {
-      "type": "entries",
-      "name": "Cursed Soul",
-      "entries": [
-        "Somehow, along the lines you have become the host to one or more evil presences caged within you. This may either be due to wielding a cursed weapon, being hexed, or perhaps simply having a tainted spirit yourself. Regardless of how you became this way, you have slowly developed a craving for blood and violence. Will you follow the path of destruction? Or will you simply crumble from the curse brought upon you? Only your own strength and willpower can determine your fate."
-      ]
-    }
+      "Champion of Malice|Warrior|DwarDF-PHB|Cursed Soul|DwarDF-PHB|3|DwarDF-PHB",
+      "Screaming Weapons|Warrior|DwarDF-PHB|Cursed Soul|DwarDF-PHB|7|DwarDF-PHB",
+      "Cruel Form|Warrior|DwarDF-PHB|Cursed Soul|DwarDF-PHB|10|DwarDF-PHB",
+      "Piercing of the Soul|Warrior|DwarDF-PHB|Cursed Soul|DwarDF-PHB|15|DwarDF-PHB",
+      "Champion of Death|Warrior|DwarDF-PHB|Cursed Soul|DwarDF-PHB|18|DwarDF-PHB"
+    ]
   },
   {
     "name": "Black Weapon",
+    "shortName": "Black Weapon",
     "source": "DwarDF-PHB",
-    "page": 101,
+    "page": 79,
     "className": "Warrior",
     "classSource": "DwarDF-PHB",
-    "shortName": "Black Weapon",
     "subclassFeatures": [
-      "Sharpened Spirit|Warrior|DwarDF-PHB|3",
-      "Haki Weapon|Warrior|DwarDF-PHB|7",
-      "Improved Style|Warrior|DwarDF-PHB|10",
-      "Superior Sharpened Spirit|Warrior|DwarDF-PHB|15",
-      "Haki Weapon Master|Warrior|DwarDF-PHB|18"
-    ],
-    "fluff": {
-      "type": "entries",
-      "name": "Black Weapon",
-      "entries": [
-        "Black weapon users are born with incredibly powerful spirits and willpower, which they channel into their weapons. By utilizing armament haki, their weapons become darkened over time until they turn pitch black."
-      ]
-    }
+      "Weapon Bond|Warrior|DwarDF-PHB|Black Weapon|DwarDF-PHB|3|DwarDF-PHB",
+      "Black Weapon Style|Warrior|DwarDF-PHB|Black Weapon|DwarDF-PHB|7|DwarDF-PHB",
+      "Shadow Infusion|Warrior|DwarDF-PHB|Black Weapon|DwarDF-PHB|10|DwarDF-PHB",
+      "Echoed Strike|Warrior|DwarDF-PHB|Black Weapon|DwarDF-PHB|15|DwarDF-PHB",
+      "Dark Harmony|Warrior|DwarDF-PHB|Black Weapon|DwarDF-PHB|18|DwarDF-PHB"
+    ]
   },
   {
     "name": "Elemental Weapon",
+    "shortName": "Elemental Weapon",
     "source": "DwarDF-PHB",
-    "page": 102,
+    "page": 80,
     "className": "Warrior",
     "classSource": "DwarDF-PHB",
-    "shortName": "Elemental Weapon",
+    "casterProgression": "half",
+    "spellcastingAbility": "wis",
     "subclassFeatures": [
-      "Elementalist (Spellcasting)|Warrior|DwarDF-PHB|3",
-      "Elemental Style|Warrior|DwarDF-PHB|3",
-      "Dance of Elements|Warrior|DwarDF-PHB|7",
-      "Water Siphon|Warrior|DwarDF-PHB|10",
-      "Lightning Dash|Warrior|DwarDF-PHB|15",
-      "Improved Dance of Elements|Warrior|DwarDF-PHB|18"
+      "Elemental Attunement|Warrior|DwarDF-PHB|Elemental Weapon|DwarDF-PHB|3|DwarDF-PHB",
+      "Elemental Surge|Warrior|DwarDF-PHB|Elemental Weapon|DwarDF-PHB|7|DwarDF-PHB",
+      "Elemental Infusion|Warrior|DwarDF-PHB|Elemental Weapon|DwarDF-PHB|10|DwarDF-PHB",
+      "Elemental Resistance|Warrior|DwarDF-PHB|Elemental Weapon|DwarDF-PHB|15|DwarDF-PHB",
+      "Elemental Mastery|Warrior|DwarDF-PHB|Elemental Weapon|DwarDF-PHB|18|DwarDF-PHB"
     ],
-    "fluff": {
-      "type": "entries",
-      "name": "Elemental Weapon",
-      "entries": [
-        "Through learning how to channel elemental energy through your weapon, you can coat your attacks in an element of your choice. Many Wano Kuni samurai have mastered this style."
-      ]
-    },
-    "casterProgression": "1/3",
-    "spellcastingAbility": "int"
+    "subclassTableGroups": [
+      {
+        "colLabels": ["Level", "Features"],
+        "rows": [
+          ["3rd", "Elemental Attunement"],
+          ["7th", "Elemental Surge"],
+          ["10th", "Elemental Infusion"],
+          ["15th", "Elemental Resistance"],
+          ["18th", "Elemental Mastery"]
+        ]
+      }
+    ]
   }
 ],
 "subclassFeature": [
@@ -535,7 +535,7 @@
   {
     "name": "Evil's Embrace",
     "source": "DwarDF-PHB",
-    "page": 99,
+    "page": 98,
     "className": "Warrior",
     "subclassSource": "DwarDF-PHB",
     "classSource": "DwarDF-PHB",
