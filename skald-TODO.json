@@ -34,7 +34,7 @@
         "dex",
         "cha"
       ],
-      "subclassTitle": "Skald School",      
+      "subclassTitle": "Skald School", 
       "startingProficiencies": {
         "armor": [
           "light"
@@ -506,36 +506,7 @@
             ]
           ]
         }
-      ],
-      "spellcasting": {
-        "ability": "cha",
-        "progression": "full",
-        "cantripsKnownProgression": [
-          2,
-          2,
-          2,
-          3,
-          3,
-          3,
-          3,
-          3,
-          3,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4,
-          4
-        ],
-        "spellList": {
-          "class": "Skald"
-        }
-      },
+      ],      
       "classFeatures": [
         "Spirit Power (Spellcasting)|SkaldHB|1",
         "Skaldic Verse|SkaldHB|1",

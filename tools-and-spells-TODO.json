@@ -12,7 +12,7 @@
         "convertedBy": [
           "SirTalpadeRedstoneville58"
         ],
-        "version": "1.6",
+        "version": "1.7",
         "color": "0B3075",
         "url": "https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm"
       }
@@ -583,7 +583,7 @@
     "rarity": "unknown (magic)"
   },
   {
-    "name": "Metallic Star",
+    "name": "Metallic Stars",
     "type": "Stars",
     "source": "D&DF-PHB",
     "rarity": "varies",
@@ -630,7 +630,7 @@
     "bonusWeaponAttack": "3"
   },
   {
-    "name": "Flame Star",
+    "name": "Flame Stars",
     "type": "Stars",
     "source": "D&DF-PHB",
     "rarity": "varies",
@@ -675,6 +675,137 @@
     ],
     "bonusWeaponDamage": "3d6",
     "dmgType": "F"
+  },
+  {
+    "name": "Cactus Stars",
+    "type": "Stars",
+    "source": "D&DF-PHB",
+    "rarity": "varies",
+    "entries": [
+      "This star explodes upon hitting a target, piercing nearby targets with flying spikes. "
+    ],
+    "items":[
+      "Uncommon Cactus Star",
+      "Rare Cactus Star",
+      "Very rare Cactus Star"
+    ]    
+  },
+  {
+    "name": "Uncommon Cactus Star",
+    "type": "Stars",
+    "source": "D&DF-PHB",
+    "rarity": "uncommon",
+    "entries": [
+      "If this star hits a target, it will damage all creatures within 5 feet of the target for 1d4 piercing damage"
+    ],
+    "bonusWeaponDamage": "1d4",
+    "dmgType": "P"
+  },
+  {
+    "name": "Rare Cactus Star",
+    "type": "Stars",
+    "source": "D&DF-PHB",
+    "rarity": "Rare",
+    "entries": [
+      "If this star hits a target, it will damage all creatures within 5 feet of the target for 2d4 piercing damage"
+    ],
+    "bonusWeaponDamage": "2d4",
+    "dmgType": "P"
+  },
+  {
+    "name": "Very rare Cactus Star",
+    "type": "Stars",
+    "source": "D&DF-PHB",
+    "rarity": "very rare",
+    "entries": [
+      "If this star hits a target, it will damage all creatures within 5 feet of the target for 3d4 piercing damage"
+    ],
+    "bonusWeaponDamage": "3d4",
+    "dmgType": "P"
+  },{
+    "name": "Terror Stars",
+    "type": "Stars",
+    "source": "D&DF-PHB",
+    "rarity": "varies",
+    "entries": [
+      "When this star hits a target, a terrifying vision appears in front of them."
+    ],
+    "items":[
+      "Uncommon Terror Star",
+      "Rare Terror Star",
+      "Very rare Terror Star"
+    ]    
+  },
+  {
+    "name": "Uncommon Terror Star",
+    "type": "Stars",
+    "source": "D&DF-PHB",
+    "rarity": "uncommon",
+    "entries": [
+      "Until the end of their next turn, they are frightened of you for the duration."
+    ]
+  },
+  {
+    "name": "Rare Terror Star",
+    "type": "Stars",
+    "source": "D&DF-PHB",
+    "rarity": "Rare",
+    "entries": [
+      "Until the end of their next turn, they are frightened of you for the duration, and they also take 1d4 additional psychic damage"
+    ],
+    "bonusWeaponDamage": "1d4",
+    "dmgType": "Y"
+  },
+  {
+    "name": "Very rare Terror Star",
+    "type": "Stars",
+    "source": "D&DF-PHB",
+    "rarity": "very rare",
+    "entries": [
+      "Until the end of their next turn, they are frightened of you for the duration, and they also take 1d4 additional psychic damage"
+    ],
+    "bonusWeaponDamage": "2d4",
+    "dmgType": "Y"
+  },{
+    "name": "Smoke Stars",
+    "type": "Stars",
+    "source": "D&DF-PHB",
+    "rarity": "varies",
+    "entries": [
+      "This star creates a sphere of smoke centered on a point within range on impact with a target."
+    ],
+    "items":[
+      "Uncommon Smoke Star",
+      "Rare Smoke Star",
+      "Very rare Smoke Star"
+    ]    
+  },
+  {
+    "name": "Uncommon Smoke Star",
+    "type": "Stars",
+    "source": "D&DF-PHB",
+    "rarity": "uncommon",
+    "entries": [
+      "An uncommon smoke star creates a sphere radius of 10 feet. The sphere spreads around corners, and its area is heavily obscured. I It lasts for 1 minute or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it"
+    ]
+  },
+  {
+    "name": "Rare Smoke Star",
+    "type": "Stars",
+    "source": "D&DF-PHB",
+    "rarity": "Rare",
+    "entries": [
+      "A rare smoke star creates a sphere radius of 20 feet. The sphere spreads around corners, and its area is heavily obscured. I It lasts for 1 minute or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it"
+    ]
+  },
+  {
+    "name": "Very rare Smoke Star",
+    "type": "Stars",
+    "source": "D&DF-PHB",
+    "rarity": "very rare",
+    "entries": [
+      "A very rare smoke star creates a sphere radius of 30 feet. The sphere spreads around corners, and its area is heavily obscured. I It lasts for 1 minute or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it"
+    ]
   }
 ],
 "table":[

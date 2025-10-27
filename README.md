@@ -24,9 +24,9 @@ All the ones that do not have the (DMG) are from the D&DF-PHB
 - [x] Armors
 - [x] Mounts
 - [x] Adventuring Gear
-- [ ] Dials
+- [x] Dials
 - [ ] Pop Greens
-- [ ] Stars
+- [x] Stars
 - [ ] Custom Spells
 - [ ] Spell Lists
 
