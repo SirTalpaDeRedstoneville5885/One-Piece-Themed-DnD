@@ -12,7 +12,7 @@
         "convertedBy": [
           "ConvertedBy"
         ],
-        "version": "1.14291294",
+        "version": "1.15",
         "color": "33FFCA",
         "url": "https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm"
       }
@@ -667,32 +667,32 @@
       ],
       "classFeatures": [
         "Spirit Power (Spellcasting)|SkaldHB|1",
-        "Skaldic Verse|SkaldHB|1",
-        "Jack of All Trades|SkaldHB|2",
-        "Song of the Sea|SkaldHB|2",
-        "Versatile Verse|SkaldHB|2",
+        "Skaldic Verse|Skald|SkaldHB|1",
+        "Jack of All Trades|Skald|SkaldHB|2",
+        "Song of the Sea|Skald|SkaldHB|2",
+        "Versatile Verse|Skald|SkaldHB|2",
         {
-          "classFeature": "Skald School|SkaldHB|3",
+          "classFeature": "Skald School|Skald|SkaldHB|3",
           "gainSubclassFeature": true
         },
-        "Expertise|SkaldHB|3",
-        "Ability Score Improvement|SkaldHB|4",
-        "Continued Verse|SkaldHB|5",
+        "Expertise|Skald|SkaldHB|3",
+        "Ability Score Improvement|Skald|SkaldHB|4",
+        "Continued Verse|Skald|SkaldHB|5",
         {
-          "classFeature": "Skald School feature|SkaldHB|6",
+          "classFeature": "Skald School feature|Skald|SkaldHB|6",
           "gainSubclassFeature": true
         },
-        "Counterverse|SkaldHB|6",
-        "Ability Score Improvement|SkaldHB|8",
-        "Tales of Legends|SkaldHB|10",
-        "Ability Score Improvement|SkaldHB|12",
+        "Counterverse|Skald|SkaldHB|6",
+        "Ability Score Improvement||SkaldSkaldHB|8",
+        "Tales of Legends|Skald|SkaldHB|10",
+        "Ability Score Improvement|Skald|SkaldHB|12",
         {
-          "classFeature": "Skald School feature|SkaldHB|14",
+          "classFeature": "Skald School feature|Skald|SkaldHB|14",
           "gainSubclassFeature": true
         },
-        "Ability Score Improvement|SkaldHB|16",
-        "Ability Score Improvement|SkaldHB|19",
-        "Superior Verse|SkaldHB|20"
+        "Ability Score Improvement|Skald|SkaldHB|16",
+        "Ability Score Improvement|Skald|SkaldHB|19",
+        "Superior Verse|Skald|SkaldHB|20"
       ],
       "multiclassing": {
         "requirements": {
