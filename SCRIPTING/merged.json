@@ -34,7 +34,11 @@
     ],
     "dateAdded": 1760976825,
     "dateLastModified": 1760976825,
-    "currencyConversions": {"GP":[{ "mult": 0.0001, "coin": "฿"  }]},
+    "currencyConversions": {
+      "GP":[{"mult": 0.0001, "coin": "฿"   }],
+      "฿":[ {"mult": 0.0001, "coin": "EXT" },
+            {"mult": 0.01,   "coin": "GOR" }]
+    },
     "edition": "classic"
   },
   "book": [
@@ -6989,7 +6993,7 @@
         "A character who eats this powerful meal regains {@dice 2d4 + 2} hit points. Eating it all takes an action."
       ],
       "type": "G",
-      "value": 5000,
+      "value": "฿" 500000,
       "weight": 2,
       "page": 147,
       "source": "D&DF-PHB",

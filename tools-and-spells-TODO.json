@@ -28,7 +28,7 @@
         "abbreviation": "DIAL:S",
         "page": 149,
         "entries": [
-          "Dials are mysterious devices made from sea shells that each hold a unique power. They are normally found throughout the sky islands, and often vary in size and power.\nSome are used for completing simple tasks such as cooking, refrigeration, or blowing air, while others can be used to enhance weapons or deal devastating amounts of damage to enemies.",
+          "\nDials are mysterious devices made from sea shells that each hold a unique power. They are normally found throughout the sky islands, and often vary in size and power.\nSome are used for completing simple tasks such as cooking, refrigeration, or blowing air, while others can be used to enhance weapons or deal devastating amounts of damage to enemies.",
           "Simple dials tend to have less overwhelming or dangerous abilities, and absorb less from their designated energy source on average.",
           "Being proficient in dials allows you to add your proficiency bonus to any check or attack roll when using a dial."
       ]
@@ -39,7 +39,7 @@
         "abbreviation": "DIAL:R",
         "page": 149,
         "entries": [
-          "Dials are mysterious devices made from sea shells that each hold a unique power. They are normally found throughout the sky islands, and often vary in size and power.\nSome are used for completing simple tasks such as cooking, refrigeration, or blowing air, while others can be used to enhance weapons or deal devastating amounts of damage to enemies.",
+          "\nDials are mysterious devices made from sea shells that each hold a unique power. They are normally found throughout the sky islands, and often vary in size and power.\nSome are used for completing simple tasks such as cooking, refrigeration, or blowing air, while others can be used to enhance weapons or deal devastating amounts of damage to enemies.",
           "Rare dials are often incredibly effective in combat, and some have the power to devastate both their user and any foe from the amount of power they can expel in an instant.",
           "Being proficient in dials allows you to add your proficiency bonus to any check or attack roll when using a dial."
       ]
@@ -50,7 +50,7 @@
         "abbreviation": "Stars",
         "page": 149,
         "entries": [
-          "Stars are special types of ammo that deal additional damage compared to ordinary ammo or have some form of additional effect when fired. These can be crafted by a tinkerer or marksman, or found and purchased throughout the adventure.\nCrafting a star requires any type of appropriate artisan's tools (such as mason's tools or smith's tools), proficiency in the Arcana or Sleight of Hand skills, and proficiency in at least one type of ranged weapon. The rarity, cost, and time it takes to make a batch of 5 for each type of star is listed in the Star Cost Table. Machine gun ammo, sniper rifle ammo, and bazooka ammo require double the time and money to make. Sling bullets require half the time and money to make.",
+          "\nStars are special types of ammo that deal additional damage compared to ordinary ammo or have some form of additional effect when fired. These can be crafted by a tinkerer or marksman, or found and purchased throughout the adventure.\nCrafting a star requires any type of appropriate artisan's tools (such as mason's tools or smith's tools), proficiency in the Arcana or Sleight of Hand skills, and proficiency in at least one type of ranged weapon. The rarity, cost, and time it takes to make a batch of 5 for each type of star is listed in the Star Cost Table. Machine gun ammo, sniper rifle ammo, and bazooka ammo require double the time and money to make. Sling bullets require half the time and money to make.",
           {
             "rowLabels": [
               "Star Type", "Time", "Cost"
@@ -63,6 +63,47 @@
             ]            
           }
         ]
+    },
+    {
+      "name": "Pop Greens",
+        "source": "D&DF-PHB",
+        "abbreviation": "PopGreens",
+        "page": 149,
+        "entries": [
+          "\nPop greens are special seeds that have the power to instantly grow into full plants that produce a desired spell effect. Pop greens can be imbued with various effects or spells by a skilled herbalist, allowing them to be used as soon as they are planted in dirt or soil. Creating a pop green requires having a Herbalism Kit, supplies, a nearby spellcaster, and being proficient in the Nature or Arcana skills.\nAdditionally, they can only be created during extended periods of downtime, such as when traveling by boat to a new location in clear weather or spending time on a peaceful island."
+        ]
+    }
+  ],
+  "itemTypeAdditionalEntries": [
+    {
+      "appliesTo": "PopGreens",
+      "name": "Creating and Using Pop Greens",
+      "source": "D&DF-PHB",
+      "entries": [
+        "\nCreating a pop green\nA pop green is made by placing the energy from any spell and the material components required into a special seed. Creating a pop green can take a specific amount of time and money related to the strength and level of the Pop Green the characters wants to imbue into the seed, as shown on the table below. Additionally, the character creating the pop green must have proficiency in the Nature or Arcana skills and provide any material components required by the spell being put into the pop green. Moreover, at least one character making the pop green or assisting in the creation process must have the spell prepared, or it must be among the character's known spells, in order to create the pop green.\nIf the scribed spell is a cantrip, the version on the scroll works as if the caster were 1st Level.",
+        {
+            "rowLabels": [
+              "Spell level", "Time", "Cost"
+            ],
+            "name": "Pop Green cost",
+            "type": "table",
+            "rows": [
+              [ "Cantrip", "1 day" , "฿150,000" ],
+              [ "1st", "1 day" , "฿250,000" ],
+              [ "2nd", "3 days" , "฿2,500,000" ],
+              [ "3rd", "1 workweek" , "฿5,000,000" ],
+              [ "4th", "2 workweeks" , "฿25,000,000" ],
+              [ "5th", "4 workweeks" , "฿50,000,000" ],
+              [ "6th", "8 workweeks" , "฿150,000,000" ],
+              [ "7th", "16 workweeks" , "฿250,000,000" ],
+              [ "8th", "32 workweeks" , "฿500,000,000" ],
+              [ "9th", "48 workweeks" , "฿2,500,000,000" ]
+            ]            
+          },
+        "Pop greens are occasionally found on various islands or sold in black markets. They can be sold to certain rich buyers for a price equal to the material cost on the table above. Their cost in the black market often equals 120% of their cost on the Pop Green Cost Table.",
+        ""
+      ]
+
     }
   ],
  "item":[
@@ -78,8 +119,8 @@
   "charges": 5,
   "source": "D&DF-PHB",
   "recharge": "dawn",
-  "rechargeAmount": "d4+1",
-  "rarity": "uncommon"
+  "rechargeAmount": "1d4+1",
+  "rarity": "unknown (magic)"
   },
   {
     "name": "Large Breath Dial",
@@ -103,9 +144,11 @@
     "value": 0,
     "weight": 0,
    "charges": 5,
+  "recharge": "dawn",
+  "rechargeAmount": "1d4+1",
     "page": 150,
     "source": "D&DF-PHB",
-    "rarity": "uncommon"
+    "rarity": "unknown (magic)"
   },
   {
     "name": "Large Flavor Dial",
@@ -115,6 +158,8 @@
     "type": "DIAL:R",
     "value": 0,
     "weight": 0,
+  "recharge": "dawn",
+  "rechargeAmount": "1d6+4",
    "charges": 10,
     "page": 150,
     "source": "D&DF-PHB",
@@ -128,10 +173,12 @@
     "type": "DIAL:S",
     "value": 0,
     "weight": 0,
+  "recharge": "dawn",
+  "rechargeAmount": "1d4+1",
    "charges": 5,
     "page": 150,
     "source": "D&DF-PHB",
-    "rarity": "uncommon"
+    "rarity": "unknown (magic)"
   },
   {
     "name": "Large Freeze Dial",
@@ -143,6 +190,8 @@
     "weight": 0,
     "baseItem": "Freeze Dial",
     "charges": 10,
+  "recharge": "dawn",
+  "rechargeAmount": "1d6+1",
     "page": 150,
     "source": "D&DF-PHB",
     "rarity": "unknown (magic)"
@@ -155,10 +204,12 @@
     "type": "DIAL:S",
     "value": 0,
     "weight": 0,
+  "recharge": "dawn",
+  "rechargeAmount": "1d4+1",
    "charges": 5,
     "page": 150,
     "source": "D&DF-PHB",
-    "rarity": "uncommon"
+    "rarity": "unknown (magic)"
   },
   {
     "name": "Large Heat Dial",
@@ -168,6 +219,8 @@
     "type": "DIAL:R",
     "value": 0,
     "weight": 0,
+  "recharge": "dawn",
+  "rechargeAmount": "1d6+4",
    "charges": 10,
     "page": 150,
     "source": "D&DF-PHB",
@@ -182,9 +235,11 @@
     "value": 0,
     "weight": 0,
    "charges": 5,
+  "recharge": "dawn",
+  "rechargeAmount": "1d4+1",
     "page": 150,
     "source": "D&DF-PHB",
-    "rarity": "uncommon"
+    "rarity": "unknown (magic)"
   },
   {
     "name": "Large Lamp Dial",
@@ -194,6 +249,8 @@
     "type": "DIAL:R",
     "value": 0,
     "weight": 0,
+  "recharge": "dawn",
+  "rechargeAmount": "1d6+4",
    "charges": 10,
     "page": 150,
     "source": "D&DF-PHB",
@@ -206,11 +263,13 @@
     ],
     "type": "DIAL:S",
     "value": 0,
+  "recharge": "dawn",
+  "rechargeAmount": "1d4+1",
     "weight": 0,
    "charges": 5,
     "page": 150,
     "source": "D&DF-PHB",
-    "rarity": "uncommon"
+    "rarity": "unknown (magic)"
   },
   {
     "name": "Large Milky Dial",
@@ -220,6 +279,8 @@
     "type": "DIAL:R",
     "value": 0,
     "weight": 0,
+  "recharge": "dawn",
+  "rechargeAmount": "1d4+1",
    "charges": 10,
     "page": 150,
     "source": "D&DF-PHB",
@@ -234,6 +295,8 @@
     "value": 0,
     "weight": 0,
    "charges": 5,
+  "recharge": "dawn",
+  "rechargeAmount": "1d4+1",
     "page": 151,
     "source": "D&DF-PHB",
     "rarity": "unknown (magic)"
@@ -247,6 +310,8 @@
     "value": 0,
     "weight": 0,
    "charges": 10,
+  "recharge": "dawn",
+  "rechargeAmount": "1d4+1",
     "page": 151,
     "source": "D&DF-PHB",
     "rarity": "unknown (magic)"
@@ -260,6 +325,8 @@
     "value": 0,
     "weight": 0,
    "charges": 5,
+  "recharge": "dawn",
+  "rechargeAmount": "1d4+1",
     "page": 151,
     "source": "D&DF-PHB",
     "rarity": "unknown (magic)"
@@ -272,6 +339,8 @@
     "type": "DIAL:R",
     "value": 0,
    "charges": 10,
+  "recharge": "dawn",
+  "rechargeAmount": "1d4+1",
     "weight": 0,
     "page": 151,
     "source": "D&DF-PHB",
@@ -343,8 +412,10 @@
     "weight": 0,
     "page": 151,
     "source": "D&DF-PHB",
-    "rarity": "varies"
-    
+    "rarity": "varies",
+    "items":[
+      ""
+    ]
 
   },
   {
@@ -461,8 +532,11 @@
     ]
   }
 ],
+
+
+
 "spell": [
-{
+  {
     "name": "Wall of Goo",
     "level": 3,
     "school": "EVO",
