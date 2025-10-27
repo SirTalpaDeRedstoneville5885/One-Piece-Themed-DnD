@@ -12,7 +12,7 @@
         "convertedBy": [
           "SirTalpadeRedstoneville58"
         ],
-        "version": "1.2",
+        "version": "1.4",
         "color": "0B3075",
         "url": "https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm"
       }
@@ -60,7 +60,7 @@
               ["Uncommon","1 workweek","฿1,000,000"],
               ["Rare","4 workweek","฿5,000,000"],
               ["Very Rare","8 workweek","฿25,000,000"]
-            ]            
+            ]
           }
         ]
     },
@@ -98,7 +98,7 @@
               [ "7th", "16 workweeks" , "฿250,000,000" ],
               [ "8th", "32 workweeks" , "฿500,000,000" ],
               [ "9th", "48 workweeks" , "฿2,500,000,000" ]
-            ]            
+            ]
           },
         "Pop greens are occasionally found on various islands or sold in black markets. They can be sold to certain rich buyers for a price equal to the material cost on the table above. Their cost in the black market often equals 120% of their cost on the Pop Green Cost Table.",
         ""
@@ -280,7 +280,7 @@
     "value": 0,
     "weight": 0,
   "recharge": "dawn",
-  "rechargeAmount": "1d4+1",
+  "rechargeAmount": "1d6+4",
    "charges": 10,
     "page": 150,
     "source": "D&DF-PHB",
@@ -311,7 +311,7 @@
     "weight": 0,
    "charges": 10,
   "recharge": "dawn",
-  "rechargeAmount": "1d4+1",
+  "rechargeAmount": "1d++4",
     "page": 151,
     "source": "D&DF-PHB",
     "rarity": "unknown (magic)"
@@ -340,7 +340,7 @@
     "value": 0,
    "charges": 10,
   "recharge": "dawn",
-  "rechargeAmount": "1d4+1",
+  "rechargeAmount": "1d6+4",
     "weight": 0,
     "page": 151,
     "source": "D&DF-PHB",
@@ -355,6 +355,8 @@
     "value": 0,
     "weight": 0,
    "charges": 5,
+  "recharge": "dawn",
+  "rechargeAmount": "1d4+1",
     "page": 151,
     "source": "D&DF-PHB",
     "rarity": "unknown (magic)"
@@ -368,6 +370,8 @@
     "value": 0,
     "weight": 0,
    "charges": 10,
+  "recharge": "dawn",
+  "rechargeAmount": "1d6+4",
     "page": 151,
     "source": "D&DF-PHB",
     "rarity": "unknown (magic)"
@@ -381,6 +385,8 @@
     "value": 0,
     "weight": 0,
    "charges": 5,
+  "recharge": "dawn",
+  "rechargeAmount": "1d4+1",
     "page": 151,
     "source": "D&DF-PHB",
     "rarity": "unknown (magic)"
@@ -394,6 +400,8 @@
     "value": 0,
     "weight": 0,
    "charges": 10,
+  "recharge": "dawn",
+  "rechargeAmount": "1d6+4",
     "page": 151,
     "source": "D&DF-PHB",
     "rarity": "unknown (magic)"
@@ -401,11 +409,7 @@
   {
     "name": "Axe Dial",
     "entries": [
-      "Axe dials are powerful damage-dealing dials that can amplify the effects of attacks. They can be attached to your body or combined with any weapon to amplify its effects. By passively absorbing and storing sharpness from a blade, weight from a blunt weapon, strength from the user's fists and legs, etc., an axe dial will greatly enhance any attack made with a weapon it is attached to. There are three different types of axe dials, each type increasing in both strength and rarity.",
-      "A +1 axe dial (uncommon) gives any weapon, including your unarmed strikes, a +1 bonus to attack and damage rolls when attached.",
-      "A +2 axe dial (rare) gives any weapon, including your unarmed strikes, a +2 bonus to attack and damage rolls when attached.",
-      "A +3 axe dial (very rare) gives any weapon, including your unarmed strikes, a +3 bonus to attack and damage rolls when attached.",
-      "In order to attach an axe dial to a weapon or body part, the user must spend time during a short or long rest properly fitting and attaching it to the desired weapon. A weapon can only receive the benefits from one dial at a time, and the effects of separate dials on a single weapon do not stack. Furthermore, axe dials do not stack with innate weapon bonus stats, and can only increase a weapon's innate bonuses up to a total +3 for attack or damage rolls. However, axe dial bonuses do stack with bonuses from character feats and abilities."
+      "Axe dials are powerful damage-dealing dials that can amplify the effects of attacks. They can be attached to your body or combined with any weapon to amplify its effects. By passively absorbing and storing sharpness from a blade, weight from a blunt weapon, strength from the user's fists and legs, etc., an axe dial will greatly enhance any attack made with a weapon it is attached to. There are three different types of axe dials, each type increasing in both strength and rarity."
     ],
     "type": "DIAL:R",
     "value": 0,
@@ -414,10 +418,47 @@
     "source": "D&DF-PHB",
     "rarity": "varies",
     "items":[
-      ""
+      "Axe Dial +1",
+      "Axe Dial +2",
+      "Axe Dial +3"
     ]
-
   },
+  {
+    "name": "Axe Dial +1",
+    "page": 151,
+    "source": "D&DF-PHB",
+      "rarity": "uncommon",
+      "reqAttune": true,
+      "wondrous": true,
+      "entries": [
+      "A +1 axe dial (uncommon) gives any weapon, including your unarmed strikes, a +1 bonus to attack and damage rolls when attached.",
+      "In order to attach an axe dial to a weapon or body part, the user must spend time during a short or long rest properly fitting and attaching it to the desired weapon. A weapon can only receive the benefits from one dial at a time, and the effects of separate dials on a single weapon do not stack. Furthermore, axe dials do not stack with innate weapon bonus stats, and can only increase a weapon's innate bonuses up to a total +3 for attack or damage rolls. However, axe dial bonuses do stack with bonuses from character feats and abilities."
+      ]
+    },
+  {
+    "name": "Axe Dial +2",
+    "page": 151,
+    "source": "D&DF-PHB",
+      "rarity": "uncommon",
+      "reqAttune": true,
+      "wondrous": true,
+      "entries": [
+      "A +2 axe dial (rare) gives any weapon, including your unarmed strikes, a +2 bonus to attack and damage rolls when attached.",
+      "In order to attach an axe dial to a weapon or body part, the user must spend time during a short or long rest properly fitting and attaching it to the desired weapon. A weapon can only receive the benefits from one dial at a time, and the effects of separate dials on a single weapon do not stack. Furthermore, axe dials do not stack with innate weapon bonus stats, and can only increase a weapon's innate bonuses up to a total +3 for attack or damage rolls. However, axe dial bonuses do stack with bonuses from character feats and abilities."
+      ]
+    },
+  {
+    "name": "Axe Dial +3",
+    "page": 151,
+    "source": "D&DF-PHB",
+      "rarity": "uncommon",
+      "reqAttune": true,
+      "wondrous": true,
+      "entries": [
+      "A +3 axe dial (very rare) gives any weapon, including your unarmed strikes, a +3 bonus to attack and damage rolls when attached.",
+      "In order to attach an axe dial to a weapon or body part, the user must spend time during a short or long rest properly fitting and attaching it to the desired weapon. A weapon can only receive the benefits from one dial at a time, and the effects of separate dials on a single weapon do not stack. Furthermore, axe dials do not stack with innate weapon bonus stats, and can only increase a weapon's innate bonuses up to a total +3 for attack or damage rolls. However, axe dial bonuses do stack with bonuses from character feats and abilities."
+      ]
+    },
   {
     "name": "Ball Dial",
     "entries": [
@@ -427,6 +468,9 @@
     "value": 0,
     "weight": 0,
     "page": 152,
+  "recharge": "dawn",
+  "rechargeAmount": "1d6+4",
+   "charges": 10,
     "source": "D&DF-PHB",
     "rarity": "unknown (magic)"
   },
@@ -439,6 +483,8 @@
     "value": 0,
     "weight": 0,
    "charges": 5,
+  "recharge": "dawn",
+  "rechargeAmount": "1d4+1",
     "page": 152,
     "source": "D&DF-PHB",
     "rarity": "unknown (magic)"
@@ -451,6 +497,8 @@
     "type": "DIAL:R",
     "value": 0,
     "weight": 0,
+  "recharge": "dawn",
+  "rechargeAmount": "1d4+1",
    "charges": 5,
     "page": 152,
     "source": "D&DF-PHB",
@@ -465,6 +513,8 @@
     "value": 0,
     "weight": 0,
    "charges": 5,
+  "recharge": "dawn",
+  "rechargeAmount": "1d4+1",
     "page": 152,
     "source": "D&DF-PHB",
     "rarity": "unknown (magic)"
@@ -479,6 +529,8 @@
     "weight": 0,
     "page": 152,
    "charges": 5,
+  "recharge": "dawn",
+  "rechargeAmount": "1d4+1",
     "source": "D&DF-PHB",
     "rarity": "unknown (magic)"
   },
@@ -491,6 +543,8 @@
     "value": 0,
     "weight": 0,
    "charges": 5,
+  "recharge": "dawn",
+  "rechargeAmount": "1d4+1",
     "page": 152,
     "source": "D&DF-PHB",
     "rarity": "unknown (magic)"
@@ -504,6 +558,8 @@
     "value": 0,
    "charges": 10,
     "weight": 0,
+  "recharge": "dawn",
+  "rechargeAmount": "1d6+4",
     "page": 152,
     "source": "D&DF-PHB",
     "rarity": "unknown (magic)"
@@ -516,6 +572,8 @@
     "type": "DIAL:R",
     "value": 0,
    "charges": 5,
+  "recharge": "dawn",
+  "rechargeAmount": "1d4+1",
     "weight": 0,
     "page": 152,
     "source": "D&DF-PHB",
@@ -528,13 +586,9 @@
     "source": "D&DF-PHB",
     "page": 1,
     "rows": [
-      
     ]
   }
 ],
-
-
-
 "spell": [
   {
     "name": "Wall of Goo",
