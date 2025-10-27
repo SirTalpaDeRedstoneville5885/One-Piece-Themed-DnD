@@ -12,7 +12,7 @@
         "convertedBy": [
           "ConvertedBy"
         ],
-        "version": "1.10",
+        "version": "1.11",
         "color": "33FFCA",
         "url": "https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm"
       }
@@ -61,6 +61,13 @@
           }
         ]
       },
+      "fluff": {
+      "name": "Skald",
+      "type": "entries",
+      "entries": [
+        "Masters of mind and melody, Hypnotic Skalds weave words that enthrall and pacify."
+      ]
+    },
       "startingEquipment": {
         "additionalFromBackground": true,
         "default": [
@@ -874,6 +881,13 @@
       "className": "Skald",
       "classSource": "SkaldHB",
       "subclassSource": "SkaldHB",
+      "fluff": {
+        "name": "School of Hypnotism",
+        "type": "entries",
+        "entries": [
+          "Masters of mind and melody, Hypnotic Skalds weave words that enthrall and pacify."
+        ]
+      },
       "subclassFeatures": [
         "Pain-Numbing Verse|Skald|SkaldHB|Hypnotism|SkaldHB|3|SkaldHB",
         "Hypnotic Words|Skald|SkaldHB|Hypnotism|SkaldHB|3|SkaldHB",
@@ -889,6 +903,13 @@
       "className": "Skald",
       "classSource": "SkaldHB",
       "subclassSource": "SkaldHB",
+      "fluff": {
+        "name": "School of Battlehymn",
+        "type": "entries",
+        "entries": [
+          "Battlehymn Skalds channel the chaos of combat into rhythm and song, empowering allies with courage and precision."
+        ]
+      },
       "subclassFeatures": [
         "Bonus Proficiencies (Battlehymn)|Skald|SkaldHB|Battlehymn|SkaldHB|3|SkaldHB",
         "Warrior Verse|Skald|SkaldHB|Battlehymn|SkaldHB|3|SkaldHB",
@@ -904,6 +925,7 @@
       "className": "Skald",
       "classSource": "SkaldHB",
       "subclassSource": "SkaldHB",
+      "fluff": {},
       "subclassFeatures": [
         "Bonus Proficiencies (Underworld)|Skald|SkaldHB|Underworld|SkaldHB|3|SkaldHB",
         "Haunting Verse|Skald|SkaldHB|Underworld|SkaldHB|3|SkaldHB",
