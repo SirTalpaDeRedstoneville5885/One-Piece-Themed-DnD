@@ -433,8 +433,8 @@
       "A +1 axe dial (uncommon) gives any weapon, including your unarmed strikes, a +1 bonus to attack and damage rolls when attached.",
       "In order to attach an axe dial to a weapon or body part, the user must spend time during a short or long rest properly fitting and attaching it to the desired weapon. A weapon can only receive the benefits from one dial at a time, and the effects of separate dials on a single weapon do not stack. Furthermore, axe dials do not stack with innate weapon bonus stats, and can only increase a weapon's innate bonuses up to a total +3 for attack or damage rolls. However, axe dial bonuses do stack with bonuses from character feats and abilities."
       ],
-    "bonusWeaponDamage": "1",
-    "bonusWeaponAttack": "1"
+    "bonusWeaponDamage": "+1",
+    "bonusWeaponAttack": "+1"
     },
   {
     "name": "Axe Dial +2",
@@ -446,8 +446,8 @@
       "A +2 axe dial (rare) gives any weapon, including your unarmed strikes, a +2 bonus to attack and damage rolls when attached.",
       "In order to attach an axe dial to a weapon or body part, the user must spend time during a short or long rest properly fitting and attaching it to the desired weapon. A weapon can only receive the benefits from one dial at a time, and the effects of separate dials on a single weapon do not stack. Furthermore, axe dials do not stack with innate weapon bonus stats, and can only increase a weapon's innate bonuses up to a total +3 for attack or damage rolls. However, axe dial bonuses do stack with bonuses from character feats and abilities."
       ],
-    "bonusWeaponDamage": "2",
-    "bonusWeaponAttack": "2"
+    "bonusWeaponDamage": "+2",
+    "bonusWeaponAttack": "+2"
     },
   {
     "name": "Axe Dial +3",
@@ -459,8 +459,8 @@
       "A +3 axe dial (very rare) gives any weapon, including your unarmed strikes, a +3 bonus to attack and damage rolls when attached.",
       "In order to attach an axe dial to a weapon or body part, the user must spend time during a short or long rest properly fitting and attaching it to the desired weapon. A weapon can only receive the benefits from one dial at a time, and the effects of separate dials on a single weapon do not stack. Furthermore, axe dials do not stack with innate weapon bonus stats, and can only increase a weapon's innate bonuses up to a total +3 for attack or damage rolls. However, axe dial bonuses do stack with bonuses from character feats and abilities."
       ],
-    "bonusWeaponDamage": "3",
-    "bonusWeaponAttack": "3"
+    "bonusWeaponDamage": "+3",
+    "bonusWeaponAttack": "+3"
     },
   {
     "name": "Ball Dial",
@@ -602,10 +602,19 @@
     "source": "D&DF-PHB",
     "rarity": "uncommon",
     "entries": [
-      "Uncommon metallic stars have a +1 to attack and damage rolls when fired.\nAdditionally, targets that are medium or smaller that are hit by a metallic star must succeed on a Strength save against a DC equal to 10 + (attack/damage bonus of the star x 2) [12], or be knocked prone."
-    ],
-    "bonusWeaponDamage": "1",
-    "bonusWeaponAttack": "1"
+      "Uncommon metallic stars have a +1 to attack and damage rolls when fired.",      
+    {
+          "type": "entries",
+          "name": "Metallic Star save DC",
+          "entries": [
+            "Additionally, targets that are medium or smaller that are hit by a metallic star must succeed on a Strength save against the DC, or be knocked prone.",
+            "{@bold Metallic Star save DC} = 10 + (attack/damage bonus of the star x 2) [12]"
+          ]
+        }
+      ],
+    
+    "bonusWeaponDamage": "+1",
+    "bonusWeaponAttack": "+1"
   },
   {
     "name": "Metallic Star +2",
@@ -613,10 +622,18 @@
     "source": "D&DF-PHB",
     "rarity": "Rare",
     "entries": [
-      "Rare metallic stars have a +2 to attack and damage rolls when fired.\nAdditionally, targets that are medium or smaller that are hit by a metallic star must succeed on a Strength save against a DC equal to 10 + (attack/damage bonus of the star x 2) [14], or be knocked prone."
-    ],
-    "bonusWeaponDamage": "2",
-    "bonusWeaponAttack": "2"
+      "Rare metallic stars have a +2 to attack and damage rolls when fired.",      
+    {
+          "type": "entries",
+          "name": "Metallic Star save DC",
+          "entries": [
+            "Additionally, targets that are medium or smaller that are hit by a metallic star must succeed on a Strength save against the DC, or be knocked prone.",
+            "{@bold Metallic Star save DC} = 10 + (attack/damage bonus of the star x 2) [14]"
+          ]
+        }
+      ],
+    "bonusWeaponDamage": "+2",
+    "bonusWeaponAttack": "+2"
   },
   {
     "name": "Metallic Star +3",
@@ -624,10 +641,18 @@
     "source": "D&DF-PHB",
     "rarity": "very rare",
     "entries": [
-      "Very rare metallic stars have a +3 to attack and damage rolls when fired.\nAdditionally, targets that are medium or smaller that are hit by a metallic star must succeed on a Strength save against a DC equal to 10 + (attack/damage bonus of the star x 2) [16], or be knocked prone."
-    ],
-    "bonusWeaponDamage": "3",
-    "bonusWeaponAttack": "3"
+      "Very rare metallic stars have a +3 to attack and damage rolls when fired.",      
+    {
+          "type": "entries",
+          "name": "Metallic Star save DC",
+          "entries": [
+            "Additionally, targets that are medium or smaller that are hit by a metallic star must succeed on a Strength save against the DC, or be knocked prone.",
+            "{@bold Metallic Star save DC} = 10 + (attack/damage bonus of the star x 2) [14]"
+          ]
+        }
+      ],
+    "bonusWeaponDamage": "+3",
+    "bonusWeaponAttack": "+3"
   },
   {
     "name": "Flame Stars",
