@@ -13,7 +13,7 @@ All the ones that do not have the (DMG) are from the D&DF-PHB
 
 - [x] Priest
 - [x] Rogue
-- [ ] Skald
+- [x] Skald
 - [x] Tinkerer (WIP)
 - [x] Warrior
 
