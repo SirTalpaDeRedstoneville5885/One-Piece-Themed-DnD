@@ -8,7 +8,7 @@
         "full": "Skald Homebrew",
         "authors": ["HomebrewAuthor"],
         "convertedBy": ["ConvertedBy"],
-        "version": "1.6",
+        "version": "1.8",
         "color": "33FFCA",
         "url": "https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm"
         }
@@ -541,48 +541,49 @@
   "subclass": [
         {
       "name": "School of Hypnotism",
-      "shortName": "School of Hypnotism",
+      "shortName": "Hypnotism",
       "source": "SkaldHB",
       "page": 5,
       "className": "Skald",
       "classSource": "SkaldHB",
       "subclassSource": "SkaldHB",
       "subclassFeatures": [
-        "Pain-Numbing Verse|Skald|SkaldHB|School of Hypnotism|SkaldHB|3|SkaldHB",
-        "Hypnotic Words|Skald|SkaldHB|School of Hypnotism|SkaldHB|3|SkaldHB",
-        "Collar of Command|Skald|SkaldHB|School of Hypnotism|SkaldHB|6|SkaldHB",
-        "Complete Hypnosis|Skald|SkaldHB|School of Hypnotism|SkaldHB|14|SkaldHB"
+        "Pain-Numbing Verse|Skald|SkaldHB|Hypnotism|3",
+        "Hypnotic Words|Skald|SkaldHB|Hypnotism|3",
+        "Collar of Command|Skald|SkaldHB|Hypnotism|6",
+        "Complete Hypnosis|Skald|SkaldHB|Hypnotism|14"
       ]
     },
     {
       "name": "School of Battlehymn",
-      "shortName": "School of Battlehymn",
+      "shortName": "Battlehymn",
       "source": "SkaldHB",
       "page": 6,
       "className": "Skald",
       "classSource": "SkaldHB",
+      "subclassSource": "SkaldHB",
       "subclassFeatures": [
-        "Bonus Proficiencies (Battlehymn)|Skald|SkaldHB|School of Battlehymn|SkaldHB|3|SkaldHB",
-        "Warrior Verse|Skald|SkaldHB|School of Battlehymn|SkaldHB|3|SkaldHB",
-        "Extra Attack (Battlehymn)|Skald|SkaldHB|School of Battlehymn|SkaldHB|6|SkaldHB",
-        "War Rhythm|Skald|SkaldHB|School of Battlehymn|SkaldHB|14|SkaldHB"
+        "Bonus Proficiencies (Battlehymn)|Skald|SkaldHB|Battlehymn|3",
+        "Warrior Verse|Skald|SkaldHB|Battlehymn|3",
+        "Extra Attack (Battlehymn)|Skald|SkaldHB|Battlehymn|6",
+        "War Rhythm|Skald|SkaldHB|Battlehymn|14"
       ]
     },
     {
       "name": "School of the Underworld",
-      "shortName": "School of Underworld",
+      "shortName": "Underworld",
       "source": "SkaldHB",
       "page": 7,
       "className": "Skald",
       "classSource": "SkaldHB",
+      "subclassSource": "SkaldHB",
       "subclassFeatures": [
-        "Bonus Proficiencies (Underworld)|Skald|SkaldHB|School of Underworld|SkaldHB|3|SkaldHB",
-        "Haunting Verse|Skald|SkaldHB|School of Underworld|SkaldHB|3|SkaldHB",
-        "Additional Tales of Legends|Skald|SkaldHB|School of Underworld|SkaldHB|6|SkaldHB",
-        "Power of the Deep|Skald|SkaldHB|School of Underworld|SkaldHB|14|SkaldHB"
+        "Bonus Proficiencies (Underworld)|Skald|SkaldHB|Underworld|3",
+        "Haunting Verse|Skald|SkaldHB|Underworld|3",
+        "Additional Tales of Legends|Skald|SkaldHB|Underworld|6",
+        "Power of the Deep|Skald|SkaldHB|Underworld|14"
       ]
     }
-
   ],
   "subclassFeature": [
     {
@@ -591,7 +592,7 @@
       "className": "Skald",
       "classSource": "SkaldHB",
       "subclassSource": "SkaldHB",
-      "subclassShortName": "School of Hypnotism",
+      "subclassShortName": "Hypnotism",
       "source": "SkaldHB",
       "level": 3,
       "entries": [
@@ -604,7 +605,7 @@
       "className": "Skald",
       "classSource": "SkaldHB",
       "subclassSource": "SkaldHB",
-      "subclassShortName": "School of Hypnotism",
+      "subclassShortName": "Hypnotism",
       "source": "SkaldHB",
       "level": 3,
       "entries": [
@@ -617,7 +618,7 @@
       "className": "Skald",
       "classSource": "SkaldHB",
       "subclassSource": "SkaldHB",
-      "subclassShortName": "School of Hypnotism",
+      "subclassShortName": "Hypnotism",
       "source": "SkaldHB",
       "level": 6,
       "entries": [
@@ -630,7 +631,7 @@
       "className": "Skald",
       "classSource": "SkaldHB",
       "subclassSource": "SkaldHB",
-      "subclassShortName": "School of Hypnotism",
+      "subclassShortName": "Hypnotism",
       "source": "SkaldHB",
       "level": 14,
       "entries": [
@@ -643,7 +644,7 @@
       "className": "Skald",
       "classSource": "SkaldHB",
       "subclassSource": "SkaldHB",
-      "subclassShortName": "School of Battlehymn",
+      "subclassShortName": "Battlehymn",
       "source": "SkaldHB",
       "level": 3,
       "entries": [
@@ -656,7 +657,7 @@
       "className": "Skald",
       "classSource": "SkaldHB",
       "subclassSource": "SkaldHB",
-      "subclassShortName": "School of Battlehymn",
+      "subclassShortName": "Battlehymn",
       "source": "SkaldHB",
       "level": 3,
       "entries": [
@@ -669,7 +670,7 @@
       "className": "Skald",
       "classSource": "SkaldHB",
       "subclassSource": "SkaldHB",
-      "subclassShortName": "School of Battlehymn",
+      "subclassShortName": "Battlehymn",
       "source": "SkaldHB",
       "level": 6,
       "entries": [
@@ -682,7 +683,7 @@
       "className": "Skald",
       "classSource": "SkaldHB",
       "subclassSource": "SkaldHB",
-      "subclassShortName": "School of Battlehymn",
+      "subclassShortName": "Battlehymn",
       "source": "SkaldHB",
       "level": 14,
       "entries": [
@@ -695,7 +696,7 @@
       "className": "Skald",
       "classSource": "SkaldHB",
       "subclassSource": "SkaldHB",
-      "subclassShortName": "School of Underworld",
+      "subclassShortName": "Underworld",
       "source": "SkaldHB",
       "level": 3,
       "entries": [
@@ -708,7 +709,7 @@
       "className": "Skald",
       "classSource": "SkaldHB",
       "subclassSource": "SkaldHB",
-      "subclassShortName": "School of Underworld",
+      "subclassShortName": "Underworld",
       "source": "SkaldHB",
       "level": 3,
       "entries": [
@@ -722,7 +723,7 @@
       "className": "Skald",
       "classSource": "SkaldHB",
       "subclassSource": "SkaldHB",
-      "subclassShortName": "School of Underworld",
+      "subclassShortName": "Underworld",
       "level": 6,
       "entries": [
         "At 6th level you learn two spells from any class; they count as Skald spells for you but do not count against Spirit Powers Known."
@@ -735,7 +736,7 @@
       "className": "Skald",
       "classSource": "SkaldHB",
       "subclassSource": "SkaldHB",
-      "subclassShortName": "School of Underworld",
+      "subclassShortName": "Underworld",
       "level": 14,
       "entries": [
         "When you make an ability check you may expend a Skaldic Verse die and add the roll to the check; you may do so after rolling but before the DM says success/fail."
