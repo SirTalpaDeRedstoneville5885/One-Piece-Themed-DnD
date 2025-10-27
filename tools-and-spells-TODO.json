@@ -3,8 +3,8 @@
     "_meta": {
     "sources": [
       {
-        "json": "D&DF-PHB",
-        "abbreviation": "D&DF-PHB",
+        "json": "D&DF-PHB_items",
+        "abbreviation": "D&DF-PHB_items",
         "full": "One Piece tools and spells and shits",
         "authors": [
           "OneWorldHD"
@@ -47,12 +47,17 @@
 ],
 "item":[
 	{
-		"name": "test",
-		"type": "DIAL",
-		"entries": [
-			"test dial"
-		]
-	}
+      "name": "test",
+      "entries": [
+        "test dial"
+      ],
+      "type": "DIAL",
+      "value": 5000,
+      "weight": 2,
+      "page": 147,
+      "source": "D&DF-PHB",
+      "rarity": "none"
+    }
 ],
 "spell": [
 {

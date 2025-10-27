@@ -1693,7 +1693,7 @@
               "type": "entries",
               "name": "Advanced Dial Proficiency",
               "entries": [
-                "You start with an additional Dial, allowing you to roll once more on the {@table Simple Dial|D&DF-PHB} Table to determine what other Dial you start with. Additionally, you gain advantage on all checks made to find a dial."
+                "You start with an additional {@item Dial|D&DF-PHB}, allowing you to roll once more on the {@table Simple Dial|D&DF-PHB} Table to determine what other Dial you start with. Additionally, you gain advantage on all checks made to find a dial."
               ]
             }
           ]
@@ -18181,7 +18181,7 @@
     "upgradeType": ["SHP:M"],
     "entries": [
       "**Component Type.** Special Medium",
-      "**Upgrade DC.** 12 (requires dial proficiency)",
+      "**Upgrade DC.** 12 (requires {@item dial|D&DF-PHB} proficiency)",
       "**Component Cost.** ฿5,000,000 + 5% of ship cost",
       "**Upgrade Slots Required.** 1",
       "**Armor Class.** 12",
