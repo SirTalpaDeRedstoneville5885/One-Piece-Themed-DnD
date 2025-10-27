@@ -546,6 +546,7 @@
       "page": 5,
       "className": "Skald",
       "classSource": "SkaldHB",
+      "subclassSource": "SkaldHB",
       "subclassFeatures": [
         "Pain-Numbing Verse|Skald|SkaldHB|Hypnotism|SkaldHB|3|SkaldHB",
         "Hypnotic Words|Skald|SkaldHB|Hypnotism|SkaldHB|3|SkaldHB",
@@ -587,11 +588,11 @@
     {
       "name": "Pain-Numbing Verse",
       "page": 5,
-      "source": "SkaldHB",
       "className": "Skald",
-      "subclassSource": "SkaldHB",
       "classSource": "SkaldHB",
+      "subclassSource": "SkaldHB",
       "subclassShortName": "Hypnotism",
+      "source": "SkaldHB",
       "level": 3,
       "entries": [
         "When you join the School of Hypnotism at 3rd level, you can expend a Skaldic Verse die to grant an ally hit-themed temporary HP as described in the class text. The die scales at 5th/10th/15th levels."
@@ -600,11 +601,11 @@
     {
       "name": "Hypnotic Words",
       "page": 5,
-      "source": "SkaldHB",
       "className": "Skald",
       "classSource": "SkaldHB",
       "subclassSource": "SkaldHB",
       "subclassShortName": "Hypnotism",
+      "source": "SkaldHB",
       "level": 3,
       "entries": [
         "If you speak alone with a Humanoid for 1 minute, it must succeed on a Wisdom save vs your Spirit save DC or be charmed for 1 hour (or until attacked/damaged/threatened). On a success the target suspects nothing. Recharge: short or long rest per use."
@@ -613,11 +614,11 @@
     {
       "name": "Collar of Command",
       "page": 5,
-      "source": "SkaldHB",
-      "subclassSource": "SkaldHB",
       "className": "Skald",
       "classSource": "SkaldHB",
+      "subclassSource": "SkaldHB",
       "subclassShortName": "Hypnotism",
+      "source": "SkaldHB",
       "level": 6,
       "entries": [
         "As a bonus action, you cast Command without expending a spell slot and gain an aura allowing bonus-action Commands each turn for 1 minute. Recharge: long rest."
@@ -626,11 +627,11 @@
     {
       "name": "Complete Hypnosis",
       "page": 5,
-      "source": "SkaldHB",
       "className": "Skald",
       "classSource": "SkaldHB",
       "subclassSource": "SkaldHB",
       "subclassShortName": "Hypnotism",
+      "source": "SkaldHB",
       "level": 14,
       "entries": [
         "As an action, hypnotically whisper to one creature within 30 ft; it must make a Wisdom save or be charmed for 8 hours (or until attacked/damaged/forced save). Recharge: long rest."
@@ -639,11 +640,11 @@
     {
       "name": "Bonus Proficiencies (Battlehymn)",
       "page": 6,
-      "source": "SkaldHB",
       "className": "Skald",
       "classSource": "SkaldHB",
       "subclassSource": "SkaldHB",
       "subclassShortName": "Battlehymn",
+      "source": "SkaldHB",
       "level": 3,
       "entries": [
         "When you join the School of Battlehymn you gain proficiency with medium armor, shields, and martial weapons."
@@ -652,11 +653,11 @@
     {
       "name": "Warrior Verse",
       "page": 6,
-      "source": "SkaldHB",
       "className": "Skald",
       "classSource": "SkaldHB",
       "subclassSource": "SkaldHB",
       "subclassShortName": "Battlehymn",
+      "source": "SkaldHB",
       "level": 3,
       "entries": [
         "An ally with a Skaldic Verse die can add the die to weapon damage or use it as a reaction to add the die to AC vs an attack after seeing the roll but before the result is declared."
@@ -665,11 +666,11 @@
     {
       "name": "Extra Attack (Battlehymn)",
       "page": 6,
-      "source": "SkaldHB",
       "className": "Skald",
       "classSource": "SkaldHB",
       "subclassSource": "SkaldHB",
       "subclassShortName": "Battlehymn",
+      "source": "SkaldHB",
       "level": 6,
       "entries": [
         "Starting at 6th level you can attack twice, instead of once, when you take the Attack action."
@@ -678,11 +679,11 @@
     {
       "name": "War Rhythm",
       "page": 6,
-      "source": "SkaldHB",
       "className": "Skald",
       "classSource": "SkaldHB",
       "subclassSource": "SkaldHB",
       "subclassShortName": "Battlehymn",
+      "source": "SkaldHB",
       "level": 14,
       "entries": [
         "When you cast a Skald spell, you can make one weapon attack as a bonus action."
@@ -691,11 +692,11 @@
     {
       "name": "Bonus Proficiencies (Underworld)",
       "page": 7,
-      "source": "SkaldHB",
       "className": "Skald",
       "classSource": "SkaldHB",
       "subclassSource": "SkaldHB",
       "subclassShortName": "Underworld",
+      "source": "SkaldHB",
       "level": 3,
       "entries": [
         "When you join this school you gain proficiency in three skills of your choice."
@@ -704,11 +705,11 @@
     {
       "name": "Haunting Verse",
       "page": 7,
-      "source": "SkaldHB",
       "className": "Skald",
       "classSource": "SkaldHB",
       "subclassSource": "SkaldHB",
       "subclassShortName": "Underworld",
+      "source": "SkaldHB",
       "level": 3,
       "entries": [
         "As a reaction when a creature you can see within 60 ft makes an attack roll, ability check, or damage roll, expend a Skaldic Verse die to subtract the die result from that roll. The creature is immune if it can't hear you or is immune to being charmed."

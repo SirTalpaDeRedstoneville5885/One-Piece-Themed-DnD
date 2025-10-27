@@ -13,7 +13,7 @@
           "SirTalpadeRedstoneville58"
         ],
         "version": "2.7",
-        "color": "0B3075",
+        "color": "2E63A4",
         "url": "https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm"
       },
       {
@@ -28,7 +28,7 @@
           "SirTalpadeRedstoneville58"
         ],
         "version": "2.5",
-        "color": "60BFF5",
+        "color": "0B3075",
         "url": "https://homebrewery.naturalcrit.com/share/sK-UDzk7x8U_"
       }
     ],
@@ -40,7 +40,7 @@
     {
       "name": "Dungeons and Devil Fruits",
       "source": "D&DF-PHB",
-      "group": "D&DF-PHB",
+      "group": "setting",
       "id": "D&DF-PHB",
       "published": "",
       "cover": {
