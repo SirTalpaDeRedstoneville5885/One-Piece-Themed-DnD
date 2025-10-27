@@ -12,7 +12,7 @@
           "Tarun",
           "SirTalpadeRedstoneville58"
         ],
-        "version": "2.6",
+        "version": "2.7",
         "color": "0B3075",
         "url": "https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm"
       },
@@ -7403,7 +7403,7 @@
             "entries": [
               "You can telepathically communicate with Sea Kings within 60 feet of you.",
               "Ace scores a critical hit on a roll of 19 or 20.",
-              "You can cast Dominate Monster (save DC 17) on another creature. Once you have done so, Ace can’t be used this way again until the next dawn."
+              "You can cast Dominate Monster (save DC 17) on another creature. Once you have done so, Ace can't be used this way again until the next dawn."
             ]
           }
         ]
@@ -7470,7 +7470,7 @@
         "name": "Mummy",
         "entries": [
           "A creature subjected to this type of poison must succeed on a DC 15 Constitution saving throw or take {@damage 1d6} necrotic damage and become diseased. The diseased creature must repeat the saving throw at the start of every turn, taking {@damage 1d6} necrotic damage on a failed save.",
-          "Until this disease ends, the damage the creature takes can’t be healed by any means, and the disease decreases the creature's maximum hit points by the amount of necrotic damage it has taken from this disease. If this disease reduces the target's hit point maximum to 0, the target dies, and its body turns to dust.",
+          "Until this disease ends, the damage the creature takes can't be healed by any means, and the disease decreases the creature's maximum hit points by the amount of necrotic damage it has taken from this disease. If this disease reduces the target's hit point maximum to 0, the target dies, and its body turns to dust.",
           "Any other creature that touches a diseased creature before it recovers becomes subjected to the mummy poison and must succeed on a saving throw against it.",
           "This disease lasts until the diseased creature succeeds on a saving throw against it. Once it ends, the diseased creature can heal normally, but does not regain its lost maximum hit points until it completes a long rest."
         ]
@@ -17259,7 +17259,7 @@
           "hp": 100,
           "dt": 0,
           "entries": [
-            "Ranged Weapon Attack: +5 to hit, range 200/800 ft. (can’t hit within 60 ft.), one target. Hit: 16 (5d10) bludgeoning damage."
+            "Ranged Weapon Attack: +5 to hit, range 200/800 ft. (can't hit within 60 ft.), one target. Hit: 16 (5d10) bludgeoning damage."
           ]
         }
       ],
@@ -18492,7 +18492,7 @@
       "**Upgrade Slots Required.** 1",
       "**Armor Class.** 18",
       "**Hit Points.** 100 (threshold 10)",
-      "Gives advantage on crash saves. Damage from collisions is applied to the ram instead of the hull. These benefits don’t apply if another vehicle crashes into this one."
+      "Gives advantage on crash saves. Damage from collisions is applied to the ram instead of the hull. These benefits don't apply if another vehicle crashes into this one."
     ]
   },
   {

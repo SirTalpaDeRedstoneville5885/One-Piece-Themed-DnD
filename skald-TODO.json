@@ -1,17 +1,17 @@
 {
   "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
   "_meta": {
-    "sources": [     
+    "sources": [
         {
         "json": "SkaldHB",
         "abbreviation": "SkaldHB",
         "full": "Skald Homebrew",
         "authors": ["HomebrewAuthor"],
         "convertedBy": ["ConvertedBy"],
-        "version": "1.0.0",
+        "version": "1.1",
         "color": "33FFCA",
-        "url": "https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm" 
-        }     
+        "url": "https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm"
+        }
     ],
     "dateAdded": 1710000000,
     "dateLastModified": 1710000000,
@@ -35,12 +35,8 @@
             "anyMusicalInstrument": 3
           }
         ],
-        "skills": [
-          {
-            "any": 3
-          }
-        ]
-      }, 
+        "skills": [ { "any": 3 }]
+      },
       "startingEquipment": {
         "additionalFromBackground": true,
         "default": [
@@ -49,7 +45,7 @@
           "(a) a {@item Bagpipes|phb} or (b) any other {@filter musical instrument|items|miscellaneous=mundane|type=instrument} (not a piano)",
           "{@item thick shirt|D&DF-PHB}, and a {@item dagger|phb}"
         ],
-        "goldAlternative": "{@dice 5d4 × 10|5d4 × 10|Starting Gold}",
+        "goldAlternative": "{@dice 5d4 x 10|5d4 x 10|Starting Gold}",
         "defaultData": [
           {
             "a": [
@@ -92,78 +88,266 @@
       },
       "classTableGroups": [
         {
+          "title": "The Skald",
           "colLabels": [
-            "Level",
+            "level",
             "Proficiency Bonus",
             "Features",
-            "Natural Abilities (Cantrips) Known",
-            "Spirit Powers (Spells) Known",
-            "1st",
-            "2nd",
-            "3rd",
-            "4th",
-            "5th",
-            "6th",
-            "7th",
-            "8th",
-            "9th"
+            "{@filter Cantrips Known|spells|level=0|class=bard}",
+            "{@filter Spells Known|spells|class=bard}"
           ],
           "rows": [
-            ["1st", "+2", "Spirit Power (Spellcasting), Skaldic Verse (d6)", "2", "4", "2", "—", "—", "—", "—", "—", "—", "—", "—"],
-            ["2nd", "+2", "Jack of All Trades, Song of the Sea (d6), Versatile Verse", "2", "5", "3", "—", "—", "—", "—", "—", "—", "—", "—"],
-            ["3rd", "+2", "Skald School, Expertise", "2", "6", "4", "2", "—", "—", "—", "—", "—", "—", "—"],
-            ["4th", "+2", "Ability Score Improvement", "3", "7", "4", "3", "—", "—", "—", "—", "—", "—", "—"],
-            ["5th", "+3", "Skaldic Verse (d8), Continued Verse", "3", "8", "4", "3", "2", "—", "—", "—", "—", "—", "—"],
-            ["6th", "+3", "Skald School feature, Counterverse", "3", "9", "4", "3", "3", "—", "—", "—", "—", "—", "—"],
-            ["7th", "+3", "—", "3", "10", "4", "3", "3", "1", "—", "—", "—", "—", "—"],
-            ["8th", "+3", "Ability Score Improvement", "3", "11", "4", "3", "3", "2", "—", "—", "—", "—", "—"],
-            ["9th", "+4", "Song of the Sea (d8)", "3", "12", "4", "3", "3", "3", "1", "—", "—", "—", "—"],
-            ["10th", "+4", "Skaldic Verse (d10), Expertise, Tales of Legends", "4", "14", "4", "3", "3", "3", "2", "—", "—", "—", "—"],
-            ["11th", "+4", "—", "4", "15", "4", "3", "3", "3", "2", "1", "—", "—", "—"],
-            ["12th", "+4", "Ability Score Improvement", "4", "15", "4", "3", "3", "3", "2", "1", "—", "—", "—"],
-            ["13th", "+5", "Song of the Sea (d10)", "4", "16", "4", "3", "3", "3", "2", "1", "1", "—", "—"],
-            ["14th", "+5", "Skald School feature, Tales of Legends", "4", "18", "4", "3", "3", "3", "2", "1", "1", "—", "—"],
-            ["15th", "+5", "Skaldic Verse (d12)", "4", "19", "4", "3", "3", "3", "2", "1", "1", "1", "—"],
-            ["16th", "+5", "Ability Score Improvement", "4", "19", "4", "3", "3", "3", "2", "1", "1", "1", "—"],
-            ["17th", "+6", "Song of the Sea (d12)", "4", "20", "4", "3", "3", "3", "2", "1", "1", "1", "1"],
-            ["18th", "+6", "Tales of Legends", "4", "22", "4", "3", "3", "3", "3", "1", "1", "1", "1"],
-            ["19th", "+6", "Ability Score Improvement", "4", "22", "4", "3", "3", "3", "3", "2", "1", "1", "1"],
-            ["20th", "+6", "Superior Verse", "4", "22", "4", "3", "3", "3", "3", "2", "2", "1", "1"]
+            [1, "+2", "Spirit Power (Spellcasting), Skaldic Verse", 2, 4],
+            [2, "+2", "Jack of All Trades, Song of the Sea, Versatile Verse", 2, 5],
+            [3, "+2", "Skald School, Expertise", 2, 6],
+            [4, "+2", "Ability Score Improvement", 3, 7],
+            [5, "+3", "Continued Verse", 3, 8],
+            [6, "+3", "Counterverse", 3, 9],
+            [7, "+3", "—", 3, 10],
+            [8, "+3", "Ability Score Improvement", 3, 11],
+            [9, "+4", "—", 3, 12],
+            [10, "+4", "Tales of Legends", 4, 13],
+            [11, "+4", "—", 4, 14],
+            [12, "+4", "Ability Score Improvement", 4, 15],
+            [13, "+5", "—", 4, 16],
+            [14, "+5", "—", 4, 17],
+            [15, "+5", "—", 4, 18],
+            [16, "+5", "Ability Score Improvement", 4, 19],
+            [17, "+6", "—", 4, 20],
+            [18, "+6", "—", 4, 20],
+            [19, "+6", "Ability Score Improvement", 4, 20],
+            [20, "+6", "Superior Verse", 4, 20]
+          ]
+        },
+        {
+          "title": "Spell Slots per Spell Level",
+          "colLabels": [
+            "{@filter 1st|spells|level=1|class=bard}",
+            "{@filter 2nd|spells|level=2|class=bard}",
+            "{@filter 3rd|spells|level=3|class=bard}",
+            "{@filter 4th|spells|level=4|class=bard}",
+            "{@filter 5th|spells|level=5|class=bard}",
+            "{@filter 6th|spells|level=6|class=bard}",
+            "{@filter 7th|spells|level=7|class=bard}",
+            "{@filter 8th|spells|level=8|class=bard}",
+            "{@filter 9th|spells|level=9|class=bard}"
+          ],
+          "rowsSpellProgression": [
+            [
+              2,0,0,0,0,0,0,0,0
+            ],
+            [
+              3,0,0,0,0,0,0,0,0
+            ],
+            [
+              4,2,0,0,0,0,0,0,0
+            ],
+            [
+              4,3,0,0,0,0,0,0,0
+            ],
+            [
+              4,
+              3,2,0,0,0,0,0,0
+            ],
+            [
+              4,3,3,0,0,0,0,0,0
+            ],
+            [
+              4,3,3,1,0,0,0,0,0
+            ],
+            [
+              4,3,3,2,0,0,0,0,0
+            ],
+            [
+              4, 3,3,3,1,0,0,0,0
+            ],
+            [
+              4,3,3,3,2,0,0,0,0
+            ],
+            [
+              4,3,3,3,2,1,0,0,0
+            ],
+            [
+              4,3,3,3,2,1,0,0,0
+            ],
+            [
+              4,3,3,3,2,1,1,0,0
+            ],
+            [
+              4,3,3,3,2,1,1,0,0
+            ],
+            [
+              4,3,3,3,2,1,1,1,0
+            ],
+            [
+              4,3,3,3,2,1,1,1,0
+            ],
+            [
+              4,3,3,3,2,1,1,1,1
+            ],
+            [
+              4,3,3,3,3,1,1,1,1
+            ],
+            [
+              4,3,3,3,3,2,1,1,1
+            ],
+            [
+              4,3,3,3,3,2,2,1,1
+            ]
           ]
         }
       ],
+      "spellcasting": {
+        "ability": "cha",
+        "progression": "full",
+        "cantripsKnownProgression": [
+          2, 2, 2, 3, 3, 3, 3, 3, 3, 4,
+          4, 4, 4, 4, 4, 4, 4, 4, 4, 4
+        ],
+        "spellList": { "class": "Skald" }
+      },
       "classFeatures": [
         "Spirit Power (Spellcasting)|SkaldHB|1",
         "Skaldic Verse|SkaldHB|1",
         "Jack of All Trades|SkaldHB|2",
         "Song of the Sea|SkaldHB|2",
         "Versatile Verse|SkaldHB|2",
-        "Skald School|SkaldHB|3",
+        {
+          "classFeature": "Skald School|SkaldHB|3",
+          "gainSubclassFeature": true
+        },
         "Expertise|SkaldHB|3",
         "Ability Score Improvement|SkaldHB|4",
         "Continued Verse|SkaldHB|5",
+        {
+          "classFeature": "Skald School feature|SkaldHB|6",
+          "gainSubclassFeature": true
+        },
         "Counterverse|SkaldHB|6",
+        "Ability Score Improvement|SkaldHB|8",
         "Tales of Legends|SkaldHB|10",
+        "Ability Score Improvement|SkaldHB|12",
+        {
+          "classFeature": "Skald School feature|SkaldHB|14",
+          "gainSubclassFeature": true
+        },
+        "Ability Score Improvement|SkaldHB|16",
+        "Ability Score Improvement|SkaldHB|19",
         "Superior Verse|SkaldHB|20"
-      ]
+      ],
+      "multiclassing": {
+        "requirements": {
+          "cha": 13
+        },
+        "proficienciesGained": {
+          "armor": [
+            "light"
+          ],
+          "skills": [
+            {
+              "choose": {
+                "from": [
+                  "athletics",
+                  "acrobatics",
+                  "sleight of hand",
+                  "stealth",
+                  "arcana",
+                  "history",
+                  "investigation",
+                  "nature",
+                  "religion",
+                  "animal handling",
+                  "insight",
+                  "medicine",
+                  "perception",
+                  "survival",
+                  "deception",
+                  "intimidation",
+                  "performance",
+                  "persuasion"
+                ],
+                "count": 1
+              }
+            }
+          ],
+          "tools": [
+            "one {@item musical instrument|PHB} of your choice"
+          ],
+          "toolProficiencies": [
+            {
+              "anyMusicalInstrument": 1
+            }
+          ]
+        }
+      },
     }
   ],
   "classFeature": [
     {
-      "name": "Spirit Power (Spellcasting)",
-      "page": 2,
-      "className": "Skald",
-      "classSource": "SkaldHB",
-      "source": "SkaldHB",
-      "level": 1,
-      "entries": [
-        "You have learned to spiritually attune to the emotions of others and to project that power as Spirit Powers (spells). See the Skald table for slots and Natural Abilities (cantrips).",
-        "Natural Abilities (Cantrips): You know two cantrips of your choice from the Skald spell list. You learn additional cantrips at the levels shown in the Skald table.",
-        "Spirit Powers (Spells) Known: You know four 1st-level Spirit Powers of your choice from the Skald spell list. The Spirit Powers Known column shows when you learn more.",
-        "Spellcasting Ability: Charisma. Spirit save DC = 8 + your proficiency bonus + your Charisma modifier. Spirit attack modifier = your proficiency bonus + your Charisma modifier.",
-        "Ritual Casting: You can cast any Skald spell you know as a ritual if it has the ritual tag.",
-        "Spellcasting Focus: You can use a musical instrument as a spellcasting focus for your Skald spells."
-      ]
+       "name": "Spirit Power (Spellcasting)",
+       "source": "SkaldHB",
+       "page": 2,
+       "className": "Skald",
+       "classSource": "SkaldHB",
+       "level": 1,
+       "entries": [
+         "You have learned to spiritually attune to the emotions of others around you and also project your feelings into the world to create different magic-like effects. This class uses the Skald spell list in Chapter 8.",
+         {
+           "type": "entries",
+           "name": "Natural Abilities (Cantrips)",
+           "entries": [
+             "You know two cantrips of your choice from the Skald spell list. You learn additional Skald cantrips of your choice at higher levels, as shown in the Natural Abilities (Cantrips) Known column of the Skald table."
+           ]
+         },
+         {
+           "type": "entries",
+           "name": "Spirit Powers (Spellcasting)",
+           "entries": [
+             "The Skald table shows how many Spirit Power (Spell) Slots you have to cast your Spirit Powers (Spells) of 1st level and higher. To cast one of these Spirit Powers, you must expend a slot of the Spirit Power’s level or higher. You regain all expended Spirit Power Slots when you finish a long rest.",
+             "For example, if you know the 1st-level Spirit Power {@spell cure wounds} and have a 1st-level and a 2nd-level Spirit Power slot available, you can cast {@spell cure wounds} using either slot."
+           ]
+         },
+         {
+           "type": "entries",
+           "name": "Spirit Powers (Spells) Known of 1st Level and Higher",
+           "entries": [
+             "You know four 1st-level Spirit Powers (Spells) of your choice from the Skald spell list. The Spirit Powers Known column of the Skald table shows when you learn more Skald spells of your choice. Each of these spells must be of a level for which you have Spirit Power Slots, as shown on the table.",
+             "For instance, when you reach 3rd level in this class, you can learn one new Spirit Power of 1st or 2nd level.",
+             "Additionally, when you gain a level in this class, you can choose one of the Skald Spirit Powers you know and replace it with another Spirit Power from the Skald spell list, which also must be of a level for which you have Spirit Power Slots."
+           ]
+         },
+         {
+           "type": "entries",
+           "name": "Spirit (Spellcasting) Ability",
+           "entries": [
+             "Charisma is your Spirit (Spellcasting) ability for your Skald Spirit Powers. Your power comes from the heart and soul you pour into the performance of your music or oration. You use your Charisma whenever a Spirit Power (Spell) refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a Skald Spirit Power you cast and when making an attack roll with one.",
+             {
+               "type": "abilityDc",
+               "name": "Spirit",
+               "attributes": ["cha"]
+             },
+             {
+               "type": "abilityAttackMod",
+               "name": "Spirit",
+               "attributes": ["cha"]
+             }
+           ]
+         },
+         {
+           "type": "entries",
+           "name": "Ritual Casting",
+           "entries": [
+             "You can cast any Skald Spirit Power (Spell) you know as a ritual if that spell has the ritual tag."
+           ]
+         },
+         {
+           "type": "entries",
+           "name": "Spirit (Spellcasting) Focus",
+           "entries": [
+             "You can use a {@item musical instrument|PHB} as a Spirit Power (Spellcasting) focus for your Skald Spirit Powers."
+           ]
+         }
+       ]
     },
     {
       "name": "Skaldic Verse",
@@ -222,12 +406,34 @@
       ]
     },
     {
+    "name": "Skald School feature",
+    "page": 3,
+    "className": "Skald",
+    "classSource": "SkaldHB",
+    "source": "SkaldHB",
+    "level": 6,
+    "entries": [
+      "At 6th level, you gain an additional feature from your chosen Skald School."
+    ]
+    },
+    {
+      "name": "Skald School feature",
+      "page": 3,
+      "className": "Skald",
+      "classSource": "SkaldHB",
+      "source": "SkaldHB",
+      "level": 14,
+      "entries": [
+        "At 14th level, you gain an additional feature from your chosen Skald School."
+      ]
+    },
+    {
       "name": "Expertise",
       "page": 3,
       "source": "SkaldHB",
       "className": "Skald",
       "classSource": "SkaldHB",
-      "level": 3,
+      "level": 6,
       "entries": [
         "At 3rd level, choose two skill proficiencies. Your proficiency bonus is doubled for any ability check that uses either chosen proficiency. At 10th level choose two more."
       ]
@@ -239,6 +445,50 @@
       "className": "Skald",
       "classSource": "SkaldHB",
       "level": 4,
+      "entries": [
+        "When you reach 4th level, and again at 8th, 12th, 16th, and 19th, you can increase one ability score of your choice by 2, or two ability scores of your choice by 1. You can also take a feat if your DM allows."
+      ]
+    },
+    {
+      "name": "Ability Score Improvement",
+      "page": 3,
+      "source": "SkaldHB",
+      "className": "Skald",
+      "classSource": "SkaldHB",
+      "level": 8,
+      "entries": [
+        "When you reach 4th level, and again at 8th, 12th, 16th, and 19th, you can increase one ability score of your choice by 2, or two ability scores of your choice by 1. You can also take a feat if your DM allows."
+      ]
+    },
+    {
+      "name": "Ability Score Improvement",
+      "page": 3,
+      "source": "SkaldHB",
+      "className": "Skald",
+      "classSource": "SkaldHB",
+      "level": 12,
+      "entries": [
+        "When you reach 4th level, and again at 8th, 12th, 16th, and 19th, you can increase one ability score of your choice by 2, or two ability scores of your choice by 1. You can also take a feat if your DM allows."
+      ]
+    },
+    {
+      "name": "Ability Score Improvement",
+      "page": 3,
+      "source": "SkaldHB",
+      "className": "Skald",
+      "classSource": "SkaldHB",
+      "level": 16,
+      "entries": [
+        "When you reach 4th level, and again at 8th, 12th, 16th, and 19th, you can increase one ability score of your choice by 2, or two ability scores of your choice by 1. You can also take a feat if your DM allows."
+      ]
+    },
+    {
+      "name": "Ability Score Improvement",
+      "page": 3,
+      "source": "SkaldHB",
+      "className": "Skald",
+      "classSource": "SkaldHB",
+      "level": 19,
       "entries": [
         "When you reach 4th level, and again at 8th, 12th, 16th, and 19th, you can increase one ability score of your choice by 2, or two ability scores of your choice by 1. You can also take a feat if your DM allows."
       ]
@@ -331,7 +581,7 @@
         "Power of the Deep|Skald|SkaldHB|Underworld|SkaldHB|14|SkaldHB"
       ]
     }
-    
+
   ],
   "subclassFeature": [
     {

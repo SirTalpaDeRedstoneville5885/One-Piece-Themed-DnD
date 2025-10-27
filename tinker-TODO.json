@@ -18,6 +18,7 @@
         "url": "https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm"
       }
     ],
+    "edition": "classic",
     "dateAdded": 1710000000,
     "dateLastModified": 1710000000
   },
@@ -689,5 +690,5 @@
         "Starting at 14th level, any creature that you summon or create with a Conjuration creation power (spell) has 30 Temporary Hit Points."
       ]
     }
-  ]  
+  ]
 }

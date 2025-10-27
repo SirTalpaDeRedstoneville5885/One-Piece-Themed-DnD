@@ -1,0 +1,241 @@
+{
+      "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+    "_meta": {
+    "sources": [
+      {
+        "json": "D&DF-PHB",
+        "abbreviation": "D&DF-PHB",
+        "full": "One Piece Tinker and his shits",
+        "authors": [
+          "OneWorldHD"
+        ],
+        "convertedBy": [
+          "Tarun",
+          "SirTalpadeRedstoneville58"
+        ],
+        "version": "2.6.1",
+        "color": "0B3075",
+        "url": "https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm"
+      }
+    ],
+    "edition": "classic",
+    "dateAdded": 1710000000,
+    "dateLastModified": 1710000000
+  },
+    "tool":[
+  {
+    "name": "Dials" ,
+    "category": "dials",
+      "source": "D&DF-PHB",
+      "entries": [
+        "A collection of wands, crystals, and measuring implements used to channel or analyze magical energy.",
+        "Characters proficient with Arcane Tools can add their proficiency bonus to Intelligence (Arcana) checks to manipulate magical constructs, analyze spell effects, or craft arcane devices."
+      ]
+  }
+],
+"spell": [
+{
+	"name": "Wall of Goo",
+	"level": 3,
+	"school": "EVO",
+	"time": [{"number": 1, "unit": "action"}],
+	"range": {"type": "point", "distance": {"amount": 60, "type": "feet"}},
+	"duration": [{"type": "timed", "duration": {"type": "minute", "amount": 10}, "concentration": true}],
+	"classes": {
+    "fromClassList": [
+      {
+        "name": "Chemist",
+        "source": "D&DF-PHB"
+      }, 
+      {
+        "name": "Hybrid",
+        "source": "D&DF-PHB"
+      }, 
+      {
+        "name": "Tinkerer",
+        "source": "D&DF-PHB"
+      }
+      ]
+    },
+	"entries": [
+		"You conjure up a wall of transparent goo on the ground at a point you can see within range. You can make the wall up to 30 feet long, 10 feet high, and 1 foot thick, or you can make a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall vanishes when the spell ends. The wall0s space is difficult terrain.",
+		"Any ranged weapon attack that enters the wall0s space has disadvantage on the attack roll, and fire damage is halved if the fire effect passes through the wall to reach its target. Spells that deal cold damage that pass through the wall cause the area of the wall they pass through to freeze solid (at least a 5-foot square section is frozen). Each 5-foot-square frozen section has AC 5 and 15 hit points. Reducing a frozen section to 0 hit points destroys it. When a section is destroyed, the wall0s goo doesn't fill it."
+	],
+	"source": "D&DF-PHB",
+	"components": {"v": true, "s": true, "m": "a drop of goo"}
+},
+{
+	"name": "Swamp Sphere",
+	"level": 4,
+	"school": "CON",
+	"time": [{"number": 1, "unit": "action"}],
+	"range": {"type": "point", "distance": {"amount": 90, "type": "feet"}},
+	"duration": [{"type": "timed", "duration": {"type": "minute", "amount": 1}, "concentration": true}],
+	"classes": {"fromClassList": [{"name": "Chemist", "source": "D&DF-PHB"}, {"name": "Hybrid", "source": "D&DF-PHB"}, {"name": "Tinkerer", "source": "D&DF-PHB"}]},
+	"entries": [
+		"You conjure up a sphere of swamp mud with a 5-foot radius at a point you can see within range. The sphere can hover but no more than 10 feet off the ground. The sphere remains for the spell0s duration.",
+		"Any creature in the sphere0s space must make a Strength saving throw. On a successful save, a creature is ejected from that space to the nearest unoccupied space of the creature0s choice outside the sphere. A Huge or larger creature succeeds automatically, and a Large or smaller creature can choose to fail it. On a failed save, a creature is restrained by the sphere and is engulfed by the mud. At the end of each of its turns, a restrained target can repeat the saving throw, ending the effect on a success.",
+		"The sphere can restrain as many as four Medium or smaller creatures or one Large creature. If restraining a new creature exceeds capacity, a random creature already restrained is ejected prone within 5 feet.",
+		"As an action, you can move the sphere up to 30 feet in a straight line. It descends safely when moving over drops. Restrained creatures move with it. You can ram the sphere into creatures, forcing them to make the saving throw.",
+		"When the spell ends, the sphere falls to the ground, extinguishes all normal flames within 30 feet, and knocks restrained creatures prone as it vanishes."
+	],
+	"source": "D&DF-PHB",
+	"components": {"v": true, "s": true, "m": "a piece of swamp material"}
+},
+{
+	"name": "Soap Bubble",
+	"level": 3,
+	"school": "CON",
+	"time": [{"number": 1, "unit": "minute"}],
+	"range": {"type": "point", "distance": {"amount": 30, "type": "feet"}},
+	"duration": [{"type": "timed", "duration": {"type": "hour", "amount": 1}}],
+	"classes": {"fromClassList": [{"name": "Chemist", "source": "D&DF-PHB"}, {"name": "Hybrid", "source": "D&DF-PHB"}, {"name": "Marksman", "source": "D&DF-PHB"}, {"name": "Tinkerer", "source": "D&DF-PHB"}]},
+	"entries": [
+		"You envelop up to five chosen creatures within range in bubbles formed from a special soap. Creatures within these soap bubbles gain a swimming speed of 30 feet, the ability to breathe underwater, and 5 temporary hit points for the duration.",
+		"The bubble is attached to the target and moves with it. If a creature loses all temporary hit points provided by this spell, the bubble bursts and its benefits end."
+	],
+	"source": "D&DF-PHB",
+	"components": {"v": true, "s": true, "m": "a bar of soap"}
+},
+{
+	"name": "Slime Wave",
+	"level": 3,
+	"school": "CON",
+	"time": [{"number": 1, "unit": "action"}],
+	"range": {"type": "point", "distance": {"amount": 120, "type": "feet"}},
+	"duration": [{"type": "instant"}],
+	"classes": {"fromClassList": [{"name": "Chemist", "source": "D&DF-PHB"}, {"name": "Tinkerer", "source": "D&DF-PHB"}]},
+	"entries": [
+		"You conjure up a wave of slime that crashes down on an area within range up to 30 feet long, 10 feet wide, and 10 feet tall. Each creature must make a Dexterity saving throw, taking 4d8 bludgeoning damage and being knocked prone on a failure, or half as much on a success.",
+		"The slime then spreads out, extinguishing unprotected flames within 30 feet before vanishing."
+	],
+	"source": "D&DF-PHB",
+	"components": {"v": true, "s": true, "m": "a drop of slime"}
+},
+{
+	"name": "Slime Tsunami",
+	"level": 8,
+	"school": "CON",
+	"time": [{"number": 1, "unit": "action"}],
+	"range": {"type": "sight"},
+	"duration": [{"type": "timed", "duration": {"type": "minute", "amount": 1}, "concentration": true}],
+	"classes": {"fromClassList": [{"name": "Chemist", "source": "D&DF-PHB"}, {"name": "Hybrid", "source": "D&DF-PHB"}, {"name": "Tinkerer", "source": "D&DF-PHB"}]},
+	"entries": [
+		"A wall of slime springs into existence up to 300 feet long, 300 feet high, and 50 feet thick. When it appears, creatures within must make a Strength saving throw, taking 6d10 bludgeoning damage on a failed save or half on success.",
+		"At the start of each of your turns, the wall moves 50 feet away from you, dealing 5d10 bludgeoning damage to creatures in its path (once per round). Each turn, its height and damage decrease by 50 feet and 1d10 respectively until it dissipates."
+	],
+	"source": "D&DF-PHB",
+	"components": {"v": true, "s": true}
+},
+{
+	"name": "Poison Giant: Hell's Judgement",
+	"level": 8,
+	"school": "CON",
+	"time": [{"number": 1, "unit": "action"}],
+	"range": {"type": "self"},
+	"duration": [{"type": "timed", "duration": {"type": "minute", "amount": 1}, "concentration": true}],
+	"classes": {"fromClassList": [{"name": "Chemist", "source": "D&DF-PHB"}, {"name": "Priest", "source": "D&DF-PHB"}, {"name": "Tinkerer", "source": "D&DF-PHB"}]},
+	"entries": [
+		"You create a gargantuan poison demon around you, forming a 20-foot-radius sphere of poison centered on you that moves with you and is difficult terrain. Creatures ending their turn within must make a Constitution saving throw, taking 7d6 poison or acid damage (your choice) on a failed save, or half as much on a success.",
+		"Each turn, you can use an action to make two melee spell attacks via the demon, each dealing 4d12 poison or acid damage. Creatures damaged by this spell are poisoned until the end of their next turn."
+	],
+	"source": "D&DF-PHB",
+	"components": {"s": true}
+},
+{
+	"name": "Locate Devil Fruit Power",
+	"level": 9,
+	"school": "DIV",
+	"time": [{"number": 1, "unit": "hour"}],
+	"range": {"type": "self"},
+	"duration": [{"type": "timed", "duration": {"type": "hour", "amount": 8}}],
+	"classes": {"fromClassList": [{"name": "Chemist", "source": "D&DF-PHB"}, {"name": "Devilforged", "source": "D&DF-PHB"}, {"name": "Priest", "source": "D&DF-PHB"}, {"name": "Tinkerer", "source": "D&DF-PHB"}]},
+	"entries": [
+		"Give a description or name of a Devil Fruit. You sense the location of the matching Devil Fruit for the duration. If the description is vague, the DM may choose the closest match.",
+		"If the Devil Fruit is consumed, you sense the creature or object that has it, as if using Locate Creature or Locate Object, ignoring distance limits."
+	],
+	"source": "D&DF-PHB",
+	"components": {"v": true, "s": true, "m": "a ripe fruit"}
+},
+{
+	"name": "Island Shaking",
+	"level": 9,
+	"school": "EVO",
+	"time": [{"number": 1, "unit": "action"}],
+	"range": {"type": "radius", "distance": {"amount": 1, "type": "mile"}},
+	"duration": [{"type": "timed", "duration": {"type": "minute", "amount": 1}, "concentration": true}],
+	"classes": {"fromClassList": [{"name": "Hybrid", "source": "D&DF-PHB"}, {"name": "Priest", "source": "D&DF-PHB"}]},
+	"entries": [
+		"You pull apart fault lines, turning the ground within range into difficult terrain. When you cast, choose a 100-foot-radius area to thrust upward, dealing 20d6 bludgeoning damage to creatures (Strength save for half) and damaging structures.",
+		"You can repeat this action as an action on subsequent turns for the duration."
+	],
+	"source": "D&DF-PHB",
+	"components": {"v": true, "s": true}
+},
+{
+	"name": "Ice Age",
+	"level": 9,
+	"school": "EVO",
+	"time": [{"number": 1, "unit": "action"}],
+	"range": {"type": "radius", "distance": {"amount": 1, "type": "mile"}},
+	"duration": [{"type": "timed", "duration": {"type": "hour", "amount": 8}}],
+	"classes": {"fromClassList": [{"name": "Chemist", "source": "D&DF-PHB"}, {"name": "Tinkerer", "source": "D&DF-PHB"}]},
+	"entries": [
+		"You freeze every body of water within range. Creatures within 60 feet of you or touching freezing liquid must make a Constitution save, taking 20d8 cold damage and becoming restrained on a failure, or half on success.",
+		"Frozen water becomes solid ice (AC 12, 20 HP, vulnerable to fire). Restrained creatures can break or slip free with checks or saving throws each turn."
+	],
+	"source": "D&DF-PHB",
+	"components": {"v": true, "s": true}
+},
+{
+	"name": "Great Heaven Splitter",
+	"level": 5,
+	"school": "CON",
+	"time": [{"number": 1, "unit": "action"}],
+	"range": {"type": "point", "distance": {"amount": 150, "type": "feet"}},
+	"duration": [{"type": "instant"}],
+	"classes": {"fromClassList": [{"name": "Devilforged", "source": "D&DF-PHB"}, {"name": "Marksman", "source": "D&DF-PHB"}, {"name": "Skald", "source": "D&DF-PHB"}, {"name": "Tinkerer", "source": "D&DF-PHB"}]},
+	"entries": [
+		"You unleash a devastating slash of energy in a 150-foot-long, 20-foot-high line. Each creature must make a Dexterity saving throw, taking 5d6 slashing and 5d6 thunder damage on a failure, or half on a success. Nonmagical objects also take damage."
+	],
+	"source": "D&DF-PHB",
+	"components": {"s": true, "m": "a melee weapon worth at least ฿1,000"}
+},
+{
+	"name": "Flame Emperor",
+	"level": 9,
+	"school": "EVO",
+	"time": [{"number": 1, "unit": "action"}],
+	"range": {"type": "point", "distance": {"amount": 1000, "type": "feet"}},
+	"duration": [{"type": "timed", "duration": {"type": "minute", "amount": 1}, "concentration": true}],
+	"classes": {"fromClassList": [{"name": "Hybrid", "source": "D&DF-PHB"}, {"name": "Tinkerer", "source": "D&DF-PHB"}, {"name": "Priest", "source": "D&DF-PHB"}]},
+	"entries": [
+		"You create a 20-foot-radius sphere of concentrated flames at a point you can see. The sphere is rough terrain and ignites flammable materials within 100 feet.",
+		"Creatures ending their turn inside must make a Dexterity saving throw, taking 8d6 fire damage on a failure or half on success.",
+		"As a bonus action, move the sphere up to 60 feet. Hitting creatures this way forces the save again. You can detonate the sphere, dealing 20d6 fire damage in a 100-foot radius, ending the spell."
+	],
+	"source": "D&DF-PHB",
+	"components": {"v": true, "s": true, "m": "a perfect ball of coal"}
+},
+{
+	"name": "Ice Spike",
+	"level": 2,
+	"school": "EVO",
+	"time": [{"number": 1, "unit": "action"}],
+	"range": {"type": "self"},
+	"duration": [{"type": "timed", "duration": {"type": "minute", "amount": 1}, "concentration": true}],
+	"classes": {"fromClassList": [{"name": "Sorcerer", "source": "D&DF-PHB"}, {"name": "Wizard", "source": "D&DF-PHB"}, {"name": "Druid", "source": "D&DF-PHB"}]},
+	"entries": [
+		"You conjure a sphere of jagged ice around one hand, forming a mace-like gauntlet. It counts as a simple melee weapon that deals 2d8 cold damage on a hit and halves the target0s speed until your next turn.",
+		"You can throw it as an action at a creature within 120 feet, forcing a Dexterity saving throw. On a failure, the creature takes 2d8 cold damage and its speed is halved; on success, half damage only. The gauntlet then explodes, forcing creatures within 5 feet to make a Dexterity save or take 2d6 cold damage, ending the spell."
+	],
+	"entriesHigherLevel": [
+		{"type": "entries", "name": "At Higher Levels", "entries": [
+			"When you cast this spell using a spell slot of 3rd level or higher, the cold damage of both the melee and ranged attacks increases by 1d8, and the explosion damage increases by 1d6 for each slot level above 2nd."
+		]}
+	],
+	"source": "D&DF-PHB",
+	"components": {"v": true, "s": true}
+}
+]
+}

@@ -14,10 +14,10 @@ All the ones that do not have the (DMG) are from the D&DF-PHB
 - [x] Priest
 - [x] Rogue
 - [ ] Skald
-- [ ] Tinkerer (WIP)
+- [x] Tinkerer (WIP)
 - [x] Warrior
 
-### Items
+### Items and spells
 
 - [x] Weapons
 - [x] Treasures        (DMG)
@@ -27,6 +27,12 @@ All the ones that do not have the (DMG) are from the D&DF-PHB
 - [ ] Dials
 - [ ] Pop Greens
 - [ ] Stars
+- [ ] Custom Spells
+- [ ] Spell Lists
+
+#### Dials
+
+#### Custom Spells
 
 ### Backgrounds, Feats and Similar
 
@@ -35,11 +41,6 @@ All the ones that do not have the (DMG) are from the D&DF-PHB
 - [ ] Dreams
 - [ ] Feats
 - [ ] Haki
-
-### Other
-
-- [ ] Custom Spells
-- [ ] Spell Lists
 
 ### Book things
 
