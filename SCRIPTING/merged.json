@@ -1592,7 +1592,7 @@
           "type": "entries",
           "name": "Dial Proficiency",
           "entries": [
-            "You innately understand dials that have came from sky islands and can carry one with you. Roll once on the Simple Dial Table in Chapter 5 to determine which one you start with."
+            "You innately understand {@item dials|D&DF-PHB} that have came from sky islands and can carry one with you. Roll once on the Simple Dial Table in Chapter 5 to determine which one you start with."
           ]
         },
         {
