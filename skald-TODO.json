@@ -8,7 +8,7 @@
         "full": "Skald Homebrew",
         "authors": ["HomebrewAuthor"],
         "convertedBy": ["ConvertedBy"],
-        "version": "1.8",
+        "version": "1.9",
         "color": "33FFCA",
         "url": "https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm"
         }
@@ -546,12 +546,11 @@
       "page": 5,
       "className": "Skald",
       "classSource": "SkaldHB",
-      "subclassSource": "SkaldHB",
       "subclassFeatures": [
-        "Pain-Numbing Verse|Skald|SkaldHB|Hypnotism|3",
-        "Hypnotic Words|Skald|SkaldHB|Hypnotism|3",
-        "Collar of Command|Skald|SkaldHB|Hypnotism|6",
-        "Complete Hypnosis|Skald|SkaldHB|Hypnotism|14"
+        "Pain-Numbing Verse|Skald|SkaldHB|Hypnotism|SkaldHB|3|SkaldHB",
+        "Hypnotic Words|Skald|SkaldHB|Hypnotism|SkaldHB|3|SkaldHB",
+        "Collar of Command|Skald|SkaldHB|Hypnotism|SkaldHB|6|SkaldHB",
+        "Complete Hypnosis|Skald|SkaldHB|Hypnotism|SkaldHB|14|SkaldHB"
       ]
     },
     {
@@ -561,12 +560,11 @@
       "page": 6,
       "className": "Skald",
       "classSource": "SkaldHB",
-      "subclassSource": "SkaldHB",
       "subclassFeatures": [
-        "Bonus Proficiencies (Battlehymn)|Skald|SkaldHB|Battlehymn|3",
-        "Warrior Verse|Skald|SkaldHB|Battlehymn|3",
-        "Extra Attack (Battlehymn)|Skald|SkaldHB|Battlehymn|6",
-        "War Rhythm|Skald|SkaldHB|Battlehymn|14"
+        "Bonus Proficiencies (Battlehymn)|Skald|SkaldHB|Battlehymn|SkaldHB|3|SkaldHB",
+        "Warrior Verse|Skald|SkaldHB|Battlehymn|SkaldHB|3|SkaldHB",
+        "Extra Attack (Battlehymn)|Skald|SkaldHB|Battlehymn|SkaldHB|6|SkaldHB",
+        "War Rhythm|Skald|SkaldHB|Battlehymn|SkaldHB|14|SkaldHB"
       ]
     },
     {
@@ -576,14 +574,14 @@
       "page": 7,
       "className": "Skald",
       "classSource": "SkaldHB",
-      "subclassSource": "SkaldHB",
       "subclassFeatures": [
-        "Bonus Proficiencies (Underworld)|Skald|SkaldHB|Underworld|3",
-        "Haunting Verse|Skald|SkaldHB|Underworld|3",
-        "Additional Tales of Legends|Skald|SkaldHB|Underworld|6",
-        "Power of the Deep|Skald|SkaldHB|Underworld|14"
+        "Bonus Proficiencies (Underworld)|Skald|SkaldHB|Underworld|SkaldHB|3|SkaldHB",
+        "Haunting Verse|Skald|SkaldHB|Underworld|SkaldHB|3|SkaldHB",
+        "Additional Tales of Legends|Skald|SkaldHB|Underworld|SkaldHB|6|SkaldHB",
+        "Power of the Deep|Skald|SkaldHB|Underworld|SkaldHB|14|SkaldHB"
       ]
     }
+
   ],
   "subclassFeature": [
     {
