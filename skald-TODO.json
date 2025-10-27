@@ -12,7 +12,7 @@
         "convertedBy": [
           "ConvertedBy"
         ],
-        "version": "1.13",
+        "version": "1.14291294",
         "color": "33FFCA",
         "url": "https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm"
       }
@@ -61,22 +61,17 @@
           }
         ]
       },
-      "fluff": {
-      "name": "Skald",
-      "type": "entries",
-      "entries": [
-        "Masters of mind and melody, Hypnotic Skalds weave words that enthrall and pacify."
-      ]
-    },
-    "spellcastingAbility": "cha",
-      "casterProgression": "full",
+      "spellcasting": {
+        "progression": "full",
+        "ability": "cha"
+      },
       "cantripProgression": [ 2, 2, 2, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4
       ],
       "startingEquipment": {
         "additionalFromBackground": true,
         "default": [
           "(a) a {@item rapier|phb}, (b) a {@item longsword|phb}, or (c) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
-          "(a) a {@item pirates' pack|D&DF-PHB} or (b) an {@item entertainer's pack|phb}",
+          "(a) a {@item pirate's pack|D&DF-PHB} or (b) an {@item entertainer's pack|phb}",
           "(a) a {@item Bagpipes|phb} or (b) any other {@filter musical instrument|items|miscellaneous=mundane|type=instrument} (not a piano)",
           "{@item thick shirt|D&DF-PHB}, and a {@item dagger|phb}"
         ],
@@ -97,7 +92,7 @@
           },
           {
             "a": [
-              "pirates' pack|D&DF-PHB"
+              "pirate's pack|D&DF-PHB"
             ],
             "b": [
               "entertainer's pack|phb"
@@ -123,9 +118,10 @@
       },
       "classTableGroups": [
         {
+          "title": "Cantrips and Spells Known",
           "colLabels": [
-            "{@filter Cantrips Known|spells|level=0|class=bard}",
-            "{@filter Spells Known|spells|class=bard}"
+            "{@filter Cantrips Known|spells|level=0|class=skald}",
+            "{@filter Spells Known|spells|class=skald}"
           ],
           "rows": [
             [
@@ -213,16 +209,238 @@
         {
           "title": "Spell Slots per Spell Level",
           "colLabels": [
-            "{@filter 1st|spells|level=1|class=bard}",
-            "{@filter 2nd|spells|level=2|class=bard}",
-            "{@filter 3rd|spells|level=3|class=bard}",
-            "{@filter 4th|spells|level=4|class=bard}",
-            "{@filter 5th|spells|level=5|class=bard}",
-            "{@filter 6th|spells|level=6|class=bard}",
-            "{@filter 7th|spells|level=7|class=bard}",
-            "{@filter 8th|spells|level=8|class=bard}",
-            "{@filter 9th|spells|level=9|class=bard}"
+            "{@filter 1st|spells|level=1|class=skald}",
+            "{@filter 2nd|spells|level=2|class=skald}",
+            "{@filter 3rd|spells|level=3|class=skald}",
+            "{@filter 4th|spells|level=4|class=skald}",
+            "{@filter 5th|spells|level=5|class=skald}",
+            "{@filter 6th|spells|level=6|class=skald}",
+            "{@filter 7th|spells|level=7|class=skald}",
+            "{@filter 8th|spells|level=8|class=skald}",
+            "{@filter 9th|spells|level=9|class=skald}"
           ],
+          "rows": [
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              2,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1,
+              0,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1,
+              1,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1,
+              1,
+              0
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              3,
+              1,
+              1,
+              1,
+              1
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              3,
+              2,
+              1,
+              1,
+              1
+            ],
+            [
+              4,
+              3,
+              3,
+              3,
+              3,
+              2,
+              2,
+              1,
+              1
+            ]
+          ] ,
           "rowsSpellProgression": [
             [
               2,
@@ -791,13 +1009,6 @@
       "page": 5,
       "className": "Skald",
       "classSource": "SkaldHB",
-      "fluff": {
-        "name": "School of Hypnotism",
-        "type": "entries",
-        "entries": [
-          "Masters of mind and melody, Hypnotic Skalds weave words that enthrall and pacify."
-        ]
-      },
       "subclassFeatures": [
         "Pain-Numbing Verse|Skald|SkaldHB|Hypnotism|SkaldHB|3|SkaldHB",
         "Hypnotic Words|Skald|SkaldHB|Hypnotism|SkaldHB|3|SkaldHB",
@@ -812,13 +1023,6 @@
       "page": 6,
       "className": "Skald",
       "classSource": "SkaldHB",
-      "fluff": {
-        "name": "School of Battlehymn",
-        "type": "entries",
-        "entries": [
-          "Battlehymn Skalds channel the chaos of combat into rhythm and song, empowering allies with courage and precision."
-        ]
-      },
       "subclassFeatures": [
         "Bonus Proficiencies (Battlehymn)|Skald|SkaldHB|Battlehymn|SkaldHB|3|SkaldHB",
         "Warrior Verse|Skald|SkaldHB|Battlehymn|SkaldHB|3|SkaldHB",
@@ -833,7 +1037,6 @@
       "page": 7,
       "className": "Skald",
       "classSource": "SkaldHB",
-      "fluff": {},
       "subclassFeatures": [
         "Bonus Proficiencies (Underworld)|Skald|SkaldHB|Underworld|SkaldHB|3|SkaldHB",
         "Haunting Verse|Skald|SkaldHB|Underworld|SkaldHB|3|SkaldHB",

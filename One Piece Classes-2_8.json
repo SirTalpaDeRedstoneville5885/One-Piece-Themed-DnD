@@ -107,7 +107,7 @@
       "startingEquipment": {
         "default": [
           "(a) a cutlass or (b) any simple weapon",
-          "(a) a pirate's pack or (b) an explorer's pack",
+          "(a) a {@item pirate's pack|D&DF-PHB} or (b) an explorer's pack",
           "(a) a set of artisan's tools or (b) a gaming set"
         ],
         "additionalFromBackground": true,
@@ -123,7 +123,7 @@
           {
             "a": [
               {
-                "item": "pirate's pack|phb",
+                "item": "pirate's pack|D&DF-PHB",
                 "quantity": 2
               }
             ],
@@ -2001,7 +2001,7 @@
         "additionalFromBackground": true,
         "default": [
           "(a) a {@item shortsword|phb} or (b) any {@filter simple weapon|items|source=phb|category=basic|type=simple weapon}",
-          "(a) a pirate's pack or (b) an {@item explorer's pack|phb}",
+          "(a) a {@item pirate's pack|D&DF-PHB} or (b) an {@item explorer's pack|phb}",
           "10 {@item dart|phb|darts} or 2 {@item dagger|phb|daggers}"
         ],
         "defaultData": [
@@ -2017,7 +2017,7 @@
           },
           {
             "a": [
-              "pirate's pack"
+              "pirate's pack|D&DF-PHB"
             ],
             "b": [
               "explorer's pack|phb"
