@@ -12,7 +12,7 @@
         "convertedBy": [
           "SirTalpadeRedstoneville58"
         ],
-        "version": "1.4",
+        "version": "1.6",
         "color": "0B3075",
         "url": "https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm"
       }
@@ -428,36 +428,39 @@
     "page": 151,
     "source": "D&DF-PHB",
       "rarity": "uncommon",
-      "reqAttune": true,
-      "wondrous": true,
+      "type": "DIAL:R",
       "entries": [
       "A +1 axe dial (uncommon) gives any weapon, including your unarmed strikes, a +1 bonus to attack and damage rolls when attached.",
       "In order to attach an axe dial to a weapon or body part, the user must spend time during a short or long rest properly fitting and attaching it to the desired weapon. A weapon can only receive the benefits from one dial at a time, and the effects of separate dials on a single weapon do not stack. Furthermore, axe dials do not stack with innate weapon bonus stats, and can only increase a weapon's innate bonuses up to a total +3 for attack or damage rolls. However, axe dial bonuses do stack with bonuses from character feats and abilities."
-      ]
+      ],
+    "bonusWeaponDamage": "1",
+    "bonusWeaponAttack": "1"
     },
   {
     "name": "Axe Dial +2",
     "page": 151,
     "source": "D&DF-PHB",
-      "rarity": "uncommon",
-      "reqAttune": true,
-      "wondrous": true,
+      "rarity": "rare",
+      "type": "DIAL:R",
       "entries": [
       "A +2 axe dial (rare) gives any weapon, including your unarmed strikes, a +2 bonus to attack and damage rolls when attached.",
       "In order to attach an axe dial to a weapon or body part, the user must spend time during a short or long rest properly fitting and attaching it to the desired weapon. A weapon can only receive the benefits from one dial at a time, and the effects of separate dials on a single weapon do not stack. Furthermore, axe dials do not stack with innate weapon bonus stats, and can only increase a weapon's innate bonuses up to a total +3 for attack or damage rolls. However, axe dial bonuses do stack with bonuses from character feats and abilities."
-      ]
+      ],
+    "bonusWeaponDamage": "2",
+    "bonusWeaponAttack": "2"
     },
   {
     "name": "Axe Dial +3",
     "page": 151,
     "source": "D&DF-PHB",
-      "rarity": "uncommon",
-      "reqAttune": true,
-      "wondrous": true,
+      "rarity": "very rare",
+      "type": "DIAL:R",
       "entries": [
       "A +3 axe dial (very rare) gives any weapon, including your unarmed strikes, a +3 bonus to attack and damage rolls when attached.",
       "In order to attach an axe dial to a weapon or body part, the user must spend time during a short or long rest properly fitting and attaching it to the desired weapon. A weapon can only receive the benefits from one dial at a time, and the effects of separate dials on a single weapon do not stack. Furthermore, axe dials do not stack with innate weapon bonus stats, and can only increase a weapon's innate bonuses up to a total +3 for attack or damage rolls. However, axe dial bonuses do stack with bonuses from character feats and abilities."
-      ]
+      ],
+    "bonusWeaponDamage": "3",
+    "bonusWeaponAttack": "3"
     },
   {
     "name": "Ball Dial",
@@ -578,6 +581,100 @@
     "page": 152,
     "source": "D&DF-PHB",
     "rarity": "unknown (magic)"
+  },
+  {
+    "name": "Metallic Star",
+    "type": "Stars",
+    "source": "D&DF-PHB",
+    "rarity": "varies",
+    "entries": [
+      "This type of star is much heavier and more destructive than ordinary ammo."
+    ],
+    "items":[
+      "Metallic Star +1",
+      "Metallic Star +2",
+      "Metallic Star +3"
+    ]    
+  },
+  {
+    "name": "Metallic Star +1",
+    "type": "Stars",
+    "source": "D&DF-PHB",
+    "rarity": "uncommon",
+    "entries": [
+      "Uncommon metallic stars have a +1 to attack and damage rolls when fired.\nAdditionally, targets that are medium or smaller that are hit by a metallic star must succeed on a Strength save against a DC equal to 10 + (attack/damage bonus of the star x 2) [12], or be knocked prone."
+    ],
+    "bonusWeaponDamage": "1",
+    "bonusWeaponAttack": "1"
+  },
+  {
+    "name": "Metallic Star +2",
+    "type": "Stars",
+    "source": "D&DF-PHB",
+    "rarity": "Rare",
+    "entries": [
+      "Rare metallic stars have a +2 to attack and damage rolls when fired.\nAdditionally, targets that are medium or smaller that are hit by a metallic star must succeed on a Strength save against a DC equal to 10 + (attack/damage bonus of the star x 2) [14], or be knocked prone."
+    ],
+    "bonusWeaponDamage": "2",
+    "bonusWeaponAttack": "2"
+  },
+  {
+    "name": "Metallic Star +3",
+    "type": "Stars",
+    "source": "D&DF-PHB",
+    "rarity": "very rare",
+    "entries": [
+      "Very rare metallic stars have a +3 to attack and damage rolls when fired.\nAdditionally, targets that are medium or smaller that are hit by a metallic star must succeed on a Strength save against a DC equal to 10 + (attack/damage bonus of the star x 2) [16], or be knocked prone."
+    ],
+    "bonusWeaponDamage": "3",
+    "bonusWeaponAttack": "3"
+  },
+  {
+    "name": "Flame Star",
+    "type": "Stars",
+    "source": "D&DF-PHB",
+    "rarity": "varies",
+    "entries": [
+      "A flame star ignites mid-air, igniting anything it hits on contact. "
+    ],
+    "items":[
+      "Uncommon Flame Star",
+      "Rare Flame Star",
+      "Very rare Flame Star"
+    ]    
+  },
+  {
+    "name": "Uncommon Flame Star",
+    "type": "Stars",
+    "source": "D&DF-PHB",
+    "rarity": "uncommon",
+    "entries": [
+      "Uncommon flame stars deal an addition 1d6 fire damage when fired"
+    ],
+    "bonusWeaponDamage": "1d6",
+    "dmgType": "F"
+  },
+  {
+    "name": "Rare Flame Star",
+    "type": "Stars",
+    "source": "D&DF-PHB",
+    "rarity": "Rare",
+    "entries": [
+      "Uncommon flame stars deal an addition 2d6 fire damage when fired"
+    ],
+    "bonusWeaponDamage": "2d6",
+    "dmgType": "F"
+  },
+  {
+    "name": "Very rare Flame Star",
+    "type": "Stars",
+    "source": "D&DF-PHB",
+    "rarity": "very rare",
+    "entries": [
+      "Uncommon flame stars deal an addition 3d6 fire damage when fired"
+    ],
+    "bonusWeaponDamage": "3d6",
+    "dmgType": "F"
   }
 ],
 "table":[
