@@ -12,7 +12,7 @@
         "convertedBy": [
           "ConvertedBy"
         ],
-        "version": "1.12",
+        "version": "1.13",
         "color": "33FFCA",
         "url": "https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm"
       }
@@ -34,7 +34,7 @@
         "dex",
         "cha"
       ],
-      "subclassTitle": "Skald School", 
+      "subclassTitle": "Skald School",
       "startingProficiencies": {
         "armor": [
           "light"
@@ -68,6 +68,10 @@
         "Masters of mind and melody, Hypnotic Skalds weave words that enthrall and pacify."
       ]
     },
+    "spellcastingAbility": "cha",
+      "casterProgression": "full",
+      "cantripProgression": [ 2, 2, 2, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4
+      ],
       "startingEquipment": {
         "additionalFromBackground": true,
         "default": [
@@ -119,154 +123,90 @@
       },
       "classTableGroups": [
         {
-          "title": "The Skald",
           "colLabels": [
-            "level",
-            "Proficiency Bonus",
-            "Features",
             "{@filter Cantrips Known|spells|level=0|class=bard}",
             "{@filter Spells Known|spells|class=bard}"
           ],
           "rows": [
             [
-              1,
-              "+2",
-              "Spirit Power (Spellcasting), Skaldic Verse",
               2,
               4
             ],
             [
               2,
-              "+2",
-              "Jack of All Trades, Song of the Sea, Versatile Verse",
-              2,
               5
             ],
             [
-              3,
-              "+2",
-              "Skald School, Expertise",
               2,
               6
             ],
             [
-              4,
-              "+2",
-              "Ability Score Improvement",
               3,
               7
             ],
             [
-              5,
-              "+3",
-              "Continued Verse",
               3,
               8
             ],
             [
-              6,
-              "+3",
-              "Counterverse",
               3,
               9
             ],
             [
-              7,
-              "+3",
-              "—",
               3,
               10
             ],
             [
-              8,
-              "+3",
-              "Ability Score Improvement",
               3,
               11
             ],
             [
-              9,
-              "+4",
-              "—",
               3,
               12
             ],
             [
-              10,
-              "+4",
-              "Tales of Legends",
-              4,
-              13
-            ],
-            [
-              11,
-              "+4",
-              "—",
               4,
               14
             ],
             [
-              12,
-              "+4",
-              "Ability Score Improvement",
               4,
               15
             ],
             [
-              13,
-              "+5",
-              "—",
+              4,
+              15
+            ],
+            [
               4,
               16
             ],
             [
-              14,
-              "+5",
-              "—",
-              4,
-              17
-            ],
-            [
-              15,
-              "+5",
-              "—",
               4,
               18
             ],
             [
-              16,
-              "+5",
-              "Ability Score Improvement",
               4,
               19
             ],
             [
-              17,
-              "+6",
-              "—",
+              4,
+              19
+            ],
+            [
               4,
               20
             ],
             [
-              18,
-              "+6",
-              "—",
               4,
-              20
+              22
             ],
             [
-              19,
-              "+6",
-              "Ability Score Improvement",
               4,
-              20
+              22
             ],
             [
-              20,
-              "+6",
-              "Superior Verse",
               4,
-              20
+              22
             ]
           ]
         },
@@ -851,7 +791,6 @@
       "page": 5,
       "className": "Skald",
       "classSource": "SkaldHB",
-      "subclassSource": "SkaldHB",
       "fluff": {
         "name": "School of Hypnotism",
         "type": "entries",
@@ -873,7 +812,6 @@
       "page": 6,
       "className": "Skald",
       "classSource": "SkaldHB",
-      "subclassSource": "SkaldHB",
       "fluff": {
         "name": "School of Battlehymn",
         "type": "entries",
@@ -895,7 +833,6 @@
       "page": 7,
       "className": "Skald",
       "classSource": "SkaldHB",
-      "subclassSource": "SkaldHB",
       "fluff": {},
       "subclassFeatures": [
         "Bonus Proficiencies (Underworld)|Skald|SkaldHB|Underworld|SkaldHB|3|SkaldHB",
