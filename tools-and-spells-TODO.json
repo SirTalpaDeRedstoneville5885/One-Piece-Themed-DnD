@@ -12,7 +12,7 @@
         "convertedBy": [
           "SirTalpadeRedstoneville58"
         ],
-        "version": "1.9",
+        "version": "1.10",
         "color": "0B3075",
         "url": "https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm"
       }
@@ -50,32 +50,7 @@
       "abbreviation": "Stars",
       "page": 149,
       "entries": [
-        "\nStars are special types of ammo that deal additional damage compared to ordinary ammo or have some form of additional effect when fired. These can be crafted by a tinkerer or marksman, or found and purchased throughout the adventure.\nCrafting a star requires any type of appropriate artisan's tools (such as mason's tools or smith's tools), proficiency in the Arcana or Sleight of Hand skills, and proficiency in at least one type of ranged weapon. The rarity, cost, and time it takes to make a batch of 5 for each type of star is listed in the Star Cost Table. Machine gun ammo, sniper rifle ammo, and bazooka ammo require double the time and money to make. Sling bullets require half the time and money to make.",
-        {
-          "rowLabels": [
-            "Star Type",
-            "Time",
-            "Cost"
-          ],
-          "type": "table",
-          "rows": [
-            [
-              "Uncommon",
-              "1 workweek",
-              "฿1,000,000"
-            ],
-            [
-              "rare",
-              "4 workweek",
-              "฿5,000,000"
-            ],
-            [
-              "Very Rare",
-              "8 workweek",
-              "฿25,000,000"
-            ]
-          ]
-        }
+        "\nStars are special types of ammo that deal additional damage compared to ordinary ammo or have some form of additional effect when fired. These can be crafted by a tinkerer or marksman, or found and purchased throughout the adventure."
       ]
     },
     {
@@ -90,7 +65,7 @@
   ],
   "itemTypeAdditionalEntries": [
     {
-      "name": "Creating Pop Greens",
+      "name": "Creating and Using a Pop Greens",
       "appliesTo": "PopGreens",
       "source": "D&DF-PHB",
       "entries": [
@@ -156,14 +131,7 @@
             ]
           ]
         },
-        "Pop greens are occasionally found on various islands or sold in black markets. They can be sold to certain rich buyers for a price equal to the material cost on the table above. Their cost in the black market often equals 120% of their cost on the Pop Green Cost Table."
-      ]
-    },
-    {
-      "name": "Using a Pop Green",
-      "appliesTo": "PopGreens",
-      "source": "D&DF-PHB",
-      "entries": [
+        "Pop greens are occasionally found on various islands or sold in black markets. They can be sold to certain rich buyers for a price equal to the material cost on the table above. Their cost in the black market often equals 120% of their cost on the Pop Green Cost Table.",
         "\n{@bold Using a pop green}\nWhen a character possesses a pop green, he or she can use at any time by planting it in a patch of dirt, soil, or sediment nearby. The pop green can be planted as an action, bonus action, or reaction (depending on the spell) within 5 feet of the user. It can also be thrown or fired by a sling as an action up to 30 feet away from the user into a nearby patch of soil. When the pop green is planted, it will begin casting the spell stored inside of it, no material components required.",
         "The plant created will begin casting the spell from itself. For example, if the plant created from a pop green has cone of cold stored in it, it will cast it immediately after the action the user made to plant it, blasting the 60-foot cone from itself and damaging all enemies in the range depending on the direction the user wants it to aim the spell. After the spell is finished being casted or concentrated on, it will wither and die.",
         "If the plant casts a spell, such as time stop, that can only target the caster, it will instead target the creature that planted it if they are within 30 feet of the plant. Otherwise, the plant will target itself with the spell before withering and dying. If the spell requires a target, the person who planted the pop green can verbally command it to choose the desired targets. Additionally, if the spell has a casting time longer than an action, the plant will remain alive and actively cast the spell until it is casted. Also, if the spell requires concentration, the plant will remain alive and attempt to concentrate on the spell until the duration ends or concentration is lost. Once the spell is no longer being concentrated on or is finished casting, the plant instantly withers and dies.",
@@ -232,6 +200,59 @@
         },
         "If the creature planting the pop green is a spellcaster that already knows how to cast the spell being stored by the pop green, planting it will always work without fail.",
         "However, if the creature planting the pop green doesn't already know how to cast the spell being stored by it, there is a chance that the pop green will fail to grow and will die before it casts the spell successfully. In this case, the creature planting it must make an Intelligence (Nature) or Intelligence (Arcana) check to determine whether they plant it successfully or not. The DC equals 10 + the spell's level. On a failed check, the plant dies and has no other effect."
+      ]
+    },
+    {
+      "name": "Finding a simple dial",
+      "appliesTo": "DIALS:S",
+      "source": "D&DF-PHB",
+      "entries": [
+        "\n{@bold Finding a simple dial}\nSearching for the more simple dials is easy when you're traveling through the sky islands, especially along the shorelines. Finding dials, especially rare ones, outside of any sky islands is incredibly difficult.",
+        "When searching along shorelines throughout the sky islands, such as the shore of the White-White Sea, a DC 15 Intelligence (Investigation) check may be rolled for every 24 hours spent searching to see if a character locates a Simple Dial shell. If a character is proficient in using Dials, they make this check with advantage.",
+        "If a character succeeds on finding a simple dial, have them roll a d20 and use the Simple Dial Table below to determine which dial they receive."
+      ]
+    },
+    {
+      "name": "Finding a rare dial",
+      "appliesTo": "DIALS:R",
+      "source": "D&DF-PHB",
+      "entries": [
+        "\n{@bold Finding a rare dial}\nRare dials are far more difficult to find than ordinary dials. They are often larger, store massive amounts of energy, and are used in warfare and advanced machinery. In order to find a rare dial, it may be required to search sky island ruins or dungeons to discover such powerful dials.",
+        "If a character does find a way to locate a rare dial, the DM may choose to roll a d20 on the Rare Dial Table or pick from it when giving it to the character."
+      ]
+    },
+    {
+      "name": "Star Batch Cost",
+      "appliesTo": "Stars",
+      "source": "D&DF-PHB",
+      "entries": [
+        "\n{@bold Crafting a star}\n Crafting a starrequires any type of appropriate artisan's tools (such as mason's tools or smith's tools), proficiency in the Arcana or Sleight of Hand skills, and proficiency in at least one type of ranged weapon. The rarity, cost, and time it takes to make a batch of 5 for each type of star is listed in the Star Cost Table. Machine gun ammo, sniper rifle ammo, and bazooka ammo require double the time and money to make. Sling bullets require half the time and money to make.",
+        {
+          "name": "Star Batch Cost",
+          "rowLabels": [
+            "Star Type",
+            "Time",
+            "Cost"
+          ],
+          "type": "table",
+          "rows": [
+            [
+              "Uncommon",
+              "1 workweek",
+              "฿1,000,000"
+            ],
+            [
+              "rare",
+              "4 workweek",
+              "฿5,000,000"
+            ],
+            [
+              "Very Rare",
+              "8 workweek",
+              "฿25,000,000"
+            ]
+          ]
+        }
       ]
     }
   ],
@@ -1050,14 +1071,6 @@
       "entries": [
         "A very rare smoke star creates a sphere radius of 30 feet. The sphere spreads around corners, and its area is heavily obscured. I It lasts for 1 minute or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it"
       ]
-    }
-  ],
-  "table": [
-    {
-      "name": "Common Dial Table",
-      "source": "D&DF-PHB",
-      "page": 1,
-      "rows": []
     }
   ],
   "spell": [

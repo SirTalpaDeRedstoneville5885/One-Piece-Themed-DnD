@@ -13,7 +13,7 @@
           "Tarun",
           "SirTalpadeRedstoneville58"
         ],
-        "version": "2.11",
+        "version": "2.12",
         "color": "60BFF5",
         "url": "https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm"
       },
@@ -17166,6 +17166,108 @@
         [
           "",
           ""
+        ]
+      ]
+    },
+    {
+      "name": "simple Dial Table",
+      "source": "D&DF-PHB",
+      "page": 1,
+      "colLabels": [
+        "d20",
+        "Simple Dial"
+      ],
+      "rows": [
+        [
+          "1-4",
+          "Breath Dials"
+        ],
+        [
+          "5-7",
+          "Flavor Dial"
+        ],
+        [
+          "8",
+          "Freeze Dial"
+        ],
+        [
+          "9",
+          "Heat Dial"
+        ],
+        [
+          "10-12",
+          "Lamp Dial"
+        ],
+        [
+          "13-15",
+          "Milky Dial"
+        ],
+        [
+          "16",
+          "Thunder Dial"
+        ],
+        [
+          "17-18",
+          "Tone Dial"
+        ],
+        [
+          "19",
+          "Vision Dial"
+        ],
+        [
+          "20",
+          "Water Dial"
+        ]
+      ]
+    },
+    {
+      "name": "rare Dial Table",
+      "source": "D&DF-PHB",
+      "page": 1,
+      "colLabels": [
+        "d20",
+        "Rare Dial"
+      ],
+      "rows": [
+        [
+          "1-2",
+          "Axe Dial"
+        ],
+        [
+          "3-4",
+          "Ball Dial"
+        ],
+        [
+          "5",
+          "Eisen Dial"
+        ],
+        [
+          "6-8",
+          "Flash Dial"
+        ],
+        [
+          "9-10",
+          "Flame Dial"
+        ],
+        [
+          "11",
+          "Impact Dial"
+        ],
+        [
+          "12",
+          "Jet Dial"
+        ],
+        [
+          "13-17",
+          "Large Simple Dial (Roll on {@table simple dial table})"
+        ],
+        [
+          "18",
+          "Reject Dial"
+        ],
+        [
+          "19-20",
+          "Storm Dial"
         ]
       ]
     }
