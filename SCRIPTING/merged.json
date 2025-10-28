@@ -13,7 +13,7 @@
           "Tarun",
           "SirTalpadeRedstoneville58"
         ],
-        "version": "2.12",
+        "version": "2.13",
         "color": "60BFF5",
         "url": "https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm"
       },
@@ -1611,7 +1611,7 @@
           "type": "entries",
           "name": "Dial Proficiency",
           "entries": [
-            "You innately understand {@item dials|D&DF-PHB} that have came from sky islands and can carry one with you. Roll once on the Simple Dial Table in Chapter 5 to determine which one you start with."
+            "You innately understand {@item dials|D&DF-PHB} that have came from sky islands and can carry one with you. Roll once on the {@table simple dial table|D&DF-PHB|Simple Dial Table} in Chapter 5 to determine which one you start with."
           ]
         },
         {
@@ -17170,7 +17170,7 @@
       ]
     },
     {
-      "name": "simple Dial Table",
+      "name": "simple dial table",
       "source": "D&DF-PHB",
       "page": 1,
       "colLabels": [
@@ -17221,7 +17221,7 @@
       ]
     },
     {
-      "name": "rare Dial Table",
+      "name": "rare dial table",
       "source": "D&DF-PHB",
       "page": 1,
       "colLabels": [
@@ -28785,7 +28785,7 @@
       "level": 6,
       "header": 2,
       "entries": [
-        "At 6th level, you may occasionally manufacture Dials of your own. You may spend 24 hours touching and altering a normal shell as a ritual to turn it into a powerful Dial. When the 24 hours are over, roll on the Rare Dial Table in Chapter 5. The shell you are holding becomes that Dial. You cannot perform this ritual again until you reach the 8th, 11th, 14th, or 17th levels. You can only perform this ritual once during each of those levels, and it must be used to transform your current ritually created dial into a new dial by rolling on the Rare Dial Table to change its effects into something different."
+        "At 6th level, you may occasionally manufacture Dials of your own. You may spend 24 hours touching and altering a normal shell as a ritual to turn it into a powerful Dial. When the 24 hours are over, roll on the {@table rare dial table|D&DF-PHB|Rare Dial Table} in Chapter 5. The shell you are holding becomes that Dial. You cannot perform this ritual again until you reach the 8th, 11th, 14th, or 17th levels. You can only perform this ritual once during each of those levels, and it must be used to transform your current ritually created dial into a new dial by rolling on the {@table rare dial table|D&DF-PHB|Rare Dial Table} to change its effects into something different."
       ]
     },
     {
