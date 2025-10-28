@@ -12,7 +12,7 @@
         "convertedBy": [
           "SirTalpadeRedstoneville58"
         ],
-        "version": "1.7",
+        "version": "1.9",
         "color": "0B3075",
         "url": "https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm"
       }
@@ -65,7 +65,7 @@
               "฿1,000,000"
             ],
             [
-              "Rare",
+              "rare",
               "4 workweek",
               "฿5,000,000"
             ],
@@ -90,11 +90,11 @@
   ],
   "itemTypeAdditionalEntries": [
     {
+      "name": "Creating Pop Greens",
       "appliesTo": "PopGreens",
-      "name": "Creating and Using Pop Greens",
       "source": "D&DF-PHB",
       "entries": [
-        "\nCreating a pop green\nA pop green is made by placing the energy from any spell and the material components required into a special seed. Creating a pop green can take a specific amount of time and money related to the strength and level of the Pop Green the characters wants to imbue into the seed, as shown on the table below. Additionally, the character creating the pop green must have proficiency in the Nature or Arcana skills and provide any material components required by the spell being put into the pop green. Moreover, at least one character making the pop green or assisting in the creation process must have the spell prepared, or it must be among the character's known spells, in order to create the pop green.\nIf the scribed spell is a cantrip, the version on the scroll works as if the caster were 1st Level.",
+        "\n{@bold Creating a pop green}\nA pop green is made by placing the energy from any spell and the material components required into a special seed. Creating a pop green can take a specific amount of time and money related to the strength and level of the Pop Green the characters wants to imbue into the seed, as shown on the table below. Additionally, the character creating the pop green must have proficiency in the Nature or Arcana skills and provide any material components required by the spell being put into the pop green. Moreover, at least one character making the pop green or assisting in the creation process must have the spell prepared, or it must be among the character's known spells, in order to create the pop green.\nIf the scribed spell is a cantrip, the version on the scroll works as if the caster were 1st Level.",
         {
           "rowLabels": [
             "Spell level",
@@ -156,12 +156,108 @@
             ]
           ]
         },
-        "Pop greens are occasionally found on various islands or sold in black markets. They can be sold to certain rich buyers for a price equal to the material cost on the table above. Their cost in the black market often equals 120% of their cost on the Pop Green Cost Table.",
-        ""
+        "Pop greens are occasionally found on various islands or sold in black markets. They can be sold to certain rich buyers for a price equal to the material cost on the table above. Their cost in the black market often equals 120% of their cost on the Pop Green Cost Table."
+      ]
+    },
+    {
+      "name": "Using a Pop Green",
+      "appliesTo": "PopGreens",
+      "source": "D&DF-PHB",
+      "entries": [
+        "\n{@bold Using a pop green}\nWhen a character possesses a pop green, he or she can use at any time by planting it in a patch of dirt, soil, or sediment nearby. The pop green can be planted as an action, bonus action, or reaction (depending on the spell) within 5 feet of the user. It can also be thrown or fired by a sling as an action up to 30 feet away from the user into a nearby patch of soil. When the pop green is planted, it will begin casting the spell stored inside of it, no material components required.",
+        "The plant created will begin casting the spell from itself. For example, if the plant created from a pop green has cone of cold stored in it, it will cast it immediately after the action the user made to plant it, blasting the 60-foot cone from itself and damaging all enemies in the range depending on the direction the user wants it to aim the spell. After the spell is finished being casted or concentrated on, it will wither and die.",
+        "If the plant casts a spell, such as time stop, that can only target the caster, it will instead target the creature that planted it if they are within 30 feet of the plant. Otherwise, the plant will target itself with the spell before withering and dying. If the spell requires a target, the person who planted the pop green can verbally command it to choose the desired targets. Additionally, if the spell has a casting time longer than an action, the plant will remain alive and actively cast the spell until it is casted. Also, if the spell requires concentration, the plant will remain alive and attempt to concentrate on the spell until the duration ends or concentration is lost. Once the spell is no longer being concentrated on or is finished casting, the plant instantly withers and dies.",
+        "While the plant remains alive, its stats are as follows (Treat cantrips as 1st-level spells when determining these stats). It is a large plant, its HP is equal to 5 x Spell Level (Minimum 5), its AC is equal to 10 + Spell Level (Minimum 10), it has vulnerability to fire damage, and its Constitution save bonus for keeping concentration is equal to the Spell Level. The plant's appearance depends on the type of spell stored by it. For example, if it has the fireball spell stored, it may have a reddish-orange patterned appearance, a bazooka-shaped stem, and flame-shaped leaves. The plant may also cast or create the spell effect by emitting magical effects from its stalk or mouth, or by attacking with segments of its body.",
+        "The spell casted by the plant has an Attack Bonus and Save DC depending on the level of the spell stored by the plant, shown on the table below.",
+        {
+          "rowLabels": [
+            "Spell level",
+            "Save DC",
+            "Attack Bonus"
+          ],
+          "name": "Pop Green Spellcasting",
+          "type": "table",
+          "rows": [
+            [
+              "Cantrip",
+              13,
+              "+5"
+            ],
+            [
+              "1st",
+              13,
+              "+5"
+            ],
+            [
+              "2nd",
+              13,
+              "+5"
+            ],
+            [
+              "3rd",
+              15,
+              "+7"
+            ],
+            [
+              "4th",
+              15,
+              "+7"
+            ],
+            [
+              "5th",
+              17,
+              "+9"
+            ],
+            [
+              "6th",
+              17,
+              "+9"
+            ],
+            [
+              "7th",
+              18,
+              "+10"
+            ],
+            [
+              "8th",
+              18,
+              "+10"
+            ],
+            [
+              "9th",
+              19,
+              "+11"
+            ]
+          ]
+        },
+        "If the creature planting the pop green is a spellcaster that already knows how to cast the spell being stored by the pop green, planting it will always work without fail.",
+        "However, if the creature planting the pop green doesn't already know how to cast the spell being stored by it, there is a chance that the pop green will fail to grow and will die before it casts the spell successfully. In this case, the creature planting it must make an Intelligence (Nature) or Intelligence (Arcana) check to determine whether they plant it successfully or not. The DC equals 10 + the spell's level. On a failed check, the plant dies and has no other effect."
       ]
     }
   ],
   "item": [
+    {
+      "name": "Pop Green",
+      "type": "PopGreens",
+      "source": "D&DF-PHB",
+      "rarity": "varies",
+      "items": [
+        "Pop Green (Cantrip)",
+        "Pop Green (1st Level)",
+        "Pop Green (2nd Level)",
+        "Pop Green (3rd Level)",
+        "Pop Green (4th Level)",
+        "Pop Green (5th Level)",
+        "Pop Green (6th Level)",
+        "Pop Green (7th Level)",
+        "Pop Green (8th Level)",
+        "Pop Green (9th Level)"
+      ],
+      "miscTags": [
+        "CNS"
+      ],
+      "entries": []
+    },
     {
       "name": "Breath Dial",
       "entries": [
@@ -652,6 +748,9 @@
       "entries": [
         "This type of star is much heavier and more destructive than ordinary ammo."
       ],
+      "miscTags": [
+        "CNS"
+      ],
       "items": [
         "Metallic Star +1",
         "Metallic Star +2",
@@ -663,6 +762,9 @@
       "type": "Stars",
       "source": "D&DF-PHB",
       "rarity": "uncommon",
+      "miscTags": [
+        "CNS"
+      ],
       "entries": [
         "Uncommon metallic stars have a +1 to attack and damage rolls when fired.",
         {
@@ -681,7 +783,10 @@
       "name": "Metallic Star +2",
       "type": "Stars",
       "source": "D&DF-PHB",
-      "rarity": "Rare",
+      "miscTags": [
+        "CNS"
+      ],
+      "rarity": "rare",
       "entries": [
         "Rare metallic stars have a +2 to attack and damage rolls when fired.",
         {
@@ -701,6 +806,9 @@
       "type": "Stars",
       "source": "D&DF-PHB",
       "rarity": "very rare",
+      "miscTags": [
+        "CNS"
+      ],
       "entries": [
         "Very rare metallic stars have a +3 to attack and damage rolls when fired.",
         {
@@ -708,7 +816,7 @@
           "name": "Metallic Star save DC",
           "entries": [
             "Additionally, targets that are medium or smaller that are hit by a metallic star must succeed on a Strength save against the DC, or be knocked prone.",
-            "{@bold Metallic Star save DC} = 10 + (attack/damage bonus of the star x 2) [14]"
+            "{@bold Metallic Star save DC} = 10 + (attack/damage bonus of the star x 2) [16]"
           ]
         }
       ],
@@ -720,6 +828,9 @@
       "type": "Stars",
       "source": "D&DF-PHB",
       "rarity": "varies",
+      "miscTags": [
+        "CNS"
+      ],
       "entries": [
         "A flame star ignites mid-air, igniting anything it hits on contact. "
       ],
@@ -732,6 +843,9 @@
     {
       "name": "Uncommon Flame Star",
       "type": "Stars",
+      "miscTags": [
+        "CNS"
+      ],
       "source": "D&DF-PHB",
       "rarity": "uncommon",
       "entries": [
@@ -744,7 +858,10 @@
       "name": "Rare Flame Star",
       "type": "Stars",
       "source": "D&DF-PHB",
-      "rarity": "Rare",
+      "miscTags": [
+        "CNS"
+      ],
+      "rarity": "rare",
       "entries": [
         "Uncommon flame stars deal an addition 2d6 fire damage when fired"
       ],
@@ -754,6 +871,9 @@
     {
       "name": "Very rare Flame Star",
       "type": "Stars",
+      "miscTags": [
+        "CNS"
+      ],
       "source": "D&DF-PHB",
       "rarity": "very rare",
       "entries": [
@@ -767,6 +887,9 @@
       "type": "Stars",
       "source": "D&DF-PHB",
       "rarity": "varies",
+      "miscTags": [
+        "CNS"
+      ],
       "entries": [
         "This star explodes upon hitting a target, piercing nearby targets with flying spikes. "
       ],
@@ -781,6 +904,9 @@
       "type": "Stars",
       "source": "D&DF-PHB",
       "rarity": "uncommon",
+      "miscTags": [
+        "CNS"
+      ],
       "entries": [
         "If this star hits a target, it will damage all creatures within 5 feet of the target for 1d4 piercing damage"
       ],
@@ -791,7 +917,10 @@
       "name": "Rare Cactus Star",
       "type": "Stars",
       "source": "D&DF-PHB",
-      "rarity": "Rare",
+      "miscTags": [
+        "CNS"
+      ],
+      "rarity": "rare",
       "entries": [
         "If this star hits a target, it will damage all creatures within 5 feet of the target for 2d4 piercing damage"
       ],
@@ -803,6 +932,9 @@
       "type": "Stars",
       "source": "D&DF-PHB",
       "rarity": "very rare",
+      "miscTags": [
+        "CNS"
+      ],
       "entries": [
         "If this star hits a target, it will damage all creatures within 5 feet of the target for 3d4 piercing damage"
       ],
@@ -814,6 +946,9 @@
       "type": "Stars",
       "source": "D&DF-PHB",
       "rarity": "varies",
+      "miscTags": [
+        "CNS"
+      ],
       "entries": [
         "When this star hits a target, a terrifying vision appears in front of them."
       ],
@@ -827,6 +962,9 @@
       "name": "Uncommon Terror Star",
       "type": "Stars",
       "source": "D&DF-PHB",
+      "miscTags": [
+        "CNS"
+      ],
       "rarity": "uncommon",
       "entries": [
         "Until the end of their next turn, they are frightened of you for the duration."
@@ -836,7 +974,10 @@
       "name": "Rare Terror Star",
       "type": "Stars",
       "source": "D&DF-PHB",
-      "rarity": "Rare",
+      "miscTags": [
+        "CNS"
+      ],
+      "rarity": "rare",
       "entries": [
         "Until the end of their next turn, they are frightened of you for the duration, and they also take 1d4 additional psychic damage"
       ],
@@ -847,6 +988,9 @@
       "name": "Very rare Terror Star",
       "type": "Stars",
       "source": "D&DF-PHB",
+      "miscTags": [
+        "CNS"
+      ],
       "rarity": "very rare",
       "entries": [
         "Until the end of their next turn, they are frightened of you for the duration, and they also take 1d4 additional psychic damage"
@@ -858,6 +1002,9 @@
       "name": "Smoke Stars",
       "type": "Stars",
       "source": "D&DF-PHB",
+      "miscTags": [
+        "CNS"
+      ],
       "rarity": "varies",
       "entries": [
         "This star creates a sphere of smoke centered on a point within range on impact with a target."
@@ -872,6 +1019,9 @@
       "name": "Uncommon Smoke Star",
       "type": "Stars",
       "source": "D&DF-PHB",
+      "miscTags": [
+        "CNS"
+      ],
       "rarity": "uncommon",
       "entries": [
         "An uncommon smoke star creates a sphere radius of 10 feet. The sphere spreads around corners, and its area is heavily obscured. I It lasts for 1 minute or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it"
@@ -881,7 +1031,10 @@
       "name": "Rare Smoke Star",
       "type": "Stars",
       "source": "D&DF-PHB",
-      "rarity": "Rare",
+      "rarity": "rare",
+      "miscTags": [
+        "CNS"
+      ],
       "entries": [
         "A rare smoke star creates a sphere radius of 20 feet. The sphere spreads around corners, and its area is heavily obscured. I It lasts for 1 minute or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it"
       ]
@@ -891,6 +1044,9 @@
       "type": "Stars",
       "source": "D&DF-PHB",
       "rarity": "very rare",
+      "miscTags": [
+        "CNS"
+      ],
       "entries": [
         "A very rare smoke star creates a sphere radius of 30 feet. The sphere spreads around corners, and its area is heavily obscured. I It lasts for 1 minute or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it"
       ]

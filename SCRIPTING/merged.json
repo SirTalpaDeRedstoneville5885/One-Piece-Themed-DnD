@@ -13,7 +13,7 @@
           "Tarun",
           "SirTalpadeRedstoneville58"
         ],
-        "version": "2.10",
+        "version": "2.11",
         "color": "60BFF5",
         "url": "https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm"
       },
@@ -7011,6 +7011,9 @@
       "weight": 2,
       "page": 147,
       "source": "D&DF-PHB",
+      "miscTags": [
+        "CNS"
+      ],
       "rarity": "none"
     },
     {
@@ -7018,7 +7021,7 @@
       "entries": [
         "Ammunition for bazookas and similar heavy firearms. Typically used in military or pirate-grade weaponry."
       ],
-      "type": "G",
+      "type": "A",
       "value": 1000,
       "weight": 5,
       "page": 147,
@@ -7048,6 +7051,9 @@
       "value": 5000,
       "weight": 1,
       "page": 147,
+      "miscTags": [
+        "CNS"
+      ],
       "source": "D&DF-PHB",
       "rarity": "none"
     },
@@ -7056,9 +7062,12 @@
       "entries": [
         "Standard ammunition for pistols and rifles used by pirates, marines, and bounty hunters."
       ],
-      "type": "G",
+      "type": "A",
       "value": 100,
       "weight": 1.5,
+      "miscTags": [
+        "CNS"
+      ],
       "page": 147,
       "source": "D&DF-PHB",
       "rarity": "none"
@@ -7105,13 +7114,13 @@
           "type": "list",
           "items": [
             "a {@item chest|phb}",
-            "2 cases for maps and scrolls",
+            "2 {@item Map or Scroll Case|XPHB|Map or Scroll Cases}",
             "a {@item travelers' clothes|phb}",
             "an {@item ink pen|phb}",
-            "a bottle of ink and 5 sheets of paper",
+            "a {@item Ink|XPHB|bottle of ink} and 5 sheets of {@item Paper|XPHB}",
             "a {@item hammer|phb}",
             "a {@item lamp|phb}",
-            "2 {@item Oil (flask)|phb|flasks of oil}",
+            "2 {@item Oil|XPHB|flasks of oil}",
             "20 days {@item Rations (1 day)|phb|rations}",
             "a {@item tankard|phb}",
             "a {@item fishing tackle|phb}",
@@ -7120,6 +7129,34 @@
           ]
         },
         "the pack also has {@item Hempen Rope (50 feet)|phb|50 feet of hempen rope} strapped to the side of it."
+      ],
+      "packContents": [
+        "chest|xphb",
+        "travelers' clothes|xphb",
+        {
+          "item": "map or scroll case|xphb",
+          "quantity": 2
+        },
+        "ink|xphb",
+        {
+          "item": "ink pen|xphb",
+          "quantity": 1
+        },
+        {
+          "item": "paper|xphb",
+          "quantity": 5
+        },
+        "lamp|xphb",
+        "hammer|phb}",
+        {
+          "item": "oil|xphb",
+          "quantity": 2
+        },
+        "Rations (1 day)|phb",
+        "tankard|phb}",
+        "fishing tackle|phb}",
+        "soap|phb|}",
+        "a small knife."
       ]
     },
     {
@@ -21123,7 +21160,7 @@
         "default": [
           "(a) a mace or (b) A Warhammer (if proficient)",
           "(a) {@item scale mail|phb}, (b) Thick Shirt, or (c) Chain Mail (if proficient)",
-          "(a) A Musket and 20 gun bullets or (b) Any simple weapon",
+          "(a) A {@item Musket|DMG} and {@item Gun Bullets|D&DF-PHB|20 gun bullets} or (b) Any simple weapon",
           "(a) A {@item priest's pack|phb} or (b) An {@item explorer's pack|phb}",
           "A Shield",
           "A holy symbol"
@@ -21772,7 +21809,7 @@
         "additionalFromBackground": true,
         "default": [
           "(a) a {@item rapier|phb} or (b) a {@item shortsword|phb}",
-          "(a) a {@item musket|dmg} and 20 {@item bullets|dmg} of {@item arrows (20)|phb|20 arrows} or (b) a {@item shortsword|phb}",
+          "(a) a {@item musket|dmg} and {@item Gun Bullets|D&DF-PHB|20 bullets} in a {@item Case, Gun Bullets|D&DF-PHB|case} or (b) a {@item shortsword|phb}",
           "(a) a {@item burglar's pack|phb}, (b) a {@item dungeoneer's pack|phb}, or (c) an {@item explorer's pack|phb}",
           "{@item thick shirt|D&DF}, two {@item dagger|phb|daggers}, and {@item thieves' tools|phb}"
         ],
@@ -21788,12 +21825,12 @@
           },
           {
             "a": [
-              "musket|phb",
-              "bullets (20)|dmg"
+              "musket|dmg",
+              "Gun Bullets|D&DF-PHB|bullets (20)"
             ],
             "b": [
               "pistol|phb",
-              "bullets (20)|dmg"
+              "Gun Bullets|D&DF-PHB|bullets (20)"
             ]
           },
           {
@@ -21983,9 +22020,9 @@
       "startingEquipment": {
         "additionalFromBackground": true,
         "default": [
-          "(a) {@item chain mail|phb} or (b) {@item thick shirt|D&DF-PHB}, {@item rifle|D&DF-PHB}, and {@item bullets (20)|dmg|20 bullets}",
+          "(a) {@item chain mail|phb} or (b) {@item thick shirt|D&DF-PHB}, {@item rifle|D&DF-PHB}, and {@item Gun Bullets|D&DF-PHB|20 bullets}",
           "(a) a {@filter martial weapon|items|source=phb|category=basic|type=martial weapon} and a {@item shield|phb} or (b) two {@filter martial weapons|items|source=phb|category=basic|type=martial weapon}",
-          "(a) a {@item pistol|dmg} and {@item bullets (20)|dmg|20 bullets} or (b) two {@item handaxe|phb|handaxes}",
+          "(a) a {@item pistol|dmg} and {@item Gun Bullets|D&DF-PHB|20 bullets} or (b) two {@item handaxe|phb|handaxes}",
           "(a) a {@item dungeoneer's pack|phb} or (b) an {@item explorer's pack|phb}"
         ],
         "goldAlternative": "{@dice 5d4 × 10|5d4 × 10|Starting Gold}",
@@ -21995,9 +22032,9 @@
               "chain mail|phb"
             ],
             "b": [
-              "{@item thick shirt|D&DF-PHB}",
-              "{@item rifle|dmg}",
-              "{@item bullets (20)|dmg|20 bullets}"
+              "thick shirt|D&DF-PHB}",
+              "rifle|dmg}",
+              "Gun Bullets|D&DF-PHB"
             ]
           },
           {
@@ -22016,8 +22053,8 @@
           },
           {
             "a": [
-              "{@item pistol|dmg}",
-              "{@item bullets (20)|dmg|20 bullets}"
+              "pistol|dmg}",
+              "Gun Bullets|D&DF-PHB"
             ],
             "b": [
               {
