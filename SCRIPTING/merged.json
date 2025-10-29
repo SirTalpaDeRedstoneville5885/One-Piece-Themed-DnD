@@ -1,5 +1,4 @@
 {
-  "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
   "_meta": {
     "sources": [
       {
@@ -13,7 +12,7 @@
           "Tarun",
           "SirTalpadeRedstoneville58"
         ],
-        "version": "2.13",
+        "version": "2.14",
         "color": "60BFF5",
         "url": "https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm"
       },
@@ -33,8 +32,8 @@
         "url": "https://homebrewery.naturalcrit.com/share/sK-UDzk7x8U_"
       }
     ],
-    "dateAdded": 1760976825,
-    "dateLastModified": 1760976825,
+    "dateAdded": 1761779553,
+    "dateLastModified": 1761779553,
     "currencyConversions": {
       "GP": [
         {
@@ -7685,6 +7684,1151 @@
             }
           ]
         }
+      ]
+    },
+    {
+      "name": "Pop Green (Cantrip)",
+      "type": "PopGreens",
+      "source": "D&DF-PHB",
+      "page": 154,
+      "miscTags": [
+        "CNS"
+      ],
+      "rarity": "common",
+      "value": 1500,
+      "bonusWeaponAttack": 5,
+      "entries": [
+        "{@bold Save DC: } 13"
+      ],
+      "spellScrollLevel": 0
+    },
+    {
+      "name": "Pop Green (1st Level)",
+      "type": "PopGreens",
+      "source": "D&DF-PHB",
+      "page": 154,
+      "miscTags": [
+        "CNS"
+      ],
+      "rarity": "common",
+      "value": 2500,
+      "bonusWeaponAttack": 5,
+      "entries": [
+        "{@bold Save DC: } 13"
+      ],
+      "spellScrollLevel": 1
+    },
+    {
+      "name": "Pop Green (2nd Level)",
+      "type": "PopGreens",
+      "source": "D&DF-PHB",
+      "page": 154,
+      "miscTags": [
+        "CNS"
+      ],
+      "rarity": "uncommon",
+      "value": 25000,
+      "bonusWeaponAttack": 5,
+      "entries": [
+        "{@bold Save DC: } 13"
+      ],
+      "spellScrollLevel": 2
+    },
+    {
+      "name": "Pop Green (3rd Level)",
+      "type": "PopGreens",
+      "source": "D&DF-PHB",
+      "page": 154,
+      "miscTags": [
+        "CNS"
+      ],
+      "rarity": "uncommon",
+      "value": 50000,
+      "bonusWeaponAttack": 7,
+      "entries": [
+        "{@bold Save DC: } 15"
+      ],
+      "spellScrollLevel": 3
+    },
+    {
+      "name": "Pop Green (4th Level)",
+      "type": "PopGreens",
+      "source": "D&DF-PHB",
+      "page": 154,
+      "miscTags": [
+        "CNS"
+      ],
+      "rarity": "rare",
+      "value": 250000,
+      "bonusWeaponAttack": 7,
+      "entries": [
+        "{@bold Save DC: } 15"
+      ],
+      "spellScrollLevel": 4
+    },
+    {
+      "name": "Pop Green (5th Level)",
+      "type": "PopGreens",
+      "source": "D&DF-PHB",
+      "page": 154,
+      "miscTags": [
+        "CNS"
+      ],
+      "rarity": "rare",
+      "value": 500000,
+      "bonusWeaponAttack": 9,
+      "entries": [
+        "{@bold Save DC: } 17"
+      ],
+      "spellScrollLevel": 5
+    },
+    {
+      "name": "Pop Green (6th Level)",
+      "type": "PopGreens",
+      "source": "D&DF-PHB",
+      "page": 154,
+      "miscTags": [
+        "CNS"
+      ],
+      "rarity": "very rare",
+      "value": 1500000,
+      "bonusWeaponAttack": 9,
+      "entries": [
+        "{@bold Save DC: } 17"
+      ],
+      "spellScrollLevel": 6
+    },
+    {
+      "name": "Pop Green (7th Level)",
+      "type": "PopGreens",
+      "source": "D&DF-PHB",
+      "page": 154,
+      "miscTags": [
+        "CNS"
+      ],
+      "rarity": "very rare",
+      "value": 2500000,
+      "bonusWeaponAttack": 10,
+      "entries": [
+        "{@bold Save DC: } 18"
+      ],
+      "spellScrollLevel": 7
+    },
+    {
+      "name": "Pop Green (8th Level)",
+      "type": "PopGreens",
+      "source": "D&DF-PHB",
+      "page": 154,
+      "miscTags": [
+        "CNS"
+      ],
+      "rarity": "very rare",
+      "value": 5000000,
+      "bonusWeaponAttack": 10,
+      "entries": [
+        "{@bold Save DC: } 18"
+      ],
+      "spellScrollLevel": 8
+    },
+    {
+      "name": "Pop Green (9th Level)",
+      "type": "PopGreens",
+      "source": "D&DF-PHB",
+      "page": 154,
+      "miscTags": [
+        "CNS"
+      ],
+      "rarity": "legendary",
+      "value": 25000000,
+      "bonusWeaponAttack": 11,
+      "entries": [
+        "{@bold Save DC: } 19"
+      ],
+      "spellScrollLevel": 9
+    },
+    {
+      "name": "Pop Green",
+      "type": "PopGreens",
+      "source": "D&DF-PHB",
+      "page": 154,
+      "miscTags": [
+        "CNS"
+      ],
+      "rarity": "varies",
+      "items": [
+        "Pop Green (Cantrip)",
+        "Pop Green (1st Level)",
+        "Pop Green (2nd Level)",
+        "Pop Green (3rd Level)",
+        "Pop Green (4th Level)",
+        "Pop Green (5th Level)",
+        "Pop Green (6th Level)",
+        "Pop Green (7th Level)",
+        "Pop Green (8th Level)",
+        "Pop Green (9th Level)"
+      ],
+      "entries": [
+        {
+          "type": "list",
+          "items": [
+            "{@item Pop Green (Cantrip)|D&DF-PHB}",
+            "{@item Pop Green (1st Level)|D&DF-PHB}",
+            "{@item Pop Green (2nd Level)|D&DF-PHB}",
+            "{@item Pop Green (3rd Level)|D&DF-PHB}",
+            "{@item Pop Green (4th Level)|D&DF-PHB}",
+            "{@item Pop Green (5th Level)|D&DF-PHB}",
+            "{@item Pop Green (6th Level)|D&DF-PHB}",
+            "{@item Pop Green (7th Level)|D&DF-PHB}",
+            "{@item Pop Green (8th Level)|D&DF-PHB}",
+            "{@item Pop Green (9th Level|D&DF-PHB})"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Breath Dial",
+      "entries": [
+        "By storing air, gases, or wind currents, breath dials have the ability to emit anything it absorbs as a gust of energy. Simple breath dials have 5 charges. By expending a charge from this dial as a bonus action, you can absorb up to a 5-foot cube of any gas or wind. By pressing the button on the dial as an action, you can expel up to a 5-foot cube of any stored gas in a space within 5 feet of you. If you absorbed poisonous gas, you may fill up any 5-foot square of space within 5 feet of you with this poisonous gas as an action. Any creature in the space being filled with gas must succeed on a DC 10 Strength (Athletics) check or be pushed out of the space away from the dial. Objects less than 10 pounds are also pushed out automatically. Simple breath dials can store up to 25 cubic feet of gas, and regain up to {@dice 1d4+1} expended charges daily at dawn."
+      ],
+      "type": "DIAL:S",
+      "value": 0,
+      "weight": 0,
+      "page": 150,
+      "charges": 5,
+      "source": "D&DF-PHB",
+      "recharge": "dawn",
+      "rechargeAmount": "1d4+1",
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "simple dial table|D&DF-PHB"
+      ]
+    },
+    {
+      "name": "Large Breath Dial",
+      "entries": [
+        "Large breath dials have 10 charges and can store up to 50 cubic feet of gas. Additionally, they regain {@dice 1d6}+4 expended charges daily at dawn instead. You can also use a large breath dial to power a standard waver, reducing the cost of building a waver by 80%."
+      ],
+      "type": "DIAL:R",
+      "value": 0,
+      "weight": 0,
+      "baseItem": "Breath Dial|D&DF-PHB",
+      "page": 150,
+      "charges": 10,
+      "source": "D&DF-PHB",
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "rare dial table|D&DF-PHB"
+      ]
+    },
+    {
+      "name": "Flavor Dial",
+      "entries": [
+        "Similar to breath dials, flavor dials specialize in storing gases and scents. This includes explosive gas or foul odors. However, flavor dials aren't capable of emitting strong gusts that can push things away. Simple flavor dials have 5 charges. By expending a charge from this dial as a bonus action, you can absorb up to a 5-foot cube of any gas or scent. By pressing the button on the dial as an action, you can expel up to a 5-foot cube of any stored gas in a space within 5 feet of you. Simple flavor dials can store up to 25 cubic feet of gas, and regain up to {@dice 1d4+1} expended charges daily at dawn."
+      ],
+      "type": "DIAL:S",
+      "value": 0,
+      "weight": 0,
+      "charges": 5,
+      "recharge": "dawn",
+      "rechargeAmount": "1d4+1",
+      "page": 150,
+      "source": "D&DF-PHB",
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "simple dial table|D&DF-PHB"
+      ]
+    },
+    {
+      "name": "Large Flavor Dial",
+      "entries": [
+        "Large flavor dials have 10 charges and can store up to 50 cubic feet of gas. Additionally, they regain {@dice 1d6}+4 expended charges daily at dawn instead."
+      ],
+      "type": "DIAL:R",
+      "value": 0,
+      "weight": 0,
+      "recharge": "dawn",
+      "baseItem": "Flavor Dial|D&DF-PHB",
+      "rechargeAmount": "1d6+4",
+      "charges": 10,
+      "page": 150,
+      "source": "D&DF-PHB",
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "rare dial table|D&DF-PHB"
+      ]
+    },
+    {
+      "name": "Freeze Dial",
+      "entries": [
+        "By absorbing freezing substances or gases, freeze dials can be used to chill and cool off anything by expelling cold elemental energy. Simple freeze dials have 5 charges. By expending a charge from this dial as a bonus action, you may sap cold energy from any 5-foot cube of material or gas that is 0° C (32° F) or less in temperature, such as ice, snow, or frigid air by placing it within 5 feet of the source. To use this dial, as an action, you can place or hold the dial in a 5-foot square, then press the button on it to keep that space at freezing or cool temperatures for up to 24 hours for every 5-foot cube of stored cold energy released. Alternatively, you can release all the cold energy stored in a freeze dial to make an attack. As an action, you can make a melee attack against a creature and release the cold energy within the dial to deal 1 cold damage for every 5-foot cube of cold energy expelled. Simple freeze dials can store up to 25 cubic feet of cold energy, and regain up to {@dice 1d4+1} expended charges daily at dawn."
+      ],
+      "type": "DIAL:S",
+      "value": 0,
+      "weight": 0,
+      "recharge": "dawn",
+      "rechargeAmount": "1d4+1",
+      "charges": 5,
+      "page": 150,
+      "source": "D&DF-PHB",
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "simple dial table|D&DF-PHB"
+      ]
+    },
+    {
+      "name": "Large Freeze Dial",
+      "entries": [
+        "Large freeze dials have 10 charges and can store up to 50 cubic feet of cold energy. Additionally, they regain {@dice 1d6}+4 expended charges daily at dawn instead."
+      ],
+      "type": "DIAL:R",
+      "value": 0,
+      "weight": 0,
+      "baseItem": "Freeze Dial|D&DF-PHB",
+      "charges": 10,
+      "recharge": "dawn",
+      "rechargeAmount": "1d6+1",
+      "page": 150,
+      "source": "D&DF-PHB",
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "rare dial table|D&DF-PHB"
+      ]
+    },
+    {
+      "name": "Heat Dial",
+      "entries": [
+        "By absorbing hot substances or gases, heat dials can be used to heat up anything by expelling hot elemental energy. Simple heat dials have 5 charges. By expending a charge from this dial as a bonus action, you may sap heat energy from any 5-foot cube of material or gas that is 100° C (212° F) or more in temperature, such as fire, magma, or burning gas by placing it within 5 feet of the source. To use this dial, as an action, you can place or hold the dial in a 5-foot square, then press the button on it to keep that space at burning or boiling temperatures for up to 24 hours for every 5-foot cube of stored heat energy released. Alternatively, you can release all the heat energy stored in a heat dial to make an attack. As an action, you can make a melee attack against a creature and release the heat energy within the dial to deal 1 fire damage for every 5-foot cube of heat energy expelled. Simple heat dials can store up to 25 cubic feet of heat energy, and regain up to {@dice 1d4+1} expended charges daily at dawn."
+      ],
+      "type": "DIAL:S",
+      "value": 0,
+      "weight": 0,
+      "recharge": "dawn",
+      "rechargeAmount": "1d4+1",
+      "charges": 5,
+      "page": 150,
+      "source": "D&DF-PHB",
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "simple dial table|D&DF-PHB"
+      ]
+    },
+    {
+      "name": "Large Heat Dial",
+      "entries": [
+        "Large heat dials have 10 charges and can store up to 50 cubic feet of heat energy. Additionally, they regain {@dice 1d6}+4 expended charges daily at dawn instead."
+      ],
+      "type": "DIAL:R",
+      "value": 0,
+      "weight": 0,
+      "baseItem": "Heat Dial|D&DF-PHB",
+      "recharge": "dawn",
+      "rechargeAmount": "1d6+4",
+      "charges": 10,
+      "page": 150,
+      "source": "D&DF-PHB",
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "rare dial table|D&DF-PHB"
+      ]
+    },
+    {
+      "name": "Lamp Dial",
+      "entries": [
+        "By absorbing light from any source, a lamp dial can emit bright light for an extended period of time. Simple lamp dials have 5 charges. By expending a charge from this dial as a bonus action, you may absorb up to an hour worth of light or sunlight, for each charge spent, into this dial by holding it or placing it within range of the source without interruption. To use this dial, as an action, you can press the button on the dial to continuously shed bright light in a 20-foot radius and dim light for an additional 20 feet from the dial for a duration equal to the amount of stored light in hours. Simple lamp dials can store up to 5 hours worth of consistent light, and regain up to {@dice 1d4+1} expended charges daily at dawn."
+      ],
+      "type": "DIAL:S",
+      "value": 0,
+      "weight": 0,
+      "charges": 5,
+      "recharge": "dawn",
+      "rechargeAmount": "1d4+1",
+      "page": 150,
+      "source": "D&DF-PHB",
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "simple dial table|D&DF-PHB"
+      ]
+    },
+    {
+      "name": "Large Lamp Dial",
+      "entries": [
+        "Large lamp dials have 10 charges and can store up to 10 hours worth of light. Additionally, they regain {@dice 1d6}+4 expended charges daily at dawn instead."
+      ],
+      "type": "DIAL:R",
+      "value": 0,
+      "weight": 0,
+      "baseItem": "Lamp Dial|D&DF-PHB",
+      "recharge": "dawn",
+      "rechargeAmount": "1d6+4",
+      "charges": 10,
+      "page": 150,
+      "source": "D&DF-PHB",
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "rare dial table|D&DF-PHB"
+      ]
+    },
+    {
+      "name": "Milky Dial",
+      "entries": [
+        "This dial only works in extremely high altitudes, such as any location in the sky islands. By absorbing giant chunks of clouds into a milky dial, you can release pathways or blocks of cloud from the dial. Simple milky dials have 5 charges. By expending a charge from this dial as a bonus action, you may absorb any 5-foot cube of island or sea clouds by placing it within 5 feet of the source. To use this dial, as an action, you can place or hold the dial in a 5-foot square, then press the button on it to release a 5-foot cube of island or water cloud stored, depending on the type of clouds absorbed, within 5 feet of the dial once at the beginning of every round. Each 5-foot cube of this cloud has 1 HP and AC 6, and will float slowly in any direction it is expelled or pushed, up to 5 feet per round. Simple milky dials can store up to 25 cubic feet of cloud, and regain up to {@dice 1d4+1} expended charges daily at dawn."
+      ],
+      "type": "DIAL:S",
+      "value": 0,
+      "recharge": "dawn",
+      "rechargeAmount": "1d4+1",
+      "weight": 0,
+      "charges": 5,
+      "page": 150,
+      "source": "D&DF-PHB",
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "simple dial table|D&DF-PHB"
+      ]
+    },
+    {
+      "name": "Large Milky Dial",
+      "entries": [
+        "Large milky dials have 10 charges and can store up to 50 cubic feet of cloud. Additionally, they regain {@dice 1d6}+4 expended charges daily at dawn instead."
+      ],
+      "type": "DIAL:R",
+      "value": 0,
+      "weight": 0,
+      "recharge": "dawn",
+      "rechargeAmount": "1d6+4",
+      "charges": 10,
+      "page": 150,
+      "baseItem": "Milky Dial|D&DF-PHB",
+      "source": "D&DF-PHB",
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "rare dial table|D&DF-PHB"
+      ]
+    },
+    {
+      "name": "Thunder Dial",
+      "entries": [
+        "By absorbing electric elemental energy from a material or current, thunder dials can be used as an electric power source to anything by channeling stored electricity. Simple thunder dials have 5 charges. By expending a charge from this dial as a bonus action, you may sap electric energy from any 5-foot cube of material or current that is releasing or channeling electricity, such as a lightning rod, active wiring, or generator, by placing it within 5 feet of the source. To use this dial, as an action, you can place or hold the dial in a 5-foot square, then press the button on it to channel electricity into one nearby device for up to 24 hours for every 5-foot cube of electric energy stored being released. This can be used for simple machines such as a fan or light bulb. Alternatively, you can release all the electric energy stored in a heat dial to make an attack. As an action, you can make a melee attack against a creature and release the electricity within the dial to deal 1 lightning damage for every 5-foot cube of electric energy expelled. Simple thunder dials can store up to 25 cubic feet of electric energy, and regain up to {@dice 1d4+1} expended charges daily at dawn."
+      ],
+      "type": "DIAL:S",
+      "value": 0,
+      "weight": 0,
+      "charges": 5,
+      "recharge": "dawn",
+      "rechargeAmount": "1d4+1",
+      "page": 151,
+      "source": "D&DF-PHB",
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "simple dial table|D&DF-PHB"
+      ]
+    },
+    {
+      "name": "Large Thunder Dial",
+      "entries": [
+        "Large thunder dials have 10 charges and can store up to 50 cubic feet of electric energy. Additionally, they regain {@dice 1d6}+4 expended charges daily at dawn instead."
+      ],
+      "type": "DIAL:R",
+      "value": 0,
+      "weight": 0,
+      "charges": 10,
+      "recharge": "dawn",
+      "baseItem": "Thunder Dial|D&DF-PHB",
+      "rechargeAmount": "1d++4",
+      "page": 151,
+      "source": "D&DF-PHB",
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "rare dial table|D&DF-PHB"
+      ]
+    },
+    {
+      "name": "Tone Dial",
+      "entries": [
+        "This dial can store sounds or spoken messages to replay them out loud at a later time when activated. Simple tone dials have 5 charges. By expending any number of charges from this dial as a bonus action, you can record up to 10 seconds for each charge spent of any sound or spoken message. As an action, you can press the button on the dial to play any stored noise or message, which can be heard up 120 feet away from the dial depending on the volume. Additionally, stored messages can be replayed or looped for up to an hour each day, or can be erased in up to 10 second segments as an action. Simple tone dials can store up to 50 seconds of sound or speaking, and regain up to {@dice 1d4+1} expended charges daily at dawn."
+      ],
+      "type": "DIAL:S",
+      "value": 0,
+      "weight": 0,
+      "charges": 5,
+      "recharge": "dawn",
+      "rechargeAmount": "1d4+1",
+      "page": 151,
+      "source": "D&DF-PHB",
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "simple dial table|D&DF-PHB"
+      ]
+    },
+    {
+      "name": "Large Tone Dial",
+      "entries": [
+        "Large tone dials have 10 charges and can store up to 100 seconds of sound, which can be replayed or looped infinitely. Additionally, they regain {@dice 1d6}+4 expended charges daily at dawn instead."
+      ],
+      "type": "DIAL:R",
+      "value": 0,
+      "charges": 10,
+      "recharge": "dawn",
+      "baseItem": "Tone Dial|D&DF-PHB",
+      "rechargeAmount": "1d6+4",
+      "weight": 0,
+      "page": 151,
+      "source": "D&DF-PHB",
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "rare dial table|D&DF-PHB"
+      ]
+    },
+    {
+      "name": "Vision Dial",
+      "entries": [
+        "By capturing and absorbing visible colored light in an area, vision dials can capture photos and print them onto paper or parchment. Simple vision dials have 5 charges. By expending a charge from this dial as a bonus action, you can capture a single photo in one direction. As an action, you can press the button on the dial to print the stored image onto a piece of paper or parchment and delete the stored photo data on the dial. Simple vision dials can store up to 5 individual photos at a time, and regain up to {@dice 1d4+1} expended charges daily at dawn."
+      ],
+      "type": "DIAL:R",
+      "value": 0,
+      "weight": 0,
+      "charges": 5,
+      "recharge": "dawn",
+      "rechargeAmount": "1d4+1",
+      "page": 151,
+      "source": "D&DF-PHB",
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "simple dial table|D&DF-PHB"
+      ]
+    },
+    {
+      "name": "Large Vision Dial",
+      "entries": [
+        "Large vision dials can record videos for up to 10 seconds for every 2 charges spent, have 10 charges, and can store up to 10 photos or videos at a time. Videos can be played back on a projector created by the large vision dial, and can have individual frames printed out. Photos and videos can also continue to be stored without getting deleted after being printed. Additionally, they regain {@dice 1d6}+4 expended charges daily at dawn instead."
+      ],
+      "type": "DIAL:R",
+      "value": 0,
+      "weight": 0,
+      "charges": 10,
+      "recharge": "dawn",
+      "baseItem": "Vision Dial|D&DF-PHB",
+      "rechargeAmount": "1d6+4",
+      "page": 151,
+      "source": "D&DF-PHB",
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "rare dial table|D&DF-PHB"
+      ]
+    },
+    {
+      "name": "Water Dial",
+      "entries": [
+        "This dial can absorb and store any type of water or liquid and then release it when activated. Simple water dials have 5 charges. By expending a charge from this dial as a bonus action, you may absorb any 5-foot cube of water or liquid by placing it within 5 feet of the source. To use this dial, as an action, you can place or hold the dial in a 5-foot square, then press the button on it to release and pour up to 5 cubic feet of stored liquid, within a space up to 5 feet of the dial once at the beginning of every round. This liquid can be stored in containers, or poured over surfaces or even fires to put them out. Simple water dials can store up to 25 cubic feet of liquid, and regain up to {@dice 1d4+1} expended charges daily at dawn."
+      ],
+      "type": "DIAL:S",
+      "value": 0,
+      "weight": 0,
+      "charges": 5,
+      "recharge": "dawn",
+      "rechargeAmount": "1d4+1",
+      "page": 151,
+      "source": "D&DF-PHB",
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "simple dial table|D&DF-PHB"
+      ]
+    },
+    {
+      "name": "Large Water Dial",
+      "entries": [
+        "Large water dials have 10 charges and can store up to 50 cubic feet of liquid. Additionally, they regain {@dice 1d6}+4 expended charges daily at dawn instead."
+      ],
+      "type": "DIAL:R",
+      "value": 0,
+      "weight": 0,
+      "charges": 10,
+      "recharge": "dawn",
+      "baseItem": "Water Dial|D&DF-PHB",
+      "rechargeAmount": "1d6+4",
+      "page": 151,
+      "source": "D&DF-PHB",
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "rare dial table|D&DF-PHB"
+      ]
+    },
+    {
+      "name": "Axe Dial",
+      "source": "D&DF-PHB",
+      "entries": [
+        "Axe dials are powerful damage-dealing dials that can amplify the effects of attacks. They can be attached to your body or combined with any weapon to amplify its effects. By passively absorbing and storing sharpness from a blade, weight from a blunt weapon, strength from the user's fists and legs, etc., an axe dial will greatly enhance any attack made with a weapon it is attached to. There are three different types of axe dials, each type increasing in both strength and rarity.",
+        {
+          "type": "list",
+          "items": [
+            "{@item Axe dial +1|D&DF-PHB}",
+            "{@item Axe dial +2|D&DF-PHB}",
+            "{@item Axe Dial +3|D&DF-PHB}"
+          ]
+        }
+      ],
+      "type": "DIAL:R",
+      "value": 0,
+      "weight": 0,
+      "page": 151,
+      "rarity": "varies",
+      "items": [
+        "Axe dial +1|D&DF-PHB",
+        "Axe dial +2|D&DF-PHB",
+        "Axe Dial +3|D&DF-PHB"
+      ],
+      "lootTables": [
+        "rare dial table|D&DF-PHB"
+      ]
+    },
+    {
+      "name": "Axe dial +1",
+      "source": "D&DF-PHB",
+      "page": 151,
+      "rarity": "uncommon",
+      "entries": [
+        "A +1 axe dial (uncommon) gives any weapon, including your unarmed strikes, a +1 bonus to attack and damage rolls when attached.",
+        "In order to attach an axe dial to a weapon or body part, the user must spend time during a short or long rest properly fitting and attaching it to the desired weapon. A weapon can only receive the benefits from one dial at a time, and the effects of separate dials on a single weapon do not stack. Furthermore, axe dials do not stack with innate weapon bonus stats, and can only increase a weapon's innate bonuses up to a total +3 for attack or damage rolls. However, axe dial bonuses do stack with bonuses from character feats and abilities."
+      ],
+      "lootTables": [
+        "rare dial table|D&DF-PHB"
+      ]
+    },
+    {
+      "name": "Axe dial +2",
+      "source": "D&DF-PHB",
+      "_copy": {
+        "name": "Axe dial +1",
+        "source": "D&DF-PHB",
+        "_preserve": {
+          "page": true
+        }
+      },
+      "rarity": "rare",
+      "entries": [
+        "A +2 axe dial (rare) gives any weapon, including your unarmed strikes, a +2 bonus to attack and damage rolls when attached.",
+        "In order to attach an axe dial to a weapon or body part, the user must spend time during a short or long rest properly fitting and attaching it to the desired weapon. A weapon can only receive the benefits from one dial at a time, and the effects of separate dials on a single weapon do not stack. Furthermore, axe dials do not stack with innate weapon bonus stats, and can only increase a weapon's innate bonuses up to a total +3 for attack or damage rolls. However, axe dial bonuses do stack with bonuses from character feats and abilities."
+      ],
+      "lootTables": [
+        "rare dial table|D&DF-PHB"
+      ]
+    },
+    {
+      "name": "Axe Dial +3",
+      "source": "D&DF-PHB",
+      "_copy": {
+        "name": "Axe dial +2",
+        "source": "D&DF-PHB",
+        "_preserve": {
+          "page": true
+        }
+      },
+      "rarity": "very rare",
+      "entries": [
+        "A +3 axe dial (very rare) gives any weapon, including your unarmed strikes, a +3 bonus to attack and damage rolls when attached.",
+        "In order to attach an axe dial to a weapon or body part, the user must spend time during a short or long rest properly fitting and attaching it to the desired weapon. A weapon can only receive the benefits from one dial at a time, and the effects of separate dials on a single weapon do not stack. Furthermore, axe dials do not stack with innate weapon bonus stats, and can only increase a weapon's innate bonuses up to a total +3 for attack or damage rolls. However, axe dial bonuses do stack with bonuses from character feats and abilities."
+      ],
+      "lootTables": [
+        "rare dial table|D&DF-PHB"
+      ]
+    },
+    {
+      "name": "Ball Dial",
+      "entries": [
+        "This dial is almost identical to the large milky dial, except when segments of solid cloud are produced from this dial, they become floating 5-foot diameter balls that can be attached to each other without breaking. They each have 1 HP and AC 6, and can be pushed up to 30 feet in any direction as a ranged attack, popping on impact with the first thing they touch. When a cloud ball is destroyed or popped, it produces a random effect. Roll a d100 on the wild magic surge table (D&D 5e rules) to determine the effect, and have it target and damage the creature closest to the ball or the ball itself after popping. If the rolled effect grants sorcery points or doesn't have an applicable effect, re-roll instead."
+      ],
+      "type": "DIAL:R",
+      "value": 0,
+      "weight": 0,
+      "page": 152,
+      "recharge": "dawn",
+      "rechargeAmount": "1d6+4",
+      "charges": 10,
+      "source": "D&DF-PHB",
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "rare dial table|D&DF-PHB"
+      ]
+    },
+    {
+      "name": "Eisen Dial",
+      "entries": [
+        "The eisen dial is considered one of the strongest types of dials. This dial is almost identical to the simple milky dial, except when segments of solid cloud are produced from this dial, they are as thick and durable as iron. They have 30 HP and AC 20 per 5-foot cube released, and will shatter into metallic dust when destroyed. Additionally, by releasing a 5-foot cube of stored cloud, you may transform it into an iron simple melee weapon of choice that you can use. If you are proficient with rare dials, you are also proficient with the created weapon. This weapon lasts for 1 hour, or until dispelled as a bonus action, at which point it crumbles into metallic dust."
+      ],
+      "type": "DIAL:R",
+      "value": 0,
+      "weight": 0,
+      "charges": 5,
+      "recharge": "dawn",
+      "rechargeAmount": "1d4+1",
+      "baseItem": "Milky Dial|D&DF-PHB",
+      "page": 152,
+      "source": "D&DF-PHB",
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "rare dial table|D&DF-PHB"
+      ]
+    },
+    {
+      "name": "Flash Dial",
+      "entries": [
+        "This dial is very similar to a lamp dial, but instead releases stored light in a powerful flash that can blind enemies. Flash dials have 5 charges. By expending a charge from this dial as a bonus action, you may absorb up to an hour worth of light or sunlight, for each charge spent, into this dial by holding it or placing it within range of the source without interruption. To use this dial, as an action, you can press the button on the dial while holding it to release an hour worth of stored light in a powerful instant flash. Each creature aside from the user within 30 feet must make a DC 15 Constitution saving throw or become blinded until the end of their next turn. Flash dials can store up to 5 hours of light and regain up to {@dice 1d4+1} expended charges daily at dawn."
+      ],
+      "type": "DIAL:R",
+      "value": 0,
+      "weight": 0,
+      "recharge": "dawn",
+      "rechargeAmount": "1d4+1",
+      "baseItem": "Lamp Dial|D&DF-PHB",
+      "charges": 5,
+      "page": 152,
+      "source": "D&DF-PHB",
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "rare dial table|D&DF-PHB"
+      ]
+    },
+    {
+      "name": "Flame Dial",
+      "entries": [
+        "By absorbing flames or burning materials, flame dials can be used to release scorching bursts or beams of fire. Flame dials have 5 charges. By expending a charge from this dial as a bonus action, you may sap fire from any 5-foot cube of fire, magma, or burning material by placing it within 5 feet of the source. As an action, you can release a burst of flames from the dial, one ray for every stored 5-foot cube of fire released, and hurl them at targets within 120 feet. Make a ranged attack for each burst of flame created. On a hit, the target takes 2d6 fire damage. Flame dials can store up to 25 cubic feet of fire, and regain up to {@dice 1d4+1} expended charges daily at dawn."
+      ],
+      "type": "DIAL:R",
+      "value": 0,
+      "weight": 0,
+      "charges": 5,
+      "recharge": "dawn",
+      "rechargeAmount": "1d4+1",
+      "page": 152,
+      "source": "D&DF-PHB",
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "rare dial table|D&DF-PHB"
+      ]
+    },
+    {
+      "name": "Impact Dial",
+      "entries": [
+        "By absorbing an instance of damage or force from an incoming attack, you can store and later release the force in a devastating burst of concentrated energy. Impact dials have 5 charges. When the user is individually targeted by an attack, spell, or damaging effect, they can use the impact dial to absorb the damage or a portion of it by expending charges as a reaction. Roll a d10 for every charge spent, and reduce the damage of the attack, spell, or effect by that number and store it in the dial. To release stored damage, the user can make a melee attack using the dial, deciding how much stored damage to expend. On a hit, the target takes force damage equal to the expended amount, and the user takes half that damage as recoil. Impact dials can store up to 30 force damage and regain {@dice 1d4+1} charges daily at dawn."
+      ],
+      "type": "DIAL:R",
+      "value": 0,
+      "weight": 0,
+      "page": 152,
+      "charges": 5,
+      "recharge": "dawn",
+      "rechargeAmount": "1d4+1",
+      "source": "D&DF-PHB",
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "rare dial table|D&DF-PHB"
+      ]
+    },
+    {
+      "name": "Jet Dial",
+      "entries": [
+        "By storing powerful gusts or wind currents, jet dials have the ability to emit anything it absorbs as a gust of energy. Jet dials have 5 charges. By expending a charge from this dial as a bonus action, you can absorb up to a 5-foot cube of any strong wind or gas. By pressing the button as a bonus action, you can expel at least one 5-foot cube of stored wind to launch yourself 30 feet per 5-foot cube released in any direction. Jet dials can store up to 25 cubic feet of wind, and regain up to {@dice 1d4+1} expended charges daily at dawn. Attaching a jet dial to a waver doubles its speed."
+      ],
+      "type": "DIAL:R",
+      "value": 0,
+      "weight": 0,
+      "charges": 5,
+      "recharge": "dawn",
+      "rechargeAmount": "1d4+1",
+      "page": 152,
+      "source": "D&DF-PHB",
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "rare dial table|D&DF-PHB"
+      ]
+    },
+    {
+      "name": "Reject Dial",
+      "entries": [
+        "Reject dials are one of the strongest and hardest to find among even the rarest dials. However, reject dials are also incredibly dangerous to use, with the recoil being potentially fatal. This dial is almost identical to the impact dial, except it has 10 charges, can store up to 60 force damage, and regains {@dice 1d6}+4 expended charges daily at dawn."
+      ],
+      "type": "DIAL:R",
+      "value": 0,
+      "charges": 10,
+      "weight": 0,
+      "recharge": "dawn",
+      "baseItem": "Impact Dial|D&DF-PHB",
+      "rechargeAmount": "1d6+4",
+      "page": 152,
+      "source": "D&DF-PHB",
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "rare dial table|D&DF-PHB"
+      ]
+    },
+    {
+      "name": "Storm Dial",
+      "entries": [
+        "This dial is almost identical to the simple milky dial, except when segments of solid cloud are produced from this dial, they come in the form of condensed chunks of powerful storm clouds. Every 5-foot cube of storm cloud can be passed through, though it is considered Difficult Terrain. Any creature that ends its turn inside a created storm cloud must make a DC 15 Strength saving throw or take 2d6 bludgeoning damage from the harsh maelstrom of wind inside the cloud. Additionally, at the start of each round, each 5-foot cube of storm cloud targets the closest creature within 30 feet and deals {@dice 1d6} lightning damage to it. Storm clouds last for 1 minute after being created, then revert to ordinary clouds."
+      ],
+      "type": "DIAL:R",
+      "value": 0,
+      "charges": 5,
+      "recharge": "dawn",
+      "rechargeAmount": "1d4+1",
+      "baseItem": "Milky Dial|D&DF-PHB",
+      "weight": 0,
+      "page": 152,
+      "source": "D&DF-PHB",
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "rare dial table|D&DF-PHB"
+      ]
+    },
+    {
+      "name": "Metallic Stars",
+      "type": "Stars",
+      "source": "D&DF-PHB",
+      "rarity": "varies",
+      "entries": [
+        "This type of star is much heavier and more destructive than ordinary ammo.",
+        {
+          "type": "list",
+          "items": [
+            "{@item Metallic Stars +1|D&DF-PHB}",
+            "{@item Metallic Stars +2|D&DF-PHB}",
+            "{@item Metallic Stars +3|D&DF-PHB}"
+          ]
+        }
+      ],
+      "miscTags": [
+        "CNS"
+      ],
+      "items": [
+        "Metallic Star +1",
+        "Metallic Star +2",
+        "Metallic Star +3"
+      ]
+    },
+    {
+      "name": "Metallic Star +1",
+      "type": "Stars",
+      "source": "D&DF-PHB",
+      "rarity": "uncommon",
+      "miscTags": [
+        "CNS"
+      ],
+      "entries": [
+        "Uncommon metallic stars have a +1 to attack and damage rolls when fired.",
+        {
+          "type": "entries",
+          "name": "Metallic Star save DC",
+          "entries": [
+            "Additionally, targets that are medium or smaller that are hit by a metallic star must succeed on a Strength save against the DC, or be knocked prone.",
+            "{@bold Metallic Star Save DC} = 10 + (attack/damage bonus of the star x 2) [12]"
+          ]
+        }
+      ],
+      "bonusWeaponDamage": "+1",
+      "bonusWeaponAttack": "+1"
+    },
+    {
+      "name": "Metallic Star +2",
+      "type": "Stars",
+      "source": "D&DF-PHB",
+      "miscTags": [
+        "CNS"
+      ],
+      "rarity": "rare",
+      "entries": [
+        "Rare metallic stars have a +2 to attack and damage rolls when fired.",
+        {
+          "type": "entries",
+          "name": "Metallic Star Save DC",
+          "entries": [
+            "Additionally, targets that are medium or smaller that are hit by a metallic star must succeed on a Strength save against the DC, or be knocked prone.",
+            "{@bold Metallic Star Save DC} = 10 + (attack/damage bonus of the star x 2) [14]"
+          ]
+        }
+      ],
+      "bonusWeaponDamage": "+2",
+      "bonusWeaponAttack": "+2"
+    },
+    {
+      "name": "Metallic Star +3",
+      "type": "Stars",
+      "source": "D&DF-PHB",
+      "rarity": "very rare",
+      "miscTags": [
+        "CNS"
+      ],
+      "entries": [
+        "Very rare metallic stars have a +3 to attack and damage rolls when fired.",
+        {
+          "type": "entries",
+          "name": "Metallic Star Save DC",
+          "entries": [
+            "Additionally, targets that are medium or smaller that are hit by a metallic star must succeed on a Strength save against the DC, or be knocked prone.",
+            "{@bold Metallic Star Save DC} = 10 + (attack/damage bonus of the star x 2) [16]"
+          ]
+        }
+      ],
+      "bonusWeaponDamage": "+3",
+      "bonusWeaponAttack": "+3"
+    },
+    {
+      "name": "Flame Stars",
+      "type": "Stars",
+      "source": "D&DF-PHB",
+      "rarity": "varies",
+      "miscTags": [
+        "CNS"
+      ],
+      "entries": [
+        "A flame star ignites mid-air, igniting anything it hits on contact. ",
+        {
+          "type": "list",
+          "items": [
+            "{@item Uncommon Flame Star|D&DF-PHB}",
+            "{@item Rare Flame Star|D&DF-PHB}",
+            "{@item Very rare Flame Star|D&DF-PHB}"
+          ]
+        }
+      ],
+      "items": [
+        "Uncommon Flame Star",
+        "Rare Flame Star",
+        "Very rare Flame Star"
+      ]
+    },
+    {
+      "name": "Uncommon Flame Star",
+      "type": "Stars",
+      "miscTags": [
+        "CNS"
+      ],
+      "source": "D&DF-PHB",
+      "rarity": "uncommon",
+      "entries": [
+        "Uncommon flame stars deal an addition 1d6 fire damage when fired"
+      ],
+      "bonusWeaponDamage": "1d6",
+      "dmgType": "F"
+    },
+    {
+      "name": "Rare Flame Star",
+      "type": "Stars",
+      "source": "D&DF-PHB",
+      "miscTags": [
+        "CNS"
+      ],
+      "rarity": "rare",
+      "entries": [
+        "Rare flame stars deal an addition 2d6 fire damage when fired"
+      ],
+      "bonusWeaponDamage": "2d6",
+      "dmgType": "F"
+    },
+    {
+      "name": "Very rare Flame Star",
+      "type": "Stars",
+      "miscTags": [
+        "CNS"
+      ],
+      "source": "D&DF-PHB",
+      "rarity": "very rare",
+      "entries": [
+        "Very rare flame stars deal an addition 3d6 fire damage when fired"
+      ],
+      "bonusWeaponDamage": "3d6",
+      "dmgType": "F"
+    },
+    {
+      "name": "Cactus Stars",
+      "type": "Stars",
+      "source": "D&DF-PHB",
+      "rarity": "varies",
+      "miscTags": [
+        "CNS"
+      ],
+      "entries": [
+        "This star explodes upon hitting a target, piercing nearby targets with flying spikes. ",
+        {
+          "type": "list",
+          "items": [
+            "{@item Uncommon Cactus Star|D&DF-PHB}",
+            "{@item Rare Cactus Star|D&DF-PHB}",
+            "{@item Very rare Cactus Star|D&DF-PHB}"
+          ]
+        }
+      ],
+      "items": [
+        "Uncommon Cactus Star",
+        "Rare Cactus Star",
+        "Very rare Cactus Star"
+      ]
+    },
+    {
+      "name": "Uncommon Cactus Star",
+      "type": "Stars",
+      "source": "D&DF-PHB",
+      "rarity": "uncommon",
+      "miscTags": [
+        "CNS"
+      ],
+      "entries": [
+        "If this star hits a target, it will damage all creatures within 5 feet of the target for 1d4 piercing damage"
+      ],
+      "bonusWeaponDamage": "1d4",
+      "dmgType": "P"
+    },
+    {
+      "name": "Rare Cactus Star",
+      "type": "Stars",
+      "source": "D&DF-PHB",
+      "miscTags": [
+        "CNS"
+      ],
+      "rarity": "rare",
+      "entries": [
+        "If this star hits a target, it will damage all creatures within 5 feet of the target for 2d4 piercing damage"
+      ],
+      "bonusWeaponDamage": "2d4",
+      "dmgType": "P"
+    },
+    {
+      "name": "Very rare Cactus Star",
+      "type": "Stars",
+      "source": "D&DF-PHB",
+      "rarity": "very rare",
+      "miscTags": [
+        "CNS"
+      ],
+      "entries": [
+        "If this star hits a target, it will damage all creatures within 5 feet of the target for 3d4 piercing damage"
+      ],
+      "bonusWeaponDamage": "3d4",
+      "dmgType": "P"
+    },
+    {
+      "name": "Terror Stars",
+      "type": "Stars",
+      "source": "D&DF-PHB",
+      "rarity": "varies",
+      "miscTags": [
+        "CNS"
+      ],
+      "entries": [
+        "When this star hits a target, a terrifying vision appears in front of them.",
+        {
+          "type": "list",
+          "items": [
+            "{@item Uncommon Terror Star|D&DF-PHB}",
+            "{@item Rare Terror Star|D&DF-PHB}",
+            "{@item Very rare Terror Star|D&DF-PHB}"
+          ]
+        }
+      ],
+      "items": [
+        "Uncommon Terror Star",
+        "Rare Terror Star",
+        "Very rare Terror Star"
+      ]
+    },
+    {
+      "name": "Uncommon Terror Star",
+      "type": "Stars",
+      "source": "D&DF-PHB",
+      "miscTags": [
+        "CNS"
+      ],
+      "rarity": "uncommon",
+      "entries": [
+        "Until the end of their next turn, they are frightened of you for the duration."
+      ]
+    },
+    {
+      "name": "Rare Terror Star",
+      "type": "Stars",
+      "source": "D&DF-PHB",
+      "miscTags": [
+        "CNS"
+      ],
+      "rarity": "rare",
+      "entries": [
+        "Until the end of their next turn, they are frightened of you for the duration, and they also take 1d4 additional psychic damage"
+      ],
+      "bonusWeaponDamage": "1d4",
+      "dmgType": "Y"
+    },
+    {
+      "name": "Very rare Terror Star",
+      "type": "Stars",
+      "source": "D&DF-PHB",
+      "miscTags": [
+        "CNS"
+      ],
+      "rarity": "very rare",
+      "entries": [
+        "Until the end of their next turn, they are frightened of you for the duration, and they also take 1d4 additional psychic damage"
+      ],
+      "bonusWeaponDamage": "2d4",
+      "dmgType": "Y"
+    },
+    {
+      "name": "Smoke Stars",
+      "type": "Stars",
+      "source": "D&DF-PHB",
+      "miscTags": [
+        "CNS"
+      ],
+      "rarity": "varies",
+      "entries": [
+        "This star creates a sphere of smoke centered on a point within range on impact with a target.",
+        {
+          "type": "list",
+          "items": [
+            "{@item Uncommon Smoke Star|D&DF-PHB}",
+            "{@item Rare Smoke Star|D&DF-PHB}",
+            "{@item Very rare Smoke Star|D&DF-PHB}"
+          ]
+        }
+      ],
+      "items": [
+        "Uncommon Smoke Star",
+        "Rare Smoke Star",
+        "Very rare Smoke Star"
+      ]
+    },
+    {
+      "name": "Uncommon Smoke Star",
+      "type": "Stars",
+      "source": "D&DF-PHB",
+      "miscTags": [
+        "CNS"
+      ],
+      "rarity": "uncommon",
+      "entries": [
+        "An uncommon smoke star creates a sphere radius of 10 feet. The sphere spreads around corners, and its area is heavily obscured. I It lasts for 1 minute or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it"
+      ]
+    },
+    {
+      "name": "Rare Smoke Star",
+      "type": "Stars",
+      "source": "D&DF-PHB",
+      "rarity": "rare",
+      "miscTags": [
+        "CNS"
+      ],
+      "entries": [
+        "A rare smoke star creates a sphere radius of 20 feet. The sphere spreads around corners, and its area is heavily obscured. I It lasts for 1 minute or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it"
+      ]
+    },
+    {
+      "name": "Very rare Smoke Star",
+      "type": "Stars",
+      "source": "D&DF-PHB",
+      "rarity": "very rare",
+      "miscTags": [
+        "CNS"
+      ],
+      "entries": [
+        "A very rare smoke star creates a sphere radius of 30 feet. The sphere spreads around corners, and its area is heavily obscured. I It lasts for 1 minute or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it"
       ]
     }
   ],
@@ -32762,6 +33906,241 @@
       "level": 14,
       "entries": [
         "Starting at 14th level, when you make an ability check, you can expend one use of Skaldic Verse. Roll a Skaldic Verse die and add the number rolled to your ability check. You can choose to do so after you roll the die for the ability check, but before the DM tells you whether you succeed or fail."
+      ]
+    }
+  ],
+  "itemType": [
+    {
+      "name": "simple dials",
+      "source": "D&DF-PHB",
+      "abbreviation": "DIAL:S",
+      "page": 149,
+      "entries": [
+        "\nDials are mysterious devices made from sea shells that each hold a unique power. They are normally found throughout the sky islands, and often vary in size and power.\nSome are used for completing simple tasks such as cooking, refrigeration, or blowing air, while others can be used to enhance weapons or deal devastating amounts of damage to enemies.",
+        "Simple dials tend to have less overwhelming or dangerous abilities, and absorb less from their designated energy source on average.",
+        "Being proficient in dials allows you to add your proficiency bonus to any check or attack roll when using a dial."
+      ]
+    },
+    {
+      "name": "rare dials",
+      "source": "D&DF-PHB",
+      "abbreviation": "DIAL:R",
+      "page": 149,
+      "entries": [
+        "\nDials are mysterious devices made from sea shells that each hold a unique power. They are normally found throughout the sky islands, and often vary in size and power.\nSome are used for completing simple tasks such as cooking, refrigeration, or blowing air, while others can be used to enhance weapons or deal devastating amounts of damage to enemies.",
+        "Rare dials are often incredibly effective in combat, and some have the power to devastate both their user and any foe from the amount of power they can expel in an instant.",
+        "Being proficient in dials allows you to add your proficiency bonus to any check or attack roll when using a dial."
+      ]
+    },
+    {
+      "name": "stars",
+      "source": "D&DF-PHB",
+      "abbreviation": "Stars",
+      "page": 149,
+      "entries": [
+        "\nStars are special types of ammo that deal additional damage compared to ordinary ammo or have some form of additional effect when fired. These can be crafted by a tinkerer or marksman, or found and purchased throughout the adventure."
+      ]
+    },
+    {
+      "name": "Pop Greens",
+      "source": "D&DF-PHB",
+      "abbreviation": "PopGreens",
+      "page": 149,
+      "entries": [
+        "\nPop greens are special seeds that have the power to instantly grow into full plants that produce a desired spell effect. Pop greens can be imbued with various effects or spells by a skilled herbalist, allowing them to be used as soon as they are planted in dirt or soil. Creating a pop green requires having a Herbalism Kit, supplies, a nearby spellcaster, and being proficient in the Nature or Arcana skills.\nAdditionally, they can only be created during extended periods of downtime, such as when traveling by boat to a new location in clear weather or spending time on a peaceful island."
+      ]
+    }
+  ],
+  "itemTypeAdditionalEntries": [
+    {
+      "name": "Creating and Using a Pop Greens",
+      "appliesTo": "PopGreens",
+      "source": "D&DF-PHB",
+      "entries": [
+        "\n{@bold Creating a pop green}\nA pop green is made by placing the energy from any spell and the material components required into a special seed. Creating a pop green can take a specific amount of time and money related to the strength and level of the Pop Green the characters wants to imbue into the seed, as shown on the table below. Additionally, the character creating the pop green must have proficiency in the Nature or Arcana skills and provide any material components required by the spell being put into the pop green. Moreover, at least one character making the pop green or assisting in the creation process must have the spell prepared, or it must be among the character's known spells, in order to create the pop green.\nIf the scribed spell is a cantrip, the version on the scroll works as if the caster were 1st Level.",
+        {
+          "rowLabels": [
+            "Spell level",
+            "Time",
+            "Cost"
+          ],
+          "name": "Pop Green cost",
+          "type": "table",
+          "rows": [
+            [
+              "Cantrip",
+              "1 day",
+              "฿150,000"
+            ],
+            [
+              "1st",
+              "1 day",
+              "฿250,000"
+            ],
+            [
+              "2nd",
+              "3 days",
+              "฿2,500,000"
+            ],
+            [
+              "3rd",
+              "1 workweek",
+              "฿5,000,000"
+            ],
+            [
+              "4th",
+              "2 workweeks",
+              "฿25,000,000"
+            ],
+            [
+              "5th",
+              "4 workweeks",
+              "฿50,000,000"
+            ],
+            [
+              "6th",
+              "8 workweeks",
+              "฿150,000,000"
+            ],
+            [
+              "7th",
+              "16 workweeks",
+              "฿250,000,000"
+            ],
+            [
+              "8th",
+              "32 workweeks",
+              "฿500,000,000"
+            ],
+            [
+              "9th",
+              "48 workweeks",
+              "฿2,500,000,000"
+            ]
+          ]
+        },
+        "Pop greens are occasionally found on various islands or sold in black markets. They can be sold to certain rich buyers for a price equal to the material cost on the table above. Their cost in the black market often equals 120% of their cost on the Pop Green Cost Table.",
+        "\n{@bold Using a pop green}\nWhen a character possesses a pop green, he or she can use at any time by planting it in a patch of dirt, soil, or sediment nearby. The pop green can be planted as an action, bonus action, or reaction (depending on the spell) within 5 feet of the user. It can also be thrown or fired by a sling as an action up to 30 feet away from the user into a nearby patch of soil. When the pop green is planted, it will begin casting the spell stored inside of it, no material components required.",
+        "The plant created will begin casting the spell from itself. For example, if the plant created from a pop green has cone of cold stored in it, it will cast it immediately after the action the user made to plant it, blasting the 60-foot cone from itself and damaging all enemies in the range depending on the direction the user wants it to aim the spell. After the spell is finished being casted or concentrated on, it will wither and die.",
+        "If the plant casts a spell, such as time stop, that can only target the caster, it will instead target the creature that planted it if they are within 30 feet of the plant. Otherwise, the plant will target itself with the spell before withering and dying. If the spell requires a target, the person who planted the pop green can verbally command it to choose the desired targets. Additionally, if the spell has a casting time longer than an action, the plant will remain alive and actively cast the spell until it is casted. Also, if the spell requires concentration, the plant will remain alive and attempt to concentrate on the spell until the duration ends or concentration is lost. Once the spell is no longer being concentrated on or is finished casting, the plant instantly withers and dies.",
+        "While the plant remains alive, its stats are as follows (Treat cantrips as 1st-level spells when determining these stats). It is a large plant, its HP is equal to 5 x Spell Level (Minimum 5), its AC is equal to 10 + Spell Level (Minimum 10), it has vulnerability to fire damage, and its Constitution save bonus for keeping concentration is equal to the Spell Level. The plant's appearance depends on the type of spell stored by it. For example, if it has the fireball spell stored, it may have a reddish-orange patterned appearance, a bazooka-shaped stem, and flame-shaped leaves. The plant may also cast or create the spell effect by emitting magical effects from its stalk or mouth, or by attacking with segments of its body.",
+        "The spell casted by the plant has an Attack Bonus and Save DC depending on the level of the spell stored by the plant, shown on the table below.",
+        {
+          "rowLabels": [
+            "Spell level",
+            "Save DC",
+            "Attack Bonus"
+          ],
+          "name": "Pop Green Spellcasting",
+          "type": "table",
+          "rows": [
+            [
+              "Cantrip",
+              13,
+              "+5"
+            ],
+            [
+              "1st",
+              13,
+              "+5"
+            ],
+            [
+              "2nd",
+              13,
+              "+5"
+            ],
+            [
+              "3rd",
+              15,
+              "+7"
+            ],
+            [
+              "4th",
+              15,
+              "+7"
+            ],
+            [
+              "5th",
+              17,
+              "+9"
+            ],
+            [
+              "6th",
+              17,
+              "+9"
+            ],
+            [
+              "7th",
+              18,
+              "+10"
+            ],
+            [
+              "8th",
+              18,
+              "+10"
+            ],
+            [
+              "9th",
+              19,
+              "+11"
+            ]
+          ]
+        },
+        "\n{@bold Pop Green Complication}\nIf the creature planting the pop green is a spellcaster that already knows how to cast the spell being stored by the pop green, planting it will always work without fail.",
+        "However, if the creature planting the pop green doesn't already know how to cast the spell being stored by it, there is a chance that the pop green will fail to grow and will die before it casts the spell successfully. In this case, the creature planting it must make an Intelligence (Nature) or Intelligence (Arcana) check to determine whether they plant it successfully or not. The DC equals 10 + the spell's level. On a failed check, the plant dies and has no other effect."
+      ]
+    },
+    {
+      "name": "Finding a simple dial",
+      "appliesTo": "DIALS:S",
+      "source": "D&DF-PHB",
+      "entries": [
+        "\n{@bold Finding a simple dial}\nSearching for the more simple dials is easy when you're traveling through the sky islands, especially along the shorelines. Finding dials, especially rare ones, outside of any sky islands is incredibly difficult.",
+        "When searching along shorelines throughout the sky islands, such as the shore of the White-White Sea, a DC 15 Intelligence (Investigation) check may be rolled for every 24 hours spent searching to see if a character locates a Simple Dial shell. If a character is proficient in using Dials, they make this check with advantage.",
+        "If a character succeeds on finding a simple dial, have them roll a d20 and use the Simple Dial Table below to determine which dial they receive."
+      ]
+    },
+    {
+      "name": "Finding a rare dial",
+      "appliesTo": "DIALS:R",
+      "source": "D&DF-PHB",
+      "entries": [
+        "\n{@bold Finding a rare dial}\nRare dials are far more difficult to find than ordinary dials. They are often larger, store massive amounts of energy, and are used in warfare and advanced machinery. In order to find a rare dial, it may be required to search sky island ruins or dungeons to discover such powerful dials.",
+        "If a character does find a way to locate a rare dial, the DM may choose to roll a d20 on the Rare Dial Table or pick from it when giving it to the character."
+      ]
+    },
+    {
+      "name": "Star Batch Cost",
+      "appliesTo": "Stars",
+      "source": "D&DF-PHB",
+      "entries": [
+        "\n{@bold Crafting a star}\n Crafting a starrequires any type of appropriate artisan's tools (such as mason's tools or smith's tools), proficiency in the Arcana or Sleight of Hand skills, and proficiency in at least one type of ranged weapon. The rarity, cost, and time it takes to make a batch of 5 for each type of star is listed in the Star Cost Table. Machine gun ammo, sniper rifle ammo, and bazooka ammo require double the time and money to make. Sling bullets require half the time and money to make.",
+        {
+          "name": "Star Batch Cost",
+          "rowLabels": [
+            "Star Type",
+            "Time",
+            "Cost"
+          ],
+          "type": "table",
+          "rows": [
+            [
+              "Uncommon",
+              "1 workweek",
+              "฿1,000,000"
+            ],
+            [
+              "rare",
+              "4 workweek",
+              "฿5,000,000"
+            ],
+            [
+              "Very Rare",
+              "8 workweek",
+              "฿25,000,000"
+            ]
+          ]
+        }
       ]
     }
   ]
