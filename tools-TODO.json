@@ -12,7 +12,7 @@
         "convertedBy": [
           "SirTalpadeRedstoneville58"
         ],
-        "version": "1.10",
+        "version": "1.13",
         "color": "0B3075",
         "url": "https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm"
       }
@@ -198,7 +198,7 @@
             ]
           ]
         },
-        "If the creature planting the pop green is a spellcaster that already knows how to cast the spell being stored by the pop green, planting it will always work without fail.",
+        "\n{@bold Pop Green Complication}\nIf the creature planting the pop green is a spellcaster that already knows how to cast the spell being stored by the pop green, planting it will always work without fail.",
         "However, if the creature planting the pop green doesn't already know how to cast the spell being stored by it, there is a chance that the pop green will fail to grow and will die before it casts the spell successfully. In this case, the creature planting it must make an Intelligence (Nature) or Intelligence (Arcana) check to determine whether they plant it successfully or not. The DC equals 10 + the spell's level. On a failed check, the plant dies and has no other effect."
       ]
     },
@@ -258,9 +258,123 @@
   ],
   "item": [
     {
+      "name": "Pop Green (Cantrip)",
+      "type": "PopGreens",
+      "source": "D&DF-PHB",
+      "page": 154,
+      "miscTags": [
+        "CNS"
+      ],
+      "rarity": "Common",
+      "value": 1500
+    },
+    {
+      "name": "Pop Green (1st Level)",
+      "type": "PopGreens",
+      "source": "D&DF-PHB",
+      "page": 154,
+      "miscTags": [
+        "CNS"
+      ],
+      "rarity": "Common",
+      "value": 2500
+    },
+    {
+      "name": "Pop Green (2nd Level)",
+      "type": "PopGreens",
+      "source": "D&DF-PHB",
+      "page": 154,
+      "miscTags": [
+        "CNS"
+      ],
+      "rarity": "Uncommon",
+      "value": 25000
+    },
+    {
+      "name": "Pop Green (3rd Level)",
+      "type": "PopGreens",
+      "source": "D&DF-PHB",
+      "page": 154,
+      "miscTags": [
+        "CNS"
+      ],
+      "rarity": "Uncommon",
+      "value": 50000
+    },
+    {
+      "name": "Pop Green (4th Level)",
+      "type": "PopGreens",
+      "source": "D&DF-PHB",
+      "page": 154,
+      "miscTags": [
+        "CNS"
+      ],
+      "rarity": "Rare",
+      "value": 250000
+    },
+    {
+      "name": "Pop Green (5th Level)",
+      "type": "PopGreens",
+      "source": "D&DF-PHB",
+      "page": 154,
+      "miscTags": [
+        "CNS"
+      ],
+      "rarity": "Rare",
+      "value": 500000
+    },
+    {
+      "name": "Pop Green (6th Level)",
+      "type": "PopGreens",
+      "source": "D&DF-PHB",
+      "page": 154,
+      "miscTags": [
+        "CNS"
+      ],
+      "rarity": "Very Rare",
+      "value": 1500000
+    },
+    {
+      "name": "Pop Green (7th Level)",
+      "type": "PopGreens",
+      "source": "D&DF-PHB",
+      "page": 154,
+      "miscTags": [
+        "CNS"
+      ],
+      "rarity": "Very Rare",
+      "value": 2500000
+    },
+    {
+      "name": "Pop Green (8th Level)",
+      "type": "PopGreens",
+      "source": "D&DF-PHB",
+      "page": 154,
+      "miscTags": [
+        "CNS"
+      ],
+      "rarity": "Very Rare",
+      "value": 5000000
+    },
+    {
+      "name": "Pop Green (9th Level)",
+      "type": "PopGreens",
+      "source": "D&DF-PHB",
+      "page": 154,
+      "miscTags": [
+        "CNS"
+      ],
+      "rarity": "Legendary",
+      "value": 25000000
+    },
+    {
       "name": "Pop Green",
       "type": "PopGreens",
       "source": "D&DF-PHB",
+      "page": 154,
+      "miscTags": [
+        "CNS"
+      ],
       "rarity": "varies",
       "items": [
         "Pop Green (Cantrip)",
@@ -274,10 +388,23 @@
         "Pop Green (8th Level)",
         "Pop Green (9th Level)"
       ],
-      "miscTags": [
-        "CNS"
-      ],
-      "entries": []
+      "entries": [
+        {
+          "type": "list",
+          "items": [
+            "{@item Pop Green (Cantrip)|D&DF-PHB}",
+            "{@item Pop Green (1st Level)|D&DF-PHB}",
+            "{@item Pop Green (2nd Level)|D&DF-PHB}",
+            "{@item Pop Green (3rd Level)|D&DF-PHB}",
+            "{@item Pop Green (4th Level)|D&DF-PHB}",
+            "{@item Pop Green (5th Level)|D&DF-PHB}",
+            "{@item Pop Green (6th Level)|D&DF-PHB}",
+            "{@item Pop Green (7th Level)|D&DF-PHB}",
+            "{@item Pop Green (8th Level)|D&DF-PHB}",
+            "{@item Pop Green (9th Level|D&DF-PHB})"
+          ]
+        }
+      ]
     },
     {
       "name": "Breath Dial",
@@ -302,6 +429,7 @@
       "type": "DIAL:R",
       "value": 0,
       "weight": 0,
+      "baseItem": "Breath Dial|D&DF-PHB",
       "page": 150,
       "charges": 10,
       "source": "D&DF-PHB",
@@ -331,6 +459,7 @@
       "value": 0,
       "weight": 0,
       "recharge": "dawn",
+      "baseItem": "Flavor Dial|D&DF-PHB",
       "rechargeAmount": "1d6+4",
       "charges": 10,
       "page": 150,
@@ -360,7 +489,7 @@
       "type": "DIAL:R",
       "value": 0,
       "weight": 0,
-      "baseItem": "Freeze Dial",
+      "baseItem": "Freeze Dial|D&DF-PHB",
       "charges": 10,
       "recharge": "dawn",
       "rechargeAmount": "1d6+1",
@@ -391,6 +520,7 @@
       "type": "DIAL:R",
       "value": 0,
       "weight": 0,
+      "baseItem": "Heat Dial|D&DF-PHB",
       "recharge": "dawn",
       "rechargeAmount": "1d6+4",
       "charges": 10,
@@ -421,6 +551,7 @@
       "type": "DIAL:R",
       "value": 0,
       "weight": 0,
+      "baseItem": "Lamp Dial|D&DF-PHB",
       "recharge": "dawn",
       "rechargeAmount": "1d6+4",
       "charges": 10,
@@ -455,6 +586,7 @@
       "rechargeAmount": "1d6+4",
       "charges": 10,
       "page": 150,
+      "baseItem": "Milky Dial|D&DF-PHB",
       "source": "D&DF-PHB",
       "rarity": "unknown (magic)"
     },
@@ -483,6 +615,7 @@
       "weight": 0,
       "charges": 10,
       "recharge": "dawn",
+      "baseItem": "Thunder Dial|D&DF-PHB",
       "rechargeAmount": "1d++4",
       "page": 151,
       "source": "D&DF-PHB",
@@ -512,6 +645,7 @@
       "value": 0,
       "charges": 10,
       "recharge": "dawn",
+      "baseItem": "Tone Dial|D&DF-PHB",
       "rechargeAmount": "1d6+4",
       "weight": 0,
       "page": 151,
@@ -538,11 +672,12 @@
       "entries": [
         "Large vision dials can record videos for up to 10 seconds for every 2 charges spent, have 10 charges, and can store up to 10 photos or videos at a time. Videos can be played back on a projector created by the large vision dial, and can have individual frames printed out. Photos and videos can also continue to be stored without getting deleted after being printed. Additionally, they regain {@dice 1d6}+4 expended charges daily at dawn instead."
       ],
-      "type": "DIAL:S",
+      "type": "DIAL:R",
       "value": 0,
       "weight": 0,
       "charges": 10,
       "recharge": "dawn",
+      "baseItem": "Vision Dial|D&DF-PHB",
       "rechargeAmount": "1d6+4",
       "page": 151,
       "source": "D&DF-PHB",
@@ -573,6 +708,7 @@
       "weight": 0,
       "charges": 10,
       "recharge": "dawn",
+      "baseItem": "Water Dial|D&DF-PHB",
       "rechargeAmount": "1d6+4",
       "page": 151,
       "source": "D&DF-PHB",
@@ -582,7 +718,15 @@
       "name": "Axe Dial",
       "source": "D&DF-PHB",
       "entries": [
-        "Axe dials are powerful damage-dealing dials that can amplify the effects of attacks. They can be attached to your body or combined with any weapon to amplify its effects. By passively absorbing and storing sharpness from a blade, weight from a blunt weapon, strength from the user's fists and legs, etc., an axe dial will greatly enhance any attack made with a weapon it is attached to. There are three different types of axe dials, each type increasing in both strength and rarity."
+        "Axe dials are powerful damage-dealing dials that can amplify the effects of attacks. They can be attached to your body or combined with any weapon to amplify its effects. By passively absorbing and storing sharpness from a blade, weight from a blunt weapon, strength from the user's fists and legs, etc., an axe dial will greatly enhance any attack made with a weapon it is attached to. There are three different types of axe dials, each type increasing in both strength and rarity.",
+        {
+          "type": "list",
+          "items": [
+            "{@item Axe dial +1|D&DF-PHB}",
+            "{@item Axe dial +2|D&DF-PHB}",
+            "{@item Axe Dial +3|D&DF-PHB}"
+          ]
+        }
       ],
       "type": "DIAL:R",
       "value": 0,
@@ -590,9 +734,6 @@
       "page": 151,
       "page": 151,
       "rarity": "varies",
-      "entries": [
-        "This vessel can be a potion bottle, drinking horn, or other container meant to hold a liquid."
-      ],
       "items": [
         "Axe dial +1|D&DF-PHB",
         "Axe dial +2|D&DF-PHB",
@@ -667,6 +808,7 @@
       "charges": 5,
       "recharge": "dawn",
       "rechargeAmount": "1d4+1",
+      "baseItem": "Milky Dial|D&DF-PHB",
       "page": 152,
       "source": "D&DF-PHB",
       "rarity": "unknown (magic)"
@@ -681,6 +823,7 @@
       "weight": 0,
       "recharge": "dawn",
       "rechargeAmount": "1d4+1",
+      "baseItem": "Lamp Dial|D&DF-PHB",
       "charges": 5,
       "page": 152,
       "source": "D&DF-PHB",
@@ -741,6 +884,7 @@
       "charges": 10,
       "weight": 0,
       "recharge": "dawn",
+      "baseItem": "Impact Dial|D&DF-PHB",
       "rechargeAmount": "1d6+4",
       "page": 152,
       "source": "D&DF-PHB",
@@ -756,6 +900,7 @@
       "charges": 5,
       "recharge": "dawn",
       "rechargeAmount": "1d4+1",
+      "baseItem": "Milky Dial|D&DF-PHB",
       "weight": 0,
       "page": 152,
       "source": "D&DF-PHB",
@@ -767,7 +912,15 @@
       "source": "D&DF-PHB",
       "rarity": "varies",
       "entries": [
-        "This type of star is much heavier and more destructive than ordinary ammo."
+        "This type of star is much heavier and more destructive than ordinary ammo.",
+        {
+          "type": "list",
+          "items": [
+            "{@item Metallic Stars +1|D&DF-PHB}",
+            "{@item Metallic Stars +2|D&DF-PHB}",
+            "{@item Metallic Stars +3|D&DF-PHB}"
+          ]
+        }
       ],
       "miscTags": [
         "CNS"
@@ -853,7 +1006,15 @@
         "CNS"
       ],
       "entries": [
-        "A flame star ignites mid-air, igniting anything it hits on contact. "
+        "A flame star ignites mid-air, igniting anything it hits on contact. ",
+        {
+          "type": "list",
+          "items": [
+            "{@item Uncommon Flame Star|D&DF-PHB}",
+            "{@item Rare Flame Star|D&DF-PHB}",
+            "{@item Very rare Flame Star|D&DF-PHB}"
+          ]
+        }
       ],
       "items": [
         "Uncommon Flame Star",
@@ -884,7 +1045,7 @@
       ],
       "rarity": "rare",
       "entries": [
-        "Uncommon flame stars deal an addition 2d6 fire damage when fired"
+        "Rare flame stars deal an addition 2d6 fire damage when fired"
       ],
       "bonusWeaponDamage": "2d6",
       "dmgType": "F"
@@ -898,7 +1059,7 @@
       "source": "D&DF-PHB",
       "rarity": "very rare",
       "entries": [
-        "Uncommon flame stars deal an addition 3d6 fire damage when fired"
+        "Very rare flame stars deal an addition 3d6 fire damage when fired"
       ],
       "bonusWeaponDamage": "3d6",
       "dmgType": "F"
@@ -912,7 +1073,15 @@
         "CNS"
       ],
       "entries": [
-        "This star explodes upon hitting a target, piercing nearby targets with flying spikes. "
+        "This star explodes upon hitting a target, piercing nearby targets with flying spikes. ",
+        {
+          "type": "list",
+          "items": [
+            "{@item Uncommon Cactus Star|D&DF-PHB}",
+            "{@item Rare Cactus Star|D&DF-PHB}",
+            "{@item Very rare Cactus Star|D&DF-PHB}"
+          ]
+        }
       ],
       "items": [
         "Uncommon Cactus Star",
@@ -971,7 +1140,15 @@
         "CNS"
       ],
       "entries": [
-        "When this star hits a target, a terrifying vision appears in front of them."
+        "When this star hits a target, a terrifying vision appears in front of them.",
+        {
+          "type": "list",
+          "items": [
+            "{@item Uncommon Terror Star|D&DF-PHB}",
+            "{@item Rare Terror Star|D&DF-PHB}",
+            "{@item Very rare Terror Star|D&DF-PHB}"
+          ]
+        }
       ],
       "items": [
         "Uncommon Terror Star",
@@ -1028,7 +1205,15 @@
       ],
       "rarity": "varies",
       "entries": [
-        "This star creates a sphere of smoke centered on a point within range on impact with a target."
+        "This star creates a sphere of smoke centered on a point within range on impact with a target.",
+        {
+          "type": "list",
+          "items": [
+            "{@item Uncommon Smoke Star|D&DF-PHB}",
+            "{@item Rare Smoke Star|D&DF-PHB}",
+            "{@item Very rare Smoke Star|D&DF-PHB}"
+          ]
+        }
       ],
       "items": [
         "Uncommon Smoke Star",
