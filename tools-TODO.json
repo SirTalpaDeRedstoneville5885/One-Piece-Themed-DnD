@@ -12,7 +12,7 @@
         "convertedBy": [
           "SirTalpadeRedstoneville58"
         ],
-        "version": "1.13",
+        "version": "1.14",
         "color": "0B3075",
         "url": "https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm"
       }
@@ -265,8 +265,13 @@
       "miscTags": [
         "CNS"
       ],
-      "rarity": "Common",
-      "value": 1500
+      "rarity": "common",
+      "value": 1500,
+      "bonusWeaponAttack": 5,
+      "entries": [
+        "{@bold Save DC: } 13"
+      ],
+      "spellScrollLevel": 0
     },
     {
       "name": "Pop Green (1st Level)",
@@ -276,8 +281,13 @@
       "miscTags": [
         "CNS"
       ],
-      "rarity": "Common",
-      "value": 2500
+      "rarity": "common",
+      "value": 2500,
+      "bonusWeaponAttack": 5,
+      "entries": [
+        "{@bold Save DC: } 13"
+      ],
+      "spellScrollLevel": 1
     },
     {
       "name": "Pop Green (2nd Level)",
@@ -287,8 +297,13 @@
       "miscTags": [
         "CNS"
       ],
-      "rarity": "Uncommon",
-      "value": 25000
+      "rarity": "uncommon",
+      "value": 25000,
+      "bonusWeaponAttack": 5,
+      "entries": [
+        "{@bold Save DC: } 13"
+      ],
+      "spellScrollLevel": 2
     },
     {
       "name": "Pop Green (3rd Level)",
@@ -298,8 +313,13 @@
       "miscTags": [
         "CNS"
       ],
-      "rarity": "Uncommon",
-      "value": 50000
+      "rarity": "uncommon",
+      "value": 50000,
+      "bonusWeaponAttack": 7,
+      "entries": [
+        "{@bold Save DC: } 15"
+      ],
+      "spellScrollLevel": 3
     },
     {
       "name": "Pop Green (4th Level)",
@@ -309,8 +329,13 @@
       "miscTags": [
         "CNS"
       ],
-      "rarity": "Rare",
-      "value": 250000
+      "rarity": "rare",
+      "value": 250000,
+      "bonusWeaponAttack": 7,
+      "entries": [
+        "{@bold Save DC: } 15"
+      ],
+      "spellScrollLevel": 4
     },
     {
       "name": "Pop Green (5th Level)",
@@ -320,8 +345,13 @@
       "miscTags": [
         "CNS"
       ],
-      "rarity": "Rare",
-      "value": 500000
+      "rarity": "rare",
+      "value": 500000,
+      "bonusWeaponAttack": 9,
+      "entries": [
+        "{@bold Save DC: } 17"
+      ],
+      "spellScrollLevel": 5
     },
     {
       "name": "Pop Green (6th Level)",
@@ -331,8 +361,13 @@
       "miscTags": [
         "CNS"
       ],
-      "rarity": "Very Rare",
-      "value": 1500000
+      "rarity": "very rare",
+      "value": 1500000,
+      "bonusWeaponAttack": 9,
+      "entries": [
+        "{@bold Save DC: } 17"
+      ],
+      "spellScrollLevel": 6
     },
     {
       "name": "Pop Green (7th Level)",
@@ -342,8 +377,13 @@
       "miscTags": [
         "CNS"
       ],
-      "rarity": "Very Rare",
-      "value": 2500000
+      "rarity": "very rare",
+      "value": 2500000,
+      "bonusWeaponAttack": 10,
+      "entries": [
+        "{@bold Save DC: } 18"
+      ],
+      "spellScrollLevel": 7
     },
     {
       "name": "Pop Green (8th Level)",
@@ -353,8 +393,13 @@
       "miscTags": [
         "CNS"
       ],
-      "rarity": "Very Rare",
-      "value": 5000000
+      "rarity": "very rare",
+      "value": 5000000,
+      "bonusWeaponAttack": 10,
+      "entries": [
+        "{@bold Save DC: } 18"
+      ],
+      "spellScrollLevel": 8
     },
     {
       "name": "Pop Green (9th Level)",
@@ -364,8 +409,13 @@
       "miscTags": [
         "CNS"
       ],
-      "rarity": "Legendary",
-      "value": 25000000
+      "rarity": "legendary",
+      "value": 25000000,
+      "bonusWeaponAttack": 11,
+      "entries": [
+        "{@bold Save DC: } 19"
+      ],
+      "spellScrollLevel": 9
     },
     {
       "name": "Pop Green",
@@ -419,7 +469,10 @@
       "source": "D&DF-PHB",
       "recharge": "dawn",
       "rechargeAmount": "1d4+1",
-      "rarity": "unknown (magic)"
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "simple dial table|D&DF-PHB"
+      ]
     },
     {
       "name": "Large Breath Dial",
@@ -433,7 +486,10 @@
       "page": 150,
       "charges": 10,
       "source": "D&DF-PHB",
-      "rarity": "unknown (magic)"
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "rare dial table|D&DF-PHB"
+      ]
     },
     {
       "name": "Flavor Dial",
@@ -448,7 +504,10 @@
       "rechargeAmount": "1d4+1",
       "page": 150,
       "source": "D&DF-PHB",
-      "rarity": "unknown (magic)"
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "simple dial table|D&DF-PHB"
+      ]
     },
     {
       "name": "Large Flavor Dial",
@@ -464,7 +523,10 @@
       "charges": 10,
       "page": 150,
       "source": "D&DF-PHB",
-      "rarity": "unknown (magic)"
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "rare dial table|D&DF-PHB"
+      ]
     },
     {
       "name": "Freeze Dial",
@@ -479,7 +541,10 @@
       "charges": 5,
       "page": 150,
       "source": "D&DF-PHB",
-      "rarity": "unknown (magic)"
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "simple dial table|D&DF-PHB"
+      ]
     },
     {
       "name": "Large Freeze Dial",
@@ -495,7 +560,10 @@
       "rechargeAmount": "1d6+1",
       "page": 150,
       "source": "D&DF-PHB",
-      "rarity": "unknown (magic)"
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "rare dial table|D&DF-PHB"
+      ]
     },
     {
       "name": "Heat Dial",
@@ -510,7 +578,10 @@
       "charges": 5,
       "page": 150,
       "source": "D&DF-PHB",
-      "rarity": "unknown (magic)"
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "simple dial table|D&DF-PHB"
+      ]
     },
     {
       "name": "Large Heat Dial",
@@ -526,7 +597,10 @@
       "charges": 10,
       "page": 150,
       "source": "D&DF-PHB",
-      "rarity": "unknown (magic)"
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "rare dial table|D&DF-PHB"
+      ]
     },
     {
       "name": "Lamp Dial",
@@ -541,7 +615,10 @@
       "rechargeAmount": "1d4+1",
       "page": 150,
       "source": "D&DF-PHB",
-      "rarity": "unknown (magic)"
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "simple dial table|D&DF-PHB"
+      ]
     },
     {
       "name": "Large Lamp Dial",
@@ -557,7 +634,10 @@
       "charges": 10,
       "page": 150,
       "source": "D&DF-PHB",
-      "rarity": "unknown (magic)"
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "rare dial table|D&DF-PHB"
+      ]
     },
     {
       "name": "Milky Dial",
@@ -572,7 +652,10 @@
       "charges": 5,
       "page": 150,
       "source": "D&DF-PHB",
-      "rarity": "unknown (magic)"
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "simple dial table|D&DF-PHB"
+      ]
     },
     {
       "name": "Large Milky Dial",
@@ -588,7 +671,10 @@
       "page": 150,
       "baseItem": "Milky Dial|D&DF-PHB",
       "source": "D&DF-PHB",
-      "rarity": "unknown (magic)"
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "rare dial table|D&DF-PHB"
+      ]
     },
     {
       "name": "Thunder Dial",
@@ -603,7 +689,10 @@
       "rechargeAmount": "1d4+1",
       "page": 151,
       "source": "D&DF-PHB",
-      "rarity": "unknown (magic)"
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "simple dial table|D&DF-PHB"
+      ]
     },
     {
       "name": "Large Thunder Dial",
@@ -619,7 +708,10 @@
       "rechargeAmount": "1d++4",
       "page": 151,
       "source": "D&DF-PHB",
-      "rarity": "unknown (magic)"
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "rare dial table|D&DF-PHB"
+      ]
     },
     {
       "name": "Tone Dial",
@@ -634,7 +726,10 @@
       "rechargeAmount": "1d4+1",
       "page": 151,
       "source": "D&DF-PHB",
-      "rarity": "unknown (magic)"
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "simple dial table|D&DF-PHB"
+      ]
     },
     {
       "name": "Large Tone Dial",
@@ -650,7 +745,10 @@
       "weight": 0,
       "page": 151,
       "source": "D&DF-PHB",
-      "rarity": "unknown (magic)"
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "rare dial table|D&DF-PHB"
+      ]
     },
     {
       "name": "Vision Dial",
@@ -665,7 +763,10 @@
       "rechargeAmount": "1d4+1",
       "page": 151,
       "source": "D&DF-PHB",
-      "rarity": "unknown (magic)"
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "simple dial table|D&DF-PHB"
+      ]
     },
     {
       "name": "Large Vision Dial",
@@ -681,7 +782,10 @@
       "rechargeAmount": "1d6+4",
       "page": 151,
       "source": "D&DF-PHB",
-      "rarity": "unknown (magic)"
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "rare dial table|D&DF-PHB"
+      ]
     },
     {
       "name": "Water Dial",
@@ -696,7 +800,10 @@
       "rechargeAmount": "1d4+1",
       "page": 151,
       "source": "D&DF-PHB",
-      "rarity": "unknown (magic)"
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "simple dial table|D&DF-PHB"
+      ]
     },
     {
       "name": "Large Water Dial",
@@ -712,7 +819,10 @@
       "rechargeAmount": "1d6+4",
       "page": 151,
       "source": "D&DF-PHB",
-      "rarity": "unknown (magic)"
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "rare dial table|D&DF-PHB"
+      ]
     },
     {
       "name": "Axe Dial",
@@ -732,12 +842,14 @@
       "value": 0,
       "weight": 0,
       "page": 151,
-      "page": 151,
       "rarity": "varies",
       "items": [
         "Axe dial +1|D&DF-PHB",
         "Axe dial +2|D&DF-PHB",
         "Axe Dial +3|D&DF-PHB"
+      ],
+      "lootTables": [
+        "rare dial table|D&DF-PHB"
       ]
     },
     {
@@ -748,6 +860,9 @@
       "entries": [
         "A +1 axe dial (uncommon) gives any weapon, including your unarmed strikes, a +1 bonus to attack and damage rolls when attached.",
         "In order to attach an axe dial to a weapon or body part, the user must spend time during a short or long rest properly fitting and attaching it to the desired weapon. A weapon can only receive the benefits from one dial at a time, and the effects of separate dials on a single weapon do not stack. Furthermore, axe dials do not stack with innate weapon bonus stats, and can only increase a weapon's innate bonuses up to a total +3 for attack or damage rolls. However, axe dial bonuses do stack with bonuses from character feats and abilities."
+      ],
+      "lootTables": [
+        "rare dial table|D&DF-PHB"
       ]
     },
     {
@@ -764,6 +879,9 @@
       "entries": [
         "A +2 axe dial (rare) gives any weapon, including your unarmed strikes, a +2 bonus to attack and damage rolls when attached.",
         "In order to attach an axe dial to a weapon or body part, the user must spend time during a short or long rest properly fitting and attaching it to the desired weapon. A weapon can only receive the benefits from one dial at a time, and the effects of separate dials on a single weapon do not stack. Furthermore, axe dials do not stack with innate weapon bonus stats, and can only increase a weapon's innate bonuses up to a total +3 for attack or damage rolls. However, axe dial bonuses do stack with bonuses from character feats and abilities."
+      ],
+      "lootTables": [
+        "rare dial table|D&DF-PHB"
       ]
     },
     {
@@ -780,6 +898,9 @@
       "entries": [
         "A +3 axe dial (very rare) gives any weapon, including your unarmed strikes, a +3 bonus to attack and damage rolls when attached.",
         "In order to attach an axe dial to a weapon or body part, the user must spend time during a short or long rest properly fitting and attaching it to the desired weapon. A weapon can only receive the benefits from one dial at a time, and the effects of separate dials on a single weapon do not stack. Furthermore, axe dials do not stack with innate weapon bonus stats, and can only increase a weapon's innate bonuses up to a total +3 for attack or damage rolls. However, axe dial bonuses do stack with bonuses from character feats and abilities."
+      ],
+      "lootTables": [
+        "rare dial table|D&DF-PHB"
       ]
     },
     {
@@ -795,7 +916,10 @@
       "rechargeAmount": "1d6+4",
       "charges": 10,
       "source": "D&DF-PHB",
-      "rarity": "unknown (magic)"
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "rare dial table|D&DF-PHB"
+      ]
     },
     {
       "name": "Eisen Dial",
@@ -811,7 +935,10 @@
       "baseItem": "Milky Dial|D&DF-PHB",
       "page": 152,
       "source": "D&DF-PHB",
-      "rarity": "unknown (magic)"
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "rare dial table|D&DF-PHB"
+      ]
     },
     {
       "name": "Flash Dial",
@@ -827,7 +954,10 @@
       "charges": 5,
       "page": 152,
       "source": "D&DF-PHB",
-      "rarity": "unknown (magic)"
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "rare dial table|D&DF-PHB"
+      ]
     },
     {
       "name": "Flame Dial",
@@ -842,7 +972,10 @@
       "rechargeAmount": "1d4+1",
       "page": 152,
       "source": "D&DF-PHB",
-      "rarity": "unknown (magic)"
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "rare dial table|D&DF-PHB"
+      ]
     },
     {
       "name": "Impact Dial",
@@ -857,7 +990,10 @@
       "recharge": "dawn",
       "rechargeAmount": "1d4+1",
       "source": "D&DF-PHB",
-      "rarity": "unknown (magic)"
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "rare dial table|D&DF-PHB"
+      ]
     },
     {
       "name": "Jet Dial",
@@ -872,7 +1008,10 @@
       "rechargeAmount": "1d4+1",
       "page": 152,
       "source": "D&DF-PHB",
-      "rarity": "unknown (magic)"
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "rare dial table|D&DF-PHB"
+      ]
     },
     {
       "name": "Reject Dial",
@@ -888,7 +1027,10 @@
       "rechargeAmount": "1d6+4",
       "page": 152,
       "source": "D&DF-PHB",
-      "rarity": "unknown (magic)"
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "rare dial table|D&DF-PHB"
+      ]
     },
     {
       "name": "Storm Dial",
@@ -904,7 +1046,10 @@
       "weight": 0,
       "page": 152,
       "source": "D&DF-PHB",
-      "rarity": "unknown (magic)"
+      "rarity": "unknown (magic)",
+      "lootTables": [
+        "rare dial table|D&DF-PHB"
+      ]
     },
     {
       "name": "Metallic Stars",
@@ -946,7 +1091,7 @@
           "name": "Metallic Star save DC",
           "entries": [
             "Additionally, targets that are medium or smaller that are hit by a metallic star must succeed on a Strength save against the DC, or be knocked prone.",
-            "{@bold Metallic Star save DC} = 10 + (attack/damage bonus of the star x 2) [12]"
+            "{@bold Metallic Star Save DC} = 10 + (attack/damage bonus of the star x 2) [12]"
           ]
         }
       ],
@@ -965,10 +1110,10 @@
         "Rare metallic stars have a +2 to attack and damage rolls when fired.",
         {
           "type": "entries",
-          "name": "Metallic Star save DC",
+          "name": "Metallic Star Save DC",
           "entries": [
             "Additionally, targets that are medium or smaller that are hit by a metallic star must succeed on a Strength save against the DC, or be knocked prone.",
-            "{@bold Metallic Star save DC} = 10 + (attack/damage bonus of the star x 2) [14]"
+            "{@bold Metallic Star Save DC} = 10 + (attack/damage bonus of the star x 2) [14]"
           ]
         }
       ],
@@ -987,10 +1132,10 @@
         "Very rare metallic stars have a +3 to attack and damage rolls when fired.",
         {
           "type": "entries",
-          "name": "Metallic Star save DC",
+          "name": "Metallic Star Save DC",
           "entries": [
             "Additionally, targets that are medium or smaller that are hit by a metallic star must succeed on a Strength save against the DC, or be knocked prone.",
-            "{@bold Metallic Star save DC} = 10 + (attack/damage bonus of the star x 2) [16]"
+            "{@bold Metallic Star Save DC} = 10 + (attack/damage bonus of the star x 2) [16]"
           ]
         }
       ],
