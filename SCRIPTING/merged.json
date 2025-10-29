@@ -12,7 +12,7 @@
           "Tarun",
           "SirTalpadeRedstoneville58"
         ],
-        "version": "2.14",
+        "version": "2.15",
         "color": "60BFF5",
         "url": "https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm"
       },
@@ -29890,19 +29890,24 @@
       "level": 1,
       "header": 2,
       "entries": [
-        "At 1st level, you gain proficiency with {@item dials|D&DF-PHB}, martial weapons, and heavy armor."
+        "At 1st level, you gain proficiency with {@filter dials|items|source=D&DF-PHB|category=basic|type=DIALS:S;DIALS:R}, martial weapons, and heavy armor."
       ],
-      "proficiencies": {
-        "armor": [
-          "heavy"
-        ],
-        "weapons": [
-          "martial"
-        ],
-        "tools": [
-          "dials"
-        ]
-      }
+      "armorProficiencies": [
+        {
+          "heavy": true
+        }
+      ],
+      "weaponProficiencies": [
+        {
+          "martial": true
+        }
+      ],
+      "toolProficiencies": [
+        {
+          "DIALS:R": true,
+          "DIALS;S": true
+        }
+      ]
     },
     {
       "name": "Destructive Wrath",
