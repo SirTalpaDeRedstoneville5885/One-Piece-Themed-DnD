@@ -9,7 +9,7 @@
 
 All the ones that do not have the (DMG) are from the D&DF-PHB
 
-### Classes
+### DONE  ~~Classes~~
 
 - [x] Priest
 - [x] Rogue
@@ -29,10 +29,6 @@ All the ones that do not have the (DMG) are from the D&DF-PHB
 - [x] Stars
 - [ ] Custom Spells
 - [ ] Spell Lists
-
-#### Dials
-
-#### Custom Spells
 
 ### Backgrounds, Feats and Similar
 
