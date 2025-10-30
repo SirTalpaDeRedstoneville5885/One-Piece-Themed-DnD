@@ -27,7 +27,7 @@ All the ones that do not have the (DMG) are from the D&DF-PHB
 - [x] Dials
 - [X] Pop Greens
 - [x] Stars
-- [ ] Custom Spells
+- [X] Custom Spells
 - [ ] Spell Lists
 
 ### Backgrounds, Feats and Similar
