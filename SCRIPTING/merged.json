@@ -1,4 +1,5 @@
 {
+  "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
   "_meta": {
     "sources": [
       {
@@ -12,7 +13,7 @@
           "Tarun",
           "SirTalpadeRedstoneville58"
         ],
-        "version": "2.15",
+        "version": "2.16",
         "color": "60BFF5",
         "url": "https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm"
       },
@@ -1101,7 +1102,7 @@
     {
       "name": "Cyborg",
       "source": "D&DF-PHB",
-      "page": "21",
+      "page": 21,
       "ability": [
         {
           "con": 2,
@@ -7561,6 +7562,10 @@
       "value": 0,
       "weight": 6,
       "bonusWeapon": "+3",
+      "rechargeAmount": 3,
+      "charges": 3,
+      "bonusWeaponCritDamage": "2d6 radiant",
+      "recharge": "dawn",
       "entries": [
         "You gain a +3 bonus to attack and damage rolls made with this magic weapon. The {@spell shield} spell provides no defense against the sword, which passes through that spell's barrier of magical force.",
         "When you land a critical hit with this weapon, green flames erupt from its blade and deal an extra {@damage 2d6} radiant damage to the target.",
@@ -7569,7 +7574,7 @@
           "name": "Ranged Slash",
           "entries": [
             "The greatsword has 3 charges. You can expend 1 charge and make a ranged attack with which you are proficient, using your Strength modifier for the attack and damage rolls. This releases a slashing projectile with a normal range of 60 feet and a long range of 180 feet, dealing the weapon's damage on a hit.",
-            "Additionally, you can expend 3 charges to cast the custom spell *Great Heaven Splitter*.",
+            "Additionally, you can expend 3 charges to cast the custom spell {@italic {@spell Great Heaven Splitter|D&DF-PHB}.}",
             "The sword regains all expended charges daily at dawn."
           ]
         }
@@ -7597,6 +7602,7 @@
       "armor": "light",
       "value": 0,
       "weight": 10,
+      "recharge": "dawn",
       "entries": [
         "Raid suits come in the form of canisters that transform into a suit of armor around its user. To equip a raid suit, one must be attuned to the canister, hold it at waist level, and spend an action to release the suit from the canister, which then forms around its user. The raid suit remains on until its user removes it as a bonus action, returning it to its canister form.",
         "You gain a +3 bonus to AC, have a flying speed of 50 feet, and gain advantage on Dexterity ability checks and saving throws while you wear this armor. Spells or cantrips cast from the raid suit (not counting innate or regular spellcasting you can cast normally) have a Spell Attack modifier of +8 and a Spell Save DC of 16. You can use the following abilities determined by the type of raid suit you possess:",
@@ -19492,13 +19498,13 @@
         "SHP:M"
       ],
       "entries": [
-        "**Component Type.** Special Medium",
-        "**Upgrade DC.** 12 (requires {@item dial|D&DF-PHB} proficiency)",
-        "**Component Cost.** ฿5,000,000 + 5% of ship cost",
-        "**Upgrade Slots Required.** 1",
-        "**Armor Class.** 12",
-        "**Hit Points.** 25",
-        "**Locomotion (water).** Large breath dial or jet dial, adds speed to one movement component; speed +60 ft. if attached to a Medium vehicle; +30 ft. if attached to a Large vehicle; +15 ft. if attached to a Huge vehicle; and +10 ft. if attached to a Gargantuan vehicle; stacking with each additional dial attached (maximum bonus +60 ft.). Adds 1 mph bonus to travel pace for every +10 ft. bonus.",
+        "{@bold Component Type.} Special Medium",
+        "{@bold Upgrade DC.} 12 (requires {@item dial|D&DF-PHB} proficiency)",
+        "{@bold Component Cost.} ฿5,000,000 + 5% of ship cost",
+        "{@bold Upgrade Slots Required.} 1",
+        "{@bold Armor Class.} 12",
+        "{@bold Hit Points.} 25",
+        "{@bold Locomotion (water).} Large breath dial or jet dial, adds speed to one movement component; speed +60 ft. if attached to a Medium vehicle; +30 ft. if attached to a Large vehicle; +15 ft. if attached to a Huge vehicle; and +10 ft. if attached to a Gargantuan vehicle; stacking with each additional dial attached (maximum bonus +60 ft.). Adds 1 mph bonus to travel pace for every +10 ft. bonus.",
         "A dial will run for up to 2 hours before it needs to be recharged for 8 hours."
       ]
     },
@@ -19509,13 +19515,13 @@
         "SHP:M"
       ],
       "entries": [
-        "**Component Type.** Large",
-        "**Upgrade DC.** 10",
-        "**Component Cost.** ฿100,000 + 5% of ship cost",
-        "**Upgrade Slots Required.** 1",
-        "**Armor Class.** 12",
-        "**Hit Points.** 100; -5 ft. speed per 25 damage taken",
-        "**Locomotion (water).** Oars, speed based on ship type."
+        "{@bold Component Type.} Large",
+        "{@bold Upgrade DC.} 10",
+        "{@bold Component Cost.} ฿100,000 + 5% of ship cost",
+        "{@bold Upgrade Slots Required.} 1",
+        "{@bold Armor Class.} 12",
+        "{@bold Hit Points.} 100; -5 ft. speed per 25 damage taken",
+        "{@bold Locomotion (water).} Oars, speed based on ship type."
       ]
     },
     {
@@ -19525,13 +19531,13 @@
         "SHP:M"
       ],
       "entries": [
-        "**Component Type.** Huge",
-        "**Upgrade DC.** 15",
-        "**Component Cost.** ฿1,000,000 + 10% of ship cost",
-        "**Upgrade Slots Required.** 2",
-        "**Armor Class.** 12",
-        "**Hit Points.** 100; -5 ft. speed per 20 damage taken",
-        "**Locomotion (water).** Sails, speed based on ship type."
+        "{@bold Component Type.} Huge",
+        "{@bold Upgrade DC.} 15",
+        "{@bold Component Cost.} ฿1,000,000 + 10% of ship cost",
+        "{@bold Upgrade Slots Required.} 2",
+        "{@bold Armor Class.} 12",
+        "{@bold Hit Points.} 100; -5 ft. speed per 20 damage taken",
+        "{@bold Locomotion (water).} Sails, speed based on ship type."
       ]
     },
     {
@@ -19541,14 +19547,14 @@
         "SHP:M"
       ],
       "entries": [
-        "*Requirement:* At least one huge engine installed on the ship and a control component.",
-        "**Component Type.** Special Huge",
-        "**Upgrade DC.** 17",
-        "**Component Cost.** ฿10,000,000 + 20% of ship cost",
-        "**Upgrade Slots Required.** 2",
-        "**Armor Class.** 12",
-        "**Hit Points.** 100; -10 ft. speed per 25 damage taken",
-        "**Locomotion (water).** Paddle-wheel, 35 ft. while the helm is intact (4 mph)."
+        "{@italic Requirement} At least one huge engine installed on the ship and a control component.",
+        "{@bold Component Type.} Special Huge",
+        "{@bold Upgrade DC.} 17",
+        "{@bold Component Cost.} ฿10,000,000 + 20% of ship cost",
+        "{@bold Upgrade Slots Required.} 2",
+        "{@bold Armor Class.} 12",
+        "{@bold Hit Points.} 100; -10 ft. speed per 25 damage taken",
+        "{@bold Locomotion (water).} Paddle-wheel, 35 ft. while the helm is intact (4 mph)."
       ]
     },
     {
@@ -19558,14 +19564,14 @@
         "SHP:M"
       ],
       "entries": [
-        "*Requirement:* At least one huge engine installed on the ship and a control component.",
-        "**Component Type.** Special Huge",
-        "**Upgrade DC.** 17",
-        "**Component Cost.** ฿20,000,000 + 20% of ship cost",
-        "**Upgrade Slots Required.** 2",
-        "**Armor Class.** 18",
-        "**Hit Points.** 100; -5 ft. speed per 25 damage taken",
-        "**Locomotion (water).** Propeller, speed 45 ft. while the helm is intact (5 mph)."
+        "{@italic Requirement} At least one huge engine installed on the ship and a control component.",
+        "{@bold Component Type.} Special Huge",
+        "{@bold Upgrade DC.} 17",
+        "{@bold Component Cost.} ฿20,000,000 + 20% of ship cost",
+        "{@bold Upgrade Slots Required.} 2",
+        "{@bold Armor Class.} 18",
+        "{@bold Hit Points.} 100; -5 ft. speed per 25 damage taken",
+        "{@bold Locomotion (water).} Propeller, speed 45 ft. while the helm is intact (5 mph)."
       ]
     },
     {
@@ -19575,13 +19581,13 @@
         "SHP:M"
       ],
       "entries": [
-        "*Requirement:* At least one huge engine installed on the ship and a control component.",
-        "**Component Type.** Special Huge",
-        "**Upgrade DC.** 20",
-        "**Component Cost.** ฿100,000,000 + 50% of ship cost",
-        "**Upgrade Slots Required.** 2",
-        "**Armor Class.** 18",
-        "**Hit Points.** 100; -1 mile flight speed per 20 damage taken",
+        "{@italic Requirement} At least one huge engine installed on the ship and a control component.",
+        "{@bold Component Type.} Special Huge",
+        "{@bold Upgrade DC.} 20",
+        "{@bold Component Cost.} ฿100,000,000 + 50% of ship cost",
+        "{@bold Upgrade Slots Required.} 2",
+        "{@bold Armor Class.} 18",
+        "{@bold Hit Points.} 100; -1 mile flight speed per 20 damage taken",
         "The rocket booster allows for a vehicle to fly for up to 5 miles in any direction it chooses for up to 10 seconds. Afterwards, the ship lands and the booster must recharge for 24 hours before reuse. There is a 25% chance the ship crashes during landing."
       ]
     },
@@ -19592,14 +19598,14 @@
         "SHP:M"
       ],
       "entries": [
-        "*Requirement:* At least one huge engine installed on the ship and a control component.",
-        "**Component Type.** Special Gargantuan",
-        "**Upgrade DC.** 20",
-        "**Component Cost.** ฿500,000,000 + 100% of ship cost",
-        "**Upgrade Slots Required.** 3",
-        "**Armor Class.** 18",
-        "**Hit Points.** 100; -5 ft. speed per 20 damage taken",
-        "**Locomotion (air).** Flight, speed 35 ft.; if the core is destroyed, the vehicle falls and crashes (4 mph)."
+        "{@italic Requirement} At least one huge engine installed on the ship and a control component.",
+        "{@bold Component Type.} Special Gargantuan",
+        "{@bold Upgrade DC.} 20",
+        "{@bold Component Cost.} ฿500,000,000 + 100% of ship cost",
+        "{@bold Upgrade Slots Required.} 3",
+        "{@bold Armor Class.} 18",
+        "{@bold Hit Points.} 100; -5 ft. speed per 20 damage taken",
+        "{@bold Locomotion (air).} Flight, speed 35 ft.; if the core is destroyed, the vehicle falls and crashes (4 mph)."
       ]
     },
     {
@@ -19609,12 +19615,12 @@
         "SHP:O"
       ],
       "entries": [
-        "**Component Type.** Advanced Medium",
-        "**Upgrade DC.** 12",
-        "**Component Cost.** ฿4,000,000",
-        "**Upgrade Slots Required.** 1",
-        "**Armor Class.** 16",
-        "**Hit Points.** 25",
+        "{@bold Component Type.} Advanced Medium",
+        "{@bold Upgrade DC.} 12",
+        "{@bold Component Cost.} ฿4,000,000",
+        "{@bold Upgrade Slots Required.} 1",
+        "{@bold Armor Class.} 16",
+        "{@bold Hit Points.} 25",
         "Counts as 4 crew members and powers movement components requiring an engine. Requires fuel."
       ]
     },
@@ -19625,12 +19631,12 @@
         "SHP:O"
       ],
       "entries": [
-        "**Component Type.** Advanced Large",
-        "**Upgrade DC.** 17",
-        "**Component Cost.** ฿10,000,000",
-        "**Upgrade Slots Required.** 2",
-        "**Armor Class.** 16",
-        "**Hit Points.** 50",
+        "{@bold Component Type.} Advanced Large",
+        "{@bold Upgrade DC.} 17",
+        "{@bold Component Cost.} ฿10,000,000",
+        "{@bold Upgrade Slots Required.} 2",
+        "{@bold Armor Class.} 16",
+        "{@bold Hit Points.} 50",
         "Counts as 10 crew members and powers movement components requiring an engine. Requires fuel."
       ]
     },
@@ -19641,12 +19647,12 @@
         "SHP:O"
       ],
       "entries": [
-        "**Component Type.** Advanced Huge",
-        "**Upgrade DC.** 20",
-        "**Component Cost.** ฿50,000,000",
-        "**Upgrade Slots Required.** 2",
-        "**Armor Class.** 16",
-        "**Hit Points.** 100",
+        "{@bold Component Type.} Advanced Huge",
+        "{@bold Upgrade DC.} 20",
+        "{@bold Component Cost.} ฿50,000,000",
+        "{@bold Upgrade Slots Required.} 2",
+        "{@bold Armor Class.} 16",
+        "{@bold Hit Points.} 100",
         "Counts as 50 crew members and powers movement components requiring an engine. Requires fuel."
       ]
     },
@@ -19657,12 +19663,12 @@
         "SHP:H"
       ],
       "entries": [
-        "**Component Type.** Huge",
-        "**Upgrade DC.** 15",
-        "**Component Cost.** ฿500,000 + 10% of ship cost",
-        "**Upgrade Slots Required.** 1",
-        "**Armor Class.** 12",
-        "**Hit Points.** 50",
+        "{@bold Component Type.} Huge",
+        "{@bold Upgrade DC.} 15",
+        "{@bold Component Cost.} ฿500,000 + 10% of ship cost",
+        "{@bold Upgrade Slots Required.} 1",
+        "{@bold Armor Class.} 12",
+        "{@bold Hit Points.} 50",
         "A falling vehicle's descent slows to 60 ft. per round, avoiding crashes from falls. The ship can glide. If destroyed midair, the vehicle falls and crashes."
       ]
     },
@@ -19673,12 +19679,12 @@
         "SHP:O"
       ],
       "entries": [
-        "**Component Type.** Large",
-        "**Upgrade DC.** 10",
-        "**Component Cost.** 5% of ship cost",
-        "**Upgrade Slots Required.** 1",
-        "**Armor Class.** 12",
-        "**Hit Points.** 50",
+        "{@bold Component Type.} Large",
+        "{@bold Upgrade DC.} 10",
+        "{@bold Component Cost.} 5% of ship cost",
+        "{@bold Upgrade Slots Required.} 1",
+        "{@bold Armor Class.} 12",
+        "{@bold Hit Points.} 50",
         "Controls movement components with one 90-degree turn. If destroyed, the vehicle can't turn."
       ]
     },
@@ -19689,12 +19695,12 @@
         "SHP:O"
       ],
       "entries": [
-        "**Component Type.** Special Huge",
-        "**Upgrade DC.** 15",
-        "**Component Cost.** ฿5,000,000 + 10% of ship cost",
-        "**Upgrade Slots Required.** 2",
-        "**Armor Class.** 15",
-        "**Hit Points.** 100",
+        "{@bold Component Type.} Special Huge",
+        "{@bold Upgrade DC.} 15",
+        "{@bold Component Cost.} ฿5,000,000 + 10% of ship cost",
+        "{@bold Upgrade Slots Required.} 2",
+        "{@bold Armor Class.} 15",
+        "{@bold Hit Points.} 100",
         "Controls movement components, with one 90-degree turn. If destroyed, the vehicle can't turn. Has full cover from attacks outside the vehicle."
       ]
     },
@@ -19706,10 +19712,10 @@
       ],
       "entries": [
         "Note: Can be added after initial construction.",
-        "**Component Type.** Size determined by vehicle size",
-        "**Upgrade DC.** 15",
-        "**Component Cost.** ฿50,000,000 + 30% of ship cost",
-        "**Upgrade Slots Required.** 2",
+        "{@bold Component Type.} Size determined by vehicle size",
+        "{@bold Upgrade DC.} 15",
+        "{@bold Component Cost.} ฿50,000,000 + 30% of ship cost",
+        "{@bold Upgrade Slots Required.} 2",
         "Incorporates steel plating around the hull, increasing damage threshold by 5, granting immunity to necrotic damage, and raising AC to 18. The vehicle moves at half speed."
       ]
     },
@@ -19721,10 +19727,10 @@
       ],
       "entries": [
         "Note: Can be added after initial construction.",
-        "**Component Type.** Special (size determined by vehicle size)",
-        "**Upgrade DC.** 15",
-        "**Component Cost.** ฿5,000,000 + 30% of ship cost",
-        "**Upgrade Slots Required.** 1",
+        "{@bold Component Type.} Special (size determined by vehicle size)",
+        "{@bold Upgrade DC.} 15",
+        "{@bold Component Cost.} ฿5,000,000 + 30% of ship cost",
+        "{@bold Upgrade Slots Required.} 1",
         "Applies a wax coating granting the hull resistance to one chosen damage type until removed. Only one coating can be active at a time."
       ]
     },
@@ -19735,10 +19741,10 @@
         "SHP:H"
       ],
       "entries": [
-        "**Component Type.** Special (size determined by vehicle size)",
-        "**Upgrade DC.** 17",
-        "**Component Cost.** ฿100,000,000 + 50% of ship cost",
-        "**Upgrade Slots Required.** 1",
+        "{@bold Component Type.} Special (size determined by vehicle size)",
+        "{@bold Upgrade DC.} 17",
+        "{@bold Component Cost.} ฿100,000,000 + 50% of ship cost",
+        "{@bold Upgrade Slots Required.} 1",
         "Incorporates Adam Wood into the hull, increasing damage threshold by 5 and granting +2 AC to all components."
       ]
     },
@@ -19749,10 +19755,10 @@
         "SHP:H"
       ],
       "entries": [
-        "**Component Type.** Special (size determined by vehicle size)",
-        "**Upgrade DC.** 20",
-        "**Component Cost.** ฿300,000,000 + 50% of ship cost",
-        "**Upgrade Slots Required.** 1",
+        "{@bold Component Type.} Special (size determined by vehicle size)",
+        "{@bold Upgrade DC.} 20",
+        "{@bold Component Cost.} ฿300,000,000 + 50% of ship cost",
+        "{@bold Upgrade Slots Required.} 1",
         "Incorporates seastone onto the bottom of the ship, allowing passage through the Calm Belt by avoiding detection from underwater creatures."
       ]
     },
@@ -19763,11 +19769,11 @@
         "SHP:H"
       ],
       "entries": [
-        "*Requirement:* Vehicle must be Gargantuan.",
-        "**Component Type.** Gargantuan",
-        "**Upgrade DC.** 15",
-        "**Component Cost.** ฿10,000,000 + 30% of ship cost",
-        "**Upgrade Slots Required.** 2",
+        "{@italic Requirement} Vehicle must be Gargantuan.",
+        "{@bold Component Type.} Gargantuan",
+        "{@bold Upgrade DC.} 15",
+        "{@bold Component Cost.} ฿10,000,000 + 30% of ship cost",
+        "{@bold Upgrade Slots Required.} 2",
         "Allows docking for up to 7 Huge or smaller vehicles. One vehicle can be released from docking per turn."
       ]
     },
@@ -19778,13 +19784,13 @@
         "SHP:W"
       ],
       "entries": [
-        "**Component Type.** Medium",
-        "**Upgrade DC.** 10",
-        "**Component Cost.** ฿10,000,000",
-        "**Upgrade Slots Required.** 1",
-        "**Armor Class.** 15",
-        "**Hit Points.** 30",
-        "*Ranged Weapon Attack:* +6 to hit, range 120/480 ft., one target. *Hit:* (2d10) bludgeoning damage."
+        "{@bold Component Type.} Medium",
+        "{@bold Upgrade DC.} 10",
+        "{@bold Component Cost.} ฿10,000,000",
+        "{@bold Upgrade Slots Required.} 1",
+        "{@bold Armor Class.} 15",
+        "{@bold Hit Points.} 30",
+        "{@italic Ranged Weapon Attack} +6 to hit, range 120/480 ft., one target. {Hit} (2d10) bludgeoning damage."
       ]
     },
     {
@@ -19794,13 +19800,13 @@
         "SHP:W"
       ],
       "entries": [
-        "**Component Type.** Medium",
-        "**Upgrade DC.** 10",
-        "**Component Cost.** ฿20,000,000",
-        "**Upgrade Slots Required.** 1",
-        "**Armor Class.** 15",
-        "**Hit Points.** 50",
-        "*Ranged Weapon Attack:* +6 to hit, range 120/480 ft., one target. *Hit:* (3d10) bludgeoning damage."
+        "{@bold Component Type.} Medium",
+        "{@bold Upgrade DC.} 10",
+        "{@bold Component Cost.} ฿20,000,000",
+        "{@bold Upgrade Slots Required.} 1",
+        "{@bold Armor Class.} 15",
+        "{@bold Hit Points.} 50",
+        "{@italic Ranged Weapon Attack} +6 to hit, range 120/480 ft., one target. {Hit} (3d10) bludgeoning damage."
       ]
     },
     {
@@ -19810,13 +19816,13 @@
         "SHP:W"
       ],
       "entries": [
-        "**Component Type.** Medium",
-        "**Upgrade DC.** 12",
-        "**Component Cost.** ฿80,000,000",
-        "**Upgrade Slots Required.** 1",
-        "**Armor Class.** 15",
-        "**Hit Points.** 100",
-        "*Ranged Weapon Attack:* +5 to hit, range 200/800 ft., one target. *Hit:* (5d10) bludgeoning damage."
+        "{@bold Component Type.} Medium",
+        "{@bold Upgrade DC.} 12",
+        "{@bold Component Cost.} ฿80,000,000",
+        "{@bold Upgrade Slots Required.} 1",
+        "{@bold Armor Class.} 15",
+        "{@bold Hit Points.} 100",
+        "{@italic Ranged Weapon Attack} +5 to hit, range 200/800 ft., one target. {Hit} (5d10) bludgeoning damage."
       ]
     },
     {
@@ -19826,13 +19832,13 @@
         "SHP:W"
       ],
       "entries": [
-        "**Component Type.** Medium",
-        "**Upgrade DC.** 10",
-        "**Component Cost.** ฿25,000,000",
-        "**Upgrade Slots Required.** 1",
-        "**Armor Class.** 15",
-        "**Hit Points.** 50",
-        "*Ranged Weapon Attack:* +6 to hit, range 120/400 ft., one target. *Hit:* (3d6) piercing damage and grapples the target (escape DC 15). The rope has AC 10, 15 HP, vulnerability to fire, and immunity to bludgeoning, poison, and psychic damage."
+        "{@bold Component Type.} Medium",
+        "{@bold Upgrade DC.} 10",
+        "{@bold Component Cost.} ฿25,000,000",
+        "{@bold Upgrade Slots Required.} 1",
+        "{@bold Armor Class.} 15",
+        "{@bold Hit Points.} 50",
+        "{@italic Ranged Weapon Attack} +6 to hit, range 120/400 ft., one target. {Hit} (3d6) piercing damage and grapples the target (escape DC 15). The rope has AC 10, 15 HP, vulnerability to fire, and immunity to bludgeoning, poison, and psychic damage."
       ]
     },
     {
@@ -19842,12 +19848,12 @@
         "SHP:W"
       ],
       "entries": [
-        "**Component Type.** Large",
-        "**Upgrade DC.** 15",
-        "**Component Cost.** ฿50,000,000",
-        "**Upgrade Slots Required.** 1",
-        "**Armor Class.** 18",
-        "**Hit Points.** 100 (threshold 10)",
+        "{@bold Component Type.} Large",
+        "{@bold Upgrade DC.} 15",
+        "{@bold Component Cost.} ฿50,000,000",
+        "{@bold Upgrade Slots Required.} 1",
+        "{@bold Armor Class.} 18",
+        "{@bold Hit Points.} 100 (threshold 10)",
         "Gives advantage on crash saves. Damage from collisions is applied to the ram instead of the hull. These benefits don't apply if another vehicle crashes into this one."
       ]
     },
@@ -19858,14 +19864,14 @@
         "SHP:W"
       ],
       "entries": [
-        "*Requirement:* At least one huge engine installed on the ship and a control component.",
-        "**Component Type.** Special Huge",
-        "**Upgrade DC.** 20",
-        "**Component Cost.** ฿300,000,000",
-        "**Upgrade Slots Required.** 2",
-        "**Armor Class.** 18",
-        "**Hit Points.** 100",
-        "**Flamethrower.** Sprays a 30-ft cone of fire (DC 16 Dex save, 45 (10d8) fire damage). Flammable objects ignite. Recharge: 24 hours."
+        "{@italic Requirement} At least one huge engine installed on the ship and a control component.",
+        "{@bold Component Type.} Special Huge",
+        "{@bold Upgrade DC.} 20",
+        "{@bold Component Cost.} ฿300,000,000",
+        "{@bold Upgrade Slots Required.} 2",
+        "{@bold Armor Class.} 18",
+        "{@bold Hit Points.} 100",
+        "{@bold Flamethrower.} Sprays a 30-ft cone of fire (DC 16 Dex save, 45 (10d8) fire damage). Flammable objects ignite. Recharge: 24 hours."
       ]
     },
     {
@@ -19875,14 +19881,14 @@
         "SHP:W"
       ],
       "entries": [
-        "*Requirement:* At least one huge engine installed on the ship and a control component.",
-        "**Component Type.** Special Huge",
-        "**Upgrade DC.** 20",
-        "**Component Cost.** ฿500,000,000",
-        "**Upgrade Slots Required.** 2",
-        "**Armor Class.** 18",
-        "**Hit Points.** 100",
-        "**Force Beam.** Fires a 90-ft line (5 ft. wide, DC 16 Dex save, 45 (10d8) force damage). Disintegrates nonmagical Medium or smaller objects; destroys 5-ft cubes of larger targets. Recharge: 24 hours."
+        "{@italic Requirement:} At least one huge engine installed on the ship and a control component.",
+        "{@bold Component Type.} Special Huge",
+        "{@bold Upgrade DC.} 20",
+        "{@bold Component Cost.} ฿500,000,000",
+        "{@bold Upgrade Slots Required.} 2",
+        "{@bold Armor Class.} 18",
+        "{@bold Hit Points.} 100",
+        "{@bold Force Beam.} Fires a 90-ft line (5 ft. wide, DC 16 Dex save, 45 (10d8) force damage). Disintegrates nonmagical Medium or smaller objects; destroys 5-ft cubes of larger targets. Recharge: 24 hours."
       ]
     }
   ],
@@ -24539,8 +24545,8 @@
         "You can change your list of prepared holy powers when you finish a Long Rest. Preparing a new list of Priest holy powers requires time spent in prayer and meditation: at least 1 minute per Holy Power ,Level for each holy power on your list.",
         "Special Power Ability (Spellcasting)",
         "Wisdom is your Special Power (Spellcasting) ability for your Priest Holy Powers (Spells). The strength of your holy powers comes from your devotion to your God. You use your Wisdom whenever a Priest ,holy power            (spell) refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a Priest holy power you cast and when making an Attack ,roll with one.",
-        "**Holy Power save DC** = 8 + your Proficiency Bonus + your Wisdom modifier",
-        "**Holy Power Attack modifier** = your Proficiency Bonus + your Wisdom modifier",
+        "{@bold Holy Power save DC} = 8 + your Proficiency Bonus + your Wisdom modifier",
+        "{@bold Holy Power Attack modifier} = your Proficiency Bonus + your Wisdom modifier",
         "Ritual Casting",
         "You can cast a Priest holy power as a ritual if that holy power has the ritual tag and you have the holy power prepared.",
         "Special Power Focus (Spellcasting Focus)",
@@ -24591,7 +24597,7 @@
       "page": 76,
       "level": 4,
       "entries": [
-        "When you reach 4th Level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two Ability Scores of your choice by 1. Alternatively, you can take a feat listed in **Chapter 6**. As normal, you can't increase an ability score above 20 using this feature."
+        "When you reach 4th Level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two Ability Scores of your choice by 1. Alternatively, you can take a feat listed in chapter 6. As normal, you can't increase an ability score above 20 using this feature."
       ]
     },
     {
@@ -24602,7 +24608,7 @@
       "page": 76,
       "level": 8,
       "entries": [
-        "When you reach 4th Level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two Ability Scores of your choice by 1. Alternatively, you can take a feat listed in **Chapter 6**. As normal, you can't increase an ability score above 20 using this feature."
+        "When you reach 4th Level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two Ability Scores of your choice by 1. Alternatively, you can take a feat listed in chapter 6. As normal, you can't increase an ability score above 20 using this feature."
       ]
     },
     {
@@ -24613,7 +24619,7 @@
       "page": 76,
       "level": 12,
       "entries": [
-        "When you reach 4th Level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two Ability Scores of your choice by 1. Alternatively, you can take a feat listed in **Chapter 6**. As normal, you can't increase an ability score above 20 using this feature."
+        "When you reach 4th Level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two Ability Scores of your choice by 1. Alternatively, you can take a feat listed in chapter 6. As normal, you can't increase an ability score above 20 using this feature."
       ]
     },
     {
@@ -24624,7 +24630,7 @@
       "page": 76,
       "level": 16,
       "entries": [
-        "When you reach 4th Level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two Ability Scores of your choice by 1. Alternatively, you can take a feat listed in **Chapter 6**. As normal, you can't increase an ability score above 20 using this feature."
+        "When you reach 4th Level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two Ability Scores of your choice by 1. Alternatively, you can take a feat listed in chapter 6. As normal, you can't increase an ability score above 20 using this feature."
       ]
     },
     {
@@ -24635,7 +24641,7 @@
       "page": 76,
       "level": 19,
       "entries": [
-        "When you reach 4th Level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two Ability Scores of your choice by 1. Alternatively, you can take a feat listed in **Chapter 6**. As normal, you can't increase an ability score above 20 using this feature."
+        "When you reach 4th Level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two Ability Scores of your choice by 1. Alternatively, you can take a feat listed in chapter 6. As normal, you can't increase an ability score above 20 using this feature."
       ]
     },
     {

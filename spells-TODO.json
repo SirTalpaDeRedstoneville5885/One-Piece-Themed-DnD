@@ -1,6 +1,6 @@
 {
-
-    "_meta": {
+  "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
+  "_meta": {
     "sources": [
       {
         "json": "D&DF-PHB-spells",
@@ -20,7 +20,8 @@
     "edition": "classic",
     "dateAdded": 1710000000,
     "dateLastModified": 1710000000
-  },"spell": [
+  },
+  "spell": [
     {
       "name": "Wall of Goo",
       "level": 3,
@@ -65,8 +66,8 @@
         ]
       },
       "entries": [
-        "You conjure up a wall of transparent goo on the ground at a point you can see within range. You can make the wall up to 30 feet long, 10 feet high, and 1 foot thick, or you can make a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall vanishes when the spell ends. The wall0s space is difficult terrain.",
-        "Any ranged weapon attack that enters the wall0s space has disadvantage on the attack roll, and fire damage is halved if the fire effect passes through the wall to reach its target. Spells that deal cold damage that pass through the wall cause the area of the wall they pass through to freeze solid (at least a 5-foot square section is frozen). Each 5-foot-square frozen section has AC 5 and 15 hit points. Reducing a frozen section to 0 hit points destroys it. When a section is destroyed, the wall0s goo doesn't fill it."
+        "You conjure up a wall of transparent goo on the ground at a point you can see within range. You can make the wall up to 30 feet long, 10 feet high, and 1 foot thick, or you can make a ringed wall up to 20 feet in diameter, 20 feet high, and 1 foot thick. The wall vanishes when the spell ends. The wall's space is difficult terrain.",
+        "Any ranged weapon attack that enters the wall's space has disadvantage on the attack roll, and fire damage is halved if the fire effect passes through the wall to reach its target. Spells that deal cold damage that pass through the wall cause the area of the wall they pass through to freeze solid (at least a 5-foot square section is frozen). Each 5-foot-square frozen section has AC 5 and 15 hit points. Reducing a frozen section to 0 hit points destroys it. When a section is destroyed, the wall's goo doesn't fill it."
       ],
       "source": "D&DF-PHB",
       "components": {
@@ -119,8 +120,8 @@
         ]
       },
       "entries": [
-        "You conjure up a sphere of swamp mud with a 5-foot radius at a point you can see within range. The sphere can hover but no more than 10 feet off the ground. The sphere remains for the spell0s duration.",
-        "Any creature in the sphere0s space must make a Strength saving throw. On a successful save, a creature is ejected from that space to the nearest unoccupied space of the creature0s choice outside the sphere. A Huge or larger creature succeeds automatically, and a Large or smaller creature can choose to fail it. On a failed save, a creature is restrained by the sphere and is engulfed by the mud. At the end of each of its turns, a restrained target can repeat the saving throw, ending the effect on a success.",
+        "You conjure up a sphere of swamp mud with a 5-foot radius at a point you can see within range. The sphere can hover but no more than 10 feet off the ground. The sphere remains for the spell's duration.",
+        "Any creature in the sphere's space must make a Strength saving throw. On a successful save, a creature is ejected from that space to the nearest unoccupied space of the creature's choice outside the sphere. A Huge or larger creature succeeds automatically, and a Large or smaller creature can choose to fail it. On a failed save, a creature is restrained by the sphere and is engulfed by the mud. At the end of each of its turns, a restrained target can repeat the saving throw, ending the effect on a success.",
         "The sphere can restrain as many as four Medium or smaller creatures or one Large creature. If restraining a new creature exceeds capacity, a random creature already restrained is ejected prone within 5 feet.",
         "As an action, you can move the sphere up to 30 feet in a straight line. It descends safely when moving over drops. Restrained creatures move with it. You can ram the sphere into creatures, forcing them to make the saving throw.",
         "When the spell ends, the sphere falls to the ground, extinguishes all normal flames within 30 feet, and knocks restrained creatures prone as it vanishes."
@@ -245,7 +246,7 @@
         }
       ],
       "range": {
-        "type": "line"
+        "type": "special"
       },
       "duration": [
         {
@@ -294,7 +295,7 @@
         }
       ],
       "range": {
-        "type": "self"
+        "type": "special"
       },
       "duration": [
         {
@@ -342,7 +343,7 @@
         }
       ],
       "range": {
-        "type": "self"
+        "type": "special"
       },
       "duration": [
         {
@@ -598,7 +599,7 @@
         }
       ],
       "range": {
-        "type": "self"
+        "type": "special"
       },
       "duration": [
         {
@@ -627,7 +628,7 @@
         ]
       },
       "entries": [
-        "You conjure a sphere of jagged ice around one hand, forming a mace-like gauntlet. It counts as a simple melee weapon that deals {@dice 2d8} cold damage on a hit and halves the target0s speed until your next turn.",
+        "You conjure a sphere of jagged ice around one hand, forming a mace-like gauntlet. It counts as a simple melee weapon that deals {@dice 2d8} cold damage on a hit and halves the target's speed until your next turn.",
         "You can throw it as an action at a creature within 120 feet, forcing a Dexterity saving throw. On a failure, the creature takes {@dice 2d8} cold damage and its speed is halved; on success, half damage only. The gauntlet then explodes, forcing creatures within 5 feet to make a Dexterity save or take 2d6 cold damage, ending the spell."
       ],
       "entriesHigherLevel": [
