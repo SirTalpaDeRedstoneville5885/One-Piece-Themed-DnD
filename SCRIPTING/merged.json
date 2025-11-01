@@ -13,7 +13,7 @@
           "Tarun",
           "SirTalpadeRedstoneville58"
         ],
-        "version": "2.17",
+        "version": "2.18",
         "color": "60BFF5",
         "url": "https://homebrewery.naturalcrit.com/share/ItlMSW6ztZTm"
       },
@@ -7000,6 +7000,241 @@
       ]
     }
   ],
+  "itemType": [
+    {
+      "name": "simple dials",
+      "source": "D&DF-PHB",
+      "abbreviation": "DIAL:S",
+      "page": 149,
+      "entries": [
+        "\nDials are mysterious devices made from sea shells that each hold a unique power. They are normally found throughout the sky islands, and often vary in size and power.\nSome are used for completing simple tasks such as cooking, refrigeration, or blowing air, while others can be used to enhance weapons or deal devastating amounts of damage to enemies.",
+        "Simple dials tend to have less overwhelming or dangerous abilities, and absorb less from their designated energy source on average.",
+        "Being proficient in dials allows you to add your proficiency bonus to any check or attack roll when using a dial."
+      ]
+    },
+    {
+      "name": "rare dials",
+      "source": "D&DF-PHB",
+      "abbreviation": "DIAL:R",
+      "page": 149,
+      "entries": [
+        "\nDials are mysterious devices made from sea shells that each hold a unique power. They are normally found throughout the sky islands, and often vary in size and power.\nSome are used for completing simple tasks such as cooking, refrigeration, or blowing air, while others can be used to enhance weapons or deal devastating amounts of damage to enemies.",
+        "Rare dials are often incredibly effective in combat, and some have the power to devastate both their user and any foe from the amount of power they can expel in an instant.",
+        "Being proficient in dials allows you to add your proficiency bonus to any check or attack roll when using a dial."
+      ]
+    },
+    {
+      "name": "stars",
+      "source": "D&DF-PHB",
+      "abbreviation": "Stars",
+      "page": 149,
+      "entries": [
+        "\nStars are special types of ammo that deal additional damage compared to ordinary ammo or have some form of additional effect when fired. These can be crafted by a tinkerer or marksman, or found and purchased throughout the adventure."
+      ]
+    },
+    {
+      "name": "Pop Greens",
+      "source": "D&DF-PHB",
+      "abbreviation": "PopGreens",
+      "page": 149,
+      "entries": [
+        "\nPop greens are special seeds that have the power to instantly grow into full plants that produce a desired spell effect. Pop greens can be imbued with various effects or spells by a skilled herbalist, allowing them to be used as soon as they are planted in dirt or soil. Creating a pop green requires having a Herbalism Kit, supplies, a nearby spellcaster, and being proficient in the Nature or Arcana skills.\nAdditionally, they can only be created during extended periods of downtime, such as when traveling by boat to a new location in clear weather or spending time on a peaceful island."
+      ]
+    }
+  ],
+  "itemTypeAdditionalEntries": [
+    {
+      "name": "Creating and Using a Pop Greens",
+      "appliesTo": "PopGreens",
+      "source": "D&DF-PHB",
+      "entries": [
+        "\n{@bold Creating a pop green}\nA pop green is made by placing the energy from any spell and the material components required into a special seed. Creating a pop green can take a specific amount of time and money related to the strength and level of the Pop Green the characters wants to imbue into the seed, as shown on the table below. Additionally, the character creating the pop green must have proficiency in the Nature or Arcana skills and provide any material components required by the spell being put into the pop green. Moreover, at least one character making the pop green or assisting in the creation process must have the spell prepared, or it must be among the character's known spells, in order to create the pop green.\nIf the scribed spell is a cantrip, the version on the scroll works as if the caster were 1st Level.",
+        {
+          "rowLabels": [
+            "Spell level",
+            "Time",
+            "Cost"
+          ],
+          "name": "Pop Green cost",
+          "type": "table",
+          "rows": [
+            [
+              "Cantrip",
+              "1 day",
+              "฿150,000"
+            ],
+            [
+              "1st",
+              "1 day",
+              "฿250,000"
+            ],
+            [
+              "2nd",
+              "3 days",
+              "฿2,500,000"
+            ],
+            [
+              "3rd",
+              "1 workweek",
+              "฿5,000,000"
+            ],
+            [
+              "4th",
+              "2 workweeks",
+              "฿25,000,000"
+            ],
+            [
+              "5th",
+              "4 workweeks",
+              "฿50,000,000"
+            ],
+            [
+              "6th",
+              "8 workweeks",
+              "฿150,000,000"
+            ],
+            [
+              "7th",
+              "16 workweeks",
+              "฿250,000,000"
+            ],
+            [
+              "8th",
+              "32 workweeks",
+              "฿500,000,000"
+            ],
+            [
+              "9th",
+              "48 workweeks",
+              "฿2,500,000,000"
+            ]
+          ]
+        },
+        "Pop greens are occasionally found on various islands or sold in black markets. They can be sold to certain rich buyers for a price equal to the material cost on the table above. Their cost in the black market often equals 120% of their cost on the Pop Green Cost Table.",
+        "\n{@bold Using a pop green}\nWhen a character possesses a pop green, he or she can use at any time by planting it in a patch of dirt, soil, or sediment nearby. The pop green can be planted as an action, bonus action, or reaction (depending on the spell) within 5 feet of the user. It can also be thrown or fired by a sling as an action up to 30 feet away from the user into a nearby patch of soil. When the pop green is planted, it will begin casting the spell stored inside of it, no material components required.",
+        "The plant created will begin casting the spell from itself. For example, if the plant created from a pop green has cone of cold stored in it, it will cast it immediately after the action the user made to plant it, blasting the 60-foot cone from itself and damaging all enemies in the range depending on the direction the user wants it to aim the spell. After the spell is finished being casted or concentrated on, it will wither and die.",
+        "If the plant casts a spell, such as time stop, that can only target the caster, it will instead target the creature that planted it if they are within 30 feet of the plant. Otherwise, the plant will target itself with the spell before withering and dying. If the spell requires a target, the person who planted the pop green can verbally command it to choose the desired targets. Additionally, if the spell has a casting time longer than an action, the plant will remain alive and actively cast the spell until it is casted. Also, if the spell requires concentration, the plant will remain alive and attempt to concentrate on the spell until the duration ends or concentration is lost. Once the spell is no longer being concentrated on or is finished casting, the plant instantly withers and dies.",
+        "While the plant remains alive, its stats are as follows (Treat cantrips as 1st-level spells when determining these stats). It is a large plant, its HP is equal to 5 x Spell Level (Minimum 5), its AC is equal to 10 + Spell Level (Minimum 10), it has vulnerability to fire damage, and its Constitution save bonus for keeping concentration is equal to the Spell Level. The plant's appearance depends on the type of spell stored by it. For example, if it has the fireball spell stored, it may have a reddish-orange patterned appearance, a bazooka-shaped stem, and flame-shaped leaves. The plant may also cast or create the spell effect by emitting magical effects from its stalk or mouth, or by attacking with segments of its body.",
+        "The spell casted by the plant has an Attack Bonus and Save DC depending on the level of the spell stored by the plant, shown on the table below.",
+        {
+          "rowLabels": [
+            "Spell level",
+            "Save DC",
+            "Attack Bonus"
+          ],
+          "name": "Pop Green Spellcasting",
+          "type": "table",
+          "rows": [
+            [
+              "Cantrip",
+              13,
+              "+5"
+            ],
+            [
+              "1st",
+              13,
+              "+5"
+            ],
+            [
+              "2nd",
+              13,
+              "+5"
+            ],
+            [
+              "3rd",
+              15,
+              "+7"
+            ],
+            [
+              "4th",
+              15,
+              "+7"
+            ],
+            [
+              "5th",
+              17,
+              "+9"
+            ],
+            [
+              "6th",
+              17,
+              "+9"
+            ],
+            [
+              "7th",
+              18,
+              "+10"
+            ],
+            [
+              "8th",
+              18,
+              "+10"
+            ],
+            [
+              "9th",
+              19,
+              "+11"
+            ]
+          ]
+        },
+        "\n{@bold Pop Green Complication}\nIf the creature planting the pop green is a spellcaster that already knows how to cast the spell being stored by the pop green, planting it will always work without fail.",
+        "However, if the creature planting the pop green doesn't already know how to cast the spell being stored by it, there is a chance that the pop green will fail to grow and will die before it casts the spell successfully. In this case, the creature planting it must make an Intelligence (Nature) or Intelligence (Arcana) check to determine whether they plant it successfully or not. The DC equals 10 + the spell's level. On a failed check, the plant dies and has no other effect."
+      ]
+    },
+    {
+      "name": "Finding a simple dial",
+      "appliesTo": "DIALS:S",
+      "source": "D&DF-PHB",
+      "entries": [
+        "\n{@bold Finding a simple dial}\nSearching for the more simple dials is easy when you're traveling through the sky islands, especially along the shorelines. Finding dials, especially rare ones, outside of any sky islands is incredibly difficult.",
+        "When searching along shorelines throughout the sky islands, such as the shore of the White-White Sea, a DC 15 Intelligence (Investigation) check may be rolled for every 24 hours spent searching to see if a character locates a Simple Dial shell. If a character is proficient in using Dials, they make this check with advantage.",
+        "If a character succeeds on finding a simple dial, have them roll a d20 and use the Simple Dial Table below to determine which dial they receive."
+      ]
+    },
+    {
+      "name": "Finding a rare dial",
+      "appliesTo": "DIALS:R",
+      "source": "D&DF-PHB",
+      "entries": [
+        "\n{@bold Finding a rare dial}\nRare dials are far more difficult to find than ordinary dials. They are often larger, store massive amounts of energy, and are used in warfare and advanced machinery. In order to find a rare dial, it may be required to search sky island ruins or dungeons to discover such powerful dials.",
+        "If a character does find a way to locate a rare dial, the DM may choose to roll a d20 on the Rare Dial Table or pick from it when giving it to the character."
+      ]
+    },
+    {
+      "name": "Star Batch Cost",
+      "appliesTo": "Stars",
+      "source": "D&DF-PHB",
+      "entries": [
+        "\n{@bold Crafting a star}\n Crafting a starrequires any type of appropriate artisan's tools (such as mason's tools or smith's tools), proficiency in the Arcana or Sleight of Hand skills, and proficiency in at least one type of ranged weapon. The rarity, cost, and time it takes to make a batch of 5 for each type of star is listed in the Star Cost Table. Machine gun ammo, sniper rifle ammo, and bazooka ammo require double the time and money to make. Sling bullets require half the time and money to make.",
+        {
+          "name": "Star Batch Cost",
+          "rowLabels": [
+            "Star Type",
+            "Time",
+            "Cost"
+          ],
+          "type": "table",
+          "rows": [
+            [
+              "Uncommon",
+              "1 workweek",
+              "฿1,000,000"
+            ],
+            [
+              "rare",
+              "4 workweek",
+              "฿5,000,000"
+            ],
+            [
+              "Very Rare",
+              "8 workweek",
+              "฿25,000,000"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
   "item": [
     {
       "name": "Attack Cuisine",
@@ -7702,7 +7937,7 @@
       ],
       "rarity": "common",
       "value": 1500,
-      "bonusWeaponAttack": 5,
+      "bonusWeaponAttack": "5",
       "entries": [
         "{@bold Save DC: } 13"
       ],
@@ -7718,7 +7953,7 @@
       ],
       "rarity": "common",
       "value": 2500,
-      "bonusWeaponAttack": 5,
+      "bonusWeaponAttack": "5",
       "entries": [
         "{@bold Save DC: } 13"
       ],
@@ -7734,7 +7969,7 @@
       ],
       "rarity": "uncommon",
       "value": 25000,
-      "bonusWeaponAttack": 5,
+      "bonusWeaponAttack": "5",
       "entries": [
         "{@bold Save DC: } 13"
       ],
@@ -7750,7 +7985,7 @@
       ],
       "rarity": "uncommon",
       "value": 50000,
-      "bonusWeaponAttack": 7,
+      "bonusWeaponAttack": "7",
       "entries": [
         "{@bold Save DC: } 15"
       ],
@@ -7766,7 +8001,7 @@
       ],
       "rarity": "rare",
       "value": 250000,
-      "bonusWeaponAttack": 7,
+      "bonusWeaponAttack": "7",
       "entries": [
         "{@bold Save DC: } 15"
       ],
@@ -7782,7 +8017,7 @@
       ],
       "rarity": "rare",
       "value": 500000,
-      "bonusWeaponAttack": 9,
+      "bonusWeaponAttack": "9",
       "entries": [
         "{@bold Save DC: } 17"
       ],
@@ -7798,7 +8033,7 @@
       ],
       "rarity": "very rare",
       "value": 1500000,
-      "bonusWeaponAttack": 9,
+      "bonusWeaponAttack": "9",
       "entries": [
         "{@bold Save DC: } 17"
       ],
@@ -7814,7 +8049,7 @@
       ],
       "rarity": "very rare",
       "value": 2500000,
-      "bonusWeaponAttack": 10,
+      "bonusWeaponAttack": "10",
       "entries": [
         "{@bold Save DC: } 18"
       ],
@@ -7830,7 +8065,7 @@
       ],
       "rarity": "very rare",
       "value": 5000000,
-      "bonusWeaponAttack": 10,
+      "bonusWeaponAttack": "10",
       "entries": [
         "{@bold Save DC: } 18"
       ],
@@ -7846,7 +8081,7 @@
       ],
       "rarity": "legendary",
       "value": 25000000,
-      "bonusWeaponAttack": 11,
+      "bonusWeaponAttack": "11",
       "entries": [
         "{@bold Save DC: } 19"
       ],
@@ -7886,7 +8121,7 @@
             "{@item Pop Green (6th Level)|D&DF-PHB}",
             "{@item Pop Green (7th Level)|D&DF-PHB}",
             "{@item Pop Green (8th Level)|D&DF-PHB}",
-            "{@item Pop Green (9th Level|D&DF-PHB})"
+            "{@item Pop Green (9th Level)|D&DF-PHB}"
           ]
         }
       ]
@@ -8140,7 +8375,7 @@
       "charges": 10,
       "recharge": "dawn",
       "baseItem": "Thunder Dial|D&DF-PHB",
-      "rechargeAmount": "1d++4",
+      "rechargeAmount": "1d6+4",
       "page": 151,
       "source": "D&DF-PHB",
       "rarity": "unknown (magic)",
@@ -8260,49 +8495,12 @@
       ]
     },
     {
-      "name": "Axe Dial",
-      "source": "D&DF-PHB",
-      "entries": [
-        "Axe dials are powerful damage-dealing dials that can amplify the effects of attacks. They can be attached to your body or combined with any weapon to amplify its effects. By passively absorbing and storing sharpness from a blade, weight from a blunt weapon, strength from the user's fists and legs, etc., an axe dial will greatly enhance any attack made with a weapon it is attached to. There are three different types of axe dials, each type increasing in both strength and rarity.",
-        {
-          "type": "list",
-          "items": [
-            "{@item Axe dial +1|D&DF-PHB}",
-            "{@item Axe dial +2|D&DF-PHB}",
-            "{@item Axe Dial +3|D&DF-PHB}"
-          ]
-        }
-      ],
-      "type": "DIAL:R",
-      "value": 0,
-      "weight": 0,
-      "page": 151,
-      "rarity": "varies",
-      "items": [
-        "Axe dial +1|D&DF-PHB",
-        "Axe dial +2|D&DF-PHB",
-        "Axe Dial +3|D&DF-PHB"
-      ],
-      "lootTables": [
-        "rare dial table|D&DF-PHB"
-      ]
-    },
-    {
-      "name": "Axe dial +1",
-      "source": "D&DF-PHB",
-      "page": 151,
-      "rarity": "uncommon",
-      "entries": [
-        "A +1 axe dial (uncommon) gives any weapon, including your unarmed strikes, a +1 bonus to attack and damage rolls when attached.",
-        "In order to attach an axe dial to a weapon or body part, the user must spend time during a short or long rest properly fitting and attaching it to the desired weapon. A weapon can only receive the benefits from one dial at a time, and the effects of separate dials on a single weapon do not stack. Furthermore, axe dials do not stack with innate weapon bonus stats, and can only increase a weapon's innate bonuses up to a total +3 for attack or damage rolls. However, axe dial bonuses do stack with bonuses from character feats and abilities."
-      ],
-      "lootTables": [
-        "rare dial table|D&DF-PHB"
-      ]
-    },
-    {
       "name": "Axe dial +2",
       "source": "D&DF-PHB",
+      "type": "DIAL:R",
+      "lootTables": [
+        "rare dial table|D&DF-PHB"
+      ],
       "_copy": {
         "name": "Axe dial +1",
         "source": "D&DF-PHB",
@@ -8310,6 +8508,10 @@
           "page": true
         }
       },
+      "baseItem": "Axe Dial|D&DF-PHB",
+      "lootTables": [
+        "rare dial table|D&DF-PHB"
+      ],
       "rarity": "rare",
       "entries": [
         "A +2 axe dial (rare) gives any weapon, including your unarmed strikes, a +2 bonus to attack and damage rolls when attached.",
@@ -8329,6 +8531,11 @@
           "page": true
         }
       },
+      "baseItem": "Axe Dial|D&DF-PHB",
+      "type": "DIAL:R",
+      "lootTables": [
+        "rare dial table|D&DF-PHB"
+      ],
       "rarity": "very rare",
       "entries": [
         "A +3 axe dial (very rare) gives any weapon, including your unarmed strikes, a +3 bonus to attack and damage rolls when attached.",
@@ -8487,31 +8694,6 @@
       ]
     },
     {
-      "name": "Metallic Stars",
-      "type": "Stars",
-      "source": "D&DF-PHB",
-      "rarity": "varies",
-      "entries": [
-        "This type of star is much heavier and more destructive than ordinary ammo.",
-        {
-          "type": "list",
-          "items": [
-            "{@item Metallic Stars +1|D&DF-PHB}",
-            "{@item Metallic Stars +2|D&DF-PHB}",
-            "{@item Metallic Stars +3|D&DF-PHB}"
-          ]
-        }
-      ],
-      "miscTags": [
-        "CNS"
-      ],
-      "items": [
-        "Metallic Star +1",
-        "Metallic Star +2",
-        "Metallic Star +3"
-      ]
-    },
-    {
       "name": "Metallic Star +1",
       "type": "Stars",
       "source": "D&DF-PHB",
@@ -8578,31 +8760,6 @@
       "bonusWeaponAttack": "+3"
     },
     {
-      "name": "Flame Stars",
-      "type": "Stars",
-      "source": "D&DF-PHB",
-      "rarity": "varies",
-      "miscTags": [
-        "CNS"
-      ],
-      "entries": [
-        "A flame star ignites mid-air, igniting anything it hits on contact. ",
-        {
-          "type": "list",
-          "items": [
-            "{@item Uncommon Flame Star|D&DF-PHB}",
-            "{@item Rare Flame Star|D&DF-PHB}",
-            "{@item Very rare Flame Star|D&DF-PHB}"
-          ]
-        }
-      ],
-      "items": [
-        "Uncommon Flame Star",
-        "Rare Flame Star",
-        "Very rare Flame Star"
-      ]
-    },
-    {
       "name": "Uncommon Flame Star",
       "type": "Stars",
       "miscTags": [
@@ -8645,31 +8802,6 @@
       "dmgType": "F"
     },
     {
-      "name": "Cactus Stars",
-      "type": "Stars",
-      "source": "D&DF-PHB",
-      "rarity": "varies",
-      "miscTags": [
-        "CNS"
-      ],
-      "entries": [
-        "This star explodes upon hitting a target, piercing nearby targets with flying spikes. ",
-        {
-          "type": "list",
-          "items": [
-            "{@item Uncommon Cactus Star|D&DF-PHB}",
-            "{@item Rare Cactus Star|D&DF-PHB}",
-            "{@item Very rare Cactus Star|D&DF-PHB}"
-          ]
-        }
-      ],
-      "items": [
-        "Uncommon Cactus Star",
-        "Rare Cactus Star",
-        "Very rare Cactus Star"
-      ]
-    },
-    {
       "name": "Uncommon Cactus Star",
       "type": "Stars",
       "source": "D&DF-PHB",
@@ -8710,32 +8842,7 @@
       ],
       "bonusWeaponDamage": "3d4",
       "dmgType": "P"
-    },
-    {
-      "name": "Terror Stars",
-      "type": "Stars",
-      "source": "D&DF-PHB",
-      "rarity": "varies",
-      "miscTags": [
-        "CNS"
-      ],
-      "entries": [
-        "When this star hits a target, a terrifying vision appears in front of them.",
-        {
-          "type": "list",
-          "items": [
-            "{@item Uncommon Terror Star|D&DF-PHB}",
-            "{@item Rare Terror Star|D&DF-PHB}",
-            "{@item Very rare Terror Star|D&DF-PHB}"
-          ]
-        }
-      ],
-      "items": [
-        "Uncommon Terror Star",
-        "Rare Terror Star",
-        "Very rare Terror Star"
-      ]
-    },
+    },    
     {
       "name": "Uncommon Terror Star",
       "type": "Stars",
@@ -8775,31 +8882,6 @@
       ],
       "bonusWeaponDamage": "2d4",
       "dmgType": "Y"
-    },
-    {
-      "name": "Smoke Stars",
-      "type": "Stars",
-      "source": "D&DF-PHB",
-      "miscTags": [
-        "CNS"
-      ],
-      "rarity": "varies",
-      "entries": [
-        "This star creates a sphere of smoke centered on a point within range on impact with a target.",
-        {
-          "type": "list",
-          "items": [
-            "{@item Uncommon Smoke Star|D&DF-PHB}",
-            "{@item Rare Smoke Star|D&DF-PHB}",
-            "{@item Very rare Smoke Star|D&DF-PHB}"
-          ]
-        }
-      ],
-      "items": [
-        "Uncommon Smoke Star",
-        "Rare Smoke Star",
-        "Very rare Smoke Star"
-      ]
     },
     {
       "name": "Uncommon Smoke Star",
@@ -33917,241 +33999,6 @@
       "level": 14,
       "entries": [
         "Starting at 14th level, when you make an ability check, you can expend one use of Skaldic Verse. Roll a Skaldic Verse die and add the number rolled to your ability check. You can choose to do so after you roll the die for the ability check, but before the DM tells you whether you succeed or fail."
-      ]
-    }
-  ],
-  "itemType": [
-    {
-      "name": "simple dials",
-      "source": "D&DF-PHB",
-      "abbreviation": "DIAL:S",
-      "page": 149,
-      "entries": [
-        "\nDials are mysterious devices made from sea shells that each hold a unique power. They are normally found throughout the sky islands, and often vary in size and power.\nSome are used for completing simple tasks such as cooking, refrigeration, or blowing air, while others can be used to enhance weapons or deal devastating amounts of damage to enemies.",
-        "Simple dials tend to have less overwhelming or dangerous abilities, and absorb less from their designated energy source on average.",
-        "Being proficient in dials allows you to add your proficiency bonus to any check or attack roll when using a dial."
-      ]
-    },
-    {
-      "name": "rare dials",
-      "source": "D&DF-PHB",
-      "abbreviation": "DIAL:R",
-      "page": 149,
-      "entries": [
-        "\nDials are mysterious devices made from sea shells that each hold a unique power. They are normally found throughout the sky islands, and often vary in size and power.\nSome are used for completing simple tasks such as cooking, refrigeration, or blowing air, while others can be used to enhance weapons or deal devastating amounts of damage to enemies.",
-        "Rare dials are often incredibly effective in combat, and some have the power to devastate both their user and any foe from the amount of power they can expel in an instant.",
-        "Being proficient in dials allows you to add your proficiency bonus to any check or attack roll when using a dial."
-      ]
-    },
-    {
-      "name": "stars",
-      "source": "D&DF-PHB",
-      "abbreviation": "Stars",
-      "page": 149,
-      "entries": [
-        "\nStars are special types of ammo that deal additional damage compared to ordinary ammo or have some form of additional effect when fired. These can be crafted by a tinkerer or marksman, or found and purchased throughout the adventure."
-      ]
-    },
-    {
-      "name": "Pop Greens",
-      "source": "D&DF-PHB",
-      "abbreviation": "PopGreens",
-      "page": 149,
-      "entries": [
-        "\nPop greens are special seeds that have the power to instantly grow into full plants that produce a desired spell effect. Pop greens can be imbued with various effects or spells by a skilled herbalist, allowing them to be used as soon as they are planted in dirt or soil. Creating a pop green requires having a Herbalism Kit, supplies, a nearby spellcaster, and being proficient in the Nature or Arcana skills.\nAdditionally, they can only be created during extended periods of downtime, such as when traveling by boat to a new location in clear weather or spending time on a peaceful island."
-      ]
-    }
-  ],
-  "itemTypeAdditionalEntries": [
-    {
-      "name": "Creating and Using a Pop Greens",
-      "appliesTo": "PopGreens",
-      "source": "D&DF-PHB",
-      "entries": [
-        "\n{@bold Creating a pop green}\nA pop green is made by placing the energy from any spell and the material components required into a special seed. Creating a pop green can take a specific amount of time and money related to the strength and level of the Pop Green the characters wants to imbue into the seed, as shown on the table below. Additionally, the character creating the pop green must have proficiency in the Nature or Arcana skills and provide any material components required by the spell being put into the pop green. Moreover, at least one character making the pop green or assisting in the creation process must have the spell prepared, or it must be among the character's known spells, in order to create the pop green.\nIf the scribed spell is a cantrip, the version on the scroll works as if the caster were 1st Level.",
-        {
-          "rowLabels": [
-            "Spell level",
-            "Time",
-            "Cost"
-          ],
-          "name": "Pop Green cost",
-          "type": "table",
-          "rows": [
-            [
-              "Cantrip",
-              "1 day",
-              "฿150,000"
-            ],
-            [
-              "1st",
-              "1 day",
-              "฿250,000"
-            ],
-            [
-              "2nd",
-              "3 days",
-              "฿2,500,000"
-            ],
-            [
-              "3rd",
-              "1 workweek",
-              "฿5,000,000"
-            ],
-            [
-              "4th",
-              "2 workweeks",
-              "฿25,000,000"
-            ],
-            [
-              "5th",
-              "4 workweeks",
-              "฿50,000,000"
-            ],
-            [
-              "6th",
-              "8 workweeks",
-              "฿150,000,000"
-            ],
-            [
-              "7th",
-              "16 workweeks",
-              "฿250,000,000"
-            ],
-            [
-              "8th",
-              "32 workweeks",
-              "฿500,000,000"
-            ],
-            [
-              "9th",
-              "48 workweeks",
-              "฿2,500,000,000"
-            ]
-          ]
-        },
-        "Pop greens are occasionally found on various islands or sold in black markets. They can be sold to certain rich buyers for a price equal to the material cost on the table above. Their cost in the black market often equals 120% of their cost on the Pop Green Cost Table.",
-        "\n{@bold Using a pop green}\nWhen a character possesses a pop green, he or she can use at any time by planting it in a patch of dirt, soil, or sediment nearby. The pop green can be planted as an action, bonus action, or reaction (depending on the spell) within 5 feet of the user. It can also be thrown or fired by a sling as an action up to 30 feet away from the user into a nearby patch of soil. When the pop green is planted, it will begin casting the spell stored inside of it, no material components required.",
-        "The plant created will begin casting the spell from itself. For example, if the plant created from a pop green has cone of cold stored in it, it will cast it immediately after the action the user made to plant it, blasting the 60-foot cone from itself and damaging all enemies in the range depending on the direction the user wants it to aim the spell. After the spell is finished being casted or concentrated on, it will wither and die.",
-        "If the plant casts a spell, such as time stop, that can only target the caster, it will instead target the creature that planted it if they are within 30 feet of the plant. Otherwise, the plant will target itself with the spell before withering and dying. If the spell requires a target, the person who planted the pop green can verbally command it to choose the desired targets. Additionally, if the spell has a casting time longer than an action, the plant will remain alive and actively cast the spell until it is casted. Also, if the spell requires concentration, the plant will remain alive and attempt to concentrate on the spell until the duration ends or concentration is lost. Once the spell is no longer being concentrated on or is finished casting, the plant instantly withers and dies.",
-        "While the plant remains alive, its stats are as follows (Treat cantrips as 1st-level spells when determining these stats). It is a large plant, its HP is equal to 5 x Spell Level (Minimum 5), its AC is equal to 10 + Spell Level (Minimum 10), it has vulnerability to fire damage, and its Constitution save bonus for keeping concentration is equal to the Spell Level. The plant's appearance depends on the type of spell stored by it. For example, if it has the fireball spell stored, it may have a reddish-orange patterned appearance, a bazooka-shaped stem, and flame-shaped leaves. The plant may also cast or create the spell effect by emitting magical effects from its stalk or mouth, or by attacking with segments of its body.",
-        "The spell casted by the plant has an Attack Bonus and Save DC depending on the level of the spell stored by the plant, shown on the table below.",
-        {
-          "rowLabels": [
-            "Spell level",
-            "Save DC",
-            "Attack Bonus"
-          ],
-          "name": "Pop Green Spellcasting",
-          "type": "table",
-          "rows": [
-            [
-              "Cantrip",
-              13,
-              "+5"
-            ],
-            [
-              "1st",
-              13,
-              "+5"
-            ],
-            [
-              "2nd",
-              13,
-              "+5"
-            ],
-            [
-              "3rd",
-              15,
-              "+7"
-            ],
-            [
-              "4th",
-              15,
-              "+7"
-            ],
-            [
-              "5th",
-              17,
-              "+9"
-            ],
-            [
-              "6th",
-              17,
-              "+9"
-            ],
-            [
-              "7th",
-              18,
-              "+10"
-            ],
-            [
-              "8th",
-              18,
-              "+10"
-            ],
-            [
-              "9th",
-              19,
-              "+11"
-            ]
-          ]
-        },
-        "\n{@bold Pop Green Complication}\nIf the creature planting the pop green is a spellcaster that already knows how to cast the spell being stored by the pop green, planting it will always work without fail.",
-        "However, if the creature planting the pop green doesn't already know how to cast the spell being stored by it, there is a chance that the pop green will fail to grow and will die before it casts the spell successfully. In this case, the creature planting it must make an Intelligence (Nature) or Intelligence (Arcana) check to determine whether they plant it successfully or not. The DC equals 10 + the spell's level. On a failed check, the plant dies and has no other effect."
-      ]
-    },
-    {
-      "name": "Finding a simple dial",
-      "appliesTo": "DIALS:S",
-      "source": "D&DF-PHB",
-      "entries": [
-        "\n{@bold Finding a simple dial}\nSearching for the more simple dials is easy when you're traveling through the sky islands, especially along the shorelines. Finding dials, especially rare ones, outside of any sky islands is incredibly difficult.",
-        "When searching along shorelines throughout the sky islands, such as the shore of the White-White Sea, a DC 15 Intelligence (Investigation) check may be rolled for every 24 hours spent searching to see if a character locates a Simple Dial shell. If a character is proficient in using Dials, they make this check with advantage.",
-        "If a character succeeds on finding a simple dial, have them roll a d20 and use the Simple Dial Table below to determine which dial they receive."
-      ]
-    },
-    {
-      "name": "Finding a rare dial",
-      "appliesTo": "DIALS:R",
-      "source": "D&DF-PHB",
-      "entries": [
-        "\n{@bold Finding a rare dial}\nRare dials are far more difficult to find than ordinary dials. They are often larger, store massive amounts of energy, and are used in warfare and advanced machinery. In order to find a rare dial, it may be required to search sky island ruins or dungeons to discover such powerful dials.",
-        "If a character does find a way to locate a rare dial, the DM may choose to roll a d20 on the Rare Dial Table or pick from it when giving it to the character."
-      ]
-    },
-    {
-      "name": "Star Batch Cost",
-      "appliesTo": "Stars",
-      "source": "D&DF-PHB",
-      "entries": [
-        "\n{@bold Crafting a star}\n Crafting a starrequires any type of appropriate artisan's tools (such as mason's tools or smith's tools), proficiency in the Arcana or Sleight of Hand skills, and proficiency in at least one type of ranged weapon. The rarity, cost, and time it takes to make a batch of 5 for each type of star is listed in the Star Cost Table. Machine gun ammo, sniper rifle ammo, and bazooka ammo require double the time and money to make. Sling bullets require half the time and money to make.",
-        {
-          "name": "Star Batch Cost",
-          "rowLabels": [
-            "Star Type",
-            "Time",
-            "Cost"
-          ],
-          "type": "table",
-          "rows": [
-            [
-              "Uncommon",
-              "1 workweek",
-              "฿1,000,000"
-            ],
-            [
-              "rare",
-              "4 workweek",
-              "฿5,000,000"
-            ],
-            [
-              "Very Rare",
-              "8 workweek",
-              "฿25,000,000"
-            ]
-          ]
-        }
       ]
     }
   ],
