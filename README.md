@@ -2,7 +2,7 @@
 
 ## Raw for 5etools
 
-https://raw.githubusercontent.com/SirTalpaDeRedstoneville5885/One-Piece-Themed-DnD/refs/heads/main/SCRIPTING/merged.json
+https://raw.githubusercontent.com/SirTalpaDeRedstoneville5885/One-Piece-Themed-DnD/main/SCRIPTING/merged.json
 
 
 ## Roba per me
