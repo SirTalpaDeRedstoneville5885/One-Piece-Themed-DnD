@@ -1,5 +1,10 @@
 # [All Previous Versions by Tarun](https://github.com/Bourbon8464/One-Piece-Themed-DnD)
 
+## Raw for 5etools
+
+https://raw.githubusercontent.com/SirTalpaDeRedstoneville5885/One-Piece-Themed-DnD/refs/heads/main/SCRIPTING/merged.json
+
+
 ## Roba per me
 
 "$schema": "https://raw.githubusercontent.com/TheGiddyLimit/5etools-utils/master/schema/brew-fast/homebrew.json",
